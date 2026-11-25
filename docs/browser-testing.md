@@ -2,6 +2,8 @@
 
 `python -m pytest tests/test_browser.py -q` startar Flask med en ledig lokal port för testsviten. Playwright behöver Chromium eller en lokal Chrome-installation. Installera Chromium med `python -m playwright install chromium` om det saknas. Sätt `IMPOSTER_BROWSER_CHANNEL=chrome` för att använda installerad Chrome. Testerna kör inga externa webbanrop.
 
+I CI räknas saknad Playwright eller Chromium som ett testfel.
+
 Sätt `IMPOSTER_TEST_URL` till exempelvis `http://127.0.0.1:5051` för att köra mot en redan startad Flask- eller Docker-instans. Webbläsaren behöver ett säkert ursprung, exempelvis `localhost` eller `127.0.0.1`, för att testet av service workern ska fungera.
 
 ## Monteringspunkter

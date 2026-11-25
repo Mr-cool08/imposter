@@ -163,9 +163,9 @@ function feedback(kind) {
   }
 }
 
-function context(root, view, route) {
+function context(root, view) {
   return {
-    root, route, signal: view?.abort.signal,
+    root, signal: view?.abort.signal,
     get lang() { return prefs.language; },
     t, el, button, notify, storage, rules, feedback,
     modeName: id => t("ui.mode." + id),
@@ -173,7 +173,7 @@ function context(root, view, route) {
     preferences: () => ({ ...prefs }),
     isRoundActive: () => activeRound,
     setRoundActive(active) {
-      if (route === "local" && localView === view) setRoundActive(active);
+      if (localView === view) setRoundActive(active);
     },
     setNavigationGuard(handler) {
       if (view) view.guard = handler;
@@ -195,7 +195,7 @@ async function mountLocalView() {
   localView = view;
   try {
     const { mountLocal } = await import("./local.mjs");
-    if (localView === view) view.cleanup = mountLocal(context(localRoot, view, "local"));
+    if (localView === view) view.cleanup = mountLocal(context(localRoot, view));
   } catch {
     if (localView === view) loadError(localRoot, mountLocalView);
   }
@@ -212,7 +212,7 @@ async function showWordTools() {
   wordsView = view;
   try {
     const { mountExtras } = await import("./extras.mjs");
-    if (wordsView === view) view.cleanup = mountExtras(context(wordToolsRoot, view, "custom"));
+    if (wordsView === view) view.cleanup = mountExtras(context(wordToolsRoot, view));
   } catch {
     if (wordsView === view) loadError(wordToolsRoot, () => {
       closeWordTools();
@@ -267,7 +267,7 @@ function updateInputs() {
   rememberInput.checked = prefs.rememberNames;
 }
 
-async function changeLanguage(language, { refresh = true } = {}) {
+async function changeLanguage(language) {
   const request = ++languageChange;
   try {
     if (activeRound || language === prefs.language) return;
@@ -276,7 +276,7 @@ async function changeLanguage(language, { refresh = true } = {}) {
     prefs.language = language;
     storage.set("preferences", prefs);
     useMessages(dictionary);
-    if (refresh) window.dispatchEvent(new CustomEvent("imposter:language", { detail: { language } }));
+    window.dispatchEvent(new CustomEvent("imposter:language", { detail: { language } }));
   } catch {
     if (request === languageChange) notify(t("ui.languageError"), { error: true });
   } finally {
@@ -365,7 +365,7 @@ async function boot() {
   }
   wireControls();
   void mountLocalView();
-  import("./offline.mjs").then(module => module.mountOffline(context(offlineTools, null, "local")))
+  import("./offline.mjs").then(module => module.mountOffline(context(offlineTools)))
     .catch(() => {
       offlineTools.replaceChildren(el("p", { class: "error" }, t("ui.offlineError")));
     });

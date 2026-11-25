@@ -4,4 +4,4 @@ Lokalvyn startar med `createRound(players, settings, words, pairs, rules, {used,
 
 `used` är läst historik i ordning äldst till nyast. Efter ett nytt avslöjande sparar anroparen `wordId` och `pairedWordId` om det finns, en gång per omgångs-ID. Motorn uppdaterar varken historik eller poänglagring.
 
-Verifiering av mobilflödet med Python 3.14.7. 68 motortester, inklusive table-flödet och Python–JavaScript-paritet, passerade. Första gemensamma körningen efter att språkfilerna uppdaterats gav 71 godkända tester och ett testfel i webbläsarens radlokalisering. Avslöjandet hade redan renderat rätt roll per spelare. I `tests/test_browser.py` behöver `filter(has=row_header)` få en relativ selektor från `page.get_by_role("rowheader", ...)` i stället för en selektor som är begränsad till resultatvyn.
+Verifiering med Python 3.14.7 och Chrome. `python -m pytest -q tests/test_engine.py tests/test_browser.py --tb=short` gav 72 godkända tester, inklusive Python–JavaScript-paritet, Undercover och en hel omgång med nätverket avstängt.

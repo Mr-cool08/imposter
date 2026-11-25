@@ -243,9 +243,7 @@ def test_mobile_local_game_after_disabling_network(app_url, chromium):
         expect(result).to_be_visible()
         expect(result.get_by_text(word, exact=True).first).to_be_visible()
         for name, role, _ in cards:
-            row_header = result.get_by_role("rowheader", name=name, exact=True)
-            row = result.get_by_role("row").filter(has=row_header)
-            expect(row.get_by_role("cell", name=role, exact=True)).to_be_visible()
+            expect(result.get_by_role("row", name=f"{name} {role}", exact=True)).to_be_visible()
         expect(page.get_by_test_id("local-next-round")).to_be_enabled()
         expect_no_app_managed_round(page)
         expect_no_horizontal_scroll(page)
