@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="sv" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111016">
+  <meta name="description" content="{{ app_name }}. {{ slogan }}.">
+  <title>{{ app_name }} · {{ slogan }}</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="{{ url_for('static', filename='icons/icon.svg') }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/icon-192.png') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/extras.css') }}">
+  <script src="{{ url_for('static', filename='vendor/socket.io.min.js') }}" defer></script>
+  <script type="module" src="{{ url_for('static', filename='js/ui.mjs') }}"></script>
+</head>
+<body data-app-name="{{ app_name }}" data-slogan-sv="{{ slogans.sv }}" data-slogan-en="{{ slogans.en }}" data-public-origin="{{ public_origin }}">
+  <a href="#app-view" class="skip-link" data-i18n="ui.skip">Till innehållet</a>
+  <header class="site-header">
+    <div class="layout site-header__inner">
+      <a href="/#home" class="brand" data-route="home">
+        <span class="brand-mark" aria-hidden="true">?</span>
+        <span>{{ app_name }}</span>
+      </a>
+      <nav class="site-nav" aria-label="Huvudnavigation" data-i18n-label="ui.navLabel">
+        <a href="/#rules" data-route="rules" data-i18n="ui.rules">Spelregler</a>
+        <a href="/#history" data-route="history" data-i18n="ui.history">Historik</a>
+        <a href="/#custom" data-route="custom" data-i18n="ui.custom">Egna ord</a>
+      </nav>
+      <div class="site-tools">
+        <details class="site-tool" id="offline-menu">
+          <summary class="site-tool__button">
+            <span class="tool-icon" aria-hidden="true">↓</span>
+            <span data-i18n="ui.offline">Offline</span>
+          </summary>
+          <div class="site-tool__panel panel" id="offline-tools"></div>
+        </details>
+        <details class="site-tool" id="preferences-menu">
+          <summary class="site-tool__button">
+            <span class="tool-icon tool-icon--settings" aria-hidden="true">⚙</span>
+            <span data-i18n="ui.preferences">Appval</span>
+          </summary>
+          <div class="site-tool__panel panel stack">
+            <label class="field">
+              <span data-i18n="ui.language">Språk</span>
+              <select id="app-language">
+                <option value="sv" lang="sv">Svenska</option>
+                <option value="en" lang="en">English</option>
+              </select>
+            </label>
+            <label class="field">
+              <span data-i18n="ui.theme">Tema</span>
+              <select id="app-theme">
+                <option value="dark" data-i18n="ui.themeDark">Mörkt</option>
+                <option value="light" data-i18n="ui.themeLight">Ljust</option>
+              </select>
+            </label>
+            <label class="toggle-field">
+              <input type="checkbox" id="app-sound">
+              <span data-i18n="ui.sound">Ljudeffekter</span>
+            </label>
+            <label class="toggle-field">
+              <input type="checkbox" id="app-vibration">
+              <span data-i18n="ui.vibration">Vibration</span>
+            </label>
+            <label class="toggle-field">
+              <input type="checkbox" id="app-remember-names" checked>
+              <span data-i18n="ui.rememberNames">Spara spelarnamn</span>
+            </label>
+            <button type="button" class="button button--ghost" id="app-reset-preferences" data-i18n="ui.resetPreferences">Återställ app- och spelval</button>
+          </div>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout notice-container">
+    <p id="app-notice" class="notice app-notice" role="status" hidden></p>
+  </div>
+  <main class="layout app-main" id="app-view" tabindex="-1">
+    <section class="home-hero" aria-labelledby="boot-title">
+      <div class="home-hero__copy">
+        <p class="home-slogan">{{ slogan }}</p>
+        <h1 id="boot-title">{{ app_name }}</h1>
+        <p class="muted">Laddar spelet …</p>
+      </div>
+    </section>
+  </main>
+  <noscript>
+    <p class="layout notice">Slå på JavaScript för att spela. Enable JavaScript to play.</p>
+  </noscript>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "id": "home-school-clothes",
+  "names": {
+    "sv": "Hem, skola och kläder",
+    "en": "Home, school and clothes"
+  },
+  "icon": "🏠",
+  "subcategories": [
+    {
+      "id": "hsc-school-supplies",
+      "names": {
+        "sv": "Skolsaker",
+        "en": "School supplies"
+      }
+    },
+    {
+      "id": "hsc-rooms",
+      "names": {
+        "sv": "Rum",
+        "en": "Rooms"
+      }
+    },
+    {
+      "id": "hsc-cleaning",
+      "names": {
+        "sv": "Städning",
+        "en": "Cleaning"
+      }
+    },
+    {
+      "id": "hsc-laundry",
+      "names": {
+        "sv": "Tvätt och klädvård",
+        "en": "Laundry and garment care"
+      }
+    },
+    {
+      "id": "hsc-household",
+      "names": {
+        "sv": "Badrum och hygien",
+        "en": "Bathroom and hygiene"
+      }
+    },
+    {
+      "id": "hsc-clothing",
+      "names": {
+        "sv": "Kläder",
+        "en": "Clothing"
+      }
+    },
+    {
+      "id": "hsc-accessories",
+      "names": {
+        "sv": "Accessoarer",
+        "en": "Accessories"
+      }
+    }
+  ]
+}

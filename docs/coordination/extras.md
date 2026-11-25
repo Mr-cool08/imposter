@@ -1,0 +1,7 @@
+# Integration av egna ord och historik
+
+Redigeraren följer `docs/ui.md` och exporterar `mountExtras(ctx)` för `custom` och `history`. Den stöder flera lokala paket. Lokalspel och gemensamma kategorifilter läser `getCustomContent()` från `extras.mjs` i stället för `ctx.storage.get("customPack", null)`. Onlinevyn använder `listCustomPackages()` för värdens aktiva val och `getCustomPackage(id)` för `room:create` eller `room:settings`. Se `docs/extras.md` för returformat. Orddata ingår först i onlinerummet när värden har valt och skickat ett paket. Vid rensning skickar värden `custom:null`.
+
+Låt skalets `ctx.saveResult(result, source, {players, sessionId, completedAt} = {})` delegera till `recordRound({roundId: result.id, source, result, players, sessionId, completedAt})` från `extras.mjs`. `ctx.readResults()` kan mappa `readHistory()` till `entry.result` kompletterat med `entry.source` för gamla anropare. `ctx.clearResults()` kan delegera till `clearHistory()`. Alternativt anropar lokal- och onlinevyerna `recordRound()` direkt enbart vid avslöjat resultat, med `publicState().players` respektive rumsomgångens spelare. Rumsomgångens ID är stabilt över återanslutningar. Spellägenas sessionspoäng ska inte återberäknas vid import av en webbläsares historik.
+
+Lägg `/static/js/extras.mjs`, `/static/js/extras-history.mjs` och `/static/css/extras.css` i listan för offline-skalet. Skalet laddar CSS-filen som vanlig stilmall och språkfragmenten ingår i ordinarie språkroute.

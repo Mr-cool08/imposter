@@ -1,0 +1,3 @@
+# Samordning av kategoriurval
+
+Innehållskontraktet i `docs/content.md` skiljer mellan utelämnat `categories` (alla kategorier) och `categories: []` (inga valda kategorier). Gränssnittet skickar utelämnat fält eller utvalda kategori-ID:n som normalt startval och blockerar start vid tomt urval. Behåll skillnaden i katalogens anrop och återläsning av sparade inställningar, särskilt om onlinerummet normaliserar inställningarna före filtrering. Motorstandarden `categories: []` betyder alla ord i motorns redan filtrerade urval. Offlinepanelen behöver skilja ett utelämnat fält från ett uttryckligen tomt urval om den visar eller laddar just valda kategorier.

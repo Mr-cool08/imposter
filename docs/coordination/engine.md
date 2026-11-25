@@ -1,0 +1,5 @@
+Motorgränssnittet samt regeldata är definierade i [engine.md](../engine.md). Lägg särskilt märke till `last_guess` i Chaos. När någon profil använder sista gissning får varje omgång i poolen ett 20-sekunders neutralt steg. Ingen gissares ID syns publikt. Använd bara respektive spelares `canGuess`. Lokalvyn behöver en neutral överlämning även här och båda klienterna behöver hantera att omgången avslöjas vid tidsfristen.
+
+`renderPrivate` i lokalvyn söker i skrivande stund igenom alla privata vyer och visar namnet på den som får gissa. I Chaos röjer det själva tillgången till gissningen och kan ge ett tomt namn i andra omgångar. En gemensam, neutral gissningsvy kan erbjuda samma lista över namn för alla Chaos-utfall. När en spelare på sin tur väljer sitt eget namn visas endast den personens privata tillstånd.
+
+`used` är läst historik i ordning äldst till nyast. Efter ett nytt avslöjande sparar anroparen `wordId` och `pairedWordId` om det finns, en gång per omgångs-ID. Motorn uppdaterar varken historik eller poänglagring.

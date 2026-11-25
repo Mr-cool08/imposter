@@ -1,0 +1,53 @@
+{
+  "words": [
+    {
+      "id": "food-blueberry-pie",
+      "category": "food",
+      "subcategory": "food-desserts",
+      "tags": [],
+      "level": "familiar",
+      "review": "editorial",
+      "languages": {
+        "sv": {"word": "Blåbärspaj", "aliases": ["Paj med blåbär"], "hints": {"easy": "Sötsak med lila fyllning", "normal": "Färgar tungan", "hard": "En sensommardag i skogen"}},
+        "en": {"word": "Blueberry pie", "aliases": ["Pie with blueberries"], "hints": {"easy": "Dessert with purple filling", "normal": "Stains your tongue", "hard": "A late summer day in the woods"}}
+      }
+    },
+    {
+      "id": "food-apple-pie",
+      "category": "food",
+      "subcategory": "food-desserts",
+      "tags": [],
+      "level": "familiar",
+      "review": "editorial",
+      "languages": {
+        "sv": {"word": "Äppelpaj", "aliases": ["Paj med äpple"], "hints": {"easy": "Bakad fruktefterrätt", "normal": "Kanel och vaniljsås", "hard": "När löven gulnar"}},
+        "en": {"word": "Apple pie", "aliases": ["Pie with apples"], "hints": {"easy": "Baked fruit dessert", "normal": "Cinnamon and vanilla sauce", "hard": "When the leaves turn yellow"}}
+      }
+    },
+    {
+      "id": "food-popcorn",
+      "category": "food",
+      "subcategory": "food-snacks",
+      "tags": [],
+      "level": "familiar",
+      "review": "editorial",
+      "languages": {
+        "sv": {"word": "Popcorn", "aliases": [], "hints": {"easy": "Vita puffar i bägare", "normal": "Prassel i salongen", "hard": "En handfull moln"}},
+        "en": {"word": "Popcorn", "aliases": [], "hints": {"easy": "White puffs served in a bucket", "normal": "Rustling in the cinema", "hard": "A handful of clouds"}}
+      }
+    },
+    {
+      "id": "food-semifreddo",
+      "category": "food",
+      "subcategory": "food-desserts",
+      "tags": [],
+      "level": "expert",
+      "review": "editorial",
+      "languages": {
+        "sv": {"word": "Semifreddo", "aliases": [], "hints": {"easy": "Halvfryst italiensk dessert", "normal": "En mjuk skiva från frysen", "hard": "Mitt emellan kyl och frys"}},
+        "en": {"word": "Semifreddo", "aliases": [], "hints": {"easy": "Half-frozen Italian dessert", "normal": "A soft slice from the freezer", "hard": "A little warmer than gelato"}}
+      }
+    }
+  ],
+  "pairs": [["food-blueberry-pie", "food-apple-pie"]]
+}

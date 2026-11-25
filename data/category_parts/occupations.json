@@ -1,0 +1,52 @@
+{
+  "id": "occupations",
+  "names": {
+    "sv": "Yrken",
+    "en": "Occupations"
+  },
+  "icon": "💼",
+  "subcategories": [
+    {
+      "id": "occupations-health",
+      "names": {
+        "sv": "Vård och hälsa",
+        "en": "Care and health"
+      }
+    },
+    {
+      "id": "occupations-public",
+      "names": {
+        "sv": "Samhälle och utbildning",
+        "en": "Public service and education"
+      }
+    },
+    {
+      "id": "occupations-trades",
+      "names": {
+        "sv": "Hantverk och bygg",
+        "en": "Trades and construction"
+      }
+    },
+    {
+      "id": "occupations-arts",
+      "names": {
+        "sv": "Konst och medier",
+        "en": "Arts and media"
+      }
+    },
+    {
+      "id": "occupations-service",
+      "names": {
+        "sv": "Service och ekonomi",
+        "en": "Service and finance"
+      }
+    },
+    {
+      "id": "occupations-land-food",
+      "names": {
+        "sv": "Djur, odling och mat",
+        "en": "Animals, growing and food"
+      }
+    }
+  ]
+}

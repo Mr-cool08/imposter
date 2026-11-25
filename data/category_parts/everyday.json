@@ -1,0 +1,30 @@
+{
+  "id": "everyday",
+  "names": {
+    "sv": "Vardagsföremål",
+    "en": "Everyday objects"
+  },
+  "icon": "🧰",
+  "subcategories": [
+    {
+      "id": "everyday-kitchen",
+      "names": {"sv": "Köksredskap", "en": "Kitchen equipment"}
+    },
+    {
+      "id": "everyday-workshop",
+      "names": {"sv": "Hand- och elverktyg", "en": "Hand and power tools"}
+    },
+    {
+      "id": "everyday-furniture",
+      "names": {"sv": "Möbler", "en": "Furniture"}
+    },
+    {
+      "id": "everyday-office",
+      "names": {"sv": "Kontorsföremål", "en": "Office equipment"}
+    },
+    {
+      "id": "everyday-garden",
+      "names": {"sv": "Trädgårdsredskap", "en": "Garden equipment"}
+    }
+  ]
+}
