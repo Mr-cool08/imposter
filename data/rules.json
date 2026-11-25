@@ -1,7 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "defaults": {
     "mode": "classic",
+    "freePlay": false,
     "joker": false,
     "extraRole": null,
     "randomMin": null,
@@ -20,6 +21,11 @@
   "playerMax": 20,
   "jokerMin": 5,
   "jokerCivilMin": 3,
+  "freePlayRandom": {
+    "min": 0,
+    "max": "players",
+    "specialCounts": {"zero": "none", "allButOne": "reverse", "all": "all"}
+  },
   "modes": {
     "classic": {"min": 3, "imposters": 1, "joker": true, "lastGuess": true},
     "random": {"min": 3, "imposters": "random", "joker": true, "lastGuess": true},

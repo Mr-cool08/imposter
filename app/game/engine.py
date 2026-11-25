@@ -15,7 +15,7 @@ _WORD_SPACES = "\t\n\v\f\r \x85\xa0\u1680\u2000\u2001\u2002\u2003\u2004\u2005\u2
 _SPACE_RUN = re.compile(f"[{_WORD_SPACES}]+")
 _COMMON_FIELDS = (
     "clueRounds", "discussionSeconds", "clueStyle", "language", "hint",
-    "categories", "subcategories", "levels",
+    "categories", "subcategories", "levels", "freePlay",
 )
 _PROFILE_FIELDS = ("joker", "extraRole", "randomMin", "randomMax", "lastGuess")
 _TERMINAL = {"reveal", "aborted"}
@@ -85,7 +85,7 @@ def _valid_settings(settings, rules):
             return False
     if not settings["levels"] or any(level not in rules["levels"] for level in settings["levels"]):
         return False
-    if type(settings["joker"]) is not bool or type(settings["lastGuess"]) is not bool:
+    if any(type(settings[field]) is not bool for field in ("joker", "lastGuess", "freePlay")):
         return False
     extra = settings["extraRole"]
     return (extra is None or isinstance(extra, str) and extra in rules["extras"]) and all(
@@ -144,16 +144,21 @@ def _counts(settings, count, rule, extra, rules):
     if mode in {"none", "undercover"}:
         return [0], None
 
-    joker_count = int(settings["joker"])
-    extra_impostor = int(bool(extra and extra["team"] == "impostors" and not extra.get("replacesImposter")))
-    minimum_civils = rules["jokerCivilMin"] if joker_count else 1
-    possible = list(range(1, (count - 1) // 2 + 1)) if number == "random" else [number]
-    counts = []
-    for actual in possible:
-        impostors = actual + extra_impostor
-        civils = count - joker_count - impostors
-        if civils > impostors and civils >= minimum_civils:
-            counts.append(actual)
+    if number == "random" and settings["freePlay"] and not settings["joker"] and extra is None:
+        bounds = rules["freePlayRandom"]
+        maximum = count if bounds["max"] == "players" else (count - 1) // 2
+        counts = list(range(bounds["min"], maximum + 1))
+    else:
+        joker_count = int(settings["joker"])
+        extra_impostor = int(bool(extra and extra["team"] == "impostors" and not extra.get("replacesImposter")))
+        minimum_civils = rules["jokerCivilMin"] if joker_count else 1
+        possible = range(1, (count - 1) // 2 + 1) if number == "random" else [number]
+        counts = []
+        for actual in possible:
+            impostors = actual + extra_impostor
+            civils = count - joker_count - impostors
+            if civils > impostors and civils >= minimum_civils:
+                counts.append(actual)
     if not counts:
         return [], "invalid_distribution"
     if number == "random":
@@ -163,6 +168,19 @@ def _counts(settings, count, rule, extra, rules):
             return [], "invalid_random_range"
         counts = [actual for actual in counts if lower <= actual <= upper]
     return counts, None
+
+
+def _effective_mode(mode, imposters, player_count, rules):
+    if mode != "random":
+        return mode
+    specials = rules["freePlayRandom"]["specialCounts"]
+    if imposters == 0:
+        return specials["zero"]
+    if imposters == player_count - 1:
+        return specials["allButOne"]
+    if imposters == player_count:
+        return specials["all"]
+    return mode
 
 
 def _weight(value):
@@ -377,28 +395,37 @@ def create_round(players, settings, words, pairs, rules, *, rng=None, used=None,
     rng = _DEFAULT_RNG if rng is None else rng
     hidden = selected["mode"] == "chaos"
     profile = _weighted(profiles, rng) if hidden else profiles[0]
-    mode = profile.settings["mode"]
-    imposters = _choose(profile.counts, rng) if mode == "random" else profile.counts[0]
+    selected_profile_mode = profile.settings["mode"]
+    imposters = _choose(profile.counts, rng) if selected_profile_mode == "random" else profile.counts[0]
+    mode = _effective_mode(selected_profile_mode, imposters, len(clean_players), rules)
+    actual = profile.settings | {"mode": mode}
+    if not rules["modes"][mode].get("lastGuess"):
+        actual["lastGuess"] = False
     word, paired, reused = _draw_content(profile, used or [], rng)
     player_ids = [player["id"] for player in clean_players]
     deal = _shuffle(player_ids, rng)
-    roles = _assign_roles(deal, profile.settings, imposters)
+    roles = _assign_roles(deal, actual, imposters)
     accomplice_knows = None
-    if profile.settings["extraRole"] == "accomplice":
+    if actual["extraRole"] == "accomplice":
         accomplice_knows = _choose([player_id for player_id in deal if roles[player_id] in _ACTUAL_IMPOSTERS], rng)
     order = _shuffle(player_ids, rng)
     round_id = "round-" + "".join(f"{int(rng() * 2**32):08x}" for _ in range(4))
 
     offered = rules["modes"][mode].get("groupOption")
-    if hidden:
-        groups = rules["groupOptions"] if any(
-            rules["modes"][item.settings["mode"]].get("groupOption") for item in profiles
-        ) else []
+    pooled = hidden or (selected["freePlay"] and selected["mode"] == "random")
+    neutral_guess = False
+    if pooled:
+        possible = [
+            (item.settings, rules["modes"][_effective_mode(item.settings["mode"], number, len(clean_players), rules)])
+            for item in profiles
+            for number in item.counts
+        ]
+        groups = rules["groupOptions"] if any(rule.get("groupOption") for _, rule in possible) else []
+        neutral_guess = any(settings["lastGuess"] and rule.get("lastGuess") for settings, rule in possible)
     else:
         groups = [offered] if offered else []
-    neutral_guess = hidden and any(item.settings["lastGuess"] for item in profiles)
     return Round(
-        round_id, clean_players, selected["mode"], profile.settings, word, paired,
+        round_id, clean_players, selected["mode"], actual, word, paired,
         reused, roles, accomplice_knows, order, groups, neutral_guess, rules,
     )
 

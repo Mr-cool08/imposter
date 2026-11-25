@@ -22,3 +22,5 @@ Testerna använder tillgängliga rubriker, namn och formulärfält samt identifi
 ## Avgränsning
 
 Sviten provar startvyn i dator- och mobilemulering, språk- och temabytet och hela flödet när Playwright har stängt av nätverket. Fokus flyttas till en annan webbläsarflik under ett öppet rollkort. Sviten testar också Undercover, där spelarna får likadana kort och båda orden visas först vid gemensamt avslöjande.
+
+För Random Imposters kontrollerar sviten att de automatiska gränserna följer spelarantalet från noll till alla. Ett intervall där minvärdet är större än maxvärdet ska blockera start. Omgångar med fyra spelare och fasta antal på noll, två, tre och fyra kontrollerar privata kort, rollfördelningen och lägesnamnet vid avslöjandet. Ett sparat Reverse-val från en äldre version ska öppnas som Random Imposters. Båda gränserna ska vara ett lägre än spelarantalet när gruppen växer.

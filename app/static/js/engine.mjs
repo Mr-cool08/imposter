@@ -1,7 +1,7 @@
 const PROFILE_SETTINGS = ["joker", "extraRole", "randomMin", "randomMax", "lastGuess"];
 const COMMON_SETTINGS = [
   "clueRounds", "discussionSeconds", "clueStyle", "language", "hint",
-  "categories", "subcategories", "levels",
+  "categories", "subcategories", "levels", "freePlay",
 ];
 const PHASE_ACTIONS = new Map([
   ["ack_role", "roles"], ["clue", "clues"], ["ability", "abilities"],
@@ -47,7 +47,8 @@ function stringList(value) {
 }
 
 function commonSettingsValid(settings, rules) {
-  return rules.clueRounds.includes(settings.clueRounds)
+  return typeof settings.freePlay === "boolean"
+    && rules.clueRounds.includes(settings.clueRounds)
     && rules.discussionSeconds.includes(settings.discussionSeconds)
     && rules.clueStyles.includes(settings.clueStyle)
     && rules.languages.includes(settings.language)
@@ -109,6 +110,8 @@ function validateProfile(settings, playerCount, content, rules, addIssue) {
   const rule = rules.modes[mode];
   const joker = Boolean(rule.forcedJoker || settings.joker);
   const extra = extraRole === null ? null : rules.extras[extraRole];
+  const freePlayRandom = rule.imposters === "random" && settings.freePlay && !joker && !extra
+    ? rules.freePlayRandom : null;
   const wholeCount = Number.isInteger(playerCount);
   const countOk = wholeCount && playerCount >= rule.min && playerCount <= rules.playerMax;
   if (!countOk) addIssue("player_count", mode);
@@ -132,8 +135,10 @@ function validateProfile(settings, playerCount, content, rules, addIssue) {
       return count >= 1 && civils > impostorTeam && (!joker || civils >= rules.jokerCivilMin);
     };
     if (rule.imposters === "random") {
-      for (let count = 1; count <= Math.floor((playerCount - 1) / 2); count += 1) {
-        if (validDistribution(count)) counts.push(count);
+      const lower = freePlayRandom?.min ?? 1;
+      const upper = freePlayRandom?.max === "players" ? playerCount : Math.floor((playerCount - 1) / 2);
+      for (let count = lower; count <= upper; count += 1) {
+        if (freePlayRandom || validDistribution(count)) counts.push(count);
       }
       if (counts.length === 0) {
         addIssue("invalid_distribution", mode);
@@ -259,6 +264,15 @@ function chooseProfile(profiles, rng) {
   return profiles.at(-1);
 }
 
+function effectiveMode(mode, count, playerCount, rules) {
+  if (mode !== "random") return mode;
+  const specials = rules.freePlayRandom.specialCounts;
+  if (count === 0) return specials.zero;
+  if (count === playerCount - 1) return specials.allButOne;
+  if (count === playerCount) return specials.all;
+  return mode;
+}
+
 function selectWords(content, requiresPair, used, rng) {
   const recent = new Map(used.map((id, index) => [id, index]));
   const candidates = requiresPair ? content.pairs : content.words.map(word => [word]);
@@ -327,17 +341,29 @@ export function createRound(players, settings, words, pairs, rules, { rng, used,
   if (flow !== undefined && flow !== "table") throw new EngineError("invalid_data");
   const random = rng ?? randomValue;
   const chaos = selected.mode === "chaos";
-  const profile = chaos ? chooseProfile(profiles, random) : profiles[0];
-  const count = profile.rule.imposters === "random" ? choose(profile.counts, random) : profile.counts[0];
+  const drawn = chaos ? chooseProfile(profiles, random) : profiles[0];
+  const count = drawn.rule.imposters === "random" ? choose(drawn.counts, random) : drawn.counts[0];
+  const mode = effectiveMode(drawn.settings.mode, count, roster.length, rules);
+  const effectiveRule = rules.modes[mode];
+  const profile = {
+    ...drawn, rule: effectiveRule,
+    settings: { ...drawn.settings, mode, lastGuess: drawn.settings.lastGuess && Boolean(effectiveRule.lastGuess) },
+  };
   const chosen = selectWords(content, profile.requiresPair, used ?? [], random);
   const ids = roster.map(({ id }) => id);
   const roles = assignRoles(ids, profile, count, random);
   const order = shuffled(ids, random);
   const id = newId(random);
-  const groupOptions = chaos
-    ? (profiles.some(({ rule }) => rule.groupOption) ? rules.groupOptions : [])
-    : rules.groupOptions.filter(option => option === profile.rule.groupOption);
-  const neutralGuess = chaos && profiles.some(({ settings }) => settings.lastGuess);
+  let groupOptions = effectiveRule.groupOption ? [effectiveRule.groupOption] : [];
+  let neutralGuess = false;
+  if (chaos || (selected.mode === "random" && selected.freePlay)) {
+    const possible = profiles.flatMap(({ settings, counts }) => counts.map(count => ({
+      rule: rules.modes[effectiveMode(settings.mode, count, roster.length, rules)],
+      lastGuess: settings.lastGuess,
+    })));
+    groupOptions = possible.some(({ rule }) => rule.groupOption) ? rules.groupOptions : [];
+    neutralGuess = possible.some(({ rule, lastGuess }) => lastGuess && rule.lastGuess);
+  }
   return new Round({
     id, roster, ids, selected, profile, chosen, roles, order, rules, groupOptions, neutralGuess,
     table: flow === "table",

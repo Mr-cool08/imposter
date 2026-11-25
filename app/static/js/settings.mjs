@@ -2,7 +2,8 @@ import { loadContent, loadManifest } from "./content.mjs";
 import { profileIssues } from "./engine.mjs";
 import { getCustomContent } from "./extras.mjs";
 
-const modes = ["classic", "random", "all", "none", "reverse", "joker", "undercover", "alliance", "blind", "chaos"];
+const modes = ["classic", "random", "joker", "undercover", "alliance", "blind", "chaos"];
+const retiredRandomModes = ["none", "reverse", "all"];
 const extraRoles = ["spy", "accomplice", "double_agent"];
 const levels = ["familiar", "intermediate", "expert"];
 const extraModes = ["classic", "random", "blind", "alliance"];
@@ -40,14 +41,32 @@ function chosenIds(value, fallback) {
     return Array.isArray(value) ? [...new Set(value.filter((id) => typeof id === "string"))] : fallback;
 }
 
-function readModifiers(settings, fallback = profileDefaults) {
-    const { joker = fallback.joker, extraRole = fallback.extraRole, randomMin = fallback.randomMin, randomMax = fallback.randomMax } = settings;
-    return { joker, extraRole: choose(extraRole, extraRoles, null), randomMin, randomMax };
+function resolveRandomPreset(settings, count) {
+    if (!settings.randomPreset) return settings;
+    const offset = settings.randomPreset === "reverse" ? 1 : 0;
+    const fixed = settings.randomPreset === "none" ? 0 : Math.max(0, count - offset);
+    return { ...settings, randomMin: fixed, randomMax: fixed };
 }
 
-function readSettings(settings, language) {
-    const modifiers = readModifiers(settings);
-    const mode = choose(settings.mode, modes, DEFAULT_SETTINGS.mode);
+function readMode(mode) {
+    return retiredRandomModes.includes(mode) ? "random" : mode;
+}
+
+function readModifiers(settings, count, fallback = profileDefaults) {
+    const { joker = fallback.joker, extraRole = fallback.extraRole, randomMin = fallback.randomMin, randomMax = fallback.randomMax } = settings;
+    if (retiredRandomModes.includes(settings.mode)) {
+        return resolveRandomPreset({ ...profileDefaults, randomPreset: settings.mode }, count);
+    }
+    const modifiers = { joker, extraRole: choose(extraRole, extraRoles, null), randomMin, randomMax };
+    if (settings.mode === "random" && retiredRandomModes.includes(settings.randomPreset)) {
+        return resolveRandomPreset({ ...modifiers, randomPreset: settings.randomPreset }, count);
+    }
+    return modifiers;
+}
+
+function readSettings(settings, language, count) {
+    const modifiers = readModifiers(settings, count);
+    const mode = choose(readMode(settings.mode), modes, DEFAULT_SETTINGS.mode);
     const profiles = Array.isArray(settings.chaos)
         ? settings.chaos.filter((profile) => profile && typeof profile === "object")
         : [];
@@ -60,8 +79,8 @@ function readSettings(settings, language) {
         subcategories: chosenIds(settings.subcategories, []),
         levels: chosenIds(settings.levels, DEFAULT_SETTINGS.levels).filter((level) => levels.includes(level)),
         chaos: profiles.map((profile) => ({
-            mode: profile.mode,
-            ...readModifiers(profile, mode === "chaos" ? modifiers : profileDefaults),
+            mode: readMode(profile.mode),
+            ...readModifiers(profile, count, mode === "chaos" ? modifiers : profileDefaults),
             weight: profile.weight,
         })),
     };
@@ -77,8 +96,21 @@ function cleanMode(value) {
     if (!extraModes.includes(value.mode) || (value.extraRole === "spy" && !["classic", "random"].includes(value.mode))) {
         result.extraRole = null;
     }
-    if (value.mode !== "random") Object.assign(result, { randomMin: null, randomMax: null });
+    if (value.mode !== "random") {
+        Object.assign(result, { randomMin: null, randomMax: null });
+        delete result.randomPreset;
+    }
     return result;
+}
+
+function editSettings(settings, patch) {
+    const next = { ...settings, ...patch };
+    if ("randomMin" in patch || "randomMax" in patch) delete next.randomPreset;
+    if ("mode" in patch && patch.mode !== "random" && next.randomPreset) {
+        delete next.randomPreset;
+        Object.assign(next, { randomMin: null, randomMax: null });
+    }
+    return next;
 }
 
 export function mountSettings(ctx, {
@@ -94,10 +126,11 @@ export function mountSettings(ctx, {
     const counts = el("p", { class: "settings-counts muted", role: "status" });
     const issuesList = el("ul", { class: "settings-issues error", "aria-live": "polite" });
     const modeDescription = el("p", { class: "settings-mode__description muted" });
+    const modeRange = el("div", { class: "stack" });
     const modeAdvanced = el("div", { class: "settings-mode-advanced stack" });
     const pool = el("section", { class: "chaos-pool stack", "aria-label": t("settings.chaos_pool") });
     const buttonAttrs = { variant: "ghost" };
-    let value = readSettings(settings === DEFAULT_SETTINGS ? {} : settings, ctx.lang);
+    let value = readSettings(settings === DEFAULT_SETTINGS ? {} : settings, ctx.lang, playerCount);
     let chaosInitialized = value.mode === "chaos" || value.chaos.length > 0;
     let selection = { words: [], pairs: [], categories: [], issues: [], loading: true, error: null };
     let revision = 0;
@@ -153,13 +186,14 @@ export function mountSettings(ctx, {
         value = next;
         if (modeChanged) renderMode();
         else if (poolChanged) renderPool();
+        updateRandomRanges();
         onChange(getSettings());
         if (filtering) void refreshSelection();
         else validateSelection();
     }
 
     function changeField(key, next, options) {
-        handleChange({ ...value, [key]: next }, options);
+        handleChange(editSettings(value, { [key]: next }), options);
     }
 
     function validProfile(profile) {
@@ -175,14 +209,52 @@ export function mountSettings(ctx, {
         handleChange(next, { modeChanged: true });
     }
 
-    function numberField(key, number, update, { min = 1, max, step = 1, optional = false } = {}) {
+    function numberField(key, number, update, { min = 1, max, step = 1 } = {}) {
         const attributes = { name: key, type: "number", min, step };
         if (max !== undefined) attributes.max = max;
-        if (optional) attributes.placeholder = t("settings.auto");
         const input = el("input", attributes);
         if (Number.isFinite(number)) input.value = String(number);
         input.addEventListener("input", () => update(Number.isNaN(input.valueAsNumber) ? null : input.valueAsNumber));
         return label(t(`settings.${key}`), input);
+    }
+
+    function updateRandomRange(group, settings) {
+        const automaticUsesFullRange = !settings.joker && !settings.extraRole;
+        for (const field of group.querySelectorAll("input")) {
+            field.max = String(playerCount);
+            const count = field.name === "randomMin" ? 0 : playerCount;
+            field.placeholder = automaticUsesFullRange ? t("settings.auto_count", { count }) : t("settings.auto");
+            if (settings.randomPreset) field.value = String(settings[field.name]);
+        }
+        group.querySelector("[data-range-help]").textContent = t("settings.random_help", { max: playerCount });
+        const specials = group.querySelector("[data-range-specials]");
+        specials.hidden = playerCount < (rules?.modes.random?.min ?? 3);
+        specials.textContent = t("settings.random_specials", {
+            max: playerCount, reverse: playerCount - 1,
+            noneMode: modeName("none"), reverseMode: modeName("reverse"), allMode: modeName("all"),
+        });
+        const preset = group.querySelector("[data-range-preset]");
+        preset.hidden = !settings.randomPreset;
+        preset.textContent = settings.randomPreset ? t("settings.random_saved_preset", { mode: modeName(settings.randomPreset) }) : "";
+    }
+
+    function randomRange(settings, change, owner) {
+        const bounds = ["randomMin", "randomMax"].map((key) => numberField(key, settings[key], (number) => change(key, number),
+            { min: 0, max: playerCount }));
+        const group = el("div", { class: "stack", "data-random-range": owner },
+            el("div", { class: "settings-grid" }, ...bounds),
+            el("p", { class: "muted", "data-range-help": "" }),
+            el("p", { class: "muted", "data-range-specials": "" }),
+            el("p", { class: "notice", "data-range-preset": "" }));
+        updateRandomRange(group, settings);
+        return group;
+    }
+
+    function updateRandomRanges() {
+        for (const group of editor.querySelectorAll("[data-random-range]")) {
+            const owner = group.dataset.randomRange;
+            updateRandomRange(group, owner === "main" ? value : value.chaos[Number(owner)]);
+        }
     }
 
     function modifiers(modifier, mode, change) {
@@ -214,17 +286,11 @@ export function mountSettings(ctx, {
         } else {
             controls.append(el("p", { class: "muted" }, t("settings.extra_disabled")));
         }
-        if (mode === "random") {
-            controls.append(el("div", { class: "settings-grid" },
-                numberField("randomMin", modifier.randomMin, (number) => change("randomMin", number), { optional: true, max: 9 }),
-                numberField("randomMax", modifier.randomMax, (number) => change("randomMax", number), { optional: true, max: 9 })));
-            controls.append(el("p", { class: "muted" }, t("settings.random_help")));
-        }
         return controls;
     }
 
     function patchProfile(index, patch, rerender = false) {
-        const chaos = value.chaos.map((profile, i) => i === index ? { ...profile, ...patch } : profile);
+        const chaos = value.chaos.map((profile, i) => i === index ? editSettings(profile, patch) : profile);
         handleChange({ ...value, chaos }, { poolChanged: rerender });
         if (rerender) pool.querySelectorAll('select[name="profile_mode"]')[index]?.focus();
     }
@@ -251,6 +317,9 @@ export function mountSettings(ctx, {
                     numberField("weight", profile.weight, (weight) => patchProfile(index, { weight }), { min: 0, step: "any" })),
                 el("p", { class: "muted" }, t(`settings.mode_description.${profile.mode}`)),
             );
+            if (profile.mode === "random") {
+                form.append(randomRange(profile, (key, number) => patchProfile(index, { [key]: number }), index));
+            }
             if (validProfile(profile)) {
                 const controls = modifiers(profile, profile.mode, (key, item) => patchProfile(index, { [key]: item }));
                 if (controls) {
@@ -271,6 +340,9 @@ export function mountSettings(ctx, {
 
     function renderMode() {
         modeDescription.textContent = t(`settings.mode_description.${value.mode}`);
+        const range = value.mode === "random" ? randomRange(value, changeField, "main") : null;
+        modeRange.replaceChildren(...(range ? [range] : []));
+        modeRange.hidden = !range;
         const controls = modifiers(value, value.mode, (key, item) => changeField(key, item));
         modeAdvanced.replaceChildren(...(controls ? [controls] : []));
         modeAdvanced.hidden = !controls;
@@ -439,7 +511,7 @@ export function mountSettings(ctx, {
         (item) => changeField("language", item, { filtering: true }));
     const advanced = el("details", { class: "settings-advanced" },
         el("summary", {}, t("settings.advanced")), el("div", { class: "stack" }, wordLanguage, modeAdvanced));
-    editor.append(basic, catalog, advanced, pool, issuesList);
+    editor.append(basic, modeRange, catalog, advanced, pool, issuesList);
     root.replaceChildren(editor);
     renderMode();
     window.addEventListener("imposter:offline-change", refreshAfterOffline, { signal: controller.signal });
@@ -457,7 +529,15 @@ export function mountSettings(ctx, {
         setPlayerCount(count) {
             if (playerCount === count) return;
             playerCount = count;
+            if (value.randomPreset || value.chaos.some((profile) => profile.randomPreset)) {
+                value = {
+                    ...resolveRandomPreset(value, count),
+                    chaos: value.chaos.map((profile) => resolveRandomPreset(profile, count)),
+                };
+                onChange(getSettings());
+            }
             updateModeOptions();
+            updateRandomRanges();
             validateSelection();
         },
         destroy,

@@ -1,5 +1,6 @@
 """Browser journeys from setup to private cards and shared reveal."""
 
+import json
 import os
 import re
 from collections import Counter
@@ -270,6 +271,125 @@ def test_undercover_uses_indistinguishable_cards_and_reveals_both_words(app_url,
         expect(result).to_be_visible()
         assert set(result.locator(".local-card-value").all_text_contents()) == {word for _, _, word in cards}
         expect_no_app_managed_round(page)
+    finally:
+        context.close()
+
+
+def open_random_settings(page):
+    mode = page.locator('select[name="mode"]')
+    options = mode.locator("option").evaluate_all("options => options.map(option => option.value)")
+    assert {"all", "none", "reverse"}.isdisjoint(options)
+    mode.select_option("random")
+    minimum = page.locator('[data-random-range="main"] input[name="randomMin"]')
+    maximum = page.locator('[data-random-range="main"] input[name="randomMax"]')
+    playwright_api.expect(minimum).to_be_visible()
+    playwright_api.expect(maximum).to_be_visible()
+    return minimum, maximum
+
+
+@pytest.mark.parametrize("actual_mode,imposters", [("none", 0), ("random", 2), ("reverse", 3), ("all", 4)])
+def test_random_fixed_counts_reveal_resolved_mode(app_url, chromium, actual_mode, imposters):
+    browser, _ = chromium
+    context = browser.new_context(base_url=app_url)
+    page = context.new_page()
+    names = ["Alva", "Bill", "Cia", "Dante"]
+    expect = playwright_api.expect
+    try:
+        page.goto(app_url)
+        translations = page.request.get("/api/i18n/sv.json").json()
+        add_players(page, names)
+        minimum, maximum = open_random_settings(page)
+        minimum.fill(str(imposters))
+        maximum.fill(str(imposters))
+        page.get_by_test_id("local-start").click()
+
+        cards, reveal = read_private_cards(page, names)
+        imposter = translations["rules.roleName.imposter"]
+        civil = translations["rules.roleName.civil"]
+        titles = Counter(title for _, title, _ in cards)
+        assert set(titles) <= {imposter, civil}
+        assert titles[imposter] == imposters
+        assert titles[civil] == len(names) - imposters
+
+        reveal.click()
+        result = page.get_by_test_id("local-result")
+        expect(result).to_be_visible()
+        mode_label = result.get_by_text(translations["local.result.mode"], exact=True)
+        expect(mode_label.locator("xpath=following-sibling::dd[1]")).to_have_text(
+            translations[f"ui.mode.{actual_mode}"]
+        )
+        for name, title, _ in cards:
+            expect(result.get_by_role("row", name=f"{name} {title}", exact=True)).to_be_visible()
+    finally:
+        context.close()
+
+
+def test_saved_reverse_becomes_random_with_fixed_roster_relative_counts(app_url, chromium):
+    browser, _ = chromium
+    players = [{"id": f"saved-{index}", "name": name} for index, name in enumerate(["Alva", "Bill", "Cia"])]
+    saved_state = {
+        "cookies": [],
+        "origins": [{
+            "origin": app_url,
+            "localStorage": [
+                {"name": "imposter:localSettings", "value": json.dumps({"mode": "reverse"})},
+                {"name": "imposter:localPlayers", "value": json.dumps(players)},
+            ],
+        }],
+    }
+    context = browser.new_context(base_url=app_url, storage_state=saved_state)
+    page = context.new_page()
+    expect = playwright_api.expect
+    try:
+        page.goto(app_url)
+        mode = page.locator('select[name="mode"]')
+        expect(mode).to_have_value("random")
+        bounds = page.locator('[data-random-range="main"] input')
+        expect(bounds).to_have_count(2)
+        for bound in bounds.all():
+            expect(bound).to_have_value("2")
+
+        add_players(page, ["Dante"])
+        for bound in bounds.all():
+            expect(bound).to_have_value("3")
+        page.reload()
+        expect(mode).to_have_value("random")
+        expect(bounds).to_have_count(2)
+        for bound in bounds.all():
+            expect(bound).to_have_value("3")
+    finally:
+        context.close()
+
+
+def test_random_automatic_bounds_track_roster_and_reject_reversed_interval(app_url, chromium):
+    browser, _ = chromium
+    context = browser.new_context(base_url=app_url)
+    page = context.new_page()
+    expect = playwright_api.expect
+    try:
+        page.goto(app_url)
+        translations = page.request.get("/api/i18n/sv.json").json()
+        add_players(page, ["Alva", "Bill", "Cia"])
+        minimum, maximum = open_random_settings(page)
+        for bound in (minimum, maximum):
+            expect(bound).to_have_attribute("min", "0")
+            expect(bound).to_have_attribute("max", "3")
+            expect(bound).to_have_value("")
+
+        add_players(page, ["Dante"])
+        expect(minimum).to_have_attribute("max", "4")
+        expect(maximum).to_have_attribute("max", "4")
+        automatic = translations["settings.auto_count"]
+        expect(minimum).to_have_attribute("placeholder", automatic.replace("{count}", "0"))
+        expect(maximum).to_have_attribute("placeholder", automatic.replace("{count}", "4"))
+        minimum.fill("3")
+        maximum.fill("2")
+        start = page.get_by_test_id("local-start")
+        expect(start).to_be_disabled()
+        expect(page.get_by_text(translations["settings.issue.invalid_random_range"], exact=True)).to_be_visible()
+        minimum.fill("")
+        maximum.fill("")
+        expect(start).to_be_enabled()
     finally:
         context.close()
 

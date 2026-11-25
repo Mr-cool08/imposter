@@ -36,6 +36,15 @@ INVALID_SETTINGS_CASES = [
     ({"mode": "chaos", "chaos": [{"mode": "classic", "language": "en", "weight": 1}]}, "invalid_settings"),
     ({"mode": "random", "randomMin": 2, "randomMax": 1}, "invalid_random_range"),
     ({"mode": "random", "randomMax": True}, "invalid_settings"),
+    ({"mode": "random", "freePlay": 1}, "invalid_settings"),
+    ({"mode": "random", "freePlay": True, "randomMin": -1}, "invalid_random_range"),
+    ({"mode": "random", "freePlay": True, "randomMax": 7}, "invalid_random_range"),
+    ({"mode": "random", "freePlay": True, "randomMin": 5, "randomMax": 4}, "invalid_random_range"),
+    ({"mode": "random", "freePlay": True, "joker": True, "randomMax": 3}, "invalid_random_range"),
+    ({"mode": "random", "freePlay": True, "extraRole": "guardian", "randomMin": 0}, "invalid_random_range"),
+    ({"mode": "random", "freePlay": True, "extraRole": "double_agent", "randomMax": 2}, "invalid_random_range"),
+    ({"mode": "random", "randomMin": 0}, "invalid_random_range"),
+    ({"mode": "chaos", "freePlay": True, "chaos": [{"mode": "random", "freePlay": False, "weight": 1}]}, "invalid_settings"),
     ({"mode": "undercover", "lastGuess": True}, "last_guess_incompatible"),
     ({"mode": "classic", "levels": []}, "invalid_settings"),
     ({"mode": "classic", "discussionSeconds": "60"}, "invalid_settings"),
@@ -106,6 +115,25 @@ def expected_counts(settings, count):
 
 def role_counts(round):
     return Counter(round.private_state(id_)["card"]["role"] for id_ in round.public_state()["order"])
+
+
+def free_play_counts(player_count):
+    for actual in range(player_count + 1):
+        settings = {"mode": "random", "freePlay": True, "randomMin": actual, "randomMax": actual}
+        yield actual, settings
+
+
+@pytest.mark.parametrize("player_count", range(3, 21))
+def test_free_play_random_can_draw_or_fix_every_count(player_count):
+    for actual, settings in free_play_counts(player_count):
+        assert issues(settings, player_count) == []
+        fixed = start(settings, count=player_count)
+        roll = (actual + 0.5) / (player_count + 1)
+        random = start({"mode": "random", "freePlay": True}, count=player_count, rolls=[roll])
+        for round in (fixed, random):
+            assert round.public_state()["mode"] == "random"
+            assert role_counts(round)["imposter"] == actual
+            assert role_counts(round)["civil"] == player_count - actual
 
 
 @pytest.mark.parametrize("mode", ("classic", "random", "all", "none", "reverse", "joker", "undercover", "alliance", "blind"))
@@ -197,6 +225,8 @@ def check_cards(replay, case):
         assert all(card == {"role": None, "word": card["word"], "hint": None, "partners": []} for card in cards.values())
     if mode == "chaos":
         assert all(card["role"] != "civil" for card in cards.values())
+    if "actualImposters" in case:
+        assert sum(card["role"] in ACTUAL_IMPOSTERS for card in cards.values()) == case["actualImposters"]
     imposters = {id_ for id_, card in cards.items() if card["role"] == "imposter"}
     for id_, card in cards.items():
         role = card["role"]
@@ -291,7 +321,7 @@ def drive_case(case):
     group = [f"@{mode}"] if mode in {"all", "none"} else []
     if pool_modes & {"all", "none"}:
         group = ["@all", "@none"]
-    assert replay.public["options"] == ids + group
+    assert replay.public["options"] == ids + case.get("groupOptions", group)
     want_tie = case["voteFor"] == "tie"
     target = None if want_tie else role_target(cards, case["voteFor"])
     votes = {}
@@ -490,12 +520,18 @@ def test_javascript_table_play_reveals_only_after_physical_play():
     roster = players(6)
     blueberry, apple, popcorn, _ = [word["id"] for word in WORDS]
     rounds = [
-        ({}, (), [blueberry], apple, None, False, {"civil": 5, "imposter": 1}),
-        ({"mode": "blind"}, (), [apple, popcorn, blueberry], apple, None, True, {"civil": 5, "imposter": 1}),
-        ({"mode": "undercover"}, (0, 0.8), [], apple, blueberry, False, {"civil": 5, "undercover": 1}),
-        ({"extraRole": "spy", "joker": True}, (), [], blueberry, apple, False, {"civil": 4, "spy": 1, "joker": 1}),
+        ({}, (), [blueberry], apple, None, False, "classic", {"civil": 5, "imposter": 1}),
+        ({"mode": "blind"}, (), [apple, popcorn, blueberry], apple, None, True, "blind", {"civil": 5, "imposter": 1}),
+        ({"mode": "undercover"}, (0, 0.8), [], apple, blueberry, False, "undercover", {"civil": 5, "undercover": 1}),
+        ({"extraRole": "spy", "joker": True}, (), [], blueberry, apple, False, "classic", {"civil": 4, "spy": 1, "joker": 1}),
         ({"mode": "chaos", "chaos": [{"mode": "classic", "weight": 1}, {"mode": "all", "weight": 1}]},
-         (0.6,), [], blueberry, None, False, {"imposter": 6}),
+         (0.6,), [], blueberry, None, False, "all", {"imposter": 6}),
+        ({"mode": "random", "freePlay": True, "randomMin": 0, "randomMax": 0},
+         (), [], blueberry, None, False, "none", {"civil": 6}),
+        ({"mode": "random", "freePlay": True, "randomMin": 5, "randomMax": 5},
+         (), [], blueberry, None, False, "reverse", {"civil": 1, "imposter": 5}),
+        ({"mode": "random", "freePlay": True},
+         (0.99,), [], blueberry, None, False, "all", {"imposter": 6}),
     ]
     opening = [
         (["act", "p1", "reveal_roles", {}, NOW], "wrong_phase"),
@@ -523,7 +559,7 @@ def test_javascript_table_play_reveals_only_after_physical_play():
         for settings, rolls, used, *_ in rounds
     ]
     observed = replay_javascript(inputs)["rounds"]
-    for actual, (settings, _, used, word, paired, reused, roles) in zip(observed, rounds, strict=True):
+    for actual, (settings, _, used, word, paired, reused, played_mode, roles) in zip(observed, rounds, strict=True):
         frames = actual["frames"]
         assert actual["used"] == used
         assert not any(actual["localGuessNominees"])
@@ -557,7 +593,7 @@ def test_javascript_table_play_reveals_only_after_physical_play():
         assert final["phase"] == "reveal" and final == frames[-2]["public"]
         result = final["result"]
         assert result["reason"] == "roles_revealed"
-        assert result["selectedMode"] == mode and result["mode"] == ("all" if mode == "chaos" else mode)
+        assert result["selectedMode"] == mode and result["mode"] == played_mode
         assert result["wordId"] == word and result["pairedWordId"] == paired and result["reused"] is reused
         assert Counter(result["roles"].values()) == roles
         assert result["votes"] == {} and result["points"] == {} and result["winners"] == []
@@ -574,6 +610,11 @@ def test_python_and_javascript_engine_parity():
     for case in CASES:
         configurations.append({"settings": case["settings"], "count": case.get("count", 6)})
     configurations.extend({"settings": settings, "count": 6} for settings, _ in INVALID_SETTINGS_CASES)
+    configurations.extend(
+        {"settings": settings, "count": count}
+        for count in range(3, 21)
+        for _, settings in free_play_counts(count)
+    )
     rounds = [drive_case(case) for case in CASES]
     parity = replay_javascript([round.input() for round in rounds], configurations)
     assert len(parity["issues"]) == len(configurations)

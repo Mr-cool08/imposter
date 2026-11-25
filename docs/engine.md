@@ -4,7 +4,7 @@ Imposter Party spelas på en gemensam mobil. JavaScriptmodulen `app/static/js/en
 
 ## Flödet på mobilen
 
-1. Välj spelare och inställningar. Validera med `profileIssues(settings, playerCount, words, pairs, rules)` och starta med `createRound(players, settings, words, pairs, rules, {used, flow: "table"})`.
+1. Välj spelare och inställningar. Lägg till `freePlay: true`, validera med `profileIssues(settings, playerCount, words, pairs, rules)` och starta med `createRound(players, settings, words, pairs, rules, {used, flow: "table"})`.
 2. Lämna mobilen till en spelare i taget. Vyn hämtar spelarens kort med `privateState(id).card` vid ett aktivt tryck och döljer det före `act(id, "ack_role")`. Efter sista kortet går omgången från `roles` till `playing`.
 3. Gruppen spelar runt bordet och väljer själv ordning, diskussion och när spelet är slut. Knappen för avslöjande anropar `act(id, "reveal_roles")`. Därefter visar `publicState().result` rollerna, huvudord och eventuellt parord samt läget som drogs i Chaos.
 
@@ -17,9 +17,24 @@ Imposter Party spelas på en gemensam mobil. JavaScriptmodulen `app/static/js/en
 - `players` är en lista med `{id, name}`. ID:n är unika, icke-tomma strängar. `@all` och `@none` är reserverade. Namn ska innehålla synlig text.
 - `words` och `pairs` har innehållsbibliotekets format. Motorn använder ord med giltig språkversion och applicerar omgångens valda filter. Båda sidorna av ett ordpar måste vara kvar. `categories: []` och `subcategories: []` väljer alla tillgängliga. `levels` är `["familiar"]` som standard och ska innehålla minst en nivå.
 - Inställningarna får standardvärden från regeldata. Inga extra roller väljs med `extraRole: null` eller genom att utelämna fältet. `randomMin: null` och `randomMax: null` lämnar gränsen automatisk. Samma uttryckliga undre och övre gräns ger ett fast antal. En uttrycklig gräns utanför den tillåtna rollfördelningen ger ett fel. Enskilda automatgränser använder den validerade fördelningens yttervärde.
-- Chaos använder en icke-tom lista av profiler med uttryckligt `mode` och positiv, ändlig `weight`. Vikter är relativa. `joker`, `extraRole`, `randomMin`, `randomMax` och `lastGuess` kan anges per profil och ärvs annars. Gemensamma fält `clueRounds`, `discussionSeconds`, `clueStyle`, `language`, `hint`, `categories`, `subcategories` och `levels` ärvs från värden. En profil som anger gemensamma fält måste ha samma värde, så att omgångens offentliga flöde och materialurval är gemensamma. En profil som saknar stöd för sista gissningen har den avstängd när valet bara ärvts. En uttryckligt aktiverad sista gissning i ett sådant läge ger ett fel. `joker` som läges-ID innebär alltid att Jokern ingår.
+- Chaos använder en icke-tom lista av profiler med uttryckligt `mode` och positiv, ändlig `weight`. Vikter är relativa. `joker`, `extraRole`, `randomMin`, `randomMax` och `lastGuess` kan anges per profil och ärvs annars. Gemensamma fält `freePlay`, `clueRounds`, `discussionSeconds`, `clueStyle`, `language`, `hint`, `categories`, `subcategories` och `levels` ärvs från de övergripande inställningarna. En profil som anger gemensamma fält måste ha samma värde, så att omgångens offentliga flöde och materialurval är gemensamma. En profil som saknar stöd för sista gissningen har den avstängd när valet bara ärvts. En uttryckligt aktiverad sista gissning i ett sådant läge ger ett fel. `joker` som läges-ID innebär alltid att Jokern ingår.
 - `used` är en lista med tidigare visade ord-ID:n, äldst först. Motorn ändrar aldrig listan. Anroparen lägger till resultatets `wordId` och eventuella `pairedWordId` en gång per avslutad omgång. Vanliga urval drar bland ospelade ord. Parurval drar först bland par med flest ospelade ord. När flera återanvända alternativ återstår undviks senast visade ord i första hand. Alla tillgängliga begrepp i samma urval kan därmed användas innan motorn behöver återgå helt till äldre ord. `reused` i resultatet visar att minst ett draget begrepp har förekommit tidigare.
 - `now` är Unix-millisekunder och utelämnat värde ersätts med aktuell tid. Det valfria slumpgränssnittet `rng()` returnerar ett tal i `[0, 1)`. Produktion använder systemets kryptografiska slump. Testordningen är Chaos-viktat val, slumpat imposterantal i Random, valt ord/par, parorientering om relevant, Fisher–Yates för rolltilldelning från listans slut, eventuellt partner-ID för Accomplice, separat Fisher–Yates för turordning och sist omgångs-ID (`round-` följt av fyra sammanfogade, åtta tecken långa hexvärden). Val mellan kandidater och imposterantal drar ett värde även om ett enda alternativ finns.
+
+## Random Imposters på gemensam mobil
+
+Med `freePlay: true` och utan Joker eller extraroll väljer Random Imposters ett heltal med lika sannolikhet inom det valda intervallet. Automatisk min- och maxgräns är 0 respektive det totala antalet spelare. Fasta antal anges med samma min- och maxvärde.
+
+| Draget antal | Faktiskt läge vid avslöjandet |
+| --- | --- |
+| 0 | `none`, alla får ordkort |
+| En färre än spelarantalet | `reverse`, en spelare får ordet och övriga får ledtråden |
+| Lika med spelarantalet | `all`, alla får samma ledtråd |
+| Övriga giltiga antal | `random` |
+
+På ett bord med sex spelare betyder exempelvis 0–6 att alla tre specialutfall kan dras, medan 4–4 alltid delar ut fyra imposterkort i Random. Den gemensamma vyn visar det valda läget `random` eller `chaos` fram till avslöjandet. Då innehåller `result.mode` det faktiska läget. Tidigare lagrade `none`, `reverse` och `all` är fortsatt giltiga indata.
+
+Med Joker eller extraroll använder båda motorerna kompatibla positiva antal. Civilmajoritet och rollernas spelargränser gäller i dessa kombinationer. Automatiska gränser anpassas till fördelningen. Angivna gränser måste vara giltiga heltal i rätt ordning. En gräns utanför intervallet ger `invalid_random_range`. Referensflödet med `freePlay: false` använder också tidigare kompatibilitetsgränser.
 
 ## Tillstånd och referensflöde
 
@@ -82,7 +97,7 @@ Om minst en profil i Chaos kan ge sista gissning använder referensflödet samma
 
 JS-referensflödets metod `localGuessNominee()` returnerar det unikt högst röstade spelar-ID:t före skydd och rollregler under `last_guess`. Vid lika röster eller gruppval används den första spelaren i ledtrådsordningen. Utanför fasen returnerar metoden `null`.
 
-Gruppalternativ visas bara när röstfasen öppnar. Öppet `all` eller `none` lägger till sitt eget alternativ. Om något av dessa lägen finns i Chaos-poolen erbjuds båda alternativen vid varje röstning i den poolen. Ett unikt gruppval räknas aldrig som att någon person blivit utröstad.
+Gruppalternativ visas bara när röstfasen öppnar i referensflödet. Öppet `all` eller `none` lägger till sitt eget alternativ. Chaos och Random med `freePlay: true` erbjuder båda alternativ när ett av lägena är möjligt inom poolens profiler eller valda intervall. Ett unikt gruppval räknas aldrig som att någon person blivit utröstad.
 
 ## Felkoder
 
