@@ -600,7 +600,8 @@ export function mountLocal(ctx) {
     document.addEventListener("freeze", concealPrivate, { signal });
     ctx.setNavigationGuard(() => {
         concealPrivate();
-        return !ctx.isRoundActive() || window.confirm(t("local.round.confirmLeave"));
+        const playing = round && !["reveal", "aborted"].includes(round.phase);
+        return !playing || window.confirm(t("local.round.confirmLeave"));
     });
     const clock = window.setInterval(tick, 200);
     renderSetup();

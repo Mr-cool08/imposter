@@ -167,6 +167,11 @@ def test_mobile_local_game_after_disabling_network(app_url, chromium):
         handoff = page.get_by_test_id("local-handoff")
         secret = page.get_by_test_id("local-private-content")
         card_values = []
+        other_tab = context.new_page()
+        # Playwright keeps focus emulated per page unless it is explicitly disabled.
+        for tab in (page, other_tab):
+            context.new_cdp_session(tab).send("Emulation.setFocusEmulationEnabled", {"enabled": False})
+        page.bring_to_front()
         for index, name in enumerate(names):
             expect(handoff.get_by_role("heading", level=1)).to_contain_text(name)
             expect(secret).to_have_count(0)
@@ -175,11 +180,12 @@ def test_mobile_local_game_after_disabling_network(app_url, chromium):
             card_value = secret.locator(".local-card-value").inner_text()
             assert card_value
             if index == 0:
-                other_tab = context.new_page()
                 other_tab.bring_to_front()
+                page.wait_for_function("!document.hasFocus()")
                 expect(secret).to_have_count(0)
                 other_tab.close()
                 page.bring_to_front()
+                page.wait_for_function("document.hasFocus()")
                 expect(secret).to_have_count(0)
                 page.get_by_test_id("local-show-private").click()
                 expect(secret.locator(".local-card-value")).to_have_text(card_value)
@@ -206,7 +212,9 @@ def test_mobile_local_game_after_disabling_network(app_url, chromium):
         expect_no_horizontal_scroll(page)
 
         page.locator('.site-nav [data-route="history"]').click()
-        expect(page.locator("#app-view").get_by_text(word, exact=True).first).to_be_visible()
+        history = page.locator("#app-view")
+        history.locator("summary").filter(has_text=re.compile(r"\bClassic$")).click()
+        expect(history.get_by_text(word, exact=True).first).to_be_visible()
     finally:
         context.close()
 

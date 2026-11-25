@@ -31,6 +31,8 @@ let prefs = { ...defaultPreferences };
 let messages = {};
 let current = null;
 let activeRound = false;
+let onlineView = null;
+const activeRounds = { local: false, online: false };
 let storageUnavailable = false;
 let nextReset = false;
 let rulesPromise;
@@ -75,7 +77,7 @@ const storage = {
 function el(tag, attrs = {}, ...children) {
   const node = document.createElement(tag);
   for (const [key, value] of Object.entries(attrs ?? {})) {
-    if (value === null || value === undefined || value === false) continue;
+    if (value === null || value === undefined || (value === false && !key.startsWith("aria-"))) continue;
     if (key.startsWith("on") && typeof value === "function") {
       node.addEventListener(key.slice(2).toLowerCase(), value);
     } else if (key === "dataset") {
@@ -84,7 +86,7 @@ function el(tag, attrs = {}, ...children) {
       Object.assign(node.style, value);
     } else {
       const attribute = { className: "class", htmlFor: "for", tabIndex: "tabindex" }[key] ?? key;
-      node.setAttribute(attribute, value === true ? "" : String(value));
+      node.setAttribute(attribute, value === true && !key.startsWith("aria-") ? "" : String(value));
     }
   }
   for (const child of children.flat(Infinity)) {
@@ -130,7 +132,7 @@ function showStorageWarning() {
 }
 
 function saveResult(result, source, options = {}) {
-  const { players = result.players, sessionId, completedAt = result.finishedAt } = options;
+  const { players = result.players, sessionId, completedAt = result.finishedAt, category } = options;
   const saved = recordRound({
     roundId: result.id,
     result,
@@ -138,6 +140,7 @@ function saveResult(result, source, options = {}) {
     players,
     sessionId,
     completedAt,
+    category,
   });
   if (!saved.ok) notify(t("ui.historyError"), { error: true });
   else if (!saved.persisted) showStorageWarning();
@@ -170,8 +173,9 @@ function rules() {
   return rulesPromise;
 }
 
-function setRoundActive(active) {
-  const next = Boolean(active);
+function setRoundActive(route, active) {
+  activeRounds[route] = Boolean(active);
+  const next = activeRounds.local || activeRounds.online;
   if (next === activeRound) return;
   activeRound = next;
   languageInput.disabled = next;
@@ -249,7 +253,9 @@ function context(root, route, view, joinCode = null) {
     preferences: () => ({ ...prefs }),
     isRoundActive: () => activeRound,
     setRoundActive(active) {
-      if (!view || current === view) setRoundActive(active);
+      if ((route === "local" && current === view) || (route === "online" && onlineView === view)) {
+        setRoundActive(route, active);
+      }
     },
     setNavigationGuard(handler) {
       if (view && current === view) view.guard = handler;
@@ -286,7 +292,7 @@ function renderHome(root) {
         el("p", { class: "home-hero__description" }, t("ui.homeDescription"))),
       art),
     el("section", { class: "play-options", "aria-label": t("ui.playOptions") },
-      option("local", "▣", true), option("online", "⌁")));
+      option("local", "", true), option("online", "↔")));
 }
 
 function renderRules(root) {
@@ -332,9 +338,10 @@ function activate({ route, joinCode }, { force = false, push = false, focus = fa
   const old = current;
   const view = { route, joinCode, abort: new AbortController(), cleanup: null, guard: null };
   current = view;
+  if (route === "online") onlineView = view;
   old?.abort.abort();
   old?.cleanup?.();
-  setRoundActive(false);
+  if (old?.route === "local") setRoundActive("local", false);
   const root = el("div", { class: "app-view", "data-view": route });
   main.replaceChildren(root);
   document.querySelectorAll(".site-header [data-route]").forEach(link => {
@@ -408,17 +415,21 @@ function updateInputs() {
   rememberInput.checked = prefs.rememberNames;
 }
 
-async function changeLanguage(language) {
+async function changeLanguage(language, { remount = true } = {}) {
   const request = ++languageChange;
-  if (activeRound || language === prefs.language) return;
+  if (activeRound || language === prefs.language) {
+    languageInput.value = prefs.language;
+    return;
+  }
   try {
     const dictionary = await getMessages(language);
     if (request !== languageChange || activeRound) return;
+    if (remount && current?.guard?.() === false) return;
     prefs.language = language;
     storage.set("preferences", prefs);
     useMessages(dictionary);
     window.dispatchEvent(new CustomEvent("imposter:language", { detail: { language } }));
-    activate(routeFromLocation(), { force: true });
+    if (remount) activate(routeFromLocation(), { force: true });
   } catch {
     if (request !== languageChange) return;
     notify(t("ui.languageError"), { error: true });
@@ -467,23 +478,30 @@ function wireControls() {
     input.addEventListener("change", () => {
       prefs[key] = input.checked;
       storage.set("preferences", prefs);
-      if (key === "rememberNames" && !input.checked) storage.remove("localPlayers");
-      else if (key !== "rememberNames" && input.checked) feedback("advance");
+      if (key === "rememberNames" && !input.checked) {
+        storage.remove("localPlayers");
+        storage.remove("onlineName");
+      } else if (key !== "rememberNames" && input.checked) feedback("advance");
     });
   });
   resetPreferences.addEventListener("click", async () => {
-    if (nextReset || !window.confirm(t("ui.confirmReset"))) return;
+    if (nextReset || activeRound || current?.guard?.() === false || !window.confirm(t("ui.confirmReset"))) return;
     nextReset = true;
-    if (prefs.language !== defaultPreferences.language) await changeLanguage(defaultPreferences.language);
-    prefs = { ...defaultPreferences, language: prefs.language };
-    storage.remove("localSettings");
-    storage.remove("localPlayers");
-    storage.set("preferences", prefs);
-    window.dispatchEvent(new Event("imposter:local-settings"));
-    updateInputs();
-    activate(routeFromLocation(), { force: true });
-    if (!storageUnavailable) notify(t("ui.resetDone"));
-    nextReset = false;
+    try {
+      await changeLanguage(defaultPreferences.language, { remount: false });
+      if (activeRound) return;
+      prefs = { ...defaultPreferences, language: prefs.language };
+      storage.remove("localSettings");
+      storage.remove("localPlayers");
+      storage.remove("onlineName");
+      storage.set("preferences", prefs);
+      window.dispatchEvent(new Event("imposter:local-settings"));
+      updateInputs();
+      activate(routeFromLocation(), { force: true });
+      if (!storageUnavailable) notify(t("ui.resetDone"));
+    } finally {
+      nextReset = false;
+    }
   });
 }
 

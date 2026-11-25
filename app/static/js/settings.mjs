@@ -57,6 +57,12 @@ function readSettings(settings, language, includeClueStyle) {
     value.chaos = Array.isArray(value.chaos) ? value.chaos.filter((profile) => profile && typeof profile === "object") : [];
     if (Array.isArray(value.categories)) value.categories = chosenIds(value.categories);
     else delete value.categories;
+    if (value.mode === "chaos") {
+        const inherited = Object.fromEntries(Object.keys(profileDefaults).map((key) => [key, value[key]]));
+        value.chaos = value.chaos.map((profile) => ({
+            ...inherited, lastGuess: guessModes.includes(profile.mode) && inherited.lastGuess, ...profile,
+        }));
+    }
     return cleanMode(value);
 }
 

@@ -8,4 +8,6 @@ Flasks genererade skalmanifest inkluderar `/static/js/extras.mjs`, `/static/js/e
 
 ## Verifiering och kvarvarande kopplingar
 
-Redigeraren har körts i Chrome via Flask på dator och i Pixel 7-vy. Servern har verifierats med testet för validering och isolering av värdens privata paket. Vid kontrollen läste `online.mjs` och `offline.mjs` fortfarande den gamla lagringsnyckeln `customPack`. Värdens paketval och offlinepanelens filtrering behöver uppdateras i respektive filansvar innan de kan verifieras från gränssnittet.
+Redigeraren har körts i Chrome via Flask på dator och i Pixel 7-vy. Ett separat webbläsartest verifierade att värden kunde välja ett av två lokala paket, att bara det valda paketet hamnade i rummet och att båda paketen saknades i den publika katalogen. I Pixel 7-vy gick det att ladda om det cachade skalet utan nätverk och öppna ett sparat eget paket och en avslutad omgång. 11 extratester i Node och 29 Flask-, innehålls- och rumstester i Python 3.14.7 passerade.
+
+Den gemensamma webbläsarsviten rapporterade 4 passerade tester och ett fel i lokalflödets flikbyte. Vid en senare omkörning stannade testet på `document.hasFocus()` eftersom Chrome i headless-läge aldrig rapporterade att första fliken tappade fokus. Testet har därmed inte verifierat rollkortets beteende vid verklig fokusförlust. `offline.mjs` läste också fortfarande `customPack` vid sista kontrollen. Offlinepanelens hantering av egna kategori-ID:n behöver uppdateras enligt ovan.

@@ -22,4 +22,4 @@ Testerna använder tillgängliga rubriker, namn och formulärfält samt identifi
 
 ## Avgränsning
 
-Webbläsartesterna verifierar att funktionerna går att använda via gränssnittet. Regelmatris, alla kombinationer av roller och granskning av privata Socket.IO-meddelanden ingår i motor- och servertesterna.
+Sviten provar startvyn i desktop- och mobilemulering, språk- och temabytet, en full lokal omgång offline och onlinespel från lobbyn till resultat. Tre separata webbläsarsessioner kör dessutom en omgång via WebSocket och kontrollerar återanslutning, privata rollkort och dubbla röster. Regelmatrisen och övriga rollkombinationer täcks av motor- och servertesterna.

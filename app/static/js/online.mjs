@@ -61,6 +61,7 @@ function writeIdentity(previousCode) {
     } else if (sessionStorage.getItem(SESSION_ROOM) === previousCode) {
       sessionStorage.removeItem(SESSION_ROOM);
     }
+    storageUnavailable = false;
   } catch {
     storageUnavailable = Boolean(identity);
   }
@@ -122,6 +123,7 @@ function getSocket() {
       if (code !== identity?.code) return;
       bound = false;
       suspended = true;
+      if (state) state = { ...state, private: null };
       status = "replaced";
       redraw?.();
     });
@@ -130,6 +132,7 @@ function getSocket() {
     });
     socket.on("disconnect", () => {
       bound = false;
+      if (state) state = { ...state, private: null };
       if (!suspended) status = identity ? "reconnect" : "";
       redraw?.();
     });
@@ -240,7 +243,12 @@ async function command(event, data = {}, forRound = false) {
     let reply = await send(event, message);
     if (reply?.error?.code === "timeout" && forRound && bound) reply = await send(event, message);
     if (reply?.ok) return true;
-    if (reply?.error?.code === "not_in_room" && identity) {
+    if (reply?.error?.code === "room_not_found") {
+      socket?.disconnect();
+      clearRoom("retired");
+      return false;
+    }
+    if (reply?.error?.code === "not_in_room" && identity && !suspended) {
       bound = false;
       void restore();
     }
@@ -266,6 +274,7 @@ export function mountOnline(ctx) {
   let showSettings = false;
   let settingsMount, settingsDraft, packageChoice;
   let guessSubmitted = false;
+  let qrImage, qrCode;
   let timer;
   const drafts = {};
   const openDetails = new Set();
@@ -316,7 +325,8 @@ export function mountOnline(ctx) {
   function enter() {
     const direct = CODE.test(invitedCode);
     const nameField = (usage) => field("name", name, (value) => { name = value; }, {
-      required: true, maxlength: "32", autocomplete: "nickname", "data-online-focus": "name-" + usage,
+      required: true, maxlength: "32", autocomplete: ctx.preferences().rememberNames ? "nickname" : "off",
+      "data-online-focus": "name-" + usage,
     });
     const submit = (event, join) => {
       event.preventDefault();
@@ -354,11 +364,22 @@ export function mountOnline(ctx) {
         ctx.notify(t("copyManual"));
       }
     };
+    const qr = details("qr", "showQr");
+    const showQr = () => {
+      if (!qr.open) return;
+      if (qrCode !== code || !qrImage) {
+        qrCode = code;
+        qrImage = el("img", { src: "/api/qr/" + code + ".svg", width: 180, height: 180, alt: t("qr", { code }) });
+      }
+      if (!qr.contains(qrImage)) qr.append(qrImage);
+    };
+    qr.addEventListener("toggle", showQr);
+    showQr();
     return section("share",
       el("p", {}, t("roomCode"), " ", el("strong", {}, code)),
       el("label", { class: "field" }, el("span", {}, t("link")), link),
       chooseButton("copy", copy, { variant: "secondary" }),
-      details("qr", "showQr", el("img", { src: "/api/qr/" + code + ".svg", width: 180, height: 180, loading: "lazy", alt: t("qr", { code }) })));
+      qr);
   }
 
   function roster() {
@@ -647,8 +668,9 @@ export function mountOnline(ctx) {
 
   function scoreboard() {
     const scores = [...state.scores].sort((left, right) => right.points - left.points || right.wins - left.wins || left.name.localeCompare(right.name, ctx.lang));
-    const stats = (data, label) => Object.keys(data ?? {}).length
-      ? el("ul", {}, ...Object.entries(data).map(([id, entry]) => el("li", {}, label(id), " · ", t("winRatio", { wins: entry.wins, played: entry.played }))))
+    const stats = (data, heading, label) => Object.keys(data ?? {}).length
+      ? el("div", {}, el("h4", {}, t(heading)),
+        el("ul", {}, ...Object.entries(data).map(([id, entry]) => el("li", {}, label(id), " · ", t("winRatio", { wins: entry.wins, played: entry.played })))))
       : null;
     return section("scoreboard", el("ol", { class: "stack" }, ...scores.map((score) => el("li", {},
       el("strong", {}, score.name), " · ", t("score", { points: score.points, wins: score.wins, played: score.played }),
@@ -656,7 +678,7 @@ export function mountOnline(ctx) {
         el("p", {}, t("imposterStats", {
           percent: score.imposterGames ? Math.round(score.imposterWins * 100 / score.imposterGames) : 0,
           wins: score.imposterWins, played: score.imposterGames,
-        })), stats(score.byRole, ctx.roleName), stats(score.byMode, ctx.modeName)) : null))));
+        })), stats(score.byRole, "roles", ctx.roleName), stats(score.byMode, "modes", ctx.modeName)) : null))));
   }
 
   function roomHistory() {
@@ -753,9 +775,7 @@ export function mountOnline(ctx) {
   };
   ctx.setNavigationGuard(() => {
     hideCard();
-    if (state?.stage !== "playing") return true;
-    ctx.notify(t("finishOrLeave"));
-    return false;
+    return !starting && !busy;
   });
   window.addEventListener("blur", hideCard);
   document.addEventListener("visibilitychange", hideCard);

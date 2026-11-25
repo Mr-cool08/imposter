@@ -497,8 +497,9 @@ export function mountHistory(root, context = {}) {
     }));
     const displayMode = result.mode === result.selectedMode
       ? modeLabel(result.mode) : `${modeLabel(result.mode)} (${modeLabel(result.selectedMode)})`;
-    const category = element('span', categoryNames.get(round.category)?.[lang] ?? round.category);
-    category.dataset.categoryLabel = round.category;
+    const category = element('span', categoryNames.get(result.category)?.[lang] ?? round.category);
+    category.dataset.categoryLabel = result.category;
+    category.dataset.categoryFallback = round.category;
     const words = result.pairedWord ? `${result.word} / ${result.pairedWord}` : result.word;
     section.append(metrics([
       [translate('bySource'), sourceLabel(round.source)],
@@ -577,7 +578,7 @@ export function mountHistory(root, context = {}) {
         rememberCategories(manifest.categories);
         for (const label of categories.querySelectorAll('[data-category-label]')) {
           const id = label.dataset.categoryLabel;
-          label.textContent = categoryNames.get(id)?.[lang] ?? id;
+          label.textContent = categoryNames.get(id)?.[lang] ?? label.dataset.categoryFallback;
         }
       }).catch(() => {});
   }
