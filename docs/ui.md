@@ -8,6 +8,12 @@
 2. Lokalvyn ber en spelare i taget att ta över mobilen. Spelaren trycker för att visa kortet och döljer det innan nästa spelare tar över. Fokusförlust, bakgrundsläge och återställning från webbläsarens snabbcache döljer kortet.
 3. Efter sista kortet visas **Visa roller**. Knappen avslöjar roller och ord efter att gruppen har spelat. Resultatet ger val att spela igen eller återgå till inställningarna.
 
+## Spelregler
+
+Skalet visar `/#regler` i `#guide-view` och anropar `mountGuide(ctx)` från `app/static/js/guide.mjs` med `ctx.root` satt till `#guide-content`. Guiden skapar rubriker och innehåll där med `ctx.t`, `ctx.el`, `ctx.modeName` och `ctx.roleName`. Den laddas om i vyn när språket byts.
+
+Länken i sidhuvudet och länkarna tillbaka använder samma dokument. Hashen fungerar även vid direktstart och webbläsarens bakåt- och framåtnavigering. Lokalvyn döljer privata kort när den lämnas och behåller spelarnas plats i omgången. Appskalet och guiden ingår i service workerns offlinecache.
+
 ## Random Imposters
 
 Minsta och högsta antal imposters kan väljas från 0 till antalet tillagda spelare. Tomma gränser använder det tillåtna spannet automatiskt. Om båda gränserna är lika blir antalet fast. Joker och extra roller kan minska spannet.

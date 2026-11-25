@@ -3,6 +3,11 @@ const main = byId("app-view");
 const localRoot = byId("local-view");
 const wordTools = byId("word-tools");
 const wordToolsRoot = byId("word-tools-view");
+const guideView = byId("guide-view");
+const guideRoot = byId("guide-content");
+const guideLink = byId("guide-link");
+const guideBack = byId("guide-back");
+const gameLink = byId("game-link");
 const openWords = byId("open-word-tools");
 const closeWords = byId("close-word-tools");
 const notice = byId("app-notice");
@@ -18,6 +23,7 @@ const resetPreferences = byId("app-reset-preferences");
 const slogan = byId("app-slogan");
 const appName = document.body.dataset.appName;
 const defaultPreferences = { language: "sv", theme: "dark", sound: false, vibration: false, rememberNames: true };
+const guideHash = "#regler";
 
 const translations = new Map();
 const unsaved = new Map();
@@ -28,6 +34,7 @@ let activeRound = false;
 let languageChange = 0;
 let localView;
 let wordsView;
+let guideLanguage;
 let rulesPromise;
 let audio;
 
@@ -201,15 +208,65 @@ async function mountLocalView() {
   }
 }
 
+async function mountGuideView() {
+  const language = prefs.language;
+  if (guideLanguage === language) return;
+  guideRoot.replaceChildren(el("p", { class: "muted", role: "status" }, t("ui.loading")));
+  try {
+    const { mountGuide } = await import("./guide.mjs");
+    if (guideView.hidden || prefs.language !== language) return;
+    guideRoot.replaceChildren();
+    mountGuide(context(guideRoot));
+    guideLanguage = language;
+  } catch {
+    if (!guideView.hidden && prefs.language === language) loadError(guideRoot, mountGuideView);
+  }
+}
+
+function updatePageTitle() {
+  document.title = guideView.hidden
+    ? appName + " · " + slogan.textContent
+    : t("guide.navigation") + " · " + appName;
+}
+
+function showCurrentPage({ focus = false } = {}) {
+  const guide = location.hash === guideHash;
+  const changed = guide !== !guideView.hidden;
+  if (guide && changed) localView?.guard?.();
+  guideView.hidden = !guide;
+  localRoot.hidden = guide || Boolean(wordsView);
+  wordTools.hidden = guide || !wordsView;
+  preferencesMenu.hidden = Boolean(wordsView);
+  openWords.hidden = guide;
+  resetPreferences.hidden = guide;
+  if (guide) guideLink.setAttribute("aria-current", "page");
+  else guideLink.removeAttribute("aria-current");
+  if (guide && changed) void mountGuideView();
+  if (!guide && !localView) void mountLocalView();
+  updatePageTitle();
+  if (focus && changed) {
+    preferencesMenu.open = false;
+    main.focus({ preventScroll: true });
+    window.scrollTo(0, 0);
+  }
+}
+
+function followPageLink(event) {
+  if (event.defaultPrevented || event.button !== 0 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  event.preventDefault();
+  const next = event.currentTarget.getAttribute("href");
+  if (location.pathname + location.search + location.hash !== next) history.pushState(null, "", next);
+  showCurrentPage({ focus: true });
+}
+
 async function showWordTools() {
-  if (activeRound || wordsView) return;
+  if (activeRound || wordsView || !guideView.hidden) return;
   preferencesMenu.open = false;
-  localRoot.hidden = true;
-  wordTools.hidden = false;
-  closeWords.focus();
-  wordToolsRoot.replaceChildren(el("p", { class: "muted", role: "status" }, t("ui.loading")));
   const view = { abort: new AbortController() };
   wordsView = view;
+  showCurrentPage();
+  closeWords.focus();
+  wordToolsRoot.replaceChildren(el("p", { class: "muted", role: "status" }, t("ui.loading")));
   try {
     const { mountExtras } = await import("./extras.mjs");
     if (wordsView === view) view.cleanup = mountExtras(context(wordToolsRoot, view));
@@ -227,8 +284,7 @@ function closeWordTools() {
   wordsView.cleanup?.();
   wordsView = null;
   wordToolsRoot.replaceChildren();
-  wordTools.hidden = true;
-  localRoot.hidden = false;
+  showCurrentPage();
   window.dispatchEvent(new Event("imposter:custom-content"));
   main.focus();
 }
@@ -246,10 +302,14 @@ function useMessages(dictionary) {
   messages = dictionary;
   document.documentElement.lang = prefs.language;
   slogan.textContent = prefs.language === "en" ? document.body.dataset.sloganEn : document.body.dataset.sloganSv;
-  document.title = appName + " · " + slogan.textContent;
   document.querySelectorAll("[data-i18n]").forEach(node => {
     node.textContent = t(node.dataset.i18n);
   });
+  document.querySelectorAll("[data-i18n-label]").forEach(node => {
+    node.setAttribute("aria-label", t(node.dataset.i18nLabel));
+  });
+  updatePageTitle();
+  if (!guideView.hidden) void mountGuideView();
   if (storageUnavailable) showStorageWarning();
 }
 
@@ -285,6 +345,10 @@ async function changeLanguage(language) {
 }
 
 function wireControls() {
+  for (const link of [gameLink, guideLink, guideBack]) link.addEventListener("click", followPageLink);
+  const onNavigation = () => showCurrentPage({ focus: true });
+  window.addEventListener("popstate", onNavigation);
+  window.addEventListener("hashchange", onNavigation);
   document.addEventListener("click", event => {
     if (!event.target.closest("#preferences-menu")) preferencesMenu.open = false;
   });
@@ -364,7 +428,7 @@ async function boot() {
     return;
   }
   wireControls();
-  void mountLocalView();
+  showCurrentPage();
   import("./offline.mjs").then(module => module.mountOffline(context(offlineTools)))
     .catch(() => {
       offlineTools.replaceChildren(el("p", { class: "error" }, t("ui.offlineError")));

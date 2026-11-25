@@ -17,13 +17,16 @@
   <a href="#app-view" class="skip-link" data-i18n="ui.skip">Till innehållet</a>
   <header class="site-header">
     <div class="layout site-header__inner">
-      <div class="brand">
+      <a class="brand" id="game-link" href="/">
         <span class="brand-mark" aria-hidden="true">?</span>
         <span class="brand__copy">
           <span>{{ app_name }}</span>
           <span class="brand__slogan" id="app-slogan">{{ slogan }}</span>
         </span>
-      </div>
+      </a>
+      <nav class="site-nav" aria-label="Spelregler" data-i18n-label="guide.navigation">
+        <a class="site-nav__link" id="guide-link" href="/#regler" data-i18n="guide.navigation">Spelregler</a>
+      </nav>
       <div class="site-tools">
         <details class="site-tool" id="preferences-menu">
           <summary class="site-tool__button">
@@ -79,6 +82,10 @@
     <section class="stack" id="word-tools" hidden>
       <button type="button" class="button button--ghost back-to-setup" id="close-word-tools" data-i18n="ui.backToSetup">Tillbaka till spelinställningar</button>
       <div id="word-tools-view"></div>
+    </section>
+    <section class="guide-view stack" id="guide-view" hidden>
+      <a class="button button--ghost guide-back" id="guide-back" href="/" data-i18n="guide.back">Tillbaka till spelet</a>
+      <div class="guide-content" id="guide-content"></div>
     </section>
   </main>
   <noscript>

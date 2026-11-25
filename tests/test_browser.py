@@ -135,6 +135,71 @@ def test_start_page_and_public_apis(app_url, chromium, device):
         context.close()
 
 
+def expect_rules_content(page, translations):
+    expect = playwright_api.expect
+    guide = page.get_by_test_id("rules-guide")
+    expect(guide.get_by_role("heading", name=translations["guide.title"], exact=True)).to_be_visible()
+
+    steps = guide.locator("#guide-steps")
+    for step in ("setup", "cards", "reveal"):
+        title = translations[f"guide.steps.{step}.title"]
+        expect(steps.get_by_text(title, exact=True)).to_be_visible()
+        description = translations[f"guide.steps.{step}.text"]
+        expect(steps.get_by_text(description, exact=True)).to_be_visible()
+
+    modes = guide.locator("#guide-modes")
+    for mode in ("classic", "random", "joker", "undercover", "alliance", "blind", "chaos", "none", "reverse", "all"):
+        entry = modes.locator(f'[data-mode="{mode}"]')
+        expect(entry.get_by_text(translations[f"ui.mode.{mode}"], exact=True)).to_be_visible()
+        expect(entry.get_by_text(translations[f"guide.mode.{mode}"], exact=True)).to_be_visible()
+    expect(modes.locator('[data-mode="random"] [data-mode]')).to_have_count(3)
+
+    roles = guide.locator("#guide-roles")
+    for role in ("civil", "imposter", "joker", "spy", "accomplice", "double_agent", "undercover"):
+        entry = roles.locator(f'[data-role="{role}"]')
+        expect(entry.get_by_text(translations[f"rules.roleName.{role}"], exact=True)).to_be_visible()
+        expect(entry.get_by_text(translations[f"guide.role.{role}"], exact=True)).to_be_visible()
+
+    tabletop = roles.locator("details")
+    tabletop.get_by_text(translations["guide.roles.tabletop"], exact=True).click()
+    for role in ("detective", "guardian"):
+        entry = tabletop.locator(f'[data-role="{role}"]')
+        expect(entry.get_by_text(translations[f"guide.role.{role}"], exact=True)).to_be_visible()
+
+
+def test_rules_page_direct_entry_navigation_and_localization(app_url, chromium):
+    browser, mobile = chromium
+    context = browser.new_context(base_url=app_url, **mobile)
+    page = context.new_page()
+    expect = playwright_api.expect
+    try:
+        page.goto(f"{app_url}/#regler")
+        swedish = page.request.get("/api/i18n/sv.json").json()
+        english = page.request.get("/api/i18n/en.json").json()
+        expect_rules_content(page, swedish)
+        expect(page.get_by_test_id("local-player-name")).not_to_be_visible()
+        expect_no_horizontal_scroll(page)
+
+        page.locator("#preferences-menu > summary").click()
+        page.locator("#app-language").select_option("en")
+        expect(page.locator("html")).to_have_attribute("lang", "en")
+        expect(page).to_have_url(re.compile(r"#regler$"))
+        expect_rules_content(page, english)
+        expect_no_horizontal_scroll(page)
+
+        page.get_by_role("link", name=english["guide.back"], exact=True).click()
+        expect(page.get_by_test_id("local-player-name")).to_be_visible()
+        expect(page.get_by_test_id("rules-guide")).not_to_be_visible()
+        page.get_by_role("link", name=english["guide.navigation"], exact=True).click()
+        expect(page).to_have_url(re.compile(r"#regler$"))
+        expect(page.get_by_test_id("rules-guide")).to_be_visible()
+        page.go_back()
+        expect(page.get_by_test_id("local-player-name")).to_be_visible()
+        expect(page.get_by_test_id("rules-guide")).not_to_be_visible()
+    finally:
+        context.close()
+
+
 def download_offline_from_menu(page, category):
     page.locator("#preferences-menu > summary").click()
     page.locator("#offline-menu summary").click()
@@ -166,14 +231,14 @@ def add_players(page, names):
     playwright_api.expect(page.get_by_test_id("local-start")).to_be_enabled(timeout=15000)
 
 
-def read_private_cards(page, names, *, check_focus=False):
+def read_private_cards(page, names, *, check_privacy=False):
     expect = playwright_api.expect
     handoff = page.get_by_test_id("local-handoff")
     private_content = page.get_by_test_id("local-private-content")
     reveal = page.get_by_test_id("local-show-roles")
     cards = []
     other_tab = None
-    if check_focus:
+    if check_privacy:
         other_tab = page.context.new_page()
         # Headless Playwright emulates focus per page unless it is disabled.
         for tab in (page, other_tab):
@@ -195,6 +260,14 @@ def read_private_cards(page, names, *, check_focus=False):
             other_tab.close()
             page.bring_to_front()
             page.wait_for_function("document.hasFocus()")
+            expect(private_content).to_have_count(0)
+            page.get_by_test_id("local-show-private").click()
+            expect(private_content.locator(".local-card-value")).to_have_text(value)
+            page.get_by_role("link", name="Spelregler", exact=True).click()
+            expect(page.get_by_test_id("rules-guide")).to_be_visible()
+            expect(private_content).to_have_count(0)
+            page.get_by_role("link", name="Tillbaka till spelet", exact=True).click()
+            expect(handoff.get_by_role("heading", level=1)).to_contain_text(name)
             expect(private_content).to_have_count(0)
             page.get_by_test_id("local-show-private").click()
             expect(private_content.locator(".local-card-value")).to_have_text(value)
@@ -226,14 +299,18 @@ def test_mobile_local_game_after_disabling_network(app_url, chromium):
 
         context.set_offline(True)
         page.wait_for_function("!navigator.onLine")
+        page.goto(f"{app_url}/#regler")
         page.reload()
+        guide = page.get_by_test_id("rules-guide")
+        expect(guide.get_by_role("heading", name="Spelregler", exact=True)).to_be_visible()
+        page.get_by_role("link", name="Tillbaka till spelet", exact=True).click()
         expect(start).to_be_enabled(timeout=15000)
         expect(food).to_be_checked()
         for name in names:
             expect(page.get_by_text(name, exact=True)).to_be_visible()
         expect_no_horizontal_scroll(page)
         start.click()
-        cards, reveal = read_private_cards(page, names, check_focus=True)
+        cards, reveal = read_private_cards(page, names, check_privacy=True)
         word, matches = Counter(value for _, _, value in cards).most_common(1)[0]
         assert matches == 2
 

@@ -8,6 +8,8 @@
 
 Ni bestämmer själva hur ni ger ledtrådar, diskuterar och avslutar omgången.
 
+Öppna **Spelregler** i sidhuvudet för att läsa om spelstegen, spellägena och rollerna. Sidan går att läsa offline efter att appskalet har sparats.
+
 **Random Imposters** drar ett antal mellan det lägsta och högsta tal ni väljer. Med sex spelare ger 0 ingen imposter, 5 Reverse och 6 alla som imposters. Välj samma lägsta och högsta tal för ett fast antal. Joker och andra extra roller kan begränsa vilka antal som går att välja.
 
 ## Starta med Python

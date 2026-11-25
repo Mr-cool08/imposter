@@ -333,6 +333,7 @@ export function mountLocal(ctx) {
     window.addEventListener("imposter:custom-content", refreshSetup, { signal });
     document.addEventListener("visibilitychange", concealOnHidden, { signal });
     document.addEventListener("freeze", concealPrivate, { signal });
+    ctx.setNavigationGuard(concealPrivate);
 
     renderSetup();
     return () => {
