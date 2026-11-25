@@ -8,6 +8,7 @@
   "offline.notReady": "Download the selected word packs to play locally without a connection.",
   "offline.packageUnavailable": "A word pack could not be downloaded. Check your connection and try again.",
   "offline.ready": "The selected word packs are ready for offline local play.",
+  "offline.shellReady": "The app is ready offline. Choose a downloaded or custom word pack to play.",
   "offline.storage": "Your browser could not save the offline pack. You can keep playing while connected.",
   "offline.unavailable": "Offline play is temporarily unavailable. Check your connection or reload the page.",
   "offline.unsupported": "Offline packs need a browser that supports app installation and a secure connection.",

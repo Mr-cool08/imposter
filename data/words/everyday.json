@@ -1,0 +1,6271 @@
+[
+  {
+    "id": "everyday-avlastningsbord",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Konsolbord",
+        "aliases": [
+          "Avlastningsbord"
+        ],
+        "hints": {
+          "easy": "Smalt bord som står längs en vägg",
+          "normal": "Här kan nycklar läggas när man kommer in",
+          "hard": "Litet djup lämnar utrymme att passera"
+        }
+      },
+      "en": {
+        "word": "Console table",
+        "aliases": [
+          "Hall table"
+        ],
+        "hints": {
+          "easy": "A shallow table that stands against a wall",
+          "normal": "A spot to drop keys on the way in",
+          "hard": "Its narrow footprint leaves the walkway open"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bank",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bänk",
+        "aliases": [
+          "Sittbänk"
+        ],
+        "hints": {
+          "easy": "En lång sittbräda med plats för flera",
+          "normal": "En hel sida av ett bord kan dela samma sits",
+          "hard": "Avsaknaden av skiljeväggar gör det lätt att maka ihop sig"
+        }
+      },
+      "en": {
+        "word": "Bench",
+        "aliases": [],
+        "hints": {
+          "easy": "A long continuous seat for several people",
+          "normal": "One piece can seat a whole side of a table",
+          "hard": "With no dividers, sitters can shift closer"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-barnmatstol",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Barnmatstol",
+        "aliases": [
+          "Barnstol"
+        ],
+        "hints": {
+          "easy": "Låter ett litet barn sitta uppe vid matbordet",
+          "normal": "En bricka kan ta emot mat som missar munnen",
+          "hard": "Band hjälper den lilla gästen att sitta kvar"
+        }
+      },
+      "en": {
+        "word": "High chair",
+        "aliases": [
+          "Highchair"
+        ],
+        "hints": {
+          "easy": "Brings a toddler up to table height",
+          "normal": "A tray catches the food that misses",
+          "hard": "Straps can hold the small diner securely"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-barstol",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Barstol",
+        "aliases": [],
+        "hints": {
+          "easy": "Hög sittplats för en serveringsdisk",
+          "normal": "En tvärslå ger stöd när fötterna inte når golvet",
+          "hard": "Sitter man högt kan stolen ställas närmare en smal yta"
+        }
+      },
+      "en": {
+        "word": "Bar stool",
+        "aliases": [
+          "Barstool"
+        ],
+        "hints": {
+          "easy": "A tall seat for a raised counter",
+          "normal": "A crossbar supports dangling feet",
+          "hard": "Its small footprint fits under a narrow overhang"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bokhylla",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bokhylla",
+        "aliases": [],
+        "hints": {
+          "easy": "Rader med hyllplan för böcker",
+          "normal": "Ryggarna står utåt för jämn överblick",
+          "hard": "Tung belastning kan få långa plan att bågna"
+        }
+      },
+      "en": {
+        "word": "Bookcase",
+        "aliases": [
+          "Bookshelf"
+        ],
+        "hints": {
+          "easy": "Stores rows of books with their spines facing out",
+          "normal": "Adjustable shelves fit taller volumes",
+          "hard": "Long spans can sag under the weight"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-byra",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Byrå",
+        "aliases": [
+          "Lådbyrå"
+        ],
+        "hints": {
+          "easy": "Flera utdragbara lådor står i en stapel",
+          "normal": "Delarna kan sorteras uppifrån och ned",
+          "hard": "För många öppna fronter kan förskjuta tyngdpunkten"
+        }
+      },
+      "en": {
+        "word": "Chest of drawers",
+        "aliases": [
+          "Dresser"
+        ],
+        "hints": {
+          "easy": "A stack of drawers in one piece of furniture",
+          "normal": "The contents can be sorted by level",
+          "hard": "Opening several at once can make it tip"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-fatolj",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fåtölj",
+        "aliases": [],
+        "hints": {
+          "easy": "Bred enkelsits med stöd på båda sidor",
+          "normal": "En sittplats för läsning som inte behöver delas",
+          "hard": "Kudden ger efter när axlarna slappnar av"
+        }
+      },
+      "en": {
+        "word": "Armchair",
+        "aliases": [],
+        "hints": {
+          "easy": "A wide single seat with side supports",
+          "normal": "A reading spot you don't have to share",
+          "hard": "A deep cushion can let your shoulders relax"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-fotpall",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fotpall",
+        "aliases": [],
+        "hints": {
+          "easy": "En låg möbel att vila fötterna på",
+          "normal": "Ställs ofta strax framför fåtöljen",
+          "hard": "Höjden kan minska draget i benen"
+        }
+      },
+      "en": {
+        "word": "Footstool",
+        "aliases": [
+          "Ottoman",
+          "Hassock"
+        ],
+        "hints": {
+          "easy": "A low piece of furniture that supports your feet",
+          "normal": "Pull one close to an armchair to recline",
+          "hard": "The extra height takes weight off the lower legs"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-gungstol",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gungstol",
+        "aliases": [],
+        "hints": {
+          "easy": "Böjda medar låter sitsen röra sig fram och tillbaka",
+          "normal": "En lätt förskjutning av vikten sätter fart",
+          "hard": "Rytmen är bekant från vaggning"
+        }
+      },
+      "en": {
+        "word": "Rocking chair",
+        "aliases": [
+          "Rocker"
+        ],
+        "hints": {
+          "easy": "Curved runners let the seat sway back and forth",
+          "normal": "A shift of body weight starts the motion",
+          "hard": "The steady rhythm can be soothing"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-klaffbord",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Klaffbord",
+        "aliases": [
+          "Slagbord"
+        ],
+        "hints": {
+          "easy": "En skiva kan fällas upp för fler sittplatser",
+          "normal": "Ett stöd svängs ut under den lösa delen",
+          "hard": "Ytan kan bli smal igen när gästerna har gått"
+        }
+      },
+      "en": {
+        "word": "Drop-leaf table",
+        "aliases": [
+          "Drop leaf table"
+        ],
+        "hints": {
+          "easy": "Hinged leaves lift to make space for more diners",
+          "normal": "A movable support swings out under the extra top",
+          "hard": "The surface can shrink again after the guests leave"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-klappstol",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Klappstol",
+        "aliases": [
+          "Fällstol"
+        ],
+        "hints": {
+          "easy": "Sits och ben kan fällas ihop för förvaring",
+          "normal": "Tas fram när det blir fler gäster än vanligt",
+          "hard": "Smal nog att försvinna bakom ett skåp"
+        }
+      },
+      "en": {
+        "word": "Folding chair",
+        "aliases": [
+          "Collapsible chair"
+        ],
+        "hints": {
+          "easy": "Its seat and legs collapse for storage",
+          "normal": "Extra seating can be carried out for guests",
+          "hard": "Folds flat enough to slide behind a cabinet"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kontorsstol",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kontorsstol",
+        "aliases": [
+          "Skrivbordsstol"
+        ],
+        "hints": {
+          "easy": "Sittmöbel på hjul med justerbar höjd",
+          "normal": "Svänger så att man kan vända sig från skrivytan",
+          "hard": "En spak frigör ofta gasfjädern"
+        }
+      },
+      "en": {
+        "word": "Office chair",
+        "aliases": [
+          "Desk chair"
+        ],
+        "hints": {
+          "easy": "A rolling work seat with adjustable height",
+          "normal": "Swivels away from the work surface",
+          "hard": "A lever may release the gas lift"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-ritbord",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ritbord",
+        "aliases": [
+          "Ritbänk"
+        ],
+        "hints": {
+          "easy": "Vinklad arbetsyta för stora ritningar",
+          "normal": "Vissa har linjal som glider längs kanten",
+          "hard": "Lutningen gör att en löst lagd penna kan rulla iväg"
+        }
+      },
+      "en": {
+        "word": "Drafting table",
+        "aliases": [
+          "Drawing table"
+        ],
+        "hints": {
+          "easy": "A tilting surface for working on large drawings",
+          "normal": "A straightedge may slide across the board",
+          "hard": "Loose pencils can roll away on the incline"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-sangbord",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sängbord",
+        "aliases": [
+          "Nattduksbord"
+        ],
+        "hints": {
+          "easy": "Liten avställningsyta intill madrassens sida",
+          "normal": "En lampa eller ett glas kan stå inom räckhåll",
+          "hard": "Lådan kan gömma det man vill hitta i mörkret"
+        }
+      },
+      "en": {
+        "word": "Bedside table",
+        "aliases": [
+          "Nightstand"
+        ],
+        "hints": {
+          "easy": "A small table beside the place you sleep",
+          "normal": "Holds a lamp or glass within arm's reach",
+          "hard": "A drawer can store what you need in the dark"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-sideboard",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sideboard",
+        "aliases": [
+          "Bufféskåp"
+        ],
+        "hints": {
+          "easy": "Låg förvaringsmöbel med skåp och avställningsyta",
+          "normal": "Ofta längs väggen nära matbordet",
+          "hard": "Ovandelen kan bära uppläggningsfat"
+        }
+      },
+      "en": {
+        "word": "Sideboard",
+        "aliases": [
+          "Buffet cabinet"
+        ],
+        "hints": {
+          "easy": "Low cabinet with a top for serving",
+          "normal": "Often stands against a wall near the dining table",
+          "hard": "Platters can wait on its broad top"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-sittsack",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sittsäck",
+        "aliases": [
+          "Saccosäck"
+        ],
+        "hints": {
+          "easy": "En mjuk möbel som formar sig runt den som sätter sig",
+          "normal": "Små kulor flyttar sig under tyget",
+          "hard": "Den fungerar utan stomme och fasta ben"
+        }
+      },
+      "en": {
+        "word": "Beanbag chair",
+        "aliases": [
+          "Bean bag",
+          "Beanbag"
+        ],
+        "hints": {
+          "easy": "A soft sack moulds around the sitter",
+          "normal": "Tiny pellets shift underneath the fabric",
+          "hard": "It works without a frame or fixed legs"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-skrivbord",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skrivbord",
+        "aliases": [],
+        "hints": {
+          "easy": "Arbetsyta med plats för stol och pappersarbete",
+          "normal": "Knäna får plats under framkanten",
+          "hard": "En rund öppning kan samla sladdarna"
+        }
+      },
+      "en": {
+        "word": "Desk",
+        "aliases": [
+          "Writing desk"
+        ],
+        "hints": {
+          "easy": "A work surface built for seated tasks",
+          "normal": "The front edge leaves knee space below",
+          "hard": "A cable hole may keep wires off the surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-soffa",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Soffa",
+        "aliases": [],
+        "hints": {
+          "easy": "En stoppad sittmöbel för flera personer",
+          "normal": "Dynorna kan lossas när smulor hamnar i springan",
+          "hard": "En enda lång dyna kan räcka till tre personer"
+        }
+      },
+      "en": {
+        "word": "Sofa",
+        "aliases": [
+          "Couch",
+          "Settee"
+        ],
+        "hints": {
+          "easy": "An upholstered seat with room for several people",
+          "normal": "Crumbs slip between the cushions",
+          "hard": "A double row of cushions can take up the seat depth"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-soffbord",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Soffbord",
+        "aliases": [],
+        "hints": {
+          "easy": "Lågt bord framför en stoppad sittplats",
+          "normal": "Här ryms både koppar och sällskapsspel",
+          "hard": "Gäster kan nå ytan utan att resa sig"
+        }
+      },
+      "en": {
+        "word": "Coffee table",
+        "aliases": [
+          "Cocktail table"
+        ],
+        "hints": {
+          "easy": "Low table for drinks beside upholstered seating",
+          "normal": "Holds mugs and board games within easy reach",
+          "hard": "Guests needn't stand up to use the top"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-vaningssang",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Våningssäng",
+        "aliases": [],
+        "hints": {
+          "easy": "Två liggplatser byggda ovanpå varandra",
+          "normal": "En stege leder till den övre madrassen",
+          "hard": "Det fria golvet ökar när man delar på höjden"
+        }
+      },
+      "en": {
+        "word": "Bunk bed",
+        "aliases": [
+          "Bunk beds"
+        ],
+        "hints": {
+          "easy": "Two sleeping platforms stacked vertically",
+          "normal": "A short ladder leads up to the top mattress",
+          "hard": "Uses headroom to free up floor space"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-vikskarm",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vikskärm",
+        "aliases": [
+          "Paravan"
+        ],
+        "hints": {
+          "easy": "Flera ledade paneler skymmer en del av utrymmet",
+          "normal": "Kan ställas i sicksack för att stå utan fästen",
+          "hard": "Släpper fram ljus ovanför samtidigt som den ger avskildhet"
+        }
+      },
+      "en": {
+        "word": "Folding screen",
+        "aliases": [
+          "Room divider",
+          "Privacy screen"
+        ],
+        "hints": {
+          "easy": "Hinged panels hide part of a space",
+          "normal": "A zigzag footprint supports it without fixings",
+          "hard": "Provides privacy without closing off the ceiling"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-vitrinskap",
+    "category": "everyday",
+    "subcategory": "everyday-furniture",
+    "tags": [
+      "furniture"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vitrinskåp",
+        "aliases": [
+          "Vitrin"
+        ],
+        "hints": {
+          "easy": "Glasdörrar visar föremålen bakom dem",
+          "normal": "Porslin kan synas men skyddas mot damm",
+          "hard": "Inbyggt ljus kan göra hyllorna till en utställning"
+        }
+      },
+      "en": {
+        "word": "Display cabinet",
+        "aliases": [
+          "Curio cabinet"
+        ],
+        "hints": {
+          "easy": "Glass-fronted storage keeps objects on view",
+          "normal": "Protects porcelain from settling dust",
+          "hard": "Lighting can turn the shelves into an exhibit"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bow-rake",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kratta",
+        "aliases": [
+          "jordkratta"
+        ],
+        "hints": {
+          "easy": "Jämnar till jord eller grus",
+          "normal": "Stela tänder sitter på en rak balk",
+          "hard": "Tar bort klumpar före sådden"
+        }
+      },
+      "en": {
+        "word": "Bow rake",
+        "aliases": [
+          "garden rake"
+        ],
+        "hints": {
+          "easy": "Levels soil with rigid teeth",
+          "normal": "A straight head breaks up clods",
+          "hard": "Combs furrows out of a bed"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-broadcast-spreader",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spridarvagn",
+        "aliases": [],
+        "hints": {
+          "easy": "Fördelar gräsfrö över en stor yta",
+          "normal": "Frön kastas åt sidorna när du går",
+          "hard": "Gå i jämna drag för att slippa ränder"
+        }
+      },
+      "en": {
+        "word": "Broadcast spreader",
+        "aliases": [
+          "rotary spreader"
+        ],
+        "hints": {
+          "easy": "Scatters seed across open ground",
+          "normal": "A turning disc flings granules sideways",
+          "hard": "Steady passes keep strips from showing"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-brush-cutter",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Röjsåg",
+        "aliases": [],
+        "hints": {
+          "easy": "Fäller sly med roterande klinga",
+          "normal": "Selen bär tyngden under arbetet",
+          "hard": "Jämna svep i det täta snåret"
+        }
+      },
+      "en": {
+        "word": "Brush cutter",
+        "aliases": [
+          "brushcutter"
+        ],
+        "hints": {
+          "easy": "Clears woody undergrowth with a spinning blade",
+          "normal": "A harness takes the weight",
+          "hard": "Sweep sideways through dense stems"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bulb-planter",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lökjärn",
+        "aliases": [
+          "lökplanterare"
+        ],
+        "hints": {
+          "easy": "Gör runda hål för tulpanlökar",
+          "normal": "Lyfter upp en cylinder av jord",
+          "hard": "Samma djup kan upprepas i raden"
+        }
+      },
+      "en": {
+        "word": "Bulb planter",
+        "aliases": [],
+        "hints": {
+          "easy": "Cuts a hole for planting spring bulbs",
+          "normal": "A soil plug comes out with it",
+          "hard": "Equal depth along the border"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-cold-frame",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Drivbänk",
+        "aliases": [],
+        "hints": {
+          "easy": "Skyddar småplantor under ett genomskinligt lock",
+          "normal": "En låg låda värms av solen",
+          "hard": "Ställ locket på glänt mitt på dagen"
+        }
+      },
+      "en": {
+        "word": "Cold frame",
+        "aliases": [],
+        "hints": {
+          "easy": "Raises early seedlings under a clear lid",
+          "normal": "Sun warms the shallow enclosure",
+          "hard": "Prop it open on bright afternoons"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-compost-bin",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kompostbehållare",
+        "aliases": [
+          "kompostkärl"
+        ],
+        "hints": {
+          "easy": "Samlar växtrester som ska bli jord",
+          "normal": "Syre hjälper innehållet att brytas ned",
+          "hard": "En varm hög under locket"
+        }
+      },
+      "en": {
+        "word": "Compost bin",
+        "aliases": [],
+        "hints": {
+          "easy": "Holds scraps while they break down",
+          "normal": "Airflow helps turn waste into humus",
+          "hard": "Warmth can build up inside"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-dibber",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Planteringspinne",
+        "aliases": [],
+        "hints": {
+          "easy": "Trycker små planteringshål i jorden",
+          "normal": "På en del visar streck djupet",
+          "hard": "Små gropar utan att skopa"
+        }
+      },
+      "en": {
+        "word": "Dibber",
+        "aliases": [
+          "dibble"
+        ],
+        "hints": {
+          "easy": "Pokes holes for seeds or seedlings",
+          "normal": "A pointed tip parts the soil",
+          "hard": "Nothing needs to be dug out"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-drip-line",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Droppslang",
+        "aliases": [
+          "bevattningsslang med droppmunstycken"
+        ],
+        "hints": {
+          "easy": "Vattnar sakta vid plantornas rötter",
+          "normal": "Små utlopp längs rabatten",
+          "hard": "Torrare blad även efter bevattning"
+        }
+      },
+      "en": {
+        "word": "Drip line",
+        "aliases": [
+          "drip irrigation line"
+        ],
+        "hints": {
+          "easy": "Delivers water slowly along a row",
+          "normal": "Tiny emitters keep the flow low",
+          "hard": "The leaves stay dry"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-fruit-netting",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bärnät",
+        "aliases": [],
+        "hints": {
+          "easy": "Håller fåglar borta från bären",
+          "normal": "Dra det spänt över busken",
+          "hard": "Luft och regn når ändå in"
+        }
+      },
+      "en": {
+        "word": "Fruit netting",
+        "aliases": [
+          "bird netting"
+        ],
+        "hints": {
+          "easy": "Keeps birds away from ripening fruit",
+          "normal": "Stretch the mesh over a frame",
+          "hard": "Rain can still reach the crop"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garden-cart",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trädgårdsvagn",
+        "aliases": [],
+        "hints": {
+          "easy": "Drar krukor och jord på fyra hjul",
+          "normal": "Lasten bärs upp utan att du lyfter",
+          "hard": "Dra handtaget över gräset"
+        }
+      },
+      "en": {
+        "word": "Garden cart",
+        "aliases": [
+          "garden wagon"
+        ],
+        "hints": {
+          "easy": "Hauls supplies across a garden on wheels",
+          "normal": "Pull it by a long handle",
+          "hard": "The load stays level at rest"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garden-fork",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trädgårdsgrep",
+        "aliases": [
+          "grep"
+        ],
+        "hints": {
+          "easy": "Luckrar jorden med grova tänder",
+          "normal": "Arbeta ner med foten och bänd",
+          "hard": "Bra när potatis ska upp"
+        }
+      },
+      "en": {
+        "word": "Garden fork",
+        "aliases": [
+          "digging fork"
+        ],
+        "hints": {
+          "easy": "Loosens compacted earth with strong tines",
+          "normal": "Push down with your foot and lever back",
+          "hard": "Lifts potatoes clear of the bed"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garden-hoe",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Renshacka",
+        "aliases": [
+          "trädgårdshacka"
+        ],
+        "hints": {
+          "easy": "Skär bort ogräs under jordytan",
+          "normal": "Långt skaft avlastar ryggen",
+          "hard": "Lämnar den odlade raden ifred"
+        }
+      },
+      "en": {
+        "word": "Garden hoe",
+        "aliases": [
+          "hoe"
+        ],
+        "hints": {
+          "easy": "Cuts weeds just below the surface",
+          "normal": "Work the blade from a standing position",
+          "hard": "Clears the gaps between rows"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garden-hose",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trädgårdsslang",
+        "aliases": [
+          "vattenslang"
+        ],
+        "hints": {
+          "easy": "Leder vatten från utekranen",
+          "normal": "Rulla ut den över gräsmattan",
+          "hard": "Ett veck kan stoppa flödet"
+        }
+      },
+      "en": {
+        "word": "Garden hose",
+        "aliases": [
+          "hosepipe"
+        ],
+        "hints": {
+          "easy": "Carries water from an outdoor tap",
+          "normal": "Uncoil it across the lawn",
+          "hard": "A kink stops the flow"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garden-shredder",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kompostkvarn",
+        "aliases": [
+          "trädgårdskvarn"
+        ],
+        "hints": {
+          "easy": "Finfördelar grenar och kvistar",
+          "normal": "Grenarna matas ner uppifrån",
+          "hard": "Flis kan hamna runt plantorna"
+        }
+      },
+      "en": {
+        "word": "Garden shredder",
+        "aliases": [],
+        "hints": {
+          "easy": "Turns garden branches into small chips",
+          "normal": "Feed sticks down through the hopper",
+          "hard": "The output can cover bare soil"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garden-spade",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grävspade",
+        "aliases": [
+          "trädgårdsspade"
+        ],
+        "hints": {
+          "easy": "Gräver hål med ett brett blad",
+          "normal": "Stig på kanten för att få kraft",
+          "hard": "Ett rent snitt genom grässvålen"
+        }
+      },
+      "en": {
+        "word": "Garden spade",
+        "aliases": [
+          "spade"
+        ],
+        "hints": {
+          "easy": "Digs holes and cuts through turf",
+          "normal": "Press a foot against the shoulder",
+          "hard": "A flat blade leaves a tidy edge"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garden-trowel",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Planteringsspade",
+        "aliases": [
+          "blomspade"
+        ],
+        "hints": {
+          "easy": "Gräver små hål för plantor",
+          "normal": "Skopar jord ur påsen med en hand",
+          "hard": "Lagom stor för en kruka"
+        }
+      },
+      "en": {
+        "word": "Garden trowel",
+        "aliases": [
+          "hand trowel"
+        ],
+        "hints": {
+          "easy": "Digs little holes for seedlings",
+          "normal": "Scoops potting mix with one hand",
+          "hard": "Fits between plants in a pot"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garden-twine",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trädgårdssnöre",
+        "aliases": [
+          "uppbindningssnöre"
+        ],
+        "hints": {
+          "easy": "Binder en ranka löst mot stödet",
+          "normal": "Använd en bit från rullen",
+          "hard": "Lämna plats kring stjälken"
+        }
+      },
+      "en": {
+        "word": "Garden twine",
+        "aliases": [],
+        "hints": {
+          "easy": "Ties stems to stakes",
+          "normal": "Cut a length from the spool",
+          "hard": "Leave room for the stem to thicken"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garden-waste-bag",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trädgårdssäck",
+        "aliases": [
+          "lövsäck"
+        ],
+        "hints": {
+          "easy": "Samlar löv och avklippta kvistar",
+          "normal": "Bärs ut i handtagen",
+          "hard": "Mer ryms när högen packas ihop"
+        }
+      },
+      "en": {
+        "word": "Garden waste bag",
+        "aliases": [
+          "yard waste bag"
+        ],
+        "hints": {
+          "easy": "Holds clippings and leaves for removal",
+          "normal": "Carry it by the handles when full",
+          "hard": "The pile shrinks when you pack it"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-greenhouse",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Växthus",
+        "aliases": [],
+        "hints": {
+          "easy": "Odlar värmekrävande plantor under genomskinligt tak",
+          "normal": "Öppna ett takfönster varma dagar",
+          "hard": "Dagg syns ofta på rutorna"
+        }
+      },
+      "en": {
+        "word": "Greenhouse",
+        "aliases": [
+          "glasshouse"
+        ],
+        "hints": {
+          "easy": "Grows tender plants under a clear roof",
+          "normal": "Vent the warm air on sunny days",
+          "hard": "Condensation on the panes"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-grow-bag",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Odlingssäck",
+        "aliases": [
+          "odlingspåse"
+        ],
+        "hints": {
+          "easy": "Odlar rotfrukter i en säck med jord",
+          "normal": "Mjuka sidor gör den lätt att vika ihop",
+          "hard": "Skörda genom att tippa ut innehållet"
+        }
+      },
+      "en": {
+        "word": "Grow bag",
+        "aliases": [],
+        "hints": {
+          "easy": "Holds soil for potatoes on a patio",
+          "normal": "A flexible container can be folded away",
+          "hard": "Tip it out for the harvest"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-hand-cultivator",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trädgårdsklo",
+        "aliases": [
+          "handkultivator"
+        ],
+        "hints": {
+          "easy": "River upp det översta jordlagret",
+          "normal": "Tre böjda klor dras mot dig",
+          "hard": "Finare yta mellan plantorna"
+        }
+      },
+      "en": {
+        "word": "Hand cultivator",
+        "aliases": [],
+        "hints": {
+          "easy": "Scratches and loosens surface soil",
+          "normal": "Short handle with curved prongs",
+          "hard": "Works between plants without turning the whole bed"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-hedge-trimmer",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Häcksax",
+        "aliases": [],
+        "hints": {
+          "easy": "Ger buskraden en jämn form",
+          "normal": "Klipper längs sidorna och toppen",
+          "hard": "Följ linjen så blir ytan slät"
+        }
+      },
+      "en": {
+        "word": "Hedge trimmer",
+        "aliases": [
+          "hedge clippers"
+        ],
+        "hints": {
+          "easy": "Shapes a row of shrubs",
+          "normal": "Makes a flat face out of fresh growth",
+          "hard": "Keep the line steady along the top"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-horticultural-fleece",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fiberduk för odling",
+        "aliases": [
+          "odlingsduk"
+        ],
+        "hints": {
+          "easy": "Täcker plantor när det hotar frost",
+          "normal": "Lätt material släpper igenom regn",
+          "hard": "Tyng ner hörnen i blåst"
+        }
+      },
+      "en": {
+        "word": "Horticultural fleece",
+        "aliases": [
+          "garden fleece"
+        ],
+        "hints": {
+          "easy": "Protects young plants from a light frost",
+          "normal": "Rain passes through the pale fabric",
+          "hard": "Pin the corners before the wind picks up"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-lawn-aerator",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gräsmatteluftare",
+        "aliases": [],
+        "hints": {
+          "easy": "Gör hål i gräsmattan för rötternas skull",
+          "normal": "Vatten kan tränga ner lättare efteråt",
+          "hard": "Små jordpluggar kan ligga kvar"
+        }
+      },
+      "en": {
+        "word": "Lawn aerator",
+        "aliases": [
+          "turf aerator"
+        ],
+        "hints": {
+          "easy": "Makes holes so air can reach grass roots",
+          "normal": "Opens compacted soil for moisture",
+          "hard": "Little plugs may litter the lawn"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-lawn-edger",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kantskärare",
+        "aliases": [
+          "kantjärn"
+        ],
+        "hints": {
+          "easy": "Skär rent vid gräsmattans gräns",
+          "normal": "Bladet följer gången",
+          "hard": "Ett rakt snitt på avstånd"
+        }
+      },
+      "en": {
+        "word": "Lawn edger",
+        "aliases": [
+          "grass edger"
+        ],
+        "hints": {
+          "easy": "Trims a neat border along the turf",
+          "normal": "The blade follows a path or curb",
+          "hard": "A sharp line marks the boundary"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-lawn-roller",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gräsvält",
+        "aliases": [
+          "trädgårdsvält"
+        ],
+        "hints": {
+          "easy": "Pressar nysådd mot jorden",
+          "normal": "En tung cylinder rullar över marken",
+          "hard": "Vatten kan ge extra tyngd"
+        }
+      },
+      "en": {
+        "word": "Lawn roller",
+        "aliases": [
+          "garden roller"
+        ],
+        "hints": {
+          "easy": "Presses new turf into contact with soil",
+          "normal": "The cylinder rolls over the ground",
+          "hard": "Fill the drum to add weight"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-lawn-sprinkler",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vattenspridare",
+        "aliases": [
+          "spridare"
+        ],
+        "hints": {
+          "easy": "Sprutar vatten över gräsmattan",
+          "normal": "Strålarna kan svepa fram och tillbaka",
+          "hard": "Barn springer genom bågarna"
+        }
+      },
+      "en": {
+        "word": "Lawn sprinkler",
+        "aliases": [
+          "garden sprinkler"
+        ],
+        "hints": {
+          "easy": "Waters a lawn with jets",
+          "normal": "Covers a patch without hand watering",
+          "hard": "Summer arcs to run through"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-lawnmower",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gräsklippare",
+        "aliases": [],
+        "hints": {
+          "easy": "Håller gräset kort",
+          "normal": "Klipper ofta i långa remsor",
+          "hard": "Lukten dröjer kvar efteråt"
+        }
+      },
+      "en": {
+        "word": "Lawn mower",
+        "aliases": [
+          "lawnmower"
+        ],
+        "hints": {
+          "easy": "Cuts the grass to an even height",
+          "normal": "A rotating blade works low down",
+          "hard": "Parallel stripes behind you"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-leaf-blower",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lövblås",
+        "aliases": [
+          "lövblåsare"
+        ],
+        "hints": {
+          "easy": "Blåser bort löv från gången",
+          "normal": "En luftstråle ur ett långt munstycke",
+          "hard": "Högen flyttar sig utan räfsning"
+        }
+      },
+      "en": {
+        "word": "Leaf blower",
+        "aliases": [],
+        "hints": {
+          "easy": "Pushes leaves off a path with air",
+          "normal": "A nozzle directs a strong jet",
+          "hard": "Chase the pile away from the door"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-leaf-rake",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lövräfsa",
+        "aliases": [
+          "gräsmatteräfsa"
+        ],
+        "hints": {
+          "easy": "Samlar löv på gräsmattan",
+          "normal": "Tunna pinnar sitter som en solfjäder",
+          "hard": "En hög blir större med varje drag"
+        }
+      },
+      "en": {
+        "word": "Leaf rake",
+        "aliases": [
+          "lawn rake"
+        ],
+        "hints": {
+          "easy": "Gathers fallen leaves into piles",
+          "normal": "Flexible tines fan outward",
+          "hard": "Works gently over the grass"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-loppers",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grensax",
+        "aliases": [],
+        "hints": {
+          "easy": "Klipper grövre grenar med två händer",
+          "normal": "Långa handtag ger mer kraft",
+          "hard": "Brett grepp runt den vedartade stammen"
+        }
+      },
+      "en": {
+        "word": "Loppers",
+        "aliases": [
+          "branch loppers"
+        ],
+        "hints": {
+          "easy": "Cuts stems too thick for small hand tools",
+          "normal": "Long handles multiply your force",
+          "hard": "Open your arms wide to start"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-low-tunnel",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Odlingstunnel",
+        "aliases": [],
+        "hints": {
+          "easy": "Skyddar en hel rad plantor under duk",
+          "normal": "Bågar håller täckningen ovanför bladen",
+          "hard": "Lyft kanten när dagen blir varm"
+        }
+      },
+      "en": {
+        "word": "Low tunnel",
+        "aliases": [
+          "garden tunnel"
+        ],
+        "hints": {
+          "easy": "Shelters a row of plants under arches",
+          "normal": "A cover stretches over low hoops",
+          "hard": "Lift one side to let the heat out"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-plant-label",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Växtetikett",
+        "aliases": [
+          "odlingsetikett"
+        ],
+        "hints": {
+          "easy": "Visar vad du har sått",
+          "normal": "Skriv sorten och stick ner den",
+          "hard": "Minns skillnaden innan bladen syns"
+        }
+      },
+      "en": {
+        "word": "Plant label",
+        "aliases": [
+          "plant marker"
+        ],
+        "hints": {
+          "easy": "Names the plant beside a seedling",
+          "normal": "Write the variety and push it into soil",
+          "hard": "Useful before the leaves look different"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-plant-saucer",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Krukfat",
+        "aliases": [
+          "blomfat"
+        ],
+        "hints": {
+          "easy": "Samlar vatten under en kruka",
+          "normal": "En låg kant stoppar spridningen",
+          "hard": "Sparar fönsterbrädan från en ring"
+        }
+      },
+      "en": {
+        "word": "Plant saucer",
+        "aliases": [
+          "pot saucer"
+        ],
+        "hints": {
+          "easy": "Catches water beneath a flowerpot",
+          "normal": "A raised rim keeps drips contained",
+          "hard": "The windowsill stays free of rings"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-pole-pruner",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stångsekatör",
+        "aliases": [
+          "teleskopsekatör"
+        ],
+        "hints": {
+          "easy": "Klipper grenar ovanför huvudet från marken",
+          "normal": "Skaftet förlänger räckvidden",
+          "hard": "Du når kronan utan stege"
+        }
+      },
+      "en": {
+        "word": "Pole pruner",
+        "aliases": [],
+        "hints": {
+          "easy": "Snips high branches from ground level",
+          "normal": "Extend the shaft before cutting",
+          "hard": "The ladder stays in the shed"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-pruners",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sekatör",
+        "aliases": [
+          "beskärningssax"
+        ],
+        "hints": {
+          "easy": "Klipper små grenar med en hand",
+          "normal": "En fjäder öppnar handtagen igen",
+          "hard": "Lägg snittet ovanför en knopp"
+        }
+      },
+      "en": {
+        "word": "Pruning shears",
+        "aliases": [
+          "secateurs"
+        ],
+        "hints": {
+          "easy": "Snips live stems with one hand",
+          "normal": "A spring opens the jaws again",
+          "hard": "Cut just above an outward bud"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-pruning-saw",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grensåg",
+        "aliases": [
+          "beskärningssåg"
+        ],
+        "hints": {
+          "easy": "Sågar av en gren vid stammen",
+          "normal": "Grova tänder biter i färsk ved",
+          "hard": "Smal profil inne i kronan"
+        }
+      },
+      "en": {
+        "word": "Pruning saw",
+        "aliases": [],
+        "hints": {
+          "easy": "Cuts a branch too thick for shears",
+          "normal": "Coarse teeth work through green wood",
+          "hard": "Fresh sawdust falls with every pull"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-rain-barrel",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Regntunna",
+        "aliases": [
+          "vattentunna"
+        ],
+        "hints": {
+          "easy": "Samlar vatten från takets stuprör",
+          "normal": "En kran kan sitta nära botten",
+          "hard": "Fullare efter en skur"
+        }
+      },
+      "en": {
+        "word": "Rain barrel",
+        "aliases": [
+          "water butt"
+        ],
+        "hints": {
+          "easy": "Stores roof runoff for the garden",
+          "normal": "A downspout fills it from above",
+          "hard": "Less need for the outdoor tap"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-raised-bed",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Odlingslåda",
+        "aliases": [],
+        "hints": {
+          "easy": "Håller odlingsjord ovanför marknivå",
+          "normal": "En ram samlar jord för grönsakerna",
+          "hard": "Rabatten kommer närmare händerna"
+        }
+      },
+      "en": {
+        "word": "Raised bed",
+        "aliases": [
+          "raised garden bed"
+        ],
+        "hints": {
+          "easy": "Grows vegetables in soil above ground level",
+          "normal": "A frame holds the soil together",
+          "hard": "Less distance to bend for weeding"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-scarifier",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vertikalskärare",
+        "aliases": [],
+        "hints": {
+          "easy": "Skär bort filt från gräsmattan",
+          "normal": "Bladen räfsar upp dött material",
+          "hard": "Det kan se rufsigt ut precis efteråt"
+        }
+      },
+      "en": {
+        "word": "Lawn scarifier",
+        "aliases": [
+          "dethatcher"
+        ],
+        "hints": {
+          "easy": "Clears thatch from a lawn",
+          "normal": "Thin blades comb through dead growth",
+          "hard": "Expect a rough-looking surface afterwards"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-seed-tray",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Såbrätte",
+        "aliases": [
+          "pluggbrätte"
+        ],
+        "hints": {
+          "easy": "Startar många små plantor samtidigt",
+          "normal": "Små celler rymmer lite jord var",
+          "hard": "Rötterna får växa för sig"
+        }
+      },
+      "en": {
+        "word": "Seed tray",
+        "aliases": [
+          "seed starting tray"
+        ],
+        "hints": {
+          "easy": "Starts seedlings in a shallow tray",
+          "normal": "Each cell can hold a separate seedling",
+          "hard": "Young roots tend to stay apart"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-stand-up-weeder",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ogräsupptagare",
+        "aliases": [
+          "ogräsutdragare"
+        ],
+        "hints": {
+          "easy": "Drar upp maskros med roten",
+          "normal": "Trampa ned gripen runt stjälken",
+          "hard": "En liten grop blir kvar"
+        }
+      },
+      "en": {
+        "word": "Stand-up weeder",
+        "aliases": [
+          "dandelion puller"
+        ],
+        "hints": {
+          "easy": "Pulls a dandelion out by the root",
+          "normal": "Step down before levering back",
+          "hard": "A hole marks where the taproot was"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-string-trimmer",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grästrimmer",
+        "aliases": [
+          "kanttrimmer"
+        ],
+        "hints": {
+          "easy": "Slår av strån där klipparen inte kommer åt",
+          "normal": "En lina snurrar nära marken",
+          "hard": "Gå försiktigt runt trädstammen"
+        }
+      },
+      "en": {
+        "word": "String trimmer",
+        "aliases": [
+          "weed trimmer"
+        ],
+        "hints": {
+          "easy": "Cuts grass where the mower cannot reach",
+          "normal": "A spinning line does the cutting",
+          "hard": "Watch the bark as you go around"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-trellis",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spaljé",
+        "aliases": [
+          "växtspaljé"
+        ],
+        "hints": {
+          "easy": "Ger klätterväxter något att fästa i",
+          "normal": "Ett rutnät håller rankorna uppe",
+          "hard": "Ärtorna lämnar marken"
+        }
+      },
+      "en": {
+        "word": "Trellis",
+        "aliases": [
+          "garden trellis"
+        ],
+        "hints": {
+          "easy": "Supports climbing plants as they grow",
+          "normal": "A lattice gives tendrils places to grip",
+          "hard": "Peas can grow upward along it"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-watering-can",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vattenkanna",
+        "aliases": [
+          "vattenkanna med stril"
+        ],
+        "hints": {
+          "easy": "Häller vatten på krukväxter",
+          "normal": "Bär vatten i handtaget",
+          "hard": "En stril skonar späda skott"
+        }
+      },
+      "en": {
+        "word": "Watering can",
+        "aliases": [],
+        "hints": {
+          "easy": "Waters pots by hand",
+          "normal": "A long spout reaches under leaves",
+          "hard": "The rose softens the flow"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-wheelbarrow",
+    "category": "everyday",
+    "subcategory": "everyday-garden",
+    "tags": [
+      "gardening"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skottkärra",
+        "aliases": [],
+        "hints": {
+          "easy": "Kör jord på ett framhjul",
+          "normal": "Lyft båda handtagen för att rulla",
+          "hard": "Töm lasten genom att tippa"
+        }
+      },
+      "en": {
+        "word": "Wheelbarrow",
+        "aliases": [],
+        "hints": {
+          "easy": "Moves soil on a single front wheel",
+          "normal": "Lift both handles to roll it",
+          "hard": "Tipping forward unloads the tray"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-air-fryer",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Varmluftsfritös",
+        "aliases": [
+          "airfryer"
+        ],
+        "hints": {
+          "easy": "Gör pommes krispiga i cirkulerande varmluft",
+          "normal": "Skaka korgen halvvägs",
+          "hard": "Mycket yta och bara lite olja"
+        }
+      },
+      "en": {
+        "word": "Air fryer",
+        "aliases": [],
+        "hints": {
+          "easy": "Crisps fries with a fan and heat",
+          "normal": "Pull the basket out to shake it",
+          "hard": "Small batches brown quickly"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-baking-dish",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ugnsform",
+        "aliases": [
+          "gratängform"
+        ],
+        "hints": {
+          "easy": "Gratängen gräddas i den",
+          "normal": "Kanter håller såsen på plats",
+          "hard": "Från varm ugn direkt till bordet"
+        }
+      },
+      "en": {
+        "word": "Baking dish",
+        "aliases": [
+          "oven dish"
+        ],
+        "hints": {
+          "easy": "Bakes lasagna or a casserole",
+          "normal": "High edges hold in the sauce",
+          "hard": "Often serves straight from the oven"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-baking-sheet",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bakplåt",
+        "aliases": [
+          "ugnsplåt"
+        ],
+        "hints": {
+          "easy": "Platt metallbricka för ugnen",
+          "normal": "Kakor kan ligga glest på den",
+          "hard": "Skjuts in på en skena"
+        }
+      },
+      "en": {
+        "word": "Baking sheet",
+        "aliases": [
+          "baking tray"
+        ],
+        "hints": {
+          "easy": "A flat oven tray for biscuits",
+          "normal": "Lets a batch spread out",
+          "hard": "Slide it onto the rails"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-blender",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mixer",
+        "aliases": [
+          "kannmixer"
+        ],
+        "hints": {
+          "easy": "Gör smoothie av frukt i en kanna",
+          "normal": "Knivar snurrar nära botten",
+          "hard": "Locket stoppar virvelns stänk"
+        }
+      },
+      "en": {
+        "word": "Blender",
+        "aliases": [
+          "jug blender"
+        ],
+        "hints": {
+          "easy": "Turns fruit into a smoothie",
+          "normal": "A rotating blade works inside a jug",
+          "hard": "The lid keeps the swirl in"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bottle-opener",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kapsylöppnare",
+        "aliases": [],
+        "hints": {
+          "easy": "Bänder upp en metallkapsyl",
+          "normal": "Kroken greppar under kanten",
+          "hard": "Lämnar en böj i locket"
+        }
+      },
+      "en": {
+        "word": "Bottle opener",
+        "aliases": [],
+        "hints": {
+          "easy": "Pops the cap off a glass bottle",
+          "normal": "Levers up the crimped edge",
+          "hard": "A little click before pouring"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-box-grater",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rivjärn",
+        "aliases": [],
+        "hints": {
+          "easy": "Gör ost till strimlor",
+          "normal": "Gnid mot stansade hål",
+          "hard": "Fyra olika ytor"
+        }
+      },
+      "en": {
+        "word": "Box grater",
+        "aliases": [
+          "grater"
+        ],
+        "hints": {
+          "easy": "Shreds cheese by hand",
+          "normal": "Punched holes act as cutters",
+          "hard": "Coarse on one side"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bread-bin",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brödburk",
+        "aliases": [
+          "brödlåda"
+        ],
+        "hints": {
+          "easy": "Förvarar limpan på köksbänken",
+          "normal": "Ett lock gömmer dagens bakverk",
+          "hard": "Smörgåsen börjar här"
+        }
+      },
+      "en": {
+        "word": "Bread box",
+        "aliases": [
+          "bread bin"
+        ],
+        "hints": {
+          "easy": "Stores loaves on the counter",
+          "normal": "A lid hides the buns from view",
+          "hard": "Keeps the loaf close to the bread knife"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bread-knife",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brödkniv",
+        "aliases": [],
+        "hints": {
+          "easy": "Sågar igenom hård limpa",
+          "normal": "Tar skorpan utan att klämma",
+          "hard": "Raden av små tänder"
+        }
+      },
+      "en": {
+        "word": "Bread knife",
+        "aliases": [],
+        "hints": {
+          "easy": "Makes slices from a loaf",
+          "normal": "Serrations spare the soft middle",
+          "hard": "Crumbs track its path"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-can-opener",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Konservöppnare",
+        "aliases": [
+          "burköppnare"
+        ],
+        "hints": {
+          "easy": "Tar bort lock från plåtburkar",
+          "normal": "Följer kanten runt hela öppningen",
+          "hard": "Ett hjul biter i metallen"
+        }
+      },
+      "en": {
+        "word": "Can opener",
+        "aliases": [
+          "tin opener"
+        ],
+        "hints": {
+          "easy": "Cuts the lid off a tin",
+          "normal": "A wheel travels around the rim",
+          "hard": "When the circle closes it lifts"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-cheese-slicer",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Osthyvel",
+        "aliases": [],
+        "hints": {
+          "easy": "Drar tunna skivor från en ostbit",
+          "normal": "En skåra delar bladet",
+          "hard": "En jämn yta till nästa macka"
+        }
+      },
+      "en": {
+        "word": "Cheese slicer",
+        "aliases": [
+          "cheese plane"
+        ],
+        "hints": {
+          "easy": "Shaves slices from a block",
+          "normal": "One pull exposes a fresh surface",
+          "hard": "Flat edge with an open slot"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-chefs-knife",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kockkniv",
+        "aliases": [],
+        "hints": {
+          "easy": "Brett blad för att hacka",
+          "normal": "Rörelsen kan vagga",
+          "hard": "Knogen leder eggen"
+        }
+      },
+      "en": {
+        "word": "Chef’s knife",
+        "aliases": [
+          "cook’s knife"
+        ],
+        "hints": {
+          "easy": "Chops meat and vegetables",
+          "normal": "Curved edge for rocking",
+          "hard": "Knuckles guide the blade"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-citrus-juicer",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Citruspress",
+        "aliases": [],
+        "hints": {
+          "easy": "Pressar saft ur en halv citron",
+          "normal": "Frukten vrids mot en kon",
+          "hard": "Kärnorna kan bli kvar ovanför"
+        }
+      },
+      "en": {
+        "word": "Citrus juicer",
+        "aliases": [],
+        "hints": {
+          "easy": "Extracts juice from an orange half",
+          "normal": "Press and turn over a ridged cone",
+          "hard": "The seeds need to stay behind"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-coffee-grinder",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kaffekvarn",
+        "aliases": [],
+        "hints": {
+          "easy": "Maler hela kaffebönor",
+          "normal": "Justera hur grovt kornen blir",
+          "hard": "En ny doft innan bryggningen"
+        }
+      },
+      "en": {
+        "word": "Coffee grinder",
+        "aliases": [],
+        "hints": {
+          "easy": "Breaks roasted beans into grounds",
+          "normal": "Set the grind size for your brew",
+          "hard": "The smell arrives before the hot water"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-coffee-maker",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kaffebryggare",
+        "aliases": [
+          "filterbryggare"
+        ],
+        "hints": {
+          "easy": "Hett vatten droppar genom ett kaffefilter",
+          "normal": "Kannan står under tratten",
+          "hard": "Filtret lyfts bort efter frukosten"
+        }
+      },
+      "en": {
+        "word": "Drip coffee maker",
+        "aliases": [
+          "filter coffee maker"
+        ],
+        "hints": {
+          "easy": "Drips hot water through ground beans",
+          "normal": "A glass carafe gathers the brew",
+          "hard": "The paper goes in first"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-colander",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Durkslag",
+        "aliases": [],
+        "hints": {
+          "easy": "Häller av pastavattnet",
+          "normal": "Skål med hål och handtag",
+          "hard": "Ångan stiger ur vasken"
+        }
+      },
+      "en": {
+        "word": "Colander",
+        "aliases": [],
+        "hints": {
+          "easy": "Drains a pot of pasta",
+          "normal": "Large holes let water escape",
+          "hard": "Stand back from the steam"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-cookie-cutter",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pepparkaksform",
+        "aliases": [
+          "kakmått"
+        ],
+        "hints": {
+          "easy": "Stansar en figur ur kavlad deg",
+          "normal": "Tryck ned konturen och lyft",
+          "hard": "En stjärna i julbaket"
+        }
+      },
+      "en": {
+        "word": "Cookie cutter",
+        "aliases": [
+          "biscuit cutter"
+        ],
+        "hints": {
+          "easy": "Cuts shapes from a sheet of dough",
+          "normal": "Press the outline into the pastry",
+          "hard": "A gingerbread person starts flat"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-corkscrew",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Korkskruv",
+        "aliases": [
+          "vinöppnare"
+        ],
+        "hints": {
+          "easy": "Drar proppen ur vinflaskan",
+          "normal": "Spiralen vrids ner först",
+          "hard": "En hävarm gör jobbet lättare"
+        }
+      },
+      "en": {
+        "word": "Corkscrew",
+        "aliases": [],
+        "hints": {
+          "easy": "Pulls a wine stopper free",
+          "normal": "The helix bites as it turns",
+          "hard": "Some versions have two wings"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-cutting-board",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skärbräda",
+        "aliases": [],
+        "hints": {
+          "easy": "Under kniven när du hackar",
+          "normal": "Skyddar bänkskivan",
+          "hard": "Fina märken efter middagen"
+        }
+      },
+      "en": {
+        "word": "Cutting board",
+        "aliases": [
+          "chopping board"
+        ],
+        "hints": {
+          "easy": "A flat base for chopping",
+          "normal": "Saves the countertop",
+          "hard": "Grooves from years of prep"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-egg-timer",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Äggklocka",
+        "aliases": [],
+        "hints": {
+          "easy": "Ringer när koktiden är slut",
+          "normal": "Räknar baklänges från några minuter",
+          "hard": "Ett litet pling före frukost"
+        }
+      },
+      "en": {
+        "word": "Egg timer",
+        "aliases": [
+          "kitchen timer"
+        ],
+        "hints": {
+          "easy": "Rings when breakfast is ready to drain",
+          "normal": "Counts down the minutes you set",
+          "hard": "Helps keep the yolk soft"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-food-processor",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Matberedare",
+        "aliases": [],
+        "hints": {
+          "easy": "Hackar eller river med utbytbara skivor",
+          "normal": "En stadig skål står på motorn",
+          "hard": "Tryck ned råvaran i matarröret"
+        }
+      },
+      "en": {
+        "word": "Food processor",
+        "aliases": [],
+        "hints": {
+          "easy": "Chops and slices using swappable blades",
+          "normal": "A motor drives discs inside a bowl",
+          "hard": "Guide ingredients down the feed tube"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-frying-pan",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stekpanna",
+        "aliases": [],
+        "hints": {
+          "easy": "Steker ett ägg över värme",
+          "normal": "Bred botten med låga kanter",
+          "hard": "Där biffen får sin yta"
+        }
+      },
+      "en": {
+        "word": "Frying pan",
+        "aliases": [
+          "skillet"
+        ],
+        "hints": {
+          "easy": "Fries eggs on the stove",
+          "normal": "A wide base lets moisture escape",
+          "hard": "Listen for that first sizzle"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-funnel",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kökstratt",
+        "aliases": [],
+        "hints": {
+          "easy": "Hjälper dig hälla i en smal flaska",
+          "normal": "Vid upptill och smal nertill",
+          "hard": "Mindre spill på kanten"
+        }
+      },
+      "en": {
+        "word": "Funnel",
+        "aliases": [],
+        "hints": {
+          "easy": "Guides liquid into a bottle",
+          "normal": "A cone narrows to a tube",
+          "hard": "Keeps the counter dry"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-garlic-press",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vitlökspress",
+        "aliases": [],
+        "hints": {
+          "easy": "Krossar en klyfta mellan två handtag",
+          "normal": "Små bitar kommer ur hålen",
+          "hard": "Huden kan bli kvar i kammaren"
+        }
+      },
+      "en": {
+        "word": "Garlic press",
+        "aliases": [],
+        "hints": {
+          "easy": "Crushes a clove with a squeeze",
+          "normal": "Pulp emerges through small holes",
+          "hard": "The chamber keeps the papery skin"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-hand-mixer",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Elvisp",
+        "aliases": [],
+        "hints": {
+          "easy": "Vispar grädde med motor",
+          "normal": "Två löstagbara vispar roterar",
+          "hard": "Tryck ut tillbehören över diskhon"
+        }
+      },
+      "en": {
+        "word": "Hand mixer",
+        "aliases": [
+          "electric hand mixer"
+        ],
+        "hints": {
+          "easy": "Whips cream with powered beaters",
+          "normal": "Two attachments spin side by side",
+          "hard": "Eject the beaters over the sink"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-ice-cube-tray",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Isbitsform",
+        "aliases": [
+          "isbricka"
+        ],
+        "hints": {
+          "easy": "Fryser vatten i små fack",
+          "normal": "Vrid lätt för att lossa bitarna",
+          "hard": "Kvällens glas börjar i frysen"
+        }
+      },
+      "en": {
+        "word": "Ice cube tray",
+        "aliases": [
+          "ice tray"
+        ],
+        "hints": {
+          "easy": "Freezes water into individual blocks",
+          "normal": "Twist it to release the pieces",
+          "hard": "Starts with a careful walk to the freezer"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-immersion-blender",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stavmixer",
+        "aliases": [
+          "mixerstav"
+        ],
+        "hints": {
+          "easy": "Gör soppan slät direkt i grytan",
+          "normal": "Doppa bladet före start",
+          "hard": "Släta ut utan att hälla över"
+        }
+      },
+      "en": {
+        "word": "Immersion blender",
+        "aliases": [
+          "stick blender"
+        ],
+        "hints": {
+          "easy": "Purées soup right in the pot",
+          "normal": "Lower the guarded blade into liquid",
+          "hard": "Keeps the hot soup in one vessel"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kettle",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vattenkokare",
+        "aliases": [
+          "elkittel"
+        ],
+        "hints": {
+          "easy": "Kokar vatten till en kopp te",
+          "normal": "Ett klick när det är färdigt",
+          "hard": "Sladden kan sitta i hållaren"
+        }
+      },
+      "en": {
+        "word": "Electric kettle",
+        "aliases": [],
+        "hints": {
+          "easy": "Boils water before tea",
+          "normal": "A switch goes off at the boil",
+          "hard": "Lift it from its powered base"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kitchen-scale",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Köksvåg",
+        "aliases": [
+          "matvåg"
+        ],
+        "hints": {
+          "easy": "Väger ingredienser i gram",
+          "normal": "Nollställ med skålen på",
+          "hard": "Bakning utan volymmått"
+        }
+      },
+      "en": {
+        "word": "Kitchen scale",
+        "aliases": [
+          "food scale"
+        ],
+        "hints": {
+          "easy": "Weighs flour for a recipe",
+          "normal": "The display can subtract the bowl",
+          "hard": "Grams beat guesswork"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kitchen-shears",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kökssax",
+        "aliases": [],
+        "hints": {
+          "easy": "Klipper örter direkt över grytan",
+          "normal": "Två blad glider förbi varann",
+          "hard": "Leden behöver diskas"
+        }
+      },
+      "en": {
+        "word": "Kitchen shears",
+        "aliases": [
+          "kitchen scissors"
+        ],
+        "hints": {
+          "easy": "Snips herbs and trims poultry",
+          "normal": "Some pairs come apart for washing",
+          "hard": "A pivot does the work"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kitchen-thermometer",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stektermometer",
+        "aliases": [
+          "köttermometer"
+        ],
+        "hints": {
+          "easy": "Mäter temperaturen mitt i steken",
+          "normal": "Spetsen sticks in i tjockaste delen",
+          "hard": "Kontrollera graden utan att skära upp"
+        }
+      },
+      "en": {
+        "word": "Meat thermometer",
+        "aliases": [
+          "cooking thermometer"
+        ],
+        "hints": {
+          "easy": "Checks doneness inside a roast",
+          "normal": "The probe goes into the thickest part",
+          "hard": "Find out before slicing the joint"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kitchen-tongs",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stektång",
+        "aliases": [
+          "matlagningstång"
+        ],
+        "hints": {
+          "easy": "Greppar köttbiten för att vända den",
+          "normal": "Kläms ihop med ena handen",
+          "hard": "Håller fingrarna från hettan"
+        }
+      },
+      "en": {
+        "word": "Kitchen tongs",
+        "aliases": [
+          "cooking tongs"
+        ],
+        "hints": {
+          "easy": "Grips hot food at the grill",
+          "normal": "Two jaws close with a squeeze",
+          "hard": "Reach across the pan safely"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-ladle",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Soppslev",
+        "aliases": [
+          "össlev"
+        ],
+        "hints": {
+          "easy": "Öser upp soppa ur en gryta",
+          "normal": "Djup kupa med långt skaft",
+          "hard": "En portion utan att luta kastrullen"
+        }
+      },
+      "en": {
+        "word": "Ladle",
+        "aliases": [],
+        "hints": {
+          "easy": "Scoops stew into a bowl",
+          "normal": "The long handle reaches down",
+          "hard": "Carries a portion of broth"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-loaf-pan",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brödform",
+        "aliases": [],
+        "hints": {
+          "easy": "Ger brödet raka sidor i ugnen",
+          "normal": "Smeten hälls i en djup rektangel",
+          "hard": "Lika stora skivor i mitten"
+        }
+      },
+      "en": {
+        "word": "Loaf pan",
+        "aliases": [
+          "loaf tin"
+        ],
+        "hints": {
+          "easy": "Bakes a deep rectangular loaf",
+          "normal": "High sides guide the rise",
+          "hard": "Makes even slices for sandwiches"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-mandoline",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mandolin",
+        "aliases": [
+          "köksmandolin"
+        ],
+        "hints": {
+          "easy": "Skivar gurka lika tunt",
+          "normal": "Råvaran dras över bladet",
+          "hard": "Vakten skyddar fingrarna"
+        }
+      },
+      "en": {
+        "word": "Mandoline",
+        "aliases": [
+          "mandoline slicer"
+        ],
+        "hints": {
+          "easy": "Produces uniform slices",
+          "normal": "Slide a vegetable down the deck",
+          "hard": "Watch your fingers near the rail"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-measuring-cup",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Måttkanna",
+        "aliases": [
+          "litermått"
+        ],
+        "hints": {
+          "easy": "Visar hur mycket vätska du hällt upp",
+          "normal": "Markeringar längs sidan",
+          "hard": "Läs av i ögonhöjd"
+        }
+      },
+      "en": {
+        "word": "Measuring jug",
+        "aliases": [
+          "measuring pitcher"
+        ],
+        "hints": {
+          "easy": "Measures out milk or water",
+          "normal": "Volume marks beside a spout",
+          "hard": "Check the line at eye level"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-mixing-bowl",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bunke",
+        "aliases": [
+          "blandningsskål"
+        ],
+        "hints": {
+          "easy": "Där du rör ihop smeten",
+          "normal": "Djupa rundade sidor",
+          "hard": "Håll kanten när det går fort"
+        }
+      },
+      "en": {
+        "word": "Mixing bowl",
+        "aliases": [],
+        "hints": {
+          "easy": "Holds batter while you stir",
+          "normal": "Depth keeps splashes in",
+          "hard": "Brace the rim with one hand"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-mortar-pestle",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mortel och stöt",
+        "aliases": [
+          "mortel"
+        ],
+        "hints": {
+          "easy": "Stöter hela kryddor för hand",
+          "normal": "Tung skål med ett rundat redskap",
+          "hard": "Doften kommer fram under tryck"
+        }
+      },
+      "en": {
+        "word": "Mortar and pestle",
+        "aliases": [],
+        "hints": {
+          "easy": "Crushes spices in a stone bowl",
+          "normal": "Grind by circling the base",
+          "hard": "Pepper releases its aroma"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-pastry-brush",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bakpensel",
+        "aliases": [
+          "brödpensel"
+        ],
+        "hints": {
+          "easy": "Stryker ägg över degen",
+          "normal": "Tunna strån fördelar glasyren",
+          "hard": "Glans på bullen före ugnen"
+        }
+      },
+      "en": {
+        "word": "Pastry brush",
+        "aliases": [
+          "basting brush"
+        ],
+        "hints": {
+          "easy": "Coats pastry with egg wash",
+          "normal": "Bristles spread a thin glaze",
+          "hard": "Gloss before the oven"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-peeler",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Potatisskalare",
+        "aliases": [
+          "skalare"
+        ],
+        "hints": {
+          "easy": "Drar av skalet i remsor",
+          "normal": "Moroten blir jämnt slät",
+          "hard": "Tunna band hamnar i vasken"
+        }
+      },
+      "en": {
+        "word": "Vegetable peeler",
+        "aliases": [
+          "potato peeler"
+        ],
+        "hints": {
+          "easy": "Strips the skin from potatoes",
+          "normal": "A narrow slot houses the edge",
+          "hard": "Ribbons beside the sink"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-pizza-cutter",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pizzaskärare",
+        "aliases": [
+          "pizzahjul"
+        ],
+        "hints": {
+          "easy": "Delar en rund botten i bitar",
+          "normal": "Ett vasst hjul rullar fram",
+          "hard": "Skorpan ger motstånd i slutet"
+        }
+      },
+      "en": {
+        "word": "Pizza cutter",
+        "aliases": [
+          "pizza wheel"
+        ],
+        "hints": {
+          "easy": "Slices baked dough and toppings",
+          "normal": "A sharp wheel rolls through",
+          "hard": "Meet each cut in the middle"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-pressure-cooker",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tryckkokare",
+        "aliases": [],
+        "hints": {
+          "easy": "Kokar snabbt under tätt lock",
+          "normal": "Ånga släpps ut genom en ventil",
+          "hard": "Vänta tills spärren släpper"
+        }
+      },
+      "en": {
+        "word": "Pressure cooker",
+        "aliases": [],
+        "hints": {
+          "easy": "Cooks beans quickly in a sealed pot",
+          "normal": "A valve controls escaping steam",
+          "hard": "Let the lock release before lifting"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-rolling-pin",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kavel",
+        "aliases": [],
+        "hints": {
+          "easy": "Plattar ut degen före gräddning",
+          "normal": "Cylindern går fram och tillbaka",
+          "hard": "Pudra arbetsytan först"
+        }
+      },
+      "en": {
+        "word": "Rolling pin",
+        "aliases": [],
+        "hints": {
+          "easy": "Flattens dough for pastry",
+          "normal": "A cylinder passes over the sheet",
+          "hard": "Dust the bench first"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-rubber-spatula",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Slickepott",
+        "aliases": [],
+        "hints": {
+          "easy": "Skrapar ut det sista ur bunken",
+          "normal": "Följsam kant mot rund botten",
+          "hard": "Inga strimmor kvar i skålen"
+        }
+      },
+      "en": {
+        "word": "Rubber spatula",
+        "aliases": [
+          "silicone spatula"
+        ],
+        "hints": {
+          "easy": "Scrapes batter from a bowl",
+          "normal": "A flexible edge follows the curve",
+          "hard": "Gets the last ribbon of cake mix"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-salad-spinner",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Salladsslunga",
+        "aliases": [],
+        "hints": {
+          "easy": "Torkar sköljda blad genom att snurra",
+          "normal": "Korgen skickar dropparna utåt",
+          "hard": "Dressingen späds inte av vatten"
+        }
+      },
+      "en": {
+        "word": "Salad spinner",
+        "aliases": [],
+        "hints": {
+          "easy": "Dries washed greens by spinning",
+          "normal": "Water flies outward from the basket",
+          "hard": "A dry leaf holds the dressing"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-saucepan",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kastrull",
+        "aliases": [],
+        "hints": {
+          "easy": "Kokar vatten på spisen",
+          "normal": "Höga kanter och ett långt handtag",
+          "hard": "Locket klapprar när det sjuder"
+        }
+      },
+      "en": {
+        "word": "Saucepan",
+        "aliases": [],
+        "hints": {
+          "easy": "Heats milk or simmers sauce",
+          "normal": "One handle sticks out from the hob",
+          "hard": "A lid holds the steam in"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-sieve",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kökssil",
+        "aliases": [
+          "sil"
+        ],
+        "hints": {
+          "easy": "Siktar mjöl genom nät",
+          "normal": "Fångar klumpar i vägen",
+          "hard": "En lätt knackning räcker"
+        }
+      },
+      "en": {
+        "word": "Kitchen sieve",
+        "aliases": [
+          "sieve"
+        ],
+        "hints": {
+          "easy": "Sifts flour or strains seeds",
+          "normal": "Fine mesh catches the lumps",
+          "hard": "Tap the rim to finish"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-slotted-spoon",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hålslev",
+        "aliases": [
+          "skumslev"
+        ],
+        "hints": {
+          "easy": "Lyfter matbitar ur kokvattnet",
+          "normal": "Vätskan rinner tillbaka genom hålen",
+          "hard": "En omväg runt avhällningen"
+        }
+      },
+      "en": {
+        "word": "Slotted spoon",
+        "aliases": [],
+        "hints": {
+          "easy": "Lifts dumplings from the pot",
+          "normal": "Openings let the broth run back",
+          "hard": "Only the solids reach the plate"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-springform-pan",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Springform",
+        "aliases": [],
+        "hints": {
+          "easy": "Kakform med löstagbar kant",
+          "normal": "Ett spänne öppnar metallringen",
+          "hard": "Tårtan slipper vändas upp och ner"
+        }
+      },
+      "en": {
+        "word": "Springform pan",
+        "aliases": [
+          "springform tin"
+        ],
+        "hints": {
+          "easy": "A cake pan with removable sides",
+          "normal": "Unlatch the metal collar",
+          "hard": "Lets cheesecake stay upright"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-stockpot",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Buljonggryta",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor djup gryta för att koka fond",
+          "normal": "Två öron för att bära vikten",
+          "hard": "Ben och grönsaker får sjuda länge"
+        }
+      },
+      "en": {
+        "word": "Stockpot",
+        "aliases": [],
+        "hints": {
+          "easy": "A tall pot for simmering bones",
+          "normal": "Room for several litres of broth",
+          "hard": "Good when the recipe says to feed a crowd"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-toaster",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brödrost",
+        "aliases": [],
+        "hints": {
+          "easy": "Rostar skivor till frukost",
+          "normal": "Brödet hoppar upp ur springorna",
+          "hard": "Smulor på en liten utdragbar bricka"
+        }
+      },
+      "en": {
+        "word": "Toaster",
+        "aliases": [],
+        "hints": {
+          "easy": "Browns sliced bread by radiant heat",
+          "normal": "Breakfast pops up when ready",
+          "hard": "The crumb tray fills slowly"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-turner",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stekspade",
+        "aliases": [],
+        "hints": {
+          "easy": "Vänder pannkakan i pannan",
+          "normal": "Platt blad glider under maten",
+          "hard": "Kanten lyfter den brynta sidan"
+        }
+      },
+      "en": {
+        "word": "Turner",
+        "aliases": [
+          "spatula"
+        ],
+        "hints": {
+          "easy": "Flips a burger or pancake",
+          "normal": "A thin blade slides underneath",
+          "hard": "The browned side comes up"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-waffle-iron",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Våffeljärn",
+        "aliases": [
+          "våffelgräddare"
+        ],
+        "hints": {
+          "easy": "Gräddar smet mellan två heta plattor",
+          "normal": "Rutorna formas av ytan",
+          "hard": "Fickor för sylt och grädde"
+        }
+      },
+      "en": {
+        "word": "Waffle iron",
+        "aliases": [
+          "waffle maker"
+        ],
+        "hints": {
+          "easy": "Cooks batter between patterned plates",
+          "normal": "Steam escapes from the hinged lid",
+          "hard": "Pockets that catch the syrup"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-whisk",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Visp",
+        "aliases": [
+          "ballongvisp"
+        ],
+        "hints": {
+          "easy": "Slår grädde fluffig för hand",
+          "normal": "Böjda trådar fångar luft",
+          "hard": "Smeten får färre klumpar"
+        }
+      },
+      "en": {
+        "word": "Whisk",
+        "aliases": [
+          "balloon whisk"
+        ],
+        "hints": {
+          "easy": "Beats eggs with wire loops",
+          "normal": "Adds air with quick strokes",
+          "hard": "Smooth sauce starts here"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-wok",
+    "category": "everyday",
+    "subcategory": "everyday-kitchen",
+    "tags": [
+      "cooking"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Wokpanna",
+        "aliases": [
+          "wok"
+        ],
+        "hints": {
+          "easy": "Djup panna för snabb stekning",
+          "normal": "Flytta maten längs sluttande sidor",
+          "hard": "Råvarorna kommer i snabb följd"
+        }
+      },
+      "en": {
+        "word": "Wok",
+        "aliases": [],
+        "hints": {
+          "easy": "Deep pan used for stir frying",
+          "normal": "Sloping sides help toss the contents",
+          "hard": "Lots of heat and quick hands"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-arkivbox",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Arkivbox",
+        "aliases": [
+          "Arkivkartong"
+        ],
+        "hints": {
+          "easy": "Stängd kartong för dokument som ska sparas",
+          "normal": "En etikett på gaveln gör stapeln sökbar",
+          "hard": "Kan packas undan när ärenden har avslutats"
+        }
+      },
+      "en": {
+        "word": "Archive box",
+        "aliases": [
+          "Records box",
+          "Archive carton"
+        ],
+        "hints": {
+          "easy": "A lidded carton for records that need keeping",
+          "normal": "End labels stay visible in stacked storage",
+          "hard": "Holds completed files away from active work"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-arkivskap",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Arkivskåp",
+        "aliases": [
+          "Arkivskåp med lådor"
+        ],
+        "hints": {
+          "easy": "Utdragbara lådor samlar pärmar och mappar",
+          "normal": "Dokumentens ryggar syns när lådan öppnas",
+          "hard": "En låsmekanism kan säkra hela stapeln"
+        }
+      },
+      "en": {
+        "word": "Filing cabinet",
+        "aliases": [
+          "File cabinet"
+        ],
+        "hints": {
+          "easy": "Drawers store sorted business records",
+          "normal": "File tabs come into view as a drawer opens",
+          "hard": "A single lock may secure every drawer"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-brevkniv",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brevkniv",
+        "aliases": [
+          "Brevöppnare"
+        ],
+        "hints": {
+          "easy": "Förs in under kuvertets flik för att öppna det",
+          "normal": "En trubbig spets räcker om pappret är spänt",
+          "hard": "Innehållet håller sig helt när verktyget följer falsen"
+        }
+      },
+      "en": {
+        "word": "Letter opener",
+        "aliases": [
+          "Envelope opener"
+        ],
+        "hints": {
+          "easy": "Slips under an envelope flap to open it",
+          "normal": "A dull point works on taut paper",
+          "hard": "Following the fold keeps the contents intact"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-brevkorg",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brevkorg",
+        "aliases": [
+          "Dokumentbricka"
+        ],
+        "hints": {
+          "easy": "Öppen grund låda för inkommande papper",
+          "normal": "Flera kan staplas för olika steg i ett ärende",
+          "hard": "Handlingarna ligger flata i väntan på beslut"
+        }
+      },
+      "en": {
+        "word": "Document tray",
+        "aliases": [
+          "Letter tray",
+          "In tray"
+        ],
+        "hints": {
+          "easy": "Shallow open holder for incoming papers",
+          "normal": "Stack several to sort work by stage",
+          "hard": "Pages lie flat while decisions are pending"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-brevstall",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brevställ",
+        "aliases": [
+          "Postställ"
+        ],
+        "hints": {
+          "easy": "Smala fack håller posten upprätt",
+          "normal": "Olika kuvert kan stå i olika sektioner",
+          "hard": "Innehållet känns igen på överkanten"
+        }
+      },
+      "en": {
+        "word": "Letter rack",
+        "aliases": [
+          "Mail sorter"
+        ],
+        "hints": {
+          "easy": "Slotted holder that keeps mail upright",
+          "normal": "Envelopes can be sorted into sections",
+          "hard": "The tops remain visible for quick retrieval"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-brevvag",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brevvåg",
+        "aliases": [
+          "Postvåg"
+        ],
+        "hints": {
+          "easy": "Väger försändelser innan rätt porto väljs",
+          "normal": "Små skillnader kan ändra frimärkeskostnaden",
+          "hard": "En extra bilaga kan flytta nålen till nästa intervall"
+        }
+      },
+      "en": {
+        "word": "Postal scale",
+        "aliases": [
+          "Letter scale"
+        ],
+        "hints": {
+          "easy": "Weighs outgoing mail before it is stamped",
+          "normal": "Small differences can move an item into a higher rate",
+          "hard": "One more enclosure can tip the reading past a threshold"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-datumstampel",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Datumstämpel",
+        "aliases": [],
+        "hints": {
+          "easy": "Trycker dagens siffror på en handling",
+          "normal": "Små hjul eller band ställs om varje morgon",
+          "hard": "Ett avtryck kan visa när posten kom in"
+        }
+      },
+      "en": {
+        "word": "Date stamp",
+        "aliases": [
+          "Dater stamp"
+        ],
+        "hints": {
+          "easy": "Imprints the day, month and year on a page",
+          "normal": "Small bands or wheels turn to change the digits",
+          "hard": "A quick impression can record when mail arrived"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-dokumentforstorare",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dokumentförstörare",
+        "aliases": [
+          "Pappersstrimlare"
+        ],
+        "hints": {
+          "easy": "Skär känsliga dokument till remsor eller små bitar",
+          "normal": "Pappret matas genom en smal skåra",
+          "hard": "En behållare fylls med oläsliga rester"
+        }
+      },
+      "en": {
+        "word": "Paper shredder",
+        "aliases": [
+          "Shredder"
+        ],
+        "hints": {
+          "easy": "Slices sensitive paperwork into strips or confetti",
+          "normal": "Sheets feed through a narrow opening",
+          "hard": "The bin fills with unreadable scraps"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-etikettdispenser",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Etikettdispenser",
+        "aliases": [
+          "Etikettavrullare"
+        ],
+        "hints": {
+          "easy": "Matar fram självhäftande märken från en rulle",
+          "normal": "Bärpappret viks skarpt så att märket lossnar",
+          "hard": "Gör varje ny flik gripbar med en hand"
+        }
+      },
+      "en": {
+        "word": "Label dispenser",
+        "aliases": [
+          "Label peeler"
+        ],
+        "hints": {
+          "easy": "Feeds adhesive labels from a roll",
+          "normal": "The backing bends sharply to release each sticker",
+          "hard": "Keeps the next tab within one-handed reach"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-frankeringsmaskin",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Frankeringsmaskin",
+        "aliases": [],
+        "hints": {
+          "easy": "Trycker betalt porto på utgående post",
+          "normal": "Kan ersätta frimärken när många brev skickas",
+          "hard": "Varje avtryck drar av värde från ett förbetalt saldo"
+        }
+      },
+      "en": {
+        "word": "Postage meter",
+        "aliases": [
+          "Franking machine"
+        ],
+        "hints": {
+          "easy": "Prints proof of paid postage on outgoing mail",
+          "normal": "Replaces individual stamps for batches of letters",
+          "hard": "Each impression deducts value from a credit balance"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-hangmapp",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hängmapp",
+        "aliases": [],
+        "hints": {
+          "easy": "Pappersfodral som vilar med krokar på två skenor",
+          "normal": "En flik sticker upp med innehållets namn",
+          "hard": "Dokument kan lyftas ur utan att lossas från en klämma"
+        }
+      },
+      "en": {
+        "word": "Hanging file folder",
+        "aliases": [
+          "Suspension file",
+          "Hanging folder"
+        ],
+        "hints": {
+          "easy": "A folded cover hangs from rails by small hooks",
+          "normal": "A raised tab identifies the contents",
+          "hard": "Loose pages can lift out without undoing a clip"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-karbonpapper",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Karbonpapper",
+        "aliases": [
+          "Genomslagspapper"
+        ],
+        "hints": {
+          "easy": "Ett färgat mellanark kopierar det man skriver",
+          "normal": "Penntryck lämnar märken på bladet under",
+          "hard": "Manuell kvittering kunde ge två exemplar på en gång"
+        }
+      },
+      "en": {
+        "word": "Carbon paper",
+        "aliases": [],
+        "hints": {
+          "easy": "A coated interleaf copies handwriting onto the sheet below",
+          "normal": "Pressure transfers the pigment to a second page",
+          "hard": "One signature could create two records at once"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kassaskrin",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kassaskrin",
+        "aliases": [
+          "Penningkassett"
+        ],
+        "hints": {
+          "easy": "Låst liten låda för sedlar och mynt",
+          "normal": "En insats delar upp olika valörer",
+          "hard": "Dagens växelkassa kan bäras i ett handtag"
+        }
+      },
+      "en": {
+        "word": "Cash box",
+        "aliases": [
+          "Petty cash box"
+        ],
+        "hints": {
+          "easy": "A small lockable container for notes and coins",
+          "normal": "Its insert separates denominations",
+          "hard": "A carry handle lets you move the float"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kortregister",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kortregister",
+        "aliases": [
+          "Kartotek"
+        ],
+        "hints": {
+          "easy": "Små kort ordnade efter namn i en låda",
+          "normal": "Flikar delar upp alfabetet i grupper",
+          "hard": "En adress kan plockas fram genom att bläddra med ett finger"
+        }
+      },
+      "en": {
+        "word": "Card file",
+        "aliases": [
+          "Card index",
+          "Card catalogue"
+        ],
+        "hints": {
+          "easy": "Stores small reference cards in order",
+          "normal": "Tabbed dividers split up the alphabet",
+          "hard": "A fingertip can flip straight to a contact"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kvittensblock",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kvittensblock",
+        "aliases": [
+          "Kvittoblock"
+        ],
+        "hints": {
+          "easy": "Block med avrivbara intyg på betalning",
+          "normal": "Belopp och datum har egna rader",
+          "hard": "Ett exemplar går med kunden medan kopian stannar kvar"
+        }
+      },
+      "en": {
+        "word": "Receipt book",
+        "aliases": [
+          "Receipt pad"
+        ],
+        "hints": {
+          "easy": "A pad of tear-out acknowledgements of payment",
+          "normal": "Amount and date have spaces of their own",
+          "hard": "One copy goes with the buyer while the other stays behind"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-lamineringsmaskin",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lamineringsmaskin",
+        "aliases": [
+          "Laminator"
+        ],
+        "hints": {
+          "easy": "Förseglar papper i ett genomskinligt plastfodral",
+          "normal": "En meny kan torkas av efteråt",
+          "hard": "Uppvärmda valsar kan foga samman kanterna"
+        }
+      },
+      "en": {
+        "word": "Laminator",
+        "aliases": [
+          "Laminating machine"
+        ],
+        "hints": {
+          "easy": "Seals a sheet inside clear plastic",
+          "normal": "A finished menu can be wiped clean",
+          "hard": "Heated rollers can fuse the pouch edges"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-pappersskarare",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pappersskärare",
+        "aliases": [
+          "Skärmaskin för papper"
+        ],
+        "hints": {
+          "easy": "En lång svängbar klinga skär en rak papperskant",
+          "normal": "Arken riktas in mot en tryckt skala",
+          "hard": "Hävarmen kan skära genom flera lager samtidigt"
+        }
+      },
+      "en": {
+        "word": "Guillotine paper cutter",
+        "aliases": [
+          "Paper guillotine",
+          "Guillotine cutter"
+        ],
+        "hints": {
+          "easy": "A long hinged blade trims paper in one straight cut",
+          "normal": "Sheets line up against a ruled guide",
+          "hard": "Leverage lets it slice several layers at once"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-pragelstampel",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Prägelstämpel",
+        "aliases": [
+          "Blindprägelstämpel"
+        ],
+        "hints": {
+          "easy": "Pressar ett upphöjt märke i papper",
+          "normal": "Ett sigill känns med fingertoppen",
+          "hard": "Två motformar skapar avtrycket utan stämpeldyna"
+        }
+      },
+      "en": {
+        "word": "Embossing seal",
+        "aliases": [
+          "Embosser",
+          "Seal press"
+        ],
+        "hints": {
+          "easy": "Presses a raised mark into paper",
+          "normal": "You can feel the certification under a fingertip",
+          "hard": "Two matched dies leave their mark without ink"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-signeringsmapp",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Signeringsmapp",
+        "aliases": [
+          "Underskriftsmapp"
+        ],
+        "hints": {
+          "easy": "Flikindelad mapp för handlingar som ska skrivas under",
+          "normal": "Sidor kan hållas isär efter vem som ska godkänna dem",
+          "hard": "På vissa modeller visar ett hål om ett fack innehåller ett ark"
+        }
+      },
+      "en": {
+        "word": "Signature folder",
+        "aliases": [
+          "Signing folder"
+        ],
+        "hints": {
+          "easy": "A tabbed folder routes papers for approval and signing",
+          "normal": "Separators keep sheets for different signers apart",
+          "hard": "A cutout can show whether a slot is occupied"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-skrivbordsunderlag",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skrivbordsunderlägg",
+        "aliases": [
+          "Skrivunderlägg"
+        ],
+        "hints": {
+          "easy": "Platt underlag som skyddar arbetsytan",
+          "normal": "Pennan får lite eftergift när man skriver",
+          "hard": "Hörnen kan hålla en lapp inom synhåll"
+        }
+      },
+      "en": {
+        "word": "Desk pad",
+        "aliases": [
+          "Desk blotter",
+          "Desk mat"
+        ],
+        "hints": {
+          "easy": "A broad mat protects the work surface",
+          "normal": "Gives slightly under the pressure of a pen",
+          "hard": "Corner tabs can hold a reminder in view"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-spiralbindare",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spiralbindare",
+        "aliases": [
+          "Plastspiralbindare"
+        ],
+        "hints": {
+          "easy": "Hålar en kant och fäster arken i en plastkam",
+          "normal": "Rapporten kan öppnas och vikas längs ryggen",
+          "hard": "En spak särar på bindningens krokar före påträdning"
+        }
+      },
+      "en": {
+        "word": "Comb binding machine",
+        "aliases": [
+          "Comb binder"
+        ],
+        "hints": {
+          "easy": "Punches the edge of a stack for a plastic comb",
+          "normal": "Pages can turn around the spine after binding",
+          "hard": "A lever spreads the curved fingers to load the pages"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-vaggplanerare",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Väggplanerare",
+        "aliases": [
+          "Planeringstavla"
+        ],
+        "hints": {
+          "easy": "En hel kalenderöversikt hänger synlig på kontoret",
+          "normal": "Kollegor kan läsa av gemensamma tidsfrister",
+          "hard": "En tom ruta kan visa utrymme för ett nytt möte"
+        }
+      },
+      "en": {
+        "word": "Wall planner",
+        "aliases": [
+          "Wall calendar planner"
+        ],
+        "hints": {
+          "easy": "A large calendar puts schedules in public view",
+          "normal": "Colleagues can check shared deadlines at a glance",
+          "hard": "An empty square shows where a meeting might fit"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-visitkortsstall",
+    "category": "everyday",
+    "subcategory": "everyday-office",
+    "tags": [
+      "office"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Visitkortsställ",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten hållare visar kontaktkort vid en disk",
+          "normal": "En lutande rygg håller bunten upprätt",
+          "hard": "Framsidan lämnas öppen så att besökaren kan ta ett exemplar"
+        }
+      },
+      "en": {
+        "word": "Business card holder",
+        "aliases": [
+          "Business card stand"
+        ],
+        "hints": {
+          "easy": "A little stand displays contact cards on a counter",
+          "normal": "A sloped back supports the stack",
+          "hard": "The front is open so visitors can take one"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bandsag",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bandsåg",
+        "aliases": [],
+        "hints": {
+          "easy": "En ändlös tandad slinga skär genom materialet",
+          "normal": "Arbetsbiten förs för hand över ett sågbord",
+          "hard": "Två hjul håller det smala bladet i rörelse"
+        }
+      },
+      "en": {
+        "word": "Band saw",
+        "aliases": [
+          "Bandsaw"
+        ],
+        "hints": {
+          "easy": "An endless toothed loop cuts the material",
+          "normal": "The workpiece is fed across a table",
+          "hard": "Two wheels keep the blade moving"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bandslip",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bandslip",
+        "aliases": [],
+        "hints": {
+          "easy": "Rörligt slippapper jämnar av trä snabbt",
+          "normal": "En remsa går runt två rullar",
+          "hard": "Stannar handen för länge uppstår en grop"
+        }
+      },
+      "en": {
+        "word": "Belt sander",
+        "aliases": [],
+        "hints": {
+          "easy": "A moving abrasive belt flattens wood fast",
+          "normal": "A continuous strip runs around two rollers",
+          "hard": "Lingering in one spot can carve a dip"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-blocknyckel",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Blocknyckel",
+        "aliases": [
+          "Kombinyckel"
+        ],
+        "hints": {
+          "easy": "En öppen och en sluten ände för muttrar",
+          "normal": "Samma greppvidd i båda ändar",
+          "hard": "Den slutna sidan griper runt alla flatsidor"
+        }
+      },
+      "en": {
+        "word": "Combination wrench",
+        "aliases": [
+          "Combination spanner"
+        ],
+        "hints": {
+          "easy": "Has an open end and a ring end",
+          "normal": "Both ends usually match the same nut",
+          "hard": "One end surrounds all the flats"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-borrhammare",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Borrhammare",
+        "aliases": [],
+        "hints": {
+          "easy": "Slår och roterar när den gör hål i betong",
+          "normal": "Lämnar grått damm kring en hård vägg",
+          "hard": "Specialfästet låter spetsen röra sig i längdriktningen"
+        }
+      },
+      "en": {
+        "word": "Rotary hammer",
+        "aliases": [],
+        "hints": {
+          "easy": "Makes holes in concrete with strong axial blows",
+          "normal": "Can leave a ring of grey dust on the wall",
+          "hard": "A sliding shank helps transfer the blows"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-borrmaskin",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Borrmaskin",
+        "aliases": [],
+        "hints": {
+          "easy": "Roterande spiral gör hål i trä eller metall",
+          "normal": "Spännhylsan håller den utbytbara spetsen",
+          "hard": "Spån transporteras bakåt längs en spiral"
+        }
+      },
+      "en": {
+        "word": "Power drill",
+        "aliases": [
+          "Electric drill"
+        ],
+        "hints": {
+          "easy": "A spinning bit makes holes",
+          "normal": "A chuck grips the interchangeable bit",
+          "hard": "Shavings climb out of the hole in flutes"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-bultsax",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bultsax",
+        "aliases": [],
+        "hints": {
+          "easy": "Klipper av grova länkar med två långa handtag",
+          "normal": "Hävstänger ger käftarna stor kraft",
+          "hard": "En kättinglänk kan lämnas delad i två"
+        }
+      },
+      "en": {
+        "word": "Bolt cutters",
+        "aliases": [
+          "Bolt cropper"
+        ],
+        "hints": {
+          "easy": "Long handles cut through heavy metal links",
+          "normal": "Compound leverage multiplies the grip force",
+          "hard": "A chain link can be left in two pieces"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-cirkelsag",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cirkelsåg",
+        "aliases": [],
+        "hints": {
+          "easy": "Handhållen maskin med tandad rundklinga",
+          "normal": "Gör raka snitt längs en styrskena",
+          "hard": "En del av skyddet fjädrar undan i snittet"
+        }
+      },
+      "en": {
+        "word": "Circular saw",
+        "aliases": [],
+        "hints": {
+          "easy": "A handheld tool cuts with a spinning toothed blade",
+          "normal": "Follows a guide for long straight cuts",
+          "hard": "Part of its guard retracts as it enters the cut"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-excenterslip",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Excenterslip",
+        "aliases": [],
+        "hints": {
+          "easy": "Rund slippad vibrerar och roterar samtidigt",
+          "normal": "Lämnar färre synliga cirkelspår i träet",
+          "hard": "Hål i skivan låter dammet sugas undan"
+        }
+      },
+      "en": {
+        "word": "Random orbital sander",
+        "aliases": [
+          "Random orbit sander"
+        ],
+        "hints": {
+          "easy": "A round pad spins and moves off centre",
+          "normal": "The overlapping paths soften sanding marks",
+          "hard": "Holes in the backing pad let dust escape"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-fargskrapa",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Färgskrapa",
+        "aliases": [],
+        "hints": {
+          "easy": "Drar bort flagor från en målad yta",
+          "normal": "Ett hårt blad följer träets riktning",
+          "hard": "Nytt lager fäster bättre när det gamla sitter stadigt"
+        }
+      },
+      "en": {
+        "word": "Paint scraper",
+        "aliases": [],
+        "hints": {
+          "easy": "Lifts flakes from a coated surface",
+          "normal": "Work with the grain to limit gouges",
+          "hard": "Loose edges need to go before recoating"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-fettpress",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fettpress",
+        "aliases": [
+          "Smörjspruta"
+        ],
+        "hints": {
+          "easy": "Pumpar smörjmedel genom en nippel",
+          "normal": "En patron matar trögflytande massa till en led",
+          "hard": "En smal slang når in bakom skyddet"
+        }
+      },
+      "en": {
+        "word": "Grease gun",
+        "aliases": [],
+        "hints": {
+          "easy": "Pumps lubricant into a fitting",
+          "normal": "A cartridge supplies thick lubricant to moving joints",
+          "hard": "A short hose reaches behind a guard"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-fogpistol",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fogpistol",
+        "aliases": [
+          "Silikonpistol"
+        ],
+        "hints": {
+          "easy": "Pressar tätningsmassa ur en patron",
+          "normal": "Avtryckaren flyttar en kolv stegvis",
+          "hard": "Den snedskurna pipen bestämmer strängens bredd"
+        }
+      },
+      "en": {
+        "word": "Caulking gun",
+        "aliases": [
+          "Caulk gun",
+          "Sealant gun"
+        ],
+        "hints": {
+          "easy": "Squeezes sealant out of a cartridge",
+          "normal": "The trigger advances a plunger a little at a time",
+          "hard": "An angled nozzle sets the bead width"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-griptang",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Griptång",
+        "aliases": [
+          "Svetstång"
+        ],
+        "hints": {
+          "easy": "Käftarna sitter kvar utan handkraft",
+          "normal": "Förspänningen ställs i handtagets bakände",
+          "hard": "Ett extra reglage släpper greppet"
+        }
+      },
+      "en": {
+        "word": "Locking pliers",
+        "aliases": [
+          "Vise-Grips",
+          "Mole grips"
+        ],
+        "hints": {
+          "easy": "Jaws clamp shut and hold on their own",
+          "normal": "A screw at the handle sets the bite",
+          "hard": "A release lever breaks the hold"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-gummiklubba",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gummiklubba",
+        "aliases": [],
+        "hints": {
+          "easy": "Slår utan att märka ömtåliga ytor",
+          "normal": "Knackar ihop golvbrädor",
+          "hard": "Studsar när underlaget gör motstånd"
+        }
+      },
+      "en": {
+        "word": "Rubber mallet",
+        "aliases": [
+          "Mallet"
+        ],
+        "hints": {
+          "easy": "Taps joints together without denting them",
+          "normal": "A forgiving head for a firm blow",
+          "hard": "Will often bounce off a hard surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-haftpistol",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Häftpistol",
+        "aliases": [
+          "Klammerpistol"
+        ],
+        "hints": {
+          "easy": "Trycker in metallklamrar i trä eller tyg",
+          "normal": "Används till att klä om en sits",
+          "hard": "Magasinet rymmer en lång rad byglar"
+        }
+      },
+      "en": {
+        "word": "Staple gun",
+        "aliases": [
+          "Staple tacker"
+        ],
+        "hints": {
+          "easy": "Fires metal fasteners into wood through fabric",
+          "normal": "Useful when recovering a seat",
+          "hard": "The magazine holds a strip of U-shaped fixings"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-hammare",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hammare",
+        "aliases": [],
+        "hints": {
+          "easy": "Slår i spikar",
+          "normal": "Svingas mot metallhuvuden",
+          "hard": "En klo kan göra arbetet ogjort"
+        }
+      },
+      "en": {
+        "word": "Hammer",
+        "aliases": [],
+        "hints": {
+          "easy": "Drives nails with a swing",
+          "normal": "A heavy head on a handle",
+          "hard": "A claw can undo the work"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-handhyvel",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Handhyvel",
+        "aliases": [
+          "Hyvel"
+        ],
+        "hints": {
+          "easy": "Jämnar trä med ett blad som sitter i en sula",
+          "normal": "Ger ifrån sig tunna lockar",
+          "hard": "Djupinställningen avgör hur genomskinliga spånen blir"
+        }
+      },
+      "en": {
+        "word": "Hand plane",
+        "aliases": [
+          "Wood plane"
+        ],
+        "hints": {
+          "easy": "A cutting iron skims high spots off timber",
+          "normal": "Lifts thin curled shavings in long strokes",
+          "hard": "A fine depth setting yields almost transparent curls"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-handsag",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fogsvans",
+        "aliases": [
+          "Handsåg"
+        ],
+        "hints": {
+          "easy": "Brett tandat blad för att kapa brädor för hand",
+          "normal": "Ett slutet grepp ovanför bladets tjocka ände",
+          "hard": "Spån faller när armen arbetar i raka drag"
+        }
+      },
+      "en": {
+        "word": "Panel saw",
+        "aliases": [
+          "Hand saw",
+          "Handsaw"
+        ],
+        "hints": {
+          "easy": "Cuts boards by hand with a broad toothed blade",
+          "normal": "A closed grip sits at the widest end",
+          "hard": "Long arm strokes shed wood chips"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-insexnyckel",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Insexnyckel",
+        "aliases": [
+          "Sexkantsnyckel"
+        ],
+        "hints": {
+          "easy": "Sexkantigt verktyg för möbelskruvar",
+          "normal": "Böjen ger hävstång",
+          "hard": "Båda ändarna passar ofta i samma hål"
+        }
+      },
+      "en": {
+        "word": "Allen key",
+        "aliases": [
+          "Hex key",
+          "Allen wrench"
+        ],
+        "hints": {
+          "easy": "A hexagonal tool for furniture assembly",
+          "normal": "The bend helps you get leverage",
+          "hard": "Either end often fits the same socket"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kapgersag",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kap- och gersåg",
+        "aliases": [
+          "Gersåg"
+        ],
+        "hints": {
+          "easy": "En klinga fälls ned för vinklade snitt i lister",
+          "normal": "Träbiten läggs mot ett fast anhåll",
+          "hard": "Två lika snitt kan mötas runt ett hörn"
+        }
+      },
+      "en": {
+        "word": "Mitre saw",
+        "aliases": [
+          "Miter saw",
+          "Compound mitre saw"
+        ],
+        "hints": {
+          "easy": "A hinged blade cuts angled joints in trim",
+          "normal": "The timber rests against a fence",
+          "hard": "Two matching cuts can meet around a corner"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-kryssmejsel",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kryssmejsel",
+        "aliases": [
+          "Krysskruvmejsel",
+          "Stjärnmejsel"
+        ],
+        "hints": {
+          "easy": "Spetsen passar i ett korsformat fäste",
+          "normal": "Fyra kanter möts längst fram",
+          "hard": "Fel storlek kan nöta sönder infästningen"
+        }
+      },
+      "en": {
+        "word": "Crosshead screwdriver",
+        "aliases": [
+          "Cross-head screwdriver"
+        ],
+        "hints": {
+          "easy": "Turns fixings with cross-shaped recesses",
+          "normal": "Four flutes meet at the point",
+          "hard": "A poor fit can round out the recess"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-lod",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lod",
+        "aliases": [
+          "Lodvikt"
+        ],
+        "hints": {
+          "easy": "En liten tyngd i snöre visar rakt ned",
+          "normal": "Hängs bredvid en stolpe innan den fästs",
+          "hard": "När pendlingen avtar har gravitationen gett riktningen"
+        }
+      },
+      "en": {
+        "word": "Plumb bob",
+        "aliases": [
+          "Plumb weight"
+        ],
+        "hints": {
+          "easy": "A pointed weight on a cord shows vertical",
+          "normal": "Hangs alongside an upright that needs checking",
+          "hard": "Gravity gives the reading once the swing settles"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-mattband",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Måttband",
+        "aliases": [
+          "Rullmåttband"
+        ],
+        "hints": {
+          "easy": "Ett graderat band rullas ut för att mäta längd",
+          "normal": "En krok tar tag i kanten som nollpunkt",
+          "hard": "En fjäder samlar skalan i fickan igen"
+        }
+      },
+      "en": {
+        "word": "Tape measure",
+        "aliases": [
+          "Measuring tape"
+        ],
+        "hints": {
+          "easy": "A marked strip extends to measure length",
+          "normal": "A little hook catches the starting edge",
+          "hard": "A spring coils it back into its case"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-metallfil",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Metallfil",
+        "aliases": [
+          "Fil"
+        ],
+        "hints": {
+          "easy": "Härdade små tänder slätar till en skrovlig stålkant",
+          "normal": "Kan ta bort grader efter kapning",
+          "hard": "Spånen kan rensas bort med en särskild borste"
+        }
+      },
+      "en": {
+        "word": "Metal file",
+        "aliases": [
+          "File"
+        ],
+        "hints": {
+          "easy": "Hardened teeth smooth a cut steel edge",
+          "normal": "Rubs burrs away in repeated strokes",
+          "hard": "A special wire brush clears the grooves"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-metallsag",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bågfil",
+        "aliases": [
+          "Metallsåg"
+        ],
+        "hints": {
+          "easy": "Fintandat blad i en ram kapar metall",
+          "normal": "Spänns mellan två fästen för att hållas rakt",
+          "hard": "Kort slaglängd kan fungera under ett rör"
+        }
+      },
+      "en": {
+        "word": "Hacksaw",
+        "aliases": [],
+        "hints": {
+          "easy": "A fine blade in a frame cuts metal",
+          "normal": "The blade is held in tension at each end",
+          "hard": "Short strokes work beneath a pipe"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-momentnyckel",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Momentnyckel",
+        "aliases": [],
+        "hints": {
+          "easy": "Drar en bult till en bestämd kraftinställning",
+          "normal": "Ett klick kan signalera att åtdragningen räcker",
+          "hard": "Specifikationen kan anges i newtonmeter"
+        }
+      },
+      "en": {
+        "word": "Torque wrench",
+        "aliases": [],
+        "hints": {
+          "easy": "Tightens a bolt to a chosen turning force",
+          "normal": "A click can tell you when to stop pulling",
+          "hard": "The setting may be specified in newton metres"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-poptang",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Poptång",
+        "aliases": [
+          "Popnittång",
+          "Blindnittång"
+        ],
+        "hints": {
+          "easy": "Fäster två plåtar från den åtkomliga sidan",
+          "normal": "Handtagen drar i ett tunt metallstift",
+          "hard": "Stiftet går av när fogen sitter fast"
+        }
+      },
+      "en": {
+        "word": "Pop rivet gun",
+        "aliases": [
+          "Rivet gun",
+          "Blind riveter"
+        ],
+        "hints": {
+          "easy": "Joins two sheets of metal from one side",
+          "normal": "The handles pull a slender metal stem",
+          "hard": "The stem snaps once the joint is set"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-rasp",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rasp",
+        "aliases": [
+          "Trärasp"
+        ],
+        "hints": {
+          "easy": "Grova utstående tänder formar trä för hand",
+          "normal": "River bort mer material än en vanlig fil",
+          "hard": "Träfibrerna kan få små rivspår efter dragen"
+        }
+      },
+      "en": {
+        "word": "Rasp",
+        "aliases": [
+          "Wood rasp"
+        ],
+        "hints": {
+          "easy": "Raised coarse teeth shape wood quickly",
+          "normal": "Takes heavier bites than a machinist's file",
+          "hard": "The surface may need finer work afterwards"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-rorkap",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Röravskärare",
+        "aliases": [
+          "Rörkapare",
+          "Rörkap"
+        ],
+        "hints": {
+          "easy": "Ett litet skärhjul delar en rund metallprofil",
+          "normal": "Dras åt ett steg mellan varven",
+          "hard": "Där det blir trångt kan en kompakt båge räcka"
+        }
+      },
+      "en": {
+        "word": "Pipe cutter",
+        "aliases": [
+          "Tube cutter",
+          "Tubing cutter"
+        ],
+        "hints": {
+          "easy": "A rolling wheel parts a length of tubing",
+          "normal": "You tighten it a little between turns",
+          "hard": "A compact frame fits where a long saw cannot swing"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-rortang",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rörtång",
+        "aliases": [],
+        "hints": {
+          "easy": "Tandade käftar får grepp om ett runt rör",
+          "normal": "Kan lossa en kärv gängad koppling",
+          "hard": "Käftarna biter mer när handtaget belastas"
+        }
+      },
+      "en": {
+        "word": "Pipe wrench",
+        "aliases": [
+          "Stillson wrench"
+        ],
+        "hints": {
+          "easy": "Serrated jaws grip rounded plumbing fittings",
+          "normal": "Useful for freeing a stubborn threaded joint",
+          "hard": "The jaws bite harder under load"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-sidavbitare",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sidavbitare",
+        "aliases": [
+          "Sidavbitartång"
+        ],
+        "hints": {
+          "easy": "Klipper av tråd med käftar på sned",
+          "normal": "Kan nypa en kabelände nära kanten",
+          "hard": "Eggarna möts där andra tänger brukar greppa"
+        }
+      },
+      "en": {
+        "word": "Diagonal cutters",
+        "aliases": [
+          "Side cutters",
+          "Diagonal pliers"
+        ],
+        "hints": {
+          "easy": "Snips wire between angled blades",
+          "normal": "Reaches in from the side to trim a tail",
+          "hard": "Its edges meet instead of pinching flat"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-skiftnyckel",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skiftnyckel",
+        "aliases": [],
+        "hints": {
+          "easy": "Käften ändrar storlek för olika muttrar",
+          "normal": "Ett räfflat hjul för ena backen i sidled",
+          "hard": "Glapp belastar mutterns hörn"
+        }
+      },
+      "en": {
+        "word": "Adjustable wrench",
+        "aliases": [
+          "Adjustable spanner"
+        ],
+        "hints": {
+          "easy": "One movable jaw fits different nuts",
+          "normal": "A knurled wheel sets the gap",
+          "hard": "Too much play can damage the corners"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-skruvstycke",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skruvstycke",
+        "aliases": [],
+        "hints": {
+          "easy": "Bänkmonterade käftar håller arbetsbiten stilla",
+          "normal": "En tvärslå vrids för att pressa ihop backarna",
+          "hard": "Gör båda händerna fria för filning"
+        }
+      },
+      "en": {
+        "word": "Bench vise",
+        "aliases": [
+          "Vise",
+          "Bench vice",
+          "Vice"
+        ],
+        "hints": {
+          "easy": "Bench-mounted jaws hold the workpiece",
+          "normal": "A sliding handle winds it tight",
+          "hard": "Leaves both hands free for filing"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-skruvtving",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skruvtving",
+        "aliases": [
+          "Tving"
+        ],
+        "hints": {
+          "easy": "Pressar ihop limmade brädor mellan två käftar",
+          "normal": "En rörlig arm glider längs stången",
+          "hard": "Tryckplattan får ofta en träbit som mellanlägg"
+        }
+      },
+      "en": {
+        "word": "F-clamp",
+        "aliases": [
+          "Bar clamp"
+        ],
+        "hints": {
+          "easy": "Clamps glued boards between two jaws",
+          "normal": "One arm slides up and down a bar",
+          "hard": "A scrap of wood can spread the pressure"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-slagskruvdragare",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Slagskruvdragare",
+        "aliases": [],
+        "hints": {
+          "easy": "Vrider långa skruvar med snabba stötar",
+          "normal": "Korta kraftpulser hörs när motståndet ökar",
+          "hard": "Det sexkantiga fästet kan ta mycket små bits"
+        }
+      },
+      "en": {
+        "word": "Impact driver",
+        "aliases": [],
+        "hints": {
+          "easy": "Drives long screws with bursts of torque",
+          "normal": "Rattles once the fixing meets resistance",
+          "hard": "A quick-change hex holder takes short bits"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-snorsla",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snörslå",
+        "aliases": [
+          "Slagsnöre"
+        ],
+        "hints": {
+          "easy": "Ett kritat snöre knäpps mot ytan och lämnar ett streck",
+          "normal": "Två personer kan spänna det över ett golv",
+          "hard": "En liten vev tar hem linan efter märkning"
+        }
+      },
+      "en": {
+        "word": "Chalk line",
+        "aliases": [
+          "Chalk reel"
+        ],
+        "hints": {
+          "easy": "A powdered cord snaps a straight mark onto a surface",
+          "normal": "Helpers can stretch it across a broad floor",
+          "hard": "A small crank reels it in after marking"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-sparrskaft",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spärrskaft",
+        "aliases": [],
+        "hints": {
+          "easy": "Vrider en hylsa framåt och klickar fritt tillbaka",
+          "normal": "Handtaget kan pumpas i en trång vrå",
+          "hard": "En omställare vänder arbetsriktningen"
+        }
+      },
+      "en": {
+        "word": "Ratchet wrench",
+        "aliases": [
+          "Socket ratchet"
+        ],
+        "hints": {
+          "easy": "Turns a socket on only one stroke",
+          "normal": "Clicks as the handle swings back",
+          "hard": "A small selector reverses the drive"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-sparskruvmejsel",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spårskruvmejsel",
+        "aliases": [
+          "Spårmejsel",
+          "Flatmejsel"
+        ],
+        "hints": {
+          "easy": "Passar i en enda rak skåra",
+          "normal": "Spetsen liknar en liten kil",
+          "hard": "Äldre beslag har ofta rätt fäste"
+        }
+      },
+      "en": {
+        "word": "Flathead screwdriver",
+        "aliases": [
+          "Flat screwdriver",
+          "Slotted screwdriver"
+        ],
+        "hints": {
+          "easy": "Fits a single straight slot",
+          "normal": "A blade-shaped tip turns the fixing",
+          "hard": "Often a match for old fittings"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-spetstang",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spetstång",
+        "aliases": [
+          "Näbbtång"
+        ],
+        "hints": {
+          "easy": "Smala käftar når en tråd i ett trångt hörn",
+          "normal": "Kan böja små öglor",
+          "hard": "Trycket koncentreras längst ut"
+        }
+      },
+      "en": {
+        "word": "Needle-nose pliers",
+        "aliases": [
+          "Long-nose pliers"
+        ],
+        "hints": {
+          "easy": "Long narrow jaws reach recessed wires",
+          "normal": "Good for bending tiny loops",
+          "hard": "The grip converges at the tips"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-spikdrivare",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spikdrivare",
+        "aliases": [
+          "Försänkardorn",
+          "Spikdorn"
+        ],
+        "hints": {
+          "easy": "Försänker ett spikhuvud under träytan",
+          "normal": "En kort ståldorn överför hammarslaget",
+          "hard": "Den lilla gropen kan döljas med spackel"
+        }
+      },
+      "en": {
+        "word": "Nail set",
+        "aliases": [
+          "Nail punch"
+        ],
+        "hints": {
+          "easy": "Sets a fastener head just below the wood surface",
+          "normal": "A short steel punch takes the hammer blow",
+          "hard": "The resulting dimple can be filled and painted"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-stamjarn",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stämjärn",
+        "aliases": [],
+        "hints": {
+          "easy": "Vass egg hugger ur ett säte för gångjärn",
+          "normal": "Ett trähandtag kan ta lätta slag",
+          "hard": "Den plana baksidan kan styra djupet i ett spår"
+        }
+      },
+      "en": {
+        "word": "Wood chisel",
+        "aliases": [
+          "Chisel"
+        ],
+        "hints": {
+          "easy": "A sharp edge pares out a hinge recess",
+          "normal": "The handle may take light mallet blows",
+          "hard": "A flat back registers against the wood"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-sticksag",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sticksåg",
+        "aliases": [],
+        "hints": {
+          "easy": "Smalt blad sågar kurvor i en skiva",
+          "normal": "Kan börja i ett förborrat hål",
+          "hard": "Sulans undersida glider över arbetsstycket"
+        }
+      },
+      "en": {
+        "word": "Jigsaw",
+        "aliases": [],
+        "hints": {
+          "easy": "A narrow powered blade follows curves",
+          "normal": "Can start inside a drilled opening",
+          "hard": "A flat shoe rides over the board"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-tigersag",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tigersåg",
+        "aliases": [],
+        "hints": {
+          "easy": "Kapning av rör och reglar med ett framstickande blad",
+          "normal": "Vanlig när material ska rivas ut",
+          "hard": "En kort stödplatta tar emot rycken"
+        }
+      },
+      "en": {
+        "word": "Reciprocating saw",
+        "aliases": [],
+        "hints": {
+          "easy": "A projecting blade cuts pipes and demolition timber",
+          "normal": "Good for tearing out old fittings",
+          "hard": "A small shoe braces against the work"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-tumstock",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tumstock",
+        "aliases": [],
+        "hints": {
+          "easy": "Längdmått med ledade stavar som viks ut",
+          "normal": "Delarna klickar fast i utfällt läge",
+          "hard": "Hårda leder gör att skalan kan överbrygga en springa"
+        }
+      },
+      "en": {
+        "word": "Folding rule",
+        "aliases": [
+          "Folding ruler"
+        ],
+        "hints": {
+          "easy": "Hinged sections unfold into a rigid measuring stick",
+          "normal": "The joints click as it opens",
+          "hard": "The markings can bridge a gap without sagging"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-vattenpass",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vattenpass",
+        "aliases": [],
+        "hints": {
+          "easy": "En bubbla visar om en hylla sitter rakt",
+          "normal": "Två streck hjälper ögat hitta mitten",
+          "hard": "Ett lutande underlag får luft att vandra uppåt"
+        }
+      },
+      "en": {
+        "word": "Spirit level",
+        "aliases": [
+          "Bubble level"
+        ],
+        "hints": {
+          "easy": "A bubble shows whether a shelf tilts",
+          "normal": "Two marks frame the central position",
+          "hard": "On a tilted surface the air drifts uphill"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-vinkelhake",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vinkelhake",
+        "aliases": [],
+        "hints": {
+          "easy": "Ritar och kontrollerar nittio grader vid en kant",
+          "normal": "En tjock klack följer brädans sida",
+          "hard": "En glipa längs bladet röjer ett skevt snitt"
+        }
+      },
+      "en": {
+        "word": "Try square",
+        "aliases": [
+          "Carpenter's square"
+        ],
+        "hints": {
+          "easy": "Checks or marks a right angle at an edge",
+          "normal": "A thick stock registers against the board",
+          "hard": "Daylight along the blade betrays a crooked cut"
+        }
+      }
+    }
+  },
+  {
+    "id": "everyday-vinkelslip",
+    "category": "everyday",
+    "subcategory": "everyday-workshop",
+    "tags": [
+      "tools"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vinkelslip",
+        "aliases": [],
+        "hints": {
+          "easy": "Snabb rondell kapar eller bearbetar metall",
+          "normal": "Kan få gnistor att spruta från ett stålrör",
+          "hard": "Ett sidogrepp ger stöd när skivan nyper"
+        }
+      },
+      "en": {
+        "word": "Angle grinder",
+        "aliases": [],
+        "hints": {
+          "easy": "A fast disc cuts or abrades metal",
+          "normal": "Sends sparks flying from a steel pipe",
+          "hard": "An extra side handle can steady the tool"
+        }
+      }
+    }
+  }
+]

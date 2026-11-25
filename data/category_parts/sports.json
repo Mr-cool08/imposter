@@ -1,0 +1,38 @@
+{
+  "id": "sports",
+  "names": {
+    "sv": "Sport och fritid",
+    "en": "Sports and leisure"
+  },
+  "icon": "🏅",
+  "subcategories": [
+    {
+      "id": "sports-disciplines",
+      "names": {
+        "sv": "Sporter och grenar",
+        "en": "Sports and disciplines"
+      }
+    },
+    {
+      "id": "sports-equipment",
+      "names": {
+        "sv": "Utrustning och arenor",
+        "en": "Equipment and venues"
+      }
+    },
+    {
+      "id": "sports-play",
+      "names": {
+        "sv": "Spelmoment och tävling",
+        "en": "Plays and competition"
+      }
+    },
+    {
+      "id": "sports-leisure",
+      "names": {
+        "sv": "Fritid och träning",
+        "en": "Leisure and exercise"
+      }
+    }
+  ]
+}

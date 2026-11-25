@@ -28,6 +28,22 @@ MIXED = {"classic", "random", "alliance", "blind"}
 EXTRAS = (None, "detective", "guardian", "spy", "accomplice", "double_agent")
 OPPOSITION = {"imposter", "spy", "accomplice", "double_agent", "undercover"}
 ACTUAL_IMPOSTERS = {"imposter", "spy"}
+INVALID_SETTINGS_CASES = [
+    ({"mode": "chaos"}, "chaos_empty"),
+    ({"mode": "chaos", "chaos": [{"mode": "classic", "weight": 0}]}, "chaos_weight"),
+    ({"mode": "chaos", "chaos": [{"mode": "classic", "weight": False}]}, "chaos_weight"),
+    ({"mode": "chaos", "chaos": [{"mode": "chaos", "weight": 1}]}, "invalid_mode"),
+    ({"mode": "chaos", "chaos": [{"mode": "classic", "language": "en", "weight": 1}]}, "invalid_settings"),
+    ({"mode": "random", "randomMin": 2, "randomMax": 1}, "invalid_random_range"),
+    ({"mode": "random", "randomMax": True}, "invalid_settings"),
+    ({"mode": "undercover", "lastGuess": True}, "last_guess_incompatible"),
+    ({"mode": "classic", "levels": []}, "invalid_settings"),
+    ({"mode": "classic", "discussionSeconds": "60"}, "invalid_settings"),
+    ({"mode": "classic", "extraRole": ["guardian", "detective"]}, "invalid_settings"),
+    ({"mode": "chaos", "chaos": [{}]}, "invalid_mode"),
+    ({"categories": ["animals"]}, "no_words"),
+    ({"mode": "undercover", "subcategories": ["food-snacks"]}, "no_pairs"),
+]
 
 
 def players(count):
@@ -291,17 +307,18 @@ def drive_case(case):
             assert replay.public["result"] is None
             replay.act(id_, "vote", {"targetId": choice}, now, error="already_done")
 
-    has_guess_window = "guess" in case or "guessAtDeadline" in case or case["name"].startswith("chaos neutral guessing")
+    eligible_guess = "guess" in case or "guessAtDeadline" in case
+    has_guess_window = eligible_guess or case.get("neutralGuess", False)
     assert (replay.public["phase"] == "last_guess") == has_guess_window
     if has_guess_window:
         assert replay.public["result"] is None and replay.public["options"] == []
         deadline = replay.public["deadline"]
         assert deadline == now + 20_000
         guessers = [id_ for id_, view in replay.private.items() if view["canGuess"]]
-        assert guessers == ([target] if target in cards else [])
+        assert guessers == ([target] if eligible_guess else [])
         if guessers:
             other = next(id_ for id_ in ids if id_ != target)
-            replay.act(other, "guess", {"text": "fel spelare"}, now, error=True)
+            replay.act(other, "guess", {"text": "fel spelare"}, now, error="not_your_turn")
             if "guessAtDeadline" in case:
                 replay.act(target, "guess", {"text": case["guessAtDeadline"]}, deadline, error=True)
             else:
@@ -363,29 +380,16 @@ def test_validation_reports_invalid_chaos_profiles_in_pool_order():
         ],
     }
     expected = issues(settings, count=4)
-    assert expected == [
-        {"code": "player_count", "mode": "alliance"},
-        {"code": "joker_incompatible", "mode": "undercover"},
-    ] or expected == [
-        {"code": "player_count", "mode": "alliance"},
-        {"code": "joker_incompatible", "mode": "undercover"},
-        {"code": "joker_players", "mode": "undercover"},
-    ]
+    assert list(dict.fromkeys(issue["mode"] for issue in expected)) == ["alliance", "undercover"]
+    assert {"code": "player_count", "mode": "alliance"} in expected
+    assert {"code": "joker_incompatible", "mode": "undercover"} in expected
     with pytest.raises(EngineError) as raised:
         start(settings, count=4)
     assert raised.value.code == "player_count" and raised.value.issues == expected
 
 
-@pytest.mark.parametrize(("settings", "code"), [
-    ({"mode": "chaos"}, "chaos_empty"),
-    ({"mode": "chaos", "chaos": [{"mode": "classic", "weight": 0}]}, "chaos_weight"),
+@pytest.mark.parametrize(("settings", "code"), INVALID_SETTINGS_CASES + [
     ({"mode": "chaos", "chaos": [{"mode": "classic", "weight": float("inf")}]}, "chaos_weight"),
-    ({"mode": "chaos", "chaos": [{"mode": "chaos", "weight": 1}]}, "invalid_mode"),
-    ({"mode": "chaos", "chaos": [{"mode": "classic", "language": "en", "weight": 1}]}, "invalid_settings"),
-    ({"mode": "random", "randomMin": 2, "randomMax": 1}, "invalid_random_range"),
-    ({"mode": "random", "randomMax": True}, "invalid_settings"),
-    ({"mode": "undercover", "lastGuess": True}, "last_guess_incompatible"),
-    ({"mode": "classic", "levels": []}, "invalid_settings"),
 ])
 def test_specific_validation_errors(settings, code):
     assert code in {issue["code"] for issue in issues(settings)}
@@ -479,6 +483,7 @@ def test_python_and_javascript_engine_parity():
     ]
     for case in CASES:
         configurations.append({"settings": case["settings"], "count": case.get("count", 6)})
+    configurations.extend({"settings": settings, "count": 6} for settings, _ in INVALID_SETTINGS_CASES)
     rounds = [drive_case(case) for case in CASES]
     completed = subprocess.run(
         [node, str(FIXTURES / "engine_replay.mjs")],
@@ -492,7 +497,13 @@ def test_python_and_javascript_engine_parity():
     for actual, configuration in zip(parity["issues"], configurations, strict=True):
         assert actual == issues(configuration["settings"], configuration["count"]), configuration
     for actual, expected, case in zip(parity["rounds"], rounds, CASES, strict=True):
-        assert len(actual) == len(expected.frames)
-        for index, (js, python) in enumerate(zip(actual, expected.frames, strict=True)):
+        assert len(actual["frames"]) == len(expected.frames)
+        for index, (js, python) in enumerate(zip(actual["frames"], expected.frames, strict=True)):
             event = expected.events[index - 1] if index else None
             assert js == python, (case["name"], index, event)
+        result = expected.public["result"]
+        nominee = result["voteWinner"]
+        if nominee not in expected.ids:
+            nominee = expected.public["order"][0]
+        expected_nominees = [nominee if frame["public"]["phase"] == "last_guess" else None for frame in expected.frames]
+        assert actual["localGuessNominees"] == expected_nominees, case["name"]

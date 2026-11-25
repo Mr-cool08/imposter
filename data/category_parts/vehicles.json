@@ -1,0 +1,45 @@
+{
+  "id": "vehicles",
+  "names": {
+    "sv": "Fordon",
+    "en": "Vehicles"
+  },
+  "icon": "🚚",
+  "subcategories": [
+    {
+      "id": "vehicles-road",
+      "names": {
+        "sv": "Vägfordon",
+        "en": "Road vehicles"
+      }
+    },
+    {
+      "id": "vehicles-water",
+      "names": {
+        "sv": "Båtar och fartyg",
+        "en": "Boats and ships"
+      }
+    },
+    {
+      "id": "vehicles-air",
+      "names": {
+        "sv": "Luftfarkoster",
+        "en": "Aircraft"
+      }
+    },
+    {
+      "id": "vehicles-rail",
+      "names": {
+        "sv": "Spårfordon",
+        "en": "Rail vehicles"
+      }
+    },
+    {
+      "id": "vehicles-work",
+      "names": {
+        "sv": "Arbetsmaskiner",
+        "en": "Work machines"
+      }
+    }
+  ]
+}

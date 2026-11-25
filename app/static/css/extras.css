@@ -1,0 +1,110 @@
+.extras-view,
+.extras-entry,
+.extras-history__details {
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+}
+
+.extras-grid,
+.extras-history__filters,
+.extras-history__metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+.extras-view input,
+.extras-view select,
+.extras-view textarea {
+  inline-size: 100%;
+  min-inline-size: 0;
+  box-sizing: border-box;
+}
+
+.extras-view textarea {
+  resize: vertical;
+}
+
+.extras-view input[type="file"] {
+  max-inline-size: 100%;
+}
+
+.extras-language {
+  min-inline-size: 0;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid currentColor;
+  border-radius: 0.75rem;
+}
+
+.extras-language legend {
+  padding-inline: 0.4rem;
+  font-weight: 700;
+}
+
+.extras-list,
+.extras-history__list,
+.extras-history__rankings {
+  display: grid;
+  gap: 0.75rem;
+  margin-block: 0;
+  padding-inline-start: 1.25rem;
+}
+
+.extras-list:has(> .extras-entry),
+.extras-history__list {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.extras-entry {
+  display: grid;
+  justify-items: start;
+  gap: 0.5rem;
+  padding-block: 0.75rem;
+  border-block-start: 1px solid color-mix(in srgb, currentColor 24%, transparent);
+}
+
+.extras-entry > .extras-grid {
+  inline-size: 100%;
+}
+
+.extras-entry p,
+.extras-preview-card p,
+.extras-preview-card h3,
+.extras-history__metrics dd {
+  margin: 0;
+}
+
+.extras-preview-card {
+  display: grid;
+  align-content: start;
+  gap: 0.4rem;
+  min-block-size: 8rem;
+}
+
+.extras-preview-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.extras-flag-form {
+  justify-items: start;
+}
+
+.extras-flag-form .field {
+  inline-size: min(100%, 30rem);
+}
+
+.extras-view summary,
+.extras-history__details summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.extras-history__output,
+.extras-history__issues {
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+}

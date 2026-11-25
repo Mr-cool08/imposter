@@ -15,17 +15,22 @@ function copy(value) {
   return JSON.parse(JSON.stringify(value));
 }
 
-function localList(key) {
+function localList(key, isEntry) {
   let memory = [];
   let transient = false;
   let readable = true;
+  let previous;
   return {
     read() {
       if (!transient) {
         try {
-          const value = JSON.parse(globalThis.localStorage.getItem(key) ?? "[]");
-          if (!Array.isArray(value)) throw new TypeError("Expected stored list");
-          memory = value;
+          const raw = globalThis.localStorage.getItem(key);
+          if (raw !== previous) {
+            const value = JSON.parse(raw ?? "[]");
+            if (!Array.isArray(value) || !value.every(isEntry)) throw new TypeError("Invalid stored list");
+            memory = value;
+            previous = raw;
+          }
           readable = true;
         } catch {
           readable = false;
@@ -36,7 +41,9 @@ function localList(key) {
     write(value) {
       memory = value;
       try {
-        globalThis.localStorage.setItem(key, JSON.stringify(value));
+        const raw = JSON.stringify(value);
+        globalThis.localStorage.setItem(key, raw);
+        previous = raw;
         transient = false;
         readable = true;
       } catch {
@@ -49,8 +56,10 @@ function localList(key) {
   };
 }
 
-const packages = localList("imposter:customPackages.v1");
-const flags = localList("imposter:hintFlags.v1");
+const packages = localList("imposter:customPackages.v1", entry => !!entry?.id && validateCustomPackage(entry).ok);
+const flags = localList("imposter:hintFlags.v1", flag => isId(flag?.id) && isId(flag.wordId)
+  && LANGUAGES.includes(flag.language) && HINT_LEVELS.includes(flag.level)
+  && [flag.word, flag.hint, flag.reason, flag.createdAt].every(value => typeof value === "string"));
 
 function makeId(prefix) {
   const suffix = globalThis.crypto.randomUUID?.() ?? Array.from(
@@ -221,7 +230,7 @@ function blankWord(category) {
 }
 
 export function mountExtras(ctx) {
-  if (ctx.route === "history") return mountHistory(ctx.root, ctx);
+  if (ctx.route === "history") return mountHistory(ctx.root, { ...ctx, customCategories: getCustomContent().categories });
   const { root, el: e, lang, signal } = ctx;
   const t = (key, values) => ctx.t(`extras.${key}`, values);
   const button = (key, action, attrs = {}) => ctx.button(t(key), action, attrs);
@@ -366,9 +375,7 @@ export function mountExtras(ctx) {
     const create = () => {
       const id = makeId("custom");
       draft.categories.push({ id, names: emptyNames(), icon: "📝", subcategories: [{
-        id: `${id}-general`, names: Object.fromEntries(LANGUAGES.map(language => [language,
-          ctx.translate?.(language, "extras.genericSubcategory") ?? (language === "sv" ? "Allmänt" : "General"),
-        ])),
+        id: `${id}-general`, names: { sv: "Allmänt", en: "General" },
       }] });
       categoryId = id;
       wordId = "";
@@ -506,7 +513,7 @@ export function mountExtras(ctx) {
       notice = "";
     }
     issues = result.issues;
-    render();
+    render("extras-feedback");
   }
 
   function exportDraft(format) {
@@ -516,6 +523,184 @@ export function mountExtras(ctx) {
     } catch (error) {
       issues = error.issues ?? [];
       notice = issues.length ? "" : t("failed");
-      render();
+      render("extras-feedback");
     }
   }
+
+  async function loadPublicPreview(category = preview.category) {
+    const request = ++previewRequest;
+    preview.loading = true;
+    preview.error = false;
+    preview.category = category;
+    preview.pack = null;
+    preview.word = "";
+    renderPreview();
+    try {
+      const data = await getManifest();
+      if (!data) throw new Error("No content manifest");
+      if (category) {
+        const pack = await loadPack(category, { version: data.version });
+        if (request === previewRequest && active()) preview.pack = pack;
+      }
+    } catch {
+      if (request === previewRequest) preview.error = true;
+    } finally {
+      if (request === previewRequest && active()) {
+        preview.loading = false;
+        renderPreview();
+      }
+    }
+  }
+
+  function previewCard(role, content, type, language) {
+    return e("article", { class: "panel panel--subtle extras-preview-card" },
+      e("h3", {}, t(role)), e("p", { class: "muted" }, t(type)),
+      e("p", { class: "extras-preview-value", lang: language }, content),
+    );
+  }
+
+  function renderPreview() {
+    if (!previewBox || !active()) return;
+    const custom = preview.source === "custom";
+    const customWords = draft?.words ?? listCustomPackages().flatMap(packed => packed.words);
+    const words = custom ? customWords : preview.pack?.words ?? [];
+    const word = words.find(word => word.id === preview.word);
+    const translation = word?.languages[preview.lang];
+    const hint = translation?.hints[preview.level]?.trim();
+    const reason = e("input", { type: "text", maxlength: 300, placeholder: t("flagPlaceholder") });
+    const changePreview = (key, value, eventTarget) => {
+      preview[key] = value;
+      const field = eventTarget?.querySelector("select");
+      const restoreFocus = field === document.activeElement;
+      renderPreview();
+      if (restoreFocus) previewBox.querySelector(`[data-preview-field="${key}"] select`)?.focus();
+    };
+    const previewField = (key, caption, selected, choices, placeholder, update) => {
+      const field = selectField(t(caption), selected, choices, value => {
+        if (update) update(value);
+        else changePreview(key, value, field);
+      }, placeholder ? t(placeholder) : undefined);
+      field.dataset.previewField = key;
+      return field;
+    };
+    const wordChoices = words.map(entry => [entry.id, entry.languages[preview.lang]?.word.trim() || wordLabel(entry)]);
+    previewBox.replaceChildren(e("h2", {}, t("previewTitle")), e("p", {}, t("previewIntro")),
+      e("div", { class: "extras-grid" },
+        previewField("source", "previewSource", preview.source,
+          [["custom", t("previewCustom")], ["public", t("previewBuiltIn")]], null, source => {
+            preview.source = source;
+            preview.word = "";
+            if (source === "public") void loadPublicPreview();
+            else {
+              previewRequest++;
+              preview.loading = false;
+              preview.error = false;
+              renderPreview();
+            }
+            previewBox.querySelector('[data-preview-field="source"] select')?.focus();
+          }),
+        previewField("lang", "previewLanguage", preview.lang, LANGUAGES.map(language => [language, t(language)])),
+        !custom && manifest ? previewField("category", "category", preview.category,
+          manifest.categories.map(category => [category.id, label(category.names)]), "previewSelectCategory", id => {
+            void loadPublicPreview(id);
+            previewBox.querySelector('[data-preview-field="category"] select')?.focus();
+          }) : null,
+        words.length ? previewField("word", "selectWord", word?.id ?? "", wordChoices, "selectWord") : null,
+        previewField("level", "previewHintLevel", preview.level, HINT_LEVELS.map(level => [level, t(level)])),
+      ),
+      !custom && preview.loading ? e("p", { role: "status", class: "muted" }, t("previewLoading")) : null,
+      !custom && preview.error ? e("div", { class: "stack" },
+        e("p", { role: "status", class: "error" }, t("previewLoadError")),
+        button("previewRetry", () => void loadPublicPreview(), secondary),
+      ) : null,
+      translation?.word.trim() ? e("div", { class: "extras-grid" },
+        previewCard("previewCivil", translation.word, "previewWord", preview.lang),
+        previewCard("previewImposter", hint || t("previewNoHint"), "previewHint", hint ? preview.lang : lang),
+        previewCard("previewJoker", translation.word, "previewWord", preview.lang),
+        previewCard("previewBlind", t("previewNoHint"), "previewHint", lang),
+      ) : e("p", { class: "muted" }, t(words.length ? "previewNoWord" : "noWords")),
+      hint && translation.word.trim() ? e("div", { class: "extras-flag-form stack" },
+        e("label", { class: "field" }, t("flagReason"), reason),
+        button("flagHint", () => {
+          const result = flagHint({ wordId: word.id, language: preview.lang, level: preview.level,
+            reason: reason.value, word: translation.word, hint });
+          issues = result.issues ?? [];
+          if (result.ok) note(result.added ? "flagAdded" : "flagDuplicate", result.persisted);
+          render("extras-feedback");
+        }, secondary),
+      ) : null,
+    );
+  }
+
+  function flagsPanel() {
+    const marked = listHintFlags();
+    return e("section", { class: "panel stack", "aria-labelledby": "extras-flags" },
+      e("h2", { id: "extras-flags" }, t("flagCount", { count: marked.length })),
+      marked.length ? e("ul", { class: "extras-list" }, ...marked.map(flag => e("li", { class: "extras-entry" },
+        e("div", { lang: flag.language }, e("strong", {}, flag.word || flag.wordId), e("p", {}, flag.hint)),
+        e("p", { class: "muted" }, `${t(flag.language)} · ${t(flag.level)}`),
+        flag.reason ? e("p", {}, flag.reason) : null,
+        button("flagRemove", () => {
+          if (!ask("removeFlagConfirm")) return;
+          notice = removeHintFlag(flag.id).persisted ? "" : t("storageError");
+          render();
+        }, { variant: "ghost" }),
+      ))) : e("p", { class: "muted" }, t("flagsEmpty")),
+      marked.length ? e("div", { class: "cluster" }, button("flagExport", () => {
+        download("imposter-hint-flags.json", serializeHintFlags(), "application/json;charset=utf-8");
+      }, secondary), button("flagClear", () => {
+        if (!ask("flagClearConfirm")) return;
+        notice = clearHintFlags().persisted ? "" : t("storageError");
+        render();
+      }, { variant: "danger" })) : null,
+    );
+  }
+
+  function issueText(issue) {
+    let key = issue.code;
+    if (key === "invalid_file") return t("invalidFile");
+    if (key === "invalid_csv" && issue.path === "csv[1]") key = "csv_header";
+    else if (key === "invalid_csv" && /Expected \d+ columns/u.test(issue.message ?? "")) key = "csv_columns";
+    else if (key === "invalid_csv" && issue.path.endsWith(".type")) key = "csv_record";
+    const lookup = `extras.issue.${key}`;
+    const translated = ctx.t(lookup);
+    return translated === lookup ? (issue.message ?? t("failed")) : translated;
+  }
+
+  function issueLine(issue) {
+    return e("li", {}, issue.path && issue.path !== "$" ? e("code", {}, `${issue.path} `) : null,
+      issueText(issue), issue.related?.length ? e("ul", {}, ...issue.related.map(issueLine)) : null);
+  }
+
+  function render(focusId) {
+    if (!active()) return;
+    previewBox = e("section", { class: "panel stack" });
+    const editors = draft ? [
+      e("section", { class: "panel stack" }, e("h2", {}, t("packageName")), nameFields(draft.names, "name", "extras-pack"),
+        e("div", { class: "cluster" }, button("savePackage", saveDraft),
+          button("exportJson", () => exportDraft("json"), secondary), button("exportCsv", () => exportDraft("csv"), secondary))),
+      categoryPanel(), wordPanel(), pairsPanel(),
+    ] : [];
+    const operations = e("div", { class: "extras-grid" }, packagePicker(), importPanel());
+    const marked = flagsPanel();
+    const readWarning = !packages.readable || !flags.readable;
+    const storageWarning = !packages.persisted || !flags.persisted;
+    const message = notice || (storageWarning ? t("storageError") : readWarning ? t("storageReadError") : "");
+    root.replaceChildren(e("div", { class: "extras-view stack" },
+      e("header", { class: "page-header" }, e("h1", {}, t("editorTitle")), e("p", {}, t("editorIntro"))),
+      e("div", { id: "extras-feedback", class: "stack", tabindex: -1, "aria-live": "polite" },
+        message ? e("p", { class: "notice" }, message) : null,
+        issues.length ? e("div", { class: "panel stack" }, e("h2", {}, t("issueCount", { count: issues.length })),
+          e("ul", { class: "extras-list" }, ...issues.map(issueLine))) : null,
+      ),
+      operations, ...editors, previewBox, marked,
+    ));
+    renderPreview();
+    if (focusId) root.querySelector(`#${focusId}`)?.focus();
+  }
+
+  const saved = listCustomPackages();
+  if (saved.length === 1) openDraft(saved[0]);
+  render();
+  void getManifest();
+}

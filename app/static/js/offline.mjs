@@ -161,7 +161,8 @@ function mountOfflinePanel(container, options) {
         if (disposed) return;
         last = result;
         const active = isRoundActive();
-        status.textContent = t(message || result.error || (result.ready ? "offline.ready" : "offline.notReady"));
+        const readyMessage = options.categoryIds.length ? "offline.ready" : "offline.shellReady";
+        status.textContent = t(message || result.error || (result.ready ? readyMessage : "offline.notReady"));
         download.hidden = Boolean(result.ready || result.error === "offline.unsupported"
             || result.error === "offline.invalidSelection");
         download.disabled = busy || !navigator.onLine;
@@ -250,7 +251,7 @@ export function mountOffline(ctx) {
             menu.hidden = active;
             if (menu.hidden) menu.open = false;
         }
-        if (active || menu && !menu.open) {
+        if (active || (menu && !menu.open)) {
             disposePanel?.();
             return;
         }
@@ -261,7 +262,7 @@ export function mountOffline(ctx) {
         let categoryIds = Array.isArray(selection)
             ? selection.filter((id) => typeof id === "string" && !customIds.has(id))
             : [];
-        if (!Array.isArray(selection) || !selection.length) {
+        if (!Array.isArray(selection)) {
             try {
                 categoryIds = (await manifest()).categories.map(({ id }) => id);
             } catch {

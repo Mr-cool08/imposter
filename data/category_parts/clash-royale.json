@@ -1,0 +1,45 @@
+{
+  "id": "clash-royale",
+  "names": {
+    "sv": "Clash Royale",
+    "en": "Clash Royale"
+  },
+  "icon": "♜",
+  "subcategories": [
+    {
+      "id": "clash-royale-troops",
+      "names": {
+        "sv": "Trupper",
+        "en": "Troops"
+      }
+    },
+    {
+      "id": "clash-royale-buildings",
+      "names": {
+        "sv": "Byggnader",
+        "en": "Buildings"
+      }
+    },
+    {
+      "id": "clash-royale-spells",
+      "names": {
+        "sv": "Trollformler",
+        "en": "Spells"
+      }
+    },
+    {
+      "id": "clash-royale-champions",
+      "names": {
+        "sv": "Champions",
+        "en": "Champions"
+      }
+    },
+    {
+      "id": "clash-royale-tower-troops",
+      "names": {
+        "sv": "Torntrupper",
+        "en": "Tower Troops"
+      }
+    }
+  ]
+}

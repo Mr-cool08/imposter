@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "film-tv-jaws",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hajen",
+        "aliases": [],
+        "hints": {"easy": "Ett havsrovdjur hotar badgäster", "normal": "Badorten Amity", "hard": "Två toner före anfallet"}
+      },
+      "en": {
+        "word": "Jaws",
+        "aliases": [],
+        "hints": {"easy": "A shark stalks beachgoers", "normal": "Amity Island", "hard": "Two notes signal danger"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-jurassic-park",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jurassic Park",
+        "aliases": [],
+        "hints": {"easy": "Klonade dinosaurier rymmer", "normal": "Isla Nublar", "hard": "Krusningar i ett vattenglas"}
+      },
+      "en": {
+        "word": "Jurassic Park",
+        "aliases": [],
+        "hints": {"easy": "Cloned dinosaurs run loose", "normal": "Isla Nublar", "hard": "Ripples in a glass of water"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-alien",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Alien",
+        "aliases": [],
+        "hints": {"easy": "En rymdbesättning jagas ombord", "normal": "Lastskeppet Nostromo", "hard": "Varningssignal från en måne"}
+      },
+      "en": {
+        "word": "Alien",
+        "aliases": [],
+        "hints": {"easy": "A creature stalks a spaceship crew", "normal": "The freighter Nostromo", "hard": "A signal from a distant moon"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-predator",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rovdjuret",
+        "aliases": [],
+        "hints": {"easy": "En rymdjägare söker byten i djungeln", "normal": "Kamouflage bland trädkronorna", "hard": "Lera döljer kroppsvärme"}
+      },
+      "en": {
+        "word": "Predator",
+        "aliases": [],
+        "hints": {"easy": "An otherworldly hunter stalks soldiers in a jungle", "normal": "Camouflage in the canopy", "hard": "Mud masks body heat"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-toy-story",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Toy Story",
+        "aliases": [],
+        "hints": {"easy": "Leksaker lever när människor går", "normal": "En sheriffdocka känner sig ersatt", "hard": "Andys namn under stöveln"}
+      },
+      "en": {
+        "word": "Toy Story",
+        "aliases": [],
+        "hints": {"easy": "Toys come alive behind their owners’ backs", "normal": "A sheriff doll feels replaced", "hard": "Andy’s name on a boot sole"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-monsters-inc",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Monsters, Inc.",
+        "aliases": ["Monsters Inc"],
+        "hints": {"easy": "En fabrik omvandlar barnskrik till energi", "normal": "Garderobsdörrar mellan världar", "hard": "En arbetsdag kräver sanering"}
+      },
+      "en": {
+        "word": "Monsters, Inc.",
+        "aliases": ["Monsters Inc"],
+        "hints": {"easy": "A factory runs on children’s screams", "normal": "Closet doors connect two worlds", "hard": "A workplace contamination scare"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-finding-nemo",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hitta Nemo",
+        "aliases": [],
+        "hints": {"easy": "En clownfisk söker sin son", "normal": "Akvarium hos en tandläkare", "hard": "En adress på en dykarmask"}
+      },
+      "en": {
+        "word": "Finding Nemo",
+        "aliases": [],
+        "hints": {"easy": "A clownfish searches for his son", "normal": "A dentist’s aquarium", "hard": "An address on a diving mask"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-lion-king",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lejonkungen",
+        "aliases": [],
+        "hints": {"easy": "En lejonunge drivs bort av sin farbror", "normal": "Ett kungligt lejonrike på savannen", "hard": "En vårtsvinsvän föredrar insekter"}
+      },
+      "en": {
+        "word": "The Lion King",
+        "aliases": [],
+        "hints": {"easy": "A cub is driven away by his uncle", "normal": "A royal pride on the savanna", "hard": "A warthog friend prefers bugs"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-frozen",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Frost",
+        "aliases": [],
+        "hints": {"easy": "En drottning råkar skapa evig vinter", "normal": "Två systrar i Arendal", "hard": "En tapper ren söker morötter"}
+      },
+      "en": {
+        "word": "Frozen",
+        "aliases": [],
+        "hints": {"easy": "A queen accidentally brings on endless winter", "normal": "Two sisters in Arendelle", "hard": "A loyal reindeer looks for carrots"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-tangled",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trassel",
+        "aliases": [],
+        "hints": {"easy": "En flicka med magiskt långt hår lämnar ett torn", "normal": "En tjuv på flykt hjälper henne", "hard": "Flytande lyktor på en födelsedag"}
+      },
+      "en": {
+        "word": "Tangled",
+        "aliases": [],
+        "hints": {"easy": "A girl with magical long hair leaves a tower", "normal": "A fugitive thief helps her", "hard": "Floating lanterns on a birthday"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-spirited-away",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spirited Away",
+        "aliases": [],
+        "hints": {"easy": "En flicka arbetar på ett badhus för andar", "normal": "Föräldrarna blir grisar", "hard": "Ett tåg går över vatten"}
+      },
+      "en": {
+        "word": "Spirited Away",
+        "aliases": [],
+        "hints": {"easy": "A girl works in a bathhouse for spirits", "normal": "Her parents turn into pigs", "hard": "A train travels across water"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-my-neighbor-totoro",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Min granne Totoro",
+        "aliases": [],
+        "hints": {"easy": "Två systrar möter en stor skogsande", "normal": "En hårig varelse väntar i regnet", "hard": "Hållplats för en kattbuss"}
+      },
+      "en": {
+        "word": "My Neighbor Totoro",
+        "aliases": [],
+        "hints": {"easy": "Two sisters meet a large forest spirit", "normal": "A furry creature waits in the rain", "hard": "A stop for a cat-shaped bus"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-matrix",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Matrix",
+        "aliases": ["The Matrix"],
+        "hints": {"easy": "En hackare upptäcker en simulerad verklighet", "normal": "Valet mellan två piller", "hard": "En vit kanin visar vägen"}
+      },
+      "en": {
+        "word": "The Matrix",
+        "aliases": ["Matrix"],
+        "hints": {"easy": "A hacker discovers a simulated reality", "normal": "A choice between two pills", "hard": "A white rabbit points the way"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-inception",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Inception",
+        "aliases": [],
+        "hints": {"easy": "En tjuv tar sig in i andra människors drömmar", "normal": "Drömmar inuti drömmar", "hard": "Ett hotell utan tydligt golv"}
+      },
+      "en": {
+        "word": "Inception",
+        "aliases": [],
+        "hints": {"easy": "A thief enters other people’s dreams", "normal": "Dreams within dreams", "hard": "A hotel corridor changes its gravity"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-when-harry-met-sally",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "När Harry träffade Sally...",
+        "aliases": ["När Harry träffade Sally","När Harry mötte Sally"],
+        "hints": {"easy": "Två vänner undrar om deras relation kan förbli platonisk", "normal": "En romans växer fram genom möten i New York", "hard": "En bordsgranne vill ha samma beställning"}
+      },
+      "en": {
+        "word": "When Harry Met Sally...",
+        "aliases": ["When Harry Met Sally"],
+        "hints": {"easy": "Two friends wonder if they can keep their relationship platonic", "normal": "A romance grows through chance meetings in New York", "hard": "Another diner wants the same order"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-home-alone",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ensam hemma",
+        "aliases": [],
+        "hints": {"easy": "Ett barn försvarar huset mot två inbrottstjuvar", "normal": "Familjen flyger till Paris över jul", "hard": "Färgpytsar i trappan"}
+      },
+      "en": {
+        "word": "Home Alone",
+        "aliases": [],
+        "hints": {"easy": "A child defends his house against burglars", "normal": "A family flies to Paris for Christmas", "hard": "Paint cans in the stairwell"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-groundhog-day",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Måndag hela veckan",
+        "aliases": [],
+        "hints": {"easy": "En väderpresentatör återupplever samma datum", "normal": "Murmeldjuret i Punxsutawney", "hard": "Samma låt väcker honom om och om igen"}
+      },
+      "en": {
+        "word": "Groundhog Day",
+        "aliases": [],
+        "hints": {"easy": "A weatherman relives the same day", "normal": "The forecast from Punxsutawney", "hard": "The same song keeps waking him up"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-back-to-the-future",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tillbaka till framtiden",
+        "aliases": [],
+        "hints": {"easy": "En tidsmaskin byggs av en DeLorean", "normal": "En tonåring träffar sina unga föräldrar", "hard": "Blixten vid klocktornet"}
+      },
+      "en": {
+        "word": "Back to the Future",
+        "aliases": [],
+        "hints": {"easy": "A DeLorean becomes a time machine", "normal": "A teenager meets his parents as youngsters", "hard": "Lightning at the clock tower"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-truman-show",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Truman Show",
+        "aliases": [],
+        "hints": {"easy": "En mans vardag är i hemlighet en tv-sändning", "normal": "En hel småstad fungerar som kuliss", "hard": "En segelbåt når en målad horisont"}
+      },
+      "en": {
+        "word": "The Truman Show",
+        "aliases": [],
+        "hints": {"easy": "A man’s life is secretly a television broadcast", "normal": "An entire seaside town is a set", "hard": "A sailboat reaches a painted horizon"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-et",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "E.T. the Extra-Terrestrial",
+        "aliases": ["E.T.","ET"],
+        "hints": {"easy": "Ett barn gömmer en strandsatt utomjording", "normal": "Ett rop hem från jorden", "hard": "En cykel framför fullmånen"}
+      },
+      "en": {
+        "word": "E.T. the Extra-Terrestrial",
+        "aliases": ["E.T.","ET"],
+        "hints": {"easy": "A boy hides a stranded alien", "normal": "A call home from Earth", "hard": "A bicycle crosses the full moon"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-shawshank-redemption",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Nyckeln till frihet",
+        "aliases": [],
+        "hints": {"easy": "En bankman döms till livstid i fängelse", "normal": "En lång vänskap bakom murarna", "hard": "En filmaffisch döljer mer än den visar"}
+      },
+      "en": {
+        "word": "The Shawshank Redemption",
+        "aliases": [],
+        "hints": {"easy": "A banker is sentenced to life in prison", "normal": "A lasting friendship behind bars", "hard": "A poster conceals more than it shows"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-green-mile",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Den gröna milen",
+        "aliases": [],
+        "hints": {"easy": "En dödsdömd fånge har helande krafter", "normal": "Vakterna på dödsavdelningen", "hard": "En mus lär sig konster"}
+      },
+      "en": {
+        "word": "The Green Mile",
+        "aliases": [],
+        "hints": {"easy": "A prisoner on death row has healing powers", "normal": "Guards on a prison’s death block", "hard": "A mouse learns tricks"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-godfather",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gudfadern",
+        "aliases": [],
+        "hints": {"easy": "En son dras in i familjens maffiaaffärer", "normal": "Familjen Corleone", "hard": "En italienresa efter ett restaurangbesök"}
+      },
+      "en": {
+        "word": "The Godfather",
+        "aliases": [],
+        "hints": {"easy": "A son is drawn into his family’s mafia business", "normal": "The Corleone family", "hard": "A restaurant meeting precedes a Sicilian escape"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-goodfellas",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Maffiabröder",
+        "aliases": [],
+        "hints": {"easy": "Henry Hill berättar om sitt liv i maffian", "normal": "En kupp vid ett Lufthansa-lager", "hard": "Köksingången till en nattklubb"}
+      },
+      "en": {
+        "word": "Goodfellas",
+        "aliases": [],
+        "hints": {"easy": "Henry Hill recounts life in the mob", "normal": "A heist at a Lufthansa cargo terminal", "hard": "The kitchen entrance to a nightclub"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-sound-of-music",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sound of Music",
+        "aliases": [],
+        "hints": {"easy": "En guvernant sjunger med sju barn", "normal": "Familjen von Trapp", "hard": "Gardinernas tyg blir lekkläder"}
+      },
+      "en": {
+        "word": "The Sound of Music",
+        "aliases": [],
+        "hints": {"easy": "A governess sings with seven children", "normal": "The von Trapp family", "hard": "Curtains become play clothes"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-singin-in-the-rain",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Singin' in the Rain",
+        "aliases": ["Singin’ in the Rain"],
+        "hints": {"easy": "Stumfilmsstjärnor behöver lära sig ljudfilm", "normal": "En paraplydans i en vattenpöl", "hard": "En röst lånas bakom ridån"}
+      },
+      "en": {
+        "word": "Singin' in the Rain",
+        "aliases": ["Singin’ in the Rain"],
+        "hints": {"easy": "Silent-film stars adapt to talking pictures", "normal": "An umbrella dance in puddles", "hard": "A voice is borrowed behind a curtain"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-some-like-it-hot",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "I hetaste laget",
+        "aliases": [],
+        "hints": {"easy": "Två musiker klär ut sig för att undkomma gangstrar", "normal": "Ett damband åker tåg till Florida", "hard": "En kontrabas får plats bland damernas väskor"}
+      },
+      "en": {
+        "word": "Some Like It Hot",
+        "aliases": [],
+        "hints": {"easy": "Two musicians put on disguises to evade gangsters", "normal": "An all-women band takes a train to Florida", "hard": "A double bass rides alongside the ladies’ luggage"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-portrait-of-a-lady-on-fire",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Porträtt av en kvinna i brand",
+        "aliases": [],
+        "hints": {"easy": "En målare skildrar en blivande brud i hemlighet", "normal": "En avlägsen ö i Bretagne", "hard": "En bok öppnas på sidan 28"}
+      },
+      "en": {
+        "word": "Portrait of a Lady on Fire",
+        "aliases": [],
+        "hints": {"easy": "A painter secretly studies a bride-to-be", "normal": "A remote island in Brittany", "hard": "A book opens to page 28"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-rear-window",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fönstret åt gården",
+        "aliases": [],
+        "hints": {"easy": "En fotograf misstänker mord hos grannen", "normal": "Kikande över en innergård", "hard": "Blixtlampor bromsar en inkräktare"}
+      },
+      "en": {
+        "word": "Rear Window",
+        "aliases": [],
+        "hints": {"easy": "A photographer suspects his neighbor of murder", "normal": "Watching across a courtyard", "hard": "Flashbulbs slow an intruder"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-twelve-angry-men",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "12 edsvurna män",
+        "aliases": [],
+        "hints": {"easy": "En jurymedlem vägrar rösta för en fällande dom", "normal": "Stängt juryrum under en het dag", "hard": "En till synes unik kniv har en tvilling"}
+      },
+      "en": {
+        "word": "12 Angry Men",
+        "aliases": [],
+        "hints": {"easy": "One juror refuses to vote guilty", "normal": "A closed jury room on a hot day", "hard": "A supposedly unique knife has a twin"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-seventh-seal",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Det sjunde inseglet",
+        "aliases": [],
+        "hints": {"easy": "En riddare spelar schack med Döden", "normal": "Medeltida pest i Sverige", "hard": "En sista dans på en kulle"}
+      },
+      "en": {
+        "word": "The Seventh Seal",
+        "aliases": [],
+        "hints": {"easy": "A knight plays chess with Death", "normal": "A medieval plague in Sweden", "hard": "A final dance on a hill"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-wild-strawberries",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Smultronstället",
+        "aliases": [],
+        "hints": {"easy": "En äldre professor återbesöker sitt förflutna", "normal": "En bilresa mot en akademisk ceremoni", "hard": "En drömklocka saknar visare"}
+      },
+      "en": {
+        "word": "Wild Strawberries",
+        "aliases": [],
+        "hints": {"easy": "An aging professor revisits his past", "normal": "A drive toward an academic ceremony", "hard": "A dream clock has no hands"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-let-the-right-one-in",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Låt den rätte komma in",
+        "aliases": [],
+        "hints": {"easy": "En mobbad pojke blir vän med en vampyr", "normal": "Vinterkvällar i Blackeberg", "hard": "Morsesignaler genom väggen"}
+      },
+      "en": {
+        "word": "Let the Right One In",
+        "aliases": [],
+        "hints": {"easy": "A bullied boy befriends a vampire", "normal": "Winter nights in a Stockholm suburb", "hard": "Morse code through a wall"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-shining",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Shining",
+        "aliases": [],
+        "hints": {"easy": "En vintervakt tappar förståndet på ett isolerat hotell", "normal": "En son ser hotellets mörka historia", "hard": "Fotspår i en snötäckt labyrint"}
+      },
+      "en": {
+        "word": "The Shining",
+        "aliases": [],
+        "hints": {"easy": "A winter caretaker unravels in an isolated hotel", "normal": "A son sees the hotel’s dark past", "hard": "Footprints in a snowy maze"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-psycho",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Psycho",
+        "aliases": [],
+        "hints": {"easy": "En kvinna på flykt stannar på ett ödsligt motell", "normal": "Duschen i det första rummet", "hard": "Uppstoppade fåglar på kontoret"}
+      },
+      "en": {
+        "word": "Psycho",
+        "aliases": [],
+        "hints": {"easy": "A fugitive woman stops at an isolated motel", "normal": "The shower in cabin one", "hard": "Stuffed birds in the office"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-moonlight",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Moonlight",
+        "aliases": [],
+        "hints": {"easy": "Tre kapitel följer en pojke som växer upp i Miami", "normal": "Lille, Chiron och Black", "hard": "En man lär ett barn att flyta"}
+      },
+      "en": {
+        "word": "Moonlight",
+        "aliases": [],
+        "hints": {"easy": "Three chapters follow a boy growing up in Miami", "normal": "Little, Chiron, and Black", "hard": "A man teaches a child to float"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-her",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Her",
+        "aliases": [],
+        "hints": {"easy": "En brevskrivare förälskar sig i ett operativsystem", "normal": "Samantha finns som röst", "hard": "Ett öra räcker för ett sällskap"}
+      },
+      "en": {
+        "word": "Her",
+        "aliases": [],
+        "hints": {"easy": "A letter writer falls in love with an operating system", "normal": "Samantha exists as a voice", "hard": "An earpiece keeps loneliness at bay"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-parasite",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Parasit",
+        "aliases": [],
+        "hints": {"easy": "En fattig familj får jobb hos en rik familj", "normal": "Ett hem byggt med viktiga nivåskillnader", "hard": "Regn avgör vem som mister sitt hem"}
+      },
+      "en": {
+        "word": "Parasite",
+        "aliases": [],
+        "hints": {"easy": "A poor family takes jobs in a wealthy household", "normal": "A house where different floors matter", "hard": "Rain decides whose home is lost"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-honeyland",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Honungslandet",
+        "aliases": [],
+        "hints": {"easy": "En biodlare i Nordmakedonien kämpar när nya grannar flyttar in", "normal": "Vilda bisamhällen skördas med omsorg", "hard": "Hälften lämnas kvar åt bina"}
+      },
+      "en": {
+        "word": "Honeyland",
+        "aliases": [],
+        "hints": {"easy": "A beekeeper in North Macedonia struggles after neighbors move in", "normal": "Wild colonies are harvested with care", "hard": "Half is left behind for the bees"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-burning",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bränd",
+        "aliases": [],
+        "hints": {"easy": "En ung sydkoreansk författare söker efter sin försvunna vän", "normal": "En förmögen rival säger sig förstöra växthus", "hard": "Spår efter en katt dyker upp sent"}
+      },
+      "en": {
+        "word": "Burning",
+        "aliases": [],
+        "hints": {"easy": "A young South Korean writer searches for a vanished friend", "normal": "A wealthy rival claims to destroy greenhouses", "hard": "Evidence of a cat turns up late"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-guilty-danish",
+    "category": "film-tv",
+    "subcategory": "film-tv-films",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Den skyldige",
+        "aliases": [],
+        "hints": {"easy": "En dansk larmoperatör försöker hjälpa en kvinna i fara", "normal": "Hela räddningsförsöket följs över telefon", "hard": "Man hör mer av vägen än man får se"}
+      },
+      "en": {
+        "word": "The Guilty",
+        "aliases": [],
+        "hints": {"easy": "A Danish emergency dispatcher tries to help a woman in danger", "normal": "The rescue attempt unfolds over the phone", "hard": "A road is heard more than seen"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-friends",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vänner",
+        "aliases": ["Friends"],
+        "hints": {"easy": "Sex kompisar ses jämt på ett kafé på Manhattan", "normal": "Den orange soffan på Central Perk", "hard": "Ett uppehåll som det tvistas om"}
+      },
+      "en": {
+        "word": "Friends",
+        "aliases": [],
+        "hints": {"easy": "Six pals often meet in a Manhattan coffee shop", "normal": "The orange couch at Central Perk", "hard": "A much-disputed relationship break"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-seinfeld",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Seinfeld",
+        "aliases": [],
+        "hints": {"easy": "En ståuppkomiker och hans vänner grälar om småsaker", "normal": "En kvartersservering i New York", "hard": "En soppförsäljare med stränga regler"}
+      },
+      "en": {
+        "word": "Seinfeld",
+        "aliases": [],
+        "hints": {"easy": "A stand-up comic and his circle quarrel over petty things", "normal": "A neighborhood diner in New York", "hard": "A soup vendor with strict rules"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-office-us",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Office",
+        "aliases": ["The Office US"],
+        "hints": {"easy": "En dokumentärlik komedi om ett pappersföretag", "normal": "Filialen Dunder Mifflin i Scranton", "hard": "En häftapparat fastnar i gelé"}
+      },
+      "en": {
+        "word": "The Office",
+        "aliases": ["The Office US"],
+        "hints": {"easy": "A mockumentary about a paper company", "normal": "Dunder Mifflin’s Scranton branch", "hard": "A stapler gets trapped in jelly"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-parks-and-recreation",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Parks and Recreation",
+        "aliases": [],
+        "hints": {"easy": "En kommunanställd vill göra en grop till en park", "normal": "En fiktiv kommun i Indiana", "hard": "Våfflor på JJ’s Diner"}
+      },
+      "en": {
+        "word": "Parks and Recreation",
+        "aliases": [],
+        "hints": {"easy": "A civil servant wants to turn a pit into a park", "normal": "A fictional town in Indiana", "hard": "Waffles at JJ’s Diner"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-brooklyn-nine-nine",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brooklyn Nine-Nine",
+        "aliases": [],
+        "hints": {"easy": "En poliskomedi kring en station i New York", "normal": "Den stränga kaptenen Holt", "hard": "Kolleger tävlar i en kupp varje Halloween"}
+      },
+      "en": {
+        "word": "Brooklyn Nine-Nine",
+        "aliases": [],
+        "hints": {"easy": "A police comedy set in a New York precinct", "normal": "The stern Captain Holt", "hard": "Colleagues compete in a Halloween heist"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-modern-family",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Modern Family",
+        "aliases": [],
+        "hints": {"easy": "Tre släktgrenar skildras som i en dokumentär", "normal": "Släkterna Pritchett och Dunphy", "hard": "En far tillkännager sin dotter med lejonmusik"}
+      },
+      "en": {
+        "word": "Modern Family",
+        "aliases": [],
+        "hints": {"easy": "Three branches of one clan feature in a mockumentary", "normal": "The Pritchetts and the Dunphys", "hard": "A dad introduces his baby to lion-themed music"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-simpsons",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Simpsons",
+        "aliases": ["The Simpsons"],
+        "hints": {"easy": "En gul animerad familj bor i Springfield", "normal": "Kärnkraftverket som arbetsplats", "hard": "En skolpojkes rader på svarta tavlan"}
+      },
+      "en": {
+        "word": "The Simpsons",
+        "aliases": ["Simpsons"],
+        "hints": {"easy": "A yellow cartoon household lives in Springfield", "normal": "A nuclear power plant as a workplace", "hard": "A schoolboy writes lines on a chalkboard"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-bobs-burgers",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bob's Burgers",
+        "aliases": ["Bob’s Burgers"],
+        "hints": {"easy": "En animerad familj driver en hamburgerrestaurang", "normal": "Familjen Belcher bor över serveringen", "hard": "Rosa kaninöron skiljer ut yngsta barnet"}
+      },
+      "en": {
+        "word": "Bob's Burgers",
+        "aliases": ["Bob’s Burgers"],
+        "hints": {"easy": "An animated household runs a burger joint", "normal": "The Belchers live above their restaurant", "hard": "Pink bunny ears distinguish the youngest child"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-breaking-bad",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Breaking Bad",
+        "aliases": [],
+        "hints": {"easy": "En kemilärare börjar tillverka metamfetamin", "normal": "Ett rullande labb i New Mexicos öken", "hard": "En restaurangkedja döljer en annan verksamhet"}
+      },
+      "en": {
+        "word": "Breaking Bad",
+        "aliases": [],
+        "hints": {"easy": "A chemistry teacher starts making meth", "normal": "A mobile lab in the New Mexico desert", "hard": "A chicken chain conceals another business"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-ozark",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ozark",
+        "aliases": [],
+        "hints": {"easy": "En ekonom flyttar familjen för att tvätta kartellpengar", "normal": "Fritidsbostäder vid en sjö i Missouri", "hard": "En begravningsbyrå ingår i planen"}
+      },
+      "en": {
+        "word": "Ozark",
+        "aliases": [],
+        "hints": {"easy": "A financial adviser moves his family to launder cartel money", "normal": "Vacation homes by a Missouri lake", "hard": "A funeral home becomes part of the plan"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-stranger-things",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stranger Things",
+        "aliases": [],
+        "hints": {"easy": "Barn letar efter en försvunnen vän och hittar en annan värld", "normal": "Familjer i åttiotalets Hawkins", "hard": "Julgransbelysning används för att stava"}
+      },
+      "en": {
+        "word": "Stranger Things",
+        "aliases": [],
+        "hints": {"easy": "Kids searching for a missing friend uncover another world", "normal": "Families in 1980s Hawkins", "hard": "Christmas lights spell out a message"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-dark",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dark",
+        "aliases": [],
+        "hints": {"easy": "Försvunna barn knyts till tidsresor i en tysk småstad", "normal": "Grottorna vid Winden", "hard": "Trettiotre år mellan vissa händelser"}
+      },
+      "en": {
+        "word": "Dark",
+        "aliases": [],
+        "hints": {"easy": "Missing children connect to time travel in a German town", "normal": "The caves near Winden", "hard": "Certain events are thirty-three years apart"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-crown",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Crown",
+        "aliases": [],
+        "hints": {"easy": "En dramatisering av Elisabet II:s långa regeringstid", "normal": "Drottningen tar emot sin premiärminister", "hard": "Nya skådespelare markerar att årtionden har gått"}
+      },
+      "en": {
+        "word": "The Crown",
+        "aliases": [],
+        "hints": {"easy": "A dramatization of Elizabeth II’s long reign", "normal": "Audiences with the prime minister", "hard": "Different casts mark the passage of decades"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-downton-abbey",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Downton Abbey",
+        "aliases": [],
+        "hints": {"easy": "En aristokratfamilj och dess tjänstefolk delar ett gods", "normal": "Familjen Crawley i början av nittonhundratalet", "hard": "En fartygskatastrof förändrar arvsordningen"}
+      },
+      "en": {
+        "word": "Downton Abbey",
+        "aliases": [],
+        "hints": {"easy": "Aristocrats and their servants share a country estate", "normal": "The Crawleys at the dawn of the twentieth century", "hard": "A shipwreck changes the line of inheritance"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-er",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cityakuten",
+        "aliases": ["ER"],
+        "hints": {"easy": "Läkare jobbar med akutfall på ett sjukhus i Chicago", "normal": "County General och ständiga pådrag", "hard": "Ambulanshallen leder direkt till arbetspassets kaos"}
+      },
+      "en": {
+        "word": "ER",
+        "aliases": [],
+        "hints": {"easy": "Doctors handle emergency cases at a Chicago hospital", "normal": "County General and its relentless pace", "hard": "The ambulance bay opens onto a chaotic shift"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-greys-anatomy",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grey's Anatomy",
+        "aliases": ["Grey’s Anatomy"],
+        "hints": {"easy": "Läkarpraktikanter tränas i kirurgi på ett sjukhus i Seattle", "normal": "En neurokirurg får smeknamnet McDreamy", "hard": "En bar tvärs över gatan efter arbetspasset"}
+      },
+      "en": {
+        "word": "Grey's Anatomy",
+        "aliases": ["Grey’s Anatomy"],
+        "hints": {"easy": "Interns train as surgeons in a Seattle hospital", "normal": "A neurosurgeon goes by McDreamy", "hard": "After shifts, the staff gather at a bar across the street"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-succession",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Succession",
+        "aliases": [],
+        "hints": {"easy": "Syskon slåss om att ta över ett medieimperium", "normal": "Familjen Roys bolagsstyrelse", "hard": "En kusin stiger i graderna trots sin tafatthet"}
+      },
+      "en": {
+        "word": "Succession",
+        "aliases": [],
+        "hints": {"easy": "Siblings fight to inherit a media empire", "normal": "The Roys and their corporate board", "hard": "An awkward cousin climbs the company ladder"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-better-call-saul",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Better Call Saul",
+        "aliases": [],
+        "hints": {"easy": "En småskalig advokat utvecklas till kriminellas försvarare", "normal": "Jimmy McGills juridiska karriär i Albuquerque", "hard": "En bror undviker elektriska apparater"}
+      },
+      "en": {
+        "word": "Better Call Saul",
+        "aliases": [],
+        "hints": {"easy": "A small-time lawyer becomes a defender of criminals", "normal": "Jimmy McGill’s legal career in Albuquerque", "hard": "One brother keeps away from electrical devices"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-bear",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Bear",
+        "aliases": [],
+        "hints": {"easy": "En finkock ärver ett familjedrivet smörgåsställe", "normal": "Köksstress i Chicago", "hard": "Tomatburkar gömmer oväntade resurser"}
+      },
+      "en": {
+        "word": "The Bear",
+        "aliases": [],
+        "hints": {"easy": "A fine-dining chef inherits a family sandwich shop", "normal": "Kitchen stress in Chicago", "hard": "Tomato cans conceal unexpected resources"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-severance",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Severance",
+        "aliases": [],
+        "hints": {"easy": "Anställda delar upp minnet i ett arbetsliv och ett privatliv", "normal": "Kontorsgångarna på Lumon", "hard": "En våffelfest som prestationsbelöning"}
+      },
+      "en": {
+        "word": "Severance",
+        "aliases": [],
+        "hints": {"easy": "Employees split their memories between work and home", "normal": "The office corridors at Lumon", "hard": "A waffle party as a performance reward"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-x-files",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Arkiv X",
+        "aliases": [],
+        "hints": {"easy": "Två FBI-agenter utreder paranormala fall", "normal": "Mulder tror och Scully tvivlar", "hard": "En solrosfröätare samarbetar med en rättsläkare"}
+      },
+      "en": {
+        "word": "The X-Files",
+        "aliases": [],
+        "hints": {"easy": "Two FBI agents handle paranormal cases", "normal": "Mulder believes and Scully doubts", "hard": "A sunflower-seed snacker teams up with a forensic doctor"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-lost",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lost",
+        "aliases": [],
+        "hints": {"easy": "Överlevare efter en flygkrasch upptäcker en märklig ö", "normal": "Flyg 815 från Sydney", "hard": "En dator kräver en sifferföljd"}
+      },
+      "en": {
+        "word": "Lost",
+        "aliases": [],
+        "hints": {"easy": "Plane crash survivors discover a strange island", "normal": "Flight 815 out of Sydney", "hard": "A computer requires a sequence of numbers"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-twin-peaks",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Twin Peaks",
+        "aliases": [],
+        "hints": {"easy": "En FBI-agent utreder mordet på en hemvändardrottning", "normal": "Kaffe och körsbärspaj i en skogsstad", "hard": "Sicksackgolvet bakom röda draperier"}
+      },
+      "en": {
+        "word": "Twin Peaks",
+        "aliases": [],
+        "hints": {"easy": "An FBI agent investigates a homecoming queen’s murder", "normal": "Coffee and cherry pie in a logging town", "hard": "A zigzag floor behind red curtains"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-wire",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Wire",
+        "aliases": [],
+        "hints": {"easy": "Baltimores institutioner skildras genom polis och gatuhandel", "normal": "Avlyssning av narkotikahandlare", "hard": "Ett gathörn förklaras med schackregler"}
+      },
+      "en": {
+        "word": "The Wire",
+        "aliases": [],
+        "hints": {"easy": "Baltimore’s institutions emerge through police work and street dealing", "normal": "Detectives monitor a drug crew’s calls", "hard": "Chess rules explain the pecking order on a corner"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-sopranos",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sopranos",
+        "aliases": ["The Sopranos"],
+        "hints": {"easy": "En maffiaboss i New Jersey går i terapi", "normal": "Tony växlar mellan släktingar och kriminella kolleger", "hard": "Ankor i poolen föregår en panikattack"}
+      },
+      "en": {
+        "word": "The Sopranos",
+        "aliases": ["Sopranos"],
+        "hints": {"easy": "A New Jersey mob boss goes to therapy", "normal": "Tony juggles relatives and criminal associates", "hard": "Ducks in a pool precede a panic attack"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-the-bridge",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bron",
+        "aliases": [],
+        "hints": {"easy": "Svensk och dansk polis möts vid ett mord på gränsen", "normal": "Saga Norén arbetar med en dansk kollega", "hard": "En kropp ligger över mittlinjen"}
+      },
+      "en": {
+        "word": "The Bridge",
+        "aliases": [],
+        "hints": {"easy": "Swedish and Danish police share a border murder case", "normal": "Saga Norén works with a Danish colleague", "hard": "A body lies across the dividing line"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-young-royals",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Young Royals",
+        "aliases": [],
+        "hints": {"easy": "En svensk prins blir kär på en internatskola", "normal": "Wilhelm och Simon på Hillerska", "hard": "En video ställer plikt mot privatliv"}
+      },
+      "en": {
+        "word": "Young Royals",
+        "aliases": [],
+        "hints": {"easy": "A Swedish prince falls in love at boarding school", "normal": "Wilhelm and Simon at Hillerska", "hard": "A leaked video pits duty against privacy"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-bonus-family",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bonusfamiljen",
+        "aliases": [],
+        "hints": {"easy": "Skilda föräldrar och nya partners försöker få vardagen att fungera", "normal": "Lisa och Patrik pusslar med flera hushåll", "hard": "Familjeterapi ger utrymme för gamla konflikter"}
+      },
+      "en": {
+        "word": "Bonus Family",
+        "aliases": [],
+        "hints": {"easy": "Divorced parents and new partners try to make daily life work", "normal": "Lisa and Patrik coordinate several households", "hard": "Family therapy brings old conflicts into the room"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-squid-game",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Squid Game",
+        "aliases": [],
+        "hints": {"easy": "Skuldsatta deltagare riskerar livet i barnlekar", "normal": "Numrerade dräkter och maskerade vakter", "hard": "Vägen vidare kan bestå av glas"}
+      },
+      "en": {
+        "word": "Squid Game",
+        "aliases": [],
+        "hints": {"easy": "Debt-ridden contestants risk their lives in children’s games", "normal": "Numbered tracksuits and masked guards", "hard": "The route forward can be made of glass"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-frasier",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Frasier",
+        "aliases": [],
+        "hints": {"easy": "En psykiater ger råd i radio i Seattle", "normal": "Bröderna Crane gillar finare vanor", "hard": "En fåtölj förstör en noga planerad inredning"}
+      },
+      "en": {
+        "word": "Frasier",
+        "aliases": [],
+        "hints": {"easy": "A psychiatrist gives advice on Seattle radio", "normal": "The Crane brothers have refined tastes", "hard": "One armchair ruins carefully planned decor"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-fawlty-towers",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pang i bygget",
+        "aliases": [],
+        "hints": {"easy": "En hetlevrad ägare driver ett hotell med sin fru", "normal": "En förvirrad kypare från Barcelona", "hard": "En trasig bil bestraffas med en gren"}
+      },
+      "en": {
+        "word": "Fawlty Towers",
+        "aliases": [],
+        "hints": {"easy": "A hot-tempered man runs a hotel with his wife", "normal": "A confused waiter from Barcelona", "hard": "A broken-down car is punished with a branch"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-freaks-and-geeks",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Freaks and Geeks",
+        "aliases": [],
+        "hints": {"easy": "Två syskon umgås med olika grupper på en amerikansk high school", "normal": "En begåvad flicka söker sig till skolans struliga gäng", "hard": "En grön militärjacka markerar ett gängbyte"}
+      },
+      "en": {
+        "word": "Freaks and Geeks",
+        "aliases": [],
+        "hints": {"easy": "Two siblings mix with different crowds at an American high school", "normal": "A gifted girl falls in with the school’s troublemakers", "hard": "A green army jacket marks a change in circles"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-i-claudius",
+    "category": "film-tv",
+    "subcategory": "film-tv-series",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jag, Claudius",
+        "aliases": [],
+        "hints": {"easy": "En romersk kejsare återberättar hur hans släkt kom till makten", "normal": "Hovet kring Augustus präglas av intriger", "hard": "En hälta får andra att underskatta berättaren"}
+      },
+      "en": {
+        "word": "I, Claudius",
+        "aliases": [],
+        "hints": {"easy": "A Roman emperor recounts his family’s path to power", "normal": "Intrigue surrounds the household of Augustus", "hard": "A limp leads others to underestimate the narrator"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-leia-organa",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Leia Organa",
+        "aliases": [],
+        "hints": {"easy": "En prinsessa leder motstånd mot rymdimperiet", "normal": "Hårknutar vid öronen", "hard": "Ett hologram göms i en liten droid"}
+      },
+      "en": {
+        "word": "Leia Organa",
+        "aliases": [],
+        "hints": {"easy": "A princess resists a galactic empire", "normal": "Coiled buns over her ears", "hard": "A hologram is hidden in a little droid"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-luke-skywalker",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Luke Skywalker",
+        "aliases": [],
+        "hints": {"easy": "En bondpojke tränas till jediriddare", "normal": "Växer upp på en fuktfarm på Tatooine", "hard": "Två solar går ner vid barndomshemmet"}
+      },
+      "en": {
+        "word": "Luke Skywalker",
+        "aliases": [],
+        "hints": {"easy": "A farm boy trains to become a Jedi", "normal": "Raised on a moisture farm on Tatooine", "hard": "Twin suns set over his childhood home"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-gollum",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gollum",
+        "aliases": [],
+        "hints": {"easy": "En tunn varelse är besatt av en magisk ring", "normal": "Han föredrar rå fisk och mörka grottor", "hard": "Rösten växlar när han grälar med sig själv"}
+      },
+      "en": {
+        "word": "Gollum",
+        "aliases": [],
+        "hints": {"easy": "A gaunt creature is obsessed with a magic ring", "normal": "A taste for raw fish and dark caves", "hard": "His voice changes when he argues with himself"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-dobby",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dobby",
+        "aliases": [],
+        "hints": {"easy": "En husalf blir fri genom en strumpa", "normal": "Stora öron och en familj att lyda", "hard": "En örngottstunika före garderobsbytet"}
+      },
+      "en": {
+        "word": "Dobby",
+        "aliases": [],
+        "hints": {"easy": "A house-elf gains freedom through a sock", "normal": "Big ears and a family to obey", "hard": "A pillowcase serves as a tunic"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-sarah-connor",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sarah Connor",
+        "aliases": [],
+        "hints": {"easy": "En servitris jagas av en cyborg från framtiden", "normal": "Blir mor till motståndsrörelsens framtida ledare", "hard": "Styrketränar i ett rum på en klinik"}
+      },
+      "en": {
+        "word": "Sarah Connor",
+        "aliases": [],
+        "hints": {"easy": "A waitress is hunted by a cyborg from the future", "normal": "The mother of a future resistance leader", "hard": "Does pull-ups inside a hospital room"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-ellen-ripley",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ellen Ripley",
+        "aliases": ["Ripley"],
+        "hints": {"easy": "En officer överlever en varelse på ett rymdlastskepp", "normal": "Katten Jones blir hennes sällskap", "hard": "En lastrobot används för att driva ut en angripare"}
+      },
+      "en": {
+        "word": "Ellen Ripley",
+        "aliases": ["Ripley"],
+        "hints": {"easy": "An officer survives a creature aboard a space freighter", "normal": "Jones the cat keeps her company", "hard": "A cargo loader comes in handy for a showdown"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-rocky-balboa",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rocky Balboa",
+        "aliases": [],
+        "hints": {"easy": "En okänd boxare får möta världsmästaren", "normal": "Tränar med en löprunda uppför en trappa i Philadelphia", "hard": "En slaktkropp blir boxningssäck"}
+      },
+      "en": {
+        "word": "Rocky Balboa",
+        "aliases": [],
+        "hints": {"easy": "An unknown boxer gets to fight the world champion", "normal": "Runs up steps in Philadelphia to train", "hard": "A side of meat becomes a punching bag"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-daniel-larusso",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Daniel LaRusso",
+        "aliases": [],
+        "hints": {"easy": "En mobbad tonåring lär sig karate av sin granne", "normal": "Bilvaxning fungerar som träning", "hard": "En fågellik ställning avgör turneringen"}
+      },
+      "en": {
+        "word": "Daniel LaRusso",
+        "aliases": [],
+        "hints": {"easy": "A bullied teen learns karate from his neighbor", "normal": "Waxing cars turns out to be training", "hard": "A birdlike stance decides the tournament"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-forrest-gump",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Forrest Gump",
+        "aliases": [],
+        "hints": {"easy": "En man från Alabama berättar sitt liv på en busshållplats", "normal": "Ett oväntat bordtennisproffs", "hard": "Chokladasken på bänken"}
+      },
+      "en": {
+        "word": "Forrest Gump",
+        "aliases": [],
+        "hints": {"easy": "An Alabama man tells his life story at a bus stop", "normal": "An unlikely table tennis star", "hard": "A box of chocolates on the bench"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-edward-scissorhands",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Edward Scissorhands",
+        "aliases": [],
+        "hints": {"easy": "En ensam konstgjord man har saxar där fingrarna borde vara", "normal": "Formklipper grannarnas buskar", "hard": "En isskulptur får det att snöa"}
+      },
+      "en": {
+        "word": "Edward Scissorhands",
+        "aliases": [],
+        "hints": {"easy": "A lonely artificial man has shears for fingers", "normal": "Gives suburban hedges elaborate shapes", "hard": "An ice sculpture makes it snow"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-wednesday-addams",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Wednesday Addams",
+        "aliases": [],
+        "hints": {"easy": "En svartklädd tonåring från en kuslig familj", "normal": "Två mörka flätor och samma bistra min", "hard": "Spelar cello med pokeransikte"}
+      },
+      "en": {
+        "word": "Wednesday Addams",
+        "aliases": [],
+        "hints": {"easy": "A black-clad teenager from a spooky family", "normal": "Two dark braids and an unchanging scowl", "hard": "Plays cello with a straight face"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-morticia-addams",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Morticia Addams",
+        "aliases": [],
+        "hints": {"easy": "Elegant mamma i en makaber familj", "normal": "Gomez kysser hennes hand och arm", "hard": "Klipper bort rosorna och sparar stjälkarna"}
+      },
+      "en": {
+        "word": "Morticia Addams",
+        "aliases": [],
+        "hints": {"easy": "The elegant mother of a macabre family", "normal": "Gomez kisses her hand and arm", "hard": "Cuts off the rose blooms and keeps the stems"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-pippi-longstocking",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pippi Långstrump",
+        "aliases": ["Pippi"],
+        "hints": {"easy": "En stark flicka lyfter sin egen häst", "normal": "Röda flätor vid Villa Villekulla", "hard": "En apa i hemmet har en liten hatt"}
+      },
+      "en": {
+        "word": "Pippi Longstocking",
+        "aliases": ["Pippi"],
+        "hints": {"easy": "A strong girl lifts her own horse", "normal": "Red pigtails at Villa Villekulla", "hard": "A monkey in the house wears a tiny hat"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-emil-svensson",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Emil i Lönneberga",
+        "aliases": ["Emil Svensson"],
+        "hints": {"easy": "En bondpojke täljer trägubbar efter sina hyss", "normal": "Fastnar med huvudet i en soppskål", "hard": "Flaggstången får en levande flagga"}
+      },
+      "en": {
+        "word": "Emil in Lönneberga",
+        "aliases": ["Emil of Lönneberga","Emil Svensson"],
+        "hints": {"easy": "A farm boy carves wooden figures after his mischief", "normal": "Gets his head stuck in a soup tureen", "hard": "A flagpole gets a living flag"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-ronja-robbers-daughter",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ronja Rövardotter",
+        "aliases": ["Ronja"],
+        "hints": {"easy": "En rövarhövdings dotter blir vän med en rival", "normal": "Mattisborgen delas av en klyfta", "hard": "En vänskap växer kring en farlig gräns"}
+      },
+      "en": {
+        "word": "Ronja, the Robber's Daughter",
+        "aliases": ["Ronja","Ronja, the Robber’s Daughter"],
+        "hints": {"easy": "A bandit chief’s daughter befriends a rival", "normal": "A chasm splits her father’s castle", "hard": "A friendship grows across a dangerous divide"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-mary-poppins",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mary Poppins",
+        "aliases": [],
+        "hints": {"easy": "En barnflicka flyger in med paraply", "normal": "En väska rymmer oväntat stora saker", "hard": "En kritmålning går att kliva in i"}
+      },
+      "en": {
+        "word": "Mary Poppins",
+        "aliases": [],
+        "hints": {"easy": "A nanny flies in on an umbrella", "normal": "Her bag fits surprisingly big things", "hard": "You can step inside a chalk drawing"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-matilda-wormwood",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Matilda Wormwood",
+        "aliases": [],
+        "hints": {"easy": "En beläst flicka flyttar saker med tanken", "normal": "Står upp mot en skräckinjagande rektor", "hard": "En krita lyfter mot svarta tavlan"}
+      },
+      "en": {
+        "word": "Matilda Wormwood",
+        "aliases": [],
+        "hints": {"easy": "A book-loving girl moves things with her mind", "normal": "Stands up to a terrifying headmistress", "hard": "Chalk rises to the blackboard by itself"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-clarice-starling",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Clarice Starling",
+        "aliases": [],
+        "hints": {"easy": "En FBI-elev söker hjälp av en fängslad mördare", "normal": "Utreder en serie försvinnanden", "hard": "Svåra minnen från en gård stör henne"}
+      },
+      "en": {
+        "word": "Clarice Starling",
+        "aliases": [],
+        "hints": {"easy": "An FBI trainee seeks help from a jailed killer", "normal": "Investigates a string of disappearances", "hard": "Old memories from a farm still haunt her"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-hannibal-lecter",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hannibal Lecter",
+        "aliases": [],
+        "hints": {"easy": "En kannibal och psykiater ger ledtrådar från en cell", "normal": "En mask hindrar honom från att bitas", "hard": "Bondbönor hör till ett beryktat måltidsminne"}
+      },
+      "en": {
+        "word": "Hannibal Lecter",
+        "aliases": [],
+        "hints": {"easy": "A cannibal psychiatrist offers clues from his cell", "normal": "A mask keeps him from biting", "hard": "Fava beans are part of an infamous meal"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-holly-golightly",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Holly Golightly",
+        "aliases": [],
+        "hints": {"easy": "En elegant kvinna äter frukost utanför en juvelbutik", "normal": "Svart klänning och pärlor på Manhattan", "hard": "Hennes orange katt får aldrig något riktigt namn"}
+      },
+      "en": {
+        "word": "Holly Golightly",
+        "aliases": [],
+        "hints": {"easy": "A stylish woman eats breakfast outside a jeweler’s", "normal": "A black dress and pearls in Manhattan", "hard": "Her orange cat never gets a proper name"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-amelie-poulain",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Amélie Poulain",
+        "aliases": ["Amelie Poulain"],
+        "hints": {"easy": "En parisisk servitris ordnar små mirakel i hemlighet", "normal": "En gammal plåtask göms bakom en lös kakelplatta", "hard": "Resefoton får en trädgårdstomte att verka levande"}
+      },
+      "en": {
+        "word": "Amélie Poulain",
+        "aliases": ["Amelie Poulain"],
+        "hints": {"easy": "A Parisian waitress engineers little miracles in secret", "normal": "A loose tile hides an old tin", "hard": "Travel photos give a garden gnome a life of its own"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-dana-scully",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dana Scully",
+        "aliases": [],
+        "hints": {"easy": "En skeptisk FBI-agent granskar övernaturliga fall", "normal": "Medicinsk kompetens vid obduktionsbordet", "hard": "En korsamulett påminner om hennes tro"}
+      },
+      "en": {
+        "word": "Dana Scully",
+        "aliases": [],
+        "hints": {"easy": "A skeptical FBI agent examines supernatural cases", "normal": "Medical expertise at the autopsy table", "hard": "A small cross is a reminder of her faith"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-fox-mulder",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fox Mulder",
+        "aliases": [],
+        "hints": {"easy": "En FBI-agent söker sin syster och tror på utomjordingar", "normal": "En UFO-affisch på källarkontoret", "hard": "Solrosfröna tar sällan slut"}
+      },
+      "en": {
+        "word": "Fox Mulder",
+        "aliases": [],
+        "hints": {"easy": "An FBI agent seeks his sister and believes in aliens", "normal": "A UFO poster in a basement office", "hard": "Keeps a steady supply of sunflower seeds"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-michael-scott",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Michael Scott",
+        "aliases": [],
+        "hints": {"easy": "En pinsam chef leder ett papperskontor", "normal": "Delar ut egna priser till medarbetarna", "hard": "Låter personalen se en självskriven spionfilm"}
+      },
+      "en": {
+        "word": "Michael Scott",
+        "aliases": [],
+        "hints": {"easy": "An awkward boss runs a paper company branch", "normal": "Hands out homemade awards to employees", "hard": "Screens a spy movie he wrote himself"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-leslie-knope",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Leslie Knope",
+        "aliases": [],
+        "hints": {"easy": "En entusiastisk parktjänsteman älskar sitt hem Pawnee", "normal": "Planerar högtider med prydliga pärmar", "hard": "Organiserar fester med våfflor"}
+      },
+      "en": {
+        "word": "Leslie Knope",
+        "aliases": [],
+        "hints": {"easy": "An enthusiastic parks official loves her hometown, Pawnee", "normal": "Plans celebrations with meticulously organized binders", "hard": "Throws parties with waffles"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-sherlock-holmes",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sherlock Holmes",
+        "aliases": ["Sherlock"],
+        "hints": {"easy": "En detektiv löser brott med deduktion och en läkarkollega", "normal": "En adress på Baker Street", "hard": "Fiolen hjälper honom att tänka"}
+      },
+      "en": {
+        "word": "Sherlock Holmes",
+        "aliases": ["Sherlock"],
+        "hints": {"easy": "A detective reasons out crimes with a doctor at his side", "normal": "An address on Baker Street", "hard": "The violin helps him think"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-hercule-poirot",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hercule Poirot",
+        "aliases": ["Poirot"],
+        "hints": {"easy": "En belgisk detektiv är noga med sin mustasch", "normal": "Litar på sina små grå celler", "hard": "Symmetri är lika viktigt som alibin"}
+      },
+      "en": {
+        "word": "Hercule Poirot",
+        "aliases": ["Poirot"],
+        "hints": {"easy": "A Belgian detective is particular about his mustache", "normal": "Trusts his little grey cells", "hard": "Symmetry matters as much as alibis"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-grogu",
+    "category": "film-tv",
+    "subcategory": "film-tv-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grogu",
+        "aliases": [],
+        "hints": {"easy": "Ett grönt småbarn har ovanligt starka krafter", "normal": "Reser i en svävande vagga", "hard": "Kan använda kraften men somnar lätt efteråt"}
+      },
+      "en": {
+        "word": "Grogu",
+        "aliases": [],
+        "hints": {"easy": "A tiny green child has unusually strong powers", "normal": "Travels in a floating cradle", "hard": "Falls asleep easily after using the Force"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-clapperboard",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Filmklappa",
+        "aliases": [],
+        "hints": {"easy": "En tavla med en arm som slås ihop vid tagning", "normal": "Scen och tagning skrivs före inspelning", "hard": "Ljudspåret får en tydlig synkpunkt"}
+      },
+      "en": {
+        "word": "Clapperboard",
+        "aliases": [],
+        "hints": {"easy": "A hinged slate snaps shut for a take", "normal": "Scene and take numbers appear before filming", "hard": "A sharp sound marks a synchronization point"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-green-screen",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grön skärm",
+        "aliases": ["Greenscreen"],
+        "hints": {"easy": "En enfärgad bakgrund byts ut digitalt", "normal": "Vädret kan visas bakom en programledare", "hard": "Kläder i samma kulör kan försvinna"}
+      },
+      "en": {
+        "word": "Green screen",
+        "aliases": ["Greenscreen"],
+        "hints": {"easy": "A solid-color backdrop gets replaced digitally", "normal": "A weather map can appear behind a presenter", "hard": "Clothing of the same hue can disappear"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-motion-capture",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rörelsefångst",
+        "aliases": ["Motion capture","Mocap"],
+        "hints": {"easy": "En skådespelares rörelser driver en digital figur", "normal": "Markörer på dräktens leder", "hard": "En boll på en pinne kan ge en blickpunkt"}
+      },
+      "en": {
+        "word": "Motion capture",
+        "aliases": ["Mocap"],
+        "hints": {"easy": "An actor’s movements drive a digital character", "normal": "Markers track the joints of a performance suit", "hard": "A ball on a stick can stand in for an eyeline"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-stop-motion",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stop motion",
+        "aliases": ["Stop-motion"],
+        "hints": {"easy": "Dockor flyttas lite mellan varje fotograferad bild", "normal": "Fysiska modeller vaknar till liv", "hard": "Fingeravtryck kan synas i leran"}
+      },
+      "en": {
+        "word": "Stop motion",
+        "aliases": ["Stop-motion"],
+        "hints": {"easy": "Puppets move slightly between photographed frames", "normal": "Physical models appear to come alive", "hard": "Fingerprints can remain in the clay"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-close-up",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Närbild",
+        "aliases": [],
+        "hints": {"easy": "Ett ansikte eller en detalj fyller bilden", "normal": "En reaktion går att läsa i ögonen", "hard": "Ärr kan få större betydelse än rummet"}
+      },
+      "en": {
+        "word": "Close-up",
+        "aliases": [],
+        "hints": {"easy": "A face or detail fills the frame", "normal": "A reaction can be read in the eyes", "hard": "A scar can matter more than the room around it"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-wide-shot",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vidbild",
+        "aliases": [],
+        "hints": {"easy": "En stor del av platsen ryms runt personen", "normal": "En figur kan se liten ut mot landskapet", "hard": "Hur statisterna rör sig blir lättare att följa"}
+      },
+      "en": {
+        "word": "Wide shot",
+        "aliases": ["Long shot"],
+        "hints": {"easy": "Much of the setting fits around the subject", "normal": "A figure can look tiny against the landscape", "hard": "You can track where the extras are going"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-overhead-shot",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fågelperspektiv",
+        "aliases": [],
+        "hints": {"easy": "Kameran tittar ned från ovan", "normal": "Hjässor och uppslagna paraplyer i bild", "hard": "Ett golv kan likna en karta"}
+      },
+      "en": {
+        "word": "Bird's-eye view",
+        "aliases": ["Bird’s-eye view"],
+        "hints": {"easy": "The camera looks down from above", "normal": "Crowns of heads and umbrella tops come into view", "hard": "A floor can look like a map"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-low-angle-shot",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grodperspektiv",
+        "aliases": [],
+        "hints": {"easy": "Kameran tittar på motivet underifrån", "normal": "En figur kan se ovanligt mäktig ut", "hard": "Taket får plats där golvet brukar synas"}
+      },
+      "en": {
+        "word": "Low-angle shot",
+        "aliases": [],
+        "hints": {"easy": "The camera looks up at its subject", "normal": "A figure can appear unusually imposing", "hard": "The ceiling fits where the floor normally would"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-dolly-zoom",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dollyzoom",
+        "aliases": ["Dollyzoomning","Vertigoeffekt"],
+        "hints": {"easy": "Kameran flyttas och brännvidden ändras åt motsatt håll", "normal": "Personen behåller storleken medan bakgrunden förändras", "hard": "Korridoren tycks sträckas bakom en stilla figur"}
+      },
+      "en": {
+        "word": "Dolly zoom",
+        "aliases": ["Vertigo effect"],
+        "hints": {"easy": "Camera movement opposes a change in focal length", "normal": "The subject stays the same size while the background shifts", "hard": "A hallway seems to stretch behind a still figure"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-rack-focus",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skärpeförflyttning",
+        "aliases": [],
+        "hints": {"easy": "Skärpan flyttas från ett motiv till ett annat i samma tagning", "normal": "Ett föremål i förgrunden blir plötsligt tydligt", "hard": "Blicken leds vidare utan klipp"}
+      },
+      "en": {
+        "word": "Rack focus",
+        "aliases": [],
+        "hints": {"easy": "Sharpness shifts between subjects within the same take", "normal": "An object in the foreground suddenly becomes clear", "hard": "Attention shifts without an edit"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-match-cut",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Match cut",
+        "aliases": [],
+        "hints": {"easy": "Två bilder kopplas genom en liknande form eller rörelse", "normal": "Ett ben i luften kan ersättas av en farkost", "hard": "Likheten kan överbrygga tusentals år"}
+      },
+      "en": {
+        "word": "Match cut",
+        "aliases": [],
+        "hints": {"easy": "Two shots connect through a similar shape or action", "normal": "A thrown bone can give way to a spacecraft", "hard": "A resemblance can bridge thousands of years"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-jump-cut",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hoppklipp",
+        "aliases": [],
+        "hints": {"easy": "När en tidsbit tas bort rycker motivet till", "normal": "Samma bildvinkel på båda sidor om skarven", "hard": "En cigarett kan hinna bli kortare mellan orden"}
+      },
+      "en": {
+        "word": "Jump cut",
+        "aliases": [],
+        "hints": {"easy": "A short interval is removed, interrupting the subject’s motion", "normal": "The camera angle barely changes at the splice", "hard": "A cigarette can become shorter between words"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-montage",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Montage",
+        "aliases": [],
+        "hints": {"easy": "Flera korta bilder sammanfattar en längre utveckling", "normal": "Veckors träning ryms i några minuter", "hard": "Frukostbordet kan visa ett helt äktenskap"}
+      },
+      "en": {
+        "word": "Montage",
+        "aliases": [],
+        "hints": {"easy": "Several quick shots condense a longer process", "normal": "Weeks of practice fit into a few minutes", "hard": "A breakfast table can show an entire marriage"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-long-take",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Långtagning",
+        "aliases": [],
+        "hints": {"easy": "Kameran fortsätter filma länge utan klipp", "normal": "Skådespelarnas rörelser måste sitta genom hela förloppet", "hard": "En korridor kan bli ett prov i tajming"}
+      },
+      "en": {
+        "word": "Long take",
+        "aliases": [],
+        "hints": {"easy": "The camera keeps rolling for an extended stretch", "normal": "Actors must hit their marks throughout the action", "hard": "A corridor can become a test of timing"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-slow-motion",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Slow motion",
+        "aliases": [],
+        "hints": {"easy": "En snabb rörelse visas i långsammare takt", "normal": "Ett plask kan delas upp i små detaljer", "hard": "Hög bildfrekvens ger utrymme att dra ut ett ögonblick"}
+      },
+      "en": {
+        "word": "Slow motion",
+        "aliases": [],
+        "hints": {"easy": "A quick action plays back at a slower pace", "normal": "A splash can be broken into tiny details", "hard": "A high frame rate helps stretch an instant"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-time-lapse",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Intervallfilmning",
+        "aliases": ["Time-lapse"],
+        "hints": {"easy": "Bilder tas glest för att visa långsam förändring snabbt", "normal": "Moln tycks rusa över himlen", "hard": "En blomning kan rymmas på några sekunder"}
+      },
+      "en": {
+        "word": "Time-lapse",
+        "aliases": ["Timelapse"],
+        "hints": {"easy": "Pictures taken at intervals make slow changes play fast", "normal": "Clouds seem to race across the sky", "hard": "A flowering plant can unfold in seconds"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-subtitles",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Undertexter",
+        "aliases": [],
+        "hints": {"easy": "Dialogen skrivs längst ner i bilden", "normal": "Ett annat språk kan läsas utan att rösterna byts", "hard": "Korta rader måste hinna avkodas"}
+      },
+      "en": {
+        "word": "Subtitles",
+        "aliases": [],
+        "hints": {"easy": "Dialogue is written at the bottom of the screen", "normal": "Another language can be read while voices stay intact", "hard": "Short lines need to fit a reader’s pace"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-dubbing",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dubbning",
+        "aliases": [],
+        "hints": {"easy": "En annan röst ersätter originaldialogen", "normal": "Meningar anpassas för att passa munrörelser", "hard": "Bildens stjärna kan ha två röster i olika länder"}
+      },
+      "en": {
+        "word": "Dubbing",
+        "aliases": [],
+        "hints": {"easy": "A different voice replaces the original dialogue", "normal": "Phrases are adjusted to fit mouth movements", "hard": "The same screen star can have different voices across countries"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-foley",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trampljud",
+        "aliases": ["Foley"],
+        "hints": {"easy": "Fotsteg och prassel återskapas efter inspelningen", "normal": "En ljudstudio kan ha golv av flera material", "hard": "Ett knippe nycklar spelas in i rätt ögonblick"}
+      },
+      "en": {
+        "word": "Foley",
+        "aliases": [],
+        "hints": {"easy": "Footsteps and rustling are recreated in post-production", "normal": "A sound studio may have several surfaces underfoot", "hard": "A bunch of keys is shaken at just the right moment"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-storyboard",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bildmanus",
+        "aliases": ["Storyboard"],
+        "hints": {"easy": "Skisser visar i vilken ordning scener ska fotograferas", "normal": "Rutor planerar vinklar före inspelningen", "hard": "Pilar kan ange vart kameran ska röra sig"}
+      },
+      "en": {
+        "word": "Storyboard",
+        "aliases": [],
+        "hints": {"easy": "Drawn panels lay out a planned shot sequence", "normal": "Camera angles are mapped on paper before filming", "hard": "Arrows can indicate where the camera moves"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-screenplay",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Filmmanus",
+        "aliases": [],
+        "hints": {"easy": "Handling och repliker skrivs före inspelningen", "normal": "Scenrubriker anger plats och tid", "hard": "Rollnamn står över vad som ska sägas"}
+      },
+      "en": {
+        "word": "Screenplay",
+        "aliases": [],
+        "hints": {"easy": "Action and dialogue are written down before production", "normal": "Scene headings give place and time", "hard": "Character names sit above their lines"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-blooper",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Inspelningsmiss",
+        "aliases": ["Blooper"],
+        "hints": {"easy": "En misslyckad tagning sparas för att den är rolig", "normal": "En skådespelare tappar repliken och börjar skratta", "hard": "Ett förstört försök kan dyka upp efter sista scenen"}
+      },
+      "en": {
+        "word": "Blooper",
+        "aliases": [],
+        "hints": {"easy": "A failed take is saved because it is funny", "normal": "An actor forgets a line and starts laughing", "hard": "A ruined attempt can surface after the last scene"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-end-credits",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Eftertexter",
+        "aliases": [],
+        "hints": {"easy": "Namnen på de medverkande visas när filmen slutar", "normal": "Långa listor över arbetslag rullar förbi", "hard": "Några i publiken stannar för en extra scen"}
+      },
+      "en": {
+        "word": "End credits",
+        "aliases": [],
+        "hints": {"easy": "The people who made a film are named as it ends", "normal": "Long lists of production crews scroll past", "hard": "Some viewers stay for a bonus scene"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-opening-credits",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Förtexter",
+        "aliases": [],
+        "hints": {"easy": "Skådespelarnas namn visas i början av filmen", "normal": "Grafik eller tidiga scener presenterar huvudrollerna", "hard": "Typografin sätter tonen före intrigen"}
+      },
+      "en": {
+        "word": "Opening credits",
+        "aliases": [],
+        "hints": {"easy": "Cast names appear at the start of a film", "normal": "Graphics or early shots introduce the leads", "hard": "Lettering sets the mood before the plot unfolds"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-trailer",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Filmtrailer",
+        "aliases": ["Trailer"],
+        "hints": {"easy": "Ett klipp med smakprov ska locka publik till filmen", "normal": "Utvalda repliker och bilder före premiären", "hard": "Ett datum dyker upp efter en snabb klippserie"}
+      },
+      "en": {
+        "word": "Movie trailer",
+        "aliases": ["Trailer"],
+        "hints": {"easy": "A short preview entices people to watch a film", "normal": "Selected lines and images appear before release", "hard": "A date follows a burst of fast editing"}
+      }
+    }
+  },
+  {
+    "id": "film-tv-post-credits-scene",
+    "category": "film-tv",
+    "subcategory": "film-tv-production",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Scen efter eftertexterna",
+        "aliases": [],
+        "hints": {"easy": "En extra filmsnutt visas efter namnlistan", "normal": "De som stannar kvar i salongen får se mer", "hard": "En kort sekvens kan antyda nästa berättelse"}
+      },
+      "en": {
+        "word": "Post-credits scene",
+        "aliases": [],
+        "hints": {"easy": "An extra bit of film plays after the names roll", "normal": "The audience members who stay get a little more", "hard": "A brief moment may hint at the next story"}
+      }
+    }
+  }
+]

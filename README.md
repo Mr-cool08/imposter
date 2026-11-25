@@ -43,7 +43,7 @@ python run.py
 python -m pip install -r requirements-dev.txt
 python -m pip check
 python -m pytest
-python -m tools.validate_content
+python tools/validate_content.py --write-report docs/content-report.md
 ```
 
 Webbläsartesterna kan använda en installerad kompatibel Chrome eller Playwrights Chromium. Vid behov hämtas det senare med `python -m playwright install chromium`. Se [webbläsartester](docs/browser-testing.md) för val av webbläsare och enskilda testflöden. Node kan användas för de fristående verifieringarna av JavaScript-motorn. Projektet distribuerar JavaScript direkt till webbläsaren.

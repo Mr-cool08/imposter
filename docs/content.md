@@ -37,4 +37,4 @@ Ord blir dubblettkandidater om deras huvudord matchar, eller ett huvudord matcha
 
 ## Validering och rapport
 
-Kör `python tools/validate_content.py --write-report docs/content-report.md`. Kommandot kontrollerar struktur, referenser, dubbletter, ledtrådar och mängden innehåll. Den redaktionella bedömningen av fakta, ledtrådarnas styrka och sambandet inom ordpar behöver göras av innehållsförfattarna. Skapa en uppdaterad kategorilista med `python tools/validate_content.py --write-categories data/categories.json`.
+Kör `python tools/validate_content.py --write-report docs/content-report.md --write-categories data/categories.json` från projektroten. Kommandot kontrollerar struktur, referenser, dubbletter, ledtrådar och mängden innehåll. Det skriver rapporten även om utgivningsgränserna underskrids. Flaggan `--allow-incomplete` godtar en ofullständig katalog vid lokalt författararbete, medan strukturella fel alltid ger en felkod. Den redaktionella bedömningen av fakta, ledtrådarnas styrka och sambandet inom ordpar behöver göras av innehållsförfattarna.

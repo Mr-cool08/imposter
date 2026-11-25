@@ -1,6 +1,10 @@
 import json
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from itertools import count
+from pathlib import Path
+from shutil import copyfile
+from threading import Barrier
 
 import pytest
 
@@ -51,15 +55,42 @@ class Player:
         return emit(self.client, f"room:{event}", payload)
 
 
+@pytest.fixture(scope="module")
+def online_data_dir(tmp_path_factory):
+    root = tmp_path_factory.mktemp("online-data")
+    fixtures = Path(__file__).parent / "fixtures"
+    fixture = json.loads((fixtures / "engine_content.json").read_text(encoding="utf-8"))
+    categories = [{
+        "id": "food",
+        "names": {"sv": "Mat", "en": "Food"},
+        "icon": "🍽",
+        "subcategories": [
+            {"id": "food-desserts", "names": {"sv": "Efterrätter", "en": "Desserts"}},
+            {"id": "food-snacks", "names": {"sv": "Snacks", "en": "Snacks"}},
+        ],
+    }]
+    files = {
+        "categories.json": categories,
+        "words/food.json": fixture["words"],
+        "pairs/food.json": fixture["pairs"],
+    }
+    for relative, value in files.items():
+        path = root / relative
+        path.parent.mkdir(exist_ok=True)
+        path.write_text(json.dumps(value, ensure_ascii=False), encoding="utf-8")
+    copyfile(fixtures.parent.parent / "data" / "rules.json", root / "rules.json")
+    return root
+
+
 @pytest.fixture
-def start_server():
+def start_server(online_data_dir):
     clients = []
 
     def start(**config):
         app = create_app({
             "TESTING": True,
             "TRUSTED_HOSTS": None,
-            "HOST_GRACE_SECONDS": 0,
+            "DATA_DIR": online_data_dir,
             "ONLINE_SWEEP_INTERVAL_SECONDS": 0,
             **config,
         })
@@ -234,9 +265,14 @@ def test_three_clients_finish_text_round_and_receive_only_their_private_state(st
     assert result["eliminated"] == imposter.id
     assert result["votes"] == {civilians[0].id: imposter.id, civilians[1].id: imposter.id, imposter.id: civilians[0].id}
     assert result["roles"] == {player_id: card["role"] for player_id, card in cards.items()}
-    for state in results:
+    for player, state in zip(all_players, results, strict=True):
         assert state["stage"] == "result"
         assert state["round"]["result"] == result
+        if player is waiting:
+            assert state["private"] is None
+        else:
+            assert state["private"]["playerId"] == player.id
+            assert state["private"]["card"] is None
         assert [entry["id"] for entry in state["history"]] == [result["id"]]
         scores = {score["id"]: score for score in state["scores"]}
         for player in civilians:
@@ -353,8 +389,81 @@ def test_chaos_uses_neutral_steps_and_group_options_until_reveal(start_server, s
     assert result["points"] == {player.id: 2 for player in game.players}
 
 
+def test_chaos_guess_does_not_notify_other_players_before_reveal(start_server):
+    _, new_client, rooms, clock = start_server()
+    game = create_game(new_client, {"mode": "chaos", "chaos": [{"mode": "classic", "lastGuess": True, "weight": 1}]})
+    game.start()
+    imposter = next(player for player in game.players if player.read()["private"]["card"]["role"] == "imposter")
+    civilians = [player for player in game.players if player.id != imposter.id]
+    word = civilians[0].read()["private"]["card"]["word"]
+    game.give_clues()
+    for player in game.players:
+        expect_ok(game.act(player, "ability"))
+    expect_ok(game.act(game.host, "end_discussion"))
+    expect_ok(game.act(imposter, "vote", targetId=civilians[0].id))
+    for player in civilians:
+        expect_ok(game.act(player, "vote", targetId=imposter.id))
+
+    previous = imposter.read()
+    assert previous["round"]["phase"] == "last_guess"
+    assert previous["round"]["deadline"] == clock.now + 20_000
+    assert previous["private"]["canGuess"] is True
+    for player in civilians:
+        assert player.read()["private"]["canGuess"] is False
+    expect_error(game.act(civilians[0], "guess", text=word), "invalid_action")
+    guess = {**game.payload(), "action": "guess", "data": {"text": word}}
+    guess_ack = expect_ok(imposter.send("action", guess))
+    assert all(player.client.get_received() == [] for player in civilians)
+
+    own_state = imposter.read()
+    assert own_state["private"]["canGuess"] is False
+    assert own_state["round"] == previous["round"]
+    assert own_state["revision"] == previous["revision"]
+    assert imposter.send("action", guess) == guess_ack
+    assert all(player.client.get_received() == [] for player in game.players)
+
+    clock.now += 19_999
+    rooms.sweep()
+    assert all(player.client.get_received() == [] for player in game.players)
+    clock.now += 1
+    rooms.sweep()
+    for player in game.players:
+        result = player.read()["round"]["result"]
+        assert result["winnerTeam"] == "impostors"
+        assert result["guess"] == {"playerId": imposter.id, "text": word, "correct": True}
+
+
+def test_concurrent_final_votes_settle_the_round_once(start_server):
+    _, new_client, _, _ = start_server()
+    game = create_game(new_client, {"mode": "none"})
+    game.start()
+    game.give_clues()
+    expect_ok(game.act(game.host, "end_discussion"))
+    expect_ok(game.act(game.host, "vote", targetId="@none"))
+    barrier = Barrier(2)
+
+    def vote(player, payload):
+        barrier.wait(timeout=5)
+        return player.send("action", payload)
+
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        votes = []
+        for player in game.players[1:]:
+            payload = {**game.payload(), "action": "vote", "data": {"targetId": "@none"}}
+            votes.append(pool.submit(vote, player, payload))
+        for reply in votes:
+            expect_ok(reply.result(timeout=10))
+
+    for player in game.players:
+        snapshot = player.read()
+        result = snapshot["round"]["result"]
+        assert result["votes"] == {voter.id: "@none" for voter in game.players}
+        assert [entry["id"] for entry in snapshot["history"]] == [result["id"]]
+        assert all((score["played"], score["wins"], score["points"]) == (1, 1, 2) for score in snapshot["scores"])
+
+
 def test_room_capacity_expiry_and_server_restart(start_server):
-    _, new_client, rooms, clock = start_server(MAX_ROOMS=1, ROOM_TTL_SECONDS=2)
+    _, new_client, rooms, clock = start_server(ONLINE_MAX_ROOMS=1, ONLINE_ROOM_TTL_SECONDS=2)
     code, host = enter(new_client(), "create", name="Ada")
     wait = new_client()
     expect_error(emit(wait, "room:create", {"name": "Boel"}), "server_full")
@@ -372,6 +481,26 @@ def test_room_capacity_expiry_and_server_restart(start_server):
     assert fresh_host.id != host2.id
     assert fresh_host.read()["history"] == []
     assert all(score["points"] == 0 for score in fresh_host.read()["scores"])
+
+
+def test_full_room_rejects_new_player_until_someone_leaves(start_server):
+    _, new_client, _, _ = start_server()
+    game = create_game(new_client)
+    for index in range(len(game.players), 20):
+        _, player = enter(new_client(), "join", code=game.code, name=f"Gäst {index + 1}")
+        game.players.append(player)
+    assert len(game.host.read()["players"]) == 20
+
+    next_client = new_client()
+    expect_error(emit(next_client, "room:join", {"code": game.code, "name": "Estrid"}), "room_full")
+    departing = game.players[-1]
+    expect_ok(departing.send("leave", {}))
+    assert len(game.host.read()["players"]) == 19
+    expect_error(emit(next_client, "room:reconnect", {"code": game.code, "token": departing.token}), "invalid_token")
+    _, joined = enter(next_client, "join", code=game.code, name="Estrid")
+    players = joined.read()["players"]
+    assert len(players) == 20
+    assert departing.id not in {player["id"] for player in players}
 
 
 def test_custom_package_is_validated_and_absent_from_public_content(start_server):
@@ -432,3 +561,20 @@ def test_custom_package_is_validated_and_absent_from_public_content(start_server
         language = word["languages"]["sv"]
         expected = {"word": None, "hint": language["hints"]["normal"]} if card["role"] == "imposter" else {"word": language["word"], "hint": None}
         assert {key: card[key] for key in ("word", "hint")} == expected
+
+
+def test_empty_category_selection_blocks_start_and_omitted_selection_uses_all(start_server):
+    _, new_client, _, _ = start_server()
+    game = create_game(new_client, {"categories": []})
+    for player in game.players[1:]:
+        expect_ok(player.send("ready", {"ready": True}))
+    assert game.host.read()["selection"] == {"words": 0, "pairs": 0}
+    error = expect_error(game.host.send("start", game.payload()), "invalid_settings")
+    assert {issue["code"] for issue in error["issues"]} == {"no_words"}
+    assert game.host.read()["round"] is None
+
+    expect_ok(game.host.send("settings", {"settings": {"subcategories": ["food-desserts"]}}))
+    assert game.host.read()["selection"] == {"words": 2, "pairs": 1}
+    expect_ok(game.host.send("settings", {"settings": {}}))
+    assert game.host.read()["selection"] == {"words": 3, "pairs": 1}
+    game.start()

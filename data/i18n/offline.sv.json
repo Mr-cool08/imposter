@@ -8,6 +8,7 @@
   "offline.notReady": "Ladda ner ordpaketen för det här urvalet för att spela lokalt utan nätverk.",
   "offline.packageUnavailable": "Ett ordpaket kunde inte laddas. Kontrollera anslutningen och försök igen.",
   "offline.ready": "De valda ordpaketen är klara för lokalspel offline.",
+  "offline.shellReady": "Appen är klar för offline. Välj ett nedladdat eller eget ordpaket för att spela.",
   "offline.storage": "Webbläsaren kunde inte spara offlinepaketet. Du kan fortsätta spela med nätverket anslutet.",
   "offline.unavailable": "Offlinefunktionen är tillfälligt otillgänglig. Kontrollera anslutningen eller prova att ladda om sidan.",
   "offline.unsupported": "Offlinepaket behöver en webbläsare med stöd för appinstallation och en säker anslutning.",

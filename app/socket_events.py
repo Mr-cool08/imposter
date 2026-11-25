@@ -126,11 +126,10 @@ def _custom(value, directory, max_bytes):
         raise RoomError("invalid_custom") from error
 
 
-def _current_member(directory, connection, sid, now):
-    room = connection.room
+def _current_member(directory, room, player_id, sid, now):
     if not directory.live(room, now):
         raise RoomError("room_not_found")
-    member = room.identity(connection.player_id, sid)
+    member = room.identity(player_id, sid)
     if member is None:
         raise RoomError("not_in_room")
     return member
@@ -141,12 +140,12 @@ def _ack(room, member, token):
 
 
 def _enter(directory, event, body, connection, sid, custom_limit):
-    if connection.room is not None:
-        with connection.room.lock:
-            if directory.live(connection.room, directory.clock()) and connection.room.identity(connection.player_id, sid):
+    previous = directory.lookup(connection.room_code)
+    if previous is not None:
+        with previous.lock:
+            if directory.live(previous, directory.clock()) and previous.identity(connection.player_id, sid):
                 raise RoomError("already_bound")
-        connection.room = None
-        connection.player_id = None
+    connection.room_code, connection.player_id = None, None
 
     if event == "create":
         name = _text(body["name"], MAX_NAME_LENGTH, "bad_name")
@@ -154,12 +153,12 @@ def _enter(directory, event, body, connection, sid, custom_limit):
         custom = _custom(body.get("custom"), directory, custom_limit)
         room, member, token = directory.create(sid, name, settings, custom, directory.clock())
         with room.lock:
-            connection.room, connection.player_id = room, member.id
+            connection.room_code, connection.player_id = room.code, member.id
             directory.publish(room, directory.clock())
         return _ack(room, member, token)
 
     value = body["code"]
-    if not isinstance(value, str) or not CODE_PATTERN.fullmatch(code := value.strip().upper()):
+    if not isinstance(value, str) or not value.isascii() or not CODE_PATTERN.fullmatch(code := value.strip().upper()):
         raise RoomError("bad_code")
     room = directory.find(code)
     with room.lock:
@@ -176,11 +175,10 @@ def _enter(directory, event, body, connection, sid, custom_limit):
             if not isinstance(token, str) or not TOKEN_PATTERN.fullmatch(token):
                 raise RoomError("invalid_token")
             member = room.find_token(token)
-            old_sid = room.restore(member, sid, now)
+            old_sid = room.restore(member, sid)
             if old_sid is not None:
                 directory.socketio.emit("room:replaced", {"code": room.code}, to=old_sid)
-        room.advance(now)
-        connection.room, connection.player_id = room, member.id
+        connection.room_code, connection.player_id = room.code, member.id
         directory.publish(room, now)
     return _ack(room, member, token)
 
@@ -242,40 +240,52 @@ def _action(room, member, body, now):
 
 
 def _handle(directory, event, body, connection, sid, custom_limit):
-    room = connection.room
-    if room is None:
+    if connection.room_code is None:
         raise RoomError("not_in_room")
+    room = directory.find(connection.room_code)
     with room.lock:
         now = directory.clock()
-        member = _current_member(directory, connection, sid, now)
+        member = _current_member(directory, room, connection.player_id, sid, now)
         if room.advance(now):
             directory.publish(room, now)
-        if event in HOST_EVENTS and member.id != room.host_id:
-            raise RoomError("not_host")
-
-        if event in ROUND_MUTATIONS or event == "start":
+        round_command = event in ROUND_MUTATIONS or event == "start"
+        if round_command:
             key = body["requestId"]
             if not isinstance(key, str) or not REQUEST_PATTERN.fullmatch(key):
                 raise RoomError("bad_payload")
             operation = (event, body)
             if member.known_request(key, operation):
                 return {"ok": True}
-            current_id = room.round.public_state()["id"] if room.round is not None else None
-            if body["roundId"] != current_id:
+        if event in HOST_EVENTS and member.id != room.host_id:
+            raise RoomError("not_host")
+
+        only = None
+        if round_command:
+            if body["roundId"] != room.round_id:
                 raise RoomError("wrong_round")
             if event != "start" and not room.playing:
                 raise RoomError("not_playing")
+            before_guess = (
+                room.round.public_state()
+                if event == "action" and body["action"] == "guess"
+                else None
+            )
             _round_command(room, member, event, body, now)
             member.remember_request(key, operation)
             room.settle()
+            if before_guess is not None and before_guess == room.round.public_state():
+                # A neutral Chaos guess must not leave a public notification or revision gap.
+                only = sid
         elif event == "ready":
             if not isinstance(body["ready"], bool):
                 raise RoomError("bad_payload")
+            if member.ready == body["ready"]:
+                return {"ok": True}
             member.ready = body["ready"]
         elif event == "leave":
-            room.lose(member, leave=True, now=now, host_grace_ms=directory.host_grace_ms)
-            connection.room, connection.player_id = None, None
-            if not room.members:
+            room.lose(member, leave=True, now=now)
+            connection.room_code, connection.player_id = None, None
+            if all(member.departed for member in room.members.values()):
                 directory.close(room)
                 return {"ok": True}
         else:
@@ -289,15 +299,15 @@ def _handle(directory, event, body, connection, sid, custom_limit):
                 room.scores.clear()
             elif event == "clear_history":
                 room.history.clear()
-        directory.publish(room, now)
+        directory.publish(room, now, only=only)
     return {"ok": True}
 
 
 def register_socket_events(socketio, app):
     directory = RoomDirectory(socketio, app)
     app.extensions["online_rooms"] = directory
-    packet_limit = app.config["MAX_PACKET_BYTES"]
-    custom_limit = max(0, min(256 * 1024, packet_limit - 4096))
+    packet_limit = app.config["ONLINE_MAX_PACKET_BYTES"]
+    custom_limit = app.config["ONLINE_MAX_CUSTOM_BYTES"]
 
     @socketio.on("connect")
     def connect(auth=None):

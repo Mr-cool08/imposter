@@ -1,0 +1,4359 @@
+[
+  {
+    "id": "sports-football",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fotboll",
+        "aliases": [],
+        "hints": {
+          "easy": "Sparkar mot två mål",
+          "normal": "Elva spelare per lag från start",
+          "hard": "Nittio på klockan"
+        }
+      },
+      "en": {
+        "word": "Soccer",
+        "aliases": [
+          "Association football",
+          "Football"
+        ],
+        "hints": {
+          "easy": "Kicks between two goals",
+          "normal": "Eleven players on each starting side",
+          "hard": "Ninety on the clock"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-futsal",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Futsal",
+        "aliases": [],
+        "hints": {
+          "easy": "Fem spelare på en inomhusplan",
+          "normal": "Boll med dämpad studs",
+          "hard": "Insparkar ersätter inkasten"
+        }
+      },
+      "en": {
+        "word": "Futsal",
+        "aliases": [],
+        "hints": {
+          "easy": "Five per side indoors",
+          "normal": "Reduced bounce",
+          "hard": "A touchline restart uses feet"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-basketball",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Basket",
+        "aliases": [
+          "Basketboll"
+        ],
+        "hints": {
+          "easy": "Bollen kastas genom en ring högt upp",
+          "normal": "Tre poäng från distans",
+          "hard": "Fingertoppar mot plankan"
+        }
+      },
+      "en": {
+        "word": "Basketball",
+        "aliases": [],
+        "hints": {
+          "easy": "Shoot through a raised hoop",
+          "normal": "Three points from distance",
+          "hard": "Fingertips against the glass"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-volleyball",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Volleyboll",
+        "aliases": [],
+        "hints": {
+          "easy": "Slå bollen över nät utan markkontakt",
+          "normal": "Bagger följd av lyft",
+          "hard": "Libero i annan färg"
+        }
+      },
+      "en": {
+        "word": "Volleyball",
+        "aliases": [],
+        "hints": {
+          "easy": "Strike over a net without a bounce",
+          "normal": "Dig, set and attack",
+          "hard": "Libero in a different shirt"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-handball",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Handboll",
+        "aliases": [],
+        "hints": {
+          "easy": "Spelarna kastar mot mål",
+          "normal": "Hoppskott vid sexmeterslinjen",
+          "hard": "Målvakten kommer ut med hela kroppen"
+        }
+      },
+      "en": {
+        "word": "Handball",
+        "aliases": [],
+        "hints": {
+          "easy": "Players throw at a goal",
+          "normal": "Jump shot at the goal area",
+          "hard": "A keeper spreads every limb"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-ice-hockey",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team",
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ishockey",
+        "aliases": [],
+        "hints": {
+          "easy": "Puck och klubba på skridskor",
+          "normal": "Byte mitt under spel",
+          "hard": "Kylig sarg med spelarbås"
+        }
+      },
+      "en": {
+        "word": "Ice hockey",
+        "aliases": [],
+        "hints": {
+          "easy": "Sticks and a puck on skates",
+          "normal": "Line changes during play",
+          "hard": "Cold boards beside the bench"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-floorball",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Innebandy",
+        "aliases": [],
+        "hints": {
+          "easy": "Plastklubba och hålig boll inomhus",
+          "normal": "Korta byten vid en låg sarg",
+          "hard": "Knästående målvakt med mask"
+        }
+      },
+      "en": {
+        "word": "Floorball",
+        "aliases": [],
+        "hints": {
+          "easy": "Plastic sticks and a perforated ball",
+          "normal": "Quick shifts behind low boards",
+          "hard": "Kneeling keeper in a mask"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-bandy",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team",
+      "winter"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bandy",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor isplan med boll och klubbor",
+          "normal": "Spelare på skridskor i elvamannalag",
+          "hard": "Vintermatch i fotbollsformat"
+        }
+      },
+      "en": {
+        "word": "Bandy",
+        "aliases": [],
+        "hints": {
+          "easy": "A ball and sticks on a large sheet of ice",
+          "normal": "Eleven skaters to a side",
+          "hard": "Winter game on a pitch-sized rink"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-tennis",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "racket"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tennis",
+        "aliases": [],
+        "hints": {
+          "easy": "Racketar och en filtboll över nät",
+          "normal": "Femton, trettio, fyrtio",
+          "hard": "Grus vid baslinjen"
+        }
+      },
+      "en": {
+        "word": "Tennis",
+        "aliases": [],
+        "hints": {
+          "easy": "Rackets and a felt ball over a net",
+          "normal": "Fifteen, thirty, forty",
+          "hard": "Clay at the baseline"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-badminton",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "racket"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Badminton",
+        "aliases": [],
+        "hints": {
+          "easy": "Racketduell med en fjäderboll",
+          "normal": "Lätta slag tätt över nätet",
+          "hard": "Kork som bromsas i luften"
+        }
+      },
+      "en": {
+        "word": "Badminton",
+        "aliases": [],
+        "hints": {
+          "easy": "Racket duel with a shuttlecock",
+          "normal": "Feathered clears and drops",
+          "hard": "Cork slowed by the air"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-table-tennis",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "racket"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bordtennis",
+        "aliases": [
+          "Pingis"
+        ],
+        "hints": {
+          "easy": "Liten boll studsar på båda sidor av nätet",
+          "normal": "Korta racketar med gummi",
+          "hard": "Skruv som byter riktning efter studsen"
+        }
+      },
+      "en": {
+        "word": "Table tennis",
+        "aliases": [
+          "Ping-pong",
+          "Ping pong"
+        ],
+        "hints": {
+          "easy": "A tiny ball bounces on either side of a net",
+          "normal": "Short rubber-faced paddles",
+          "hard": "Spin bends the bounce"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-squash",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "racket"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Squash (sport)",
+        "aliases": [],
+        "hints": {
+          "easy": "Två racketspelare delar en inhägnad bana",
+          "normal": "Träffar mot framväggen",
+          "hard": "Låg studs innan gummit är varmt"
+        }
+      },
+      "en": {
+        "word": "Squash",
+        "aliases": [],
+        "hints": {
+          "easy": "Two racket players share an enclosed court",
+          "normal": "Shots rebound from the front wall",
+          "hard": "Low bounce until the rubber warms"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-padel",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "racket"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Padel",
+        "aliases": [],
+        "hints": {
+          "easy": "Dubbelspel med glasväggar",
+          "normal": "Håligt racket och underhandsserve",
+          "hard": "En lobb köper tid vid gallret"
+        }
+      },
+      "en": {
+        "word": "Padel",
+        "aliases": [],
+        "hints": {
+          "easy": "Doubles on a glass-walled court",
+          "normal": "Perforated racket and underarm serve",
+          "hard": "A lob buys time by the mesh"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-pickleball",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "racket"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pickleball",
+        "aliases": [],
+        "hints": {
+          "easy": "Plastracket och hålboll på liten bana",
+          "normal": "Kort stoppboll intill nätet",
+          "hard": "En zon där volleyn är förbjuden"
+        }
+      },
+      "en": {
+        "word": "Pickleball",
+        "aliases": [],
+        "hints": {
+          "easy": "Paddles and a perforated ball on a small court",
+          "normal": "A soft dink by the net",
+          "hard": "A kitchen where volleys are forbidden"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-golf",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "target"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Golf",
+        "aliases": [],
+        "hints": {
+          "easy": "Klubbor slår en boll mot ett hål",
+          "normal": "Utslag följs av spel från gräs",
+          "hard": "Flaggan stannar när slaget räknas"
+        }
+      },
+      "en": {
+        "word": "Golf",
+        "aliases": [],
+        "hints": {
+          "easy": "Clubs send a ball towards a hole",
+          "normal": "A tee shot leads into the fairway",
+          "hard": "The flag marks the last few strokes"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-disc-golf",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "target"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Discgolf",
+        "aliases": [
+          "Frisbeegolf"
+        ],
+        "hints": {
+          "easy": "Kasta en skiva i en kedjekorg",
+          "normal": "En runda från utslagsplatser",
+          "hard": "Metall som rasslar efter rätt båge"
+        }
+      },
+      "en": {
+        "word": "Disc golf",
+        "aliases": [
+          "Frisbee golf"
+        ],
+        "hints": {
+          "easy": "Throw a flying disc into a chain basket",
+          "normal": "A round from marked tee pads",
+          "hard": "Rattling metal after the right arc"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-archery",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "target"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bågskytte",
+        "aliases": [],
+        "hints": {
+          "easy": "Pilar skjuts mot färgade ringar",
+          "normal": "Strängen dras till kinden",
+          "hard": "Släppet avgör den lilla spridningen"
+        }
+      },
+      "en": {
+        "word": "Archery",
+        "aliases": [],
+        "hints": {
+          "easy": "Arrows fly at coloured rings",
+          "normal": "Draw the string to the cheek",
+          "hard": "The release controls the grouping"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-fencing",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "combat"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fäktning",
+        "aliases": [],
+        "hints": {
+          "easy": "Två maskerade tävlande stöter med klingor",
+          "normal": "Utfall på en smal bana",
+          "hard": "En lampa kan avgöra vem som träffade"
+        }
+      },
+      "en": {
+        "word": "Fencing",
+        "aliases": [],
+        "hints": {
+          "easy": "Masked opponents duel with blades",
+          "normal": "Lunges on a narrow piste",
+          "hard": "A light can confirm a touch"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-wrestling",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "combat"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brottning",
+        "aliases": [],
+        "hints": {
+          "easy": "Greppa och håll ner motståndaren på en matta",
+          "normal": "Fallseger på skuldrorna",
+          "hard": "Två dräkter och en låg tyngdpunkt"
+        }
+      },
+      "en": {
+        "word": "Wrestling",
+        "aliases": [],
+        "hints": {
+          "easy": "Grapple and pin an opponent on a mat",
+          "normal": "Victory with both shoulders down",
+          "hard": "Two singlets and a low centre of gravity"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-judo",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "combat"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Judo",
+        "aliases": [],
+        "hints": {
+          "easy": "Kast och fasthållning på tävlingsmatta",
+          "normal": "Grepp om jackans krage",
+          "hard": "En fullträff heter ippon"
+        }
+      },
+      "en": {
+        "word": "Judo",
+        "aliases": [],
+        "hints": {
+          "easy": "Throws and holds on a competition mat",
+          "normal": "Grip the jacket collar",
+          "hard": "The highest score is ippon"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-karate",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "combat"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Karate",
+        "aliases": [],
+        "hints": {
+          "easy": "Kontrollerade slag och sparkar",
+          "normal": "Teknikserier i vitt",
+          "hard": "Bältet säger något om erfarenheten"
+        }
+      },
+      "en": {
+        "word": "Karate",
+        "aliases": [],
+        "hints": {
+          "easy": "Controlled punches and kicks",
+          "normal": "Practised forms in white",
+          "hard": "The belt signals experience"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-taekwondo",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "combat"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Taekwondo",
+        "aliases": [],
+        "hints": {
+          "easy": "Höga snabba sparkar mot skyddsväst",
+          "normal": "Träffar får elektroniskt utslag",
+          "hard": "En snurr kan ge extra poäng"
+        }
+      },
+      "en": {
+        "word": "Taekwondo",
+        "aliases": [],
+        "hints": {
+          "easy": "Fast high kicks against body armour",
+          "normal": "Hits register electronically",
+          "hard": "A spin can earn extra points"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-boxing",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "combat"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Boxning",
+        "aliases": [],
+        "hints": {
+          "easy": "Handskklädda slag i en ring",
+          "normal": "Krokar, gard och rondpaus",
+          "hard": "Hörnan har vatten och råd"
+        }
+      },
+      "en": {
+        "word": "Boxing",
+        "aliases": [],
+        "hints": {
+          "easy": "Gloved punches in a ring",
+          "normal": "Hooks, guards and a rest between rounds",
+          "hard": "A corner offers water and advice"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-curling",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "target",
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Curling",
+        "aliases": [],
+        "hints": {
+          "easy": "Slipade stenar och sopar på is",
+          "normal": "Sikta mot de målade ringarna",
+          "hard": "Sopningen ändrar glidet"
+        }
+      },
+      "en": {
+        "word": "Curling",
+        "aliases": [],
+        "hints": {
+          "easy": "Granite stones and brushes on ice",
+          "normal": "Aim for the painted rings",
+          "hard": "Sweeping changes the glide"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-figure-skating",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Konståkning",
+        "aliases": [],
+        "hints": {
+          "easy": "Hopp och piruetter på is till musik",
+          "normal": "Koreografi mellan landningarna",
+          "hard": "Ett skär bär hela vändningen"
+        }
+      },
+      "en": {
+        "word": "Figure skating",
+        "aliases": [],
+        "hints": {
+          "easy": "Jumps and spins on ice to music",
+          "normal": "Choreography between landings",
+          "hard": "A single edge carries the turn"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-speed-skating",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "winter"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hastighetsåkning",
+        "aliases": [],
+        "hints": {
+          "easy": "Kapplöpning på is med långa skenor",
+          "normal": "Djupa knän genom kurvorna",
+          "hard": "Öppet blad med rörlig häl"
+        }
+      },
+      "en": {
+        "word": "Speed skating",
+        "aliases": [],
+        "hints": {
+          "easy": "Race on ice with long blades",
+          "normal": "Low knees through the bends",
+          "hard": "A hinged heel keeps the edge down"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-cross-country-skiing",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Längdskidåkning",
+        "aliases": [
+          "Längdåkning"
+        ],
+        "hints": {
+          "easy": "Skidor på långa snötäckta banor",
+          "normal": "Stakning och preparerade spår",
+          "hard": "Glid och fäste ska samsas"
+        }
+      },
+      "en": {
+        "word": "Cross-country skiing",
+        "aliases": [
+          "XC skiing"
+        ],
+        "hints": {
+          "easy": "Skis on long snowy courses",
+          "normal": "Double poling and groomed tracks",
+          "hard": "Grip and glide must coexist"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-alpine-skiing",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Alpin skidåkning",
+        "aliases": [
+          "Utförsåkning"
+        ],
+        "hints": {
+          "easy": "Två skidor genom portar i en backe",
+          "normal": "Kantbyten i hög fart",
+          "hard": "Liften gör omstarten kortare"
+        }
+      },
+      "en": {
+        "word": "Alpine skiing",
+        "aliases": [
+          "Downhill skiing"
+        ],
+        "hints": {
+          "easy": "Two skis through gates down a slope",
+          "normal": "Edge changes at speed",
+          "hard": "The lift makes repeat runs easier"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-snowboarding",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snowboardåkning",
+        "aliases": [
+          "Snowboarding"
+        ],
+        "hints": {
+          "easy": "En bräda utför en snöig backe",
+          "normal": "Sidledes ställning med fasta fötter",
+          "hard": "Välj vilken fot som leder"
+        }
+      },
+      "en": {
+        "word": "Snowboarding",
+        "aliases": [],
+        "hints": {
+          "easy": "One board down a snowy slope",
+          "normal": "Sideways stance with both feet strapped in",
+          "hard": "Choose which foot leads"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-ski-jumping",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Backhoppning",
+        "aliases": [],
+        "hints": {
+          "easy": "Flyg från en ramp med skidor",
+          "normal": "Poäng för längd och stil",
+          "hard": "Telemark i landningen"
+        }
+      },
+      "en": {
+        "word": "Ski jumping",
+        "aliases": [],
+        "hints": {
+          "easy": "Launch off a ramp on skis",
+          "normal": "Points for distance and style",
+          "hard": "A telemark on touchdown"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-biathlon",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skidskytte",
+        "aliases": [],
+        "hints": {
+          "easy": "Längdspår varvas med måltavlor",
+          "normal": "Puls ner inför nästa skott",
+          "hard": "En miss brukar kosta tid"
+        }
+      },
+      "en": {
+        "word": "Biathlon",
+        "aliases": [],
+        "hints": {
+          "easy": "Ski laps alternate with targets",
+          "normal": "Lower the pulse before aiming",
+          "hard": "A miss usually costs time"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-orienteering",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Orientering",
+        "aliases": [],
+        "hints": {
+          "easy": "Hitta kontroller med karta och kompass",
+          "normal": "Orangevita skärmar i terrängen",
+          "hard": "En bra ledstång sparar minuter"
+        }
+      },
+      "en": {
+        "word": "Orienteering",
+        "aliases": [],
+        "hints": {
+          "easy": "Find checkpoints with a map and compass",
+          "normal": "Orange and white markers in rough terrain",
+          "hard": "A clear handrail feature saves minutes"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-marathon",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Maraton",
+        "aliases": [
+          "Maratonlopp"
+        ],
+        "hints": {
+          "easy": "Löplopp på drygt fyra mil",
+          "normal": "Vätskestationer längs en stadsbana",
+          "hard": "Väggen kommer sent i loppet"
+        }
+      },
+      "en": {
+        "word": "Marathon",
+        "aliases": [],
+        "hints": {
+          "easy": "Road race just over forty-two kilometres",
+          "normal": "Water stations through city streets",
+          "hard": "The wall often comes late"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-sprinting",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sprintlöpning",
+        "aliases": [
+          "Kortdistanslöpning",
+          "Sprint"
+        ],
+        "hints": {
+          "easy": "Full fart från startblock",
+          "normal": "Accelerera på en kort bana",
+          "hard": "Snabba kontakter med marken"
+        }
+      },
+      "en": {
+        "word": "Sprinting",
+        "aliases": [
+          "Sprint"
+        ],
+        "hints": {
+          "easy": "Full speed from starting blocks",
+          "normal": "Accelerate over a short track",
+          "hard": "Brief ground contact matters"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-hurdles",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Häcklöpning",
+        "aliases": [],
+        "hints": {
+          "easy": "Spring över hinder med jämna mellanrum",
+          "normal": "Stegrytm mellan ribbor",
+          "hard": "Främre benet leder över"
+        }
+      },
+      "en": {
+        "word": "Hurdles",
+        "aliases": [
+          "Hurdling"
+        ],
+        "hints": {
+          "easy": "Run over evenly spaced barriers",
+          "normal": "Stride rhythm between barriers",
+          "hard": "The lead leg clears first"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-pole-vault",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stavhopp",
+        "aliases": [],
+        "hints": {
+          "easy": "Ta dig över en ribba med böjlig hjälp",
+          "normal": "En lång ansats med händerna högt",
+          "hard": "Energin lagras före svikten"
+        }
+      },
+      "en": {
+        "word": "Pole vault",
+        "aliases": [
+          "Pole vaulting"
+        ],
+        "hints": {
+          "easy": "Clear a bar using a flexible prop",
+          "normal": "A long run-up with hands high",
+          "hard": "Energy stored before the recoil"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-high-jump",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Höjdhopp",
+        "aliases": [],
+        "hints": {
+          "easy": "Ta dig över en ribba utan redskap",
+          "normal": "Svängd ansats och rygg mot ribban",
+          "hard": "Enfotat avstamp intill tjock matta"
+        }
+      },
+      "en": {
+        "word": "High jump",
+        "aliases": [],
+        "hints": {
+          "easy": "Clear a bar unaided",
+          "normal": "Curved approach with the back turned",
+          "hard": "Take off from one foot beside a thick mat"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-long-jump",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Längdhopp",
+        "aliases": [],
+        "hints": {
+          "easy": "Spring och landa så långt bort som möjligt i sand",
+          "normal": "Träffa plankan före avstamp",
+          "hard": "Det bakersta märket kan bli dyrt"
+        }
+      },
+      "en": {
+        "word": "Long jump",
+        "aliases": [],
+        "hints": {
+          "easy": "Sprint into a distant landing in sand",
+          "normal": "Hit the board before takeoff",
+          "hard": "The rearmost mark can cost distance"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-discus-throw",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Diskuskastning",
+        "aliases": [
+          "Diskus"
+        ],
+        "hints": {
+          "easy": "Slunga en platt skiva från en ring",
+          "normal": "Ett varv och en halv innan släppet",
+          "hard": "Nät runt större delen av kastcirkeln"
+        }
+      },
+      "en": {
+        "word": "Discus throw",
+        "aliases": [
+          "Discus"
+        ],
+        "hints": {
+          "easy": "Hurl a flat disc from a circle",
+          "normal": "A sweeping turn before release",
+          "hard": "Netting wraps most of the throwing circle"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-javelin-throw",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spjutkastning",
+        "aliases": [
+          "Spjut"
+        ],
+        "hints": {
+          "easy": "Ett långt spetsigt redskap kastas på en plan",
+          "normal": "Korssteg under ansatsen",
+          "hard": "Spetsen måste ta mark först"
+        }
+      },
+      "en": {
+        "word": "Javelin throw",
+        "aliases": [
+          "Javelin"
+        ],
+        "hints": {
+          "easy": "Send a long pointed implement across a field",
+          "normal": "Cross steps in the approach",
+          "hard": "The tip must touch down first"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-shot-put",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kulstötning",
+        "aliases": [],
+        "hints": {
+          "easy": "En tung metallkula skickas från axeln",
+          "normal": "Armbågen hålls uppe vid halsen",
+          "hard": "Balans bakom stoppbrädan"
+        }
+      },
+      "en": {
+        "word": "Shot put",
+        "aliases": [],
+        "hints": {
+          "easy": "A heavy metal ball leaves from the shoulder",
+          "normal": "Elbow high beside the neck",
+          "hard": "Balance behind the toe board"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-relay-race",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stafett",
+        "aliases": [],
+        "hints": {
+          "easy": "Laget delar upp ett lopp i sträckor",
+          "normal": "Pinnen byter hand i en zon",
+          "hard": "En snabb växel kräver tajming"
+        }
+      },
+      "en": {
+        "word": "Relay race",
+        "aliases": [],
+        "hints": {
+          "easy": "A team divides a race into legs",
+          "normal": "Pass a baton inside a zone",
+          "hard": "A fast handover takes timing"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-swimming",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tävlingssimning",
+        "aliases": [
+          "Simning"
+        ],
+        "hints": {
+          "easy": "Tävla i vatten längs avgränsade banor",
+          "normal": "Vänd snabbt vid bassängkanten",
+          "hard": "En hand kan avgöra vid kaklet"
+        }
+      },
+      "en": {
+        "word": "Competitive swimming",
+        "aliases": [
+          "Swimming"
+        ],
+        "hints": {
+          "easy": "Race in water along marked lanes",
+          "normal": "Turn quickly at the end wall",
+          "hard": "A hand at the tiles can decide it"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-water-polo",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "aquatic",
+      "team"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vattenpolo",
+        "aliases": [],
+        "hints": {
+          "easy": "Två lag kastar mot mål i en bassäng",
+          "normal": "Spela med en hand och håll dig flytande",
+          "hard": "En mössa skyddar öronen"
+        }
+      },
+      "en": {
+        "word": "Water polo",
+        "aliases": [],
+        "hints": {
+          "easy": "Two teams throw at goals in a pool",
+          "normal": "One hand handles the ball while treading water",
+          "hard": "Caps protect the ears"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-artistic-swimming",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Konstsim",
+        "aliases": [
+          "Synkroniserad simning"
+        ],
+        "hints": {
+          "easy": "Koreografi i bassäng till musik",
+          "normal": "Ben bildar mönster ovanför ytan",
+          "hard": "Uppochned bakom näsklämman"
+        }
+      },
+      "en": {
+        "word": "Artistic swimming",
+        "aliases": [
+          "Synchronised swimming",
+          "Synchronized swimming"
+        ],
+        "hints": {
+          "easy": "Pool choreography to music",
+          "normal": "Legs form patterns above the surface",
+          "hard": "Upside down behind a nose clip"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-competitive-diving",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Simhopp",
+        "aliases": [],
+        "hints": {
+          "easy": "Försök landa rakt i vattnet från höjd",
+          "normal": "Volter och skruvar före ytan",
+          "hard": "Ett tyst nedslag får högre poäng"
+        }
+      },
+      "en": {
+        "word": "Competitive diving",
+        "aliases": [
+          "Springboard and platform diving"
+        ],
+        "hints": {
+          "easy": "Enter the water cleanly from a height",
+          "normal": "Somersaults and twists before the surface",
+          "hard": "A quiet entry scores better"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-rowing",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rodd",
+        "aliases": [],
+        "hints": {
+          "easy": "Tävla framåt med åror och blicken bakåt",
+          "normal": "Sätena glider när dragen tas",
+          "hard": "Alla blad tar vatten samtidigt"
+        }
+      },
+      "en": {
+        "word": "Rowing",
+        "aliases": [],
+        "hints": {
+          "easy": "Race forwards with oars while facing backwards",
+          "normal": "Sliding seats follow each stroke",
+          "hard": "All blades catch the water together"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-rugby",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rugby",
+        "aliases": [],
+        "hints": {
+          "easy": "Den ovala bollen spelas bakåt med händerna",
+          "normal": "Tryck bollen mot marken bakom mållinjen",
+          "hard": "Klungan startar om spelet"
+        }
+      },
+      "en": {
+        "word": "Rugby",
+        "aliases": [],
+        "hints": {
+          "easy": "An oval ball is passed backwards by hand",
+          "normal": "Ground the ball beyond the try line",
+          "hard": "A scrum restarts play"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-baseball",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Baseboll",
+        "aliases": [],
+        "hints": {
+          "easy": "Slå en kastad boll och spring runt baser",
+          "normal": "Tre strikes kan avsluta slagmannens tur",
+          "hard": "En diamant med en kulle i mitten"
+        }
+      },
+      "en": {
+        "word": "Baseball",
+        "aliases": [],
+        "hints": {
+          "easy": "Hit a pitched ball and run the bases",
+          "normal": "Three strikes can end a batter's turn",
+          "hard": "A diamond with a mound inside it"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-softball",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Softboll",
+        "aliases": [],
+        "hints": {
+          "easy": "Slagträ, baser och underhandskast",
+          "normal": "Större boll och ofta kortare avstånd",
+          "hard": "Vindmöllan börjar vid kastplattan"
+        }
+      },
+      "en": {
+        "word": "Softball",
+        "aliases": [],
+        "hints": {
+          "easy": "Bat, bases and underhand pitching",
+          "normal": "Larger ball and often shorter distances",
+          "hard": "The windmill starts at the pitching plate"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-lacrosse",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "team"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lacrosse",
+        "aliases": [],
+        "hints": {
+          "easy": "Bollen bärs i klubbor med nätfickor",
+          "normal": "Vagga klubban medan du springer",
+          "hard": "En liten ficka fångar farten"
+        }
+      },
+      "en": {
+        "word": "Lacrosse",
+        "aliases": [],
+        "hints": {
+          "easy": "Carry a ball in netted sticks",
+          "normal": "Cradle the stick while running",
+          "hard": "A shallow pocket catches the pace"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-artistic-gymnastics",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "gymnastics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Artistisk gymnastik",
+        "aliases": [
+          "Redskapsgymnastik"
+        ],
+        "hints": {
+          "easy": "Serier med svingar, volter och balanser",
+          "normal": "En matta och redskap som barr och bom",
+          "hard": "En stabil landning avslutar serien"
+        }
+      },
+      "en": {
+        "word": "Artistic gymnastics",
+        "aliases": [],
+        "hints": {
+          "easy": "Routines of swings, flips and balances",
+          "normal": "Mats, bars and beams",
+          "hard": "A steady landing closes the routine"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-bouldering",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bouldering",
+        "aliases": [
+          "Blockklättring"
+        ],
+        "hints": {
+          "easy": "Klättra korta leder över en tjock matta",
+          "normal": "Grepp i olika färger bildar problem",
+          "hard": "Släpp kontrollerat när försöket tar slut"
+        }
+      },
+      "en": {
+        "word": "Bouldering",
+        "aliases": [],
+        "hints": {
+          "easy": "Climb short routes over thick mats",
+          "normal": "Coloured holds form problems",
+          "hard": "Drop with control when the attempt ends"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-surfing",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Surfing",
+        "aliases": [
+          "Surfning"
+        ],
+        "hints": {
+          "easy": "Rid en våg stående på en bräda",
+          "normal": "Paddla ut till brytet",
+          "hard": "En takeoff kräver rätt tajming"
+        }
+      },
+      "en": {
+        "word": "Surfing",
+        "aliases": [],
+        "hints": {
+          "easy": "Ride a wave standing on a board",
+          "normal": "Paddle out to the break",
+          "hard": "Time the takeoff with the swell"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-triathlon",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Triathlon",
+        "aliases": [
+          "Triatlon"
+        ],
+        "hints": {
+          "easy": "Simma, cykla och spring i samma tävling",
+          "normal": "Två byten i samma lopp",
+          "hard": "Hjälmen väntar i växlingsområdet"
+        }
+      },
+      "en": {
+        "word": "Triathlon",
+        "aliases": [],
+        "hints": {
+          "easy": "Swim, cycle and run in one event",
+          "normal": "Two transitions in one race",
+          "hard": "The helmet waits in the transition area"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-powerlifting",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "fitness"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Styrkelyft",
+        "aliases": [],
+        "hints": {
+          "easy": "Tävla i knäböj, bänkpress och marklyft",
+          "normal": "Maxvikt med ett godkänt försök",
+          "hard": "Domarlampor efter fullt utlås"
+        }
+      },
+      "en": {
+        "word": "Powerlifting",
+        "aliases": [],
+        "hints": {
+          "easy": "Compete in squat, bench press and deadlift",
+          "normal": "The heaviest valid single counts",
+          "hard": "Referee lights after full lockout"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-weightlifting",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "fitness"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tyngdlyftning",
+        "aliases": [],
+        "hints": {
+          "easy": "Två grenar där stången hamnar över huvudet",
+          "normal": "Ryck och stöt bedöms var för sig",
+          "hard": "Snabbt ner under stången"
+        }
+      },
+      "en": {
+        "word": "Olympic weightlifting",
+        "aliases": [
+          "Weightlifting"
+        ],
+        "hints": {
+          "easy": "Two lifts that finish overhead",
+          "normal": "Snatch and clean and jerk are scored separately",
+          "hard": "Drop quickly beneath the bar"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-wheelchair-basketball",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "parasport",
+      "team"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rullstolsbasket",
+        "aliases": [],
+        "hints": {
+          "easy": "Boll genom ring från sittande rullande spelare",
+          "normal": "Två drivtag innan nästa studs",
+          "hard": "Lutande hjul för tvära svängar"
+        }
+      },
+      "en": {
+        "word": "Wheelchair basketball",
+        "aliases": [],
+        "hints": {
+          "easy": "Shoot hoops from rolling seats",
+          "normal": "Two pushes before the next bounce",
+          "hard": "Angled wheels help sharp turns"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-goalball",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "parasport",
+      "team"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goalball",
+        "aliases": [],
+        "hints": {
+          "easy": "Rulla en boll med bjällror mot ett brett mål",
+          "normal": "Spelare med ögonbindel lyssnar nära golvet",
+          "hard": "Publiken är tyst när bollen är i spel"
+        }
+      },
+      "en": {
+        "word": "Goalball",
+        "aliases": [],
+        "hints": {
+          "easy": "Roll a jingling ball towards a wide goal",
+          "normal": "Blindfolded players listen low to the floor",
+          "hard": "The crowd falls quiet during play"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-petanque",
+    "category": "sports",
+    "subcategory": "sports-disciplines",
+    "tags": [
+      "target"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pétanque",
+        "aliases": [
+          "Petanque"
+        ],
+        "hints": {
+          "easy": "Kasta stålkulor nära en liten träkula",
+          "normal": "Fötterna stannar i en cirkel",
+          "hard": "Närmast lillen räknas efter sista kastet"
+        }
+      },
+      "en": {
+        "word": "Pétanque",
+        "aliases": [
+          "Petanque"
+        ],
+        "hints": {
+          "easy": "Toss steel balls towards a little wooden target",
+          "normal": "Both feet stay inside a circle",
+          "hard": "The closest boules score after the final throw"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-cleats",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dobbskor",
+        "aliases": [],
+        "hints": {
+          "easy": "Skor med nabbar som greppar gräset",
+          "normal": "Fäste vid snabba vändningar",
+          "hard": "Hallparketten kräver ett annat par"
+        }
+      },
+      "en": {
+        "word": "Cleats",
+        "aliases": [
+          "Football boots",
+          "Soccer boots"
+        ],
+        "hints": {
+          "easy": "Shoes with studs that grip the grass",
+          "normal": "Traction for sharp turns",
+          "hard": "Polished floors call for a different pair"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-shin-guards",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Benskydd",
+        "aliases": [
+          "Smalbensskydd"
+        ],
+        "hints": {
+          "easy": "Hårda skal fram på underbenen",
+          "normal": "Göms ofta i höga strumpor",
+          "hard": "Tar smällen i en närkamp"
+        }
+      },
+      "en": {
+        "word": "Shin guards",
+        "aliases": [
+          "Shin pads"
+        ],
+        "hints": {
+          "easy": "Hard shells for the front of the lower legs",
+          "normal": "Often hidden in tall socks",
+          "hard": "Absorbs the clash in a tackle"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-mouthguard",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "combat"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tandskydd",
+        "aliases": [],
+        "hints": {
+          "easy": "En formad bit plast skyddar tänderna",
+          "normal": "Biten hålls på plats med käken",
+          "hard": "Tas ut när det är dags att prata"
+        }
+      },
+      "en": {
+        "word": "Mouthguard",
+        "aliases": [
+          "Mouth guard"
+        ],
+        "hints": {
+          "easy": "Shaped plastic protects the teeth",
+          "normal": "The jaw keeps it in place",
+          "hard": "Comes out before speaking clearly"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-boxing-gloves",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "combat"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Boxningshandskar",
+        "aliases": [],
+        "hints": {
+          "easy": "Vaddering runt knogarna när slagen kommer",
+          "normal": "Ett par ovanpå lindade händer",
+          "hard": "Vikten skrivs ofta i ounce"
+        }
+      },
+      "en": {
+        "word": "Boxing gloves",
+        "aliases": [],
+        "hints": {
+          "easy": "Padded knuckles for punches",
+          "normal": "A pair worn over wrapped hands",
+          "hard": "Weight is often printed in ounces"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-swimming-goggles",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Simglasögon",
+        "aliases": [],
+        "hints": {
+          "easy": "Täta linser för öppna ögon under ytan",
+          "normal": "Skölj av kloret efter sista längden",
+          "hard": "En liten luftficka kring varje öga"
+        }
+      },
+      "en": {
+        "word": "Swimming goggles",
+        "aliases": [
+          "Swim goggles"
+        ],
+        "hints": {
+          "easy": "Sealed lenses for open eyes underwater",
+          "normal": "Rinse off the chlorine after the last lap",
+          "hard": "A tiny air pocket around each eye"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-ski-goggles",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skidglasögon",
+        "aliases": [],
+        "hints": {
+          "easy": "En bred lins skyddar i snöbacken",
+          "normal": "Remmen kan sitta runt hjälmen",
+          "hard": "Tonat glas kan göra snöns ojämnheter lättare att se"
+        }
+      },
+      "en": {
+        "word": "Ski goggles",
+        "aliases": [
+          "Snow goggles"
+        ],
+        "hints": {
+          "easy": "A broad lens shields eyes on snowy slopes",
+          "normal": "The strap fits around a helmet",
+          "hard": "A tint can help reveal bumps in the snow"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-swim-cap",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Badmössa",
+        "aliases": [
+          "Simmössa"
+        ],
+        "hints": {
+          "easy": "Tunt tätt hölje över håret i bassängen",
+          "normal": "Dras på innan första längden",
+          "hard": "Silikon gör håret mer strömlinjeformat"
+        }
+      },
+      "en": {
+        "word": "Swim cap",
+        "aliases": [
+          "Swimming cap"
+        ],
+        "hints": {
+          "easy": "A tight cover over hair in the pool",
+          "normal": "Pulled on before the first lap",
+          "hard": "Silicone smooths the outline"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-starting-blocks",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Startblock",
+        "aliases": [],
+        "hints": {
+          "easy": "Stöd för fötterna mot löparbanan",
+          "normal": "Två plattor före första steget",
+          "hard": "Från stillastående till explosivt frånskjut"
+        }
+      },
+      "en": {
+        "word": "Starting blocks",
+        "aliases": [],
+        "hints": {
+          "easy": "Foot braces on the running track",
+          "normal": "Two plates before the first step",
+          "hard": "From stillness to an explosive push"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-relay-baton",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stafettpinne",
+        "aliases": [
+          "Stafettstav"
+        ],
+        "hints": {
+          "easy": "Lätt rör som lämnas vidare i ett lopp",
+          "normal": "Flyttas mellan händer i växlingszonen",
+          "hard": "En tom hand väntar redan i steget"
+        }
+      },
+      "en": {
+        "word": "Relay baton",
+        "aliases": [
+          "Baton"
+        ],
+        "hints": {
+          "easy": "A light tube passed along during a race",
+          "normal": "Changes hands in an exchange zone",
+          "hard": "An empty hand waits in mid-stride"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-puck",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Puck",
+        "aliases": [
+          "Hockeypuck"
+        ],
+        "hints": {
+          "easy": "Liten svart gummiskiva på is",
+          "normal": "Glider platt i en passning",
+          "hard": "Ett skott mot stolpen ger klang"
+        }
+      },
+      "en": {
+        "word": "Puck",
+        "aliases": [
+          "Hockey puck"
+        ],
+        "hints": {
+          "easy": "Small black rubber disc on ice",
+          "normal": "Glides flat when passed",
+          "hard": "A shot off the post rings out"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-curling-broom",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "winter"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Curlingkvast",
+        "aliases": [
+          "Curlingborste"
+        ],
+        "hints": {
+          "easy": "Redskapet som sopar strax före en glidande sten",
+          "normal": "Snabba drag påverkar farten på isen",
+          "hard": "Arbeta framför granitens väg"
+        }
+      },
+      "en": {
+        "word": "Curling broom",
+        "aliases": [
+          "Curling brush"
+        ],
+        "hints": {
+          "easy": "Brush just ahead of a sliding stone",
+          "normal": "Quick strokes affect speed on ice",
+          "hard": "Working in the path of granite"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-shuttlecock",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "racket"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fjäderboll",
+        "aliases": [
+          "Badmintonboll"
+        ],
+        "hints": {
+          "easy": "Lätt kon med rund spets för nätdueller",
+          "normal": "Fjädrarna bromsar efter träffen",
+          "hard": "Korken pekar fram igen efter slaget"
+        }
+      },
+      "en": {
+        "word": "Shuttlecock",
+        "aliases": [
+          "Badminton birdie"
+        ],
+        "hints": {
+          "easy": "A light cone with a rounded tip for net rallies",
+          "normal": "Feathers slow it after impact",
+          "hard": "The cork swings forwards after a hit"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-racket-strings",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "racket"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Racketsträngar",
+        "aliases": [],
+        "hints": {
+          "easy": "Spända trådar där bollen träffar",
+          "normal": "Spänningen påverkar bollkänslan",
+          "hard": "Ett korsmönster fjädrar tillbaka"
+        }
+      },
+      "en": {
+        "word": "Racket strings",
+        "aliases": [],
+        "hints": {
+          "easy": "Taut strands where the ball makes contact",
+          "normal": "Tension changes how a shot feels",
+          "hard": "A crosshatch springs back"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-climbing-holds",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Klättergrepp",
+        "aliases": [],
+        "hints": {
+          "easy": "Utskjutande former för händer och fötter på en vägg",
+          "normal": "Färgerna kan visa vägen upp",
+          "hard": "En liten kant räcker för fingertopparna"
+        }
+      },
+      "en": {
+        "word": "Climbing holds",
+        "aliases": [],
+        "hints": {
+          "easy": "Shapes on a wall for hands and feet",
+          "normal": "Colours may show the route up",
+          "hard": "A thin edge can take fingertips"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-climbing-harness",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Klättersele",
+        "aliases": [],
+        "hints": {
+          "easy": "Remmar runt midja och lår för repanknytning",
+          "normal": "Knuten sitter framtill vid midjan",
+          "hard": "Vikten fördelas när repet tar emot"
+        }
+      },
+      "en": {
+        "word": "Climbing harness",
+        "aliases": [],
+        "hints": {
+          "easy": "Waist and leg loops for tying into a rope",
+          "normal": "The tie-in points sit at the front",
+          "hard": "Weight spreads when the rope catches"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-chalk-bag",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kalkpåse",
+        "aliases": [
+          "Magnesiapåse"
+        ],
+        "hints": {
+          "easy": "Liten öppen påse med vitt pulver för greppet",
+          "normal": "Bärs bakom midjan på väggen",
+          "hard": "En hand i taget får torrare fingrar"
+        }
+      },
+      "en": {
+        "word": "Chalk bag",
+        "aliases": [],
+        "hints": {
+          "easy": "Small open pouch of white grip powder",
+          "normal": "Worn behind the waist on a wall",
+          "hard": "One hand dries its fingers at a time"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-golf-tee",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "target"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Peg",
+        "aliases": [
+          "Golfpeg"
+        ],
+        "hints": {
+          "easy": "Litet stöd som höjer bollen före utslaget",
+          "normal": "Trycks ned i gräset på startplatsen",
+          "hard": "Kan flyga när träklubban sveper förbi"
+        }
+      },
+      "en": {
+        "word": "Golf tee",
+        "aliases": [
+          "Tee"
+        ],
+        "hints": {
+          "easy": "Small support that lifts the ball for the first stroke",
+          "normal": "Pressed into the grass at the starting area",
+          "hard": "Can fly when the driver sweeps past"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-goal-net",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Målnät",
+        "aliases": [],
+        "hints": {
+          "easy": "Maskor som fångar bollen bakom mållinjen",
+          "normal": "Det buktar när skottet går in",
+          "hard": "Fästpunkter följer stolpar och ribba"
+        }
+      },
+      "en": {
+        "word": "Goal net",
+        "aliases": [],
+        "hints": {
+          "easy": "Mesh catches the ball behind the line",
+          "normal": "It bulges when a shot goes in",
+          "hard": "Tie points follow the frame"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-finish-tape",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Målsnöre",
+        "aliases": [
+          "Målband"
+        ],
+        "hints": {
+          "easy": "Ett band som vinnaren springer igenom",
+          "normal": "Bröstet kommer fram på sista steget",
+          "hard": "Spänns precis där loppet tar slut"
+        }
+      },
+      "en": {
+        "word": "Finish tape",
+        "aliases": [
+          "Finishing tape"
+        ],
+        "hints": {
+          "easy": "A ribbon the winner runs through",
+          "normal": "The chest leans forward on the last stride",
+          "hard": "Stretched exactly where the race ends"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-lane-line",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Banlina",
+        "aliases": [
+          "Simbassänglina"
+        ],
+        "hints": {
+          "easy": "Flytande avgränsning mellan bassängens banor",
+          "normal": "Rad av plastskivor dämpar svall",
+          "hard": "Olika färger kan markera avstånd"
+        }
+      },
+      "en": {
+        "word": "Lane line",
+        "aliases": [
+          "Lane rope"
+        ],
+        "hints": {
+          "easy": "Floating divider between lanes in a pool",
+          "normal": "A row of plastic discs calms waves",
+          "hard": "Colour changes can mark distances"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-balance-beam",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "gymnastics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Balansbom",
+        "aliases": [],
+        "hints": {
+          "easy": "Smal upphöjd yta för steg och hopp",
+          "normal": "Gymnasten har bara tio centimeter i bredd",
+          "hard": "Avhoppet avslutar serien"
+        }
+      },
+      "en": {
+        "word": "Balance beam",
+        "aliases": [],
+        "hints": {
+          "easy": "Narrow elevated surface for steps and jumps",
+          "normal": "The gymnast has just ten centimetres of width",
+          "hard": "A dismount finishes the routine"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-parallel-bars",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "gymnastics"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Barr",
+        "aliases": [],
+        "hints": {
+          "easy": "Två vågräta stänger för stöd och sving",
+          "normal": "Båda händerna bär kroppen genom svingen",
+          "hard": "Handstående ovanför axelhöjd"
+        }
+      },
+      "en": {
+        "word": "Parallel bars",
+        "aliases": [],
+        "hints": {
+          "easy": "Two level rails for supports and swings",
+          "normal": "Both hands carry the body through a swing",
+          "hard": "A handstand above shoulder height"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-pommel-horse",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "gymnastics"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bygelhäst",
+        "aliases": [],
+        "hints": {
+          "easy": "Gymnastikredskap med två handtag ovanpå",
+          "normal": "Benen cirklar medan händerna bär",
+          "hard": "Greppbyten håller rytmen i svingen"
+        }
+      },
+      "en": {
+        "word": "Pommel horse",
+        "aliases": [],
+        "hints": {
+          "easy": "Gymnastics apparatus with two handles on top",
+          "normal": "Legs circle while hands take the weight",
+          "hard": "Changing grips keeps the swing in rhythm"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-ice-rink",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Isrink",
+        "aliases": [
+          "Skridskorink"
+        ],
+        "hints": {
+          "easy": "Frusen yta för skridskor innanför en sarg",
+          "normal": "En maskin jämnar av åkspåren",
+          "hard": "Kylan håller golvet åkbart"
+        }
+      },
+      "en": {
+        "word": "Ice rink",
+        "aliases": [
+          "Ice skating rink"
+        ],
+        "hints": {
+          "easy": "Frozen skating surface enclosed by boards",
+          "normal": "A machine smooths away blade marks",
+          "hard": "The cold keeps the floor usable"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-running-track",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Löparbana",
+        "aliases": [],
+        "hints": {
+          "easy": "Oval bana med målade filer",
+          "normal": "Många lopp använder fyrahundrametersvarv",
+          "hard": "Förskjutna starter jämnar ut kurvorna"
+        }
+      },
+      "en": {
+        "word": "Running track",
+        "aliases": [
+          "Athletics track"
+        ],
+        "hints": {
+          "easy": "An oval course with painted lanes",
+          "normal": "Many races use four-hundred-metre laps",
+          "hard": "Staggered starts account for the bends"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-velodrome",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "cycling"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Velodrom",
+        "aliases": [],
+        "hints": {
+          "easy": "Oval cykelbana med kraftigt lutande kurvor",
+          "normal": "Många banor byggs i trä",
+          "hard": "Ett blått band löper innanför körbanan"
+        }
+      },
+      "en": {
+        "word": "Velodrome",
+        "aliases": [],
+        "hints": {
+          "easy": "Oval cycling venue with steep banked bends",
+          "normal": "Many tracks have wooden surfaces",
+          "hard": "A blue strip runs inside the racing surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-batting-cage",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Slagbur",
+        "aliases": [],
+        "hints": {
+          "easy": "Nätinhägnat utrymme för att öva slagträffar",
+          "normal": "En kastmaskin kan mata nästa boll",
+          "hard": "Ett hårt slag stannar inom väggarna"
+        }
+      },
+      "en": {
+        "word": "Batting cage",
+        "aliases": [],
+        "hints": {
+          "easy": "Netted enclosure for practising hits",
+          "normal": "A pitching machine can feed the next ball",
+          "hard": "A hard drive stays inside the walls"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-skatepark",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skatepark",
+        "aliases": [],
+        "hints": {
+          "easy": "Plats med ramper för trick på hjul",
+          "normal": "Räcken, kanter och skålar",
+          "hard": "Betongens böj ändrar fart och riktning"
+        }
+      },
+      "en": {
+        "word": "Skatepark",
+        "aliases": [
+          "Skate park"
+        ],
+        "hints": {
+          "easy": "Ramps and obstacles for wheeled tricks",
+          "normal": "Rails, ledges and bowls",
+          "hard": "A concrete curve redirects the speed"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-putting-green",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "target"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Puttinggreen",
+        "aliases": [
+          "Green"
+        ],
+        "hints": {
+          "easy": "Kortklippt gräs där bollen ska rulla mot koppen",
+          "normal": "Försiktiga slag nära flaggan",
+          "hard": "En liten lutning böjer linjen"
+        }
+      },
+      "en": {
+        "word": "Putting green",
+        "aliases": [
+          "Green"
+        ],
+        "hints": {
+          "easy": "Closely cut grass where a ball rolls towards the cup",
+          "normal": "Gentle strokes close to a flag",
+          "hard": "A small slope bends the line"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-agility-ladder",
+    "category": "sports",
+    "subcategory": "sports-equipment",
+    "tags": [
+      "fitness"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Koordinationsstege",
+        "aliases": [
+          "Snabbhetsstege"
+        ],
+        "hints": {
+          "easy": "Ruta efter ruta för snabba fötter på marken",
+          "normal": "Stegmönster för riktningsbyten",
+          "hard": "Inga pinnar ska flyttas när tempot ökar"
+        }
+      },
+      "en": {
+        "word": "Agility ladder",
+        "aliases": [
+          "Speed ladder"
+        ],
+        "hints": {
+          "easy": "A row of squares for quick footwork",
+          "normal": "Step patterns for changing direction",
+          "hard": "The rungs should stay still as the pace rises"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-offside",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Offside",
+        "aliases": [],
+        "hints": {
+          "easy": "En anfallare deltar för långt fram vid passningen",
+          "normal": "Domaren tittar på positionen när bollen spelas",
+          "hard": "Linjen flyttar sig med försvaret"
+        }
+      },
+      "en": {
+        "word": "Offside",
+        "aliases": [],
+        "hints": {
+          "easy": "An attacker becomes involved from too far forward",
+          "normal": "Position matters when the pass is played",
+          "hard": "The line moves with the defence"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-corner-kick",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hörna",
+        "aliases": [
+          "Hörnspark"
+        ],
+        "hints": {
+          "easy": "Bollen spelas in där två ytterlinjer möts",
+          "normal": "Försvaret spelade ut bollen över kortlinjen",
+          "hard": "Flaggan står intill den målade bågen"
+        }
+      },
+      "en": {
+        "word": "Corner kick",
+        "aliases": [
+          "Corner"
+        ],
+        "hints": {
+          "easy": "Restart where two boundary lines meet",
+          "normal": "The defence sent the ball across its own goal line",
+          "hard": "A flag stands beside the painted arc"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-free-kick",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Frispark",
+        "aliases": [],
+        "hints": {
+          "easy": "Sparka igång spelet efter en avblåsning",
+          "normal": "Motståndarna kan bilda mur",
+          "hard": "Stående boll där regelbrottet begicks"
+        }
+      },
+      "en": {
+        "word": "Free kick",
+        "aliases": [],
+        "hints": {
+          "easy": "Restart with the foot after the whistle",
+          "normal": "Opponents may form a wall",
+          "hard": "The ball rests where the foul occurred"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-penalty-kick",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Straffspark",
+        "aliases": [
+          "Straff"
+        ],
+        "hints": {
+          "easy": "En skytt möter målvakten från prick",
+          "normal": "De andra spelarna väntar utanför området",
+          "hard": "Elva meter mellan boll och bur"
+        }
+      },
+      "en": {
+        "word": "Penalty kick",
+        "aliases": [
+          "Penalty"
+        ],
+        "hints": {
+          "easy": "One shooter faces the keeper from a marked spot",
+          "normal": "Everyone else waits outside the area",
+          "hard": "The goal is twelve yards from the ball"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-throw-in",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Inkast",
+        "aliases": [],
+        "hints": {
+          "easy": "Kasta tillbaka bollen från sidlinjen",
+          "normal": "Båda händerna för bollen över huvudet",
+          "hard": "Båda fötterna har markkontakt vid släppet"
+        }
+      },
+      "en": {
+        "word": "Throw-in",
+        "aliases": [
+          "Throw in"
+        ],
+        "hints": {
+          "easy": "Send the ball back by hand from the touchline",
+          "normal": "Both hands take the ball over the head",
+          "hard": "Both feet touch the ground at release"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-nutmeg",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tunnel",
+        "aliases": [
+          "Tunnling"
+        ],
+        "hints": {
+          "easy": "Spela bollen mellan en motspelares ben",
+          "normal": "Försvararens breda ställning utnyttjas",
+          "hard": "Den lilla luckan var öppen i ett ögonblick"
+        }
+      },
+      "en": {
+        "word": "Nutmeg",
+        "aliases": [],
+        "hints": {
+          "easy": "Play the ball between an opponent's legs",
+          "normal": "A defender's wide stance is exploited",
+          "hard": "That tiny opening was there for a moment"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-hat-trick",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hattrick",
+        "aliases": [
+          "Hat trick"
+        ],
+        "hints": {
+          "easy": "Samma spelare gör tre mål i matchen",
+          "normal": "Ett mål räcker till efter ett dubbelmål",
+          "hard": "Isen kan täckas av kepsar"
+        }
+      },
+      "en": {
+        "word": "Hat trick",
+        "aliases": [
+          "Hat-trick"
+        ],
+        "hints": {
+          "easy": "The same player scores three times in a match",
+          "normal": "A brace just needs one more",
+          "hard": "Caps can rain down on the ice"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-own-goal",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Självmål",
+        "aliases": [],
+        "hints": {
+          "easy": "Skicka in bollen i det mål man själv försvarar",
+          "normal": "En olycklig styrning på väg bakåt",
+          "hard": "De som jublar bär motståndarnas färger"
+        }
+      },
+      "en": {
+        "word": "Own goal",
+        "aliases": [],
+        "hints": {
+          "easy": "Send the ball into the goal you are defending",
+          "normal": "An unlucky deflection on the way back",
+          "hard": "The cheering side wears the other colours"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-clean-sheet",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hålla nollan",
+        "aliases": [
+          "Hållen nolla"
+        ],
+        "hints": {
+          "easy": "Ingen boll går in bakom målvakten",
+          "normal": "Försvaret håller tätt hela matchen",
+          "hard": "Motståndaren har inget på resultattavlan"
+        }
+      },
+      "en": {
+        "word": "Clean sheet",
+        "aliases": [],
+        "hints": {
+          "easy": "Nothing gets past the keeper",
+          "normal": "The defence stays unbreached all match",
+          "hard": "The opponent never gets on the scoreboard"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-assist",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "competition"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Målpassning",
+        "aliases": [
+          "Assist"
+        ],
+        "hints": {
+          "easy": "Passningen som leder till en lagkamrats mål",
+          "normal": "En framspelning som syns i statistiken",
+          "hard": "En annan spelare får göra avslutet"
+        }
+      },
+      "en": {
+        "word": "Assist",
+        "aliases": [],
+        "hints": {
+          "easy": "The pass that sets up a teammate's goal",
+          "normal": "A setup recorded in the statistics",
+          "hard": "Someone else gets to finish"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-dig",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "volleyball"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Baggerslag",
+        "aliases": [
+          "Bagger"
+        ],
+        "hints": {
+          "easy": "Ta emot bollen på båda underarmarna",
+          "normal": "Första kontakten efter en hård serve",
+          "hard": "Raka armar ger en yta att styra med"
+        }
+      },
+      "en": {
+        "word": "Forearm pass",
+        "aliases": [
+          "Bump pass"
+        ],
+        "hints": {
+          "easy": "Receive the ball on both forearms",
+          "normal": "First touch after a tough serve",
+          "hard": "Straight arms make a steering surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-slam-dunk",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "basketball"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dunk",
+        "aliases": [],
+        "hints": {
+          "easy": "Hoppa upp och tryck ner bollen genom ringen",
+          "normal": "Handen är ovanför korgen när bollen släpps",
+          "hard": "Nätet smäller efter flygturen"
+        }
+      },
+      "en": {
+        "word": "Slam dunk",
+        "aliases": [
+          "Dunk"
+        ],
+        "hints": {
+          "easy": "Leap and push the ball down through the rim",
+          "normal": "The hand is above the hoop at release",
+          "hard": "The net snaps after the flight"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-free-throw",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "basketball"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Straffkast",
+        "aliases": [],
+        "hints": {
+          "easy": "Ostört kast mot korgen från en linje",
+          "normal": "En poäng om skottet sitter",
+          "hard": "De andra står redo för returen"
+        }
+      },
+      "en": {
+        "word": "Free throw",
+        "aliases": [],
+        "hints": {
+          "easy": "Unopposed shot at the hoop from a line",
+          "normal": "The shot is worth one point",
+          "hard": "Everyone else lines up for a rebound"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-faceoff",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "winter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tekning",
+        "aliases": [],
+        "hints": {
+          "easy": "Domaren släpper pucken mellan två klubbor",
+          "normal": "Två spelare ställer upp vid en markerad punkt",
+          "hard": "Snabba handleder avgör första besittningen"
+        }
+      },
+      "en": {
+        "word": "Faceoff",
+        "aliases": [
+          "Face-off",
+          "Face off"
+        ],
+        "hints": {
+          "easy": "The official drops the puck between two sticks",
+          "normal": "Two players line up on a marked dot",
+          "hard": "Quick wrists decide first possession"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-icing",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "winter"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Icing",
+        "aliases": [],
+        "hints": {
+          "easy": "Pucken skickas långt över flera linjer utan att styras",
+          "normal": "Kan ge avblåsning långt från den som sköt",
+          "hard": "Spelet flyttas tillbaka till egen zon"
+        }
+      },
+      "en": {
+        "word": "Icing",
+        "aliases": [],
+        "hints": {
+          "easy": "An untouched puck travels across several lines",
+          "normal": "Can bring a whistle far from the shooter",
+          "hard": "Play comes back into the defensive zone"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-power-play",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "winter"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Numerärt överläge",
+        "aliases": [
+          "Powerplay"
+        ],
+        "hints": {
+          "easy": "Ett lag spelar med fler efter utvisning",
+          "normal": "Pucken kan gå runt tills en lucka öppnas",
+          "hard": "Färre klubbor skyddar det egna målet"
+        }
+      },
+      "en": {
+        "word": "Power play",
+        "aliases": [
+          "Powerplay"
+        ],
+        "hints": {
+          "easy": "One team has extra skaters after a penalty",
+          "normal": "Move the puck until a gap opens",
+          "hard": "Fewer sticks cover the defending goal"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-hole-in-one",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "golf"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hole in one",
+        "aliases": [
+          "Hole-in-one"
+        ],
+        "hints": {
+          "easy": "Bollen går i hålet redan på utslaget",
+          "normal": "På protokollet står en enda etta för hålet",
+          "hard": "Fira innan någon behöver gå upp på green"
+        }
+      },
+      "en": {
+        "word": "Hole in one",
+        "aliases": [
+          "Hole-in-one",
+          "Ace"
+        ],
+        "hints": {
+          "easy": "The tee shot goes straight into the cup",
+          "normal": "A single one goes onto the scorecard",
+          "hard": "Celebrate before anyone reaches the green"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-birdie",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "golf"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Birdie",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett slag färre än golfhålets riktmärke",
+          "normal": "Tre slag på ett par fyra",
+          "hard": "Ett litet minus i resultatkolumnen"
+        }
+      },
+      "en": {
+        "word": "Birdie",
+        "aliases": [],
+        "hints": {
+          "easy": "One stroke below a golf hole's target",
+          "normal": "A three on a par four",
+          "hard": "A small minus on the scorecard"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-tiebreak",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "tennis"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tiebreak",
+        "aliases": [
+          "Tie-break"
+        ],
+        "hints": {
+          "easy": "Extra poängspel som kan avgöra ett jämnt tennisset",
+          "normal": "Ofta till sju med två poängs marginal",
+          "hard": "Byt sida medan samma del av matchen fortsätter"
+        }
+      },
+      "en": {
+        "word": "Tiebreak",
+        "aliases": [
+          "Tie-break",
+          "Tie break"
+        ],
+        "hints": {
+          "easy": "Extra points can decide a level tennis set",
+          "normal": "Often first to seven with a two-point lead",
+          "hard": "Change ends while the same set continues"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-timeout",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "competition"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Timeout",
+        "aliases": [
+          "Time-out"
+        ],
+        "hints": {
+          "easy": "Kort avbrott som laget kan begära",
+          "normal": "Tränaren hinner visa nästa drag",
+          "hard": "Spelarna samlas innan klockan går igen"
+        }
+      },
+      "en": {
+        "word": "Timeout",
+        "aliases": [
+          "Time-out",
+          "Time out"
+        ],
+        "hints": {
+          "easy": "A short break a team may request",
+          "normal": "The coach sketches the next play",
+          "hard": "The team huddles until the clock resumes"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-knockout",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "combat"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Knockout",
+        "aliases": [
+          "Knock-out",
+          "K.O."
+        ],
+        "hints": {
+          "easy": "En boxare kan inte fortsätta efter att ha slagits ner",
+          "normal": "Räkningen kan avgöra matchen",
+          "hard": "Poängkorten kan läggas undan direkt"
+        }
+      },
+      "en": {
+        "word": "Knockout",
+        "aliases": [
+          "Knock-out",
+          "KO"
+        ],
+        "hints": {
+          "easy": "A boxer cannot continue after being knocked down",
+          "normal": "The count can decide the bout",
+          "hard": "The scorecards can be put away immediately"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-false-start",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tjuvstart",
+        "aliases": [],
+        "hints": {
+          "easy": "Lämna startplatsen innan signalen",
+          "normal": "Den första rörelsen kom för tidigt",
+          "hard": "Ett lopp kan stoppas innan det har kommit igång"
+        }
+      },
+      "en": {
+        "word": "False start",
+        "aliases": [],
+        "hints": {
+          "easy": "Leave the start position before the signal",
+          "normal": "The first movement came too early",
+          "hard": "A race may stop before it gets going"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-photo-finish",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "athletics"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Målfoto",
+        "aliases": [
+          "Målfotografering"
+        ],
+        "hints": {
+          "easy": "Bild vid linjen avgör ett mycket jämnt lopp",
+          "normal": "Kameran skiljer deltagare som ser samtidiga ut",
+          "hard": "En hårsmån kräver en extra titt"
+        }
+      },
+      "en": {
+        "word": "Photo finish",
+        "aliases": [],
+        "hints": {
+          "easy": "An image at the line decides a very close race",
+          "normal": "The camera separates apparently simultaneous finishers",
+          "hard": "A hair's breadth calls for another look"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-personal-best",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "competition"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Personbästa",
+        "aliases": [
+          "Personligt rekord"
+        ],
+        "hints": {
+          "easy": "Din bästa tid eller prestation hittills",
+          "normal": "Klockan visar något du aldrig klarat förr",
+          "hard": "En seger över siffran i din egen logg"
+        }
+      },
+      "en": {
+        "word": "Personal best",
+        "aliases": [
+          "Personal record",
+          "PB"
+        ],
+        "hints": {
+          "easy": "Your strongest performance to date",
+          "normal": "You beat your own mark",
+          "hard": "A win over the number in your own log"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-extra-time",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "competition"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Förlängning",
+        "aliases": [],
+        "hints": {
+          "easy": "Spela längre för att försöka avgöra oavgjort",
+          "normal": "Ordinarie matchtid är redan slut",
+          "hard": "Resultatet får fler minuter att ändras"
+        }
+      },
+      "en": {
+        "word": "Extra time",
+        "aliases": [
+          "Overtime"
+        ],
+        "hints": {
+          "easy": "Play longer to try to break a tie",
+          "normal": "Regulation has already ended",
+          "hard": "The score gets more minutes to change"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-yellow-card",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gult kort",
+        "aliases": [],
+        "hints": {
+          "easy": "Domaren visar en färgad varning",
+          "normal": "Spelaren får stanna efter den första",
+          "hard": "Nästa varning kan skicka dig av planen"
+        }
+      },
+      "en": {
+        "word": "Yellow card",
+        "aliases": [],
+        "hints": {
+          "easy": "A referee shows a coloured caution",
+          "normal": "The player stays after the first one",
+          "hard": "Another caution may send you off"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-red-card",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rött kort",
+        "aliases": [],
+        "hints": {
+          "easy": "Domaren markerar att spelaren måste lämna planen",
+          "normal": "Laget får klara sig med en mindre",
+          "hard": "En spelare får gå till omklädningsrummet tidigt"
+        }
+      },
+      "en": {
+        "word": "Red card",
+        "aliases": [],
+        "hints": {
+          "easy": "The referee orders a player off the field",
+          "normal": "The team has to manage one short",
+          "hard": "One player gets an early shower"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-tifo",
+    "category": "sports",
+    "subcategory": "sports-play",
+    "tags": [
+      "field-sport"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tifo",
+        "aliases": [],
+        "hints": {
+          "easy": "Publiken bygger en stor bild på läktaren",
+          "normal": "Färgade ark och en banderoll inför matchen",
+          "hard": "Många händer får ett motiv att synas"
+        }
+      },
+      "en": {
+        "word": "Tifo",
+        "aliases": [],
+        "hints": {
+          "easy": "A crowd creates a giant image in the stands",
+          "normal": "Coloured sheets and a banner before kickoff",
+          "hard": "Many hands make one picture visible"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-hiking",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vandring",
+        "aliases": [
+          "Fotvandring"
+        ],
+        "hints": {
+          "easy": "Gå en längre sträcka längs en led",
+          "normal": "Kängor och pauser vid utsikt",
+          "hard": "Kilometer räknas mellan ledmarkeringarna"
+        }
+      },
+      "en": {
+        "word": "Hiking",
+        "aliases": [],
+        "hints": {
+          "easy": "Walk a long route along a trail",
+          "normal": "Boots and breaks with a view",
+          "hard": "Miles add up between trail markers"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-camping",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Camping",
+        "aliases": [
+          "Tältcamping"
+        ],
+        "hints": {
+          "easy": "Övernatta ute med enkel utrustning",
+          "normal": "Sovsäck och tältplats",
+          "hard": "Daggen syns när dragkedjan öppnas"
+        }
+      },
+      "en": {
+        "word": "Camping",
+        "aliases": [
+          "Tent camping"
+        ],
+        "hints": {
+          "easy": "Spend the night outdoors with simple gear",
+          "normal": "A sleeping bag and a pitch",
+          "hard": "Morning dew when the zipper opens"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-geocaching",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Geocaching",
+        "aliases": [],
+        "hints": {
+          "easy": "Använd koordinater för att hitta en gömd behållare",
+          "normal": "Signera en loggbok på plats",
+          "hard": "Den lilla asken ska tillbaka till sitt gömställe"
+        }
+      },
+      "en": {
+        "word": "Geocaching",
+        "aliases": [],
+        "hints": {
+          "easy": "Use coordinates to locate a hidden container",
+          "normal": "Sign a physical logbook",
+          "hard": "The little box goes back into hiding"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-nordic-walking",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "fitness"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stavgång",
+        "aliases": [],
+        "hints": {
+          "easy": "Promenera med en stav i varje hand",
+          "normal": "Frånskjutet får armarna att jobba",
+          "hard": "Fötter och händer går i motsatt takt"
+        }
+      },
+      "en": {
+        "word": "Nordic walking",
+        "aliases": [
+          "Pole walking"
+        ],
+        "hints": {
+          "easy": "Walk with a pole in each hand",
+          "normal": "Push-off gives the arms work to do",
+          "hard": "Feet and hands move in opposite rhythm"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-slacklining",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Slackline",
+        "aliases": [
+          "Slacklining"
+        ],
+        "hints": {
+          "easy": "Balansera på ett spänt platt band",
+          "normal": "Bandet sviktar mellan två fästpunkter",
+          "hard": "Armarna fångar de små svängningarna"
+        }
+      },
+      "en": {
+        "word": "Slacklining",
+        "aliases": [
+          "Slackline walking"
+        ],
+        "hints": {
+          "easy": "Balance on tensioned flat webbing",
+          "normal": "The line flexes between two anchors",
+          "hard": "Arms catch the small oscillations"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-yoga",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "fitness"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Yoga",
+        "aliases": [],
+        "hints": {
+          "easy": "Positioner och andning följs åt på en matta",
+          "normal": "Lugn växling mellan hållningar",
+          "hard": "Utandningen kan styra tempot"
+        }
+      },
+      "en": {
+        "word": "Yoga",
+        "aliases": [],
+        "hints": {
+          "easy": "Postures and breathing go together on a mat",
+          "normal": "Calm transitions between poses",
+          "hard": "An exhale can set the pace"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-pilates",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "fitness"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pilates",
+        "aliases": [],
+        "hints": {
+          "easy": "Kontrollerad träning för bål och hållning",
+          "normal": "Korta exakta rörelser på matta eller maskin",
+          "hard": "Fjädrar kan ge motstånd på en glidande bädd"
+        }
+      },
+      "en": {
+        "word": "Pilates",
+        "aliases": [],
+        "hints": {
+          "easy": "Controlled exercise for the core and posture",
+          "normal": "Small precise movements on a mat or machine",
+          "hard": "Springs can add resistance to a sliding carriage"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-calisthenics",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "fitness"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kroppsviktsträning",
+        "aliases": [
+          "Calisthenics"
+        ],
+        "hints": {
+          "easy": "Använd den egna vikten som motstånd",
+          "normal": "Armhävningar och hävningar i en stång",
+          "hard": "En längre hävarm kan göra en rörelse tyngre"
+        }
+      },
+      "en": {
+        "word": "Calisthenics",
+        "aliases": [
+          "Bodyweight training"
+        ],
+        "hints": {
+          "easy": "Use your own weight as resistance",
+          "normal": "Push-ups and pull-ups on a bar",
+          "hard": "A longer lever can make a move harder"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-hiit",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "fitness"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Högintensiv intervallträning",
+        "aliases": [
+          "HIIT"
+        ],
+        "hints": {
+          "easy": "Korta hårda arbetsperioder varvas med vila",
+          "normal": "Pulsen stiger på nytt i nästa omgång",
+          "hard": "Pausen är en del av passet"
+        }
+      },
+      "en": {
+        "word": "High-intensity interval training",
+        "aliases": [
+          "HIIT"
+        ],
+        "hints": {
+          "easy": "Short bursts of hard effort alternate with rest",
+          "normal": "Heart rate climbs again on the next round",
+          "hard": "The break is part of the workout"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-circuit-training",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "fitness"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cirkelträning",
+        "aliases": [],
+        "hints": {
+          "easy": "Gå mellan stationer med olika övningar",
+          "normal": "Byt redskap när tiden är ute",
+          "hard": "Samma stationsföljd kan göras flera varv"
+        }
+      },
+      "en": {
+        "word": "Circuit training",
+        "aliases": [],
+        "hints": {
+          "easy": "Move between stations with different exercises",
+          "normal": "Switch movements when time is up",
+          "hard": "The station sequence may repeat for several laps"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-inline-skating",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Inlinesåkning",
+        "aliases": [
+          "Inlines",
+          "Rullskridskoåkning på inlines"
+        ],
+        "hints": {
+          "easy": "Rulla fram med hjulen på rad under fötterna",
+          "normal": "Skären skjuts ut åt sidorna på asfalt",
+          "hard": "En hälkloss kan få farten att sjunka"
+        }
+      },
+      "en": {
+        "word": "Inline skating",
+        "aliases": [
+          "Rollerblading"
+        ],
+        "hints": {
+          "easy": "Roll with wheels in a single row under each foot",
+          "normal": "Push sideways against the pavement",
+          "hard": "A heel brake can slow the glide"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-winter-bathing",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "aquatic",
+      "winter"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vinterbad",
+        "aliases": [
+          "Kallbad"
+        ],
+        "hints": {
+          "easy": "Ta ett dopp ute under den kalla årstiden",
+          "normal": "Handduk och varma kläder väntar på land",
+          "hard": "En vak kan vara platsen för doppet"
+        }
+      },
+      "en": {
+        "word": "Winter bathing",
+        "aliases": [
+          "Cold-water dipping"
+        ],
+        "hints": {
+          "easy": "Take an outdoor dip in the cold season",
+          "normal": "Towels and warm clothes wait ashore",
+          "hard": "The swim may begin in a hole in the ice"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-snorkelling",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snorkling",
+        "aliases": [],
+        "hints": {
+          "easy": "Flyt vid ytan och andas genom ett rör",
+          "normal": "Masken visar botten medan luften kommer ovanifrån",
+          "hard": "Röret fungerar bara så länge toppen är i luften"
+        }
+      },
+      "en": {
+        "word": "Snorkelling",
+        "aliases": [
+          "Snorkeling"
+        ],
+        "hints": {
+          "easy": "Float at the surface and breathe through a tube",
+          "normal": "See the bottom while air comes from above",
+          "hard": "The tube works while its top stays in the air"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-scuba-diving",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "aquatic"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dykning med tub",
+        "aliases": [
+          "Dykning med tuber",
+          "Apparatdykning"
+        ],
+        "hints": {
+          "easy": "Simma under vatten med andningsgas i en flaska",
+          "normal": "Regulator och väst följer med ner",
+          "hard": "Bubblorna hittar upp även när du stannar kvar"
+        }
+      },
+      "en": {
+        "word": "Scuba diving",
+        "aliases": [],
+        "hints": {
+          "easy": "Swim underwater with breathing gas in a cylinder",
+          "normal": "A regulator and vest go down with you",
+          "hard": "Bubbles rise even while you stay below"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-via-ferrata",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Via ferrata",
+        "aliases": [],
+        "hints": {
+          "easy": "Följ fasta metallsteg och vajrar i ett berg",
+          "normal": "Ankare och karbiner längs en brant led",
+          "hard": "En fast lina löper bredvid den utsatta passagen"
+        }
+      },
+      "en": {
+        "word": "Via ferrata",
+        "aliases": [],
+        "hints": {
+          "easy": "Follow fixed metal rungs and cables up rock",
+          "normal": "Anchors and carabiners along a steep route",
+          "hard": "A fixed line runs beside the exposed crossing"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-mushroom-foraging",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "outdoor"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Svampplockning",
+        "aliases": [],
+        "hints": {
+          "easy": "Leta efter sådant som ger kantarellkorgen innehåll",
+          "normal": "Blicken söker i mossan under hösten",
+          "hard": "Hattarna gömmer sig ofta under löven"
+        }
+      },
+      "en": {
+        "word": "Mushroom foraging",
+        "aliases": [
+          "Mushroom hunting",
+          "Mushroom picking"
+        ],
+        "hints": {
+          "easy": "Search the woods for chanterelles and their kin",
+          "normal": "Eyes scan the moss in autumn",
+          "hard": "Caps often hide beneath fallen leaves"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-croquet",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "target"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Krocket",
+        "aliases": [],
+        "hints": {
+          "easy": "Slå träklot genom bågar på gräs",
+          "normal": "Klubban söker nästa port i rätt ordning",
+          "hard": "Vinkeln genom bygeln avgör nästa läge"
+        }
+      },
+      "en": {
+        "word": "Croquet",
+        "aliases": [],
+        "hints": {
+          "easy": "Use a mallet to send balls through hoops on grass",
+          "normal": "The next gate must be played in order",
+          "hard": "The angle through the wicket sets up the next shot"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-breakdancing",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "dance"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Breakdance",
+        "aliases": [
+          "Breaking"
+        ],
+        "hints": {
+          "easy": "Dans med fotarbete, rotationer och frysta poser",
+          "normal": "Golvtrick varvas med stående steg",
+          "hard": "Ett fryst ögonblick fångar takten"
+        }
+      },
+      "en": {
+        "word": "Breakdancing",
+        "aliases": [
+          "Breaking",
+          "Breakdance"
+        ],
+        "hints": {
+          "easy": "Dance with footwork, spins and frozen poses",
+          "normal": "Floor tricks alternate with upright steps",
+          "hard": "A freeze catches the beat"
+        }
+      }
+    }
+  },
+  {
+    "id": "sports-line-dancing",
+    "category": "sports",
+    "subcategory": "sports-leisure",
+    "tags": [
+      "dance"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Linedance",
+        "aliases": [
+          "Linedans"
+        ],
+        "hints": {
+          "easy": "Dansare gör samma steg sida vid sida i rader",
+          "normal": "Koreografin upprepas utan partner",
+          "hard": "Hela gruppen vänder mot nästa vägg"
+        }
+      },
+      "en": {
+        "word": "Line dancing",
+        "aliases": [
+          "Line dance"
+        ],
+        "hints": {
+          "easy": "Dancers repeat the same steps in rows",
+          "normal": "The routine repeats without partners",
+          "hard": "The whole group turns to the next wall"
+        }
+      }
+    }
+  }
+]

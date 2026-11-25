@@ -40,7 +40,7 @@
   "extras.words": "Ord",
   "extras.word": "Ord",
   "extras.addWord": "Lägg till ord",
-  "extras.addWordFirstCategory": "Lägg till en kategori innan du lägger till ord.",
+  "extras.addWordFirstCategory": "Lägg till en underkategori innan du lägger till ord.",
   "extras.removeWord": "Radera ord",
   "extras.removeWordConfirm": "Vill du radera ordet {name} och alla par där ordet ingår?",
   "extras.selectWord": "Välj ord",

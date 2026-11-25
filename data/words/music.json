@@ -1,0 +1,4090 @@
+[
+  {
+    "id": "music-violin",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fiol",
+        "aliases": [
+          "Violin"
+        ],
+        "hints": {
+          "easy": "Litet fyrsträngat instrument som spelas med stråke",
+          "normal": "Hakan mot ett stöd",
+          "hard": "Överst i stråkkvartetten"
+        }
+      },
+      "en": {
+        "word": "Violin",
+        "aliases": [
+          "Fiddle"
+        ],
+        "hints": {
+          "easy": "Small bowed instrument with four strings",
+          "normal": "Tucked under the chin",
+          "hard": "Top line in a string quartet"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-viola",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Altfiol",
+        "aliases": [
+          "Viola"
+        ],
+        "hints": {
+          "easy": "Stråkinstrument större än en fiol",
+          "normal": "Mjukare klang i mellanregistret",
+          "hard": "Noterna skrivs ofta i altklav"
+        }
+      },
+      "en": {
+        "word": "Viola",
+        "aliases": [],
+        "hints": {
+          "easy": "Bowed instrument larger than a violin",
+          "normal": "Mellow middle register",
+          "hard": "Often reads alto clef"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-cello",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cello",
+        "aliases": [
+          "Violoncell"
+        ],
+        "hints": {
+          "easy": "Stråkinstrument som vilar mellan knäna",
+          "normal": "Vilar på en pigg mot golvet",
+          "hard": "Bachs sex sviter"
+        }
+      },
+      "en": {
+        "word": "Cello",
+        "aliases": [
+          "Violoncello"
+        ],
+        "hints": {
+          "easy": "Bowed strings held between the knees",
+          "normal": "An endpin reaches the floor",
+          "hard": "Six Bach suites"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-double-bass",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kontrabas",
+        "aliases": [
+          "Ståbas"
+        ],
+        "hints": {
+          "easy": "Största stråkinstrumentet i en vanlig orkester",
+          "normal": "Plockas ofta i en jazztrio",
+          "hard": "Man når högt för att stämma"
+        }
+      },
+      "en": {
+        "word": "Double bass",
+        "aliases": [
+          "Upright bass"
+        ],
+        "hints": {
+          "easy": "Tallest bowed instrument in a standard orchestra",
+          "normal": "Often plucked in a jazz trio",
+          "hard": "Tuning pegs above shoulder height"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-acoustic-guitar",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Akustisk gitarr",
+        "aliases": [],
+        "hints": {
+          "easy": "Sex strängar över en ihålig klanglåda",
+          "normal": "Ackord vid lägerelden",
+          "hard": "Ett runt hål under strängarna"
+        }
+      },
+      "en": {
+        "word": "Acoustic guitar",
+        "aliases": [],
+        "hints": {
+          "easy": "Six strings over a hollow resonating body",
+          "normal": "Campfire chords",
+          "hard": "A round hole beneath the strings"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-electric-guitar",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Elgitarr",
+        "aliases": [],
+        "hints": {
+          "easy": "Sex strängar vars vibrationer fångas upp av magneter",
+          "normal": "Böj en ton mitt i solot",
+          "hard": "Kroppen kan vara ett massivt trästycke"
+        }
+      },
+      "en": {
+        "word": "Electric guitar",
+        "aliases": [],
+        "hints": {
+          "easy": "Six strings whose vibrations are picked up by magnets",
+          "normal": "Bend a note during a solo",
+          "hard": "Its body can be solid wood"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bass-guitar",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Elbas",
+        "aliases": [
+          "Basgitarr"
+        ],
+        "hints": {
+          "easy": "Fyra tjocka strängar i många band",
+          "normal": "Spelar ofta ihop med kaggen",
+          "hard": "Långa avstånd mellan banden på halsen"
+        }
+      },
+      "en": {
+        "word": "Bass guitar",
+        "aliases": [
+          "Electric bass"
+        ],
+        "hints": {
+          "easy": "Four thick strings in many bands",
+          "normal": "Often locks in with the kick drum",
+          "hard": "Wide fret spacing on the neck"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-ukulele",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ukulele",
+        "aliases": [
+          "Uke"
+        ],
+        "hints": {
+          "easy": "Liten fyrsträngad modell från Hawaii",
+          "normal": "Ljusa komp med kort hals",
+          "hard": "Ofta ligger översta strängen i en hög oktav"
+        }
+      },
+      "en": {
+        "word": "Ukulele",
+        "aliases": [
+          "Uke"
+        ],
+        "hints": {
+          "easy": "Small four-string instrument from Hawaii",
+          "normal": "Bright strumming on a short neck",
+          "hard": "The top string often jumps up an octave"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-banjo",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Banjo",
+        "aliases": [],
+        "hints": {
+          "easy": "Knäpps över ett spänt runt skinn",
+          "normal": "Snabba toner i bluegrass",
+          "hard": "På femsträngade modeller börjar en sträng en bit upp på halsen"
+        }
+      },
+      "en": {
+        "word": "Banjo",
+        "aliases": [],
+        "hints": {
+          "easy": "Plucked over a round stretched head",
+          "normal": "Quick rolls in bluegrass",
+          "hard": "On five-string models one starts partway up the neck"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bouzouki",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bouzouki",
+        "aliases": [],
+        "hints": {
+          "easy": "Grekiskt knäppinstrument med lång hals och strängar i par",
+          "normal": "Ett plektrum driver melodin i rebetiko",
+          "hard": "Hörs också ihop med fiol i irländsk folkmusik"
+        }
+      },
+      "en": {
+        "word": "Bouzouki",
+        "aliases": [],
+        "hints": {
+          "easy": "Long-necked Greek lute with paired strings",
+          "normal": "A pick drives the tune in rebetiko",
+          "hard": "Also heard alongside fiddle in Irish folk music"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-harp",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Harpa",
+        "aliases": [],
+        "hints": {
+          "easy": "Hög ram med strängar som knäpps med fingrarna",
+          "normal": "Ett svep låter som en rullande våg",
+          "hard": "På konsertmodellen sköter fötterna tonändringar"
+        }
+      },
+      "en": {
+        "word": "Harp",
+        "aliases": [],
+        "hints": {
+          "easy": "Tall frame with strings plucked by hand",
+          "normal": "One sweep can sound like a rolling wave",
+          "hard": "The concert model changes pitches with the feet"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-sitar",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sitar",
+        "aliases": [],
+        "hints": {
+          "easy": "Indiskt stränginstrument med lång hals och resonanssträngar",
+          "normal": "Metallplektrum på pekfingret",
+          "hard": "En kalebass bildar klanglåda"
+        }
+      },
+      "en": {
+        "word": "Sitar",
+        "aliases": [],
+        "hints": {
+          "easy": "Long-necked Indian instrument with sympathetic strings",
+          "normal": "Metal pick worn on the index finger",
+          "hard": "A gourd forms the resonating bowl"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-koto",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Koto",
+        "aliases": [],
+        "hints": {
+          "easy": "Liggande japanskt instrument med tretton strängar i standardmodellen",
+          "normal": "Varje sträng har ett flyttbart stall",
+          "hard": "Vänster hand kan trycka fram en böjning"
+        }
+      },
+      "en": {
+        "word": "Koto",
+        "aliases": [],
+        "hints": {
+          "easy": "Japanese zither with thirteen strings on the standard model",
+          "normal": "Every string has a movable bridge",
+          "hard": "The left hand can press down to bend a note"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-balalaika",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Balalajka",
+        "aliases": [],
+        "hints": {
+          "easy": "Ryskt stränginstrument med trekantig kropp",
+          "normal": "Tre strängar över en platt framsida",
+          "hard": "Primaversionen har ofta två strängar stämda till samma E"
+        }
+      },
+      "en": {
+        "word": "Balalaika",
+        "aliases": [],
+        "hints": {
+          "easy": "Russian string instrument with a triangular body",
+          "normal": "Three strings across a flat front",
+          "hard": "The prima often has two strings tuned to the same E"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-lute",
+    "category": "music",
+    "subcategory": "music-strings",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Luta",
+        "aliases": [],
+        "hints": {
+          "easy": "Knäppinstrument med välvd klanglåda från äldre konstmusik",
+          "normal": "Förknippas med renässansens sånger",
+          "hard": "Det vinklade huvudet pekar bakåt"
+        }
+      },
+      "en": {
+        "word": "Lute",
+        "aliases": [],
+        "hints": {
+          "easy": "Plucked early instrument with a rounded back",
+          "normal": "Associated with Renaissance songs",
+          "hard": "The pegbox bends backwards"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-flute",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tvärflöjt",
+        "aliases": [
+          "Flöjt"
+        ],
+        "hints": {
+          "easy": "Blankt blåsinstrument som hålls åt sidan",
+          "normal": "Luft blåses mot hålets kant",
+          "hard": "Trots metallen spelar den i träblåssektionen"
+        }
+      },
+      "en": {
+        "word": "Concert flute",
+        "aliases": [
+          "Transverse flute",
+          "Flute"
+        ],
+        "hints": {
+          "easy": "Shiny wind instrument held sideways",
+          "normal": "Air blows across the edge of a hole",
+          "hard": "Its metal body still sits in the woodwind section"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-recorder",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Blockflöjt",
+        "aliases": [],
+        "hints": {
+          "easy": "Blåsinstrument med kanal och fingerhål i skolmusiken",
+          "normal": "Tummen täcker baksidans hål",
+          "hard": "Luftstrålen formas inne i munstycket"
+        }
+      },
+      "en": {
+        "word": "Recorder",
+        "aliases": [],
+        "hints": {
+          "easy": "School wind instrument with a duct and finger holes",
+          "normal": "The thumb covers the rear hole",
+          "hard": "The air jet forms inside the mouthpiece"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-clarinet",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Klarinett",
+        "aliases": [],
+        "hints": {
+          "easy": "Svart träblås med enkelt rörblad och klaffar",
+          "normal": "Mörka toner längst ner",
+          "hard": "Registerklaffen kan ge ett språng på en duodecima"
+        }
+      },
+      "en": {
+        "word": "Clarinet",
+        "aliases": [],
+        "hints": {
+          "easy": "Black woodwind with one reed and keys",
+          "normal": "Dark tones at the bottom",
+          "hard": "The register key can make it jump a twelfth"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-oboe",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Oboe",
+        "aliases": [],
+        "hints": {
+          "easy": "Smal träblåsare med dubbelt rörblad",
+          "normal": "Ger ofta orkestern tonen före start",
+          "hard": "Två tunna blad möts vid läpparna"
+        }
+      },
+      "en": {
+        "word": "Oboe",
+        "aliases": [],
+        "hints": {
+          "easy": "Slender woodwind with a double reed",
+          "normal": "Often gives the orchestra its tuning note",
+          "hard": "Two thin blades meet at the lips"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bassoon",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fagott",
+        "aliases": [],
+        "hints": {
+          "easy": "Mörk träblåsare med långt vikt rör",
+          "normal": "Dubbelt rörblad på en böjd metallstjälk",
+          "hard": "Ger röst åt kvasten hos Dukas"
+        }
+      },
+      "en": {
+        "word": "Bassoon",
+        "aliases": [],
+        "hints": {
+          "easy": "Low woodwind with a long folded tube",
+          "normal": "Double reed on a curved metal stem",
+          "hard": "Gives Dukas’s enchanted broom a voice"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-saxophone",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Saxofon",
+        "aliases": [
+          "Sax"
+        ],
+        "hints": {
+          "easy": "Mässingsfärgat träblås med rörblad",
+          "normal": "Vanligt på jazzscenen",
+          "hard": "De större modellerna behöver ofta nackrem"
+        }
+      },
+      "en": {
+        "word": "Saxophone",
+        "aliases": [
+          "Sax"
+        ],
+        "hints": {
+          "easy": "Brass-coloured woodwind with a reed",
+          "normal": "Common on the jazz stage",
+          "hard": "Larger models often need a neck strap"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-trumpet",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trumpet",
+        "aliases": [],
+        "hints": {
+          "easy": "Ljust bleckblås med tre ventiler",
+          "normal": "Kan ge en skarp fanfar",
+          "hard": "Knapparna leder luften genom extra rör"
+        }
+      },
+      "en": {
+        "word": "Trumpet",
+        "aliases": [],
+        "hints": {
+          "easy": "Bright brass instrument with three valves",
+          "normal": "Can deliver a sharp fanfare",
+          "hard": "The buttons route air through extra tubing"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-trombone",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trombon",
+        "aliases": [
+          "Dragbasun"
+        ],
+        "hints": {
+          "easy": "Bleckblås med ett skjutbart U-format rör",
+          "normal": "Kan glida sömlöst mellan toner",
+          "hard": "Spelaren sträcker armen för lägre toner"
+        }
+      },
+      "en": {
+        "word": "Trombone",
+        "aliases": [],
+        "hints": {
+          "easy": "Brass instrument with a sliding U-shaped tube",
+          "normal": "Can glide smoothly between notes",
+          "hard": "The player reaches farther out for lower pitches"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-french-horn",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Valthorn",
+        "aliases": [],
+        "hints": {
+          "easy": "Rundlindat bleckblås med stor tratt åt sidan",
+          "normal": "Högerhanden hålls ofta i klockstycket",
+          "hard": "Jaktmusik är en äldre association"
+        }
+      },
+      "en": {
+        "word": "French horn",
+        "aliases": [],
+        "hints": {
+          "easy": "Coiled brass instrument with a large side-facing bell",
+          "normal": "The right hand often sits inside the bell",
+          "hard": "Its older associations include hunting calls"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-tuba",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tuba",
+        "aliases": [],
+        "hints": {
+          "easy": "Stort bleckblås för de lägsta tonerna",
+          "normal": "Klockan pekar ofta uppåt i orkestern",
+          "hard": "Sitter i knät trots all metall"
+        }
+      },
+      "en": {
+        "word": "Tuba",
+        "aliases": [],
+        "hints": {
+          "easy": "Large brass instrument for the lowest notes",
+          "normal": "The bell often faces up in an orchestra",
+          "hard": "It sits on the lap despite all that metal"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-harmonica",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Munspel",
+        "aliases": [],
+        "hints": {
+          "easy": "Litet instrument som låter när man andas genom hålen",
+          "normal": "Vanligt i blues",
+          "hard": "Händerna kan bilda en kupa runt ljudet"
+        }
+      },
+      "en": {
+        "word": "Harmonica",
+        "aliases": [
+          "Mouth organ"
+        ],
+        "hints": {
+          "easy": "Small instrument sounded by breathing through holes",
+          "normal": "Common in blues",
+          "hard": "Cupped hands can shape the sound"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bagpipes",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Säckpipa",
+        "aliases": [],
+        "hints": {
+          "easy": "Blåsinstrument med luftbehållare under armen",
+          "normal": "Förknippas med skotska parader",
+          "hard": "En fast ton under melodin kan fortsätta hela tiden"
+        }
+      },
+      "en": {
+        "word": "Bagpipes",
+        "aliases": [],
+        "hints": {
+          "easy": "Wind instrument with an air reservoir under one arm",
+          "normal": "Associated with Scottish parades",
+          "hard": "A steady note can persist beneath the tune"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-didgeridoo",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Didgeridoo",
+        "aliases": [],
+        "hints": {
+          "easy": "Långt australiskt blåsrör med dov grundton",
+          "normal": "Man kan andas in utan att avbryta ljudet",
+          "hard": "En urholkad gren kan ge kroppen"
+        }
+      },
+      "en": {
+        "word": "Didgeridoo",
+        "aliases": [
+          "Didjeridu"
+        ],
+        "hints": {
+          "easy": "Long Australian wind tube with a low drone",
+          "normal": "Players can breathe in without stopping the sound",
+          "hard": "A hollow branch can form the body"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-ocarina",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Okarina",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten kärlflöjt ofta gjord av lera",
+          "normal": "Tonerna ändras med flera täckta hål",
+          "hard": "Klangen kommer från en sluten hålighet"
+        }
+      },
+      "en": {
+        "word": "Ocarina",
+        "aliases": [],
+        "hints": {
+          "easy": "Small vessel flute often made from clay",
+          "normal": "Covering different holes changes each note",
+          "hard": "A closed cavity gives it its voice"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bass-clarinet",
+    "category": "music",
+    "subcategory": "music-wind",
+    "tags": [
+      "instruments"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Basklarinett",
+        "aliases": [],
+        "hints": {
+          "easy": "Lågt träblås med enkelt blad och klockan riktad uppåt",
+          "normal": "Vilar ofta på en golvpigg",
+          "hard": "En böjd hals för munstycket närmare spelaren"
+        }
+      },
+      "en": {
+        "word": "Bass clarinet",
+        "aliases": [],
+        "hints": {
+          "easy": "Low single-reed woodwind with an upturned bell",
+          "normal": "Often rests on a floor peg",
+          "hard": "A curved neck brings the mouthpiece towards the player"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-piano",
+    "category": "music",
+    "subcategory": "music-keys",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Piano",
+        "aliases": [],
+        "hints": {
+          "easy": "Tangenter får hammare att slå an strängar",
+          "normal": "Svarta tangenter sitter i grupper om två och tre",
+          "hard": "Anslaget kan viska eller smälla"
+        }
+      },
+      "en": {
+        "word": "Piano",
+        "aliases": [],
+        "hints": {
+          "easy": "Keys make hammers strike strings",
+          "normal": "Black keys are grouped in twos and threes",
+          "hard": "The touch can whisper or crash"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-pipe-organ",
+    "category": "music",
+    "subcategory": "music-keys",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Piporgel",
+        "aliases": [],
+        "hints": {
+          "easy": "Tangenter styr luft genom rör i olika längder",
+          "normal": "Spelaren kan ta djupa toner med fötterna",
+          "hard": "Register väljs med drag eller knappar"
+        }
+      },
+      "en": {
+        "word": "Pipe organ",
+        "aliases": [],
+        "hints": {
+          "easy": "Keys send air through pipes of different lengths",
+          "normal": "The player can take low notes with their feet",
+          "hard": "Stops bring in different families of sounds"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-accordion",
+    "category": "music",
+    "subcategory": "music-keys",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dragspel",
+        "aliases": [],
+        "hints": {
+          "easy": "Bälg mellan en melodisida och en bassida",
+          "normal": "Sitter i remmar över axlarna",
+          "hard": "Små metalltungor vibrerar inuti"
+        }
+      },
+      "en": {
+        "word": "Accordion",
+        "aliases": [],
+        "hints": {
+          "easy": "Bellows between a melody side and a bass side",
+          "normal": "Worn on shoulder straps",
+          "hard": "Little metal reeds vibrate inside"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-harpsichord",
+    "category": "music",
+    "subcategory": "music-keys",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cembalo",
+        "aliases": [],
+        "hints": {
+          "easy": "Klavertangenter som knäpper strängar",
+          "normal": "Spröd klang i barockmusik",
+          "hard": "Samspelaren läser ofta en sifferbas"
+        }
+      },
+      "en": {
+        "word": "Harpsichord",
+        "aliases": [],
+        "hints": {
+          "easy": "A keyboard that plucks its strings",
+          "normal": "Bright, brittle sound in Baroque music",
+          "hard": "An accompanist often reads a figured bass"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-synthesizer",
+    "category": "music",
+    "subcategory": "music-keys",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Synt",
+        "aliases": [
+          "Synthesizer",
+          "Synth"
+        ],
+        "hints": {
+          "easy": "Instrument som bygger klang elektroniskt",
+          "normal": "Vred kan göra en ton vassare eller mjukare",
+          "hard": "En oscillator kan ge en sågtandsvåg"
+        }
+      },
+      "en": {
+        "word": "Synthesizer",
+        "aliases": [
+          "Synth",
+          "Synthesiser"
+        ],
+        "hints": {
+          "easy": "Instrument that builds sounds electronically",
+          "normal": "Knobs can turn a tone sharper or softer",
+          "hard": "An oscillator can produce a sawtooth wave"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-celesta",
+    "category": "music",
+    "subcategory": "music-keys",
+    "tags": [
+      "instruments"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Celesta",
+        "aliases": [],
+        "hints": {
+          "easy": "Klavertangenter driver hammare mot metallplattor",
+          "normal": "Glittrande dans i Nötknäpparen",
+          "hard": "Liknar ett litet piano med klockklang"
+        }
+      },
+      "en": {
+        "word": "Celesta",
+        "aliases": [],
+        "hints": {
+          "easy": "Keys drive hammers into metal plates",
+          "normal": "Sparkles in a Nutcracker dance",
+          "hard": "Looks like a small piano with a bell-like voice"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-clavichord",
+    "category": "music",
+    "subcategory": "music-keys",
+    "tags": [
+      "instruments"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Klavikord",
+        "aliases": [],
+        "hints": {
+          "easy": "En metalltunga sätter klaverets sträng i vibration",
+          "normal": "Så svagt att ljudet passar i ett litet rum",
+          "hard": "En vickande fingertopp kan ge vibrato"
+        }
+      },
+      "en": {
+        "word": "Clavichord",
+        "aliases": [],
+        "hints": {
+          "easy": "A metal tangent sets the keyboard string vibrating",
+          "normal": "Quiet enough to suit a small room",
+          "hard": "A small rocking motion can add vibrato"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-drum-kit",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trumset",
+        "aliases": [
+          "Trumkit"
+        ],
+        "hints": {
+          "easy": "Flera skinn och cymbaler runt en sittande musiker",
+          "normal": "Händer och fötter delar på kompet",
+          "hard": "Pallen står mellan pedalerna"
+        }
+      },
+      "en": {
+        "word": "Drum kit",
+        "aliases": [
+          "Drum set"
+        ],
+        "hints": {
+          "easy": "Several drums and cymbals around one seated player",
+          "normal": "Hands and feet share the groove",
+          "hard": "The stool stands between the pedals"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-snare-drum",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Virveltrumma",
+        "aliases": [
+          "Virvel"
+        ],
+        "hints": {
+          "easy": "Trumma med rasslande metalltrådar mot underskinnet",
+          "normal": "Hörs tydligt i marscher",
+          "hard": "Ett litet spakdrag kan tysta rasslet"
+        }
+      },
+      "en": {
+        "word": "Snare drum",
+        "aliases": [
+          "Snare"
+        ],
+        "hints": {
+          "easy": "Drum with rattling wires against its bottom head",
+          "normal": "Cuts through a marching band",
+          "hard": "A small lever can turn the rattle off"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-timpani",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pukor",
+        "aliases": [
+          "Orkesterpukor"
+        ],
+        "hints": {
+          "easy": "Stora stämbara konserttrummor med skålformade kroppar",
+          "normal": "Pedalen ändrar tonhöjd mitt i ett stycke",
+          "hard": "Klubbor med filt ger en rund attack"
+        }
+      },
+      "en": {
+        "word": "Timpani",
+        "aliases": [
+          "Kettledrums"
+        ],
+        "hints": {
+          "easy": "Large tunable concert drums with bowl-shaped bodies",
+          "normal": "A pedal can change pitch mid-piece",
+          "hard": "Felt mallets soften the attack"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bongos",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bongotrummor",
+        "aliases": [
+          "Bongo"
+        ],
+        "hints": {
+          "easy": "Två små kubanska handtrummor i ett stycke",
+          "normal": "Spelas ofta mellan knäna",
+          "hard": "Den mindre kallas macho"
+        }
+      },
+      "en": {
+        "word": "Bongos",
+        "aliases": [
+          "Bongo drums"
+        ],
+        "hints": {
+          "easy": "A joined pair of small Cuban hand drums",
+          "normal": "Often played between the knees",
+          "hard": "The smaller one is called the macho"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-congas",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Congas",
+        "aliases": [
+          "Congatrummor"
+        ],
+        "hints": {
+          "easy": "Höga kubanska handtrummor med ett skinn var",
+          "normal": "Ett kantslag kan klinga öppet",
+          "hard": "De kan stå på golvet framför spelaren"
+        }
+      },
+      "en": {
+        "word": "Congas",
+        "aliases": [
+          "Conga drums"
+        ],
+        "hints": {
+          "easy": "Tall Cuban hand drums with one head each",
+          "normal": "An edge stroke can ring openly",
+          "hard": "They can stand upright on the floor"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-djembe",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Djembe",
+        "aliases": [],
+        "hints": {
+          "easy": "Västafrikansk handtrumma formad som en bägare",
+          "normal": "Lågt mittslag och skarpt kantslag",
+          "hard": "Rep drar ofta skinnet spänt"
+        }
+      },
+      "en": {
+        "word": "Djembe",
+        "aliases": [],
+        "hints": {
+          "easy": "West African hand drum shaped like a goblet",
+          "normal": "Deep centre stroke and sharp rim stroke",
+          "hard": "Ropes often pull the skin tight"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-tambourine",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tamburin",
+        "aliases": [],
+        "hints": {
+          "easy": "Handhållen ram med par av metallbrickor",
+          "normal": "Skakas eller slås mot handen",
+          "hard": "En fuktad tumme kan få en modell med skinn att rulla"
+        }
+      },
+      "en": {
+        "word": "Tambourine",
+        "aliases": [],
+        "hints": {
+          "easy": "Handheld frame with pairs of metal jingles",
+          "normal": "Shaken or struck against the hand",
+          "hard": "A damp thumb can make a headed model roll"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-maracas",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Maracas",
+        "aliases": [],
+        "hints": {
+          "easy": "Två handhållna skallror med frön i de ihåliga huvudena",
+          "normal": "Pulsen spelas med skakningar",
+          "hard": "Handen kan betona slaget genom att tvärstanna"
+        }
+      },
+      "en": {
+        "word": "Maracas",
+        "aliases": [],
+        "hints": {
+          "easy": "Two handheld shakers with seeds inside their hollow heads",
+          "normal": "A beat made by shaking",
+          "hard": "The hand can accent a beat by stopping sharply"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-castanets",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kastanjetter",
+        "aliases": [],
+        "hints": {
+          "easy": "Små skålpar som klickas med fingrarna",
+          "normal": "Hörs i spansk dans",
+          "hard": "Snöret håller skalhalvorna samman"
+        }
+      },
+      "en": {
+        "word": "Castanets",
+        "aliases": [],
+        "hints": {
+          "easy": "Little shells clicked together by the fingers",
+          "normal": "Heard in Spanish dance",
+          "hard": "A cord holds each pair together"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-xylophone",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Xylofon",
+        "aliases": [],
+        "hints": {
+          "easy": "Trästavar med olika toner som slås med klubbor",
+          "normal": "Kort torr klang i orkestern",
+          "hard": "Skelettdans är en klassisk association"
+        }
+      },
+      "en": {
+        "word": "Xylophone",
+        "aliases": [],
+        "hints": {
+          "easy": "Pitched wooden bars hit with mallets",
+          "normal": "Short dry sound in an orchestra",
+          "hard": "A dancing skeleton is a classic association"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-marimba",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Marimba",
+        "aliases": [],
+        "hints": {
+          "easy": "Breda trästavar med långa resonansrör under",
+          "normal": "Fyra klubbor kan täcka ett helt ackord",
+          "hard": "Särskilt djup och mjuk klang i basregistret"
+        }
+      },
+      "en": {
+        "word": "Marimba",
+        "aliases": [],
+        "hints": {
+          "easy": "Wide wooden bars with long resonator tubes underneath",
+          "normal": "Four mallets can cover a full chord",
+          "hard": "Especially deep and warm in the low range"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-vibraphone",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vibrafon",
+        "aliases": [],
+        "hints": {
+          "easy": "Slagverk med metallstavar och motorstyrd klang",
+          "normal": "En pedal förlänger tonerna",
+          "hard": "Små skivor snurrar vid resonansrörens öppningar"
+        }
+      },
+      "en": {
+        "word": "Vibraphone",
+        "aliases": [
+          "Vibes"
+        ],
+        "hints": {
+          "easy": "Mallet percussion with metal bars and a motor",
+          "normal": "A pedal lets the notes ring on",
+          "hard": "Small disks rotate at the resonator openings"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-glockenspiel",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Klockspel",
+        "aliases": [],
+        "hints": {
+          "easy": "Rader av ljusa metallplattor som slås med klubbor",
+          "normal": "Klar, genomträngande orkesterklang",
+          "hard": "Kan i marschform bäras lodrätt"
+        }
+      },
+      "en": {
+        "word": "Glockenspiel",
+        "aliases": [],
+        "hints": {
+          "easy": "Rows of high metal bars struck with mallets",
+          "normal": "Clear, penetrating orchestral sound",
+          "hard": "A marching version can be carried upright"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-cajon",
+    "category": "music",
+    "subcategory": "music-percussion",
+    "tags": [
+      "instruments"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cajón",
+        "aliases": [
+          "Cajon"
+        ],
+        "hints": {
+          "easy": "Trälåda som man sitter på och spelar med händerna",
+          "normal": "Framsidan ger både bas och smäll",
+          "hard": "Tradition med rötter i afroperuansk musik"
+        }
+      },
+      "en": {
+        "word": "Cajón",
+        "aliases": [
+          "Cajon"
+        ],
+        "hints": {
+          "easy": "Wooden box that the player sits on and strikes",
+          "normal": "One panel gives both bass and slap",
+          "hard": "The tradition has Afro-Peruvian roots"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-pop",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Popmusik",
+        "aliases": [
+          "Pop"
+        ],
+        "hints": {
+          "easy": "Melodisk hitmusik med refränger som är lätta att sjunga med i",
+          "normal": "En krok som gärna kommer tillbaka",
+          "hard": "En kort inledning lämnar snabbt plats åt rösten"
+        }
+      },
+      "en": {
+        "word": "Pop music",
+        "aliases": [],
+        "hints": {
+          "easy": "Melodic hit music with singalong choruses",
+          "normal": "A hook that likes to come back",
+          "hard": "A short opening quickly makes room for the voice"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-rock",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rockmusik",
+        "aliases": [
+          "Rock"
+        ],
+        "hints": {
+          "easy": "Gitarrdriven musik som växte fram ur femtiotalets rytmer",
+          "normal": "En förstärkare får gärna låta lite skrovligt",
+          "hard": "Bandet kan bygga hela låten runt ett riff"
+        }
+      },
+      "en": {
+        "word": "Rock music",
+        "aliases": [
+          "Rock"
+        ],
+        "hints": {
+          "easy": "Guitar-driven music that grew out of fifties rhythms",
+          "normal": "The amp can sound a little rough",
+          "hard": "A whole track can grow from a single riff"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-punk-rock",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Punkrock",
+        "aliases": [
+          "Punk"
+        ],
+        "hints": {
+          "easy": "Arg och snabb gitarrstil med enkla ackord",
+          "normal": "Tre minuter kan kännas som en lång låt",
+          "hard": "Gör det själv och starta ett band"
+        }
+      },
+      "en": {
+        "word": "Punk rock",
+        "aliases": [
+          "Punk"
+        ],
+        "hints": {
+          "easy": "Angry, fast guitar music with simple chords",
+          "normal": "Three minutes can feel like a long song",
+          "hard": "Start a band and do it yourself"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-heavy-metal",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Heavy metal",
+        "aliases": [],
+        "hints": {
+          "easy": "Tunga gitarriff med dist och hårt trumspel",
+          "normal": "Publiken nickar med hela överkroppen",
+          "hard": "Handtecknet liknar ett par horn"
+        }
+      },
+      "en": {
+        "word": "Heavy metal",
+        "aliases": [
+          "Metal"
+        ],
+        "hints": {
+          "easy": "Heavy distorted riffs and forceful drums",
+          "normal": "The crowd nods with its whole upper body",
+          "hard": "The hand sign looks like a pair of horns"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-grunge",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grunge",
+        "aliases": [],
+        "hints": {
+          "easy": "Rå gitarrstil förknippad med 1990-talets Seattle",
+          "normal": "Viskande verser kan explodera i refrängen",
+          "hard": "Flanellskjortor på klubbscenen"
+        }
+      },
+      "en": {
+        "word": "Grunge",
+        "aliases": [],
+        "hints": {
+          "easy": "Raw guitar sound linked with 1990s Seattle",
+          "normal": "Quiet verses can explode into a chorus",
+          "hard": "Flannel shirts on the club stage"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-indie-rock",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Indierock",
+        "aliases": [],
+        "hints": {
+          "easy": "Gitarrmusik med rötter hos oberoende skivbolag",
+          "normal": "Kantiga gitarrer kan möta vardagsnära texter",
+          "hard": "Små klubbar och egenutgivna skivor"
+        }
+      },
+      "en": {
+        "word": "Indie rock",
+        "aliases": [],
+        "hints": {
+          "easy": "Guitar music rooted in independent labels",
+          "normal": "Jangly guitars can meet everyday lyrics",
+          "hard": "Small venues and self-released records"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-blues",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Blues",
+        "aliases": [],
+        "hints": {
+          "easy": "Svängig musiktradition med böjda toner och ofta tolv takter",
+          "normal": "Gitarren kan svara sången",
+          "hard": "Första textraden kommer ofta en gång till"
+        }
+      },
+      "en": {
+        "word": "Blues",
+        "aliases": [],
+        "hints": {
+          "easy": "Expressive tradition with bent notes and often twelve bars",
+          "normal": "A guitar can answer a vocal line",
+          "hard": "The first line of a lyric often comes back immediately"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-jazz",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jazz",
+        "aliases": [],
+        "hints": {
+          "easy": "Improvisationspräglad musik med rötter i New Orleans",
+          "normal": "Solister turas ofta om i ett band",
+          "hard": "Melodin kan öppna och stänga spelningen"
+        }
+      },
+      "en": {
+        "word": "Jazz",
+        "aliases": [],
+        "hints": {
+          "easy": "Improvisation-rich music with roots in New Orleans",
+          "normal": "Band members often trade solos",
+          "hard": "A tune can frame the performance"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bebop",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bebop",
+        "aliases": [
+          "Bop"
+        ],
+        "hints": {
+          "easy": "Snabb modern jazz med snåriga ackordväxlingar",
+          "normal": "Charlie Parker på altsax",
+          "hard": "Melodier kan byggas över en annan låts ackord"
+        }
+      },
+      "en": {
+        "word": "Bebop",
+        "aliases": [
+          "Bop"
+        ],
+        "hints": {
+          "easy": "Fast modern jazz with intricate chord changes",
+          "normal": "Charlie Parker on alto sax",
+          "hard": "New tunes can sit over another song’s chords"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-swing",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Swingmusik",
+        "aliases": [],
+        "hints": {
+          "easy": "Jazzstil med dansvänlig puls och ofta storband",
+          "normal": "Saxsektionen kan svara bleckblåset",
+          "hard": "Foxtrotgolvet får liv"
+        }
+      },
+      "en": {
+        "word": "Swing music",
+        "aliases": [],
+        "hints": {
+          "easy": "Dance-friendly jazz style often played by big bands",
+          "normal": "The sax section can answer the brass",
+          "hard": "It fills the foxtrot floor"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-soul",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Soulmusik",
+        "aliases": [
+          "Soul"
+        ],
+        "hints": {
+          "easy": "Amerikansk stil där gospelröst möter rhythm and blues",
+          "normal": "Uttrycksfull sång över rytmsektion",
+          "hard": "Stax på etiketten"
+        }
+      },
+      "en": {
+        "word": "Soul music",
+        "aliases": [
+          "Soul"
+        ],
+        "hints": {
+          "easy": "American style blending gospel singing with rhythm and blues",
+          "normal": "Expressive singing over a rhythm section",
+          "hard": "Stax on the record label"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-funk",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Funkmusik",
+        "aliases": [
+          "Funk"
+        ],
+        "hints": {
+          "easy": "Musik med synkoperad bas och stark tonvikt på groovet",
+          "normal": "Gitarristen kan dämpa många av slagen",
+          "hard": "Första slaget får extra tyngd hos James Brown"
+        }
+      },
+      "en": {
+        "word": "Funk music",
+        "aliases": [
+          "Funk"
+        ],
+        "hints": {
+          "easy": "Music built on syncopated bass and a strong groove",
+          "normal": "The guitarist may mute many of the strokes",
+          "hard": "James Brown can put the weight on beat one"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-disco",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Disco",
+        "aliases": [
+          "Disko"
+        ],
+        "hints": {
+          "easy": "Dansmusik med fyrslagspuls och glittrande 1970-talsklang",
+          "normal": "Stråkar över en stadig kagge",
+          "hard": "En spegelboll ovanför dansgolvet"
+        }
+      },
+      "en": {
+        "word": "Disco",
+        "aliases": [],
+        "hints": {
+          "easy": "Dance music with a four-on-the-floor beat and a glossy seventies sound",
+          "normal": "Strings over a steady kick",
+          "hard": "A mirror ball above the floor"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-house",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Housemusik",
+        "aliases": [],
+        "hints": {
+          "easy": "Klubbmusik med jämn kagge och rötter i Chicago",
+          "normal": "En öppen hi-hat hamnar ofta mellan slagen",
+          "hard": "Långa mixar håller dansgolvet igång"
+        }
+      },
+      "en": {
+        "word": "House music",
+        "aliases": [],
+        "hints": {
+          "easy": "Club music with a steady kick and roots in Chicago",
+          "normal": "An open hi-hat often lands between beats",
+          "hard": "Long mixes keep the floor moving"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-techno",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Techno",
+        "aliases": [
+          "Tekno"
+        ],
+        "hints": {
+          "easy": "Elektronisk klubbmusik med rötter i Detroit",
+          "normal": "Maskinrytmer och upprepade syntmönster",
+          "hard": "Små ändringar kan växa fram under flera minuter"
+        }
+      },
+      "en": {
+        "word": "Techno",
+        "aliases": [],
+        "hints": {
+          "easy": "Electronic club music with roots in Detroit",
+          "normal": "Machine rhythms and repeating synth patterns",
+          "hard": "Tiny changes can unfold over several minutes"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-drum-and-bass",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Drum and bass",
+        "aliases": [
+          "Drum & bass",
+          "Dnb"
+        ],
+        "hints": {
+          "easy": "Snabba brutna dansrytmer över djup bas",
+          "normal": "Kagge och virvel flyttar betoningarna",
+          "hard": "En långsam subton kan ligga under snabba slag"
+        }
+      },
+      "en": {
+        "word": "Drum and bass",
+        "aliases": [
+          "Drum & bass",
+          "Dnb"
+        ],
+        "hints": {
+          "easy": "Fast broken dance rhythms over deep bass",
+          "normal": "Kick and snare shift the accents",
+          "hard": "A slow sub tone can sit beneath rapid hits"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-dubstep",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dubstep",
+        "aliases": [],
+        "hints": {
+          "easy": "Bastung elektronisk stil med rötter i södra London",
+          "normal": "En rymlig rytm bär den djupa lågbasen",
+          "hard": "Pauser kan göra basens återkomst större"
+        }
+      },
+      "en": {
+        "word": "Dubstep",
+        "aliases": [],
+        "hints": {
+          "easy": "Bass-heavy electronic style rooted in South London",
+          "normal": "Spacious rhythm carries the low end",
+          "hard": "Gaps can make the bass return feel bigger"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-ambient",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ambient",
+        "aliases": [
+          "Ambientmusik"
+        ],
+        "hints": {
+          "easy": "Elektronisk musik där atmosfär väger tyngre än slag",
+          "normal": "Långa klanger får breda ut sig",
+          "hard": "En flygplats gav namn åt ett känt Brian Eno-album"
+        }
+      },
+      "en": {
+        "word": "Ambient music",
+        "aliases": [
+          "Ambient"
+        ],
+        "hints": {
+          "easy": "Electronic music where atmosphere matters more than beat",
+          "normal": "Long tones have room to unfold",
+          "hard": "An airport named a well-known Brian Eno album"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-trance",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trance",
+        "aliases": [
+          "Trancemusik"
+        ],
+        "hints": {
+          "easy": "Dansmusik med långa stegringar och svävande syntmelodier",
+          "normal": "Ett lugnt avsnitt bygger upp en stor återkomst",
+          "hard": "Ackorden tycks sväva ovanför samma puls"
+        }
+      },
+      "en": {
+        "word": "Trance music",
+        "aliases": [
+          "Trance"
+        ],
+        "hints": {
+          "easy": "Dance music with long builds and soaring synth melodies",
+          "normal": "A quiet break leads to a big return",
+          "hard": "The chord layers seem to float over a constant pulse"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-reggae",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Reggae",
+        "aliases": [],
+        "hints": {
+          "easy": "Jamaicansk musik med markerade efterslag och djup bas",
+          "normal": "Gitarren hugger ofta mellan taktslagen",
+          "hard": "Ett lugnt gung fungerar med liten rörelse"
+        }
+      },
+      "en": {
+        "word": "Reggae",
+        "aliases": [],
+        "hints": {
+          "easy": "Jamaican music with prominent offbeats and deep bass",
+          "normal": "Guitar often chops between the beats",
+          "hard": "A slow sway needs little movement"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-ska",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ska",
+        "aliases": [],
+        "hints": {
+          "easy": "Snabb jamaicansk föregångare till rocksteady med efterslag",
+          "normal": "Blåset kan få korta svar mellan gitarrhuggen",
+          "hard": "Rutiga mönster följde med den brittiska nystarten"
+        }
+      },
+      "en": {
+        "word": "Ska",
+        "aliases": [],
+        "hints": {
+          "easy": "Fast Jamaican forerunner of rocksteady with offbeats",
+          "normal": "Horns can answer the guitar’s short chops",
+          "hard": "Checkerboard patterns followed its British revival"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-hip-hop",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hiphop",
+        "aliases": [
+          "Hip-hop"
+        ],
+        "hints": {
+          "easy": "Kultur från Bronx med rap över rytmiska beats",
+          "normal": "Skivspelare kan upprepa det bästa breaket",
+          "hard": "En kvartersfest kan rymma både dans och tävlande rim"
+        }
+      },
+      "en": {
+        "word": "Hip-hop",
+        "aliases": [
+          "Hip hop",
+          "Hiphop"
+        ],
+        "hints": {
+          "easy": "Bronx-rooted culture with rhymes over beats",
+          "normal": "Turntables can repeat the best break",
+          "hard": "A block party can combine dance with competitive rhyming"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-country",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Countrymusik",
+        "aliases": [
+          "Country"
+        ],
+        "hints": {
+          "easy": "Amerikansk berättande musik med gitarr och ofta fiol",
+          "normal": "Nashville förknippas med skivorna",
+          "hard": "En steelgitarr kan låta som en suck"
+        }
+      },
+      "en": {
+        "word": "Country music",
+        "aliases": [
+          "Country"
+        ],
+        "hints": {
+          "easy": "American storytelling music with guitar and often fiddle",
+          "normal": "Nashville is associated with its records",
+          "hard": "A steel guitar can sound like a sigh"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bluegrass",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bluegrass",
+        "aliases": [],
+        "hints": {
+          "easy": "Snabb amerikansk strängbandsstil med banjo och mandolin",
+          "normal": "Sångarna kan lägga höga stämmor tillsammans",
+          "hard": "En kontrabas håller takten utan trummor"
+        }
+      },
+      "en": {
+        "word": "Bluegrass",
+        "aliases": [],
+        "hints": {
+          "easy": "Fast American string-band style with banjo and mandolin",
+          "normal": "Singers can stack high harmonies",
+          "hard": "A double bass can keep time without drums"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-gospel",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gospel",
+        "aliases": [],
+        "hints": {
+          "easy": "Kristen sångstil med kraftfulla körer och sväng",
+          "normal": "En försångare frågar och kören svarar",
+          "hard": "Handklappet bär upp ropen"
+        }
+      },
+      "en": {
+        "word": "Gospel",
+        "aliases": [],
+        "hints": {
+          "easy": "Christian singing style with powerful choirs and groove",
+          "normal": "A lead singer calls and the choir replies",
+          "hard": "Clapping supports the shouts"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-opera",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Opera",
+        "aliases": [],
+        "hints": {
+          "easy": "Scenberättelse där rollerna oftast sjunger",
+          "normal": "En aria kan stanna upp handlingen",
+          "hard": "Orkestern spelar ofta under scenkanten"
+        }
+      },
+      "en": {
+        "word": "Opera",
+        "aliases": [],
+        "hints": {
+          "easy": "Stage drama whose characters mostly sing",
+          "normal": "An aria can pause the action",
+          "hard": "The orchestra often plays below the stage"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-salsa",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Salsamusik",
+        "aliases": [],
+        "hints": {
+          "easy": "Dansmusik med karibiska rötter och clave som grund",
+          "normal": "Pianot spelar ett återkommande montunomönster",
+          "hard": "Klockan kan slå igenom blåset i slutet"
+        }
+      },
+      "en": {
+        "word": "Salsa music",
+        "aliases": [],
+        "hints": {
+          "easy": "Dance music with Caribbean roots and a clave foundation",
+          "normal": "The piano repeats a montuno figure",
+          "hard": "A bell can cut through the horns near the end"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-tango",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tangomusik",
+        "aliases": [],
+        "hints": {
+          "easy": "Dansmusik från Río de la Plata med dramatisk frasering",
+          "normal": "Bandoneonen drar ut melodin",
+          "hard": "En kort paus kan styra nästa danssteg"
+        }
+      },
+      "en": {
+        "word": "Tango music",
+        "aliases": [],
+        "hints": {
+          "easy": "Dance music from the Río de la Plata with dramatic phrasing",
+          "normal": "A bandoneon can stretch the tune",
+          "hard": "A brief pause can steer the next dance step"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-flamenco",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Flamenco",
+        "aliases": [],
+        "hints": {
+          "easy": "Andalusisk tradition med sång, gitarr och dans",
+          "normal": "Palmas bär rytmen med händerna",
+          "hard": "En ensam röst kan spricka av uttryck"
+        }
+      },
+      "en": {
+        "word": "Flamenco",
+        "aliases": [],
+        "hints": {
+          "easy": "Andalusian tradition joining song, guitar and dance",
+          "normal": "Palmas keep time with the hands",
+          "hard": "A lone voice can crack with expression"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-samba",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sambamusik",
+        "aliases": [
+          "Samba"
+        ],
+        "hints": {
+          "easy": "Brasiliansk dansmusik med livligt slagverk",
+          "normal": "Karnevalstågets stora trummor markerar pulsen",
+          "hard": "En liten cavaquinho kan höras över rytmen"
+        }
+      },
+      "en": {
+        "word": "Samba music",
+        "aliases": [
+          "Samba"
+        ],
+        "hints": {
+          "easy": "Brazilian dance music with lively percussion",
+          "normal": "Large parade drums mark the pulse at carnival",
+          "hard": "A small cavaquinho can ring above the rhythm"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bossa-nova",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bossa nova",
+        "aliases": [],
+        "hints": {
+          "easy": "Brasiliansk musik där mjuk sång möter förskjuten gitarrpuls",
+          "normal": "En lågmäld röst ligger nära mikrofonen",
+          "hard": "Jazzfärgade ackord över en stadig tumme"
+        }
+      },
+      "en": {
+        "word": "Bossa nova",
+        "aliases": [],
+        "hints": {
+          "easy": "Brazilian style pairing soft singing with a syncopated guitar pulse",
+          "normal": "A quiet voice stays close to the microphone",
+          "hard": "Jazz-coloured chords over a steady thumb"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-afrobeat",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Afrobeat",
+        "aliases": [],
+        "hints": {
+          "easy": "Nigeriansk stil med långa grooves, blås och funk",
+          "normal": "Trumslagaren bygger många förskjutna mönster",
+          "hard": "Politisk sång över Fela Kutis blåssektion"
+        }
+      },
+      "en": {
+        "word": "Afrobeat",
+        "aliases": [],
+        "hints": {
+          "easy": "Nigerian style with long grooves, horns and funk",
+          "normal": "The drummer layers interlocking patterns",
+          "hard": "Political vocals over Fela Kuti’s horn section"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-polka",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Polka",
+        "aliases": [],
+        "hints": {
+          "easy": "Livlig dansmusik i tvåtakt med ursprung i Böhmen",
+          "normal": "Dragspel får lätt fart på stegen",
+          "hard": "Grundsteget har ett litet hopp"
+        }
+      },
+      "en": {
+        "word": "Polka",
+        "aliases": [],
+        "hints": {
+          "easy": "Lively duple-time dance music from Bohemia",
+          "normal": "An accordion can drive the steps",
+          "hard": "The basic step has a little hop"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-baroque",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Barockmusik",
+        "aliases": [],
+        "hints": {
+          "easy": "Europeisk konstmusik från Bachs och Vivaldis tid",
+          "normal": "En cembalist bygger ackord över basen",
+          "hard": "En melodi kan smyckas med många drillar"
+        }
+      },
+      "en": {
+        "word": "Baroque music",
+        "aliases": [],
+        "hints": {
+          "easy": "European art music from the age of Bach and Vivaldi",
+          "normal": "A harpsichordist builds chords above the bass",
+          "hard": "A tune can be decorated with trills"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-gregorian-chant",
+    "category": "music",
+    "subcategory": "music-styles",
+    "tags": [
+      "genres"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gregoriansk sång",
+        "aliases": [],
+        "hints": {
+          "easy": "Enstämmig latinsk kyrkosång utan instrument",
+          "normal": "Textens rytm flyter utan stadig takt",
+          "hard": "Neumer ligger över texten i äldre böcker"
+        }
+      },
+      "en": {
+        "word": "Gregorian chant",
+        "aliases": [],
+        "hints": {
+          "easy": "Monophonic Latin church song without instruments",
+          "normal": "Its words flow without a steady beat",
+          "hard": "Neumes sit above the words in old books"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-melody",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Melodi",
+        "aliases": [],
+        "hints": {
+          "easy": "Följden av toner som man brukar nynna",
+          "normal": "Den kan kännas igen när tempot byts",
+          "hard": "Samma kontur kan börja högre"
+        }
+      },
+      "en": {
+        "word": "Melody",
+        "aliases": [
+          "Tune"
+        ],
+        "hints": {
+          "easy": "The sequence of notes you usually hum",
+          "normal": "It can survive a change of speed",
+          "hard": "The same contour can start higher"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-rhythm",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rytm",
+        "aliases": [],
+        "hints": {
+          "easy": "Mönstret av långa och korta ljud i tiden",
+          "normal": "Kan klappas utan någon tonhöjd",
+          "hard": "En paus kan vara en viktig del av mönstret"
+        }
+      },
+      "en": {
+        "word": "Rhythm",
+        "aliases": [],
+        "hints": {
+          "easy": "The pattern of long and short sounds in time",
+          "normal": "You can clap it without any pitch",
+          "hard": "A rest can be a crucial part of the pattern"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-harmony",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Harmoni",
+        "aliases": [],
+        "hints": {
+          "easy": "Tonernas samklang i bakgrunden eller mellan stämmor",
+          "normal": "Samma melodi kan plötsligt kännas sorgligare",
+          "hard": "Två röster kan skapa spänning genom sitt avstånd"
+        }
+      },
+      "en": {
+        "word": "Harmony",
+        "aliases": [],
+        "hints": {
+          "easy": "How notes combine behind a tune or across parts",
+          "normal": "The same tune can suddenly feel sadder",
+          "hard": "The distance between two voices can create tension"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-tempo",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tempo",
+        "aliases": [],
+        "hints": {
+          "easy": "Hastigheten på musikens puls",
+          "normal": "Metronomens siffra ställs in efter detta",
+          "hard": "En långsam sång kan ändå ha massor av korta toner"
+        }
+      },
+      "en": {
+        "word": "Tempo",
+        "aliases": [],
+        "hints": {
+          "easy": "The speed of the musical pulse",
+          "normal": "This determines the metronome setting",
+          "hard": "A slow song can still contain lots of short notes"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-chorus",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Refräng",
+        "aliases": [],
+        "hints": {
+          "easy": "Låtavsnittet som brukar återkomma med samma text",
+          "normal": "Publiken sjunger ofta starkast här",
+          "hard": "Titeln kan dyka upp på den mest betonade tonen"
+        }
+      },
+      "en": {
+        "word": "Chorus",
+        "aliases": [
+          "Refrain"
+        ],
+        "hints": {
+          "easy": "Song section that typically returns with the same words",
+          "normal": "The crowd often sings loudest here",
+          "hard": "The title may land on the most emphatic note"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-verse",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vers",
+        "aliases": [],
+        "hints": {
+          "easy": "Låtavsnitt där texten ofta byts mellan omgångarna",
+          "normal": "Här berättas nästa del av historien",
+          "hard": "Samma melodi får nya ord"
+        }
+      },
+      "en": {
+        "word": "Verse",
+        "aliases": [],
+        "hints": {
+          "easy": "Song section whose words often change each time",
+          "normal": "This is where the story moves on",
+          "hard": "Same tune, new words"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bridge",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Låtbrygga",
+        "aliases": [],
+        "hints": {
+          "easy": "Avsnitt med kontrast mellan låtens återkommande delar",
+          "normal": "Ligger ofta före den sista stora återkomsten",
+          "hard": "Ackorden kan tillfälligt ta en annan riktning"
+        }
+      },
+      "en": {
+        "word": "Song bridge",
+        "aliases": [],
+        "hints": {
+          "easy": "Contrasting passage between a song’s recurring sections",
+          "normal": "Often comes before the big final return",
+          "hard": "The chords may head somewhere different for a while"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-riff",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Riff",
+        "aliases": [],
+        "hints": {
+          "easy": "Kort, upprepat musikmönster, ofta på elgitarr",
+          "normal": "Ett band kan kännas igen på de första få tonerna",
+          "hard": "Figuren kan fortsätta under sångraderna"
+        }
+      },
+      "en": {
+        "word": "Riff",
+        "aliases": [],
+        "hints": {
+          "easy": "Short repeated musical figure, often on electric guitar",
+          "normal": "A band can be recognised from the first few notes",
+          "hard": "The figure can continue underneath the vocal lines"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-hook",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hook",
+        "aliases": [],
+        "hints": {
+          "easy": "Kort minnesvärd detalj som fångar lyssnarens uppmärksamhet",
+          "normal": "Kan bestå av en enda sjungen fras",
+          "hard": "Den fastnar innan man kan resten av låten"
+        }
+      },
+      "en": {
+        "word": "Song hook",
+        "aliases": [],
+        "hints": {
+          "easy": "Short memorable detail that catches the listener’s attention",
+          "normal": "It might be just one sung phrase",
+          "hard": "It sticks before you know the rest of the song"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-medley",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Medley",
+        "aliases": [
+          "Potpurri"
+        ],
+        "hints": {
+          "easy": "Flera låtar hopfogade till ett sammanhängande nummer",
+          "normal": "Varje melodi får en liten stund på scenen",
+          "hard": "Publiken kan känna igen tre hits på ett par minuter"
+        }
+      },
+      "en": {
+        "word": "Medley",
+        "aliases": [],
+        "hints": {
+          "easy": "Several songs stitched into one continuous number",
+          "normal": "Each tune gets a little time in the spotlight",
+          "hard": "The crowd can recognise three hits in a few minutes"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-duet",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Duett",
+        "aliases": [],
+        "hints": {
+          "easy": "Två musiker eller sångare delar ett stycke",
+          "normal": "Stämmorna kan turas om eller mötas",
+          "hard": "Ingen tredje behöver en plats vid notstället"
+        }
+      },
+      "en": {
+        "word": "Duet",
+        "aliases": [],
+        "hints": {
+          "easy": "Two players or singers share a piece",
+          "normal": "The parts may alternate or meet",
+          "hard": "No third performer needs a music stand"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-quartet",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kvartett",
+        "aliases": [],
+        "hints": {
+          "easy": "Stycke eller ensemble för fyra musiker",
+          "normal": "Stråkarna brukar ha två höga stämmor, en mellan och en låg",
+          "hard": "Det kan räcka med fyra stolar i en kammarsal"
+        }
+      },
+      "en": {
+        "word": "Quartet",
+        "aliases": [],
+        "hints": {
+          "easy": "Piece or ensemble for four musicians",
+          "normal": "The string version typically has two high parts, one middle and one low",
+          "hard": "Four seats can be enough in a chamber hall"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-concerto",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Solokonsert",
+        "aliases": [],
+        "hints": {
+          "easy": "Längre stycke där en solist möter en orkester",
+          "normal": "En person står ofta längst fram",
+          "hard": "En kadens kan låta orkestern vänta"
+        }
+      },
+      "en": {
+        "word": "Solo concerto",
+        "aliases": [],
+        "hints": {
+          "easy": "Extended work featuring a soloist with an orchestra",
+          "normal": "One player often stands out in front",
+          "hard": "A cadenza can keep the orchestra waiting"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-symphony",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Symfoni",
+        "aliases": [],
+        "hints": {
+          "easy": "Större orkesterverk med ofta flera satser",
+          "normal": "En långsam sats kan följa en dramatisk öppning",
+          "hard": "Publiken brukar vänta med applåderna till efter finalen"
+        }
+      },
+      "en": {
+        "word": "Symphony",
+        "aliases": [],
+        "hints": {
+          "easy": "Large orchestral work often divided into movements",
+          "normal": "A slow movement can follow a dramatic opening",
+          "hard": "The audience often saves applause for after the finale"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-sonata",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sonat",
+        "aliases": [],
+        "hints": {
+          "easy": "Konstmusikstycke för ett eller ett fåtal instrument, ofta i flera satser",
+          "normal": "Ett piano kan bära hela verket själv",
+          "hard": "En violinist behöver ibland bara en klaverspelare som sällskap"
+        }
+      },
+      "en": {
+        "word": "Sonata",
+        "aliases": [],
+        "hints": {
+          "easy": "Classical piece for one or a few instruments, often in several movements",
+          "normal": "A piano can carry the entire work alone",
+          "hard": "A violinist sometimes needs only a keyboard partner"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-fugue",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fuga",
+        "aliases": [],
+        "hints": {
+          "easy": "Kontrapunktiskt stycke där flera stämmor presenterar samma tema i tur",
+          "normal": "När nästa röst börjar har den första redan fortsatt",
+          "hard": "Bachs vältempererade samling parar formen med preludier"
+        }
+      },
+      "en": {
+        "word": "Fugue",
+        "aliases": [],
+        "hints": {
+          "easy": "Contrapuntal piece whose voices enter with the same subject in turn",
+          "normal": "The first voice moves on as the next one starts",
+          "hard": "Bach’s Well-Tempered collection pairs it with preludes"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-overture",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ouvertyr",
+        "aliases": [],
+        "hints": {
+          "easy": "Orkesterstycke som inleder till exempel ett scenverk",
+          "normal": "Kan låta publiken höra teman i förväg",
+          "hard": "Ridån kan ännu vara stängd"
+        }
+      },
+      "en": {
+        "word": "Overture",
+        "aliases": [],
+        "hints": {
+          "easy": "Orchestral music introducing a stage work, among other uses",
+          "normal": "The audience may hear themes in advance",
+          "hard": "The curtain can still be down"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-a-cappella",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "A cappella",
+        "aliases": [
+          "Acapella"
+        ],
+        "hints": {
+          "easy": "Sång framförd helt utan instrument",
+          "normal": "Rösterna får bära både bas och rytm",
+          "hard": "Någon i gruppen kan härma ett trumset"
+        }
+      },
+      "en": {
+        "word": "A cappella",
+        "aliases": [
+          "Acapella"
+        ],
+        "hints": {
+          "easy": "Singing performed without instruments",
+          "normal": "Voices carry both bass and rhythm",
+          "hard": "Someone in the group may imitate a drum kit"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-improvisation",
+    "category": "music",
+    "subcategory": "music-songwriting",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Improvisation",
+        "aliases": [
+          "Improvisering"
+        ],
+        "hints": {
+          "easy": "Musik som skapas i stunden under framförandet",
+          "normal": "Solisten hittar en ny väg över kända ackord",
+          "hard": "Nästa tagning kan byta ut hela frasen"
+        }
+      },
+      "en": {
+        "word": "Improvisation",
+        "aliases": [
+          "Improv"
+        ],
+        "hints": {
+          "easy": "Music created on the spot during a performance",
+          "normal": "A soloist finds a fresh route over familiar chords",
+          "hard": "The next take can change the whole phrase"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-chord",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ackord",
+        "aliases": [],
+        "hints": {
+          "easy": "Flera sammanhörande toner, ofta spelade samtidigt",
+          "normal": "Ett nytt grepp under sången",
+          "hard": "Tonhöjderna kan fördelas mellan olika instrument"
+        }
+      },
+      "en": {
+        "word": "Chord",
+        "aliases": [],
+        "hints": {
+          "easy": "Several related notes often played together",
+          "normal": "A new fingering beneath the singing",
+          "hard": "The pitches can be spread across instruments"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-musical-scale",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tonskala",
+        "aliases": [],
+        "hints": {
+          "easy": "Ordnad följd av tonhöjder för en tonart eller ett modus",
+          "normal": "Spelas ofta upp och ner som övning",
+          "hard": "Mönstret av heltoner och halvtoner ger färg"
+        }
+      },
+      "en": {
+        "word": "Musical scale",
+        "aliases": [],
+        "hints": {
+          "easy": "Ordered series of pitches for a key or mode",
+          "normal": "Often played up and down as an exercise",
+          "hard": "The pattern of whole and half steps shapes its colour"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-octave",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Oktav",
+        "aliases": [],
+        "hints": {
+          "easy": "Avståndet från en ton till nästa med samma namn",
+          "normal": "En röst kan följa melodin en våning upp",
+          "hard": "Högre tonen har dubbla frekvensen"
+        }
+      },
+      "en": {
+        "word": "Octave",
+        "aliases": [],
+        "hints": {
+          "easy": "Distance from a note to the next with the same name",
+          "normal": "One voice can follow the melody a floor above",
+          "hard": "The higher note has twice the frequency"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-semitone",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Halvton",
+        "aliases": [
+          "Halvtonssteg"
+        ],
+        "hints": {
+          "easy": "Avståndet mellan två grannband på en gitarr",
+          "normal": "Närmaste tangent åt något håll",
+          "hard": "E till F utan en svart tangent emellan"
+        }
+      },
+      "en": {
+        "word": "Semitone",
+        "aliases": [
+          "Half step"
+        ],
+        "hints": {
+          "easy": "Distance between adjoining frets on a guitar",
+          "normal": "The closest key in either direction",
+          "hard": "E to F has no black key in the middle"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-major-key",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dur",
+        "aliases": [],
+        "hints": {
+          "easy": "Tonartstyp där grundackordet har stor ters",
+          "normal": "Förknippas ofta med en ljusare klang",
+          "hard": "På bara vita tangenter börjar standardexemplet på C"
+        }
+      },
+      "en": {
+        "word": "Major key",
+        "aliases": [
+          "Major mode",
+          "Major"
+        ],
+        "hints": {
+          "easy": "Four half steps from root to third in the home chord",
+          "normal": "Often associated with a brighter sound",
+          "hard": "On the white keys, the standard example starts on C"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-minor-key",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Moll",
+        "aliases": [],
+        "hints": {
+          "easy": "Tonartstyp där grundackordet har liten ters",
+          "normal": "Förknippas ofta med en mörkare klang",
+          "hard": "På bara vita tangenter börjar det naturliga exemplet på A"
+        }
+      },
+      "en": {
+        "word": "Minor key",
+        "aliases": [
+          "Minor mode",
+          "Minor"
+        ],
+        "hints": {
+          "easy": "Three half steps from root to third in the home chord",
+          "normal": "Often associated with a darker sound",
+          "hard": "On the white keys, the natural example starts on A"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-time-signature",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Taktart",
+        "aliases": [],
+        "hints": {
+          "easy": "Tecken i notbilden som anger hur pulsen grupperas",
+          "normal": "Två siffror kan skilja en vals från en marsch",
+          "hard": "Den undre siffran kan ange fjärdedelar"
+        }
+      },
+      "en": {
+        "word": "Time signature",
+        "aliases": [
+          "Meter signature"
+        ],
+        "hints": {
+          "easy": "Notation showing how the pulse is grouped",
+          "normal": "Two numbers can distinguish a waltz from a march",
+          "hard": "The lower number can indicate quarter notes"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-syncopation",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Synkopering",
+        "aliases": [
+          "Synkop"
+        ],
+        "hints": {
+          "easy": "Betoning som flyttas till ett svagt slag eller mellan slagen",
+          "normal": "En betoning kan hamna precis före nästa fotstamp",
+          "hard": "Foten kan hålla stadigt medan händerna går på tvären"
+        }
+      },
+      "en": {
+        "word": "Syncopation",
+        "aliases": [],
+        "hints": {
+          "easy": "Accent shifted to a weak beat or between beats",
+          "normal": "An accent can arrive just before the next foot tap",
+          "hard": "The foot can stay steady while the hands cut across it"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-counterpoint",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kontrapunkt",
+        "aliases": [],
+        "hints": {
+          "easy": "Två eller fler självständiga melodilinjer klingar tillsammans",
+          "normal": "På en sida kan flera teman göra olika saker",
+          "hard": "En stämma går upp när den andra går ner"
+        }
+      },
+      "en": {
+        "word": "Counterpoint",
+        "aliases": [],
+        "hints": {
+          "easy": "Two or more independent melodies sounding together",
+          "normal": "Several lines on the page can do different things",
+          "hard": "One part goes up while another goes down"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-arpeggio",
+    "category": "music",
+    "subcategory": "music-theory",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Arpeggio",
+        "aliases": [
+          "Brutet ackord"
+        ],
+        "hints": {
+          "easy": "Ackordets toner tas en i taget",
+          "normal": "Handen rullar genom greppet",
+          "hard": "Uppåt eller neråt hörs samma harmoniska färg"
+        }
+      },
+      "en": {
+        "word": "Arpeggio",
+        "aliases": [
+          "Broken chord"
+        ],
+        "hints": {
+          "easy": "Chord tones played one after another",
+          "normal": "The hand rolls through the fingering",
+          "hard": "The same harmony colours the ascent or descent"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-crescendo",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Crescendo",
+        "aliases": [],
+        "hints": {
+          "easy": "Musiken växer stegvis i ljudstyrka",
+          "normal": "Tecknet öppnar sig som en kil åt höger",
+          "hard": "Det kan börja i nära viskning och sluta över hela orkestern"
+        }
+      },
+      "en": {
+        "word": "Crescendo",
+        "aliases": [],
+        "hints": {
+          "easy": "The music gradually grows louder",
+          "normal": "The marking opens like a wedge to the right",
+          "hard": "It can start near a whisper and end with the whole orchestra"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-decrescendo",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Decrescendo",
+        "aliases": [
+          "Diminuendo"
+        ],
+        "hints": {
+          "easy": "Musiken avtar gradvis i ljudstyrka",
+          "normal": "Tecknet smalnar till en spets åt höger",
+          "hard": "En orkester kan lämna plats åt en ensam tyst ton"
+        }
+      },
+      "en": {
+        "word": "Decrescendo",
+        "aliases": [
+          "Diminuendo"
+        ],
+        "hints": {
+          "easy": "The music gradually becomes softer",
+          "normal": "The marking narrows to a point on the right",
+          "hard": "An orchestra can yield to one quiet note"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-staccato",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Staccato",
+        "aliases": [],
+        "hints": {
+          "easy": "Toner spelas kort och avskilt",
+          "normal": "En prick över eller under noten ger anvisningen",
+          "hard": "Melodin kan låta som små studs mot golvet"
+        }
+      },
+      "en": {
+        "word": "Staccato",
+        "aliases": [],
+        "hints": {
+          "easy": "Notes are played short and detached",
+          "normal": "A dot above or below a note can mark it",
+          "hard": "The tune can sound like little bounces off the floor"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-legato",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Legato",
+        "aliases": [],
+        "hints": {
+          "easy": "Toner binds samman utan tydliga mellanrum",
+          "normal": "Flera toner under en enda båge",
+          "hard": "Melodin låter som en sammanhängande linje"
+        }
+      },
+      "en": {
+        "word": "Legato",
+        "aliases": [],
+        "hints": {
+          "easy": "Notes are joined without obvious gaps",
+          "normal": "Several notes beneath one curved mark",
+          "hard": "The melody flows as one continuous line"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-pizzicato",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pizzicato",
+        "aliases": [
+          "Pizz"
+        ],
+        "hints": {
+          "easy": "Stråkmusikern knäpper strängarna med fingret",
+          "normal": "Stråken kan få vila i handen",
+          "hard": "Klangen får en kort knäpp med tydlig början"
+        }
+      },
+      "en": {
+        "word": "Pizzicato",
+        "aliases": [
+          "Pizz"
+        ],
+        "hints": {
+          "easy": "A bowed-string player plucks the strings by hand",
+          "normal": "The bow can rest in the hand",
+          "hard": "The sound starts with a short, clear pluck"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-vibrato",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vibrato",
+        "aliases": [],
+        "hints": {
+          "easy": "Tonen får en snabb, regelbunden variation i tonhöjd",
+          "normal": "En stråkmusiker vickar på fingertoppen",
+          "hard": "En lång ton kan låta levande utan nya noter"
+        }
+      },
+      "en": {
+        "word": "Vibrato",
+        "aliases": [],
+        "hints": {
+          "easy": "A note’s pitch fluctuates rapidly and regularly",
+          "normal": "A string player rocks the fingertip",
+          "hard": "One long note can sound alive without adding new notes"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-glissando",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Glissando",
+        "aliases": [
+          "Gliss"
+        ],
+        "hints": {
+          "easy": "Svep från en tonhöjd till en annan",
+          "normal": "Ett drag på trombonen ger en mjuk rutsch",
+          "hard": "Mellanrummet mellan två noter blir hörbart"
+        }
+      },
+      "en": {
+        "word": "Glissando",
+        "aliases": [
+          "Gliss"
+        ],
+        "hints": {
+          "easy": "A sweep from one pitch to another",
+          "normal": "A trombone slide makes a smooth swoop",
+          "hard": "The space between written notes becomes audible"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-fermata",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fermat",
+        "aliases": [],
+        "hints": {
+          "easy": "Anvisning om att hålla en ton eller paus längre",
+          "normal": "En prick med en båge över i notbilden",
+          "hard": "Ensembleledaren får bestämma när pulsen fortsätter"
+        }
+      },
+      "en": {
+        "word": "Fermata",
+        "aliases": [
+          "Pause mark"
+        ],
+        "hints": {
+          "easy": "Marking that holds a note or rest longer",
+          "normal": "A dot sheltered under an arc in the score",
+          "hard": "The ensemble leader decides when the pulse begins again"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-metronome",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Metronom",
+        "aliases": [],
+        "hints": {
+          "easy": "Klickar med inställd hastighet när man övar",
+          "normal": "Håller samma puls när musikern rusar",
+          "hard": "En traditionell modell har en flyttbar vikt på en pendel"
+        }
+      },
+      "en": {
+        "word": "Metronome",
+        "aliases": [],
+        "hints": {
+          "easy": "Clicks at a set speed during practice",
+          "normal": "Keeps the pulse steady when the player rushes",
+          "hard": "A traditional one has a sliding weight on a pendulum"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-treble-clef",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Diskantklav",
+        "aliases": [
+          "G-klav"
+        ],
+        "hints": {
+          "easy": "Tecken som placerar G på andra linjen i vanliga noter",
+          "normal": "Höger hand i pianonoter läser ofta den här",
+          "hard": "En rund sväng omsluter den linje som tecknet pekar ut"
+        }
+      },
+      "en": {
+        "word": "Treble clef",
+        "aliases": [
+          "G clef"
+        ],
+        "hints": {
+          "easy": "Sign that places G on the second line in ordinary scores",
+          "normal": "The right hand in piano music often reads it",
+          "hard": "Its loop circles the line it identifies"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-bass-clef",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Basklav",
+        "aliases": [
+          "F-klav"
+        ],
+        "hints": {
+          "easy": "Tecken som i vanlig notskrift placerar F på fjärde linjen",
+          "normal": "Vänster hand i pianonoter läser ofta den här",
+          "hard": "Två prickar flankerar den linje tecknet markerar"
+        }
+      },
+      "en": {
+        "word": "Bass clef",
+        "aliases": [
+          "F clef"
+        ],
+        "hints": {
+          "easy": "Sign that usually places F on the fourth staff line",
+          "normal": "The left hand in piano music often reads it",
+          "hard": "Two dots flank the line it identifies"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-sheet-music",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Notblad",
+        "aliases": [
+          "Noter"
+        ],
+        "hints": {
+          "easy": "Musik nedskriven som tecken på ett blad",
+          "normal": "Linjerna hjälper spelaren hitta rätt ton",
+          "hard": "Bladvändningen tajmas ofta med en paus"
+        }
+      },
+      "en": {
+        "word": "Sheet music",
+        "aliases": [],
+        "hints": {
+          "easy": "Written music laid out in symbols on a page",
+          "normal": "The ruled lines guide the player to the right pitch",
+          "hard": "The page turn is often timed to a rest"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-rehearsal",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Musikrepetition",
+        "aliases": [
+          "Rep"
+        ],
+        "hints": {
+          "easy": "Band eller ensemble övar ihop inför ett framträdande",
+          "normal": "Samma svåra passage tas om igen",
+          "hard": "Sista samlingen kan vara i scenkläder"
+        }
+      },
+      "en": {
+        "word": "Music rehearsal",
+        "aliases": [
+          "Band practice"
+        ],
+        "hints": {
+          "easy": "A band or ensemble practises together before performing",
+          "normal": "The same tricky passage gets another run",
+          "hard": "The last session can be done in stage clothes"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-soundcheck",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ljudprov",
+        "aliases": [
+          "Soundcheck"
+        ],
+        "hints": {
+          "easy": "Test av mikrofoner och scenljud före spelningen",
+          "normal": "Musikern ber om mer röst i medhörningen",
+          "hard": "En tom sal får höra den första kaggen"
+        }
+      },
+      "en": {
+        "word": "Soundcheck",
+        "aliases": [
+          "Sound check"
+        ],
+        "hints": {
+          "easy": "Test of microphones and stage sound before a gig",
+          "normal": "The player asks for more vocal in a monitor",
+          "hard": "An empty room hears the first kick drum"
+        }
+      }
+    }
+  },
+  {
+    "id": "music-arrangement",
+    "category": "music",
+    "subcategory": "music-performance",
+    "tags": [
+      "music-concepts"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Arrangemang",
+        "aliases": [],
+        "hints": {
+          "easy": "Bearbetning av ett stycke för en viss sättning eller spelstil",
+          "normal": "En pianolåt kan få nya stämmor för blås",
+          "hard": "Nästan samma melodi med en helt annan klangdräkt"
+        }
+      },
+      "en": {
+        "word": "Arrangement",
+        "aliases": [],
+        "hints": {
+          "easy": "An adaptation of a piece for a particular lineup or style",
+          "normal": "A piano tune can gain new parts for horns",
+          "hard": "Much the same melody in a completely different sound"
+        }
+      }
+    }
+  }
+]

@@ -2,9 +2,11 @@
 
 `python -m pytest tests/test_browser.py -q` startar Flask med en ledig lokal port för testsviten. Playwright behöver Chromium eller en lokal Chrome-installation. Installera Chromium med `python -m playwright install chromium` om det saknas. Sätt `IMPOSTER_BROWSER_CHANNEL=chrome` för att använda installerad Chrome. Testerna kör inga externa webbanrop.
 
+Sätt `IMPOSTER_TEST_URL` till exempelvis `http://127.0.0.1:5051` för att köra mot en redan startad instans. Kör med `-k real_websocket` för att verifiera WebSocket-transporten i produktionsstarten. Pågående testrum ligger i den serverns minne.
+
 ## Monteringspunkter
 
-Testerna använder tillgängliga rubriker, namn och formulärfält när de räcker för att beskriva användarens handling. Nedanstående monteringspunkter föreslås för steg där flera kontroller kan ha samma namn eller där lokalisering gör texten opraktisk som identifierare. Kontrakten i `docs/ui.md`, `docs/offline.md` och `docs/online.md` styr det slutliga valet av identifierare.
+Testerna använder tillgängliga rubriker, namn och formulärfält samt identifierare med prefixet `local-` i den lokala spelvyn. Kontrakten i `docs/ui.md`, `docs/offline.md` och `docs/online.md` beskriver hur vyerna monteras.
 
 | Vy | Vad som behöver gå att hitta |
 | --- | --- |

@@ -3,7 +3,6 @@ const COMMON_SETTINGS = [
   "clueRounds", "discussionSeconds", "clueStyle", "language", "hint",
   "categories", "subcategories", "levels",
 ];
-const PROFILE_KEYS = new Set(["mode", "weight", ...PROFILE_SETTINGS, ...COMMON_SETTINGS]);
 const PHASE_ACTIONS = new Map([
   ["ack_role", "roles"], ["clue", "clues"], ["ability", "abilities"],
   ["end_discussion", "discussion"], ["vote", "voting"], ["guess", "last_guess"],
@@ -27,6 +26,10 @@ function trim(text) {
   return text.replace(/^\p{White_Space}+|\p{White_Space}+$/gu, "");
 }
 
+function nonempty(value) {
+  return typeof value === "string" && trim(value).length > 0;
+}
+
 function normalizeGuess(text) {
   return trim(text).normalize("NFC").toLowerCase().replace(/\p{White_Space}+/gu, " ");
 }
@@ -39,7 +42,7 @@ function sameSetting(first, second) {
 }
 
 function stringList(value) {
-  return Array.isArray(value) && value.every(item => typeof item === "string" && item.length > 0);
+  return Array.isArray(value) && value.every(nonempty);
 }
 
 function commonSettingsValid(settings, rules) {
@@ -71,14 +74,14 @@ function selectContent(words, pairs, settings) {
   const levels = new Set(settings.levels);
   const byId = new Map();
   for (const entry of Array.isArray(words) ? words : []) {
-    if (typeof entry?.id !== "string" || byId.has(entry.id)) continue;
+    if (!isRecord(entry) || !nonempty(entry.id) || !nonempty(entry.category) || byId.has(entry.id)) continue;
     if (categories.size && !categories.has(entry.category)) continue;
     if (subcategories.size && !subcategories.has(entry.subcategory)) continue;
     if (!levels.has(entry.level)) continue;
-    const language = entry.languages?.[settings.language];
-    const hint = language?.hints?.[settings.hint];
-    if (typeof language?.word !== "string" || !trim(language.word)) continue;
-    if (typeof hint !== "string" || !trim(hint)) continue;
+    const language = isRecord(entry.languages) ? entry.languages[settings.language] : null;
+    if (!isRecord(language) || !nonempty(language.word) || !isRecord(language.hints)) continue;
+    const hint = language.hints[settings.hint];
+    if (!nonempty(hint)) continue;
     byId.set(entry.id, {
       id: entry.id, category: entry.category, word: language.word, hint,
       aliases: Array.isArray(language.aliases)
@@ -89,7 +92,7 @@ function selectContent(words, pairs, settings) {
   const uniquePairs = [];
   const pairKeys = new Set();
   for (const pair of Array.isArray(pairs) ? pairs : []) {
-    if (!Array.isArray(pair) || pair.length !== 2) continue;
+    if (!stringList(pair) || pair.length !== 2) continue;
     const [first, second] = pair;
     if (first === second || !byId.has(first) || !byId.has(second)) continue;
     const key = JSON.stringify(first < second ? [first, second] : [second, first]);
@@ -105,20 +108,22 @@ function validateProfile(settings, playerCount, content, rules, addIssue) {
   const rule = rules.modes[mode];
   const joker = Boolean(rule.forcedJoker || settings.joker);
   const extra = extraRole === null ? null : rules.extras[extraRole];
-  if (playerCount < rule.min || playerCount > rules.playerMax) addIssue("player_count", mode);
+  const wholeCount = Number.isInteger(playerCount);
+  const countOk = wholeCount && playerCount >= rule.min && playerCount <= rules.playerMax;
+  if (!countOk) addIssue("player_count", mode);
   if (joker && !rule.joker) addIssue("joker_incompatible", mode);
-  if (joker && playerCount < rules.jokerMin) addIssue("joker_players", mode);
+  if (joker && wholeCount && playerCount < rules.jokerMin) addIssue("joker_players", mode);
   if (extra && !extra.modes.includes(mode)) addIssue("extra_incompatible", mode);
-  if (extra && playerCount < extra.min) addIssue("extra_players", mode);
+  if (extra && wholeCount && playerCount < extra.min) addIssue("extra_players", mode);
 
-  let counts;
-  if (rule.imposters === "all") {
+  let counts = [];
+  if (countOk && rule.imposters === "all") {
     counts = [playerCount];
-  } else if (rule.imposters === "reverse") {
+  } else if (countOk && rule.imposters === "reverse") {
     counts = [playerCount - 1];
-  } else if (rule.imposters === 0) {
+  } else if (countOk && rule.imposters === 0) {
     counts = [0];
-  } else if (playerCount >= rule.min && playerCount <= rules.playerMax) {
+  } else if (countOk) {
     const numberOfAllies = extra?.team === "impostors" && !extra.replacesImposter ? 1 : 0;
     const validDistribution = count => {
       const impostorTeam = count + numberOfAllies;
@@ -126,7 +131,6 @@ function validateProfile(settings, playerCount, content, rules, addIssue) {
       return count >= 1 && civils > impostorTeam && (!joker || civils >= rules.jokerCivilMin);
     };
     if (rule.imposters === "random") {
-      counts = [];
       for (let count = 1; count <= Math.floor((playerCount - 1) / 2); count += 1) {
         if (validDistribution(count)) counts.push(count);
       }
@@ -171,17 +175,13 @@ function prepare(settings, playerCount, words, pairs, rules) {
     addIssue("invalid_settings", mode);
     return { issues };
   }
-  if (!Number.isInteger(playerCount)) {
-    addIssue("player_count", mode);
-    return { issues };
-  }
   const content = selectContent(words, pairs, selected);
   if (mode !== "chaos") {
     const profiles = [validateProfile(selected, playerCount, content, rules, addIssue)];
     return { selected, profiles, content, issues };
   }
 
-  if (playerCount < rules.modes.chaos.min || playerCount > rules.playerMax) {
+  if (!Number.isInteger(playerCount) || playerCount < rules.modes.chaos.min || playerCount > rules.playerMax) {
     addIssue("player_count", mode);
   }
   const profiles = [];
@@ -190,24 +190,27 @@ function prepare(settings, playerCount, words, pairs, rules) {
   } else {
     for (const profile of selected.chaos) {
       if (!isRecord(profile)) {
-        addIssue("invalid_settings", mode);
+        addIssue("invalid_settings", null);
         continue;
       }
       const profileMode = typeof profile.mode === "string" ? profile.mode : null;
+      if (!Number.isFinite(profile.weight) || profile.weight <= 0) {
+        addIssue("chaos_weight", profileMode);
+      }
       if (profileMode === null || profileMode === "chaos" || !Object.hasOwn(rules.modes, profileMode)) {
         addIssue("invalid_mode", profileMode);
         continue;
       }
-      if (!Number.isFinite(profile.weight) || profile.weight <= 0) {
-        addIssue("chaos_weight", profileMode);
-      }
-      if (Object.keys(profile).some(key => !PROFILE_KEYS.has(key)) || COMMON_SETTINGS.some(key => (
+      if (COMMON_SETTINGS.some(key => (
         Object.hasOwn(profile, key) && !sameSetting(profile[key], selected[key])
       ))) {
         addIssue("invalid_settings", profileMode);
         continue;
       }
-      const effective = { ...selected, ...profile };
+      const effective = { ...selected, mode: profileMode, weight: profile.weight };
+      for (const key of PROFILE_SETTINGS) {
+        if (Object.hasOwn(profile, key)) effective[key] = profile[key];
+      }
       if (!Object.hasOwn(profile, "lastGuess") && !rules.modes[profileMode].lastGuess) {
         effective.lastGuess = false;
       }
@@ -246,10 +249,11 @@ function chooseProfile(profiles, rng) {
   let maxWeight = 0;
   for (const { settings } of profiles) maxWeight = Math.max(maxWeight, settings.weight);
   const weights = profiles.map(({ settings }) => settings.weight / maxWeight);
-  let draw = rng() * weights.reduce((sum, weight) => sum + weight, 0);
+  const draw = rng() * weights.reduce((sum, weight) => sum + weight, 0);
+  let cumulative = 0;
   for (let index = 0; index < profiles.length; index += 1) {
-    draw -= weights[index];
-    if (draw < 0) return profiles[index];
+    cumulative += weights[index];
+    if (draw < cumulative) return profiles[index];
   }
   return profiles.at(-1);
 }
@@ -260,9 +264,10 @@ function selectWords(content, requiresPair, used, rng) {
   let bestRank = [Infinity, Infinity, Infinity];
   let best = [];
   for (const candidate of candidates) {
-    const ranks = candidate.map(word => recent.get(word.id) ?? -1).sort((a, b) => b - a);
-    const rank = [ranks.filter(index => index >= 0).length, ranks[0], ranks[1] ?? -1];
-    const difference = rank.reduce((result, value, index) => result || value - bestRank[index], 0);
+    const first = recent.get(candidate[0].id) ?? -1;
+    const second = requiresPair ? recent.get(candidate[1].id) ?? -1 : -1;
+    const rank = [Number(first >= 0) + Number(second >= 0), Math.max(first, second), Math.min(first, second)];
+    const difference = rank[0] - bestRank[0] || rank[1] - bestRank[1] || rank[2] - bestRank[2];
     if (difference < 0) {
       bestRank = rank;
       best = [candidate];
@@ -304,8 +309,8 @@ function checkedPlayers(players, rules) {
   if (!Array.isArray(players)) throw new EngineError("invalid_players");
   const ids = new Set();
   return players.map(player => {
-    if (typeof player?.id !== "string" || !trim(player.id) || ids.has(player.id)
-        || rules.groupOptions.includes(player.id) || typeof player.name !== "string" || !trim(player.name)) {
+    if (!isRecord(player) || !nonempty(player.id) || ids.has(player.id)
+        || rules.groupOptions.includes(player.id) || !nonempty(player.name)) {
       throw new EngineError("invalid_players");
     }
     ids.add(player.id);
@@ -313,18 +318,20 @@ function checkedPlayers(players, rules) {
   });
 }
 
-export function createRound(players, settings, words, pairs, rules, { rng = randomValue, used = [] } = {}) {
+export function createRound(players, settings, words, pairs, rules, { rng, used, now } = {}) {
   const roster = checkedPlayers(players, rules);
   const { selected, profiles, content, issues } = prepare(settings, roster.length, words, pairs, rules);
   if (issues.length) throw new EngineError(issues[0].code, issues);
+  instant(now);
+  const random = rng ?? randomValue;
   const chaos = selected.mode === "chaos";
-  const profile = chaos ? chooseProfile(profiles, rng) : profiles[0];
-  const count = profile.rule.imposters === "random" ? choose(profile.counts, rng) : profile.counts[0];
-  const chosen = selectWords(content, profile.requiresPair, used, rng);
+  const profile = chaos ? chooseProfile(profiles, random) : profiles[0];
+  const count = profile.rule.imposters === "random" ? choose(profile.counts, random) : profile.counts[0];
+  const chosen = selectWords(content, profile.requiresPair, used ?? [], random);
   const ids = roster.map(({ id }) => id);
-  const roles = assignRoles(ids, profile, count, rng);
-  const order = shuffled(ids, rng);
-  const id = newId(rng);
+  const roles = assignRoles(ids, profile, count, random);
+  const order = shuffled(ids, random);
+  const id = newId(random);
   const groupOptions = chaos
     ? (profiles.some(({ rule }) => rule.groupOption) ? rules.groupOptions : [])
     : rules.groupOptions.filter(option => option === profile.rule.groupOption);
@@ -332,6 +339,12 @@ export function createRound(players, settings, words, pairs, rules, { rng = rand
   return new Round({
     id, roster, ids, selected, profile, chosen, roles, order, rules, groupOptions, neutralGuess,
   });
+}
+
+function instant(now) {
+  if (now == null) return Date.now();
+  if (!Number.isInteger(now)) throw new EngineError("invalid_data");
+  return now;
 }
 
 function actionText(value, limit) {
@@ -365,6 +378,13 @@ class Round {
 
   get phase() {
     return this.#phase;
+  }
+
+  localGuessNominee() {
+    if (this.#phase !== "last_guess") return null;
+    const { voteWinner } = this.#verdict;
+    const { roles, order } = this.#round;
+    return roles.assignments.has(voteWinner) ? voteWinner : order[0];
   }
 
   publicState() {
@@ -422,13 +442,15 @@ class Round {
     return card;
   }
 
-  act(playerId, action, data = {}, now = Date.now()) {
+  act(playerId, action, data, now) {
     const role = this.#role(playerId);
     if (action !== "abort" && !PHASE_ACTIONS.has(action)) throw new EngineError("unknown_action");
-    if (!isRecord(data)) throw new EngineError("invalid_data");
+    if (data != null && !isRecord(data)) throw new EngineError("invalid_data");
+    data ??= {};
+    now = instant(now);
     this.tick(now);
+    if (FINISHED_PHASES.has(this.#phase)) throw new EngineError("wrong_phase");
     if (action === "abort") {
-      if (FINISHED_PHASES.has(this.#phase)) throw new EngineError("wrong_phase");
       this.#finish("aborted");
       return true;
     }
@@ -460,7 +482,8 @@ class Round {
     return true;
   }
 
-  tick(now = Date.now()) {
+  tick(now) {
+    now = instant(now);
     if (this.#paused || this.#deadline === null || now < this.#deadline) return false;
     if (this.#phase === "discussion") {
       this.#startVoting();
@@ -473,17 +496,19 @@ class Round {
     return true;
   }
 
-  pause(now = Date.now()) {
+  pause(now) {
+    now = instant(now);
     if (this.#paused || FINISHED_PHASES.has(this.#phase)) return false;
-    this.tick(now);
-    if (FINISHED_PHASES.has(this.#phase)) return true;
+    const changed = this.tick(now);
+    if (FINISHED_PHASES.has(this.#phase)) return changed;
     this.#paused = true;
     this.#remainingMs = this.#deadline === null ? null : this.#deadline - now;
     this.#deadline = null;
     return true;
   }
 
-  resume(now = Date.now()) {
+  resume(now) {
+    now = instant(now);
     if (!this.#paused) return false;
     this.#paused = false;
     this.#deadline = this.#remainingMs === null ? null : now + this.#remainingMs;
@@ -572,9 +597,10 @@ class Round {
     if (role === "joker") return ["joker", "joker_eliminated"];
     switch (mode) {
       case "all":
-        return voteWinner === "@all" ? ["all", "all_correct"] : ["none", "all_missed"];
       case "none":
-        return voteWinner === "@none" ? ["all", "none_correct"] : ["none", "none_missed"];
+        return voteWinner === this.#round.rules.modes[mode].groupOption
+          ? ["all", `${mode}_correct`]
+          : ["none", `${mode}_missed`];
       case "reverse":
         return role === "civil" ? ["impostors", "reverse_civil_eliminated"] : ["civils", "reverse_civil_survived"];
       case "undercover":
@@ -590,7 +616,8 @@ class Round {
     const { chosen, rules, neutralGuess } = this.#round;
     const text = input === null ? null : actionText(input, rules.guessMaxLength);
     const possible = [chosen.word.word, ...chosen.word.aliases];
-    const correct = text !== null && possible.some(alias => normalizeGuess(alias) === normalizeGuess(text));
+    const key = text === null ? null : normalizeGuess(text);
+    const correct = key !== null && possible.some(alias => normalizeGuess(alias) === key);
     this.#guess = { playerId, text, correct };
     if (!neutralGuess) this.#reveal();
   }

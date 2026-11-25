@@ -1,0 +1,4281 @@
+[
+  {
+    "id": "nature-mountain",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "höjd",
+      "berggrund"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Berg",
+        "aliases": [],
+        "hints": {
+          "easy": "En hög topp med branta sidor",
+          "normal": "Tunn luft över trädgränsen",
+          "hard": "En kontur som bryter horisonten"
+        }
+      },
+      "en": {
+        "word": "Mountain",
+        "aliases": [],
+        "hints": {
+          "easy": "A high summit with steep sides",
+          "normal": "Thin air above the tree line",
+          "hard": "A silhouette that breaks the horizon"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-hill",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "höjd",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kulle",
+        "aliases": [],
+        "hints": {
+          "easy": "En mindre, rundad höjd",
+          "normal": "Uppför en stund, sedan utsikt",
+          "hard": "Blåsten märks på krönet"
+        }
+      },
+      "en": {
+        "word": "Hill",
+        "aliases": [],
+        "hints": {
+          "easy": "A small, rounded rise",
+          "normal": "A short climb with a view at the top",
+          "hard": "The wind picks up at the crest"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-valley",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "terräng",
+      "vattendrag"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dalgång",
+        "aliases": [],
+        "hints": {
+          "easy": "Lågt mellan två höjder",
+          "normal": "Där vattnet söker sig fram",
+          "hard": "Morgonens kalla luft kan samlas här"
+        }
+      },
+      "en": {
+        "word": "Valley",
+        "aliases": [],
+        "hints": {
+          "easy": "Low ground between slopes",
+          "normal": "A route for water to find its way downhill",
+          "hard": "A place for cold morning air to pool"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-canyon",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "berggrund",
+      "erosion"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kanjon",
+        "aliases": [],
+        "hints": {
+          "easy": "En djup ravin med branta sidor",
+          "normal": "En flod mellan höga klippväggar",
+          "hard": "Långsam nötning syns i lodräta lager"
+        }
+      },
+      "en": {
+        "word": "Canyon",
+        "aliases": [
+          "Gorge"
+        ],
+        "hints": {
+          "easy": "A deep channel with steep sides",
+          "normal": "A river between towering rock walls",
+          "hard": "Slow erosion written in vertical layers"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-plateau",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "höjd",
+      "terräng"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Platå",
+        "aliases": [],
+        "hints": {
+          "easy": "En stor plan yta högt över omgivningen",
+          "normal": "Dramatisk kant runt ett flackt landskap",
+          "hard": "En lång stigning kan sluta i en vid horisont"
+        }
+      },
+      "en": {
+        "word": "Plateau",
+        "aliases": [
+          "Tableland"
+        ],
+        "hints": {
+          "easy": "A broad flat area above its surroundings",
+          "normal": "A level landscape with a dramatic edge",
+          "hard": "A long climb can end in a wide horizon"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-cliff",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "berggrund",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Klippstup",
+        "aliases": [
+          "Stup"
+        ],
+        "hints": {
+          "easy": "En nästan lodrät bergssida",
+          "normal": "Ett långt fall från kanten",
+          "hard": "En vägg som kan möta havet rakt på"
+        }
+      },
+      "en": {
+        "word": "Cliff",
+        "aliases": [],
+        "hints": {
+          "easy": "A nearly vertical face of rock",
+          "normal": "A long drop beyond the edge",
+          "hard": "A wall that can meet the sea head-on"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-scree",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "berggrund",
+      "vittring"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Blockslänt",
+        "aliases": [
+          "Rasbrant"
+        ],
+        "hints": {
+          "easy": "En sluttning täckt av lösa stenblock",
+          "normal": "Lösa stenar knastrar nedanför ett stup",
+          "hard": "Frostsprängning kan fylla på lagret"
+        }
+      },
+      "en": {
+        "word": "Scree slope",
+        "aliases": [
+          "Talus slope"
+        ],
+        "hints": {
+          "easy": "A slope covered in loose rock fragments",
+          "normal": "Shifting stones beneath a rock face",
+          "hard": "Frost cracking can replenish the pile"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-moraine",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "is",
+      "sediment"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Moränrygg",
+        "aliases": [],
+        "hints": {
+          "easy": "En vall av material som landis lämnat",
+          "normal": "En upphöjd linje längs en gammal isfront",
+          "hard": "Grus och stora block i samma osorterade lager"
+        }
+      },
+      "en": {
+        "word": "Moraine ridge",
+        "aliases": [
+          "Moraine"
+        ],
+        "hints": {
+          "easy": "A ridge of debris left by moving ice",
+          "normal": "A raised line marking a former ice front",
+          "hard": "Pebbles and boulders in the same unsorted deposit"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-cave",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "berggrund",
+      "underjord"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grotta",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett naturligt hålrum i berget",
+          "normal": "Mörker bakom en öppning i klippan",
+          "hard": "Fladdermöss kan övervintra utan dagsljus"
+        }
+      },
+      "en": {
+        "word": "Cave",
+        "aliases": [],
+        "hints": {
+          "easy": "A natural chamber in rock",
+          "normal": "Darkness beyond an opening in the rock",
+          "hard": "Bats may overwinter here away from daylight"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-stalactite",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "grottor",
+      "mineral"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stalaktit",
+        "aliases": [],
+        "hints": {
+          "easy": "En mineralspets som hänger från grottans tak",
+          "normal": "En droppe släpper från spetsen",
+          "hard": "Kalkavlagring som växer nedåt"
+        }
+      },
+      "en": {
+        "word": "Stalactite",
+        "aliases": [],
+        "hints": {
+          "easy": "A mineral spike hanging from a cave ceiling",
+          "normal": "A drop falls from its tip",
+          "hard": "A mineral deposit that grows downward"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-stalagmite",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "grottor",
+      "mineral"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stalagmit",
+        "aliases": [],
+        "hints": {
+          "easy": "En mineralspets som växer upp från grottgolvet",
+          "normal": "Droppar landar på samma lilla kulle",
+          "hard": "Kalk byggs upp där vatten träffar marken"
+        }
+      },
+      "en": {
+        "word": "Stalagmite",
+        "aliases": [],
+        "hints": {
+          "easy": "A mineral spike rising from a cave floor",
+          "normal": "Water drips onto the same small mound",
+          "hard": "Calcite slowly piles up where drops land"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-glacier",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "is",
+      "höjd"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Glaciär",
+        "aliases": [],
+        "hints": {
+          "easy": "En tjock ismassa som långsamt rör sig",
+          "normal": "Blå sprickor i en frusen sluttning",
+          "hard": "Sammanpressad snö flyter under sin egen tyngd"
+        }
+      },
+      "en": {
+        "word": "Glacier",
+        "aliases": [],
+        "hints": {
+          "easy": "A thick mass of ice that slowly moves",
+          "normal": "Blue cracks in a frozen slope",
+          "hard": "Compressed snow flows under its own weight"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-iceberg",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "is",
+      "hav"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Isberg",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett stort flytande stycke is",
+          "normal": "Det mesta är dolt under ytan",
+          "hard": "Ett avbrutet stycke från en frusen kust kan driva långt"
+        }
+      },
+      "en": {
+        "word": "Iceberg",
+        "aliases": [],
+        "hints": {
+          "easy": "A large floating mass of ice",
+          "normal": "Most of it is hidden below the water",
+          "hard": "A broken piece from a frozen coast can drift far away"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-fjord",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "kust",
+      "is"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fjord",
+        "aliases": [],
+        "hints": {
+          "easy": "En lång havsvik mellan branta berg",
+          "normal": "Saltvatten långt in mellan bergssidor",
+          "hard": "En översvämmad dal som formades av is"
+        }
+      },
+      "en": {
+        "word": "Fjord",
+        "aliases": [],
+        "hints": {
+          "easy": "A long sea inlet between steep mountains",
+          "normal": "Salt water reaching far between rock slopes",
+          "hard": "A drowned valley carved by ice"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-bay",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "kust",
+      "hav"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Havsvik",
+        "aliases": [
+          "Vik"
+        ],
+        "hints": {
+          "easy": "Hav som skär in i land",
+          "normal": "En skyddad plats för båtar nära stranden",
+          "hard": "Kustlinjen bågnar inåt"
+        }
+      },
+      "en": {
+        "word": "Bay",
+        "aliases": [],
+        "hints": {
+          "easy": "Sea extending into the land",
+          "normal": "A sheltered stretch of water for boats",
+          "hard": "The coastline curves inward"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-strait",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "kust",
+      "hav"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sund",
+        "aliases": [],
+        "hints": {
+          "easy": "Smalt vatten som förbinder två större vatten",
+          "normal": "Båtar passerar mellan två stränder",
+          "hard": "En trång passage kan förstärka tidvattenströmmen"
+        }
+      },
+      "en": {
+        "word": "Strait",
+        "aliases": [],
+        "hints": {
+          "easy": "Narrow water joining two larger bodies",
+          "normal": "Boats pass between two opposing shores",
+          "hard": "A tight passage can make the tidal current stronger"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-island",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "kust",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ö",
+        "aliases": [],
+        "hints": {
+          "easy": "Land med vatten runt hela kanten",
+          "normal": "Man kan behöva båt för att komma över",
+          "hard": "En ensam bit land på sjökortet"
+        }
+      },
+      "en": {
+        "word": "Island",
+        "aliases": [],
+        "hints": {
+          "easy": "Land with water all the way around",
+          "normal": "You may need a boat to reach it",
+          "hard": "A solitary patch of land on a nautical chart"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-peninsula",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "kust",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Halvö",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett landområde med vatten på nästan alla sidor",
+          "normal": "Fast förbindelse tillbaka bara åt ett håll",
+          "hard": "En landform som kan peka långt ut i havet"
+        }
+      },
+      "en": {
+        "word": "Peninsula",
+        "aliases": [],
+        "hints": {
+          "easy": "Land with water on nearly every side",
+          "normal": "Dry ground leads back in only one direction",
+          "hard": "A landform that can point far out to sea"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-archipelago",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "kust",
+      "hav"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skärgård",
+        "aliases": [
+          "Ögrupp"
+        ],
+        "hints": {
+          "easy": "En grupp öar med vatten emellan",
+          "normal": "Många vägval för en båt",
+          "hard": "En karta full av små landbitar och smala passager"
+        }
+      },
+      "en": {
+        "word": "Archipelago",
+        "aliases": [],
+        "hints": {
+          "easy": "A group of islands with water in between",
+          "normal": "Many possible routes for a boat",
+          "hard": "A map dotted with little patches of land and narrow channels"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-sand-dune",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "sand",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sanddyn",
+        "aliases": [
+          "Dyn"
+        ],
+        "hints": {
+          "easy": "En kulle som vinden byggt av lösa korn",
+          "normal": "Foten sjunker på en torr sluttning",
+          "hard": "Kammen kan flytta sig med vinden"
+        }
+      },
+      "en": {
+        "word": "Sand dune",
+        "aliases": [],
+        "hints": {
+          "easy": "A mound built by wind from loose grains",
+          "normal": "Footsteps sink on a dry slope",
+          "hard": "Its crest can shift with the wind"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-beach",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "kust",
+      "sediment"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Badstrand",
+        "aliases": [
+          "Sandstrand"
+        ],
+        "hints": {
+          "easy": "En plats där man kan gå i vattnet från land",
+          "normal": "Vågor suddar ut fotspår nära kanten",
+          "hard": "Man kan hitta snäckskal där vattnet drar sig tillbaka"
+        }
+      },
+      "en": {
+        "word": "Beach",
+        "aliases": [],
+        "hints": {
+          "easy": "A shore where people go swimming",
+          "normal": "Waves erase footprints near the waterline",
+          "hard": "Shells can be left behind as the water retreats"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-salt-flat",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "salt",
+      "terräng"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Saltslätt",
+        "aliases": [
+          "Saltöken"
+        ],
+        "hints": {
+          "easy": "Platt mark där avdunstat vatten lämnat en skorpa av salt",
+          "normal": "En torr sjöbotten kan se snötäckt ut i solsken",
+          "hard": "En tunn vattenspegel kan dyka upp under regnperioden"
+        }
+      },
+      "en": {
+        "word": "Salt flat",
+        "aliases": [
+          "Salt pan"
+        ],
+        "hints": {
+          "easy": "Flat ground crusted with salt left by evaporating water",
+          "normal": "A dry lake bed can look snow-covered in sunlight",
+          "hard": "A thin sheet of water can reappear in the rainy season"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-oasis",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "torrt",
+      "vatten"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Oas",
+        "aliases": [],
+        "hints": {
+          "easy": "En vattenrik plats i öknen",
+          "normal": "Grönska mitt i torr mark",
+          "hard": "En källa kan räcka för palmer"
+        }
+      },
+      "en": {
+        "word": "Oasis",
+        "aliases": [],
+        "hints": {
+          "easy": "A spot with water in a desert",
+          "normal": "Greenery surrounded by dry ground",
+          "hard": "One spring may be enough to sustain palms"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-rainforest",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "skog",
+      "fukt"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Regnskog",
+        "aliases": [],
+        "hints": {
+          "easy": "Tät skog där det faller mycket nederbörd",
+          "normal": "Fuktig luft under flera lager av löv",
+          "hard": "Klätterväxter kan nå ljuset via stammarna"
+        }
+      },
+      "en": {
+        "word": "Rainforest",
+        "aliases": [],
+        "hints": {
+          "easy": "Dense forest with very high rainfall",
+          "normal": "Humid air beneath layers of leaves",
+          "hard": "Climbing plants can reach the light by using tree trunks"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-steppe",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "gräs",
+      "torrt"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stäpp",
+        "aliases": [],
+        "hints": {
+          "easy": "Vidsträckt, torr gräsmark med få träd",
+          "normal": "En öppen horisont över kort gräs och örter",
+          "hard": "Betande djur kan klara sig där nederbörden är för liten för tät skog"
+        }
+      },
+      "en": {
+        "word": "Steppe",
+        "aliases": [],
+        "hints": {
+          "easy": "Vast dry grassland with few trees",
+          "normal": "An open horizon over short grasses and herbs",
+          "hard": "Grazers can thrive where there is too little rainfall for dense woodland"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-tundra",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "kyla",
+      "terräng"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tundra",
+        "aliases": [],
+        "hints": {
+          "easy": "Kallt, nästan trädlöst landskap med låg vegetation",
+          "normal": "Mossor och dvärgbuskar där sommaren är kort",
+          "hard": "På många håll tinar bara det översta jordlagret"
+        }
+      },
+      "en": {
+        "word": "Tundra",
+        "aliases": [],
+        "hints": {
+          "easy": "Cold, largely treeless land with low vegetation",
+          "normal": "Mosses and dwarf shrubs in a short summer",
+          "hard": "In many places only the upper soil layer thaws"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-primeval-forest",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "skog",
+      "dödved"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Urskog",
+        "aliases": [],
+        "hints": {
+          "easy": "Skog som har utvecklats länge utan omfattande mänsklig påverkan",
+          "normal": "Fallna stammar får ligga kvar och murkna",
+          "hard": "Riktigt gamla träd kan stå alldeles intill unga plantor"
+        }
+      },
+      "en": {
+        "word": "Primeval forest",
+        "aliases": [
+          "Virgin forest"
+        ],
+        "hints": {
+          "easy": "A woodland that has developed for a long time with little human disturbance",
+          "normal": "Fallen trunks are left to decay on the ground",
+          "hard": "Very old trees may stand beside young seedlings"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-heath",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "terräng",
+      "växtlighet"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hed",
+        "aliases": [
+          "Hedmark"
+        ],
+        "hints": {
+          "easy": "Öppen mark där ris som ljung ofta växer",
+          "normal": "Låg växtlighet på mager, sur mark",
+          "hard": "Sensommaren kan färga en öppen sluttning lila"
+        }
+      },
+      "en": {
+        "word": "Heath",
+        "aliases": [],
+        "hints": {
+          "easy": "Open ground often covered in low shrubs such as heather",
+          "normal": "Low growth on poor acidic soil",
+          "hard": "Late summer can turn an open slope purple"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-floodplain",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "vattendrag",
+      "sediment"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Svämslätt",
+        "aliases": [],
+        "hints": {
+          "easy": "Flackt landområde intill en flod som med jämna mellanrum svämmar över",
+          "normal": "Floden kan sprida fint slam långt bort från sin fåra",
+          "hard": "Gamla flodkrökar kan synas som bågformade sjöar"
+        }
+      },
+      "en": {
+        "word": "Floodplain",
+        "aliases": [],
+        "hints": {
+          "easy": "Low flat ground beside a river that regularly spills onto it",
+          "normal": "The river can spread fine silt well beyond its channel",
+          "hard": "Abandoned river bends can show up as crescent-shaped lakes"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-bog",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "våtmark",
+      "torv"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mosse",
+        "aliases": [
+          "Torvmosse"
+        ],
+        "hints": {
+          "easy": "En torvmark som får sitt vatten från nederbörd",
+          "normal": "Ett mjukt mosstäcke kan gunga under fötterna",
+          "hard": "Surt och näringsfattigt trots rikligt med vatten"
+        }
+      },
+      "en": {
+        "word": "Bog",
+        "aliases": [],
+        "hints": {
+          "easy": "A peatland fed by precipitation",
+          "normal": "A soft layer of moss can bounce underfoot",
+          "hard": "Acidic and low in nutrients despite abundant water"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-fen",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "våtmark",
+      "gräs"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kärr",
+        "aliases": [],
+        "hints": {
+          "easy": "Våtmark som får vatten också från omgivande mark",
+          "normal": "Starr växer där marken är blöt",
+          "hard": "Mineraler följer med grundvatten in i torven"
+        }
+      },
+      "en": {
+        "word": "Fen",
+        "aliases": [],
+        "hints": {
+          "easy": "Wetland fed by water from surrounding ground",
+          "normal": "Sedges grow where the ground stays wet",
+          "hard": "Groundwater brings minerals into the peat"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-mangrove-forest",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "skog",
+      "kust"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mangroveskog",
+        "aliases": [],
+        "hints": {
+          "easy": "Tropiska kustträd som klarar saltvatten runt rötterna",
+          "normal": "Ett nät av rötter syns vid ebb",
+          "hard": "Tidvattnet sköljer genom stammarna"
+        }
+      },
+      "en": {
+        "word": "Mangrove forest",
+        "aliases": [],
+        "hints": {
+          "easy": "Tropical coastal trees tolerant of salt around their roots",
+          "normal": "A tangle of roots appears at low tide",
+          "hard": "Tides wash between the trunks"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-delta",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "vattendrag",
+      "sediment"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Floddelta",
+        "aliases": [
+          "Delta"
+        ],
+        "hints": {
+          "easy": "En flodmynning med avlagringar och flera armar",
+          "normal": "Vattnet delar upp sig nära kusten",
+          "hard": "Strömmen saktar in och avlagringarna bygger mark"
+        }
+      },
+      "en": {
+        "word": "River delta",
+        "aliases": [
+          "Delta"
+        ],
+        "hints": {
+          "easy": "A river mouth with sediment deposits and branching channels",
+          "normal": "The water splits into channels near the coast",
+          "hard": "The slowing current drops material that builds new land"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-waterfall",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "vattendrag",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vattenfall",
+        "aliases": [],
+        "hints": {
+          "easy": "En ström som faller över en kant",
+          "normal": "Brus och stänk nedanför en brant",
+          "hard": "En slöja kan dyka upp efter snösmältningen"
+        }
+      },
+      "en": {
+        "word": "Waterfall",
+        "aliases": [],
+        "hints": {
+          "easy": "A stream that plunges over an edge",
+          "normal": "Roaring spray below a steep drop",
+          "hard": "A curtain can appear after the snow melts"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-rapids",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "vattendrag",
+      "terräng"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fors",
+        "aliases": [
+          "Forsar"
+        ],
+        "hints": {
+          "easy": "Snabbt och oroligt vatten i ett vattendrag",
+          "normal": "Vita vågor mellan stenarna",
+          "hard": "Paddlaren läser de mörka fickorna bakom blocken"
+        }
+      },
+      "en": {
+        "word": "Rapids",
+        "aliases": [],
+        "hints": {
+          "easy": "Swift, turbulent water in a river channel",
+          "normal": "White waves break around rocks",
+          "hard": "A paddler reads the quiet pockets behind boulders"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-lake",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "sötvatten",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Insjö",
+        "aliases": [
+          "Sjö"
+        ],
+        "hints": {
+          "easy": "Ett större vatten omgivet av land",
+          "normal": "Vatten med strand runt hela ytan",
+          "hard": "En djup sänka kan fyllas när inlandsisen försvinner"
+        }
+      },
+      "en": {
+        "word": "Lake",
+        "aliases": [],
+        "hints": {
+          "easy": "A large body of water enclosed by land",
+          "normal": "A shore goes all the way around",
+          "hard": "A deep basin can fill with water as an ice sheet retreats"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-river",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "sötvatten",
+      "vattendrag"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Flod",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett stort vattendrag som har en mynning",
+          "normal": "En lång ström med två stränder",
+          "hard": "En översvämning kan lämna ny jord efter sig"
+        }
+      },
+      "en": {
+        "word": "River",
+        "aliases": [],
+        "hints": {
+          "easy": "A large stream that flows toward a mouth",
+          "normal": "A long current between two banks",
+          "hard": "A flood can leave fresh soil behind"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-creek",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "sötvatten",
+      "vattendrag"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bäck",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett litet rinnande vattendrag",
+          "normal": "Stenar kan räcka som bro",
+          "hard": "Smältvatten får den att prata högre om våren"
+        }
+      },
+      "en": {
+        "word": "Brook",
+        "aliases": [
+          "Creek",
+          "Stream"
+        ],
+        "hints": {
+          "easy": "A small flowing watercourse",
+          "normal": "Stepping stones may be enough to cross",
+          "hard": "Snowmelt gives it a louder voice in spring"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-lagoon",
+    "category": "nature",
+    "subcategory": "nature-landscape",
+    "tags": [
+      "kust",
+      "hav"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lagun",
+        "aliases": [],
+        "hints": {
+          "easy": "Grunt kustvatten avskilt av ett rev eller en sandbank",
+          "normal": "Lugnt vatten bakom en smal barriär",
+          "hard": "Havet kan nå in genom en öppning i kanten"
+        }
+      },
+      "en": {
+        "word": "Lagoon",
+        "aliases": [],
+        "hints": {
+          "easy": "Shallow coastal water separated by a reef or sandbar",
+          "normal": "Calm water behind a narrow barrier",
+          "hard": "The sea may enter through a gap in the edge"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-rain",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "nederbörd",
+      "vattendroppar"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Regn",
+        "aliases": [],
+        "hints": {
+          "easy": "Flytande droppar faller ur molnen",
+          "normal": "Det smattrar mot taket",
+          "hard": "Pölar visar var marken lutar"
+        }
+      },
+      "en": {
+        "word": "Rain",
+        "aliases": [],
+        "hints": {
+          "easy": "Liquid drops falling from clouds",
+          "normal": "A patter on the roof",
+          "hard": "Puddles reveal the slope of the ground"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-drizzle",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "nederbörd",
+      "vattendroppar"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Duggregn",
+        "aliases": [
+          "Dugg"
+        ],
+        "hints": {
+          "easy": "Mycket små droppar faller tätt",
+          "normal": "Håret blir fuktigt före jackan",
+          "hard": "Det kan se nästan disigt ut under ett jämngrått molntäcke"
+        }
+      },
+      "en": {
+        "word": "Drizzle",
+        "aliases": [],
+        "hints": {
+          "easy": "Very fine drops falling close together",
+          "normal": "Hair gets damp before a jacket does",
+          "hard": "It can look almost misty beneath an even grey sky"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-hail",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "nederbörd",
+      "is"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hagel",
+        "aliases": [],
+        "hints": {
+          "easy": "Hårda iskorn faller ur ett moln",
+          "normal": "Vita korn studsar på marken",
+          "hard": "Starka uppvindar låter isen växa i lager"
+        }
+      },
+      "en": {
+        "word": "Hail",
+        "aliases": [],
+        "hints": {
+          "easy": "Hard pellets of ice falling from a cloud",
+          "normal": "White pellets bounce off the ground",
+          "hard": "Strong updrafts let the ice grow in layers"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-snowfall",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "nederbörd",
+      "is"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snöfall",
+        "aliases": [],
+        "hints": {
+          "easy": "Vita flingor faller till marken",
+          "normal": "Tak och grenar får ett ljust lager",
+          "hard": "Ljudet från gatan kan dämpas när det lägger sig"
+        }
+      },
+      "en": {
+        "word": "Snowfall",
+        "aliases": [],
+        "hints": {
+          "easy": "White flakes falling to the ground",
+          "normal": "Roofs and branches gain a pale covering",
+          "hard": "Street sounds can be muffled once it settles"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-rain-and-snow",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "nederbörd",
+      "is"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snöblandat regn",
+        "aliases": [],
+        "hints": {
+          "easy": "Både droppar och smältande flingor faller",
+          "normal": "Jackan får både blöta droppar och vita fläckar",
+          "hard": "Temperaturen är ofta nära noll"
+        }
+      },
+      "en": {
+        "word": "Rain and snow mix",
+        "aliases": [
+          "Sleet"
+        ],
+        "hints": {
+          "easy": "Both drops and melting flakes are falling",
+          "normal": "A jacket catches both wet drops and white specks",
+          "hard": "Temperatures are often close to freezing"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-freezing-rain",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "nederbörd",
+      "is"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Underkylt regn",
+        "aliases": [],
+        "hints": {
+          "easy": "Flytande droppar fryser när de träffar kalla ytor",
+          "normal": "En vindruta kan glaseras på kort tid",
+          "hard": "Utsatta ytor och grenar kan få en tung hinna"
+        }
+      },
+      "en": {
+        "word": "Freezing rain",
+        "aliases": [],
+        "hints": {
+          "easy": "Liquid drops freeze when they hit cold surfaces",
+          "normal": "A windscreen can glaze over quickly",
+          "hard": "Exposed surfaces and branches can gain a heavy coat"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-fog",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "sikt",
+      "vattendroppar"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dimma",
+        "aliases": [],
+        "hints": {
+          "easy": "Små vattendroppar skymmer sikten vid marken",
+          "normal": "Strålkastare kan se ut som glödande klot",
+          "hard": "Horisonten kan försvinna även när vinden är stilla"
+        }
+      },
+      "en": {
+        "word": "Fog",
+        "aliases": [],
+        "hints": {
+          "easy": "Tiny droplets obscure visibility near the ground",
+          "normal": "Headlights can look like glowing orbs",
+          "hard": "The horizon can vanish even on a still day"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-dew",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "kondensation",
+      "vattendroppar"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dagg",
+        "aliases": [],
+        "hints": {
+          "easy": "Vattendroppar bildas direkt på svala ytor",
+          "normal": "Grässtrån glittrar tidigt på morgonen",
+          "hard": "En klar natt kan kyla bladen under daggpunkten"
+        }
+      },
+      "en": {
+        "word": "Dew",
+        "aliases": [],
+        "hints": {
+          "easy": "Drops form directly on cool surfaces",
+          "normal": "Grass blades sparkle early in the morning",
+          "hard": "A clear night can cool leaves to saturation"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-hoarfrost",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "kondensation",
+      "is"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rimfrost",
+        "aliases": [],
+        "hints": {
+          "easy": "Vattenånga bildar vita iskristaller på kalla ytor",
+          "normal": "Gräset får en spröd vit kant",
+          "hard": "Kristaller kan växa utan att vatten först blir flytande"
+        }
+      },
+      "en": {
+        "word": "Hoarfrost",
+        "aliases": [
+          "Hoar frost"
+        ],
+        "hints": {
+          "easy": "Water vapour forms white ice crystals on cold surfaces",
+          "normal": "Grass takes on a brittle white edge",
+          "hard": "Crystals can grow without water first becoming liquid"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-thunderstorm",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "oväder",
+      "åska"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Åskväder",
+        "aliases": [
+          "Åska"
+        ],
+        "hints": {
+          "easy": "Oväder med elektriska urladdningar",
+          "normal": "Dunder följer ofta efter en ljusblixt",
+          "hard": "Varma luftmassor kan resa sig till höga, mörka moln"
+        }
+      },
+      "en": {
+        "word": "Thunderstorm",
+        "aliases": [],
+        "hints": {
+          "easy": "A storm with electrical discharges",
+          "normal": "A rumble often follows a flash",
+          "hard": "Warm air can rise into tall, dark clouds"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-foehn",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "vind",
+      "berg"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Föhnvind",
+        "aliases": [
+          "Föhn"
+        ],
+        "hints": {
+          "easy": "Varm, torr vind som kommer ned på läsidan av ett berg",
+          "normal": "När luften sjunker och värms faller den relativa fuktigheten",
+          "hard": "Moln kan stanna över krönet medan dalen på läsidan klarnar"
+        }
+      },
+      "en": {
+        "word": "Foehn wind",
+        "aliases": [
+          "Foehn",
+          "Föhn wind"
+        ],
+        "hints": {
+          "easy": "A warm dry wind descending on the sheltered side of a mountain",
+          "normal": "Relative humidity falls as the air sinks and warms",
+          "hard": "Clouds can linger over the crest while the valley downwind clears"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-thunder",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "åska",
+      "ljud"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Åskmuller",
+        "aliases": [
+          "Åskdunder"
+        ],
+        "hints": {
+          "easy": "Ljudet som följer en elektrisk urladdning",
+          "normal": "Rullande dån som kan höras på långt håll",
+          "hard": "Sekunderna efter ljuset ger ett ungefärligt avstånd"
+        }
+      },
+      "en": {
+        "word": "Thunder",
+        "aliases": [],
+        "hints": {
+          "easy": "The sound following an electrical discharge",
+          "normal": "A rolling noise that can travel a long way",
+          "hard": "Seconds after the flash give a rough distance"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-blizzard",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "oväder",
+      "snö"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snöstorm",
+        "aliases": [],
+        "hints": {
+          "easy": "Hård vind och intensivt snöande eller drivande flingor",
+          "normal": "Vägen och himlen kan bli samma färg",
+          "hard": "Sikten kan försvinna fast en del av snön redan låg på marken"
+        }
+      },
+      "en": {
+        "word": "Snowstorm",
+        "aliases": [
+          "Blizzard"
+        ],
+        "hints": {
+          "easy": "Strong winds with heavy or blowing snow",
+          "normal": "Road and sky can turn the same colour",
+          "hard": "Visibility can vanish even with snow that was already on the ground"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-drifting-snow",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "vind",
+      "snö"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snödrev",
+        "aliases": [],
+        "hints": {
+          "easy": "Vind får lös snö att fara längs marken",
+          "normal": "Vita stråk rör sig över vägen trots att himlen kan vara klar",
+          "hard": "Sänkor och läsidor kan få mer av de torra flingorna"
+        }
+      },
+      "en": {
+        "word": "Drifting snow",
+        "aliases": [],
+        "hints": {
+          "easy": "Wind sweeps loose snow along the ground",
+          "normal": "White streaks cross the road even under a clear sky",
+          "hard": "Hollows and sheltered spots can collect more of the dry flakes"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-hurricane",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "oväder",
+      "vind"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tropisk cyklon",
+        "aliases": [
+          "Orkan",
+          "Tyfon"
+        ],
+        "hints": {
+          "easy": "Ett mäktigt roterande oväder över varma hav",
+          "normal": "Ett lugnare öga omges av våldsamma vindar",
+          "hard": "Varmt ytvatten kan hålla de spiralformade regnbanden igång"
+        }
+      },
+      "en": {
+        "word": "Tropical cyclone",
+        "aliases": [
+          "Hurricane",
+          "Typhoon"
+        ],
+        "hints": {
+          "easy": "A powerful rotating storm over warm seas",
+          "normal": "Violent winds surround a calmer eye",
+          "hard": "Warm surface water can sustain its spiralling rainbands"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-heat-wave",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "temperatur",
+      "långvarigt"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Värmebölja",
+        "aliases": [],
+        "hints": {
+          "easy": "Ovanligt hög temperatur under flera dagar",
+          "normal": "Nätterna ger knappast någon svalka",
+          "hard": "En stillastående rygg av högtryck kan hålla i sig"
+        }
+      },
+      "en": {
+        "word": "Heat wave",
+        "aliases": [
+          "Heatwave"
+        ],
+        "hints": {
+          "easy": "Unusually high temperatures lasting several days",
+          "normal": "Even the nights bring little relief",
+          "hard": "A stationary ridge of high pressure can sustain it"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-cold-snap",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "temperatur",
+      "kortvarigt"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Köldknäpp",
+        "aliases": [],
+        "hints": {
+          "easy": "En plötslig period med ovanligt låga temperaturer",
+          "normal": "Mössan behövs igen från en dag till nästa",
+          "hard": "Kall luft kan röra sig långt söderut på kort tid"
+        }
+      },
+      "en": {
+        "word": "Cold snap",
+        "aliases": [],
+        "hints": {
+          "easy": "A sudden spell of unusually low temperatures",
+          "normal": "A warm hat is needed again almost overnight",
+          "hard": "Cold air can push far south in a short time"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-drought",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "nederbörd",
+      "långvarigt"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Torka",
+        "aliases": [],
+        "hints": {
+          "easy": "Långvarig vattenbrist efter lite nederbörd",
+          "normal": "Jord spricker och bäckar krymper",
+          "hard": "Magasinen täcker mindre av den gamla strandlinjen"
+        }
+      },
+      "en": {
+        "word": "Drought",
+        "aliases": [],
+        "hints": {
+          "easy": "A long water shortage after unusually low rainfall",
+          "normal": "Soil cracks and streams shrink",
+          "hard": "Reservoirs recede from their old shorelines"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-wind-gust",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "vind",
+      "kortvarigt"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vindby",
+        "aliases": [],
+        "hints": {
+          "easy": "En kort, plötslig förstärkning av vinden",
+          "normal": "En dörr slår igen och sedan blir det lugnare",
+          "hard": "Medelhastigheten kan vara betydligt lägre än toppen"
+        }
+      },
+      "en": {
+        "word": "Gust of wind",
+        "aliases": [
+          "Gust",
+          "Wind gust"
+        ],
+        "hints": {
+          "easy": "A brief, sudden increase in wind speed",
+          "normal": "A door slams, then things become calmer",
+          "hard": "The average speed can be well below the peak"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-sea-breeze",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "vind",
+      "kust"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sjöbris",
+        "aliases": [],
+        "hints": {
+          "easy": "En dagvind från havet in mot land",
+          "normal": "Friskare luft når stranden när landet blivit varmt",
+          "hard": "Marken och vattnet värms olika snabbt"
+        }
+      },
+      "en": {
+        "word": "Sea breeze",
+        "aliases": [],
+        "hints": {
+          "easy": "A daytime wind blowing inland from the sea",
+          "normal": "Cooler air reaches the shore after the land warms up",
+          "hard": "Land and water heat up at different rates"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-headwind",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "vind",
+      "riktning"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Motvind",
+        "aliases": [],
+        "hints": {
+          "easy": "Vind som blåser rakt emot färdriktningen",
+          "normal": "Det tar längre tid att cykla samma sträcka",
+          "hard": "Bränsleåtgången kan öka på en flygetapp"
+        }
+      },
+      "en": {
+        "word": "Headwind",
+        "aliases": [],
+        "hints": {
+          "easy": "Wind coming directly against the direction of travel",
+          "normal": "Cycling the same route takes longer",
+          "hard": "A flight can use more fuel on that leg"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-tailwind",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "vind",
+      "riktning"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Medvind",
+        "aliases": [],
+        "hints": {
+          "easy": "Vind som blåser åt samma håll som man färdas",
+          "normal": "Cykeln rullar märkbart lättare",
+          "hard": "En flygetapp kan ta kortare tid utan ändrad fart genom luften"
+        }
+      },
+      "en": {
+        "word": "Tailwind",
+        "aliases": [],
+        "hints": {
+          "easy": "Wind blowing in the same direction as travel",
+          "normal": "A bicycle rolls along with noticeably less effort",
+          "hard": "A flight may be shorter with no change in airspeed"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-crosswind",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "vind",
+      "riktning"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sidvind",
+        "aliases": [],
+        "hints": {
+          "easy": "Vind som träffar från sidan",
+          "normal": "En cyklist kan behöva luta sig åt ena hållet",
+          "hard": "Flygets kurs kan peka åt ett annat håll än rörelsen över marken"
+        }
+      },
+      "en": {
+        "word": "Crosswind",
+        "aliases": [],
+        "hints": {
+          "easy": "Wind blowing across the direction of travel",
+          "normal": "A cyclist may have to lean one way",
+          "hard": "The nose of an aircraft can point away from its ground track"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-high-pressure",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "lufttryck",
+      "väderkarta"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Högtryck",
+        "aliases": [
+          "Högtrycksområde"
+        ],
+        "hints": {
+          "easy": "Område där lufttrycket är högre än omkring",
+          "normal": "En väderprognos kan visa flera torra dagar",
+          "hard": "Sjunkande luft gör det ofta svårare för moln att växa"
+        }
+      },
+      "en": {
+        "word": "High-pressure system",
+        "aliases": [
+          "Anticyclone"
+        ],
+        "hints": {
+          "easy": "An area with higher air pressure than its surroundings",
+          "normal": "A forecast may show several dry days",
+          "hard": "Sinking air often makes it harder for clouds to grow"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-low-pressure",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "lufttryck",
+      "väderkarta"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lågtryck",
+        "aliases": [
+          "Lågtrycksområde"
+        ],
+        "hints": {
+          "easy": "Område där lufttrycket är lägre än omkring",
+          "normal": "Grått och blåsigt kan följa när det passerar",
+          "hard": "Stigande luft kan kylas och ge moln"
+        }
+      },
+      "en": {
+        "word": "Low-pressure system",
+        "aliases": [
+          "Depression"
+        ],
+        "hints": {
+          "easy": "An area with lower air pressure than its surroundings",
+          "normal": "Grey, windy weather may follow its arrival",
+          "hard": "Rising air can cool and create clouds"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-cold-front",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "temperatur",
+      "väderkarta"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kallfront",
+        "aliases": [],
+        "hints": {
+          "easy": "Gräns där kallare luft tränger in under varmare luft",
+          "normal": "En skur kan följas av tydligt svalare luft",
+          "hard": "Väderkartan använder ofta blå trianglar"
+        }
+      },
+      "en": {
+        "word": "Cold front",
+        "aliases": [],
+        "hints": {
+          "easy": "A boundary where colder air advances beneath warmer air",
+          "normal": "A shower may be followed by a marked drop in temperature",
+          "hard": "Weather maps often use blue triangles"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-warm-front",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "temperatur",
+      "väderkarta"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Varmfront",
+        "aliases": [],
+        "hints": {
+          "easy": "Gräns där varm luft avancerar över kallare luft",
+          "normal": "Molntäcket kan sjunka medan nederbörden tilltar",
+          "hard": "Väderkartan använder ofta röda halvcirklar"
+        }
+      },
+      "en": {
+        "word": "Warm front",
+        "aliases": [],
+        "hints": {
+          "easy": "A boundary where warm air advances over colder air",
+          "normal": "Clouds can lower as precipitation sets in",
+          "hard": "Weather maps often use red semicircles"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-cumulus",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "moln",
+      "konvektion"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stackmoln",
+        "aliases": [
+          "Cumulus"
+        ],
+        "hints": {
+          "easy": "Vita molntussar med platt undersida",
+          "normal": "Som små bomullsberg över solvarm mark",
+          "hard": "Luftbubblor stiger tills fukten kondenserar"
+        }
+      },
+      "en": {
+        "word": "Cumulus cloud",
+        "aliases": [
+          "Cumulus"
+        ],
+        "hints": {
+          "easy": "White cloud puffs with flat bottoms",
+          "normal": "Little tufts of cotton over sun-warmed ground",
+          "hard": "Bubbles of air rise until moisture condenses"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-cirrus",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "moln",
+      "is"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fjädermoln",
+        "aliases": [
+          "Cirrus"
+        ],
+        "hints": {
+          "easy": "Tunna, trådiga moln högt på himlen",
+          "normal": "Ljusa stråk som kan likna vita fjädrar",
+          "hard": "Iskristaller dras ut av vindar på hög höjd"
+        }
+      },
+      "en": {
+        "word": "Cirrus cloud",
+        "aliases": [
+          "Cirrus"
+        ],
+        "hints": {
+          "easy": "Thin, wispy clouds high in the sky",
+          "normal": "Pale streaks resembling white feathers",
+          "hard": "Winds at high altitude stretch out ice crystals"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-temperature-inversion",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "temperatur",
+      "luftlager"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Temperaturinversion",
+        "aliases": [
+          "Inversion"
+        ],
+        "hints": {
+          "easy": "Ett luftlager där temperaturen ökar med höjden",
+          "normal": "Rök kan breda ut sig under ett osynligt lock",
+          "hard": "En dalbotten kan vara kallare än sluttningen ovanför"
+        }
+      },
+      "en": {
+        "word": "Temperature inversion",
+        "aliases": [
+          "Inversion"
+        ],
+        "hints": {
+          "easy": "A layer of air that grows warmer with altitude",
+          "normal": "Smoke may spread beneath an invisible lid",
+          "hard": "A valley floor can be colder than the slope above it"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-isobar",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "lufttryck",
+      "väderkarta"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Isobar",
+        "aliases": [],
+        "hints": {
+          "easy": "En kartlinje som binder samman platser med samma lufttryck",
+          "normal": "Täta kurvor på prognoskartan brukar betyda blåst",
+          "hard": "Talet vid linjen kan anges i hektopascal"
+        }
+      },
+      "en": {
+        "word": "Isobar",
+        "aliases": [],
+        "hints": {
+          "easy": "A line joining points of equal air pressure on a map",
+          "normal": "Crowded curves on a weather chart often mean stronger winds",
+          "hard": "Its value may be written in hectopascals"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-downburst",
+    "category": "nature",
+    "subcategory": "nature-weather",
+    "tags": [
+      "oväder",
+      "vind"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fallvind",
+        "aliases": [
+          "Fallby"
+        ],
+        "hints": {
+          "easy": "En kraftig nedåtström som sprider sig när den når marken",
+          "normal": "Träd kan fällas åt flera håll under ett åskmoln",
+          "hard": "Markens vindmönster strålar ut från träffpunkten"
+        }
+      },
+      "en": {
+        "word": "Downburst",
+        "aliases": [],
+        "hints": {
+          "easy": "A strong downdraft that spreads outward when it hits the ground",
+          "normal": "Trees may fall in several directions beneath a storm cloud",
+          "hard": "Surface winds radiate from an impact point"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-pine",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "barr"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tall",
+        "aliases": [
+          "Fura"
+        ],
+        "hints": {
+          "easy": "Barrträd med par av långa barr och ofta rödbrun bark högre upp",
+          "normal": "En gles krona släpper ned ljus till marken",
+          "hard": "Kåda kan dofta i en varm, sandig skog"
+        }
+      },
+      "en": {
+        "word": "Scots pine",
+        "aliases": [
+          "Pine"
+        ],
+        "hints": {
+          "easy": "A conifer with long paired needles and often reddish upper bark",
+          "normal": "A sparse crown lets sunlight through to the ground",
+          "hard": "Resin can scent a warm woodland on sandy soil"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-spruce",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "barr"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gran",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett barrträd med korta barr och hängande kottar",
+          "normal": "En tät, spetsig krona skuggar marken",
+          "hard": "I december kan ljus flytta in bland grenarna"
+        }
+      },
+      "en": {
+        "word": "Norway spruce",
+        "aliases": [
+          "Spruce"
+        ],
+        "hints": {
+          "easy": "A conifer with short needles and hanging cones",
+          "normal": "A dense pointed crown shades the ground",
+          "hard": "In December the branches may be strung with lights"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-birch",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "bark"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Björk",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett lövträd som ofta har ljus bark med mörka märken",
+          "normal": "Tunn näver kan flagna från stammen",
+          "hard": "Om våren kan saven stiga innan löven utvecklas"
+        }
+      },
+      "en": {
+        "word": "Birch",
+        "aliases": [],
+        "hints": {
+          "easy": "A deciduous tree often marked by pale bark and dark patches",
+          "normal": "Thin papery bark may peel off the trunk",
+          "hard": "In spring its sap can rise before the leaves unfold"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-oak",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "nötter"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ek",
+        "aliases": [],
+        "hints": {
+          "easy": "Lövträd med flikiga blad och ollon i små skålar",
+          "normal": "Kronan blir bred och stammen grov med åldern",
+          "hard": "Tätt, hårt virke används bland annat till tunnor"
+        }
+      },
+      "en": {
+        "word": "Oak",
+        "aliases": [],
+        "hints": {
+          "easy": "A tree with lobed leaves and acorns in little cups",
+          "normal": "Its crown broadens and its trunk thickens with age",
+          "hard": "Dense, hard wood is used for barrels"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-maple",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "frö"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lönn",
+        "aliases": [],
+        "hints": {
+          "easy": "Lövträd med handflikiga blad och vingade frön",
+          "normal": "Fröparen snurrar ned som små propellrar",
+          "hard": "Siluetten av ett blad syns på Kanadas flagga"
+        }
+      },
+      "en": {
+        "word": "Maple",
+        "aliases": [],
+        "hints": {
+          "easy": "A tree with palm-shaped leaves and winged seeds",
+          "normal": "The paired seeds spin down like little propellers",
+          "hard": "One leaf silhouette appears on Canada's flag"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-beech",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "bark"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bok",
+        "aliases": [],
+        "hints": {
+          "easy": "Lövträd med slät grå stam och trekantiga nötter",
+          "normal": "Ett tätt lövverk kan skugga bort mycket av undervegetationen",
+          "hard": "Kopparbruna blad kan sitta kvar på unga grenar under vintern"
+        }
+      },
+      "en": {
+        "word": "Beech",
+        "aliases": [
+          "Beech tree"
+        ],
+        "hints": {
+          "easy": "A tree with smooth grey bark and triangular nuts",
+          "normal": "Its leafy canopy can shade out much of the undergrowth",
+          "hard": "Copper-brown leaves may cling to young branches through winter"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-ash",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "löv"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ask",
+        "aliases": [],
+        "hints": {
+          "easy": "Lövträd med svarta knoppar och parställda småblad",
+          "normal": "Vingade frukter kan hänga i klasar",
+          "hard": "Det sega träet har använts till böjda skidor"
+        }
+      },
+      "en": {
+        "word": "Ash tree",
+        "aliases": [
+          "Ash"
+        ],
+        "hints": {
+          "easy": "A tree with black buds and leaves made of paired leaflets",
+          "normal": "Clusters of winged fruits may hang from its branches",
+          "hard": "Its tough wood has been used for bent skis"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-willow",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "våtmark"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pil",
+        "aliases": [
+          "Pilträd"
+        ],
+        "hints": {
+          "easy": "Ett lövträd med böjliga skott som ofta trivs vid vatten",
+          "normal": "Smala blad kan hänga ovanför strandkanten",
+          "hard": "Korgflätning kan börja med årsskotten"
+        }
+      },
+      "en": {
+        "word": "Willow",
+        "aliases": [],
+        "hints": {
+          "easy": "A leafy tree with flexible shoots, often found by water",
+          "normal": "Narrow leaves may hang over the water's edge",
+          "hard": "Basket weaving can begin with its young shoots"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-alder",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "våtmark"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Al",
+        "aliases": [],
+        "hints": {
+          "easy": "Lövträd ofta vid vatten med små vedartade fröställningar",
+          "normal": "Mörka små hängen kan likna kottar",
+          "hard": "Vissa bakterier i rotknölarna binder kväve"
+        }
+      },
+      "en": {
+        "word": "Alder",
+        "aliases": [],
+        "hints": {
+          "easy": "A tree often found by water, with small woody seed heads",
+          "normal": "Dark hanging clusters can resemble cones",
+          "hard": "Bacteria in its root nodules can capture nitrogen"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-rowan",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "frukt"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rönn",
+        "aliases": [
+          "Rönnbärsträd"
+        ],
+        "hints": {
+          "easy": "Ett lövträd med klasar av röda eller orange bärlika frukter",
+          "normal": "Fåglar tar för sig av de röda klasarna på hösten",
+          "hard": "Ett blad är uppdelat i många tandade småblad"
+        }
+      },
+      "en": {
+        "word": "Rowan",
+        "aliases": [
+          "Mountain ash"
+        ],
+        "hints": {
+          "easy": "A tree with clusters of red or orange berry-like fruits",
+          "normal": "Birds feast on the red bunches in autumn",
+          "hard": "Each leaf is divided into many toothed leaflets"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-aspen",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "löv"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Asp",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett lövträd vars rundade blad darrar i svag vind",
+          "normal": "Det prasslar fast andra kronor nästan står still",
+          "hard": "Långa, tillplattade bladskaft får bladen att röra sig"
+        }
+      },
+      "en": {
+        "word": "European aspen",
+        "aliases": [
+          "Aspen"
+        ],
+        "hints": {
+          "easy": "A tree whose rounded leaves tremble in a light breeze",
+          "normal": "It rustles when other crowns are nearly still",
+          "hard": "Long, flattened leaf stalks let the leaves flutter"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-juniper",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "barr",
+      "buske"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "En",
+        "aliases": [
+          "Enbuske"
+        ],
+        "hints": {
+          "easy": "Taggigt barrträd eller buske med blå bärkottar",
+          "normal": "De mörka bären kan ge smak åt gin",
+          "hard": "Vedens arom används när man röker mat"
+        }
+      },
+      "en": {
+        "word": "Juniper",
+        "aliases": [],
+        "hints": {
+          "easy": "A prickly evergreen with blue berry-like cones",
+          "normal": "The dark berries can flavour gin",
+          "hard": "Its wood has been used to add fragrance when smoking food"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-giant-sequoia",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "barr"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mammutträd",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett jättelikt barrträd med mycket bred stam",
+          "normal": "Den röda, tjocka barken kan skydda vid skogsbrand",
+          "hard": "En enda stam kan rymma mer ved än ett litet hus"
+        }
+      },
+      "en": {
+        "word": "Giant sequoia",
+        "aliases": [
+          "Giant redwood"
+        ],
+        "hints": {
+          "easy": "An enormous conifer with a very broad trunk",
+          "normal": "Thick red bark can protect it during a forest fire",
+          "hard": "A single trunk can hold more wood than a small house"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-baobab",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "träd",
+      "torrt"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Baobab",
+        "aliases": [
+          "Apbrödsträd"
+        ],
+        "hints": {
+          "easy": "Träd med ovanligt tjock stam i torra områden",
+          "normal": "Grenarna kan se ut som rötter riktade mot himlen",
+          "hard": "Stammen kan lagra vatten genom torra perioder"
+        }
+      },
+      "en": {
+        "word": "Baobab",
+        "aliases": [],
+        "hints": {
+          "easy": "A tree of dry regions with an unusually thick trunk",
+          "normal": "Its branches can look like roots pointed at the sky",
+          "hard": "The trunk can hold water through dry spells"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-tulip",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "lök"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tulpan",
+        "aliases": [],
+        "hints": {
+          "easy": "En vårblomma med kupad blomma och breda blad",
+          "normal": "Färgglada bägare står på raka stjälkar",
+          "hard": "Lökar kan planteras långt före blomningen"
+        }
+      },
+      "en": {
+        "word": "Tulip",
+        "aliases": [],
+        "hints": {
+          "easy": "A spring flower with a cup-shaped bloom and broad leaves",
+          "normal": "Bright little goblets stand on straight stems",
+          "hard": "Bulbs can be planted long before flowering"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-daffodil",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "lök"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Påsklilja",
+        "aliases": [],
+        "hints": {
+          "easy": "En vårblomma med en gul trumpet i mitten",
+          "normal": "Den skiner gul kring tidiga högtider",
+          "hard": "Sex utbredda kalkblad omger en uppstående krage"
+        }
+      },
+      "en": {
+        "word": "Daffodil",
+        "aliases": [
+          "Trumpet narcissus"
+        ],
+        "hints": {
+          "easy": "A spring flower with a yellow trumpet at the centre",
+          "normal": "Its yellow colour appears around an early holiday",
+          "hard": "A flared corona sits inside six spreading segments"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-snowdrop",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "lök"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snödroppe",
+        "aliases": [],
+        "hints": {
+          "easy": "En låg vårblomma med nickande vita kronblad",
+          "normal": "Vita klockor syns redan innan vintern är helt över",
+          "hard": "De kortare inre bladen kan bära gröna märken"
+        }
+      },
+      "en": {
+        "word": "Snowdrop",
+        "aliases": [],
+        "hints": {
+          "easy": "A low spring flower with a nodding white bloom",
+          "normal": "Little white bells appear before winter is quite over",
+          "hard": "The shorter inner segments may carry green marks"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-crocus",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "knöl"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Krokus",
+        "aliases": [],
+        "hints": {
+          "easy": "Låg bägarlik blomma, ofta lila eller gul tidigt på året",
+          "normal": "Smala blad med en ljus mittstrimma",
+          "hard": "Knölen kan ge färg åt en ännu kal rabatt"
+        }
+      },
+      "en": {
+        "word": "Crocus",
+        "aliases": [],
+        "hints": {
+          "easy": "A low cup-shaped flower, often purple or yellow early in the year",
+          "normal": "Narrow leaves carry a pale stripe down the middle",
+          "hard": "A corm can brighten an otherwise bare flower bed"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-dandelion",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "frö"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Maskros",
+        "aliases": [],
+        "hints": {
+          "easy": "Gul blomma som följs av en vit fröboll",
+          "normal": "Fröna har små fallskärmar",
+          "hard": "En djup pålrot kan göra den envis i gräsmattan"
+        }
+      },
+      "en": {
+        "word": "Dandelion",
+        "aliases": [],
+        "hints": {
+          "easy": "A yellow flower followed by a white puffball of seeds",
+          "normal": "The seeds have little parachutes",
+          "hard": "A deep taproot makes it stubborn in a lawn"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-daisy",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "gräs"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tusensköna",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten gräsmatteblomma med vit strålkrans och gul mitt",
+          "normal": "Vita blomhuvuden sitter nära marken",
+          "hard": "En låg bladrosett överlever många klippningar"
+        }
+      },
+      "en": {
+        "word": "Common daisy",
+        "aliases": [
+          "Lawn daisy",
+          "Daisy"
+        ],
+        "hints": {
+          "easy": "A little lawn flower with white rays around a yellow centre",
+          "normal": "White flower heads sit close to the ground",
+          "hard": "A low leaf rosette survives repeated mowing"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-lily-of-the-valley",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "skog"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Liljekonvalj",
+        "aliases": [],
+        "hints": {
+          "easy": "Små vita klockor på rad mellan breda blad",
+          "normal": "Stark doft i lundar under sen vår",
+          "hard": "Blommorna kan följas av giftiga röda bär"
+        }
+      },
+      "en": {
+        "word": "Lily of the valley",
+        "aliases": [],
+        "hints": {
+          "easy": "Small white bells in a row between broad leaves",
+          "normal": "A strong late-spring scent in shady woods",
+          "hard": "The flowers can give way to poisonous red berries"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-corn-poppy",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "frö"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kornvallmo",
+        "aliases": [
+          "Vallmo"
+        ],
+        "hints": {
+          "easy": "Klarröd blomma med tunna kronblad och mörk mitt",
+          "normal": "Röda fläckar kan lysa vid en åkerkant",
+          "hard": "Den torra kapseln strör små frön genom öppningar upptill"
+        }
+      },
+      "en": {
+        "word": "Corn poppy",
+        "aliases": [
+          "Field poppy",
+          "Common poppy"
+        ],
+        "hints": {
+          "easy": "A bright red flower with papery petals and a dark centre",
+          "normal": "Red flashes may appear at the edge of a field",
+          "hard": "The dry capsule shakes out tiny seeds through holes at the top"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-white-clover",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "gräs"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vitklöver",
+        "aliases": [
+          "Klöver"
+        ],
+        "hints": {
+          "easy": "Krypande gräsmatteväxt med vita blomhuvuden och tredelade blad",
+          "normal": "Tre småblad kan ha varsin ljus fläck",
+          "hard": "Krypskotten kan slå rot mellan grässtråna"
+        }
+      },
+      "en": {
+        "word": "White clover",
+        "aliases": [],
+        "hints": {
+          "easy": "A creeping lawn plant with white flower heads and three-part leaves",
+          "normal": "Three leaflets may each bear a pale mark",
+          "hard": "Runners can take root between grass blades"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-garden-lupin",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "blomma",
+      "vägkant"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Blomsterlupin",
+        "aliases": [
+          "Lupin"
+        ],
+        "hints": {
+          "easy": "Hög växt med täta blomspiror och handformade blad",
+          "normal": "Lila, rosa och blå spiror kan kanta vägen",
+          "hard": "Bildar baljor och kan tränga undan andra vägkantsväxter"
+        }
+      },
+      "en": {
+        "word": "Garden lupin",
+        "aliases": [
+          "Bigleaf lupine"
+        ],
+        "hints": {
+          "easy": "A tall plant with dense flower spikes and hand-shaped leaves",
+          "normal": "Purple, pink and blue spires may line a roadside",
+          "hard": "It forms pods and can crowd out other roadside flowers"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-heather",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "buske",
+      "hed"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ljung",
+        "aliases": [],
+        "hints": {
+          "easy": "Lågt ris med små lila blommor kring slutet av sommaren",
+          "normal": "Mager mark kan täckas av en lila matta",
+          "hard": "Små överlappande blad sitter kvar över vintern"
+        }
+      },
+      "en": {
+        "word": "Heather",
+        "aliases": [
+          "Common heather"
+        ],
+        "hints": {
+          "easy": "A low shrub with tiny purple flowers in late summer",
+          "normal": "Poor ground can be covered by a purple carpet",
+          "hard": "Tiny overlapping leaves stay on through winter"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-nettle",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "ört",
+      "stjälk"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brännässla",
+        "aliases": [
+          "Nässla"
+        ],
+        "hints": {
+          "easy": "Ört med tandade blad och hår som svider vid beröring",
+          "normal": "Bar hud kan få kliande utslag i kanten av en stig",
+          "hard": "Unga skott kan bli soppa sedan de förvällts"
+        }
+      },
+      "en": {
+        "word": "Stinging nettle",
+        "aliases": [
+          "Nettle"
+        ],
+        "hints": {
+          "easy": "A toothed-leaf herb with hairs that sting on contact",
+          "normal": "Bare skin can get an itchy rash beside a path",
+          "hard": "Young shoots can make soup after blanching"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-fern",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "sporväxt",
+      "blad"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ormbunke",
+        "aliases": [],
+        "hints": {
+          "easy": "En växt med ofta flikiga blad som sprider sig med sporer",
+          "normal": "Unga blad rullar ut sig från en spiral",
+          "hard": "Små bruna samlingar kan sitta på bladens undersida"
+        }
+      },
+      "en": {
+        "word": "Fern",
+        "aliases": [],
+        "hints": {
+          "easy": "A plant often bearing divided leaves and reproducing by spores",
+          "normal": "Young leaves unroll from a spiral",
+          "hard": "Tiny brown clusters may sit under the fronds"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-horsetail",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "sporväxt",
+      "stjälk"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Åkerfräken",
+        "aliases": [
+          "Fräken"
+        ],
+        "hints": {
+          "easy": "Ledade gröna skott med tunna grenar i kransar",
+          "normal": "Små gröna borstar sticker upp från marken",
+          "hard": "Vårens bleka skott kan bära ett sporax"
+        }
+      },
+      "en": {
+        "word": "Field horsetail",
+        "aliases": [
+          "Common horsetail"
+        ],
+        "hints": {
+          "easy": "Jointed green shoots with thin branches in rings",
+          "normal": "Little green brushes rise from the soil",
+          "hard": "Pale spring shoots can carry a spore cone"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-cattail",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "våtmark",
+      "frö"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kaveldun",
+        "aliases": [
+          "Bredkaveldun"
+        ],
+        "hints": {
+          "easy": "Strandväxt med en brun cylinder av tätt sittande blommor",
+          "normal": "Ett brunt ax står som en klubba vid vattnet",
+          "hard": "Det gamla axet kan falla sönder till flygande dun"
+        }
+      },
+      "en": {
+        "word": "Cattail",
+        "aliases": [
+          "Reedmace"
+        ],
+        "hints": {
+          "easy": "A waterside plant with densely packed flowers in a brown cylinder",
+          "normal": "A brown club-like spike stands above the water",
+          "hard": "The old spike can disintegrate into airborne fluff"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-sphagnum",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "sporväxt",
+      "våtmark"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vitmossa",
+        "aliases": [
+          "Torvmossa"
+        ],
+        "hints": {
+          "easy": "Mjuk våtmarksmossa som kan bidra till att bilda torv",
+          "normal": "En tuss kan suga upp mycket vatten",
+          "hard": "Döda delar bryts ned långsamt i en sur, syrefattig miljö"
+        }
+      },
+      "en": {
+        "word": "Sphagnum moss",
+        "aliases": [
+          "Sphagnum",
+          "Peat moss"
+        ],
+        "hints": {
+          "easy": "A soft wetland moss that can help form peat",
+          "normal": "A handful can soak up a lot of water",
+          "hard": "Dead growth decays slowly in acidic, oxygen-poor surroundings"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-ivy",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "klätterväxt",
+      "löv"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Murgröna",
+        "aliases": [],
+        "hints": {
+          "easy": "Vintergrön klätterväxt som sitter fast med små häftrötter",
+          "normal": "Mörka flikiga blad kan täcka en vägg",
+          "hard": "De blommande skotten kan ha annorlunda blad än de klättrande"
+        }
+      },
+      "en": {
+        "word": "Common ivy",
+        "aliases": [
+          "Ivy",
+          "English ivy"
+        ],
+        "hints": {
+          "easy": "An evergreen climber that grips with little rootlets",
+          "normal": "Dark lobed leaves can cover a wall",
+          "hard": "Flowering shoots can bear differently shaped leaves from climbing shoots"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-mistletoe",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "parasit",
+      "löv"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mistel",
+        "aliases": [],
+        "hints": {
+          "easy": "En halvparasit med vintergröna blad på trädgrenar",
+          "normal": "Runda gröna knippen syns när värdträdet fällt löven",
+          "hard": "De vita bären kan spridas till en ny gren via fåglar"
+        }
+      },
+      "en": {
+        "word": "Mistletoe",
+        "aliases": [],
+        "hints": {
+          "easy": "An evergreen plant drawing some of its needs from tree branches",
+          "normal": "Round green bunches stand out when the host tree has shed its leaves",
+          "hard": "Birds may carry its white berries to a new branch"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-venus-flytrap",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "insektsfångare",
+      "blad"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Venus flugfälla",
+        "aliases": [
+          "Venusflugfälla"
+        ],
+        "hints": {
+          "easy": "En växt vars blad kan slå ihop om en insekt",
+          "normal": "En käftliknande rörelse startar vid beröring",
+          "hard": "Känselhår kan utlösa stängning om de störs flera gånger"
+        }
+      },
+      "en": {
+        "word": "Venus flytrap",
+        "aliases": [],
+        "hints": {
+          "easy": "A plant with leaves that can snap shut around an insect",
+          "normal": "A jaw-like movement starts after contact",
+          "hard": "Sensitive hairs can trigger closure when disturbed more than once"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-sundew",
+    "category": "nature",
+    "subcategory": "nature-plants",
+    "tags": [
+      "insektsfångare",
+      "våtmark"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sileshår",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten våtmarksväxt med klibbiga körtelhår som fångar insekter",
+          "normal": "Glänsande droppar sitter på röda trådar",
+          "hard": "Fångade småkryp ger extra näring på mager mark"
+        }
+      },
+      "en": {
+        "word": "Sundew",
+        "aliases": [],
+        "hints": {
+          "easy": "A small wetland plant that catches insects on sticky glandular hairs",
+          "normal": "Gleaming droplets perch on red threads",
+          "hard": "Trapped insects supply nutrients on poor ground"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-rainbow",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "ljus",
+      "droppar"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Regnbåge",
+        "aliases": [],
+        "hints": {
+          "easy": "Färgband syns när solen lyser på vattendroppar",
+          "normal": "En lysande båge dyker upp på motsatt sida från solen",
+          "hard": "Ljuset bryts och reflekteras inne i dropparna"
+        }
+      },
+      "en": {
+        "word": "Rainbow",
+        "aliases": [],
+        "hints": {
+          "easy": "Bands of colour appear when sunlight catches drops of water",
+          "normal": "A bright arc appears opposite the sun",
+          "hard": "Light bends and reflects inside the droplets"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-aurora-borealis",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "ljus",
+      "himlen"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Norrsken",
+        "aliases": [],
+        "hints": {
+          "easy": "Gröna eller röda ljusslöjor på natthimlen i norr",
+          "normal": "Färgen kan bölja som draperier",
+          "hard": "Partiklar från solen får gaser högt upp att lysa"
+        }
+      },
+      "en": {
+        "word": "Northern lights",
+        "aliases": [
+          "Aurora borealis"
+        ],
+        "hints": {
+          "easy": "Green or red curtains of light in the northern night sky",
+          "normal": "The colours can ripple like drapery",
+          "hard": "Particles from the sun make gases high above us glow"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-sundog",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "ljus",
+      "iskristaller"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bisol",
+        "aliases": [],
+        "hints": {
+          "easy": "En ljus fläck vid sidan av solen, ofta lätt färgad",
+          "normal": "Två ljusa prickar kan ligga på samma höjd som den riktiga solen",
+          "hard": "Platta iskristaller fungerar som små prismor"
+        }
+      },
+      "en": {
+        "word": "Sundog",
+        "aliases": [
+          "Mock sun",
+          "Parhelion"
+        ],
+        "hints": {
+          "easy": "A bright, often tinted patch beside the sun",
+          "normal": "Two bright spots can sit level with the real sun",
+          "hard": "Flat ice crystals act as little prisms"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-halo",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "ljus",
+      "iskristaller"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Solhalo",
+        "aliases": [
+          "Haloring"
+        ],
+        "hints": {
+          "easy": "En ljus ring runt solen när det finns höga, tunna moln",
+          "normal": "En cirkel syns svagt långt utanför solskivan",
+          "hard": "Sexkantiga iskristaller kan böja strålarna ungefär 22 grader"
+        }
+      },
+      "en": {
+        "word": "Solar halo",
+        "aliases": [
+          "Sun halo"
+        ],
+        "hints": {
+          "easy": "A bright ring around the sun when thin high clouds are present",
+          "normal": "A faint circle well outside the solar disk",
+          "hard": "Hexagonal ice crystals can bend light by about 22 degrees"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-sun-pillar",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "ljus",
+      "iskristaller"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Solpelare",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett lodrätt ljusstråk ovanför eller under en låg sol",
+          "normal": "En smal ljusstapel stannar kvar vid horisonten",
+          "hard": "Platta iskristaller speglar ljuset i ungefär samma riktning"
+        }
+      },
+      "en": {
+        "word": "Sun pillar",
+        "aliases": [
+          "Solar pillar"
+        ],
+        "hints": {
+          "easy": "A vertical streak of light above or below a low sun",
+          "normal": "A narrow stack of light lingers at the horizon",
+          "hard": "Flat ice crystals reflect light in roughly the same direction"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-mirage",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "ljus",
+      "luftlager"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hägring",
+        "aliases": [],
+        "hints": {
+          "easy": "En synbild uppstår när ljuset böjs genom olika varma luftlager",
+          "normal": "Vägen ser våt ut långt bort fast den är torr",
+          "hard": "Ibland syns ett förvrängt eller omvänt föremål vid horisonten"
+        }
+      },
+      "en": {
+        "word": "Mirage",
+        "aliases": [],
+        "hints": {
+          "easy": "An optical illusion caused by light bending through air layers of different temperatures",
+          "normal": "A dry road looks wet in the distance",
+          "hard": "A distorted or inverted object may appear at the horizon"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-solar-eclipse",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "himlen",
+      "skugga"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Solförmörkelse",
+        "aliases": [],
+        "hints": {
+          "easy": "Månen skymmer solen helt eller delvis",
+          "normal": "Det kan bli skymningsljus mitt på dagen",
+          "hard": "Vid totalitet kan en ljus korona synas runt den mörka skivan"
+        }
+      },
+      "en": {
+        "word": "Solar eclipse",
+        "aliases": [],
+        "hints": {
+          "easy": "The moon blocks all or part of the sun",
+          "normal": "Daylight can fade to the level of twilight",
+          "hard": "During totality a bright corona can surround the dark disk"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-lunar-eclipse",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "himlen",
+      "skugga"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Månförmörkelse",
+        "aliases": [],
+        "hints": {
+          "easy": "Jordens skugga faller på fullmånen",
+          "normal": "En full rund skiva kan bli kopparröd",
+          "hard": "Ljuset som når fram har silats genom jordens atmosfär"
+        }
+      },
+      "en": {
+        "word": "Lunar eclipse",
+        "aliases": [],
+        "hints": {
+          "easy": "Earth's shadow falls on the full moon",
+          "normal": "A fully round disk can turn copper-red",
+          "hard": "The light that reaches it has filtered through Earth's atmosphere"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-meteor",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "himlen",
+      "atmosfär"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stjärnfall",
+        "aliases": [
+          "Meteor"
+        ],
+        "hints": {
+          "easy": "Ett kort ljusstreck när en liten rymdpartikel kommer in i atmosfären",
+          "normal": "Man hinner knappt peka innan det försvinner",
+          "hard": "Flera streck kan se ut att komma från samma punkt på himlen"
+        }
+      },
+      "en": {
+        "word": "Shooting star",
+        "aliases": [
+          "Meteor"
+        ],
+        "hints": {
+          "easy": "A brief streak as a small space particle enters the atmosphere",
+          "normal": "It vanishes before you can point it out",
+          "hard": "Several streaks may appear to come from one point in the sky"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-meteorite",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "rymd",
+      "sten"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Meteorit",
+        "aliases": [],
+        "hints": {
+          "easy": "En bit material från rymden som når marken",
+          "normal": "Fyndet kan ha en tunn, mörk skorpa efter färden genom luften",
+          "hard": "Vissa exemplar är oväntat tunga och innehåller järn"
+        }
+      },
+      "en": {
+        "word": "Meteorite",
+        "aliases": [],
+        "hints": {
+          "easy": "A fragment from space that makes it to the ground",
+          "normal": "A find can have a thin, dark crust from travelling through the air",
+          "hard": "Some specimens are unexpectedly heavy and contain iron"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-comet",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "rymd",
+      "is"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Komet",
+        "aliases": [],
+        "hints": {
+          "easy": "En isig kropp som kan få en ljus svans nära solen",
+          "normal": "En dimmig kärna och en svans kan synas från jorden",
+          "hard": "Svansarna pekar i stort sett bort från solen"
+        }
+      },
+      "en": {
+        "word": "Comet",
+        "aliases": [],
+        "hints": {
+          "easy": "An icy body that can grow a bright tail near the sun",
+          "normal": "A fuzzy centre and a tail may be visible from Earth",
+          "hard": "Its tails point broadly away from the sun"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-tide",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "hav",
+      "gravitation"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tidvatten",
+        "aliases": [],
+        "hints": {
+          "easy": "Havsnivån stiger och sjunker regelbundet",
+          "normal": "En klippa kan vara torr på förmiddagen och översköljd senare",
+          "hard": "Månen och solen påverkar rytmen längs kusten"
+        }
+      },
+      "en": {
+        "word": "Tide",
+        "aliases": [
+          "Tides"
+        ],
+        "hints": {
+          "easy": "The sea level rises and falls regularly",
+          "normal": "A rock can be dry in the morning and underwater later",
+          "hard": "The moon and sun help set the rhythm at the coast"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-tsunami",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "hav",
+      "vågor"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tsunami",
+        "aliases": [],
+        "hints": {
+          "easy": "Långa havsvågor kan uppstå när bottnen plötsligt förskjuts",
+          "normal": "En strand kan först torrläggas snabbt",
+          "hard": "Vågen är låg till havs men kan växa nära land"
+        }
+      },
+      "en": {
+        "word": "Tsunami",
+        "aliases": [],
+        "hints": {
+          "easy": "Long sea waves can form when the seabed shifts suddenly",
+          "normal": "The water may drain rapidly from a beach first",
+          "hard": "A small rise in deep water can grow near land"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-storm-surge",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "kust",
+      "hav"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stormflod",
+        "aliases": [],
+        "hints": {
+          "easy": "Havet stiger ovanligt högt när hård vind pressar vatten mot kusten",
+          "normal": "En kustgata kan översvämmas samtidigt som vinden tilltar",
+          "hard": "Både lågt lufttryck och en grund kust kan spela roll"
+        }
+      },
+      "en": {
+        "word": "Storm surge",
+        "aliases": [],
+        "hints": {
+          "easy": "The sea rises unusually high when strong winds drive water toward the coast",
+          "normal": "A coastal street may flood as winds get stronger",
+          "hard": "Low air pressure and a shallow coast can both play a part"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-avalanche",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "snö",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snölavin",
+        "aliases": [
+          "Lavin"
+        ],
+        "hints": {
+          "easy": "Snömassor rasar snabbt nedför en sluttning",
+          "normal": "Ett vitt moln drar utför berget",
+          "hard": "Ett svagt lager kan ge vika under en hel platta"
+        }
+      },
+      "en": {
+        "word": "Avalanche",
+        "aliases": [],
+        "hints": {
+          "easy": "A mass of snow rushes down a slope",
+          "normal": "A cloud of white sweeps down the mountain",
+          "hard": "A weak layer can fail beneath an entire slab"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-rockfall",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "berggrund",
+      "terräng"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stenras",
+        "aliases": [],
+        "hints": {
+          "easy": "Stenblock lossnar och faller från en bergssida",
+          "normal": "Lösa block studsar vid foten av ett stup",
+          "hard": "Vatten i en spricka kan först ha frusit och vidgat öppningen"
+        }
+      },
+      "en": {
+        "word": "Rockfall",
+        "aliases": [
+          "Rock fall"
+        ],
+        "hints": {
+          "easy": "Blocks of rock break loose and fall from a slope",
+          "normal": "Loose stones bounce at the foot of a cliff",
+          "hard": "Freezing water may have prised a crack wider first"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-landslide",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "jord",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jordskred",
+        "aliases": [],
+        "hints": {
+          "easy": "En större massa jord ger vika och glider utför",
+          "normal": "En slänt kan lämna ett brant ärr efter sig",
+          "hard": "Mättad mark kan förlora en del av sin hållfasthet"
+        }
+      },
+      "en": {
+        "word": "Landslide",
+        "aliases": [
+          "Land slip",
+          "Landslip"
+        ],
+        "hints": {
+          "easy": "A large mass of earth gives way and slides downslope",
+          "normal": "A slope can be left with a steep scar",
+          "hard": "Waterlogged ground can lose some of its strength"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-geyser",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "värme",
+      "vatten"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gejser",
+        "aliases": [],
+        "hints": {
+          "easy": "En het källa som skjuter upp vatten i omgångar",
+          "normal": "En vattenpelare stiger ur marken och följs av ånga",
+          "hard": "En trång kanal kan låta vatten överhettas på djupet"
+        }
+      },
+      "en": {
+        "word": "Geyser",
+        "aliases": [],
+        "hints": {
+          "easy": "A hot spring that shoots water into the air in bursts",
+          "normal": "A column of water rises out of the ground, followed by steam",
+          "hard": "A narrow passage can let water become superheated at depth"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-hot-spring",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "värme",
+      "grundvatten"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Varm källa",
+        "aliases": [
+          "Het källa"
+        ],
+        "hints": {
+          "easy": "Uppvärmt vatten kommer upp naturligt ur marken",
+          "normal": "Ånga kan stiga över ett lugnt stenbäcken",
+          "hard": "Cirkulation på djupet kan värma vattnet utan synligt utbrott"
+        }
+      },
+      "en": {
+        "word": "Hot spring",
+        "aliases": [],
+        "hints": {
+          "easy": "Heated water flows naturally out from the ground",
+          "normal": "Steam may rise above a still rock pool",
+          "hard": "Circulation at depth can heat the water without any visible eruption"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-volcano",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "berggrund",
+      "värme"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vulkan",
+        "aliases": [],
+        "hints": {
+          "easy": "En öppning i jordskorpan där lava och gas kan komma upp",
+          "normal": "En krater kan omges av stelnade strömmar",
+          "hard": "En askkolonn kan resa sig långt över molnen"
+        }
+      },
+      "en": {
+        "word": "Volcano",
+        "aliases": [],
+        "hints": {
+          "easy": "An opening in Earth's crust where lava and gas can escape",
+          "normal": "Solidified flows can surround a crater",
+          "hard": "A column of ash can rise far above the clouds"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-lava",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "vulkan",
+      "smälta"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lava",
+        "aliases": [],
+        "hints": {
+          "easy": "Smält berg som nått jordytan",
+          "normal": "En glödande ström kan få en mörk skorpa",
+          "hard": "Gasbubblor kan lämna hål efter att flödet stelnat"
+        }
+      },
+      "en": {
+        "word": "Lava",
+        "aliases": [],
+        "hints": {
+          "easy": "Molten rock that has reached the surface",
+          "normal": "A glowing flow can grow a dark crust",
+          "hard": "Gas bubbles can leave holes after the flow solidifies"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-magma",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "berggrund",
+      "smälta"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Magma",
+        "aliases": [],
+        "hints": {
+          "easy": "Bergsmälta som fortfarande finns under jordytan",
+          "normal": "Smält material kan samlas i en underjordisk kammare",
+          "hard": "Kristaller kan börja bildas långt innan något syns ovan jord"
+        }
+      },
+      "en": {
+        "word": "Magma",
+        "aliases": [],
+        "hints": {
+          "easy": "Molten rock still beneath Earth's surface",
+          "normal": "Melted material may collect in an underground chamber",
+          "hard": "Crystals can start forming well before anything is seen at the surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-frost-wedging",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "is",
+      "vittring"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Frostsprängning",
+        "aliases": [],
+        "hints": {
+          "easy": "Is i sprickor kan få berget att gradvis brytas sönder",
+          "normal": "Små bitar lossnar efter många växlingar mellan tö och kyla",
+          "hard": "Ett vattenfyllt mellanrum kan bli bredare vinter efter vinter"
+        }
+      },
+      "en": {
+        "word": "Frost wedging",
+        "aliases": [
+          "Freeze-thaw weathering"
+        ],
+        "hints": {
+          "easy": "Ice growing in cracks can slowly break rock apart",
+          "normal": "Small pieces loosen after repeated thaws and chills",
+          "hard": "A water-filled gap can widen winter after winter"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-wildfire",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "skog",
+      "eld"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skogsbrand",
+        "aliases": [],
+        "hints": {
+          "easy": "Eld sprider sig fritt genom skog",
+          "normal": "Glöd kan driva framför brinnande träd",
+          "hard": "Vissa frön får bättre groningsmöjligheter efter att marken brunnit"
+        }
+      },
+      "en": {
+        "word": "Forest fire",
+        "aliases": [
+          "Wildfire"
+        ],
+        "hints": {
+          "easy": "Fire spreading freely through a forest",
+          "normal": "Embers can drift ahead of burning trees",
+          "hard": "Some seeds germinate more readily after the ground has burned"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-flood",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "vatten",
+      "terräng"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Översvämning",
+        "aliases": [],
+        "hints": {
+          "easy": "Vatten täcker mark som vanligen är torr",
+          "normal": "En å kan spilla ut över sina bräddar",
+          "hard": "När vattnet drar sig undan kan fint slam lämnas kvar"
+        }
+      },
+      "en": {
+        "word": "Flood",
+        "aliases": [],
+        "hints": {
+          "easy": "Water covers land that is normally dry",
+          "normal": "A river can spill over its banks",
+          "hard": "Fine silt may remain when the water retreats"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-permafrost",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "kyla",
+      "mark"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Permafrost",
+        "aliases": [],
+        "hints": {
+          "easy": "Mark som förblir frusen minst två år i följd",
+          "normal": "Bara ett grunt ytlager kan tina under en sommar",
+          "hard": "Upptining kan få marken att sjunka ojämnt"
+        }
+      },
+      "en": {
+        "word": "Permafrost",
+        "aliases": [],
+        "hints": {
+          "easy": "Ground that stays frozen for at least two consecutive years",
+          "normal": "Only a shallow surface layer may thaw in summer",
+          "hard": "Thawing can make the ground subside unevenly"
+        }
+      }
+    }
+  },
+  {
+    "id": "nature-sea-sparkle",
+    "category": "nature",
+    "subcategory": "nature-phenomena",
+    "tags": [
+      "hav",
+      "ljus"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mareld",
+        "aliases": [],
+        "hints": {
+          "easy": "Små havsorganismer får störda vattenrörelser att lysa",
+          "normal": "Blå prickar kan blinka i kölvattnet",
+          "hard": "Ett årtag kan rita ett kort ljusspår i mörkt vatten"
+        }
+      },
+      "en": {
+        "word": "Sea sparkle",
+        "aliases": [
+          "Bioluminescent waves"
+        ],
+        "hints": {
+          "easy": "Tiny marine organisms produce light when the water moves around them",
+          "normal": "Blue specks can flash in a boat's wake",
+          "hard": "A stroke of an oar can trace a brief light in dark water"
+        }
+      }
+    }
+  }
+]

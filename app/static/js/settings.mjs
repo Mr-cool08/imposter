@@ -1,5 +1,6 @@
 import { loadContent, loadManifest } from "./content.mjs";
 import { profileIssues } from "./engine.mjs";
+import { getCustomContent } from "./extras.mjs";
 
 const modes = ["classic", "random", "all", "none", "reverse", "joker", "undercover", "alliance", "blind", "chaos"];
 const extraRoles = ["detective", "guardian", "spy", "accomplice", "double_agent"];
@@ -90,28 +91,27 @@ export function mountSettings(ctx, {
     const buttonAttrs = { variant: "ghost" };
     let value = readSettings(settings, ctx.lang, includeClueStyle);
     if (settings === DEFAULT_SETTINGS) value.language = ctx.lang;
-    let selection = { words: [], pairs: [], issues: [], loading: true, error: null };
+    let chaosInitialized = value.mode === "chaos" || value.chaos.length > 0;
+    let selection = { words: [], pairs: [], categories: [], issues: [], loading: true, error: null };
     let revision = 0;
     let manifest;
     let rules;
     let manifestTask;
     let rulesTask;
-    let loadError;
     let categories = [];
-    let packageForSelection;
     const categoryDetails = new Map();
+    const profileErrorLists = [];
+    const selectedCustom = custom === undefined && !includeClueStyle ? getCustomContent() : custom ?? null;
 
     function label(text, input) {
         return el("label", { class: "field" }, el("span", {}, text), input);
     }
 
-    function select(key, selected, options, change, content = undefined) {
-        const input = el("select", { name: key, data: undefined }, ...options.map(([id, title]) => el("option", { value: id }, title)));
+    function select(key, selected, options, change) {
+        const input = el("select", { name: key }, ...options.map(([id, title]) => el("option", { value: id }, title)));
         input.value = selected === null ? "" : String(selected);
         input.addEventListener("change", () => change(input.value));
-        const field = label(t(`settings.${key}`), input);
-        if (content) field.append(content);
-        return field;
+        return label(t(`settings.${key}`), input);
     }
 
     function checkbox(text, checked, change, className = "settings-check") {
@@ -124,7 +124,7 @@ export function mountSettings(ctx, {
     function modeOptions(allowed = modes) {
         return allowed.map((id) => {
             const min = rules?.modes[id]?.min ?? (["joker", "alliance"].includes(id) ? 5 : 3);
-            const name = playerCount >= min ? modeName(id) : t("settings.mode_min", { mode: modeName(id), min });
+            const name = min <= 3 || playerCount >= min ? modeName(id) : t("settings.mode_min", { mode: modeName(id), min });
             return [id, name];
         });
     }
@@ -162,7 +162,10 @@ export function mountSettings(ctx, {
 
     function selectMode(mode) {
         const next = cleanMode({ ...value, mode });
-        if (mode === "chaos" && value.chaos.length === 0) next.chaos = [newProfile("classic"), newProfile("random")];
+        if (mode === "chaos" && !chaosInitialized) {
+            chaosInitialized = true;
+            next.chaos = [newProfile("classic"), newProfile("random")];
+        }
         handleChange(next, { modeChanged: true });
     }
 
@@ -193,6 +196,7 @@ export function mountSettings(ctx, {
             const options = [["", t("settings.no_extra")], ...availableExtraRoles.map((id) => [id, roleName(id)])];
             controls.append(select("extraRole", modifier.extraRole, options, (id) => change("extraRole", id || null)));
             controls.append(el("p", { class: "muted" }, t("settings.extra_help")));
+            if (!availableExtraRoles.includes("spy")) controls.append(el("p", { class: "muted" }, t("settings.spy_modes")));
         } else {
             controls.append(el("p", { class: "muted" }, t("settings.extra_disabled")));
         }
@@ -204,6 +208,7 @@ export function mountSettings(ctx, {
         }
         if (guessModes.includes(mode)) {
             controls.append(checkbox(t("settings.lastGuess"), Boolean(modifier.lastGuess), (checked) => change("lastGuess", checked)));
+            controls.append(el("p", { class: "muted" }, t("settings.last_guess_help")));
         } else {
             controls.append(el("p", { class: "muted" }, t("settings.last_guess_disabled")));
         }
@@ -215,11 +220,11 @@ export function mountSettings(ctx, {
         if (rerender) chaos[index] = cleanMode(chaos[index]);
         handleChange({ ...value, chaos }, { poolChanged: rerender });
         if (rerender) pool.querySelectorAll('select[name="profile_mode"]')[index]?.focus();
-        else if ("joker" in patch || "extraRole" in patch || "lastGuess" in patch) renderRules();
     }
 
     function renderPool() {
         pool.replaceChildren();
+        profileErrorLists.length = 0;
         pool.hidden = value.mode !== "chaos";
         if (pool.hidden) return;
         pool.append(el("h3", {}, t("settings.chaos_pool")), el("p", { class: "muted" }, t("settings.chaos_help")));
@@ -236,7 +241,7 @@ export function mountSettings(ctx, {
             const form = el("fieldset", { class: "chaos-profile panel panel--subtle stack" }, heading,
                 el("div", { class: "settings-grid" },
                     select("profile_mode", profile.mode, modeOptions(allowed), (mode) => patchProfile(index, { mode }, true)),
-                    numberField("weight", profile.weight, (weight) => patchProfile(index, { weight }), { min: "0.0000001", step: "any" })),
+                    numberField("weight", profile.weight, (weight) => patchProfile(index, { weight }), { min: 0, step: "any" })),
                 el("p", { class: "muted" }, t(`settings.mode_description.${profile.mode}`)),
             );
             if (validProfile(profile)) {
@@ -245,7 +250,9 @@ export function mountSettings(ctx, {
                     modifiers({ ...profileDefaults, ...profile }, profile.mode, (key, item) => patchProfile(index, { [key]: item })));
                 form.append(advanced);
             }
-            form.append(remove);
+            const profileIssuesList = el("ul", { class: "settings-issues error", "aria-live": "polite" });
+            profileErrorLists.push(profileIssuesList);
+            form.append(profileIssuesList, remove);
             pool.append(form);
         });
         pool.append(button(t("settings.add_profile"), () => {
@@ -332,10 +339,12 @@ export function mountSettings(ctx, {
         const max = rules?.playerMax ?? 20;
         const key = `settings.issue.${issue.code}`;
         const translated = t(key, { min, max });
-        const description = translated === key ? t("settings.issue.invalid_settings") : translated;
-        return value.mode === "chaos" && mode && mode !== "chaos"
-            ? t("settings.issue.for_mode", { mode: modeName(mode), message: description })
-            : description;
+        return translated === key ? t("settings.issue.invalid_settings") : translated;
+    }
+
+    function renderIssues(list, issues) {
+        list.replaceChildren(...issues.map((issue) => el("li", {}, formatIssue(issue))));
+        list.hidden = issues.length === 0;
     }
 
     function renderStatus() {
@@ -343,8 +352,15 @@ export function mountSettings(ctx, {
         if (selection.loading) counts.append(t("settings.loading"));
         else if (selection.error) counts.append(selection.error, button(t("settings.retry"), () => void refreshSelection(), buttonAttrs));
         else counts.append(t("settings.counts", { words: scope.format(selection.words.length), pairs: scope.format(selection.pairs.length) }));
-        issuesList.replaceChildren(...selection.issues.map((issue) => el("li", {}, formatIssue(issue))));
-        issuesList.hidden = selection.issues.length === 0;
+        renderIssues(issuesList, value.mode === "chaos"
+            ? selection.issues.filter(({ mode }) => mode === "chaos" || mode === null)
+            : selection.issues);
+        for (const [index, list] of profileErrorLists.entries()) {
+            const issues = selection.loading || selection.error || !rules ? [] : profileIssues(
+                { ...value, chaos: [value.chaos[index]] }, playerCount, selection.words, selection.pairs, rules,
+            ).filter(({ mode }) => mode !== "chaos" && mode !== null);
+            renderIssues(list, issues);
+        }
     }
 
     function publish(next) {
@@ -382,37 +398,34 @@ export function mountSettings(ctx, {
         if (controller.signal.aborted) return;
         const request = ++revision;
         const snapshot = getSettings();
-        publish({ words: [], pairs: [], issues: [], loading: true, error: null });
+        publish({ words: [], pairs: [], categories, issues: [], loading: true, error: null });
         try {
             const currentManifest = await getManifest();
             if (request !== revision || controller.signal.aborted) return;
-            const nextCustom = custom === undefined ? ctx.storage.get("customPack", null) : custom;
-            if (!categories.length || packageForSelection !== nextCustom) {
-                packageForSelection = nextCustom;
-                categories = [...currentManifest.categories, ...(nextCustom?.categories ?? [])];
+            if (!categories.length) {
+                categories = [...currentManifest.categories, ...(selectedCustom?.categories ?? [])];
                 renderCategories();
             }
             const [content, ruleData] = await Promise.all([
-                loadContent(snapshot, { manifest: currentManifest, custom: nextCustom, fetch: fetchContent }),
+                loadContent(snapshot, { manifest: currentManifest, custom: selectedCustom, fetch: fetchContent }),
                 getRules(),
             ]);
             if (request !== revision || controller.signal.aborted) return;
             const validation = profileIssues(value, playerCount, content.words, content.pairs, ruleData);
-            publish({ ...content, loading: false, error: null, issues: validation });
-        } catch (error) {
+            publish({ ...content, categories, loading: false, error: null, issues: validation });
+        } catch {
             if (request !== revision || controller.signal.aborted) return;
-            loadError = error;
-            publish({ words: [], pairs: [], issues: [], loading: false, error: t(manifest ? "settings.content_error" : "settings.catalog_error") });
+            publish({ words: [], pairs: [], categories, issues: [], loading: false, error: t(manifest ? "settings.content_error" : "settings.catalog_error") });
         }
     }
 
     function refreshAfterOffline() {
-        if (loadError && selection.error) void refreshSelection();
+        if (selection.error) void refreshSelection();
     }
 
-    const modeInput = select("mode", value.mode, modeOptions(), selectMode, modeDescription);
-    modeInput.classList.add("settings-mode");
-    const basic = el("div", { class: "settings-grid settings-modes" }, modeInput,
+    const modeInput = select("mode", value.mode, modeOptions(), selectMode);
+    const basic = el("div", { class: "settings-grid settings-modes" },
+        el("div", { class: "settings-mode stack" }, modeInput, modeDescription),
         select("hint", value.hint, ["easy", "normal", "hard"].map((id) => [id, t(`settings.hint.${id}`)]),
             (id) => changeField("hint", id, { filtering: true })));
     catalog.append(el("h3", {}, t("settings.categories")),
@@ -421,7 +434,7 @@ export function mountSettings(ctx, {
         choices, el("p", { class: "muted" }, t("settings.subcategories_help")),
         el("fieldset", { class: "stack" }, el("legend", {}, t("settings.levels")),
             el("div", { class: "cluster" }, ...levels.map((level) => checkbox(t(`settings.level.${level}`), value.levels.includes(level),
-                (checked) => toggleMembership("levels", level, checked))))), counts, issuesList);
+                (checked) => toggleMembership("levels", level, checked))))), counts);
     const commonAdvanced = el("div", { class: "settings-grid" },
         select("clueRounds", value.clueRounds, [1, 2, 3].map((count) => [count, String(count)]), (item) => changeField("clueRounds", Number(item))),
         select("discussionSeconds", value.discussionSeconds, [[0, t("settings.unlimited")],
@@ -435,7 +448,7 @@ export function mountSettings(ctx, {
     const advanced = el("details", { class: "settings-advanced" },
         el("summary", {}, t("settings.advanced")), el("div", { class: "stack" }, commonAdvanced, modeAdvanced));
     const rulesDetails = el("details", { class: "settings-rules" }, el("summary", {}, t("settings.round_rules")), ruleBody);
-    editor.append(basic, catalog, advanced, pool, rulesDetails);
+    editor.append(basic, catalog, advanced, pool, rulesDetails, issuesList);
     root.replaceChildren(editor);
     renderMode();
     renderRules();

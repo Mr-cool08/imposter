@@ -1,0 +1,3841 @@
+[
+  {
+    "id": "games-super-mario-bros",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Super Mario Bros.",
+        "aliases": [
+          "SMB"
+        ],
+        "hints": {
+          "easy": "Hoppa på Goombas",
+          "normal": "Rör kan leda under jord",
+          "hard": "Flaggstång vid banans slut"
+        }
+      },
+      "en": {
+        "word": "Super Mario Bros.",
+        "aliases": [
+          "SMB"
+        ],
+        "hints": {
+          "easy": "Jump onto Goombas",
+          "normal": "Pipes can lead underground",
+          "hard": "Flagpole at the end of a level"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-mario-kart-8-deluxe",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mario Kart 8 Deluxe",
+        "aliases": [
+          "MK8D"
+        ],
+        "hints": {
+          "easy": "Gokart med bananskal",
+          "normal": "Kör upp på väggarna",
+          "hard": "Tävlingsbanor från flera generationer"
+        }
+      },
+      "en": {
+        "word": "Mario Kart 8 Deluxe",
+        "aliases": [
+          "MK8D"
+        ],
+        "hints": {
+          "easy": "Kart races with banana peels",
+          "normal": "Drive up the walls",
+          "hard": "Courses from several generations"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-crash-team-racing-nitro-fueled",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Crash Team Racing Nitro-Fueled",
+        "aliases": [
+          "CTR Nitro-Fueled"
+        ],
+        "hints": {
+          "easy": "Gokart med punggrävlingar",
+          "normal": "Sladda och tajma dina turbokickar",
+          "hard": "Wumpafrukt i lådorna"
+        }
+      },
+      "en": {
+        "word": "Crash Team Racing Nitro-Fueled",
+        "aliases": [
+          "CTR Nitro-Fueled"
+        ],
+        "hints": {
+          "easy": "Kart racing with bandicoots",
+          "normal": "Time your boosts while drifting",
+          "hard": "Wumpa fruit inside crates"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-legend-of-zelda-breath-of-the-wild",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Legend of Zelda: Breath of the Wild",
+        "aliases": [
+          "Breath of the Wild",
+          "BOTW"
+        ],
+        "hints": {
+          "easy": "Klättra och glid genom Hyrule",
+          "normal": "Lös prövningar i helgedomar",
+          "hard": "Hundra år i dvala"
+        }
+      },
+      "en": {
+        "word": "The Legend of Zelda: Breath of the Wild",
+        "aliases": [
+          "Breath of the Wild",
+          "BOTW"
+        ],
+        "hints": {
+          "easy": "Climb and glide around Hyrule",
+          "normal": "Solve shrine trials",
+          "hard": "A century spent asleep"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-animal-crossing-new-horizons",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Animal Crossing: New Horizons",
+        "aliases": [
+          "New Horizons",
+          "ACNH"
+        ],
+        "hints": {
+          "easy": "Bebygg en ö med pratande grannar",
+          "normal": "Fånga insekter till museet",
+          "hard": "På söndagar går det att köpa rovor"
+        }
+      },
+      "en": {
+        "word": "Animal Crossing: New Horizons",
+        "aliases": [
+          "New Horizons",
+          "ACNH"
+        ],
+        "hints": {
+          "easy": "Build up an island with talking neighbors",
+          "normal": "Catch bugs for the museum",
+          "hard": "Sunday is turnip day"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-stardew-valley",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stardew Valley",
+        "aliases": [],
+        "hints": {
+          "easy": "Ärv och rusta upp en gård",
+          "normal": "Skörd och fiske i Pelican Town",
+          "hard": "Laga det slitna allaktivitetshuset"
+        }
+      },
+      "en": {
+        "word": "Stardew Valley",
+        "aliases": [],
+        "hints": {
+          "easy": "Restore the farm you inherited",
+          "normal": "Crops and fishing in Pelican Town",
+          "hard": "Repair a run-down community center"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-tetris",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tetris",
+        "aliases": [],
+        "hints": {
+          "easy": "Vrid fallande klossar till rader",
+          "normal": "Ofyllda luckor byggs lätt igen",
+          "hard": "Spara en smal brunn vid kanten"
+        }
+      },
+      "en": {
+        "word": "Tetris",
+        "aliases": [],
+        "hints": {
+          "easy": "Rotate falling pieces into rows",
+          "normal": "Gaps can get buried",
+          "hard": "Leave a narrow well at the edge"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-pac-man",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pac-Man",
+        "aliases": [
+          "Pacman"
+        ],
+        "hints": {
+          "easy": "Ät prickar i en labyrint",
+          "normal": "Spöken patrullerar gångarna",
+          "hard": "En stor pellet vänder jakten"
+        }
+      },
+      "en": {
+        "word": "Pac-Man",
+        "aliases": [
+          "Pacman"
+        ],
+        "hints": {
+          "easy": "Eat dots inside a maze",
+          "normal": "Ghosts patrol the passages",
+          "hard": "A big pellet turns the chase around"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-space-invaders",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Space Invaders",
+        "aliases": [],
+        "hints": {
+          "easy": "Skjut mot en armé av utomjordingar",
+          "normal": "Fienderna rycker fram i sidled",
+          "hard": "Skydden nöts sönder av skotten"
+        }
+      },
+      "en": {
+        "word": "Space Invaders",
+        "aliases": [],
+        "hints": {
+          "easy": "Shoot at an army of aliens",
+          "normal": "Enemies descend in formation",
+          "hard": "The bunkers wear away under fire"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-the-sims-4",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Sims 4",
+        "aliases": [
+          "Sims 4"
+        ],
+        "hints": {
+          "easy": "Bygg hus och styr familjers vardag",
+          "normal": "Köa handlingar åt dina hushåll",
+          "hard": "En grön romb visar vem du styr"
+        }
+      },
+      "en": {
+        "word": "The Sims 4",
+        "aliases": [
+          "Sims 4"
+        ],
+        "hints": {
+          "easy": "Build homes and manage family life",
+          "normal": "Queue actions for your household",
+          "hard": "A green diamond marks your selection"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-portal-2",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Portal 2",
+        "aliases": [],
+        "hints": {
+          "easy": "Koppla ihop två öppningar i testkamrar",
+          "normal": "Prova färgad gel på golv och väggar",
+          "hard": "Två robotar löser samarbetsbanorna"
+        }
+      },
+      "en": {
+        "word": "Portal 2",
+        "aliases": [],
+        "hints": {
+          "easy": "Connect two openings in test chambers",
+          "normal": "Try colored gels on floors and walls",
+          "hard": "Two robots tackle the co-op puzzles"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-half-life-2",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Half-Life 2",
+        "aliases": [
+          "Half Life 2",
+          "HL2"
+        ],
+        "hints": {
+          "easy": "En fysiker gör motstånd i City 17",
+          "normal": "Använd rekvisita som projektiler",
+          "hard": "Strandvägen patrulleras av Combine"
+        }
+      },
+      "en": {
+        "word": "Half-Life 2",
+        "aliases": [
+          "Half Life 2",
+          "HL2"
+        ],
+        "hints": {
+          "easy": "A physicist fights back in City 17",
+          "normal": "Turn loose props into projectiles",
+          "hard": "Combine patrol the coastal road"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-fortnite",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fortnite",
+        "aliases": [],
+        "hints": {
+          "easy": "Hoppa från en flygande buss",
+          "normal": "Samla virke och bygg skydd mitt i striden",
+          "hard": "Stormen krymper den säkra zonen"
+        }
+      },
+      "en": {
+        "word": "Fortnite",
+        "aliases": [],
+        "hints": {
+          "easy": "Jump from a flying bus",
+          "normal": "Gather materials to put up walls",
+          "hard": "The storm shrinks the safe area"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-pubg-battlegrounds",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "PUBG: Battlegrounds",
+        "aliases": [
+          "PUBG",
+          "PlayerUnknown's Battlegrounds"
+        ],
+        "hints": {
+          "easy": "Kycklingmiddag väntar vinnaren",
+          "normal": "Landa med fallskärm och leta utrustning",
+          "hard": "Ett krympande blått fält tvingar fram strid"
+        }
+      },
+      "en": {
+        "word": "PUBG: Battlegrounds",
+        "aliases": [
+          "PUBG",
+          "PlayerUnknown's Battlegrounds"
+        ],
+        "hints": {
+          "easy": "The winner gets a chicken dinner",
+          "normal": "Parachute in and scavenge for gear",
+          "hard": "An advancing blue zone forces fights"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-among-us",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Among Us",
+        "aliases": [],
+        "hints": {
+          "easy": "Gör uppgifter medan någon saboterar",
+          "normal": "Rösta ut misstänkta på stormötet",
+          "hard": "En ventil kan avslöja en genväg"
+        }
+      },
+      "en": {
+        "word": "Among Us",
+        "aliases": [],
+        "hints": {
+          "easy": "Do tasks while someone sabotages the crew",
+          "normal": "Vote out suspects at a meeting",
+          "hard": "A vent can give away a shortcut"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-rocket-league",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rocket League",
+        "aliases": [],
+        "hints": {
+          "easy": "Spela fotboll med raketdrivna bilar",
+          "normal": "Kör uppför arenans väggar",
+          "hard": "En luftig touch kan avgöra matchen"
+        }
+      },
+      "en": {
+        "word": "Rocket League",
+        "aliases": [],
+        "hints": {
+          "easy": "Play soccer in rocket-powered cars",
+          "normal": "Drive up the arena walls",
+          "hard": "An aerial touch can decide a match"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-fall-guys",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fall Guys",
+        "aliases": [],
+        "hints": {
+          "easy": "Spring hinderbanor som studsande bönor",
+          "normal": "Kvalgränsen gallrar startfältet",
+          "hard": "Sista rundan kan ha en krona att gripa"
+        }
+      },
+      "en": {
+        "word": "Fall Guys",
+        "aliases": [],
+        "hints": {
+          "easy": "Race through obstacles as bouncy beans",
+          "normal": "Qualifying places thin the field",
+          "hard": "The final can end with a crown to grab"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-overcooked-2",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Overcooked! 2",
+        "aliases": [
+          "Overcooked 2"
+        ],
+        "hints": {
+          "easy": "Laga mat tillsammans i kaotiska kök",
+          "normal": "Kasta ingredienser till kocken på andra sidan",
+          "hard": "Köksgolvet kan flytta på sig"
+        }
+      },
+      "en": {
+        "word": "Overcooked! 2",
+        "aliases": [
+          "Overcooked 2"
+        ],
+        "hints": {
+          "easy": "Cook together in chaotic kitchens",
+          "normal": "Throw ingredients to a distant chef",
+          "hard": "The kitchen floor can move beneath you"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-it-takes-two",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "It Takes Two",
+        "aliases": [],
+        "hints": {
+          "easy": "Två föräldrar förvandlas till dockor",
+          "normal": "Klara banor med kompletterande förmågor",
+          "hard": "En självhjälpsbok lägger sig i"
+        }
+      },
+      "en": {
+        "word": "It Takes Two",
+        "aliases": [],
+        "hints": {
+          "easy": "Two parents are turned into dolls",
+          "normal": "Beat levels with complementary abilities",
+          "hard": "A self-help book meddles in the relationship"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-split-fiction",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Split Fiction",
+        "aliases": [],
+        "hints": {
+          "easy": "Två författare fastnar i sina egna berättelser",
+          "normal": "Samarbeta i både fantasy och science fiction",
+          "hard": "En maskin försöker stjäla deras idéer"
+        }
+      },
+      "en": {
+        "word": "Split Fiction",
+        "aliases": [],
+        "hints": {
+          "easy": "Two writers get trapped inside their own stories",
+          "normal": "Team up across fantasy and science fiction",
+          "hard": "A machine tries to steal their ideas"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-hollow-knight",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hollow Knight",
+        "aliases": [],
+        "hints": {
+          "easy": "Utforska ett underjordiskt insektsrike",
+          "normal": "Rita kartan med hjälp av Cornifer",
+          "hard": "En bänk ger vila i mörkret"
+        }
+      },
+      "en": {
+        "word": "Hollow Knight",
+        "aliases": [],
+        "hints": {
+          "easy": "Explore an underground kingdom of bugs",
+          "normal": "Chart the kingdom with Cornifer's help",
+          "hard": "A bench offers rest in the dark"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-ori-and-the-blind-forest",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ori and the Blind Forest",
+        "aliases": [
+          "Ori and the Blind Forest: Definitive Edition"
+        ],
+        "hints": {
+          "easy": "En liten väktarande räddar Nibel",
+          "normal": "Använd fiendernas projektiler för att skjuta fart",
+          "hard": "Ljus söks kring ett jättelikt träd"
+        }
+      },
+      "en": {
+        "word": "Ori and the Blind Forest",
+        "aliases": [
+          "Ori and the Blind Forest: Definitive Edition"
+        ],
+        "hints": {
+          "easy": "A small guardian spirit saves Nibel",
+          "normal": "Launch yourself off enemy projectiles",
+          "hard": "Light revolves around a towering tree"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-shovel-knight-shovel-of-hope",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Shovel Knight: Shovel of Hope",
+        "aliases": [
+          "Shovel Knight",
+          "Shovel of Hope"
+        ],
+        "hints": {
+          "easy": "En blå rustning och en spade genom pixelbanorna",
+          "normal": "Gräv upp skatter och duellera med en riddarorden",
+          "hard": "En förbannad amulett skiljer hjälten från sin följeslagare"
+        }
+      },
+      "en": {
+        "word": "Shovel Knight: Shovel of Hope",
+        "aliases": [
+          "Shovel Knight",
+          "Shovel of Hope"
+        ],
+        "hints": {
+          "easy": "Blue armor and a digging tool on pixel platforms",
+          "normal": "Dig up treasure and duel a rogue order",
+          "hard": "A cursed amulet separates the hero from his companion"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-hades",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hades",
+        "aliases": [],
+        "hints": {
+          "easy": "Gör upprepade flyktförsök från underjorden",
+          "normal": "Olympens gudar ger olika krafter",
+          "hard": "Vid nederlag väntar familjens hus"
+        }
+      },
+      "en": {
+        "word": "Hades",
+        "aliases": [],
+        "hints": {
+          "easy": "Make repeated escape attempts from the underworld",
+          "normal": "Olympian gods grant different powers",
+          "hard": "Defeat sends you back to the family home"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-dead-cells",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dead Cells",
+        "aliases": [],
+        "hints": {
+          "easy": "En huvudlös figur kämpar sig ut ur fängelset",
+          "normal": "Rör dig snabbt genom områden i sidovy",
+          "hard": "Runor låter dig öppna nya vägar nästa gång"
+        }
+      },
+      "en": {
+        "word": "Dead Cells",
+        "aliases": [],
+        "hints": {
+          "easy": "A headless figure fights out of prison",
+          "normal": "Move fast through side-scrolling areas",
+          "hard": "Runes open new routes on later runs"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-undertale",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Undertale",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett barn faller ned i monstrens värld",
+          "normal": "Undvik projektiler med ett litet hjärta",
+          "hard": "Välj att skona monster i strid"
+        }
+      },
+      "en": {
+        "word": "Undertale",
+        "aliases": [],
+        "hints": {
+          "easy": "A child falls into the world of monsters",
+          "normal": "Dodge projectiles with a little heart",
+          "hard": "Choose to spare monsters in battle"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-inscryption",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Inscryption",
+        "aliases": [],
+        "hints": {
+          "easy": "Kortdueller i en stuga med gåtor",
+          "normal": "Offra kort för att spela större djur",
+          "hard": "Tänder hamnar i vågskålen"
+        }
+      },
+      "en": {
+        "word": "Inscryption",
+        "aliases": [],
+        "hints": {
+          "easy": "Play card duels in a cabin full of riddles",
+          "normal": "Sacrifice cards to play bigger beasts",
+          "hard": "Teeth go on the scales"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-slay-the-spire",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Slay the Spire",
+        "aliases": [],
+        "hints": {
+          "easy": "Bygg en kortlek på väg upp genom ett torn",
+          "normal": "Planera när du ska vila vid lägerelden",
+          "hard": "Välj väg till nästa elitfiende"
+        }
+      },
+      "en": {
+        "word": "Slay the Spire",
+        "aliases": [],
+        "hints": {
+          "easy": "Build a deck on your way up a tower",
+          "normal": "Decide when to rest by a campfire",
+          "hard": "Plan your route to the next elite fight"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-return-of-the-obra-dinn",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Return of the Obra Dinn",
+        "aliases": [],
+        "hints": {
+          "easy": "Utred ödet för en försvunnen besättning",
+          "normal": "Ett fickur visar dödsögonblick",
+          "hard": "Identifiera passagerare med hjälp av röster och kläder"
+        }
+      },
+      "en": {
+        "word": "Return of the Obra Dinn",
+        "aliases": [],
+        "hints": {
+          "easy": "Investigate the fate of a missing crew",
+          "normal": "A pocket watch reveals moments of death",
+          "hard": "Identify passengers by voices and clothing"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-papers-please",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Papers, Please",
+        "aliases": [
+          "Papers Please"
+        ],
+        "hints": {
+          "easy": "Granska handlingar vid Arstotzkas gräns",
+          "normal": "En stämpel avgör vem som kommer in",
+          "hard": "Lönen ska räcka till familjens värme"
+        }
+      },
+      "en": {
+        "word": "Papers, Please",
+        "aliases": [
+          "Papers Please"
+        ],
+        "hints": {
+          "easy": "Inspect documents at the border of Arstotzka",
+          "normal": "A stamp decides who gets in",
+          "hard": "Your wages have to cover the family heating"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-the-witcher-3-wild-hunt",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Witcher 3: Wild Hunt",
+        "aliases": [
+          "The Witcher 3",
+          "Witcher 3"
+        ],
+        "hints": {
+          "easy": "En monsterjägare söker sin fosterdotter",
+          "normal": "Oljor och tecken hjälper mot olika odjur",
+          "hard": "Kortspel på värdshus lockar till omvägar"
+        }
+      },
+      "en": {
+        "word": "The Witcher 3: Wild Hunt",
+        "aliases": [
+          "The Witcher 3",
+          "Witcher 3"
+        ],
+        "hints": {
+          "easy": "A monster hunter searches for his ward",
+          "normal": "Oils and signs help against different creatures",
+          "hard": "Card games in taverns tempt you into detours"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-the-elder-scrolls-v-skyrim",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Elder Scrolls V: Skyrim",
+        "aliases": [
+          "Skyrim",
+          "TES V"
+        ],
+        "hints": {
+          "easy": "Slåss mot drakar i ett nordligt rike",
+          "normal": "Lär dig rop av maktord",
+          "hard": "En stad där husen når upp på klippkanter"
+        }
+      },
+      "en": {
+        "word": "The Elder Scrolls V: Skyrim",
+        "aliases": [
+          "Skyrim",
+          "TES V"
+        ],
+        "hints": {
+          "easy": "Fight dragons in a northern realm",
+          "normal": "Learn shouts made of words of power",
+          "hard": "A city with houses perched on a cliff"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-elden-ring",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Elden Ring",
+        "aliases": [],
+        "hints": {
+          "easy": "Rid genom Mellanlandet och möt svåra bossar",
+          "normal": "Nåd visar vägen mellan viloplatser",
+          "hard": "En förgylld trädkrona dominerar landskapet"
+        }
+      },
+      "en": {
+        "word": "Elden Ring",
+        "aliases": [],
+        "hints": {
+          "easy": "Ride across the Lands Between and face punishing bosses",
+          "normal": "Grace guides you between resting places",
+          "hard": "A golden canopy dominates the horizon"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-dark-souls",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dark Souls",
+        "aliases": [],
+        "hints": {
+          "easy": "Sök dig genom Lordran från brasa till brasa",
+          "normal": "Läs meddelanden från andra vandrare",
+          "hard": "En hiss kan leda tillbaka till början"
+        }
+      },
+      "en": {
+        "word": "Dark Souls",
+        "aliases": [],
+        "hints": {
+          "easy": "Explore Lordran from bonfire to bonfire",
+          "normal": "Read messages left by other wanderers",
+          "hard": "An elevator can lead back near the start"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-bloodborne",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bloodborne",
+        "aliases": [],
+        "hints": {
+          "easy": "Jaga odjur på Yharnams gator",
+          "normal": "Vapen byter form mitt i striden",
+          "hard": "En docka väntar i jägarens dröm"
+        }
+      },
+      "en": {
+        "word": "Bloodborne",
+        "aliases": [],
+        "hints": {
+          "easy": "Hunt beasts in the streets of Yharnam",
+          "normal": "Weapons change form mid-fight",
+          "hard": "A doll waits in the hunter's dream"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-sekiro-shadows-die-twice",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sekiro: Shadows Die Twice",
+        "aliases": [
+          "Sekiro"
+        ],
+        "hints": {
+          "easy": "En shinobi skyddar en ung arvtagare",
+          "normal": "Pareringar bryter motståndarens hållning",
+          "hard": "En armprotes hjälper dig ta dig upp på tak"
+        }
+      },
+      "en": {
+        "word": "Sekiro: Shadows Die Twice",
+        "aliases": [
+          "Sekiro"
+        ],
+        "hints": {
+          "easy": "A shinobi guards a young heir",
+          "normal": "Deflections break an opponent's posture",
+          "hard": "A prosthetic arm gets you onto rooftops"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-horizon-zero-dawn",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Horizon Zero Dawn",
+        "aliases": [],
+        "hints": {
+          "easy": "En bågskytt jagar djurlika maskiner",
+          "normal": "Hitta svaga punkter med en skanning",
+          "hard": "Ruiner avslöjar världens förhistoria"
+        }
+      },
+      "en": {
+        "word": "Horizon Zero Dawn",
+        "aliases": [],
+        "hints": {
+          "easy": "An archer hunts animal-like machines",
+          "normal": "Scan to spot vulnerable parts",
+          "hard": "Ruins reveal the world's past"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-ghost-of-tsushima",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ghost of Tsushima",
+        "aliases": [],
+        "hints": {
+          "easy": "En samuraj försvarar sin ö mot en invasion",
+          "normal": "En vind visar vägen till målet",
+          "hard": "Rävar kan leda till små helgedomar"
+        }
+      },
+      "en": {
+        "word": "Ghost of Tsushima",
+        "aliases": [],
+        "hints": {
+          "easy": "A samurai defends his island from invasion",
+          "normal": "A breeze guides you toward your destination",
+          "hard": "Foxes can lead to tiny shrines"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-uncharted-4-a-thiefs-end",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Uncharted 4: A Thief's End",
+        "aliases": [
+          "Uncharted 4"
+        ],
+        "hints": {
+          "easy": "Bröder letar efter en pirats skatt",
+          "normal": "Klättra genom staden Libertalia",
+          "hard": "En tavla vid spisen avslöjar ett förflutet"
+        }
+      },
+      "en": {
+        "word": "Uncharted 4: A Thief's End",
+        "aliases": [
+          "Uncharted 4"
+        ],
+        "hints": {
+          "easy": "Brothers hunt for a pirate's treasure",
+          "normal": "Climb through the city of Libertalia",
+          "hard": "A picture by the fireplace hints at an earlier life"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-red-dead-redemption-2",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Red Dead Redemption 2",
+        "aliases": [
+          "Red Dead 2",
+          "RDR2"
+        ],
+        "hints": {
+          "easy": "En laglös ryttare följer Dutchs gäng",
+          "normal": "Håll lägret försett med proviant",
+          "hard": "Hjälten ritar djur i sin dagbok"
+        }
+      },
+      "en": {
+        "word": "Red Dead Redemption 2",
+        "aliases": [
+          "Red Dead 2",
+          "RDR2"
+        ],
+        "hints": {
+          "easy": "An outlaw rides with Dutch's gang",
+          "normal": "Keep the camp supplied with provisions",
+          "hard": "The hero sketches animals in his journal"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-grand-theft-auto-v",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grand Theft Auto V",
+        "aliases": [
+          "GTA V",
+          "GTA 5",
+          "Grand Theft Auto 5"
+        ],
+        "hints": {
+          "easy": "Växla mellan tre brottslingar i Los Santos",
+          "normal": "Planera rån med olika angreppssätt",
+          "hard": "En linbana går ända upp på Mount Chiliad"
+        }
+      },
+      "en": {
+        "word": "Grand Theft Auto V",
+        "aliases": [
+          "GTA V",
+          "GTA 5",
+          "Grand Theft Auto 5"
+        ],
+        "hints": {
+          "easy": "Switch between three criminals in Los Santos",
+          "normal": "Plan heists with different approaches",
+          "hard": "A cable car reaches the top of Mount Chiliad"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-the-secret-of-monkey-island",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Secret of Monkey Island",
+        "aliases": [
+          "Monkey Island 1"
+        ],
+        "hints": {
+          "easy": "Guybrush vill bli pirat",
+          "normal": "Fäktning avgörs med förolämpningar",
+          "hard": "En dryck löser upp muggen"
+        }
+      },
+      "en": {
+        "word": "The Secret of Monkey Island",
+        "aliases": [
+          "Monkey Island 1"
+        ],
+        "hints": {
+          "easy": "Guybrush wants to become a pirate",
+          "normal": "Sword fights are settled with insults",
+          "hard": "A drink dissolves its own mug"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-grim-fandango",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grim Fandango",
+        "aliases": [],
+        "hints": {
+          "easy": "En skelettagent säljer resor till döda",
+          "normal": "Manny försöker lösa vart biljetterna tar vägen",
+          "hard": "Blommor är ett farligt tecken"
+        }
+      },
+      "en": {
+        "word": "Grim Fandango",
+        "aliases": [],
+        "hints": {
+          "easy": "A skeleton travel agent books trips for the dead",
+          "normal": "Manny investigates where the tickets go",
+          "hard": "Flowers are a dangerous sign"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-disco-elysium",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Disco Elysium",
+        "aliases": [],
+        "hints": {
+          "easy": "En polis med minnesluckor utreder ett mord",
+          "normal": "Färdigheter pratar inne i huvudet",
+          "hard": "En partner antecknar bakom glasögonen"
+        }
+      },
+      "en": {
+        "word": "Disco Elysium",
+        "aliases": [],
+        "hints": {
+          "easy": "An amnesiac cop investigates a murder",
+          "normal": "Skills speak up inside your head",
+          "hard": "A partner takes notes from behind his glasses"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-outer-wilds",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Outer Wilds",
+        "aliases": [],
+        "hints": {
+          "easy": "Utforska ett solsystem i en tidsslinga",
+          "normal": "Översätt spår efter Nomai",
+          "hard": "Sand flyttar sig mellan två himlakroppar"
+        }
+      },
+      "en": {
+        "word": "Outer Wilds",
+        "aliases": [],
+        "hints": {
+          "easy": "Explore a solar system in a time loop",
+          "normal": "Translate traces left by the Nomai",
+          "hard": "Sand moves between two celestial bodies"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-subnautica",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Subnautica",
+        "aliases": [],
+        "hints": {
+          "easy": "En skeppsbruten dykare bygger en undervattensbas",
+          "normal": "Samla resurser innan syret tar slut",
+          "hard": "Ett enormt vrak lyser vid ytan"
+        }
+      },
+      "en": {
+        "word": "Subnautica",
+        "aliases": [],
+        "hints": {
+          "easy": "A stranded diver builds a base underwater",
+          "normal": "Gather resources before the air runs out",
+          "hard": "A gigantic wreck glows at the surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-terraria",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Terraria",
+        "aliases": [],
+        "hints": {
+          "easy": "Gräv och bygg i en värld i sidovy",
+          "normal": "Förbered dig på att ett jätteöga anfaller",
+          "hard": "Bygg rum för guiden och andra inflyttare"
+        }
+      },
+      "en": {
+        "word": "Terraria",
+        "aliases": [],
+        "hints": {
+          "easy": "Dig and build in a side-view world",
+          "normal": "Prepare for a giant eye to attack",
+          "hard": "Build rooms for the guide and other arrivals"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-factorio",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Factorio",
+        "aliases": [],
+        "hints": {
+          "easy": "Automatisera en fabrik på en främmande planet",
+          "normal": "Mata maskinerna med transportband och griparmar",
+          "hard": "Järnvägskorsningar kan stoppa produktionen"
+        }
+      },
+      "en": {
+        "word": "Factorio",
+        "aliases": [],
+        "hints": {
+          "easy": "Automate a factory on an alien planet",
+          "normal": "Feed assemblers with belts and inserters",
+          "hard": "A rail junction can stall production"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-sid-meiers-civilization-vi",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sid Meier's Civilization VI",
+        "aliases": [
+          "Civilization VI",
+          "Civilization 6",
+          "Civ VI",
+          "Civ 6"
+        ],
+        "hints": {
+          "easy": "Bygg ett rike från forntid till modern tid",
+          "normal": "Stadsdistrikt breder ut sig över hexagoner",
+          "hard": "Välj politik med kort i olika färger"
+        }
+      },
+      "en": {
+        "word": "Sid Meier's Civilization VI",
+        "aliases": [
+          "Civilization VI",
+          "Civilization 6",
+          "Civ VI",
+          "Civ 6"
+        ],
+        "hints": {
+          "easy": "Build a civilization from ancient times to the modern age",
+          "normal": "City districts spread across hex tiles",
+          "hard": "Choose policies using color-coded cards"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-age-of-empires-ii",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Age of Empires II",
+        "aliases": [
+          "Age of Empires 2",
+          "AoE II",
+          "AoE 2"
+        ],
+        "hints": {
+          "easy": "Bygg en medeltida stad och armé i realtid",
+          "normal": "En bonde kan locka vildsvin till centrum",
+          "hard": "Ny teknik och fler trupper efter varje tidsålder"
+        }
+      },
+      "en": {
+        "word": "Age of Empires II",
+        "aliases": [
+          "Age of Empires 2",
+          "AoE II",
+          "AoE 2"
+        ],
+        "hints": {
+          "easy": "Build a medieval town and army in real time",
+          "normal": "A villager can lure a boar to the town center",
+          "hard": "A new age unlocks stronger troops"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-starcraft-ii",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "StarCraft II",
+        "aliases": [
+          "StarCraft 2",
+          "SC2"
+        ],
+        "hints": {
+          "easy": "Led Terran, Protoss eller Zerg",
+          "normal": "Spana innan du bestämmer vad basen behöver",
+          "hard": "Gasflödet avgör vilka enheter du har råd med"
+        }
+      },
+      "en": {
+        "word": "StarCraft II",
+        "aliases": [
+          "StarCraft 2",
+          "SC2"
+        ],
+        "hints": {
+          "easy": "Lead Terran, Protoss, or Zerg",
+          "normal": "Scout before you decide what your base needs",
+          "hard": "Your gas income determines which units you can afford"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-xcom-2",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "XCOM 2",
+        "aliases": [],
+        "hints": {
+          "easy": "Led en motståndsgrupp mot utomjordingar",
+          "normal": "Förflytta soldater ruta för ruta mellan skydd",
+          "hard": "En miss kan förstöra en omsorgsfull plan"
+        }
+      },
+      "en": {
+        "word": "XCOM 2",
+        "aliases": [],
+        "hints": {
+          "easy": "Lead a resistance force against alien occupiers",
+          "normal": "Move soldiers from cover to cover on a grid",
+          "hard": "A missed shot can wreck a careful plan"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-street-fighter-ii",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Street Fighter II",
+        "aliases": [
+          "Street Fighter 2",
+          "SF2"
+        ],
+        "hints": {
+          "easy": "Dueller med Ryu och Chun-Li",
+          "normal": "Särskilda attacker kräver rörelser och timing",
+          "hard": "Bonusbanan låter dig slå sönder en bil"
+        }
+      },
+      "en": {
+        "word": "Street Fighter II",
+        "aliases": [
+          "Street Fighter 2",
+          "SF2"
+        ],
+        "hints": {
+          "easy": "Duel as fighters like Ryu and Chun-Li",
+          "normal": "Special attacks take motion inputs and timing",
+          "hard": "A bonus round lets you smash a car"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-tekken-3",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tekken 3",
+        "aliases": [],
+        "hints": {
+          "easy": "Tredimensionella dueller med Mishima-familjen",
+          "normal": "Knapparna styr varsin arm eller fot",
+          "hard": "Sidosteg kan få ett rakt slag att missa"
+        }
+      },
+      "en": {
+        "word": "Tekken 3",
+        "aliases": [],
+        "hints": {
+          "easy": "Three-dimensional duels with the Mishima family",
+          "normal": "Buttons control individual limbs",
+          "hard": "Sidestep to make a straight attack miss"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-super-smash-bros-ultimate",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Super Smash Bros. Ultimate",
+        "aliases": [
+          "Smash Ultimate",
+          "SSBU"
+        ],
+        "hints": {
+          "easy": "Nintendofigurer slår varandra av plattformar",
+          "normal": "Ju högre procent desto längre flyger du",
+          "hard": "Hoppen tillbaka mot kanten är livsviktiga"
+        }
+      },
+      "en": {
+        "word": "Super Smash Bros. Ultimate",
+        "aliases": [
+          "Smash Ultimate",
+          "SSBU"
+        ],
+        "hints": {
+          "easy": "Nintendo characters knock opponents off platforms",
+          "normal": "Higher damage percentages mean longer launches",
+          "hard": "A recovery jump back to the ledge is vital"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-guitar-hero-iii",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Guitar Hero III: Legends of Rock",
+        "aliases": [
+          "Guitar Hero III",
+          "Guitar Hero 3"
+        ],
+        "hints": {
+          "easy": "Tryck rätt färg på plastgitarren",
+          "normal": "En lång not kan böjas med spaken",
+          "hard": "Ett gitarrsolo kan vara en duell"
+        }
+      },
+      "en": {
+        "word": "Guitar Hero III: Legends of Rock",
+        "aliases": [
+          "Guitar Hero III",
+          "Guitar Hero 3"
+        ],
+        "hints": {
+          "easy": "Hit the right fret color on a plastic guitar",
+          "normal": "The bar bends a sustained note",
+          "hard": "A guitar solo can turn into a duel"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-beat-saber",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Beat Saber",
+        "aliases": [],
+        "hints": {
+          "easy": "Klyv rytmiska block i VR",
+          "normal": "Pilar visar vilket håll du ska svinga",
+          "hard": "Väggar får spelaren att ducka eller väja"
+        }
+      },
+      "en": {
+        "word": "Beat Saber",
+        "aliases": [],
+        "hints": {
+          "easy": "Slice rhythmic blocks in VR",
+          "normal": "Arrows show the swing direction",
+          "hard": "Walls make you duck or lean aside"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-super-mario-odyssey",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Super Mario Odyssey",
+        "aliases": [],
+        "hints": {
+          "easy": "Kasta kepsen för att styra varelser",
+          "normal": "Leta efter kraftmånar i olika kungariken",
+          "hard": "En skyskrapestad bjuder på festival"
+        }
+      },
+      "en": {
+        "word": "Super Mario Odyssey",
+        "aliases": [],
+        "hints": {
+          "easy": "Throw your cap to take control of creatures",
+          "normal": "Look for Power Moons across kingdoms",
+          "hard": "A city of skyscrapers throws a festival"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-metroid-dread",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Metroid Dread",
+        "aliases": [],
+        "hints": {
+          "easy": "Samus utforskar planet ZDR i sidovy",
+          "normal": "Robotar jagar dig genom avspärrade zoner",
+          "hard": "Magneter hjälper dig klättra längs väggar"
+        }
+      },
+      "en": {
+        "word": "Metroid Dread",
+        "aliases": [],
+        "hints": {
+          "easy": "Samus explores planet ZDR from a side view",
+          "normal": "Robots hunt you in sealed-off zones",
+          "hard": "Magnets help you climb the walls"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-cuphead",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cuphead",
+        "aliases": [],
+        "hints": {
+          "easy": "Tecknade bossdueller i gammal filmstil",
+          "normal": "Parera rosa föremål för att fylla din mätare",
+          "hard": "En överenskommelse med djävulen skapar skulden"
+        }
+      },
+      "en": {
+        "word": "Cuphead",
+        "aliases": [],
+        "hints": {
+          "easy": "Cartoon boss fights in a vintage animation style",
+          "normal": "Parry pink objects to fill your meter",
+          "hard": "A deal with the Devil leaves a debt to pay"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-baba-is-you",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Baba Is You",
+        "aliases": [],
+        "hints": {
+          "easy": "Flytta ordbrickor för att ändra pusslets regler",
+          "normal": "Ett ordbyte kan göra dig till väggen",
+          "hard": "Se upp så att vinstvillkoret stannar kvar"
+        }
+      },
+      "en": {
+        "word": "Baba Is You",
+        "aliases": [],
+        "hints": {
+          "easy": "Push word tiles to rewrite a puzzle's rules",
+          "normal": "Swapping a word can make you the wall",
+          "hard": "Be careful to leave a way to win"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-dead-by-daylight",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dead by Daylight",
+        "aliases": [
+          "DBD"
+        ],
+        "hints": {
+          "easy": "Fyra överlevare försöker undkomma en mördare",
+          "normal": "Reparera generatorer för att få upp portarna",
+          "hard": "En krok ger laget ett svårt räddningsbeslut"
+        }
+      },
+      "en": {
+        "word": "Dead by Daylight",
+        "aliases": [
+          "DBD"
+        ],
+        "hints": {
+          "easy": "Four survivors try to escape one killer",
+          "normal": "Repair generators to open the exits",
+          "hard": "A hook leaves the team with a rescue decision"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-phasmophobia",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Phasmophobia",
+        "aliases": [],
+        "hints": {
+          "easy": "En grupp letar bevis på hemsökta platser",
+          "normal": "Använd en EMF-mätare nära aktivitet",
+          "hard": "Lastbilen är en plats för att jämföra fynd"
+        }
+      },
+      "en": {
+        "word": "Phasmophobia",
+        "aliases": [],
+        "hints": {
+          "easy": "A team looks for evidence at haunted sites",
+          "normal": "Use an EMF meter near activity",
+          "hard": "The truck is a place to compare findings"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-balatro",
+    "category": "games",
+    "subcategory": "games-titles",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Balatro",
+        "aliases": [],
+        "hints": {
+          "easy": "Bygg en lek kring pokerhänder och jokrar",
+          "normal": "Köp förbättringar mellan givar",
+          "hard": "En blind sätter poängmålet"
+        }
+      },
+      "en": {
+        "word": "Balatro",
+        "aliases": [],
+        "hints": {
+          "easy": "Build a deck around poker hands and jokers",
+          "normal": "Buy upgrades between rounds",
+          "hard": "A blind sets the score target"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-mario",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mario",
+        "aliases": [],
+        "hints": {
+          "easy": "Rödklädd hjälte som hoppar på fiender",
+          "normal": "Brukar färdas genom rör",
+          "hard": "En grön svamp kan ge honom ett extraliv"
+        }
+      },
+      "en": {
+        "word": "Mario",
+        "aliases": [],
+        "hints": {
+          "easy": "Red-clad hero who jumps on enemies",
+          "normal": "Often travels through pipes",
+          "hard": "A green mushroom can give him another life"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-luigi",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Luigi",
+        "aliases": [],
+        "hints": {
+          "easy": "Grönklädd bror till rörmokaren",
+          "normal": "Spökjakt med en speciell dammsugare",
+          "hard": "Den längre av två mustaschprydda bröder"
+        }
+      },
+      "en": {
+        "word": "Luigi",
+        "aliases": [],
+        "hints": {
+          "easy": "The plumber's brother dressed in green",
+          "normal": "Hunts ghosts using a special vacuum",
+          "hard": "The taller of two mustached brothers"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-princess-peach",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Prinsessan Peach",
+        "aliases": [],
+        "hints": {
+          "easy": "Rosa klänning och krona i Svampriket",
+          "normal": "Kan sväva en stund efter ett hopp",
+          "hard": "Slottet har stjärnor inbyggda i tavlor"
+        }
+      },
+      "en": {
+        "word": "Princess Peach",
+        "aliases": [],
+        "hints": {
+          "easy": "Pink dress and a crown in the Mushroom Kingdom",
+          "normal": "Can float for a moment after jumping",
+          "hard": "Her castle has stars hidden in paintings"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-bowser",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bowser",
+        "aliases": [
+          "King Koopa"
+        ],
+        "hints": {
+          "easy": "Taggigt skal och eld i munnen",
+          "normal": "Härskar över en armé av Koopas",
+          "hard": "Borgar med lava och vindbryggor"
+        }
+      },
+      "en": {
+        "word": "Bowser",
+        "aliases": [
+          "King Koopa"
+        ],
+        "hints": {
+          "easy": "Spiked shell and fiery breath",
+          "normal": "Rules over an army of Koopas",
+          "hard": "Castles full of lava and drawbridges"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-yoshi",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Yoshi",
+        "aliases": [],
+        "hints": {
+          "easy": "Grön dinosaurie som bär Mario",
+          "normal": "En lång tunga fångar fiender",
+          "hard": "Prickiga ägg fungerar som projektiler"
+        }
+      },
+      "en": {
+        "word": "Yoshi",
+        "aliases": [],
+        "hints": {
+          "easy": "Green dinosaur that carries Mario",
+          "normal": "A long tongue grabs enemies",
+          "hard": "Spotted eggs double as projectiles"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-kirby",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kirby",
+        "aliases": [],
+        "hints": {
+          "easy": "Rosa hjälte som suger in fiender",
+          "normal": "Kopierar andras krafter",
+          "hard": "Kan blåsa upp sig och sväva"
+        }
+      },
+      "en": {
+        "word": "Kirby",
+        "aliases": [],
+        "hints": {
+          "easy": "Pink hero who inhales enemies",
+          "normal": "Copies other creatures' abilities",
+          "hard": "Puffs up to float through the air"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-donkey-kong",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Donkey Kong",
+        "aliases": [
+          "DK"
+        ],
+        "hints": {
+          "easy": "Gorilla med röd slips",
+          "normal": "Bananförrådet måste beskyddas",
+          "hard": "En tunna kan bli en katapult"
+        }
+      },
+      "en": {
+        "word": "Donkey Kong",
+        "aliases": [
+          "DK"
+        ],
+        "hints": {
+          "easy": "Gorilla wearing a red tie",
+          "normal": "His banana hoard needs guarding",
+          "hard": "A barrel can be a makeshift catapult"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-link",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Link",
+        "aliases": [],
+        "hints": {
+          "easy": "Hjälten som ofta bär grön luva i Hyrule",
+          "normal": "Krossar krukor på vägen",
+          "hard": "En fe kan fungera som vägvisare"
+        }
+      },
+      "en": {
+        "word": "Link",
+        "aliases": [],
+        "hints": {
+          "easy": "Hyrule's hero often wears a green cap",
+          "normal": "Smashes pots on his travels",
+          "hard": "A fairy can serve as his guide"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-princess-zelda",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Prinsessan Zelda",
+        "aliases": [
+          "Zelda"
+        ],
+        "hints": {
+          "easy": "Kunglig arvtagare i Hyrule",
+          "normal": "Kan anta identiteten Sheik",
+          "hard": "Förknippas med visdomens heliga triangel"
+        }
+      },
+      "en": {
+        "word": "Princess Zelda",
+        "aliases": [
+          "Zelda"
+        ],
+        "hints": {
+          "easy": "Royal heir to Hyrule",
+          "normal": "Sometimes assumes the identity of Sheik",
+          "hard": "Associated with the sacred triangle of wisdom"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-ganondorf",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ganondorf",
+        "aliases": [
+          "Ganon"
+        ],
+        "hints": {
+          "easy": "Gerudokung som hotar Hyrule",
+          "normal": "Har en mäktig gestalt som liknar ett vildsvin",
+          "hard": "Styrkans triangel är förknippad med honom"
+        }
+      },
+      "en": {
+        "word": "Ganondorf",
+        "aliases": [
+          "Ganon"
+        ],
+        "hints": {
+          "easy": "A Gerudo king who threatens Hyrule",
+          "normal": "Has a powerful boar-like form",
+          "hard": "The triangle of power is associated with him"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-samus-aran",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Samus Aran",
+        "aliases": [
+          "Samus"
+        ],
+        "hints": {
+          "easy": "Prisjägare med bepansrad dräkt och armkanon",
+          "normal": "Rullar ihop sig för att passera trånga gångar",
+          "hard": "Rymdpirater möter henne på Zebes"
+        }
+      },
+      "en": {
+        "word": "Samus Aran",
+        "aliases": [
+          "Samus"
+        ],
+        "hints": {
+          "easy": "Armored bounty hunter with an arm cannon",
+          "normal": "Rolls up to fit through narrow passages",
+          "hard": "Space Pirates encounter her on Zebes"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-pikachu",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pikachu",
+        "aliases": [],
+        "hints": {
+          "easy": "Gul och laddar elektricitet i kinderna",
+          "normal": "Har en taggig svans",
+          "hard": "Med en åsksten väntar en större form"
+        }
+      },
+      "en": {
+        "word": "Pikachu",
+        "aliases": [],
+        "hints": {
+          "easy": "Yellow with cheeks that store electricity",
+          "normal": "Has a jagged tail",
+          "hard": "A Thunder Stone brings a larger form"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-eevee",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Eevee",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten brun Pokémon med många utvecklingar",
+          "normal": "Vänskap eller stenar påverkar vad den blir",
+          "hard": "Stor krage av ljus päls"
+        }
+      },
+      "en": {
+        "word": "Eevee",
+        "aliases": [],
+        "hints": {
+          "easy": "Small brown Pokémon with many evolutions",
+          "normal": "Friendship or stones can shape its future",
+          "hard": "A large ruff of pale fur"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-mewtwo",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mewtwo",
+        "aliases": [],
+        "hints": {
+          "easy": "Laboratorieskapad Pokémon med psykiska krafter",
+          "normal": "Påträffas i en grotta nära Cerulean City",
+          "hard": "Tre runda fingrar på varje hand"
+        }
+      },
+      "en": {
+        "word": "Mewtwo",
+        "aliases": [],
+        "hints": {
+          "easy": "Lab-created Pokémon with psychic abilities",
+          "normal": "Found in a cave near Cerulean City",
+          "hard": "Three round fingers on each hand"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-sonic",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sonic",
+        "aliases": [
+          "Sonic the Hedgehog"
+        ],
+        "hints": {
+          "easy": "Blå igelkott som springer genom loopar",
+          "normal": "Samlar ringar längs banan",
+          "hard": "Robotar drivs ibland av djur som han befriar"
+        }
+      },
+      "en": {
+        "word": "Sonic",
+        "aliases": [
+          "Sonic the Hedgehog"
+        ],
+        "hints": {
+          "easy": "Blue hedgehog who races through loops",
+          "normal": "Collects rings along the way",
+          "hard": "Some robots run on animals he frees"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-dr-eggman",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dr. Eggman",
+        "aliases": [
+          "Doctor Eggman",
+          "Dr. Robotnik",
+          "Doctor Robotnik"
+        ],
+        "hints": {
+          "easy": "Igelkottens mustaschprydde ärkefiende",
+          "normal": "Styr robotar från flygande farkoster",
+          "hard": "Storslagna planer kretsar ofta kring juveler"
+        }
+      },
+      "en": {
+        "word": "Dr. Eggman",
+        "aliases": [
+          "Doctor Eggman",
+          "Dr. Robotnik",
+          "Doctor Robotnik"
+        ],
+        "hints": {
+          "easy": "The hedgehog's mustached nemesis",
+          "normal": "Pilots machines from flying craft",
+          "hard": "His grand plans often revolve around gems"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-lara-croft",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lara Croft",
+        "aliases": [],
+        "hints": {
+          "easy": "Arkeolog som klättrar genom gamla gravar",
+          "normal": "Dubbla pistoler hör till den klassiska figuren",
+          "hard": "En brittisk herrgård blir hennes träningsplats"
+        }
+      },
+      "en": {
+        "word": "Lara Croft",
+        "aliases": [],
+        "hints": {
+          "easy": "Archaeologist who climbs through ancient tombs",
+          "normal": "Twin pistols are part of her classic look",
+          "hard": "A British manor doubles as a training ground"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-nathan-drake",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Nathan Drake",
+        "aliases": [
+          "Nate Drake"
+        ],
+        "hints": {
+          "easy": "Skattjägare som utforskar El Dorado",
+          "normal": "Klättrar sida vid sida med Sully eller Elena",
+          "hard": "Skämtar när sprången nästan misslyckas"
+        }
+      },
+      "en": {
+        "word": "Nathan Drake",
+        "aliases": [
+          "Nate Drake"
+        ],
+        "hints": {
+          "easy": "Treasure hunter who explores El Dorado",
+          "normal": "Climbs alongside Sully or Elena",
+          "hard": "Jokes when a leap nearly goes wrong"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-master-chief",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Master Chief",
+        "aliases": [
+          "John-117"
+        ],
+        "hints": {
+          "easy": "Grön rustning med guldvisir",
+          "normal": "Får råd av Cortana",
+          "hard": "Utbildad i Spartan-programmet"
+        }
+      },
+      "en": {
+        "word": "Master Chief",
+        "aliases": [
+          "John-117"
+        ],
+        "hints": {
+          "easy": "Green armor with a gold visor",
+          "normal": "Gets advice from Cortana",
+          "hard": "Trained in the Spartan program"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-gordon-freeman",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gordon Freeman",
+        "aliases": [
+          "Freeman"
+        ],
+        "hints": {
+          "easy": "Fysiker i orange skyddsdräkt",
+          "normal": "En kofot följer med från Black Mesa",
+          "hard": "En man med portfölj dyker upp i hans närhet"
+        }
+      },
+      "en": {
+        "word": "Gordon Freeman",
+        "aliases": [
+          "Freeman"
+        ],
+        "hints": {
+          "easy": "Physicist in an orange hazard suit",
+          "normal": "A crowbar comes along from Black Mesa",
+          "hard": "A man with a briefcase appears nearby"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-glados",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "GLaDOS",
+        "aliases": [],
+        "hints": {
+          "easy": "Spydig AI övervakar Apertures testkamrar",
+          "normal": "Har en kort period som potatis",
+          "hard": "Lovar en belöning som kan vara påhittad"
+        }
+      },
+      "en": {
+        "word": "GLaDOS",
+        "aliases": [],
+        "hints": {
+          "easy": "Sarcastic AI oversees Aperture's test chambers",
+          "normal": "Spends a while as a potato",
+          "hard": "Promises a reward that may be made up"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-chell",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Chell",
+        "aliases": [],
+        "hints": {
+          "easy": "Tyst försöksperson i Apertures labb",
+          "normal": "Vita stövlar hjälper vid långa fall",
+          "hard": "Bär en orange fångdräkt i första spelet"
+        }
+      },
+      "en": {
+        "word": "Chell",
+        "aliases": [],
+        "hints": {
+          "easy": "Silent test subject in the Aperture labs",
+          "normal": "White boots help her survive long drops",
+          "hard": "Wears an orange jumpsuit in the first game"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-kratos",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kratos",
+        "aliases": [],
+        "hints": {
+          "easy": "Krigare med röd tatuering och askvit hud",
+          "normal": "Tar med sig Atreus genom de nordiska rikena",
+          "hard": "Kedjorna hör till ett äldre löfte"
+        }
+      },
+      "en": {
+        "word": "Kratos",
+        "aliases": [],
+        "hints": {
+          "easy": "Warrior with red tattoos and ash-white skin",
+          "normal": "Travels through the Norse realms with Atreus",
+          "hard": "The chains tie back to an old pledge"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-aloy",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Aloy",
+        "aliases": [],
+        "hints": {
+          "easy": "Rödhårig jägarinna bland djurlika maskiner",
+          "normal": "Växte upp som utstött nära Nora",
+          "hard": "En liten apparat vid tinningen läser lämningar"
+        }
+      },
+      "en": {
+        "word": "Aloy",
+        "aliases": [],
+        "hints": {
+          "easy": "Red-haired huntress among animal-like machines",
+          "normal": "Grew up as an outcast near the Nora",
+          "hard": "A small device at her temple reads old traces"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-jin-sakai",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jin Sakai",
+        "aliases": [],
+        "hints": {
+          "easy": "Samuraj som försvarar Tsushima",
+          "normal": "Lär sig smyga när hederskoden sviker",
+          "hard": "En dikt kan komponeras vid en plats för eftertanke"
+        }
+      },
+      "en": {
+        "word": "Jin Sakai",
+        "aliases": [],
+        "hints": {
+          "easy": "Samurai defending Tsushima",
+          "normal": "Learns stealth when his code falls short",
+          "hard": "A spot for reflection lets him compose a poem"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-tom-nook",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tom Nook",
+        "aliases": [],
+        "hints": {
+          "easy": "Ordnar hus och lån åt spelaren",
+          "normal": "Står bakom semesteröprojektet med två små assistenter",
+          "hard": "Ser ut som en tanuki i skjorta"
+        }
+      },
+      "en": {
+        "word": "Tom Nook",
+        "aliases": [],
+        "hints": {
+          "easy": "Arranges the player's housing and loans",
+          "normal": "Runs an island getaway with two young assistants",
+          "hard": "Looks like a tanuki wearing a shirt"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-isabelle",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Isabelle",
+        "aliases": [],
+        "hints": {
+          "easy": "Gul hund som hjälper till med öns administration",
+          "normal": "Rapporterar nyheter till öns invånare",
+          "hard": "Har ett litet bjällerband i håret"
+        }
+      },
+      "en": {
+        "word": "Isabelle",
+        "aliases": [],
+        "hints": {
+          "easy": "Yellow dog who helps run the island",
+          "normal": "Reads the daily island announcements",
+          "hard": "A little bell band holds her hair up"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-chun-li",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Chun-Li",
+        "aliases": [
+          "Chun Li"
+        ],
+        "hints": {
+          "easy": "Kämpe känd för blixtsnabba sparkar",
+          "normal": "Bär ofta blå klänning och hårknutar",
+          "hard": "En Interpolagent i kamp mot Shadaloo"
+        }
+      },
+      "en": {
+        "word": "Chun-Li",
+        "aliases": [
+          "Chun Li"
+        ],
+        "hints": {
+          "easy": "Fighter known for lightning-fast kicks",
+          "normal": "Often wears a blue dress and hair buns",
+          "hard": "An Interpol officer taking on Shadaloo"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-ryu",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ryu",
+        "aliases": [],
+        "hints": {
+          "easy": "Vandrande kämpe med rött pannband",
+          "normal": "Skickar iväg ett energiklot mellan händerna",
+          "hard": "Söker ständigt ett starkare motstånd"
+        }
+      },
+      "en": {
+        "word": "Ryu",
+        "aliases": [],
+        "hints": {
+          "easy": "Wandering fighter with a red headband",
+          "normal": "Fires a ball of energy from between his hands",
+          "hard": "Always looking for a stronger opponent"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-ken-masters",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ken Masters",
+        "aliases": [
+          "Ken"
+        ],
+        "hints": {
+          "easy": "Blond kämpe i röd dräkt",
+          "normal": "Har tränat samma kampsätt som Ryu",
+          "hard": "En stigande uppercut kan slå gnistor"
+        }
+      },
+      "en": {
+        "word": "Ken Masters",
+        "aliases": [
+          "Ken"
+        ],
+        "hints": {
+          "easy": "Blond fighter wearing a red gi",
+          "normal": "Trained in the same style as Ryu",
+          "hard": "A rising uppercut can throw off sparks"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-arthur-morgan",
+    "category": "games",
+    "subcategory": "games-characters",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Arthur Morgan",
+        "aliases": [],
+        "hints": {
+          "easy": "Laglös medlem i Dutchs gäng",
+          "normal": "Ritar vad han ser under ritten",
+          "hard": "Konflikten mellan lojalitet och samvete växer"
+        }
+      },
+      "en": {
+        "word": "Arthur Morgan",
+        "aliases": [],
+        "hints": {
+          "easy": "Outlaw in Dutch's gang",
+          "normal": "Sketches what he sees on the trail",
+          "hard": "Loyalty and conscience pull him apart"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-super-mushroom",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Super Mushroom",
+        "aliases": [],
+        "hints": {
+          "easy": "Finns i frågeteckenblock och får Mario att växa",
+          "normal": "Röd hatt med vita prickar",
+          "hard": "Ger en liten rörmokare chans att tåla en träff"
+        }
+      },
+      "en": {
+        "word": "Super Mushroom",
+        "aliases": [],
+        "hints": {
+          "easy": "Makes Mario grow when found in a question block",
+          "normal": "Red cap with white spots",
+          "hard": "Lets a small plumber take a hit"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-fire-flower",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fire Flower",
+        "aliases": [],
+        "hints": {
+          "easy": "En kraft som låter Mario kasta glödande klot",
+          "normal": "Projektilerna studsar över marken",
+          "hard": "Rörmokaren byter ofta till vitt och rött"
+        }
+      },
+      "en": {
+        "word": "Fire Flower",
+        "aliases": [],
+        "hints": {
+          "easy": "A power-up that lets Mario throw blazing spheres",
+          "normal": "Projectiles bounce along the ground",
+          "hard": "The plumber often swaps to red and white"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-spiny-shell",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Blått skal",
+        "aliases": [
+          "Det blå skalet",
+          "Blå skalet"
+        ],
+        "hints": {
+          "easy": "Jagar den som leder ett gokartlopp",
+          "normal": "Landar med en smäll över föraren",
+          "hard": "Plötsligt vill man hellre ligga tvåa"
+        }
+      },
+      "en": {
+        "word": "Spiny Shell",
+        "aliases": [
+          "Blue Shell"
+        ],
+        "hints": {
+          "easy": "Targets the leader in a kart race",
+          "normal": "Comes down with a blast over the driver",
+          "hard": "Suddenly second place looks better"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-power-star",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Power Star",
+        "aliases": [],
+        "hints": {
+          "easy": "Samlarobjekt som öppnar fler rum i Peach slott",
+          "normal": "En belöning för banmålen i Super Mario 64",
+          "hard": "Tavlorna leder till fler av dem"
+        }
+      },
+      "en": {
+        "word": "Power Star",
+        "aliases": [],
+        "hints": {
+          "easy": "Collectible that opens more rooms in Peach's castle",
+          "normal": "Reward for objectives in Super Mario 64",
+          "hard": "Paintings lead to more of them"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-triforce",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Triforce",
+        "aliases": [],
+        "hints": {
+          "easy": "Tre gyllene trianglar från Hyrule",
+          "normal": "Mod, visdom och styrka har varsin del",
+          "hard": "En komplett symbol kan uppfylla en önskan"
+        }
+      },
+      "en": {
+        "word": "Triforce",
+        "aliases": [],
+        "hints": {
+          "easy": "Three golden triangles from Hyrule",
+          "normal": "Courage, wisdom, and power each have a piece",
+          "hard": "The complete symbol can grant a wish"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-master-sword",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Master Sword",
+        "aliases": [],
+        "hints": {
+          "easy": "Links legendariska vapen mot mörkret",
+          "normal": "Dras ur en sockel av den värdige",
+          "hard": "I vissa äventyr väntar den i en glänta"
+        }
+      },
+      "en": {
+        "word": "Master Sword",
+        "aliases": [],
+        "hints": {
+          "easy": "Link's legendary weapon against darkness",
+          "normal": "Pulled from a pedestal by a worthy hero",
+          "hard": "In some adventures it waits in a forest clearing"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-hylian-shield",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hylian Shield",
+        "aliases": [],
+        "hints": {
+          "easy": "Links blå försvar med röd fågel",
+          "normal": "En gyllene triangel sitter ovanför fågeln",
+          "hard": "Ett välkänt skydd i Hyrule"
+        }
+      },
+      "en": {
+        "word": "Hylian Shield",
+        "aliases": [],
+        "hints": {
+          "easy": "Link's blue guard with a red bird",
+          "normal": "A golden triangle sits above the bird",
+          "hard": "Familiar defensive gear from Hyrule"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-hookshot",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hookshot",
+        "aliases": [],
+        "hints": {
+          "easy": "Avfyrar en krok som drar Link över stup",
+          "normal": "Fäster i vissa måltavlor på väggar",
+          "hard": "En kedja spänns när avståndet krymper"
+        }
+      },
+      "en": {
+        "word": "Hookshot",
+        "aliases": [],
+        "hints": {
+          "easy": "Fires a grappling hook that pulls Link over drops",
+          "normal": "Latches onto certain wall targets",
+          "hard": "A chain tightens as the gap closes"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-sheikah-slate",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sheikah Slate",
+        "aliases": [],
+        "hints": {
+          "easy": "Links handhållna redskap i Breath of the Wild",
+          "normal": "Aktiverar runor som Magnesis",
+          "hard": "Registrerar kartor från höga torn"
+        }
+      },
+      "en": {
+        "word": "Sheikah Slate",
+        "aliases": [],
+        "hints": {
+          "easy": "Link's handheld tool in Breath of the Wild",
+          "normal": "Runs abilities such as Magnesis",
+          "hard": "Receives map data from tall towers"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-poke-ball",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Poké Ball",
+        "aliases": [
+          "Pokeball",
+          "Pokéball",
+          "Poke Ball"
+        ],
+        "hints": {
+          "easy": "Röd och vit kapsel som fångar Pokémon",
+          "normal": "En knapp sitter i mitten",
+          "hard": "Tre skakningar kan kännas långa"
+        }
+      },
+      "en": {
+        "word": "Poké Ball",
+        "aliases": [
+          "Pokeball",
+          "Pokéball",
+          "Poke Ball"
+        ],
+        "hints": {
+          "easy": "Red and white capsule used to catch Pokémon",
+          "normal": "A button sits in the center",
+          "hard": "Three shakes can feel like a long wait"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-master-ball",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Master Ball",
+        "aliases": [],
+        "hints": {
+          "easy": "En lila kapsel som fångar utan att misslyckas",
+          "normal": "Vit bokstav på ovansidan",
+          "hard": "Många sparar den för en legendar"
+        }
+      },
+      "en": {
+        "word": "Master Ball",
+        "aliases": [],
+        "hints": {
+          "easy": "Purple capsule that catches without fail",
+          "normal": "A white letter on top",
+          "hard": "Many save it for a Legendary"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-pokedex",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pokédex",
+        "aliases": [
+          "Pokedex"
+        ],
+        "hints": {
+          "easy": "Digital katalog över Pokémon som du möter",
+          "normal": "Visar typ och data för olika arter",
+          "hard": "Gåvan från professorn fylls efter hand"
+        }
+      },
+      "en": {
+        "word": "Pokédex",
+        "aliases": [
+          "Pokedex"
+        ],
+        "hints": {
+          "easy": "Digital catalog of Pokémon you encounter",
+          "normal": "Shows types and data for different species",
+          "hard": "The professor's gift fills in as you go"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-portal-gun",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Portal Gun",
+        "aliases": [
+          "Aperture Science Handheld Portal Device"
+        ],
+        "hints": {
+          "easy": "Avfyrar två sammanlänkade öppningar mot ytor",
+          "normal": "Hastigheten från ett fall kan driva nästa språng",
+          "hard": "Orange och blått visar vägens båda ändar"
+        }
+      },
+      "en": {
+        "word": "Portal Gun",
+        "aliases": [
+          "Aperture Science Handheld Portal Device"
+        ],
+        "hints": {
+          "easy": "Shoots two linked openings onto surfaces",
+          "normal": "Speed from a fall can power the next jump",
+          "hard": "Orange and blue mark each end of the route"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-gravity-gun",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gravity Gun",
+        "aliases": [
+          "Zero Point Energy Field Manipulator"
+        ],
+        "hints": {
+          "easy": "Lyfter lösa föremål i Half-Life 2",
+          "normal": "Sågblad blir användbara i Ravenholm",
+          "hard": "En låda kan fungera som sköld eller ammunition"
+        }
+      },
+      "en": {
+        "word": "Gravity Gun",
+        "aliases": [
+          "Zero Point Energy Field Manipulator"
+        ],
+        "hints": {
+          "easy": "Picks up loose objects in Half-Life 2",
+          "normal": "Saw blades come in handy in Ravenholm",
+          "hard": "A crate doubles as cover or ammunition"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-leviathan-axe",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Leviathan Axe",
+        "aliases": [],
+        "hints": {
+          "easy": "Kratos kastvapen som flyger tillbaka till handen",
+          "normal": "Frost kan frysa en mekanism i rörelse",
+          "hard": "Smitt av dvärgbröder"
+        }
+      },
+      "en": {
+        "word": "Leviathan Axe",
+        "aliases": [],
+        "hints": {
+          "easy": "Kratos's throwing weapon flies back to his hand",
+          "normal": "Frost can freeze a moving mechanism",
+          "hard": "Forged by dwarven brothers"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-blades-of-chaos",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Blades of Chaos",
+        "aliases": [],
+        "hints": {
+          "easy": "Kratos gamla vapen hänger i kedjor",
+          "normal": "Svep kan ge träff mot flera fiender",
+          "hard": "Eld tar hand om vissa hinder"
+        }
+      },
+      "en": {
+        "word": "Blades of Chaos",
+        "aliases": [],
+        "hints": {
+          "easy": "Kratos's old weapons hang from chains",
+          "normal": "Sweeps can hit several foes at once",
+          "hard": "Flames can clear certain obstacles"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-morph-ball",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Morph Ball",
+        "aliases": [],
+        "hints": {
+          "easy": "Samus rullar ihop dräkten för låga tunnlar",
+          "normal": "Små bomber kan ge ett uppåtsprång",
+          "hard": "I Dread kan en glidning övergå i den här formen"
+        }
+      },
+      "en": {
+        "word": "Morph Ball",
+        "aliases": [],
+        "hints": {
+          "easy": "Samus curls up her suit for low tunnels",
+          "normal": "Small bombs can launch her upward",
+          "hard": "In Dread, a slide can lead into this form"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-needler",
+    "category": "games",
+    "subcategory": "games-items",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Needler",
+        "aliases": [],
+        "hints": {
+          "easy": "Vapen i Halo med lysande rosa kristaller",
+          "normal": "Skotten viker av mot målet",
+          "hard": "Tillräckligt många skärvor utlöser en explosion"
+        }
+      },
+      "en": {
+        "word": "Needler",
+        "aliases": [],
+        "hints": {
+          "easy": "Halo weapon loaded with bright pink crystals",
+          "normal": "Shots bend toward their target",
+          "hard": "Enough embedded shards set off an explosion"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-speedrun",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Speedrun",
+        "aliases": [],
+        "hints": {
+          "easy": "Försök klara spelet på rekordtid",
+          "normal": "Jaga kortare mellantider på en inövad rutt",
+          "hard": "Tävlingskategorier kan tillåta helt olika genvägar"
+        }
+      },
+      "en": {
+        "word": "Speedrun",
+        "aliases": [],
+        "hints": {
+          "easy": "Try to finish a game in record time",
+          "normal": "Chase better splits along a rehearsed route",
+          "hard": "Categories can allow wildly different shortcuts"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-time-trial",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tidtagning",
+        "aliases": [
+          "Time Attack"
+        ],
+        "hints": {
+          "easy": "Sätt ett snabbt varv utan vanlig motståndarklunga",
+          "normal": "Jämför med en genomskinlig uppspelning av förra försöket",
+          "hard": "En bättre linje genom kurvan kan räcka"
+        }
+      },
+      "en": {
+        "word": "Time Trial",
+        "aliases": [
+          "Time Attack"
+        ],
+        "hints": {
+          "easy": "Set a fast lap without the usual pack of rivals",
+          "normal": "Compare against a ghost of your previous attempt",
+          "hard": "A better line through one corner can be enough"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-boss-fight",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bossstrid",
+        "aliases": [
+          "Bossfight"
+        ],
+        "hints": {
+          "easy": "En stark fiende med eget attackmönster",
+          "normal": "En lång hälsomätare kan dyka upp",
+          "hard": "Nästa fas börjar ofta när fienden är skadad"
+        }
+      },
+      "en": {
+        "word": "Boss Fight",
+        "aliases": [
+          "Boss Battle"
+        ],
+        "hints": {
+          "easy": "A powerful enemy has a dedicated attack pattern",
+          "normal": "A long health bar might appear",
+          "hard": "The next phase often starts once the enemy is hurt"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-new-game-plus",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "New Game Plus",
+        "aliases": [
+          "New Game+",
+          "NG+"
+        ],
+        "hints": {
+          "easy": "Starta om äventyret med upplåsta saker kvar",
+          "normal": "Första banan kan möta en redan stark hjälte",
+          "hard": "Efter eftertexterna väntar en ny genomspelning"
+        }
+      },
+      "en": {
+        "word": "New Game Plus",
+        "aliases": [
+          "New Game+",
+          "NG+"
+        ],
+        "hints": {
+          "easy": "Restart the adventure while keeping unlocks",
+          "normal": "The first level can greet an already powerful hero",
+          "hard": "After the credits comes another playthrough"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-permadeath",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Permanent död",
+        "aliases": [
+          "Permadeath"
+        ],
+        "hints": {
+          "easy": "Ett dödsfall tar bort din spelbara figur för gott",
+          "normal": "En dyr utrustning kan försvinna i samma stund",
+          "hard": "Spelaren måste väga varje risk hårdare"
+        }
+      },
+      "en": {
+        "word": "Permadeath",
+        "aliases": [
+          "Perma Death"
+        ],
+        "hints": {
+          "easy": "A death removes your playable character for good",
+          "normal": "Expensive gear can vanish along with them",
+          "hard": "The player must weigh each risk more carefully"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-respawn",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Respawn",
+        "aliases": [],
+        "hints": {
+          "easy": "Spelaren dyker upp igen efter att ha slagits ut",
+          "normal": "Laget räknar ned tills du kan spela vidare",
+          "hard": "En säker startplats ger chans att hämta andan"
+        }
+      },
+      "en": {
+        "word": "Respawn",
+        "aliases": [],
+        "hints": {
+          "easy": "A player returns after being knocked out",
+          "normal": "Your team counts down until you can rejoin",
+          "hard": "A safe starting spot gives you a breather"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-checkpoint",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Checkpoint",
+        "aliases": [],
+        "hints": {
+          "easy": "Punkt på banan där ett nytt försök kan börja",
+          "normal": "Ett bakslag kostar bara den sista sträckan",
+          "hard": "En passerad flagga kan markera framstegen"
+        }
+      },
+      "en": {
+        "word": "Checkpoint",
+        "aliases": [],
+        "hints": {
+          "easy": "A spot in a level where a retry can begin",
+          "normal": "A setback only costs the last stretch",
+          "hard": "Passing a flag can mark your progress"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-quick-time-event",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Quick Time Event",
+        "aliases": [
+          "QTE",
+          "Quick-Time Event"
+        ],
+        "hints": {
+          "easy": "Tryck knappen som plötsligt visas på skärmen",
+          "normal": "En filmsekvens kräver snabba händer",
+          "hard": "En tom tidsmätare kan få hjälten att tappa greppet"
+        }
+      },
+      "en": {
+        "word": "Quick Time Event",
+        "aliases": [
+          "QTE",
+          "Quick-Time Event"
+        ],
+        "hints": {
+          "easy": "Press the button that suddenly appears on-screen",
+          "normal": "A cutscene demands quick hands",
+          "hard": "An empty timer can make the hero lose their grip"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-split-screen",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Delad skärm",
+        "aliases": [
+          "Splitscreen",
+          "Split Screen"
+        ],
+        "hints": {
+          "easy": "Två spelare får varsin vy på samma tv",
+          "normal": "En linje mellan bilderna delar upp soffspelet",
+          "hard": "Den andras hörn kan avslöja var hen gömmer sig"
+        }
+      },
+      "en": {
+        "word": "Split-screen",
+        "aliases": [
+          "Splitscreen",
+          "Split Screen"
+        ],
+        "hints": {
+          "easy": "Two players get separate views on one TV",
+          "normal": "A line between the pictures divides couch play",
+          "hard": "Another corner can reveal where the rival is hiding"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-matchmaking",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Matchmaking",
+        "aliases": [],
+        "hints": {
+          "easy": "Systemet söker andra spelare inför matchen",
+          "normal": "Ranking kan användas för att hitta jämnt motstånd",
+          "hard": "En kö väger ofta väntetid mot skicklighet"
+        }
+      },
+      "en": {
+        "word": "Matchmaking",
+        "aliases": [],
+        "hints": {
+          "easy": "The system looks for people to start a match",
+          "normal": "Rank can help find evenly matched opponents",
+          "hard": "A queue often balances wait time against skill"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-battle-royale",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Battle Royale",
+        "aliases": [],
+        "hints": {
+          "easy": "Många startar och det gäller att överleva längst",
+          "normal": "En krympande zon pressar ihop deltagarna",
+          "hard": "Tidigt lönar det sig ofta att leta utrustning"
+        }
+      },
+      "en": {
+        "word": "Battle Royale",
+        "aliases": [],
+        "hints": {
+          "easy": "Many start and the aim is to survive the longest",
+          "normal": "A shrinking zone squeezes contenders together",
+          "hard": "Early on it often pays to scavenge for gear"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-side-quest",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sidouppdrag",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett frivilligt uppdrag utanför huvudberättelsen",
+          "normal": "Kan börja med att en bybo ber om hjälp",
+          "hard": "Belöningen får ofta hjälten att ta en omväg"
+        }
+      },
+      "en": {
+        "word": "Side Quest",
+        "aliases": [
+          "Secondary Quest"
+        ],
+        "hints": {
+          "easy": "An optional task outside the main story",
+          "normal": "It can begin when a villager asks for help",
+          "hard": "The reward often justifies a detour"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-fast-travel",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Snabbresa",
+        "aliases": [],
+        "hints": {
+          "easy": "Hoppa till en känd plats via kartan",
+          "normal": "En upptäckt station kan korta nästa tur",
+          "hard": "Långa återbesök tar mycket mindre tid"
+        }
+      },
+      "en": {
+        "word": "Fast Travel",
+        "aliases": [],
+        "hints": {
+          "easy": "Jump to a known place through the map",
+          "normal": "Discovering a station can shorten the next trip",
+          "hard": "Long return journeys take much less time"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-metroidvania",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Metroidvania",
+        "aliases": [],
+        "hints": {
+          "easy": "Nya förmågor öppnar tidigare blockerade vägar",
+          "normal": "Kartan slingrar tillbaka till gamla rum",
+          "hard": "En högt sittande avsats kan behöva vänta"
+        }
+      },
+      "en": {
+        "word": "Metroidvania",
+        "aliases": [],
+        "hints": {
+          "easy": "New abilities open previously blocked routes",
+          "normal": "The map loops back through old rooms",
+          "hard": "A high ledge may have to wait"
+        }
+      }
+    }
+  },
+  {
+    "id": "games-roguelike",
+    "category": "games",
+    "subcategory": "games-concepts",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Roguelike",
+        "aliases": [],
+        "hints": {
+          "easy": "Starta en ny runda efter nederlag",
+          "normal": "Slumpen kan lägga om vägen och utrustningen",
+          "hard": "Två försök kan tvinga fram helt olika planer"
+        }
+      },
+      "en": {
+        "word": "Roguelike",
+        "aliases": [],
+        "hints": {
+          "easy": "Begin a new run after defeat",
+          "normal": "Random layouts and gear can reshape the route",
+          "hard": "Two attempts can demand very different plans"
+        }
+      }
+    }
+  }
+]

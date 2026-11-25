@@ -350,6 +350,33 @@ def test_browser_matches_python_when_custom_terms_overlap_in_either_language(dat
     assert ["garden-pine", "garden-spruce"] not in matches["pairs"]
 
 
+def test_browser_filters_an_aggregate_of_individually_valid_custom_packs(custom_package):
+    orchard = {
+        "categories": [category("orchard", "orchard-tree")],
+        "words": [word("orchard-pine", "orchard", "orchard-tree", "Tall", "Pine")],
+        "pairs": [],
+    }
+    matches = run_content_js(
+        """
+        import {readFileSync} from 'node:fs';
+        const {selectContent, validateCustom} = await import(process.argv[1]);
+        const {garden, orchard} = JSON.parse(readFileSync(0, 'utf8'));
+        const first = validateCustom(garden);
+        const second = validateCustom(orchard);
+        const aggregate = Object.fromEntries(Object.keys(first).map(
+            key => [key, [...first[key], ...second[key]]],
+        ));
+        const both = selectContent({}, [], aggregate);
+        const orchardOnly = selectContent({categories: ['orchard']}, [], aggregate);
+        console.log(JSON.stringify({both, orchardOnly}));
+        """,
+        {"garden": custom_package, "orchard": orchard},
+    )
+
+    assert ids(matches["both"]) == {"garden-pine", "garden-spruce"}
+    assert ids(matches["orchardOnly"]) == {"orchard-pine"}
+
+
 def test_browser_rejects_a_pack_from_a_different_catalog_version(data_dir):
     pack = ContentCatalog.load(data_dir).pack("food")
     loaded = run_content_js(

@@ -16,6 +16,7 @@ function replay({ players, settings, rolls, used, now, events }) {
   const rng = () => rolls[index++] ?? 0;
   const round = createRound(players, settings, content.words, content.pairs, rules, { rng, used, now });
   const frames = [snapshot(round, players)];
+  const localGuessNominees = [round.localGuessNominee()];
   for (const [method, ...args] of events) {
     let outcome;
     try {
@@ -25,8 +26,9 @@ function replay({ players, settings, rolls, used, now, events }) {
       outcome = { code: error.code, issues: error.issues };
     }
     frames.push(snapshot(round, players, outcome));
+    localGuessNominees.push(round.localGuessNominee());
   }
-  return frames;
+  return { frames, localGuessNominees };
 }
 
 const issues = configurations.map(({ settings, count }) =>

@@ -2,6 +2,7 @@ import { createRound } from "./engine.mjs";
 import { DEFAULT_SETTINGS, mountSettings } from "./settings.mjs";
 
 const session = new Map();
+let sessionId;
 const privatePhases = new Set(["roles", "abilities", "voting", "last_guess"]);
 const maxPlayers = 20;
 const maxNameLength = 32;
@@ -38,20 +39,19 @@ export function mountLocal(ctx) {
     let players = ctx.preferences().rememberNames ? storage.get("localPlayers", []) : [];
     if (!Array.isArray(players)) players = [];
     players = players.filter((player) => typeof player?.id === "string" && typeof player?.name === "string").slice(0, maxPlayers);
-    let settings = { ...DEFAULT_SETTINGS, ...storage.get("localSettings", {}), language: ctx.lang };
+    let settings = { ...DEFAULT_SETTINGS, language: ctx.lang, ...storage.get("localSettings", {}) };
     let editor;
     let round;
     let roundSelection;
     let starting = false;
     let privateOpen = false;
+    let guessWaiting = false;
     let report = null;
     let state;
     let stage;
     let timer;
     let message;
     let focusControl;
-    let formingSetup = false;
-    let startMessage;
 
     const test = (name) => ({ "data-testid": `local-${name}` });
     const paragraph = (text, style = "muted") => el("p", { class: style }, text);
@@ -74,14 +74,18 @@ export function mountLocal(ctx) {
         else storage.remove("localPlayers");
     }
 
-    function renderSetup(initialError = "") {
+    function saveSettings() {
+        storage.set("localSettings", settings);
+        window.dispatchEvent(new Event("imposter:local-settings"));
+    }
+
+    function renderSetup() {
         editor?.destroy();
         editor = null;
         round = null;
         roundSelection = null;
         ctx.setRoundActive(false);
         root.dataset.localPhase = "setup";
-        formingSetup = true;
 
         const playersList = el("ul", { class: "local-player-list stack" });
         const count = el("p", { class: "muted", "aria-live": "polite" });
@@ -137,16 +141,13 @@ export function mountLocal(ctx) {
         }
 
         const configRoot = el("div", { class: "stack" });
-        const rules = el("details", { class: "panel panel--subtle" });
-        const rulesBody = el("div", { class: "stack" });
-        rules.append(el("summary", {}, t("local.setup.rules")), rulesBody);
         const start = button(t("local.setup.start"), () => {
             const selection = editor.getSelection();
             if (!canStart(selection)) return;
+            settings = editor.getSettings();
             beginRound(selection, setupError);
         }, test("start"));
-        const setupError = el("p", { class: "error", "aria-live": "polite" }, initialError);
-        startMessage = initialError;
+        const setupError = el("p", { class: "error", "aria-live": "polite" });
         const startHelp = el("p", { id: "local-start-help", class: "muted", "aria-live": "polite" });
         start.setAttribute("aria-describedby", startHelp.id);
 
@@ -163,14 +164,10 @@ export function mountLocal(ctx) {
             else startHelp.textContent = "";
         }
 
-        function showRules() {
-            if (rules.open) ctx.rulesView(rulesBody, { mode: settings.mode, profiles: settings.chaos });
-        }
-        rules.addEventListener("toggle", showRules);
         root.replaceChildren(heading(t("local.setup.title"), t("local.setup.intro")),
             el("section", { class: "panel stack", "aria-labelledby": "local-players-title" },
                 el("h2", { id: "local-players-title" }, t("local.players.title")),
-                count, roster, playersList, clear), configRoot, rules,
+                count, roster, playersList, clear), configRoot,
             el("div", { class: "stack local-start-actions" }, setupError, startHelp, start));
 
         updatePlayers();
@@ -179,24 +176,19 @@ export function mountLocal(ctx) {
             settings,
             playerCount: players.length,
             onChange: (value) => {
-                settings = { ...value, clueStyle: "oral", language: ctx.lang };
-                storage.set("localSettings", settings);
-                if (startMessage) {
-                    startMessage = "";
-                    setupError.textContent = "";
-                }
-                showRules();
+                settings = value;
+                saveSettings();
+                setupError.textContent = "";
             },
             onSelection: adjustStart,
             includeClueStyle: false,
         });
         adjustStart();
-        formingSetup = false;
     }
 
     async function beginRound(selection, sourceError) {
         if (starting) return;
-        const selected = { ...settings, clueStyle: "oral", language: ctx.lang };
+        const selected = { ...settings, clueStyle: "oral" };
         const roster = players;
         starting = true;
         sourceError.textContent = t("local.setup.loading");
@@ -204,21 +196,22 @@ export function mountLocal(ctx) {
             const rules = await ctx.rules();
             if (signal.aborted) return;
             round = createRound(roster, selected, selection.words, selection.pairs, rules, { used });
+            sessionId ??= `local-${playerId()}`;
             roundSelection = selection;
             players = roster;
             settings = selected;
-            storage.set("localSettings", selected);
+            saveSettings();
             savePlayers();
             editor?.destroy();
             editor = null;
             privateOpen = false;
+            guessWaiting = false;
             report = null;
             ctx.setRoundActive(true);
             renderRound();
         } catch {
             if (!signal.aborted) {
-                startMessage = t("local.error.start");
-                sourceError.textContent = startMessage;
+                sourceError.textContent = t("local.error.start");
             }
         } finally {
             starting = false;
@@ -226,7 +219,9 @@ export function mountLocal(ctx) {
     }
 
     function focusStage() {
-        if (!document.hidden && document.hasFocus()) focusControl?.focus({ preventScroll: true });
+        if (document.hidden || !document.hasFocus()) return;
+        window.scrollTo(0, 0);
+        focusControl?.focus({ preventScroll: true });
     }
 
     function renderRound({ focus = true } = {}) {
@@ -255,42 +250,47 @@ export function mountLocal(ctx) {
 
     function currentPrivatePlayer(phase) {
         if (report) return report.id;
-        if (phase === "last_guess") {
-            return state.players.find(({ id }) => round.privateState(id).canGuess)?.id;
-        }
+        if (phase === "last_guess") return round.localGuessNominee();
         return state.players[state.completed]?.id;
     }
 
     function renderPrivate(phase) {
         const id = currentPrivatePlayer(phase);
         const content = el("div", { class: "hand-off panel stack", ...test("handoff") });
-        const named = t("local.private.pass", { name: label(id) });
-        if (phase === "last_guess") timer = el("p", { class: "local-countdown" });
+        if (phase === "last_guess") {
+            timer = el("p", { class: "local-countdown", "aria-label": t("local.guess.time") });
+            if (guessWaiting) {
+                content.append(el("h1", { tabindex: "-1" }, t("local.guess.private")), timer,
+                    paragraph(t("local.guess.wait")));
+                stage.append(content);
+                return;
+            }
+        }
         const completed = report?.completed ?? state.completed;
         const step = phase === "last_guess"
-            ? paragraph(t("local.phase.last_guess"), "local-phase-label")
+            ? paragraph(t("local.guess.private"), "local-phase-label")
             : paragraph(t("local.private.step", { step: completed + 1, count: state.players.length }), "local-phase-label");
-        const concealed = () => {
+        content.append(step, el("h1", { tabindex: "-1" }, t("local.private.pass", { name: label(id) })));
+        if (timer) content.append(timer);
+        if (!privateOpen || !id) {
             const show = button(t("local.private.show"), () => {
                 if (document.hidden || !document.hasFocus()) return;
+                if (phase === "last_guess" && state.paused) round.resume();
                 privateOpen = true;
                 renderRound();
                 ctx.feedback("reveal");
             }, test("show-private"));
             content.append(paragraph(t("local.private.ready")), show);
             focusControl = show;
-        };
-
-        content.append(step, el("h1", { tabindex: "-1" }, named));
-        if (timer) content.append(timer);
-        if (!privateOpen || !id) concealed();
-        else {
+        } else {
             const secret = el("div", { class: "local-private-content stack", ...test("private-content") });
             const data = round.privateState(id);
             if (phase === "roles") renderCard(secret, id, data.card);
             else if (phase === "abilities") renderAbility(secret, id, data);
             else if (phase === "voting") renderVote(secret, id);
-            else renderGuess(secret, id);
+            else if (data.canGuess) renderGuess(secret, id);
+            else secret.append(secretHeading(t("local.guess.private")),
+                paragraph(t("local.guess.noAction")), button(t("local.ability.confirm"), waitForReveal));
             content.append(secret);
             focusControl = secret.querySelector("h2");
         }
@@ -305,13 +305,11 @@ export function mountLocal(ctx) {
         const shownRole = card.role ? ctx.roleName(card.role) : t("local.card.word");
         const value = card.word ?? card.hint ?? t("local.card.empty");
         const field = card.word ? "word" : card.hint ? "hint" : "note";
-        secret.append(secretHeading(shownRole),
-            el("dl", { class: "local-card-data" },
-                el("dt", {}, t(`local.card.${field}`)), el("dd", { class: "local-card-value" }, value),
-                card.partners.length
-                    ? el("div", {}, el("dt", {}, t("local.card.partners")),
-                        el("dd", {}, card.partners.map(label).join(", ")))
-                    : ""),
+        const fields = el("dl", { class: "local-card-data" },
+            el("dt", {}, t(`local.card.${field}`)), el("dd", { class: "local-card-value" }, value));
+        if (card.partners.length) fields.append(el("dt", {}, t("local.card.partners")),
+            el("dd", {}, card.partners.map(label).join(", ")));
+        secret.append(secretHeading(shownRole), fields,
             button(t("local.card.hide"), () => submit(id, "ack_role"), test("hide-card")));
     }
 
@@ -377,6 +375,12 @@ export function mountLocal(ctx) {
         });
     }
 
+    function waitForReveal() {
+        privateOpen = false;
+        guessWaiting = true;
+        renderRound();
+    }
+
     function renderGuess(secret, id) {
         const guess = el("input", { id: "local-guess", required: true, type: "text", autocomplete: "off", spellcheck: "false" });
         const form = el("form", { class: "stack", onSubmit: (event) => {
@@ -421,21 +425,21 @@ export function mountLocal(ctx) {
     }
 
     function renderResult(result) {
-        const record = { ...result, players: state.players, finishedAt: Date.now() };
-        if (!session.has(result.id)) {
+        const category = roundSelection.categories?.find(({ id }) => id === result.category);
+        const categoryText = category?.names?.[ctx.lang] ?? result.category;
+        if (!completedIds.has(result.id)) {
+            const completedAt = Date.now();
+            const record = { ...result, players: state.players, completedAt };
+            completedIds.add(result.id);
             session.set(result.id, record);
             addUsedWords(used, result);
-            ctx.saveResult(record, "local");
+            ctx.saveResult(result, "local", { players: state.players, sessionId, completedAt, category: categoryText });
             ctx.feedback("finish");
         }
         ctx.setRoundActive(false);
         stage.setAttribute("data-testid", "local-result");
         stage.append(heading(t("local.result.title"), t(`local.result.reason.${result.reason}`)));
 
-        const matchingCategory = roundSelection.words.find((word) => word.id === result.wordId)?.category;
-        const categoryText = roundSelection.categories?.find(({ id }) => id === matchingCategory)?.names?.[ctx.lang] ??
-            storage.get("customPack", null)?.categories?.find(({ id }) => id === matchingCategory)?.names?.[ctx.lang] ??
-            (matchingCategory ? t(`local.category.${matchingCategory}`) : "");
         const words = el("div", { class: "panel stack local-result-reveal" },
             el("h2", {}, t(`local.result.team.${result.winnerTeam}`)),
             result.winners.length ? paragraph(result.winners.map(label).join(", ")) : "",
@@ -495,6 +499,7 @@ export function mountLocal(ctx) {
             button(t("local.result.reset"), () => {
                 if (!window.confirm(t("local.result.confirmReset"))) return;
                 session.clear();
+                sessionId = undefined;
                 renderSessionScores(container);
                 container.querySelector("h2")?.setAttribute("tabindex", "-1");
                 container.querySelector("h2")?.focus();
@@ -510,13 +515,16 @@ export function mountLocal(ctx) {
     function submit(id, action, data = {}, detectiveStep = null) {
         if (signal.aborted) return;
         const phase = state.phase;
-        if (privatePhases.has(phase) && !privateOpen) return;
+        if (privatePhases.has(phase) && !privateOpen && action !== "abort") return;
         if (privateOpen) {
             privateOpen = false;
             stage.querySelector(".local-private-content")?.remove();
         }
         try {
             round.act(id, action, data);
+            if (action === "guess") guessWaiting = true;
+            if (phase === "voting" && round.phase === "last_guess" && state.mode === "chaos") round.pause();
+            if (action === "abort") report = null;
             if (detectiveStep !== null) {
                 const { investigation } = round.privateState(id);
                 if (investigation) {
@@ -529,7 +537,9 @@ export function mountLocal(ctx) {
             renderRound();
         } catch (error) {
             renderRound();
-            setMessage(t(error?.code === "invalid_text" ? "local.error.guess" : "local.error.action"));
+            if (round.phase === phase) {
+                setMessage(t(error?.code === "invalid_text" ? "local.error.guess" : "local.error.action"));
+            }
         }
     }
 
@@ -597,7 +607,7 @@ export function mountLocal(ctx) {
     return () => {
         window.clearInterval(clock);
         editor?.destroy();
-        if (!formingSetup && root.dataset.localPhase !== "setup") ctx.setRoundActive(false);
+        if (round && !["reveal", "aborted"].includes(round.phase)) ctx.setRoundActive(false);
         round = null;
         stage = null;
         timer = null;

@@ -40,7 +40,7 @@
   "extras.words": "Words",
   "extras.word": "Word",
   "extras.addWord": "Add word",
-  "extras.addWordFirstCategory": "Add a category before adding words.",
+  "extras.addWordFirstCategory": "Add a subcategory before adding words.",
   "extras.removeWord": "Delete word",
   "extras.removeWordConfirm": "Delete the word {name} and any pairs that include it?",
   "extras.selectWord": "Choose a word",

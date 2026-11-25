@@ -166,7 +166,7 @@
         "aliases": [],
         "hints": {
           "easy": "Tavla för märken som går att torka bort",
-          "normal": "Färgpennor med särskild sorts bläck",
+          "normal": "Särskilda tuschpennor med avtorkbart bläck",
           "hard": "Lektionen försvinner med ett svep"
         }
       },
@@ -5329,8 +5329,8 @@
         "word": "Dammvippa",
         "aliases": [],
         "hints": {
-          "easy": "Drar bort ludd från prydnader",
-          "normal": "Mjukt mellan små föremål",
+          "easy": "Sveper rent bland prydnader",
+          "normal": "Lätta strån mellan små figurer",
           "hard": "Hylla med porslinsfigurer"
         }
       },

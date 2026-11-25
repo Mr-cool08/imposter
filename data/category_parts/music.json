@@ -1,0 +1,66 @@
+{
+  "id": "music",
+  "names": {
+    "sv": "Musik",
+    "en": "Music"
+  },
+  "icon": "🎵",
+  "subcategories": [
+    {
+      "id": "music-strings",
+      "names": {
+        "sv": "Stränginstrument",
+        "en": "String instruments"
+      }
+    },
+    {
+      "id": "music-wind",
+      "names": {
+        "sv": "Blåsinstrument",
+        "en": "Wind instruments"
+      }
+    },
+    {
+      "id": "music-keys",
+      "names": {
+        "sv": "Tangentinstrument",
+        "en": "Keyboard instruments"
+      }
+    },
+    {
+      "id": "music-percussion",
+      "names": {
+        "sv": "Slagverk",
+        "en": "Percussion"
+      }
+    },
+    {
+      "id": "music-styles",
+      "names": {
+        "sv": "Musikstilar",
+        "en": "Music genres"
+      }
+    },
+    {
+      "id": "music-songwriting",
+      "names": {
+        "sv": "Låtdelar och musikformer",
+        "en": "Song sections and forms"
+      }
+    },
+    {
+      "id": "music-theory",
+      "names": {
+        "sv": "Musikteori",
+        "en": "Music theory"
+      }
+    },
+    {
+      "id": "music-performance",
+      "names": {
+        "sv": "Noter och framförande",
+        "en": "Notation and performance"
+      }
+    }
+  ]
+}

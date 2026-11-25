@@ -70,6 +70,8 @@ Tid räknas under diskussion och sista gissning. `deadline` sätts när en tidsb
 
 Om minst en profil i Chaos kan ge sista gissning går alla omgångar i poolen till samma 20 sekunder långa `last_guess`-fas. `canGuess` avgör privat om spelaren har en gissning kvar. Inlämning ändrar inte publik status innan tidsfristen löper ut. Lokalt ska även den här vyn använda en neutral överlämning. Öppna lägen avslöjar direkt när en berörd spelare har gissat eller avstått.
 
+För gemensam mobil finns JS-metoden `localGuessNominee()`. Under `last_guess` returnerar den det unikt högst röstade spelar-ID:t före skydd och rollregler. Vid lika röster eller gruppval returnerar den första spelaren i ledtrådsordningen. Utanför fasen returnerar den `null`. Lokalvyn använder ID:t för att välja en likadan överlämning i varje Chaos-omgång och tittar på `canGuess` först när den privata vyn öppnas. Metoden ingår bara i det lokala omgångsobjektet.
+
 Gruppalternativ visas bara när röstfasen öppnar. Öppet `all` eller `none` lägger till sitt eget alternativ. Om något av dessa lägen finns i Chaos-poolen erbjuds båda alternativen vid varje röstning i den poolen. Ett unikt gruppval räknas aldrig som att någon person blivit utröstad.
 
 ## Felkoder

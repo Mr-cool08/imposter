@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
 
 const storedValues = new Map();
@@ -23,6 +24,22 @@ Object.defineProperty(globalThis, 'localStorage', {
 });
 
 const extras = await import('../app/static/js/extras.mjs');
+
+test('both translations provide the same extras keys and interpolation variables', () => {
+  const translations = language => JSON.parse(readFileSync(new URL(`../data/i18n/extras.${language}.json`, import.meta.url), 'utf8'));
+  const swedish = translations('sv');
+  const english = translations('en');
+  const keys = Object.keys(swedish).sort();
+  const variables = text => [...new Set(Array.from(text.matchAll(/\{([a-zA-Z][a-zA-Z0-9_]*)\}/g), match => match[1]))].sort();
+
+  assert.ok(keys.length > 0);
+  assert.deepEqual(Object.keys(english).sort(), keys);
+  for (const key of keys) {
+    assert.ok(swedish[key].trim(), key);
+    assert.ok(english[key].trim(), key);
+    assert.deepEqual(variables(english[key]), variables(swedish[key]), key);
+  }
+});
 
 function glassPackage(suffix = '') {
   const category = `custom-glass${suffix}`;

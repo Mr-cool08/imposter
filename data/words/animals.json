@@ -1,0 +1,5974 @@
+[
+  {
+    "id": "animals-dog",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hund",
+        "aliases": [],
+        "hints": {
+          "easy": "Viftar när du kommer hem",
+          "normal": "Koppel vid dörren",
+          "hard": "Lär sig sitta på kommando"
+        }
+      },
+      "en": {
+        "word": "Dog",
+        "aliases": [],
+        "hints": {
+          "easy": "Greets you with a wag",
+          "normal": "Lead by the front door",
+          "hard": "Learns to sit on cue"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-cat",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Katt",
+        "aliases": [],
+        "hints": {
+          "easy": "Spinner i knät",
+          "normal": "Lurpassar på en leksak",
+          "hard": "Värmer sig på fönsterbrädan"
+        }
+      },
+      "en": {
+        "word": "Cat",
+        "aliases": [],
+        "hints": {
+          "easy": "Purrs on your lap",
+          "normal": "Stalks a toy",
+          "hard": "Basks on the windowsill"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-rabbit",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kanin",
+        "aliases": [],
+        "hints": {
+          "easy": "Långa öron och kort svans",
+          "normal": "Skuttar mellan höstrån",
+          "hard": "Behöver något att gnaga på"
+        }
+      },
+      "en": {
+        "word": "Rabbit",
+        "aliases": [],
+        "hints": {
+          "easy": "Long ears and a little tail",
+          "normal": "Hops between piles of hay",
+          "hard": "Needs something to gnaw"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-guinea-pig",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Marsvin",
+        "aliases": [],
+        "hints": {
+          "easy": "Piper när grönsakspåsen prasslar",
+          "normal": "Liten gnagare utan synlig svans",
+          "hard": "Behöver få C-vitamin via maten"
+        }
+      },
+      "en": {
+        "word": "Guinea pig",
+        "aliases": [
+          "Cavy"
+        ],
+        "hints": {
+          "easy": "Squeaks at a rustling vegetable bag",
+          "normal": "Small rodent with no visible tail",
+          "hard": "Needs vitamin C in its diet"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-hamster",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hamster",
+        "aliases": [],
+        "hints": {
+          "easy": "Packar frön i kinderna",
+          "normal": "Springer i hjul",
+          "hard": "Vaknar ofta till kvällen"
+        }
+      },
+      "en": {
+        "word": "Hamster",
+        "aliases": [],
+        "hints": {
+          "easy": "Stuffs seeds in its cheeks",
+          "normal": "Runs on a wheel",
+          "hard": "Often wakes up at dusk"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-ferret",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tamiller",
+        "aliases": [],
+        "hints": {
+          "easy": "Smidig kropp och korta ben",
+          "normal": "Kryper gärna genom rör",
+          "hard": "Lekfull jägare med ursprung i illern"
+        }
+      },
+      "en": {
+        "word": "Ferret",
+        "aliases": [],
+        "hints": {
+          "easy": "Slender body and short legs",
+          "normal": "Likes tunnelling through tubes",
+          "hard": "Playful hunter descended from polecats"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-chinchilla",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Chinchilla",
+        "aliases": [],
+        "hints": {
+          "easy": "Badar i fint damm",
+          "normal": "Mycket tät päls",
+          "hard": "Släktingarna lever i Anderna"
+        }
+      },
+      "en": {
+        "word": "Chinchilla",
+        "aliases": [],
+        "hints": {
+          "easy": "Bathes in fine dust",
+          "normal": "Exceptionally dense fur",
+          "hard": "Wild relatives live in the Andes"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-gerbil",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mongolisk ökenråtta",
+        "aliases": [
+          "Ökenråtta",
+          "Gerbil"
+        ],
+        "hints": {
+          "easy": "Lång svans på liten gnagare",
+          "normal": "Gräver gångar i ströet",
+          "hard": "Trummar med fötterna för att varna"
+        }
+      },
+      "en": {
+        "word": "Mongolian gerbil",
+        "aliases": [
+          "Gerbil"
+        ],
+        "hints": {
+          "easy": "Long-tailed little rodent",
+          "normal": "Digs tunnels in its bedding",
+          "hard": "Drums its feet to warn of danger"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-pet-rat",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tamråtta",
+        "aliases": [],
+        "hints": {
+          "easy": "Tamt husdjur med nästan hårlös svans",
+          "normal": "Klättrar gärna på burens inredning",
+          "hard": "Kan tränas att hämta små föremål"
+        }
+      },
+      "en": {
+        "word": "Pet rat",
+        "aliases": [
+          "Fancy rat"
+        ],
+        "hints": {
+          "easy": "Tame rodent with a nearly bare tail",
+          "normal": "Climbs around its cage furnishings",
+          "hard": "Can learn to fetch small objects"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-cow",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mjölkko",
+        "aliases": [],
+        "hints": {
+          "easy": "Stort juver i ladugården",
+          "normal": "Kan gå till en mjölkningsrobot",
+          "hard": "Ligger ofta och idisslar"
+        }
+      },
+      "en": {
+        "word": "Dairy cow",
+        "aliases": [],
+        "hints": {
+          "easy": "Large udder in a farm barn",
+          "normal": "May walk into a milking robot",
+          "hard": "Often lies down to chew cud"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-horse",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Häst",
+        "aliases": [],
+        "hints": {
+          "easy": "Man längs nacken",
+          "normal": "Sadlas för ridning",
+          "hard": "En hov per fot"
+        }
+      },
+      "en": {
+        "word": "Horse",
+        "aliases": [],
+        "hints": {
+          "easy": "Mane down the neck",
+          "normal": "Saddled for riding",
+          "hard": "One hoof on each foot"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-donkey",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Åsna",
+        "aliases": [],
+        "hints": {
+          "easy": "Långa öron och högt skri",
+          "normal": "Kan bära packning på stigar",
+          "hard": "Står gärna kvar om vägen verkar farlig"
+        }
+      },
+      "en": {
+        "word": "Donkey",
+        "aliases": [
+          "Ass"
+        ],
+        "hints": {
+          "easy": "Long ears and a loud bray",
+          "normal": "Carries loads along trails",
+          "hard": "May stand still when the path seems unsafe"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-pig",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gris",
+        "aliases": [
+          "Svin"
+        ],
+        "hints": {
+          "easy": "Bökar med trynet",
+          "normal": "Rullar sig ofta i lera",
+          "hard": "Kan läras att hitta tryffel"
+        }
+      },
+      "en": {
+        "word": "Pig",
+        "aliases": [],
+        "hints": {
+          "easy": "Roots around with its snout",
+          "normal": "Often wallows in mud",
+          "hard": "Can be trained to find truffles"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-sheep",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Får",
+        "aliases": [],
+        "hints": {
+          "easy": "Klipper man ullen från",
+          "normal": "Bräker i flocken",
+          "hard": "Vallas ibland med hund"
+        }
+      },
+      "en": {
+        "word": "Sheep",
+        "aliases": [],
+        "hints": {
+          "easy": "Shorn for wool",
+          "normal": "Bleats as it follows the flock",
+          "hard": "Sometimes herded by a dog"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-goat",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Get",
+        "aliases": [],
+        "hints": {
+          "easy": "Skägg under hakan",
+          "normal": "Klapprar upp på stora stenar",
+          "hard": "Mjölken används till chèvre"
+        }
+      },
+      "en": {
+        "word": "Goat",
+        "aliases": [],
+        "hints": {
+          "easy": "Beard under the chin",
+          "normal": "Clambers up onto big rocks",
+          "hard": "Its milk goes into chèvre"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-alpaca",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Alpacka",
+        "aliases": [],
+        "hints": {
+          "easy": "Lång hals och mjuk ull",
+          "normal": "Betar på höga platåer i Anderna",
+          "hard": "Fibern blir lätta varma plagg"
+        }
+      },
+      "en": {
+        "word": "Alpaca",
+        "aliases": [],
+        "hints": {
+          "easy": "Long neck and soft fleece",
+          "normal": "Grazes on high Andean plateaus",
+          "hard": "Fibre makes light warm clothes"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-llama",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lama",
+        "aliases": [],
+        "hints": {
+          "easy": "Andernas klassiska packdjur",
+          "normal": "Kan spotta när den blir trängd",
+          "hard": "Öronen böjer sig som bananer"
+        }
+      },
+      "en": {
+        "word": "Llama",
+        "aliases": [],
+        "hints": {
+          "easy": "Traditional Andean pack animal",
+          "normal": "Can spit when cornered",
+          "hard": "Ears curve like bananas"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-dromedary",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dromedar",
+        "aliases": [],
+        "hints": {
+          "easy": "Bär en enda puckel",
+          "normal": "Ridtur över sanddyner",
+          "hard": "Kan stänga näsborrarna mot sanden"
+        }
+      },
+      "en": {
+        "word": "Dromedary",
+        "aliases": [
+          "One-humped camel"
+        ],
+        "hints": {
+          "easy": "Has a single hump",
+          "normal": "Rides across sand dunes",
+          "hard": "Can close its nostrils against sand"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-bactrian-camel",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tvåpucklig kamel",
+        "aliases": [],
+        "hints": {
+          "easy": "Dubbla fettdepåer över ryggen",
+          "normal": "Klarar kalla ökenvintrar",
+          "hard": "Bar last längs Sidenvägen"
+        }
+      },
+      "en": {
+        "word": "Bactrian camel",
+        "aliases": [
+          "Two-humped camel"
+        ],
+        "hints": {
+          "easy": "Two stores of fat on its back",
+          "normal": "Endures cold desert winters",
+          "hard": "Carried loads along the Silk Road"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-yak",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jak",
+        "aliases": [],
+        "hints": {
+          "easy": "Pälsen hänger som en gardin från buken",
+          "normal": "Betar högt i Tibet",
+          "hard": "Mjölken kan bli smör till te"
+        }
+      },
+      "en": {
+        "word": "Yak",
+        "aliases": [],
+        "hints": {
+          "easy": "Hair hangs like a curtain from its belly",
+          "normal": "Grazes high on the Tibetan Plateau",
+          "hard": "Its milk can be churned into butter for tea"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-water-buffalo",
+    "category": "animals",
+    "subcategory": "animals-domestic",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vattenbuffel",
+        "aliases": [],
+        "hints": {
+          "easy": "Vältrar sig i grunda gölar",
+          "normal": "Drar plog i risfält",
+          "hard": "Mjölk till traditionell mozzarella"
+        }
+      },
+      "en": {
+        "word": "Water buffalo",
+        "aliases": [],
+        "hints": {
+          "easy": "Wallows in shallow pools",
+          "normal": "Pulls ploughs in rice fields",
+          "hard": "Milk for traditional mozzarella"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-elephant",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Elefant",
+        "aliases": [],
+        "hints": {
+          "easy": "Plockar upp mat med snabeln",
+          "normal": "Stora öron som fläktar",
+          "hard": "Ungar följer matriarken"
+        }
+      },
+      "en": {
+        "word": "Elephant",
+        "aliases": [],
+        "hints": {
+          "easy": "Picks up food with its trunk",
+          "normal": "Big ears work like fans",
+          "hard": "Calves follow the matriarch"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-lion",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lejon",
+        "aliases": [],
+        "hints": {
+          "easy": "Hanen kan ha tät man",
+          "normal": "Lever och jagar i grupper",
+          "hard": "Rytandet hörs på långt håll"
+        }
+      },
+      "en": {
+        "word": "Lion",
+        "aliases": [],
+        "hints": {
+          "easy": "Males can have thick manes",
+          "normal": "Lives and hunts in groups",
+          "hard": "Its roar carries for miles"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-tiger",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tiger",
+        "aliases": [],
+        "hints": {
+          "easy": "Svarta ränder på orange päls",
+          "normal": "Smyger ensam genom tät vegetation",
+          "hard": "Tar sig gärna genom vatten"
+        }
+      },
+      "en": {
+        "word": "Tiger",
+        "aliases": [],
+        "hints": {
+          "easy": "Black stripes on orange fur",
+          "normal": "Stalks alone through dense cover",
+          "hard": "Readily swims across water"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-cheetah",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gepard",
+        "aliases": [],
+        "hints": {
+          "easy": "Extremt snabb på kort sträcka",
+          "normal": "Mörka streck under ögonen",
+          "hard": "Svansen hjälper i snäva svängar"
+        }
+      },
+      "en": {
+        "word": "Cheetah",
+        "aliases": [],
+        "hints": {
+          "easy": "Extremely fast over short distances",
+          "normal": "Dark lines below the eyes",
+          "hard": "Its tail helps it turn sharply"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-leopard",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Leopard",
+        "aliases": [],
+        "hints": {
+          "easy": "Fläckar i form av tomma rosetter",
+          "normal": "Släpar ibland upp bytet i träd",
+          "hard": "Jagar bland klippor i Afrika och Asien"
+        }
+      },
+      "en": {
+        "word": "Leopard",
+        "aliases": [],
+        "hints": {
+          "easy": "Spots form hollow rosettes",
+          "normal": "Sometimes hauls a kill into a tree",
+          "hard": "Hunts among rocks in Africa and Asia"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-jaguar",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jaguar",
+        "aliases": [],
+        "hints": {
+          "easy": "Fläckkransar med prickar i mitten",
+          "normal": "Simmar i Amazonas floder",
+          "hard": "Kan bita igenom ett sköldpaddsskal"
+        }
+      },
+      "en": {
+        "word": "Jaguar",
+        "aliases": [],
+        "hints": {
+          "easy": "Rosettes with spots in the middle",
+          "normal": "Swims in Amazonian rivers",
+          "hard": "Can bite through a turtle shell"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-cougar",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Puma",
+        "aliases": [
+          "Bergslejon"
+        ],
+        "hints": {
+          "easy": "Enfärgad stor katt från Amerika",
+          "normal": "Starka bakben för höga språng",
+          "hard": "Följer hjortar genom bergsterräng"
+        }
+      },
+      "en": {
+        "word": "Cougar",
+        "aliases": [
+          "Puma",
+          "Mountain lion"
+        ],
+        "hints": {
+          "easy": "Plain-coloured big cat from the Americas",
+          "normal": "Powerful hind legs for high leaps",
+          "hard": "Tracks deer through mountain terrain"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-zebra",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Zebra",
+        "aliases": [],
+        "hints": {
+          "easy": "Svartvita ränder över hela kroppen",
+          "normal": "Betar ofta bland gnuer",
+          "hard": "Varje individ har sitt eget mönster"
+        }
+      },
+      "en": {
+        "word": "Zebra",
+        "aliases": [],
+        "hints": {
+          "easy": "Black and white stripes from head to hoof",
+          "normal": "Often grazes among wildebeest",
+          "hard": "Every individual has a unique pattern"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-giraffe",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Giraff",
+        "aliases": [],
+        "hints": {
+          "easy": "Halsen når upp i trädtopparna",
+          "normal": "Mörk tunga runt kvistar",
+          "hard": "Bresar på frambenen för att dricka"
+        }
+      },
+      "en": {
+        "word": "Giraffe",
+        "aliases": [],
+        "hints": {
+          "easy": "Neck reaches into the treetops",
+          "normal": "Dark tongue curls around twigs",
+          "hard": "Spreads its front legs to drink"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-rhinoceros",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Noshörning",
+        "aliases": [],
+        "hints": {
+          "easy": "Kraftig kropp med horn på nosen",
+          "normal": "På nära håll avslöjar lukten en besökare",
+          "hard": "Ett lerlager skyddar mot insekter"
+        }
+      },
+      "en": {
+        "word": "Rhinoceros",
+        "aliases": [
+          "Rhino"
+        ],
+        "hints": {
+          "easy": "Heavy build with a horn on its snout",
+          "normal": "Uses smell to notice an approaching visitor",
+          "hard": "A coat of mud helps keep insects off"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-hippopotamus",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Flodhäst",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor som ligger och svalkar sig i floden",
+          "normal": "Ögon och öron sticker upp precis ovanför ytan",
+          "hard": "Går upp för att beta på natten"
+        }
+      },
+      "en": {
+        "word": "Hippopotamus",
+        "aliases": [
+          "Hippo"
+        ],
+        "hints": {
+          "easy": "Large animal that cools off in rivers",
+          "normal": "Eyes and ears sit just above the surface",
+          "hard": "Leaves the water to graze at night"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-gorilla",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gorilla",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor människoapa som slår sig på bröstet",
+          "normal": "Gruppen följer ofta en silverrygg",
+          "hard": "Tar sig fram med knogarna mot marken"
+        }
+      },
+      "en": {
+        "word": "Gorilla",
+        "aliases": [],
+        "hints": {
+          "easy": "Large ape that beats its chest",
+          "normal": "Groups often follow a silverback",
+          "hard": "Walks with its knuckles on the ground"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-chimpanzee",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Schimpans",
+        "aliases": [],
+        "hints": {
+          "easy": "Använder pinnar för att fånga termiter",
+          "normal": "Dunkar på trädrötter för att höras långt",
+          "hard": "Putsar gruppkamraters päls"
+        }
+      },
+      "en": {
+        "word": "Chimpanzee",
+        "aliases": [
+          "Chimp"
+        ],
+        "hints": {
+          "easy": "Uses sticks to fish for termites",
+          "normal": "Drums on tree roots to be heard far away",
+          "hard": "Grooms other members of its group"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-orangutan",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Orangutang",
+        "aliases": [],
+        "hints": {
+          "easy": "Rödbrun människoapa i trädkronor",
+          "normal": "Långa armar når över till nästa gren",
+          "hard": "Bygger en sovplats av grenar och löv"
+        }
+      },
+      "en": {
+        "word": "Orangutan",
+        "aliases": [],
+        "hints": {
+          "easy": "Reddish ape in the forest canopy",
+          "normal": "Long arms reach across to the next branch",
+          "hard": "Builds a sleeping platform from branches and leaves"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-grey-wolf",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Varg",
+        "aliases": [
+          "Gråvarg"
+        ],
+        "hints": {
+          "easy": "Ylar tillsammans med flocken",
+          "normal": "Vild släkting till gårdens vaktdjur",
+          "hard": "Jagar bland annat älg"
+        }
+      },
+      "en": {
+        "word": "Wolf",
+        "aliases": [
+          "Grey wolf",
+          "Gray wolf"
+        ],
+        "hints": {
+          "easy": "Howls together with its pack",
+          "normal": "Wild relative of the farm watchdog",
+          "hard": "Sometimes hunts moose"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-red-fox",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rödräv",
+        "aliases": [
+          "Räv"
+        ],
+        "hints": {
+          "easy": "Röd päls och yvig svans",
+          "normal": "Tar sats och dyker efter smågnagare i snön",
+          "hard": "Syns ibland i stadens villaträdgårdar"
+        }
+      },
+      "en": {
+        "word": "Red fox",
+        "aliases": [
+          "Fox"
+        ],
+        "hints": {
+          "easy": "Red coat and bushy tail",
+          "normal": "Pounces on rodents beneath the snow",
+          "hard": "Sometimes seen in suburban gardens"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-brown-bear",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brunbjörn",
+        "aliases": [],
+        "hints": {
+          "easy": "Sover länge i ett ide under vintern",
+          "normal": "En bärmark är dukat bord på hösten",
+          "hard": "Fem klor syns i tydliga spår"
+        }
+      },
+      "en": {
+        "word": "Brown bear",
+        "aliases": [],
+        "hints": {
+          "easy": "Spends much of winter asleep in a den",
+          "normal": "Berry patches are good autumn feeding grounds",
+          "hard": "Five claws can show in a clear track"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-polar-bear",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Isbjörn",
+        "aliases": [],
+        "hints": {
+          "easy": "Vit jägare på havsisen",
+          "normal": "Väntar vid sälars andningshål",
+          "hard": "Den svarta huden döljs av pälsen"
+        }
+      },
+      "en": {
+        "word": "Polar bear",
+        "aliases": [],
+        "hints": {
+          "easy": "White hunter on sea ice",
+          "normal": "Waits by seal breathing holes",
+          "hard": "Its fur hides black skin"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-giant-panda",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jättepanda",
+        "aliases": [
+          "Panda"
+        ],
+        "hints": {
+          "easy": "Svartvit bambuätare",
+          "normal": "Svarta fält runt ögonen",
+          "hard": "Ett extra handledsben hjälper greppet"
+        }
+      },
+      "en": {
+        "word": "Giant panda",
+        "aliases": [
+          "Panda"
+        ],
+        "hints": {
+          "easy": "Black and white bamboo eater",
+          "normal": "Dark patches around the eyes",
+          "hard": "An extra wrist bone helps it grip"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-raccoon",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tvättbjörn",
+        "aliases": [],
+        "hints": {
+          "easy": "Mörk mask över ögonen",
+          "normal": "Framtassarna känner sig fram i vatten",
+          "hard": "Kan plundra soptunnor nattetid"
+        }
+      },
+      "en": {
+        "word": "Raccoon",
+        "aliases": [],
+        "hints": {
+          "easy": "Dark mask across the eyes",
+          "normal": "Feels around in water with its front paws",
+          "hard": "Can raid rubbish bins at night"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-skunk",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skunk",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett försvar som luktar starkt",
+          "normal": "Vita ryggstrimmor varnar",
+          "hard": "Vänder bakdelen mot ett hot"
+        }
+      },
+      "en": {
+        "word": "Skunk",
+        "aliases": [],
+        "hints": {
+          "easy": "Defends itself with a powerful smell",
+          "normal": "White back stripes are a warning",
+          "hard": "Turns its rear towards a threat"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-badger",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grävling",
+        "aliases": [],
+        "hints": {
+          "easy": "Svartvita stråk längs ansiktet",
+          "normal": "Håller till i ett gryt",
+          "hard": "Letar daggmask i fuktigt gräs"
+        }
+      },
+      "en": {
+        "word": "Badger",
+        "aliases": [],
+        "hints": {
+          "easy": "Black and white stripes along its face",
+          "normal": "Lives in a network of burrows",
+          "hard": "Searches for worms in wet grass"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-hedgehog",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Igelkott",
+        "aliases": [],
+        "hints": {
+          "easy": "Rullar ihop sig till en taggig boll",
+          "normal": "Prasslar genom trädgården i skymningen",
+          "hard": "Kan övervintra i en lövhög"
+        }
+      },
+      "en": {
+        "word": "Hedgehog",
+        "aliases": [],
+        "hints": {
+          "easy": "Rolls up into a prickly ball",
+          "normal": "Rustles through the garden at dusk",
+          "hard": "Can spend winter beneath a pile of leaves"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-squirrel",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ekorre",
+        "aliases": [],
+        "hints": {
+          "easy": "Yvig svans när den hoppar mellan grenar",
+          "normal": "Gräver ner nötter till senare",
+          "hard": "Kan klättra nedför en stam med huvudet först"
+        }
+      },
+      "en": {
+        "word": "Squirrel",
+        "aliases": [],
+        "hints": {
+          "easy": "Bushy tail as it leaps from branch to branch",
+          "normal": "Buries nuts for later",
+          "hard": "Can climb down a trunk headfirst"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-beaver",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bäver",
+        "aliases": [],
+        "hints": {
+          "easy": "Bygger dammar av grenar",
+          "normal": "Slår en platt svans mot vattnet vid fara",
+          "hard": "Gnager spetsiga stubbar"
+        }
+      },
+      "en": {
+        "word": "Beaver",
+        "aliases": [],
+        "hints": {
+          "easy": "Builds dams from branches",
+          "normal": "Slaps its flat tail on water as a warning",
+          "hard": "Leaves pointed stumps where it chews"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-roe-deer",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rådjur",
+        "aliases": [],
+        "hints": {
+          "easy": "Litet hjortdjur med ljus bakdel",
+          "normal": "Ungarna ligger ofta gömda i högt gräs",
+          "hard": "Kan skälla när det blir skrämt"
+        }
+      },
+      "en": {
+        "word": "Roe deer",
+        "aliases": [],
+        "hints": {
+          "easy": "Small deer with a pale rump",
+          "normal": "Fawns often hide in long grass",
+          "hard": "Can bark when startled"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-moose",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Älg",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor skogslevande hjort med långa ben",
+          "normal": "Tjuren kan ha skovelformade horn",
+          "hard": "Betar gärna vattenväxter"
+        }
+      },
+      "en": {
+        "word": "Moose",
+        "aliases": [
+          "Eurasian elk"
+        ],
+        "hints": {
+          "easy": "Large forest deer with long legs",
+          "normal": "Bulls can have broad, shovel-shaped antlers",
+          "hard": "Readily feeds on aquatic plants"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-reindeer",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ren",
+        "aliases": [],
+        "hints": {
+          "easy": "Båda könen kan bära horn",
+          "normal": "Skrapar snö för att komma åt lav",
+          "hard": "Hovarna får fäste på hård snö"
+        }
+      },
+      "en": {
+        "word": "Reindeer",
+        "aliases": [
+          "Caribou"
+        ],
+        "hints": {
+          "easy": "Both sexes can grow antlers",
+          "normal": "Paws at snow to uncover lichen",
+          "hard": "Hooves grip on hard snow"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-hare",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hare",
+        "aliases": [],
+        "hints": {
+          "easy": "Långa bakben för snabba språng",
+          "normal": "Vilar i en grund grop ovan jord",
+          "hard": "Ungarna föds med öppna ögon"
+        }
+      },
+      "en": {
+        "word": "Hare",
+        "aliases": [],
+        "hints": {
+          "easy": "Long hind legs for quick bounds",
+          "normal": "Rests in a shallow hollow above ground",
+          "hard": "Young are born with open eyes"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-american-bison",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Amerikansk bison",
+        "aliases": [
+          "Bison"
+        ],
+        "hints": {
+          "easy": "Kraftig puckel bakom ett lurvigt huvud",
+          "normal": "Stora hjordar hör hemma på prärien",
+          "hard": "Rullar sig i torra jordgropar"
+        }
+      },
+      "en": {
+        "word": "American bison",
+        "aliases": [
+          "Bison"
+        ],
+        "hints": {
+          "easy": "Heavy shoulder hump behind a shaggy head",
+          "normal": "Big herds belong on the prairie",
+          "hard": "Rolls around in dry hollows"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-tapir",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tapir",
+        "aliases": [],
+        "hints": {
+          "easy": "Kort böjlig snabel ovanför munnen",
+          "normal": "Randiga ungar i tät skog",
+          "hard": "Kan svalka sig i en gyttjepöl"
+        }
+      },
+      "en": {
+        "word": "Tapir",
+        "aliases": [],
+        "hints": {
+          "easy": "Short flexible trunk above its mouth",
+          "normal": "Striped young in dense forest",
+          "hard": "Can cool off in a muddy pool"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-sloth",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sengångare",
+        "aliases": [],
+        "hints": {
+          "easy": "Hänger gärna upp och ner i träden",
+          "normal": "Långa böjda klor griper om grenen",
+          "hard": "Pälsen kan få en grön ton av alger"
+        }
+      },
+      "en": {
+        "word": "Sloth",
+        "aliases": [],
+        "hints": {
+          "easy": "Spends a lot of time upside down in trees",
+          "normal": "Long curved claws grip the branch",
+          "hard": "Algae can tint its coat green"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-giant-anteater",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stor myrslok",
+        "aliases": [
+          "Myrslok"
+        ],
+        "hints": {
+          "easy": "Långsmal nos och väldig yvig svans",
+          "normal": "Fångar småkryp med en klibbig tunga",
+          "hard": "Framklorna hålls inåt på promenaden"
+        }
+      },
+      "en": {
+        "word": "Giant anteater",
+        "aliases": [
+          "Anteater"
+        ],
+        "hints": {
+          "easy": "Long narrow snout and huge bushy tail",
+          "normal": "Catches insects with a sticky tongue",
+          "hard": "Its front claws curl under when it walks"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-armadillo",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bältdjur",
+        "aliases": [],
+        "hints": {
+          "easy": "Pansar av överlappande benplattor",
+          "normal": "Söker skalbaggar och larver på marken",
+          "hard": "En del arter kan rulla ihop sig"
+        }
+      },
+      "en": {
+        "word": "Armadillo",
+        "aliases": [],
+        "hints": {
+          "easy": "Armour made of overlapping bony plates",
+          "normal": "Searches for beetles and grubs on the ground",
+          "hard": "Some species can roll into a ball"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-meerkat",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Surikat",
+        "aliases": [],
+        "hints": {
+          "easy": "Spanar upprest från en kulle",
+          "normal": "En i gruppen håller vakt när resten letar mat",
+          "hard": "Klarar att äta skorpioner"
+        }
+      },
+      "en": {
+        "word": "Meerkat",
+        "aliases": [],
+        "hints": {
+          "easy": "Stands upright to scan from a mound",
+          "normal": "One keeps watch while the others forage",
+          "hard": "Can feed on scorpions"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-ring-tailed-lemur",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ringsvanslemur",
+        "aliases": [
+          "Katta"
+        ],
+        "hints": {
+          "easy": "Lång svartvitrandig svans",
+          "normal": "Solar sig sittande med armarna ut",
+          "hard": "Hanar duellerar med doft från handleden"
+        }
+      },
+      "en": {
+        "word": "Ring-tailed lemur",
+        "aliases": [],
+        "hints": {
+          "easy": "Long tail with black and white bands",
+          "normal": "Basks sitting with its arms out",
+          "hard": "Males duel with scent from their wrists"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-baboon",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Babian",
+        "aliases": [],
+        "hints": {
+          "easy": "Apa med lång nos och kraftiga käkar",
+          "normal": "Söker ofta mat på marken i stora grupper",
+          "hard": "En klippavsats kan bli sovplats"
+        }
+      },
+      "en": {
+        "word": "Baboon",
+        "aliases": [],
+        "hints": {
+          "easy": "Monkey with a long muzzle and strong jaws",
+          "normal": "Often forages on the ground in large groups",
+          "hard": "A cliff ledge can become a sleeping spot"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-spotted-hyena",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fläckig hyena",
+        "aliases": [
+          "Hyena"
+        ],
+        "hints": {
+          "easy": "Lätet kan likna ett fniss",
+          "normal": "Frambenen är längre än bakbenen",
+          "hard": "Käkarna kan knäcka ben"
+        }
+      },
+      "en": {
+        "word": "Spotted hyena",
+        "aliases": [
+          "Hyena"
+        ],
+        "hints": {
+          "easy": "Its call can sound like a giggle",
+          "normal": "Forelegs are longer than its hind legs",
+          "hard": "Its jaws can crack bones"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-golden-jackal",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Guldschakal",
+        "aliases": [],
+        "hints": {
+          "easy": "Gulbrun päls och spetsiga öron",
+          "normal": "Ett par kan yla i duett",
+          "hard": "Äter allt från bär till smågnagare"
+        }
+      },
+      "en": {
+        "word": "Golden jackal",
+        "aliases": [],
+        "hints": {
+          "easy": "Tawny fur and pointed ears",
+          "normal": "A pair can howl in duet",
+          "hard": "Eats everything from berries to small rodents"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-kangaroo",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Känguru",
+        "aliases": [],
+        "hints": {
+          "easy": "Kraftiga bakben för jätteskutt",
+          "normal": "En unge tittar ut från pungen",
+          "hard": "Svansen tar vikt när den går långsamt"
+        }
+      },
+      "en": {
+        "word": "Kangaroo",
+        "aliases": [],
+        "hints": {
+          "easy": "Huge hind legs for bounding",
+          "normal": "A joey peeks out of the pouch",
+          "hard": "Its tail bears weight when it moves slowly"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-koala",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Koala",
+        "aliases": [],
+        "hints": {
+          "easy": "Lever mest av eukalyptusblad",
+          "normal": "Sover gärna fastklämd i en grenklyka",
+          "hard": "Har två motställda fingrar på varje framtass"
+        }
+      },
+      "en": {
+        "word": "Koala",
+        "aliases": [],
+        "hints": {
+          "easy": "Feeds mostly on eucalyptus leaves",
+          "normal": "Likes to sleep wedged in the fork of a tree",
+          "hard": "Has two opposable digits on each front paw"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-wombat",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vombat",
+        "aliases": [],
+        "hints": {
+          "easy": "Sätter kubformad spillning",
+          "normal": "Kompakt grävare från Australien",
+          "hard": "Pungens öppning vetter bakåt"
+        }
+      },
+      "en": {
+        "word": "Wombat",
+        "aliases": [],
+        "hints": {
+          "easy": "Leaves cube-shaped droppings",
+          "normal": "Stocky burrower from Australia",
+          "hard": "Its pouch opens towards the rear"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-tasmanian-devil",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tasmansk djävul",
+        "aliases": [
+          "Pungdjävul"
+        ],
+        "hints": {
+          "easy": "Skriker och morrar kring ett kadaver",
+          "normal": "Mörkt pungdjur från en ö",
+          "hard": "Öronen kan rodna vid upphetsning"
+        }
+      },
+      "en": {
+        "word": "Tasmanian devil",
+        "aliases": [],
+        "hints": {
+          "easy": "Screeches and growls around a carcass",
+          "normal": "Dark marsupial from an island",
+          "hard": "Its ears can flush when excited"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-platypus",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Näbbdjur",
+        "aliases": [],
+        "hints": {
+          "easy": "Platt mjuk näbb på en simmare med päls",
+          "normal": "Hanen kan ha giftsporre på bakbenet",
+          "hard": "Känner av elektriska signaler från byten"
+        }
+      },
+      "en": {
+        "word": "Platypus",
+        "aliases": [],
+        "hints": {
+          "easy": "Soft flat bill on a furry swimmer",
+          "normal": "Males can have venomous spurs on their hind legs",
+          "hard": "Senses electrical signals from prey"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-echidna",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Myrpiggsvin",
+        "aliases": [],
+        "hints": {
+          "easy": "Taggig äggläggare med smal nos",
+          "normal": "Lapar i sig myror med tungan",
+          "hard": "Ungen utvecklas först i en tillfällig pung"
+        }
+      },
+      "en": {
+        "word": "Echidna",
+        "aliases": [
+          "Spiny anteater"
+        ],
+        "hints": {
+          "easy": "Spiny egg-layer with a narrow snout",
+          "normal": "Laps up ants with its tongue",
+          "hard": "Young first develop in a temporary pouch"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-virginia-opossum",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Nordamerikansk opossum",
+        "aliases": [
+          "Opossum"
+        ],
+        "hints": {
+          "easy": "Kan stelna och spela död",
+          "normal": "Ungarna kan åka på mammans rygg",
+          "hard": "Gripsvans hjälper när den klättrar"
+        }
+      },
+      "en": {
+        "word": "Virginia opossum",
+        "aliases": [
+          "Opossum"
+        ],
+        "hints": {
+          "easy": "Can stiffen up and play dead",
+          "normal": "Young may ride on their mother's back",
+          "hard": "Grasping tail helps it climb"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-mole",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mullvad",
+        "aliases": [],
+        "hints": {
+          "easy": "Lämnar jordhögar på gräsmattan",
+          "normal": "Breda framtassar som små skyfflar",
+          "hard": "Letar efter maskar under marken"
+        }
+      },
+      "en": {
+        "word": "Mole",
+        "aliases": [],
+        "hints": {
+          "easy": "Leaves mounds of earth on the lawn",
+          "normal": "Broad front paws like little shovels",
+          "hard": "Looks for worms underground"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-bat",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fladdermus",
+        "aliases": [],
+        "hints": {
+          "easy": "Pälsklädd flygare med tunna vinghinnor",
+          "normal": "Många vilar hängande med huvudet nedåt",
+          "hard": "Ekon visar vägen för många arter"
+        }
+      },
+      "en": {
+        "word": "Bat",
+        "aliases": [],
+        "hints": {
+          "easy": "Furry flier with thin membrane wings",
+          "normal": "Many roost with their heads down",
+          "hard": "Echoes guide many species"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-naked-mole-rat",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kalråtta",
+        "aliases": [
+          "Nakenråtta"
+        ],
+        "hints": {
+          "easy": "Rosa hudveck runt en liten grävarkropp",
+          "normal": "En drottning får ungar åt kolonin",
+          "hard": "Framtänderna sticker ut framför slutna läppar"
+        }
+      },
+      "en": {
+        "word": "Naked mole-rat",
+        "aliases": [],
+        "hints": {
+          "easy": "Pink wrinkles on a little burrower",
+          "normal": "One queen bears the colony's young",
+          "hard": "Front teeth stick out past closed lips"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-coyote",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Prärievarg",
+        "aliases": [
+          "Prärieulv"
+        ],
+        "hints": {
+          "easy": "Smalt vilt hunddjur på den amerikanska prärien",
+          "normal": "Gälla ylanden som stiger och faller",
+          "hard": "Klarar sig även bland förorternas hus"
+        }
+      },
+      "en": {
+        "word": "Coyote",
+        "aliases": [],
+        "hints": {
+          "easy": "Slender wild canine of the American prairie",
+          "normal": "High yips that rise and fall",
+          "hard": "Manages to live among suburban homes"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-eurasian-lynx",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lodjur",
+        "aliases": [
+          "Europeiskt lodjur"
+        ],
+        "hints": {
+          "easy": "Svarta tofsar längst upp på öronen",
+          "normal": "Breda tassar bär upp vikten i lössnö",
+          "hard": "Rådjur är vanliga byten i Sverige"
+        }
+      },
+      "en": {
+        "word": "Eurasian lynx",
+        "aliases": [
+          "Lynx"
+        ],
+        "hints": {
+          "easy": "Black tufts at the tips of its ears",
+          "normal": "Wide paws spread its weight on soft snow",
+          "hard": "Deer are common prey in Scandinavia"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-red-panda",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Röd panda",
+        "aliases": [
+          "Kattbjörn",
+          "Mindre panda"
+        ],
+        "hints": {
+          "easy": "Rostfärgad klättrare med ringlad svans",
+          "normal": "Väljer späda bambublad",
+          "hard": "Rullar ihop sig för att hålla värmen"
+        }
+      },
+      "en": {
+        "word": "Red panda",
+        "aliases": [
+          "Lesser panda"
+        ],
+        "hints": {
+          "easy": "Rust-coloured climber with a banded tail",
+          "normal": "Picks tender bamboo leaves",
+          "hard": "Curls into a ball to keep warm"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-fennec",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fennek",
+        "aliases": [
+          "Ökenräv"
+        ],
+        "hints": {
+          "easy": "Öronen ser enorma ut mot kroppen",
+          "normal": "Har päls under tassarna mot het sand",
+          "hard": "Jagar efter mörkrets inbrott i Sahara"
+        }
+      },
+      "en": {
+        "word": "Fennec fox",
+        "aliases": [
+          "Fennec"
+        ],
+        "hints": {
+          "easy": "Ears look enormous against its body",
+          "normal": "Fur on the soles protects against hot sand",
+          "hard": "Hunts after dark in the Sahara"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-african-wild-dog",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Afrikansk vildhund",
+        "aliases": [
+          "Hyenhund"
+        ],
+        "hints": {
+          "easy": "Päls som lapptäcke och runda öron",
+          "normal": "Flocken samarbetar i långa jakter",
+          "hard": "Ungarna kan få mat av hela gruppen"
+        }
+      },
+      "en": {
+        "word": "African wild dog",
+        "aliases": [
+          "Painted dog"
+        ],
+        "hints": {
+          "easy": "Patchwork fur and rounded ears",
+          "normal": "The pack works together on long hunts",
+          "hard": "Whole pack may help feed the pups"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-wolverine",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Järv",
+        "aliases": [],
+        "hints": {
+          "easy": "Kraftigt nordligt rovdjur med ljusa sidoränder",
+          "normal": "Gömmer kött att komma tillbaka till",
+          "hard": "Kan släpa med sig stora benbitar"
+        }
+      },
+      "en": {
+        "word": "Wolverine",
+        "aliases": [],
+        "hints": {
+          "easy": "Stocky northern predator with pale side stripes",
+          "normal": "Caches meat to come back for later",
+          "hard": "Can drag off large pieces of bone"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-stoat",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hermelin",
+        "aliases": [],
+        "hints": {
+          "easy": "Svart svanstipp även i vit vinterpäls",
+          "normal": "Smal jägare som följer byten ner i hålor",
+          "hard": "Vinterpälsen prydde kungliga mantlar"
+        }
+      },
+      "en": {
+        "word": "Stoat",
+        "aliases": [
+          "Ermine"
+        ],
+        "hints": {
+          "easy": "Black tail tip even in a white winter coat",
+          "normal": "Slender hunter that follows prey into burrows",
+          "hard": "Its winter coat once lined royal robes"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-american-mink",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mink",
+        "aliases": [
+          "Amerikansk mink"
+        ],
+        "hints": {
+          "easy": "Mörk slank jägare längs stränder",
+          "normal": "Dyker efter småfisk",
+          "hard": "Tar sig fram med delvis simhud mellan tårna"
+        }
+      },
+      "en": {
+        "word": "American mink",
+        "aliases": [
+          "Mink"
+        ],
+        "hints": {
+          "easy": "Dark slender hunter along the shore",
+          "normal": "Dives after small fish",
+          "hard": "Has partially webbed toes"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-least-weasel",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Småvessla",
+        "aliases": [],
+        "hints": {
+          "easy": "Mycket litet rovdjur som går ner i sorkgångar",
+          "normal": "Brun rygg och ljus buk på sommaren",
+          "hard": "Måste jaga ofta för att hålla värmen"
+        }
+      },
+      "en": {
+        "word": "Least weasel",
+        "aliases": [],
+        "hints": {
+          "easy": "Tiny predator small enough to enter vole tunnels",
+          "normal": "Brown back and pale belly in summer",
+          "hard": "Has to hunt often to keep warm"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-pine-marten",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mård",
+        "aliases": [
+          "Skogsmård"
+        ],
+        "hints": {
+          "easy": "Krämgul fläck på strupen",
+          "normal": "Tar sig lätt upp i en gran",
+          "hard": "Äter gärna bär under sensommaren"
+        }
+      },
+      "en": {
+        "word": "Pine marten",
+        "aliases": [],
+        "hints": {
+          "easy": "Creamy yellow patch on its throat",
+          "normal": "Can clamber up a spruce with ease",
+          "hard": "Readily eats berries in late summer"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-gibbon",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gibbon",
+        "aliases": [],
+        "hints": {
+          "easy": "Svingar sig mellan träd med mycket långa armar",
+          "normal": "Paren sjunger ofta tillsammans",
+          "hard": "Kan gå upprätt längs en gren med armarna i luften"
+        }
+      },
+      "en": {
+        "word": "Gibbon",
+        "aliases": [],
+        "hints": {
+          "easy": "Swings between trees on very long arms",
+          "normal": "Pairs often sing together",
+          "hard": "Can walk along a branch with arms raised"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-mandrill",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mandrill",
+        "aliases": [],
+        "hints": {
+          "easy": "Röd nos mellan blå åsar",
+          "normal": "Gruppen letar fallfrukt på skogsmarken",
+          "hard": "Hanen kan visa tänderna som en vänlig gest"
+        }
+      },
+      "en": {
+        "word": "Mandrill",
+        "aliases": [],
+        "hints": {
+          "easy": "Red nose between blue ridges",
+          "normal": "The group looks for fallen fruit on the forest floor",
+          "hard": "A male may show his teeth as a friendly gesture"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-proboscis-monkey",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Näsapa",
+        "aliases": [],
+        "hints": {
+          "easy": "Hanens stora nos hänger över munnen",
+          "normal": "Simmar mellan mangroveträd",
+          "hard": "Ungarna har blå ansikten från födseln"
+        }
+      },
+      "en": {
+        "word": "Proboscis monkey",
+        "aliases": [],
+        "hints": {
+          "easy": "A male's large nose hangs over its mouth",
+          "normal": "Swims between mangrove trees",
+          "hard": "Babies are born with blue faces"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-capuchin",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kapucinapa",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten apa med mörk hätta av päls",
+          "normal": "Vissa knäcker nötter med stenar",
+          "hard": "Varnar gruppen för rovfåglar"
+        }
+      },
+      "en": {
+        "word": "Capuchin monkey",
+        "aliases": [
+          "Capuchin"
+        ],
+        "hints": {
+          "easy": "Small monkey with a dark cap of fur",
+          "normal": "Some crack nuts with stones",
+          "hard": "Warns its group about birds of prey"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-aye-aye",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fingerdjur",
+        "aliases": [
+          "Aye-aye"
+        ],
+        "hints": {
+          "easy": "Trummar på bark med ett spinkigt finger",
+          "normal": "Fladdermuslika öron i mörkret",
+          "hard": "Gnager hål i trä för att få ut larver"
+        }
+      },
+      "en": {
+        "word": "Aye-aye",
+        "aliases": [],
+        "hints": {
+          "easy": "Taps bark with a spindly finger",
+          "normal": "Bat-like ears in the darkness",
+          "hard": "Gnaws holes in wood to get at grubs"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-okapi",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Okapi",
+        "aliases": [],
+        "hints": {
+          "easy": "Randiga ben under brun kropp",
+          "normal": "Nära släkt med giraffen",
+          "hard": "Skalar av blad med sin långa tunga"
+        }
+      },
+      "en": {
+        "word": "Okapi",
+        "aliases": [],
+        "hints": {
+          "easy": "Striped legs under a brown body",
+          "normal": "Close relative of the giraffe",
+          "hard": "Strips leaves with its long tongue"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-blue-wildebeest",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Strimmig gnu",
+        "aliases": [
+          "Gnu"
+        ],
+        "hints": {
+          "easy": "Stor afrikansk betare med krökta horn",
+          "normal": "Många följer regnen över Serengeti",
+          "hard": "Man och skägg på samma huvud"
+        }
+      },
+      "en": {
+        "word": "Blue wildebeest",
+        "aliases": [
+          "Wildebeest"
+        ],
+        "hints": {
+          "easy": "Large African grazer with curved horns",
+          "normal": "Many follow the rains across the Serengeti",
+          "hard": "Mane and beard on the same head"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-impala",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Impala",
+        "aliases": [],
+        "hints": {
+          "easy": "Smäcker antilop som gör långa luftsprång",
+          "normal": "Hanens horn böjer sig som en lyra",
+          "hard": "Svarta markeringar syns på baken när den flyr"
+        }
+      },
+      "en": {
+        "word": "Impala",
+        "aliases": [],
+        "hints": {
+          "easy": "Slender antelope that makes long leaps",
+          "normal": "Males have horns curved like a lyre",
+          "hard": "Black markings show on its rump as it flees"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-saiga",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Saigaantilop",
+        "aliases": [
+          "Saiga"
+        ],
+        "hints": {
+          "easy": "Stor mule som böjer sig nedåt",
+          "normal": "Hjord ute på den eurasiska stäppen",
+          "hard": "Den vida nosen kan filtrera damm ur luften"
+        }
+      },
+      "en": {
+        "word": "Saiga",
+        "aliases": [
+          "Saiga antelope"
+        ],
+        "hints": {
+          "easy": "Large muzzle that curves downwards",
+          "normal": "Herd on the Eurasian steppe",
+          "hard": "Its broad nose can filter dust out of the air"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-alpine-ibex",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Alpstenbock",
+        "aliases": [
+          "Stenbock"
+        ],
+        "hints": {
+          "easy": "Stora bakåtböjda horn med tvära åsar",
+          "normal": "Klättrar på branta klippväggar",
+          "hard": "Kan slicka i sig salt ur sten"
+        }
+      },
+      "en": {
+        "word": "Alpine ibex",
+        "aliases": [
+          "Ibex"
+        ],
+        "hints": {
+          "easy": "Huge backward-curving horns with ridges",
+          "normal": "Climbs sheer rocky faces",
+          "hard": "Can lick salt from bare stone"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-muskox",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Myskoxe",
+        "aliases": [],
+        "hints": {
+          "easy": "Lång päls som räcker ner mot marken",
+          "normal": "Vuxna bildar en ring runt kalvarna",
+          "hard": "Mjuk underull skyddar i arktisk kyla"
+        }
+      },
+      "en": {
+        "word": "Muskox",
+        "aliases": [
+          "Musk ox"
+        ],
+        "hints": {
+          "easy": "Long coat that nearly touches the ground",
+          "normal": "Adults form a ring around the calves",
+          "hard": "Soft underwool insulates it in the Arctic"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-capybara",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kapybara",
+        "aliases": [
+          "Vattensvin"
+        ],
+        "hints": {
+          "easy": "Världens största levande gnagare",
+          "normal": "Glider gärna ner i floder i Sydamerika",
+          "hard": "Ögon och näsborrar högt upp på huvudet"
+        }
+      },
+      "en": {
+        "word": "Capybara",
+        "aliases": [],
+        "hints": {
+          "easy": "World's largest living rodent",
+          "normal": "Readily slips into South American rivers",
+          "hard": "Eyes and nostrils sit high on its head"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-prairie-dog",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Präriehund",
+        "aliases": [],
+        "hints": {
+          "easy": "Larmar med skall vid hålets öppning",
+          "normal": "Kolonin har ett helt nät av gångar",
+          "hard": "Reser sig för att spana över kort gräs"
+        }
+      },
+      "en": {
+        "word": "Prairie dog",
+        "aliases": [],
+        "hints": {
+          "easy": "Barks an alarm from its burrow entrance",
+          "normal": "The colony shares a network of tunnels",
+          "hard": "Stands up to see over short grass"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-north-american-porcupine",
+    "category": "animals",
+    "subcategory": "animals-land-mammals",
+    "tags": [
+      "mammal"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Nordamerikanskt trädpiggsvin",
+        "aliases": [
+          "Trädpiggsvin"
+        ],
+        "hints": {
+          "easy": "Lösa taggar fastnar i angriparen",
+          "normal": "Klättrar för att äta innerbark",
+          "hard": "Letar ibland upp smak av salt"
+        }
+      },
+      "en": {
+        "word": "North American porcupine",
+        "aliases": [],
+        "hints": {
+          "easy": "Loose quills stick into an attacker",
+          "normal": "Climbs trees to feed on inner bark",
+          "hard": "Sometimes seeks out a taste of salt"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-emperor-penguin",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kejsarpingvin",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor svartvit fågel som simmar med vingarna",
+          "normal": "Håller värmen i en tät klunga på isen",
+          "hard": "Ett ägg balanserar ovanpå hanens fötter"
+        }
+      },
+      "en": {
+        "word": "Emperor penguin",
+        "aliases": [],
+        "hints": {
+          "easy": "Large black-and-white bird that swims with its wings",
+          "normal": "Huddles together on the ice for warmth",
+          "hard": "The male balances an egg on his feet"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-ostrich",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Struts",
+        "aliases": [],
+        "hints": {
+          "easy": "Fågel som springer i stället för att flyga",
+          "normal": "Enormt ägg",
+          "hard": "Två tår per fot"
+        }
+      },
+      "en": {
+        "word": "Ostrich",
+        "aliases": [],
+        "hints": {
+          "easy": "A bird built for running",
+          "normal": "An enormous egg",
+          "hard": "Two toes per foot"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-emu",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Emu",
+        "aliases": [],
+        "hints": {
+          "easy": "Australisk jättefågel utan flygförmåga",
+          "normal": "Tre tår på varje fot",
+          "hard": "Hanen ruvar mörkgröna ägg"
+        }
+      },
+      "en": {
+        "word": "Emu",
+        "aliases": [],
+        "hints": {
+          "easy": "Flightless Australian giant",
+          "normal": "Three toes on each foot",
+          "hard": "The male incubates dark green eggs"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-flamingo",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Flamingo",
+        "aliases": [],
+        "hints": {
+          "easy": "En rosafärgad vadarfågel",
+          "normal": "Står gärna på ett ben",
+          "hard": "Filtrerar födan med böjd näbb"
+        }
+      },
+      "en": {
+        "word": "Flamingo",
+        "aliases": [],
+        "hints": {
+          "easy": "Pink wading bird",
+          "normal": "Often stands on one leg",
+          "hard": "Filters food with a curved bill"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-pelican",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pelikan",
+        "aliases": [],
+        "hints": {
+          "easy": "En stor påse sitter under näbben",
+          "normal": "Öser upp fisk",
+          "hard": "Breda vingar över sjön"
+        }
+      },
+      "en": {
+        "word": "Pelican",
+        "aliases": [],
+        "hints": {
+          "easy": "Huge pouch beneath the bill",
+          "normal": "Scoops up fish",
+          "hard": "Broad wings above the lake"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-peacock",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Påfågel",
+        "aliases": [],
+        "hints": {
+          "easy": "Visar upp en solfjäder av fjädrar",
+          "normal": "Mönster som ögon",
+          "hard": "Trumpetar från gården"
+        }
+      },
+      "en": {
+        "word": "Peacock",
+        "aliases": [],
+        "hints": {
+          "easy": "Fans out a train of feathers",
+          "normal": "Patterns like eyes",
+          "hard": "Loud calls from an estate garden"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-mute-swan",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Knölsvan",
+        "aliases": [],
+        "hints": {
+          "easy": "Vit med lång böjd hals och orange näbb",
+          "normal": "Glider förbi vassen",
+          "hard": "Ett fräs före ett utfall"
+        }
+      },
+      "en": {
+        "word": "Mute swan",
+        "aliases": [],
+        "hints": {
+          "easy": "White bird with curved neck and orange bill",
+          "normal": "Glides past the reeds",
+          "hard": "A hiss before a charge"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-mallard",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gräsand",
+        "aliases": [],
+        "hints": {
+          "easy": "Hanen har grönt huvud",
+          "normal": "Vänder stjärten uppåt i dammen",
+          "hard": "Ett välbekant kvack"
+        }
+      },
+      "en": {
+        "word": "Mallard",
+        "aliases": [],
+        "hints": {
+          "easy": "The male has a green head",
+          "normal": "Tips tail-up in a pond",
+          "hard": "A familiar quack"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-greylag-goose",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grågås",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor grå fågel med orange näbb",
+          "normal": "Betar på fälten i flock",
+          "hard": "Stamform till många tamgäss"
+        }
+      },
+      "en": {
+        "word": "Greylag goose",
+        "aliases": [],
+        "hints": {
+          "easy": "Large grey bird with an orange bill",
+          "normal": "Grazes in flocks in fields",
+          "hard": "Ancestor of many domestic breeds"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-heron",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Häger",
+        "aliases": [],
+        "hints": {
+          "easy": "Spetsig näbb över grunt vatten",
+          "normal": "Fiskar stående blickstilla",
+          "hard": "Viker in halsen i flykten"
+        }
+      },
+      "en": {
+        "word": "Heron",
+        "aliases": [],
+        "hints": {
+          "easy": "Pointed bill over shallow water",
+          "normal": "Fishes while standing stock-still",
+          "hard": "Tucks its neck in when flying"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-stork",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stork",
+        "aliases": [],
+        "hints": {
+          "easy": "Långbent fågel på ett stort takbo",
+          "normal": "Bebisar i sagor",
+          "hard": "Slår ihop näbben som en kastanjett"
+        }
+      },
+      "en": {
+        "word": "Stork",
+        "aliases": [],
+        "hints": {
+          "easy": "Long-legged bird on a huge rooftop nest",
+          "normal": "Delivers babies in stories",
+          "hard": "Clatters its bill like castanets"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-crane",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trana",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor vadarfågel som dansar på våren",
+          "normal": "Hornborgasjöns vårgäster",
+          "hard": "Flyger med rak hals"
+        }
+      },
+      "en": {
+        "word": "Crane",
+        "aliases": [],
+        "hints": {
+          "easy": "Tall wader that dances in spring",
+          "normal": "Trumpeting flocks on migration",
+          "hard": "Flies with its neck stretched out"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-gull",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mås",
+        "aliases": [],
+        "hints": {
+          "easy": "Skränar runt hamnen",
+          "normal": "Siktar in sig på din pommes",
+          "hard": "Kretsar bakom en plog"
+        }
+      },
+      "en": {
+        "word": "Gull",
+        "aliases": [
+          "Seagull"
+        ],
+        "hints": {
+          "easy": "Cries out around harbours",
+          "normal": "Has its eye on your chips",
+          "hard": "Circles behind a plough"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-atlantic-puffin",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lunnefågel",
+        "aliases": [],
+        "hints": {
+          "easy": "Färgglad näbb på en brant kustklippa",
+          "normal": "Bär flera fiskar på tvären",
+          "hard": "Bygger bo i en jordhåla"
+        }
+      },
+      "en": {
+        "word": "Atlantic puffin",
+        "aliases": [
+          "Puffin"
+        ],
+        "hints": {
+          "easy": "Colourful bill on a coastal cliff",
+          "normal": "Carries several fish crosswise",
+          "hard": "Nests in an earth burrow"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-albatross",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Albatross",
+        "aliases": [],
+        "hints": {
+          "easy": "En havsfågel med enormt vingspann",
+          "normal": "Glider länge nära vågorna",
+          "hard": "Ett omen för sjömän"
+        }
+      },
+      "en": {
+        "word": "Albatross",
+        "aliases": [],
+        "hints": {
+          "easy": "Ocean bird with an immense wingspan",
+          "normal": "Glides for ages close to the waves",
+          "hard": "An omen among sailors"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-cormorant",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skarv",
+        "aliases": [],
+        "hints": {
+          "easy": "Mörk fiskare som dyker från vattenytan",
+          "normal": "Sitter med vingarna utbredda",
+          "hard": "Förföljer bytet med simfötter"
+        }
+      },
+      "en": {
+        "word": "Cormorant",
+        "aliases": [],
+        "hints": {
+          "easy": "Dark fisher that dives from the surface",
+          "normal": "Perches with its wings spread",
+          "hard": "Chases prey using webbed feet"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-eagle-owl",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Berguv",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor nattjägare med örontofsar",
+          "normal": "Orange blick i skymningen",
+          "hard": "Ett djupt ho över klipporna"
+        }
+      },
+      "en": {
+        "word": "Eagle owl",
+        "aliases": [],
+        "hints": {
+          "easy": "Large night hunter with ear tufts",
+          "normal": "Orange eyes at dusk",
+          "hard": "A deep hoot across the cliffs"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-snowy-owl",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fjälluggla",
+        "aliases": [],
+        "hints": {
+          "easy": "Ljus rovfågel på tundran",
+          "normal": "Lämlar på menyn",
+          "hard": "Jagar även under midnattssolen"
+        }
+      },
+      "en": {
+        "word": "Snowy owl",
+        "aliases": [],
+        "hints": {
+          "easy": "Pale raptor of the Arctic tundra",
+          "normal": "Lemmings on the menu",
+          "hard": "Hunts even under the midnight sun"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-golden-eagle",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kungsörn",
+        "aliases": [],
+        "hints": {
+          "easy": "Mäktig rovfågel över fjället",
+          "normal": "Gyllenbrun nacke",
+          "hard": "Harar och ripor bland bytena"
+        }
+      },
+      "en": {
+        "word": "Golden eagle",
+        "aliases": [],
+        "hints": {
+          "easy": "Powerful bird of prey above the mountains",
+          "normal": "Golden-brown nape",
+          "hard": "Hares and grouse among its prey"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-peregrine-falcon",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pilgrimsfalk",
+        "aliases": [],
+        "hints": {
+          "easy": "Jaktdyk i extrem fart",
+          "normal": "Fångar fåglar i luften",
+          "hard": "Skyskrapan får duga som klippa"
+        }
+      },
+      "en": {
+        "word": "Peregrine falcon",
+        "aliases": [
+          "Peregrine"
+        ],
+        "hints": {
+          "easy": "Extremely fast hunting dive",
+          "normal": "Catches birds in midair",
+          "hard": "A skyscraper can stand in for a cliff"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-great-spotted-woodpecker",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Större hackspett",
+        "aliases": [],
+        "hints": {
+          "easy": "Trummar mot trädstammar",
+          "normal": "Svartvit rygg med rött under stjärten",
+          "hard": "Kilar fast en kotte före måltiden"
+        }
+      },
+      "en": {
+        "word": "Great spotted woodpecker",
+        "aliases": [],
+        "hints": {
+          "easy": "Drums against tree trunks",
+          "normal": "Black-and-white back and red under the tail",
+          "hard": "Wedges a cone in place before feeding"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-magpie",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skata",
+        "aliases": [],
+        "hints": {
+          "easy": "Svartvit fågel med lång stjärt",
+          "normal": "Smattrar från hustaket",
+          "hard": "Ofta misstänkt för att roffa åt sig glitter"
+        }
+      },
+      "en": {
+        "word": "Magpie",
+        "aliases": [],
+        "hints": {
+          "easy": "Black-and-white bird with a long tail",
+          "normal": "Chatters from the rooftop",
+          "hard": "Often accused of stealing shiny things"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-raven",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Korp",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor helsvart fågel med kraftig näbb",
+          "normal": "Kraxar djupt",
+          "hard": "Följeslagare till Oden"
+        }
+      },
+      "en": {
+        "word": "Raven",
+        "aliases": [],
+        "hints": {
+          "easy": "Large all-black bird with a heavy bill",
+          "normal": "A deep croaking call",
+          "hard": "Companion to Odin"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-house-sparrow",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gråsparv",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten brun fågel kring hus",
+          "normal": "Småflock vid uteserveringen",
+          "hard": "Badar gärna i damm"
+        }
+      },
+      "en": {
+        "word": "House sparrow",
+        "aliases": [],
+        "hints": {
+          "easy": "Small brown bird commonly seen around houses",
+          "normal": "Small flocks around café tables",
+          "hard": "Enjoys a dust bath"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-robin",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rödhake",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten trädgårdsfågel med orange bröst",
+          "normal": "Sitter ofta ensam nära marken",
+          "hard": "Dyker upp när någon gräver efter mask"
+        }
+      },
+      "en": {
+        "word": "European robin",
+        "aliases": [
+          "Robin"
+        ],
+        "hints": {
+          "easy": "Small garden bird with an orange breast",
+          "normal": "Often perches alone close to the ground",
+          "hard": "Appears when someone digs in the soil"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-kingfisher",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kungsfiskare",
+        "aliases": [],
+        "hints": {
+          "easy": "Blåglänsande småfiskjägare vid ån",
+          "normal": "Dyker från sin utkikskvist",
+          "hard": "Gräver botunnel i en jordbrink"
+        }
+      },
+      "en": {
+        "word": "Common kingfisher",
+        "aliases": [
+          "Kingfisher"
+        ],
+        "hints": {
+          "easy": "Shimmering blue fish hunter by the stream",
+          "normal": "Plunges from its lookout twig",
+          "hard": "Digs a nest tunnel in an earthen bank"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-common-cuckoo",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gök",
+        "aliases": [],
+        "hints": {
+          "easy": "Lägger ägg i andra arters bon",
+          "normal": "Ett tvåtonigt läte från skogen",
+          "hard": "Har imiterats av urmakare"
+        }
+      },
+      "en": {
+        "word": "Common cuckoo",
+        "aliases": [
+          "Cuckoo"
+        ],
+        "hints": {
+          "easy": "Lays eggs in other species' nests",
+          "normal": "A two-note call from the woods",
+          "hard": "Imitated by clockmakers"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-hummingbird",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kolibri",
+        "aliases": [],
+        "hints": {
+          "easy": "Står still i luften vid en blomma",
+          "normal": "Dricker nektar med lång näbb",
+          "hard": "Kan backa mellan blommorna"
+        }
+      },
+      "en": {
+        "word": "Hummingbird",
+        "aliases": [],
+        "hints": {
+          "easy": "Hovers in front of a flower",
+          "normal": "Sips nectar with a long bill",
+          "hard": "Can fly backwards between blooms"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-kakapo",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kākāpō",
+        "aliases": [
+          "Kakapo"
+        ],
+        "hints": {
+          "easy": "En grön marklevande papegoja från Nya Zeeland",
+          "normal": "Vaggar runt efter mörkrets inbrott",
+          "hard": "Hanen lockar med dovt buller från en grop"
+        }
+      },
+      "en": {
+        "word": "Kākāpō",
+        "aliases": [
+          "Kakapo"
+        ],
+        "hints": {
+          "easy": "Green ground-dwelling parrot from New Zealand",
+          "normal": "Waddles around after dark",
+          "hard": "The male calls with low booms from a shallow hollow"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-kea",
+    "category": "animals",
+    "subcategory": "animals-birds",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kea",
+        "aliases": [],
+        "hints": {
+          "easy": "Papegoja från Nya Zeelands alpina trakter",
+          "normal": "Orange vingundersidor syns i flykten",
+          "hard": "Undersöker gärna saker den kan slita i"
+        }
+      },
+      "en": {
+        "word": "Kea",
+        "aliases": [],
+        "hints": {
+          "easy": "Parrot from New Zealand's alpine country",
+          "normal": "Orange underwings flash in flight",
+          "hard": "Curiously investigates anything it can tug at"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-blue-whale",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Blåval",
+        "aliases": [],
+        "hints": {
+          "easy": "Det största djuret på jorden",
+          "normal": "Äter mängder av krill",
+          "hard": "Låga läten färdas långt"
+        }
+      },
+      "en": {
+        "word": "Blue whale",
+        "aliases": [],
+        "hints": {
+          "easy": "The largest animal on Earth",
+          "normal": "Feeds on vast quantities of krill",
+          "hard": "Its low calls travel far"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-humpback-whale",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Knölval",
+        "aliases": [],
+        "hints": {
+          "easy": "Val känd för sång och höga språng",
+          "normal": "Långa bröstfenor",
+          "hard": "Fiskar ibland med ett nät av bubblor"
+        }
+      },
+      "en": {
+        "word": "Humpback whale",
+        "aliases": [],
+        "hints": {
+          "easy": "Marine giant known for songs and leaps",
+          "normal": "Long flippers",
+          "hard": "Sometimes fishes with a net of bubbles"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-orca",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Späckhuggare",
+        "aliases": [],
+        "hints": {
+          "easy": "Svartvit havsjägare med hög ryggfena",
+          "normal": "Jagar ofta i familjegrupp",
+          "hard": "Kan spola bytet av en isbit"
+        }
+      },
+      "en": {
+        "word": "Orca",
+        "aliases": [
+          "Killer whale"
+        ],
+        "hints": {
+          "easy": "Black-and-white ocean hunter with a tall dorsal fin",
+          "normal": "Often hunts in family groups",
+          "hard": "Can wash prey off an ice floe"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-bottlenose-dolphin",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Flasknosdelfin",
+        "aliases": [
+          "Öresvin"
+        ],
+        "hints": {
+          "easy": "Grå havsakrobat med kort nos",
+          "normal": "Visslar för att hålla kontakt",
+          "hard": "Ett klickljud hjälper den att hitta byten"
+        }
+      },
+      "en": {
+        "word": "Bottlenose dolphin",
+        "aliases": [],
+        "hints": {
+          "easy": "Grey marine acrobat with a short snout",
+          "normal": "Whistles to keep in contact",
+          "hard": "Finds prey with a series of clicks"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-sperm-whale",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kaskelot",
+        "aliases": [],
+        "hints": {
+          "easy": "Val med väldigt kantigt huvud",
+          "normal": "Djupdyker efter stora bläckfiskar",
+          "hard": "Blåser snett framåt när den andas ut"
+        }
+      },
+      "en": {
+        "word": "Sperm whale",
+        "aliases": [],
+        "hints": {
+          "easy": "Whale with a very blocky head",
+          "normal": "Dives deep in search of large squid",
+          "hard": "Its blow points forward at an angle"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-narwhal",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Narval",
+        "aliases": [],
+        "hints": {
+          "easy": "Arktiskt djur med en spiralformad tand",
+          "normal": "Dyker under packisen",
+          "hard": "Saknar en hög fena på ryggen"
+        }
+      },
+      "en": {
+        "word": "Narwhal",
+        "aliases": [],
+        "hints": {
+          "easy": "Arctic animal with a spiralling tusk",
+          "normal": "Dives beneath pack ice",
+          "hard": "Lacks a tall fin on its back"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-beluga",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vitval",
+        "aliases": [],
+        "hints": {
+          "easy": "Mjölkvit som vuxen och rund om pannan",
+          "normal": "Byter läten ofta vid kontakt med flocken",
+          "hard": "Huvudet kan vridas åt sidan"
+        }
+      },
+      "en": {
+        "word": "Beluga whale",
+        "aliases": [
+          "Beluga"
+        ],
+        "hints": {
+          "easy": "Milky white as an adult and round in the forehead",
+          "normal": "Makes a wide range of social sounds",
+          "hard": "Can turn its head from side to side"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-walrus",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Valross",
+        "aliases": [],
+        "hints": {
+          "easy": "Stort arktiskt djur med långa betar",
+          "normal": "Känslig mustasch söker föda",
+          "hard": "Suger i sig kött ur musselskal"
+        }
+      },
+      "en": {
+        "word": "Walrus",
+        "aliases": [],
+        "hints": {
+          "easy": "Large Arctic animal with long tusks",
+          "normal": "A sensitive moustache feels for food",
+          "hard": "Sucks flesh out of shells"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-harbour-seal",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Knubbsäl",
+        "aliases": [],
+        "hints": {
+          "easy": "Prickig kustjägare som vilar på klippor",
+          "normal": "Kort nos och stora mörka ögon",
+          "hard": "Vilar ibland i en båge med ändarna i luften"
+        }
+      },
+      "en": {
+        "word": "Harbour seal",
+        "aliases": [
+          "Common seal",
+          "Harbor seal"
+        ],
+        "hints": {
+          "easy": "Spotted coastal hunter that rests on rocks",
+          "normal": "Short muzzle and large dark eyes",
+          "hard": "Sometimes lies in a curve with both ends in the air"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-manatee",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Manat",
+        "aliases": [],
+        "hints": {
+          "easy": "Tung växtätare i varmt vatten",
+          "normal": "Betar lugnt på bottnen",
+          "hard": "Stjärten liknar en rund paddel"
+        }
+      },
+      "en": {
+        "word": "Manatee",
+        "aliases": [],
+        "hints": {
+          "easy": "Heavy plant eater in warm water",
+          "normal": "Grazes slowly along the bottom",
+          "hard": "Its tail resembles a round paddle"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-harbour-porpoise",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tumlare",
+        "aliases": [],
+        "hints": {
+          "easy": "Litet grått havsdäggdjur som smyger nära kusten",
+          "normal": "Rundat huvud utan utdragen näbb",
+          "hard": "Skymtar med liten trekantig ryggfena"
+        }
+      },
+      "en": {
+        "word": "Harbour porpoise",
+        "aliases": [
+          "Harbor porpoise"
+        ],
+        "hints": {
+          "easy": "Small grey marine mammal that keeps a low profile",
+          "normal": "Rounded head without a long beak",
+          "hard": "A small triangular fin briefly breaks the surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-great-white-shark",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vithaj",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor havsjägare med trekantiga sågtänder",
+          "normal": "Kan göra utfall mot säl underifrån",
+          "hard": "Mörk rygg gömmer konturen ovanifrån"
+        }
+      },
+      "en": {
+        "word": "Great white shark",
+        "aliases": [
+          "White shark"
+        ],
+        "hints": {
+          "easy": "Huge ocean hunter with triangular serrated teeth",
+          "normal": "Can ambush seals from below",
+          "hard": "A dark back conceals its outline from above"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-hammerhead-shark",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hammarhaj",
+        "aliases": [],
+        "hints": {
+          "easy": "Ögon längst ut på en bred skalle",
+          "normal": "Spanar efter rockor på sandbotten",
+          "hard": "Huvudet känner av elektriska signaler"
+        }
+      },
+      "en": {
+        "word": "Hammerhead shark",
+        "aliases": [
+          "Hammerhead"
+        ],
+        "hints": {
+          "easy": "Eyes at the far ends of a wide head",
+          "normal": "Looks for rays on sandy bottoms",
+          "hard": "Its head detects electrical signals"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-manta-ray",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Manta",
+        "aliases": [],
+        "hints": {
+          "easy": "En bred havsjätte som flaxar under vattnet",
+          "normal": "Silar plankton medan den simmar",
+          "hard": "Rullar ut två huvudflikar när den äter"
+        }
+      },
+      "en": {
+        "word": "Manta ray",
+        "aliases": [
+          "Manta"
+        ],
+        "hints": {
+          "easy": "A broad ocean giant that flaps underwater",
+          "normal": "Filters plankton while swimming",
+          "hard": "Unfurls two head lobes when feeding"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-electric-eel",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Darrål",
+        "aliases": [
+          "Elektrisk ål"
+        ],
+        "hints": {
+          "easy": "Bedövar byten med en kraftig stöt",
+          "normal": "Lång kropp i sydamerikanskt sötvatten",
+          "hard": "Måste till ytan för att andas luft"
+        }
+      },
+      "en": {
+        "word": "Electric eel",
+        "aliases": [],
+        "hints": {
+          "easy": "Stuns prey with a powerful shock",
+          "normal": "Long body in South American freshwater",
+          "hard": "Has to surface to breathe air"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-moray-eel",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Muräna",
+        "aliases": [],
+        "hints": {
+          "easy": "Ormlik fisk i en klippskreva",
+          "normal": "Gapar för att få vatten över gälarna",
+          "hard": "En inre käke drar ner födan"
+        }
+      },
+      "en": {
+        "word": "Moray eel",
+        "aliases": [
+          "Moray"
+        ],
+        "hints": {
+          "easy": "Snake-shaped fish in a rocky crevice",
+          "normal": "Gapes to get water over its gills",
+          "hard": "An inner set of jaws pulls food down"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-pike",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gädda",
+        "aliases": [],
+        "hints": {
+          "easy": "Tandad rovfisk med lång nos",
+          "normal": "Väntar på byte bland vattenväxter",
+          "hard": "Ryggfenan sitter långt bak"
+        }
+      },
+      "en": {
+        "word": "Northern pike",
+        "aliases": [
+          "Pike"
+        ],
+        "hints": {
+          "easy": "Toothy freshwater predator with a long snout",
+          "normal": "Lies in wait among water plants",
+          "hard": "Dorsal fin sits far back"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-perch",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Abborre",
+        "aliases": [],
+        "hints": {
+          "easy": "Randig insjöfisk med rödaktiga fenor",
+          "normal": "Taggig kam längs ryggen",
+          "hard": "Yngel håller ofta ihop i stim"
+        }
+      },
+      "en": {
+        "word": "European perch",
+        "aliases": [
+          "Perch"
+        ],
+        "hints": {
+          "easy": "Striped freshwater fish with reddish fins",
+          "normal": "Spiny crest along the back",
+          "hard": "Juveniles often stay together in shoals"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-swordfish",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Svärdfisk",
+        "aliases": [],
+        "hints": {
+          "easy": "Snabb storfisk med en lång flat överkäke",
+          "normal": "Slår till mot byten i vattnet",
+          "hard": "Vuxna individer saknar fjäll"
+        }
+      },
+      "en": {
+        "word": "Swordfish",
+        "aliases": [],
+        "hints": {
+          "easy": "Fast, large fish with a long, flattened upper jaw",
+          "normal": "Slashes at prey in the water",
+          "hard": "Adults have no scales"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-sailfish",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Segelfisk",
+        "aliases": [],
+        "hints": {
+          "easy": "En jättefena kan resas över ryggen",
+          "normal": "Jagar efter stim i öppet vatten",
+          "hard": "Fäller ryggfenan i en fåra när den rusar"
+        }
+      },
+      "en": {
+        "word": "Sailfish",
+        "aliases": [],
+        "hints": {
+          "easy": "An enormous fin can rise above its back",
+          "normal": "Hunts schools in open water",
+          "hard": "Folds the dorsal fin into a groove when speeding up"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-clownfish",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Clownfisk",
+        "aliases": [],
+        "hints": {
+          "easy": "Orange med vita band mellan brännande tentakler",
+          "normal": "Fick huvudrollen i en film om en försvunnen son",
+          "hard": "Slemmet hjälper den att tåla värdens nässelceller"
+        }
+      },
+      "en": {
+        "word": "Clownfish",
+        "aliases": [],
+        "hints": {
+          "easy": "Orange and white among stinging tentacles",
+          "normal": "Starred in a film about a missing son",
+          "hard": "Mucus helps it tolerate its host's stinging cells"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-seahorse",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sjöhäst",
+        "aliases": [],
+        "hints": {
+          "easy": "Simmar upprätt med böjt huvud",
+          "normal": "Hanen bär ungarna i en ficka",
+          "hard": "Griper tag i vegetation med stjärten"
+        }
+      },
+      "en": {
+        "word": "Seahorse",
+        "aliases": [],
+        "hints": {
+          "easy": "Swims upright with a curved head",
+          "normal": "The male carries the young in a pouch",
+          "hard": "Grips vegetation with its tail"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-ocean-sunfish",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Klumpfisk",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor och tillplattad fisk med tvärt slut baktill",
+          "normal": "Kan ligga på sidan nära ytan",
+          "hard": "Håller sig uppe utan simblåsa"
+        }
+      },
+      "en": {
+        "word": "Ocean sunfish",
+        "aliases": [
+          "Common mola"
+        ],
+        "hints": {
+          "easy": "Large, flat fish with an abruptly truncated rear",
+          "normal": "Sometimes floats on its side near the surface",
+          "hard": "Stays afloat without a swim bladder"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-common-octopus",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vanlig åttaarmad bläckfisk",
+        "aliases": [],
+        "hints": {
+          "easy": "Kryper med sugkoppsarmar",
+          "normal": "Smiter genom trånga springor",
+          "hard": "Stänger ibland till sitt gömställe med stenar"
+        }
+      },
+      "en": {
+        "word": "Common octopus",
+        "aliases": [],
+        "hints": {
+          "easy": "Crawls on arms covered with suckers",
+          "normal": "Slips through tight gaps",
+          "hard": "Sometimes blocks its den with stones"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-giant-squid",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jättebläckfisk",
+        "aliases": [],
+        "hints": {
+          "easy": "Djuphavsdjur med två särskilt långa fångstarmar",
+          "normal": "Ögon stora som tallrikar",
+          "hard": "Kan lämna runda ärr på en dykande val"
+        }
+      },
+      "en": {
+        "word": "Giant squid",
+        "aliases": [],
+        "hints": {
+          "easy": "Deep-sea animal with two especially long feeding tentacles",
+          "normal": "Eyes as big as plates",
+          "hard": "Can leave round scars on a diving whale"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-cuttlefish",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sepiabläckfisk",
+        "aliases": [],
+        "hints": {
+          "easy": "Byter snabbt färg och mönster",
+          "normal": "Pupiller som bokstaven W",
+          "hard": "Bär ett kalkskal inne i kroppen"
+        }
+      },
+      "en": {
+        "word": "Cuttlefish",
+        "aliases": [],
+        "hints": {
+          "easy": "Rapidly changes colour and pattern",
+          "normal": "Pupils shaped like the letter W",
+          "hard": "Carries a chalky shell inside its body"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-moon-jelly",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Öronmanet",
+        "aliases": [],
+        "hints": {
+          "easy": "Genomskinlig geléskiva som driver i vattnet",
+          "normal": "Fyra ringar syns genom kroppen",
+          "hard": "Ofta vanlig vid svenska badplatser"
+        }
+      },
+      "en": {
+        "word": "Moon jelly",
+        "aliases": [
+          "Moon jellyfish"
+        ],
+        "hints": {
+          "easy": "Translucent disc of jelly drifting in the water",
+          "normal": "Four rings show through its body",
+          "hard": "Gentle pulses keep it moving"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-starfish",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sjöstjärna",
+        "aliases": [],
+        "hints": {
+          "easy": "Kroppen har oftast fem spetsiga armar",
+          "normal": "Bänder isär musslor",
+          "hard": "Många små slangfötter på undersidan"
+        }
+      },
+      "en": {
+        "word": "Starfish",
+        "aliases": [
+          "Sea star"
+        ],
+        "hints": {
+          "easy": "Usually has five pointed arms",
+          "normal": "Pries open mussels",
+          "hard": "Many tiny tube feet on its underside"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-sea-urchin",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sjöborre",
+        "aliases": [],
+        "hints": {
+          "easy": "En rundtaggig boll på havsbotten",
+          "normal": "Skrapar i sig alger",
+          "hard": "Fem tänder möts i munnen"
+        }
+      },
+      "en": {
+        "word": "Sea urchin",
+        "aliases": [],
+        "hints": {
+          "easy": "A round, spiny ball on the seabed",
+          "normal": "Scrapes up algae",
+          "hard": "Five teeth meet in its mouth"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-sea-cucumber",
+    "category": "animals",
+    "subcategory": "animals-aquatic",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sjögurka",
+        "aliases": [],
+        "hints": {
+          "easy": "Mjuk avlång kropp på bottnen",
+          "normal": "Plockar upp partiklar ur sedimentet",
+          "hard": "Slungar hos vissa arter ut inälvor som försvar"
+        }
+      },
+      "en": {
+        "word": "Sea cucumber",
+        "aliases": [],
+        "hints": {
+          "easy": "Soft, elongated creature on the seabed",
+          "normal": "Picks up particles from sediment",
+          "hard": "Some species eject internal organs in defence"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-nile-crocodile",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Nilkrokodil",
+        "aliases": [],
+        "hints": {
+          "easy": "Långsmal käke på en stor afrikansk vattenjägare",
+          "normal": "Ögon och näsborrar sticker upp ur vattnet",
+          "hard": "Stora djur dricker försiktigt vid dess flodbank"
+        }
+      },
+      "en": {
+        "word": "Nile crocodile",
+        "aliases": [],
+        "hints": {
+          "easy": "A large African river hunter with a long, narrow jaw",
+          "normal": "Eyes and nostrils peek above the water",
+          "hard": "Large animals drink cautiously at its riverbank"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-american-alligator",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mississippialligator",
+        "aliases": [
+          "Amerikansk alligator"
+        ],
+        "hints": {
+          "easy": "Stor sumpjägare med bred rundad nos",
+          "normal": "Vanlig i Floridas våtmarker",
+          "hard": "Gräver vattengropar som andra djur använder"
+        }
+      },
+      "en": {
+        "word": "American alligator",
+        "aliases": [],
+        "hints": {
+          "easy": "Large swamp hunter with a broad, rounded snout",
+          "normal": "Common in Florida's wetlands",
+          "hard": "Digs water holes that other animals use"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-green-sea-turtle",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grön havssköldpadda",
+        "aliases": [],
+        "hints": {
+          "easy": "En skalbärare som simmar med paddelfenor",
+          "normal": "Äter mest sjögräs som vuxen",
+          "hard": "Vänder åter till sin födelseregion för att lägga ägg"
+        }
+      },
+      "en": {
+        "word": "Green sea turtle",
+        "aliases": [
+          "Green turtle"
+        ],
+        "hints": {
+          "easy": "A swimmer with a shell and paddle-shaped flippers",
+          "normal": "Mostly grazes on seagrass as an adult",
+          "hard": "Returns to the region where it hatched to lay eggs"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-galapagos-tortoise",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Galápagossköldpadda",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor ölevande skalbärare som går långsamt",
+          "normal": "Kan bli över hundra år",
+          "hard": "Skalformen skiljer sig mellan öarna"
+        }
+      },
+      "en": {
+        "word": "Galápagos tortoise",
+        "aliases": [
+          "Galapagos tortoise"
+        ],
+        "hints": {
+          "easy": "Huge island-dweller that moves slowly in its shell",
+          "normal": "Can live for more than a century",
+          "hard": "Shell shape varies from island to island"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-komodo-dragon",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Komodovaran",
+        "aliases": [],
+        "hints": {
+          "easy": "Den största nu levande ödlan",
+          "normal": "Klövar på menyn på indonesiska öar",
+          "hard": "Känner doftspår med kluven tunga"
+        }
+      },
+      "en": {
+        "word": "Komodo dragon",
+        "aliases": [],
+        "hints": {
+          "easy": "The largest living lizard",
+          "normal": "Hoofed animals on the menu on Indonesian islands",
+          "hard": "Follows scents with a forked tongue"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-green-iguana",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grön leguan",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor klätterödla med taggig ryggkam",
+          "normal": "Har ett hudsegel under halsen",
+          "hard": "Kan kasta sig från en gren ner i vattnet"
+        }
+      },
+      "en": {
+        "word": "Green iguana",
+        "aliases": [],
+        "hints": {
+          "easy": "Large climbing lizard with a spiky crest",
+          "normal": "Has a flap of skin beneath its throat",
+          "hard": "Can drop from a branch into the water"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-chameleon",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kameleont",
+        "aliases": [],
+        "hints": {
+          "easy": "Färgskiftande ödla med en tunga som skjuts ut",
+          "normal": "Ögonen tittar åt olika håll",
+          "hard": "Kroppen vaggar som ett löv"
+        }
+      },
+      "en": {
+        "word": "Chameleon",
+        "aliases": [],
+        "hints": {
+          "easy": "Colour-changing lizard with a tongue that shoots out",
+          "normal": "Its eyes look in different directions",
+          "hard": "Sways like a leaf"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-gecko",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Geckoödla",
+        "aliases": [
+          "Gecko"
+        ],
+        "hints": {
+          "easy": "Många arter kan gå upp och ned i ett tak",
+          "normal": "En del ropar på natten",
+          "hard": "Små hår på tådynorna ger grepp"
+        }
+      },
+      "en": {
+        "word": "Gecko",
+        "aliases": [],
+        "hints": {
+          "easy": "Many can walk upside down on a ceiling",
+          "normal": "Some call out at night",
+          "hard": "Tiny hairs on toe pads give them grip"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-adder",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Huggorm",
+        "aliases": [],
+        "hints": {
+          "easy": "Giftig svensk orm, ofta med sicksackmönster",
+          "normal": "Solar sig på en stenig glänta",
+          "hard": "Föder levande ungar"
+        }
+      },
+      "en": {
+        "word": "Common European adder",
+        "aliases": [
+          "Adder"
+        ],
+        "hints": {
+          "easy": "Venomous European snake with a zigzag pattern",
+          "normal": "Basks in a rocky clearing",
+          "hard": "Gives birth to live young"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-grass-snake",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vanlig snok",
+        "aliases": [
+          "Snok"
+        ],
+        "hints": {
+          "easy": "Simmande orm med ljusa nackfläckar",
+          "normal": "Låtsas vara död vid fara",
+          "hard": "Kan lägga ägg i en varm kompost"
+        }
+      },
+      "en": {
+        "word": "Common grass snake",
+        "aliases": [
+          "Eastern grass snake"
+        ],
+        "hints": {
+          "easy": "Swimming snake with light patches behind its head",
+          "normal": "Plays dead when threatened",
+          "hard": "May lay eggs in a warm compost heap"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-king-cobra",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kungskobra",
+        "aliases": [],
+        "hints": {
+          "easy": "Mycket lång giftorm som reser sig med utspänd nacke",
+          "normal": "Andra ormar är favoritbyten",
+          "hard": "Vaktar ett bo av löv"
+        }
+      },
+      "en": {
+        "word": "King cobra",
+        "aliases": [],
+        "hints": {
+          "easy": "Very long venomous snake that rears up with its neck spread",
+          "normal": "Other snakes are its favourite prey",
+          "hard": "Guards a nest made of leaves"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-rattlesnake",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skallerorm",
+        "aliases": [],
+        "hints": {
+          "easy": "Varnar med ett torrt ljud från stjärten",
+          "normal": "Många arter lever i Nordamerikas torra trakter",
+          "hard": "Känner värmen från ett byte med gropar i ansiktet"
+        }
+      },
+      "en": {
+        "word": "Rattlesnake",
+        "aliases": [],
+        "hints": {
+          "easy": "Warns with a dry sound from the tail",
+          "normal": "Many species live in dry parts of North America",
+          "hard": "Senses the warmth of prey with pits in its face"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-green-anaconda",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grön anakonda",
+        "aliases": [],
+        "hints": {
+          "easy": "Mycket tung orm som smyger i sydamerikanska vatten",
+          "normal": "Kramar fast sitt byte",
+          "hard": "Näsborrarna sitter högt på nosen"
+        }
+      },
+      "en": {
+        "word": "Green anaconda",
+        "aliases": [],
+        "hints": {
+          "easy": "Very heavy snake that stalks South American waterways",
+          "normal": "Squeezes its prey",
+          "hard": "Nostrils sit high on its snout"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-reticulated-python",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Nätpyton",
+        "aliases": [],
+        "hints": {
+          "easy": "En av världens längsta ormar",
+          "normal": "Asiatisk jägare som ringlar sig runt bytet",
+          "hard": "Geometriska fält ger kamouflage"
+        }
+      },
+      "en": {
+        "word": "Reticulated python",
+        "aliases": [],
+        "hints": {
+          "easy": "One of the world's longest snakes",
+          "normal": "Asian hunter that coils around its prey",
+          "hard": "Geometric patches provide camouflage"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-common-frog",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vanlig groda",
+        "aliases": [],
+        "hints": {
+          "easy": "Hoppar med långa bakben vid dammen",
+          "normal": "Lägger rom i stora geléklumpar",
+          "hard": "En mörk fläck sitter bakom varje öga"
+        }
+      },
+      "en": {
+        "word": "Common frog",
+        "aliases": [
+          "European common frog"
+        ],
+        "hints": {
+          "easy": "Hops on long hind legs near ponds",
+          "normal": "Lays spawn in large clumps of jelly",
+          "hard": "A dark patch lies behind each eye"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-common-toad",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vanlig padda",
+        "aliases": [],
+        "hints": {
+          "easy": "Går ofta på marken med knottrig hud",
+          "normal": "Vandrar mot lekvattnet på vårnätter",
+          "hard": "Rom i långa gelésträngar"
+        }
+      },
+      "en": {
+        "word": "Common toad",
+        "aliases": [
+          "European toad"
+        ],
+        "hints": {
+          "easy": "Often walks on the ground with warty skin",
+          "normal": "Treks toward breeding ponds on spring nights",
+          "hard": "Spawn in long strings of jelly"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-fire-salamander",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Eldsalamander",
+        "aliases": [],
+        "hints": {
+          "easy": "Svartgult groddjur med lång svans",
+          "normal": "Kommer gärna fram efter regn",
+          "hard": "Skarpa färger varnar för giftig hud"
+        }
+      },
+      "en": {
+        "word": "Fire salamander",
+        "aliases": [],
+        "hints": {
+          "easy": "Black-and-yellow amphibian with a long tail",
+          "normal": "Often comes out after rain",
+          "hard": "Bright colours warn of toxic skin"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-great-crested-newt",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Större vattensalamander",
+        "aliases": [],
+        "hints": {
+          "easy": "Groddjur med orange, svartfläckig mage",
+          "normal": "Hanen får en tandad ryggkam till leken",
+          "hard": "Viker in äggen ett i taget i blad"
+        }
+      },
+      "en": {
+        "word": "Great crested newt",
+        "aliases": [
+          "Northern crested newt"
+        ],
+        "hints": {
+          "easy": "Amphibian with a black-spotted orange belly",
+          "normal": "The male grows a jagged crest in breeding season",
+          "hard": "Wraps each egg inside a leaf"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-olm",
+    "category": "animals",
+    "subcategory": "animals-reptiles-amphibians",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Grottolm",
+        "aliases": [],
+        "hints": {
+          "easy": "Blek, blind simmare i Europas kalkstensgrottor",
+          "normal": "Yttre röda gälar runt nacken",
+          "hard": "Lång väntan mellan måltiderna i mörkret"
+        }
+      },
+      "en": {
+        "word": "Olm",
+        "aliases": [],
+        "hints": {
+          "easy": "Pale, blind swimmer in Europe's limestone caves",
+          "normal": "External red gills around its neck",
+          "hard": "Goes a long time between meals in the dark"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-honey-bee",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Honungsbi",
+        "aliases": [],
+        "hints": {
+          "easy": "Samlar nektar till en vaxkaka",
+          "normal": "Visar vägen till blommor med en dans",
+          "hard": "Vaktar ingången till kupan"
+        }
+      },
+      "en": {
+        "word": "Western honey bee",
+        "aliases": [
+          "Honey bee",
+          "Honeybee"
+        ],
+        "hints": {
+          "easy": "Gathers nectar to fill a wax comb",
+          "normal": "Dances to give directions to flowers",
+          "hard": "Guards the entrance to the hive"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-bumblebee",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Humla",
+        "aliases": [],
+        "hints": {
+          "easy": "Rund och hårig blombesökare",
+          "normal": "Brummar bland klöverblommor",
+          "hard": "Vibrerar loss pollen ur tomatblommor"
+        }
+      },
+      "en": {
+        "word": "Bumblebee",
+        "aliases": [],
+        "hints": {
+          "easy": "Round, furry flower visitor",
+          "normal": "Buzzes among clover blossoms",
+          "hard": "Shakes pollen loose from tomato flowers"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-common-wasp",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vanlig geting",
+        "aliases": [],
+        "hints": {
+          "easy": "Smal midja på en gulsvart fikagäst",
+          "normal": "Gör bo av tuggade träfibrer",
+          "hard": "Fångar insekter till sina larver"
+        }
+      },
+      "en": {
+        "word": "Common wasp",
+        "aliases": [],
+        "hints": {
+          "easy": "Black-and-yellow picnic visitor with a narrow waist",
+          "normal": "Builds its nest out of chewed wood fibres",
+          "hard": "Catches insects for its larvae"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-european-hornet",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bålgeting",
+        "aliases": [],
+        "hints": {
+          "easy": "Ovanligt stor gulbrun insektsjägare",
+          "normal": "Pappersbon i ihåliga träd",
+          "hard": "Kan dras till ljus efter skymningen"
+        }
+      },
+      "en": {
+        "word": "European hornet",
+        "aliases": [],
+        "hints": {
+          "easy": "Unusually large yellow-and-brown insect hunter",
+          "normal": "Paper nests in hollow trees",
+          "hard": "May be drawn to lights after dusk"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-red-wood-ant",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Röd skogsmyra",
+        "aliases": [],
+        "hints": {
+          "easy": "Bygger stora stackar av barr",
+          "normal": "Samlar söt vätska från bladlöss",
+          "hard": "Avger en stickande syra vid fara"
+        }
+      },
+      "en": {
+        "word": "Red wood ant",
+        "aliases": [],
+        "hints": {
+          "easy": "Builds large mounds of pine needles",
+          "normal": "Collects sweet liquid from aphids",
+          "hard": "Sprays an irritating acid when threatened"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-leafcutter-ant",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bladskärarmyra",
+        "aliases": [],
+        "hints": {
+          "easy": "Bär gröna bladstycken som små segel",
+          "normal": "Odlar svamp under jord",
+          "hard": "Långa gångstråk genom tropisk skog"
+        }
+      },
+      "en": {
+        "word": "Leafcutter ant",
+        "aliases": [
+          "Leaf-cutter ant"
+        ],
+        "hints": {
+          "easy": "Carries green pieces like tiny sails",
+          "normal": "Farms fungus underground",
+          "hard": "Long trails through tropical forest"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-mosquito",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mygga",
+        "aliases": [],
+        "hints": {
+          "easy": "Ett tunt vinande ljud i sovrummet",
+          "normal": "Honorna hos många arter suger blod",
+          "hard": "Larverna hänger nära vattenytan"
+        }
+      },
+      "en": {
+        "word": "Mosquito",
+        "aliases": [],
+        "hints": {
+          "easy": "A thin whine in the bedroom",
+          "normal": "Females of many species feed on blood",
+          "hard": "The larvae hang close to the water surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-housefly",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Husfluga",
+        "aliases": [],
+        "hints": {
+          "easy": "Surrar kring matrester och fönsterrutor",
+          "normal": "Gnider frambenen mot varandra",
+          "hard": "Smakar med fötterna"
+        }
+      },
+      "en": {
+        "word": "Housefly",
+        "aliases": [
+          "House fly"
+        ],
+        "hints": {
+          "easy": "Buzzes around leftovers and windowpanes",
+          "normal": "Rubs its front legs together",
+          "hard": "Tastes with its feet"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-dragonfly",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trollslända",
+        "aliases": [],
+        "hints": {
+          "easy": "Snabb flygare med fyra skimrande vingar",
+          "normal": "Fångar mygg i luften",
+          "hard": "Nymfen jagar nere i dammen"
+        }
+      },
+      "en": {
+        "word": "Dragonfly",
+        "aliases": [],
+        "hints": {
+          "easy": "Fast flier with four shimmering wings",
+          "normal": "Catches mosquitoes in midair",
+          "hard": "The nymph hunts in the pond"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-mayfly",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dagslända",
+        "aliases": [],
+        "hints": {
+          "easy": "Vingad insekt som ofta lever mycket kort som vuxen",
+          "normal": "Två eller tre tunna stjärtspröt",
+          "hard": "Kläckning i svärmar lockar fisk"
+        }
+      },
+      "en": {
+        "word": "Mayfly",
+        "aliases": [],
+        "hints": {
+          "easy": "Winged insect often very short-lived as an adult",
+          "normal": "Two or three slender tail filaments",
+          "hard": "Fish gather when swarms emerge"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-monarch-butterfly",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Monarkfjäril",
+        "aliases": [],
+        "hints": {
+          "easy": "Orange vingar med svart ådernät",
+          "normal": "Flyttar långt över Nordamerika",
+          "hard": "Larven lever av sidenörter"
+        }
+      },
+      "en": {
+        "word": "Monarch butterfly",
+        "aliases": [],
+        "hints": {
+          "easy": "Orange wings with dark veins",
+          "normal": "Migrates long distances across North America",
+          "hard": "Its caterpillar feeds on milkweed"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-peacock-butterfly",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Påfågelöga",
+        "aliases": [],
+        "hints": {
+          "easy": "Rödbruna vingar med fyra stora fläckar",
+          "normal": "Skrämmer genom att slå upp vingarna",
+          "hard": "Övervintrar gärna på vinden"
+        }
+      },
+      "en": {
+        "word": "Peacock butterfly",
+        "aliases": [
+          "European peacock butterfly"
+        ],
+        "hints": {
+          "easy": "Rust-coloured wings with four large spots",
+          "normal": "Flashes its wings to startle predators",
+          "hard": "Often spends the winter in an attic"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-atlas-moth",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Atlasfjäril",
+        "aliases": [],
+        "hints": {
+          "easy": "Nattaktiv jätte med rödbruna vingar",
+          "normal": "Vingspetsar som liknar ormhuvuden",
+          "hard": "Den vuxna tar ingen föda"
+        }
+      },
+      "en": {
+        "word": "Atlas moth",
+        "aliases": [],
+        "hints": {
+          "easy": "Night flier with enormous rusty-brown wings",
+          "normal": "Wingtips look like snakes' heads",
+          "hard": "The adult never feeds"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-seven-spot-ladybird",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sjuprickig nyckelpiga",
+        "aliases": [],
+        "hints": {
+          "easy": "Röda täckvingar med svarta prickar",
+          "normal": "Äter bladlöss i rabatten",
+          "hard": "Vid fara sipprar gul vätska ur benlederna"
+        }
+      },
+      "en": {
+        "word": "Seven-spot ladybird",
+        "aliases": [
+          "Seven-spotted ladybug"
+        ],
+        "hints": {
+          "easy": "Red wing cases with black dots",
+          "normal": "Eats aphids in flower beds",
+          "hard": "Leaks yellow fluid from its leg joints when threatened"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-stag-beetle",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ekoxe",
+        "aliases": [],
+        "hints": {
+          "easy": "En svartbrun skalbagge med väldiga käkar hos hanen",
+          "normal": "Hanarna brottas med utskotten",
+          "hard": "Larven utvecklas länge i murken ved"
+        }
+      },
+      "en": {
+        "word": "European stag beetle",
+        "aliases": [
+          "Stag beetle"
+        ],
+        "hints": {
+          "easy": "Dark brown beetle whose males have enormous jaws",
+          "normal": "Males wrestle using their headgear",
+          "hard": "Larvae spend years developing in rotting wood"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-european-earwig",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vanlig tvestjärt",
+        "aliases": [],
+        "hints": {
+          "easy": "Brun insekt med tång längst bak",
+          "normal": "Gömmer sig dagtid under krukor",
+          "hard": "Honan vaktar äggen"
+        }
+      },
+      "en": {
+        "word": "Common earwig",
+        "aliases": [
+          "European earwig"
+        ],
+        "hints": {
+          "easy": "Brown insect with pincers at the rear",
+          "normal": "Hides under plant pots by day",
+          "hard": "The female guards her eggs"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-mole-cricket",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mullvadssyrsa",
+        "aliases": [],
+        "hints": {
+          "easy": "Insekt med breda grävande framben",
+          "normal": "Gör tunnlar i fuktig jord",
+          "hard": "Hanen sjunger vid ett trattformat hål"
+        }
+      },
+      "en": {
+        "word": "Mole cricket",
+        "aliases": [],
+        "hints": {
+          "easy": "Insect with broad digging forelegs",
+          "normal": "Tunnels through damp soil",
+          "hard": "The male sings from a funnel-shaped burrow"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-field-cricket",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fältsyrsa",
+        "aliases": [],
+        "hints": {
+          "easy": "Mörk insekt som spelar i en egen jordhåla",
+          "normal": "Gnidande framvingar ger ljudet",
+          "hard": "Äggen läggs i marken"
+        }
+      },
+      "en": {
+        "word": "Field cricket",
+        "aliases": [],
+        "hints": {
+          "easy": "Dark insect that sings by its burrow",
+          "normal": "Makes its call by rubbing its forewings",
+          "hard": "Lays its eggs in the ground"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-praying-mantis",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bönsyrsa",
+        "aliases": [],
+        "hints": {
+          "easy": "Sitter med de taggiga fångstbenen vikta framför kroppen",
+          "normal": "Vrider huvudet för att följa ett byte",
+          "hard": "Äggen ligger i ett stelnat skumhölje"
+        }
+      },
+      "en": {
+        "word": "Praying mantis",
+        "aliases": [
+          "Praying mantid"
+        ],
+        "hints": {
+          "easy": "Folds its spiny front legs against its body while waiting",
+          "normal": "Turns its head to track prey",
+          "hard": "The eggs develop in a hardened foam case"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-tarantula",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fågelspindel",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor spindel med håriga ben",
+          "normal": "Många väntar på byte vid ingången till en håla",
+          "hard": "Vissa föser loss kliande hår som försvar"
+        }
+      },
+      "en": {
+        "word": "Tarantula",
+        "aliases": [],
+        "hints": {
+          "easy": "Large spider with hairy legs",
+          "normal": "Many wait for prey at the entrance to a burrow",
+          "hard": "Some flick off itchy hairs to defend themselves"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-black-widow",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Svart änka",
+        "aliases": [],
+        "hints": {
+          "easy": "Blankmörk spindel med röd markering på buken",
+          "normal": "Väver ett trassligt fångstnät",
+          "hard": "Timglaset sitter ofta undertill"
+        }
+      },
+      "en": {
+        "word": "Black widow spider",
+        "aliases": [
+          "Black widow"
+        ],
+        "hints": {
+          "easy": "Glossy dark spider with a red mark on its abdomen",
+          "normal": "Spins a tangled web to catch prey",
+          "hard": "A telltale hourglass is often on the underside"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-cross-orb-weaver",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Korsspindel",
+        "aliases": [],
+        "hints": {
+          "easy": "En ljus figur på en rundad bakkropp",
+          "normal": "Sitter ofta mitt i ett runt hjulnät",
+          "hard": "Känner små ryck i silkestrådarna"
+        }
+      },
+      "en": {
+        "word": "European garden spider",
+        "aliases": [
+          "Cross orb-weaver"
+        ],
+        "hints": {
+          "easy": "Pale markings on a rounded abdomen",
+          "normal": "Often sits at the centre of a wheel-shaped web",
+          "hard": "Feels tiny tugs in the silk threads"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-common-earthworm",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stor daggmask",
+        "aliases": [],
+        "hints": {
+          "easy": "Lång ledad jordbo som ofta syns efter regn",
+          "normal": "Drar ner löv i sina gångar",
+          "hard": "Söker partner på gräsmattan om natten"
+        }
+      },
+      "en": {
+        "word": "Common earthworm",
+        "aliases": [
+          "Lobworm"
+        ],
+        "hints": {
+          "easy": "Long segmented soil dweller often seen after rain",
+          "normal": "Pulls leaves down into its tunnels",
+          "hard": "Looks for a mate on lawns at night"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-white-lipped-snail",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trädgårdssnäcka",
+        "aliases": [],
+        "hints": {
+          "easy": "Bär ett spiralhus som ofta har mörka band",
+          "normal": "Lämnar ett blankt slemspår i rabatten",
+          "hard": "Skalmynningen har oftast ljus kant"
+        }
+      },
+      "en": {
+        "word": "White-lipped snail",
+        "aliases": [
+          "White-lipped garden snail"
+        ],
+        "hints": {
+          "easy": "Carries a spiral shell that often has dark stripes",
+          "normal": "Leaves a shiny trail across flower beds",
+          "hard": "The shell opening usually has a pale rim"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-leopard-slug",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pantersnigel",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor snigel med mörka fläckar",
+          "normal": "Äter bland annat svamp och dött växtmaterial",
+          "hard": "Kan para sig hängande från en slemtråd"
+        }
+      },
+      "en": {
+        "word": "Leopard slug",
+        "aliases": [
+          "Great grey slug"
+        ],
+        "hints": {
+          "easy": "Large slug with dark spots",
+          "normal": "Feeds on fungi and dead plant matter",
+          "hard": "Can mate while hanging from a thread of slime"
+        }
+      }
+    }
+  },
+  {
+    "id": "animals-woodlouse",
+    "category": "animals",
+    "subcategory": "animals-invertebrates",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gråsugga",
+        "aliases": [],
+        "hints": {
+          "easy": "Litet pansrat kryp under stenar och krukor",
+          "normal": "Behöver fukt även om den bor på land",
+          "hard": "Ett kräftdjur som lever i lövskräpet"
+        }
+      },
+      "en": {
+        "word": "Woodlouse",
+        "aliases": [],
+        "hints": {
+          "easy": "Small armoured creature under stones and pots",
+          "normal": "Needs moisture despite living on land",
+          "hard": "A crustacean that lives among fallen leaves"
+        }
+      }
+    }
+  }
+]

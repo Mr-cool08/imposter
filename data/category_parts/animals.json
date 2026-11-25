@@ -1,0 +1,52 @@
+{
+  "id": "animals",
+  "names": {
+    "sv": "Djur",
+    "en": "Animals"
+  },
+  "icon": "🐾",
+  "subcategories": [
+    {
+      "id": "animals-domestic",
+      "names": {
+        "sv": "Husdjur och lantbruksdjur",
+        "en": "Pets and farm animals"
+      }
+    },
+    {
+      "id": "animals-land-mammals",
+      "names": {
+        "sv": "Vilda landdäggdjur",
+        "en": "Wild land mammals"
+      }
+    },
+    {
+      "id": "animals-birds",
+      "names": {
+        "sv": "Fåglar",
+        "en": "Birds"
+      }
+    },
+    {
+      "id": "animals-aquatic",
+      "names": {
+        "sv": "Fiskar och andra vattendjur",
+        "en": "Fish and other aquatic animals"
+      }
+    },
+    {
+      "id": "animals-reptiles-amphibians",
+      "names": {
+        "sv": "Reptiler och groddjur",
+        "en": "Reptiles and amphibians"
+      }
+    },
+    {
+      "id": "animals-invertebrates",
+      "names": {
+        "sv": "Insekter och andra smådjur",
+        "en": "Insects and other invertebrates"
+      }
+    }
+  ]
+}

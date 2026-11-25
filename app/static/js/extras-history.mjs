@@ -278,7 +278,7 @@ export function mountHistory(root, context = {}) {
   const dates = new Intl.DateTimeFormat(lang, { dateStyle: 'medium', timeStyle: 'short' });
   const months = new Intl.DateTimeFormat(lang, { year: 'numeric', month: 'long' });
   const percent = new Intl.NumberFormat(lang, { style: 'percent', maximumFractionDigits: 1 });
-  let entries = readHistory();
+  let entries = [];
 
   function element(tag, content, className) {
     const node = document.createElement(tag);
@@ -537,6 +537,7 @@ export function mountHistory(root, context = {}) {
     options(source, [['', translate('allSources')], ...[...SOURCES].map(id => [id, sourceLabel(id)])]);
     const sessions = new Map();
     for (const round of [...entries].reverse()) {
+      if (round.sessionId === null) continue;
       const key = sessionKey(round);
       if (!sessions.has(key)) sessions.set(key, round);
     }
@@ -546,6 +547,7 @@ export function mountHistory(root, context = {}) {
         date: dates.format(Date.parse(round.completedAt)),
       })}`,
     ])]);
+    session.select.disabled = sessions.size === 0;
     const playedModes = new Set(entries.map(round => round.result.mode));
     options(mode, [['', translate('allModes')], ...[...playedModes].map(id => [id, modeLabel(id)])]);
     clearButton.disabled = !entries.length && persisted();
@@ -566,7 +568,7 @@ export function mountHistory(root, context = {}) {
   const rememberCategories = items => {
     for (const item of items ?? []) categoryNames.set(item.id, item.names);
   };
-  rememberCategories(context.storage?.get('customPack', null)?.categories);
+  rememberCategories(context.customCategories);
   reload();
   if (browser?.fetch) {
     browser.fetch('/api/content/manifest', { signal }).then(response => response.ok ? response.json() : null)

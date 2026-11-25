@@ -65,6 +65,12 @@ def _strings(values):
     return isinstance(values, list) and all(_nonempty(value) for value in values)
 
 
+def _same_setting(first, second):
+    if _whole(second):
+        return _whole(first) and first == second
+    return type(first) is type(second) and first == second
+
+
 def _valid_settings(settings, rules):
     for field in ("clueRounds", "discussionSeconds"):
         if not _whole(settings[field]) or settings[field] not in rules[field]:
@@ -92,14 +98,17 @@ def _content(settings, words, pairs):
     subcategories = set(settings["subcategories"])
     levels = set(settings["levels"])
     eligible = {}
-    for word in words:
+    for word in words if isinstance(words, list) else []:
         if not isinstance(word, dict) or not _nonempty(word.get("id")):
             continue
-        if categories and word.get("category") not in categories:
+        category = word.get("category")
+        subcategory = word.get("subcategory")
+        level = word.get("level")
+        if not _nonempty(category) or categories and category not in categories:
             continue
-        if subcategories and word.get("subcategory") not in subcategories:
+        if subcategories and (not isinstance(subcategory, str) or subcategory not in subcategories):
             continue
-        if word.get("level") not in levels:
+        if not isinstance(level, str) or level not in levels:
             continue
         languages = word.get("languages")
         translation = languages.get(settings["language"]) if isinstance(languages, dict) else None
@@ -112,7 +121,7 @@ def _content(settings, words, pairs):
 
     eligible_pairs = []
     seen = set()
-    for pair in pairs:
+    for pair in pairs if isinstance(pairs, list) else []:
         if not isinstance(pair, list) or len(pair) != 2 or not _strings(pair):
             continue
         first, second = pair
@@ -208,7 +217,8 @@ def _prepare(raw_settings, player_count, words, pairs, rules):
             issue("invalid_mode", profile_mode)
             continue
         if mode == "chaos" and any(
-            field in raw_profile and raw_profile[field] != settings[field] for field in _COMMON_FIELDS
+            field in raw_profile and not _same_setting(raw_profile[field], settings[field])
+            for field in _COMMON_FIELDS
         ):
             issue("invalid_settings", profile_mode)
             continue
@@ -299,7 +309,7 @@ def _draw_content(profile, used, rng):
     pair = _choose([pair for pair in profile.candidate_pairs if pair_rank(pair) == rank], rng)
     if rng() >= 0.5:
         pair = pair[::-1]
-    return *pair, rank[0] > 0
+    return pair[0], pair[1], rank[0] > 0
 
 
 def _assign_roles(deal, settings, imposters):
@@ -662,7 +672,10 @@ class Round:
             self._finish_guess(None, False, "guess_timeout")
         else:
             word = self._translation(self._word)
-            accepted = {_guess_key(candidate) for candidate in [word["word"], *word.get("aliases", [])]}
+            aliases = word.get("aliases")
+            accepted = {_guess_key(word["word"])}
+            if isinstance(aliases, list):
+                accepted.update(_guess_key(alias) for alias in aliases if isinstance(alias, str))
             correct = _guess_key(text) in accepted
             self._finish_guess(text, correct, "guess_correct" if correct else "guess_wrong")
         if not self._neutral_guess:

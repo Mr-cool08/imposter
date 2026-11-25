@@ -1,4 +1,6 @@
 import { DEFAULT_SETTINGS, mountSettings } from "./settings.mjs";
+import { loadManifest } from "./content.mjs";
+import { getCustomPackage, listCustomPackages } from "./extras.mjs";
 
 const VENDOR_URL = "/static/vendor/socket.io.min.js";
 const SESSION_ROOM = "imposter:online:room";
@@ -34,6 +36,7 @@ let status = "";
 let starting = false;
 let busy = false;
 let problem = null;
+let builtInCategories;
 let serverClock = { server: 0, local: 0 };
 const savedResults = new Set();
 
@@ -100,10 +103,10 @@ function receiveState(next) {
   context?.setRoundActive(next.stage === "playing");
   const revealed = next.round?.result;
   if (revealed && !savedResults.has(revealed.id)) {
-    context?.saveResult({ ...revealed, players: next.round.players }, "online");
-    savedResults.add(revealed.id);
+    const saved = context?.saveResult(revealed, "online", { players: next.round.players, sessionId: next.code });
+    if (saved?.ok) savedResults.add(revealed.id);
   }
-  if (previous?.round?.id === next.round?.id && previous?.round?.phase !== next.round?.phase) {
+  if (previous?.round?.id && previous.round.id === next.round?.id && previous.round.phase !== next.round.phase) {
     context?.feedback(next.stage === "result" ? "finish" : "advance");
   }
   redraw?.();
@@ -203,6 +206,7 @@ async function bind(event, data) {
     } else {
       problem = reply?.error ?? { code: "unknown" };
       status = identity ? "reconnect" : "";
+      if (reply?.error?.code === "timeout" && socket.connected) socket.disconnect();
     }
   } catch {
     problem = { code: "connection" };
@@ -258,6 +262,7 @@ export function mountOnline(ctx) {
   let renderedPhase = "";
   let showSettings = false;
   let settingsMount, settingsDraft, packageChoice;
+  let guessSubmitted = false;
   let timer;
   const drafts = {};
   const openDetails = new Set();
@@ -307,7 +312,9 @@ export function mountOnline(ctx) {
 
   function enter() {
     const direct = CODE.test(invitedCode);
-    const nameField = () => field("name", name, (value) => { name = value; }, { required: true, maxlength: "32", autocomplete: "nickname" });
+    const nameField = (usage) => field("name", name, (value) => { name = value; }, {
+      required: true, maxlength: "32", autocomplete: "nickname", "data-online-focus": "name-" + usage,
+    });
     const submit = (event, join) => {
       event.preventDefault();
       const cleanName = name.trim();
@@ -323,16 +330,16 @@ export function mountOnline(ctx) {
       el("p", { class: "muted" }, t("intro")),
       el("form", { class: "panel stack", onSubmit: (event) => submit(event, true) },
         el("h2", {}, direct ? t("joinTitle", { code: invitedCode }) : t("join")),
-        nameField(),
+        nameField("join"),
         field("roomCode", codeDraft, (value) => { codeDraft = value; }, { required: true, maxlength: "5", minlength: "5", autocapitalize: "characters", spellcheck: "false" }),
         button(t("join"), null, { type: "submit", disabled: starting })),
       el("form", { class: "panel stack", onSubmit: (event) => submit(event, false) },
-        el("h2", {}, t("create")), nameField(), button(t("create"), null, { type: "submit", disabled: starting })));
+        el("h2", {}, t("create")), nameField("create"), button(t("create"), null, { type: "submit", disabled: starting })));
   }
 
   function invite() {
     const code = state.code;
-    const url = new URL("/join/" + code, window.location.origin).href;
+    const url = new URL("/join/" + code, document.body.dataset.publicOrigin || window.location.origin).href;
     const link = el("input", { value: url, readonly: true, onFocus: (event) => event.currentTarget.select() });
     const copy = async () => {
       try {
@@ -370,70 +377,51 @@ export function mountOnline(ctx) {
 
   function settingsPanel(connectedCount) {
     const root = el("div", { class: "stack" });
-    const pack = ctx.storage.get("customPack", null);
     const serverCategories = state.customCategories ?? [];
-    const localCategories = pack?.categories ?? [];
-    const packageOptions = [["keep", t("customPackKeep")], ["none", t("customPackNone")]];
-    if (localCategories.length) packageOptions.push(["local", t("customPackLocal")]);
-    const categoryFilters = el("div", { class: "stack" });
-    const note = el("p", { class: "muted" }, t("customPackHelp"));
-    const selection = () => packageChoice === "local" ? localCategories : packageChoice === "none" ? [] : serverCategories;
-    const replaceCategories = () => {
-      categoryFilters.replaceChildren();
-      for (const category of selection()) {
-        const choose = (key, entry) => el("label", { class: "cluster" }, el("input", {
-          type: "checkbox",
-          checked: (settingsDraft[key] ?? []).includes(entry.id),
-          onChange: (event) => {
-            const chosen = new Set(settingsDraft[key] ?? []);
-            if (event.currentTarget.checked) chosen.add(entry.id);
-            else chosen.delete(entry.id);
-            settingsDraft = { ...settingsDraft, [key]: [...chosen] };
-          },
-        }), entry.names?.[ctx.lang] ?? entry.id);
-        categoryFilters.append(el("div", { class: "stack" }, choose("categories", category),
-          ...(category.subcategories ?? []).map((subcategory) => choose("subcategories", subcategory))));
-      }
-    };
+    const privateToServer = packageChoice === "" && serverCategories.length > 0;
+    const roomPackage = privateToServer ? { categories: serverCategories, words: [], pairs: [] } : null;
+    const localPackages = listCustomPackages();
+    const pack = packageChoice ? getCustomPackage(packageChoice) : roomPackage;
+    const packageOptions = [["", t(serverCategories.length ? "customPackKeep" : "customPackNone")]];
+    if (serverCategories.length) packageOptions.push(["@none", t("customPackNone")]);
+    packageOptions.push(...localPackages.map(({ id, names }) => [id, names[ctx.lang]]));
+    const ids = (categories) => categories.flatMap((category) => [category.id, ...category.subcategories.map(({ id }) => id)]);
     const packageSelect = el("select", {
+      "data-online-focus": "customPack",
+      value: packageChoice,
       onChange: (event) => {
         packageChoice = event.currentTarget.value;
-        const allowed = new Set(selection().flatMap((category) => [category.id, ...(category.subcategories ?? []).map((entry) => entry.id)]));
-        const customIds = new Set([...serverCategories, ...localCategories].flatMap((category) => [category.id, ...(category.subcategories ?? []).map((entry) => entry.id)]));
+        const allowed = new Set(ids(packageChoice ? getCustomPackage(packageChoice)?.categories ?? [] : serverCategories));
+        const customIds = new Set(ids([...serverCategories, ...localPackages.flatMap(({ categories }) => categories)]));
         for (const key of ["categories", "subcategories"]) {
-          settingsDraft[key] = (settingsDraft[key] ?? []).filter((id) => !customIds.has(id) || allowed.has(id));
+          if (Array.isArray(settingsDraft[key])) settingsDraft[key] = settingsDraft[key].filter((id) => !customIds.has(id) || allowed.has(id));
         }
-        replaceCategories();
+        render();
       },
-    }, ...packageOptions.map(([value, label]) => el("option", { value, selected: value === packageChoice }, label)));
-    const availableCustom = new Set([...localCategories, ...serverCategories].flatMap((category) => [category.id, ...(category.subcategories ?? []).map((subcategory) => subcategory.id)]));
+    }, ...packageOptions.map(([value, label]) => el("option", { value }, label)));
     settingsMount = mountSettings(ctx, {
       root,
       settings: settingsDraft,
       playerCount: connectedCount,
-      onChange: (next) => {
-        const merged = { ...next };
-        for (const key of ["categories", "subcategories"]) {
-          const filtered = (next[key] ?? []).filter((id) => !availableCustom.has(id));
-          merged[key] = [...new Set([...filtered, ...(settingsDraft[key] ?? []).filter((id) => availableCustom.has(id))])];
-        }
-        settingsDraft = merged;
-      },
+      onChange: (next) => { settingsDraft = next; },
       includeClueStyle: true,
+      custom: pack,
     });
-    replaceCategories();
+    if (privateToServer) {
+      for (const message of root.querySelectorAll(".settings-counts, .settings-issues")) message.style.display = "none";
+    }
     const save = async () => {
-      const payload = { settings: { ...settingsDraft } };
-      if (packageChoice === "local") payload.custom = pack;
-      if (packageChoice === "none") payload.custom = null;
+      const payload = { settings: settingsMount.getSettings() };
+      if (packageChoice) payload.custom = pack;
       if (await command("room:settings", payload)) {
         showSettings = false;
         ctx.notify(t("savedSettings"));
         render();
       }
     };
-    return section("settings", root, el("label", { class: "field" }, el("span", {}, t("customPack")), packageSelect),
-      note, categoryFilters, control("saveSettings", save));
+    return section("settings", el("label", { class: "field" }, el("span", {}, t("customPack")), packageSelect),
+      el("p", { class: "muted" }, t("customPackHelp")), root,
+      privateToServer ? statusLine("saveForCounts", "muted") : null, control("saveSettings", save));
   }
 
   function preparation(replaying = false) {
@@ -445,7 +433,7 @@ export function mountOnline(ctx) {
     const toggleSettings = () => {
       showSettings = !showSettings;
       settingsDraft = { ...state.settings };
-      packageChoice = "keep";
+      packageChoice = "";
       render();
     };
     return el("div", { class: "stack" }, state.aborted ? statusLine("aborted") : null,
@@ -502,7 +490,7 @@ export function mountOnline(ctx) {
 
   function clueList() {
     const clues = state.round.clues;
-    return clues.length ? section("clues", el("ol", { class: "stack" }, ...clues.map((entry) =>
+    return clues.length ? section("submittedClues", el("ol", { class: "stack" }, ...clues.map((entry) =>
       el("li", {}, el("strong", {}, roundName(entry.playerId)), " · ", entry.text)))) : null;
   }
 
@@ -528,7 +516,7 @@ export function mountOnline(ctx) {
       statusLine(activePlayer ? "yourTurn" : "turn", "notice", { name: roundName(round.currentPlayerId) }),
       activePlayer
         ? round.clueStyle === "text"
-          ? textForm("clueInput", "sendClue", 120, (text) => action("clue", { text }))
+          ? textForm("clueInput", "sendClue", 80, (text) => action("clue", { text }))
           : el("div", { class: "stack" }, statusLine("oralClue", "muted"), control("finishTurn", () => action("clue")))
         : null,
       turnOrder(), clueList(), roleCard());
@@ -599,10 +587,15 @@ export function mountOnline(ctx) {
   }
 
   function lastGuess() {
+    const sendGuess = async (text) => {
+      guessSubmitted = await action("guess", { text });
+      if (guessSubmitted) render();
+      return guessSubmitted;
+    };
     return el("div", { class: "stack" }, phaseTimer(),
-      statusLine(state.private?.canGuess ? "guessPrompt" : "guessWaiting", "muted"),
-      state.private?.canGuess ? textForm("guessInput", "sendGuess", 100, (text) => action("guess", { text })) : null,
-      state.private?.canGuess ? control("passAbility", () => action("guess", { text: null }), { variant: "secondary" }) : null);
+      statusLine(state.private?.canGuess ? "guessPrompt" : guessSubmitted ? "guessSent" : "guessWaiting", "muted"),
+      state.private?.canGuess ? textForm("guessInput", "sendGuess", 120, sendGuess) : null,
+      state.private?.canGuess ? control("passAbility", () => sendGuess(null), { variant: "secondary" }) : null);
   }
 
   function roundView() {
@@ -628,12 +621,12 @@ export function mountOnline(ctx) {
 
   function resultView(result, players) {
     const name = (id) => selectName(id, players);
-    const category = state.customCategories?.find(({ id }) => id === result.category);
-    const categoryName = category?.names?.[ctx.lang] ?? ctx.t("category." + result.category);
+    const category = state.customCategories?.find(({ id }) => id === result.category) ?? builtInCategories?.get(result.category);
+    const categoryName = category?.names?.[ctx.lang] ?? result.category;
     const fields = [
       ["mode", ctx.modeName(result.mode)], ["secretWord", result.word],
       ...(result.pairedWord ? [["otherWord", result.pairedWord]] : []),
-      ...(categoryName !== "category." + result.category ? [["category", categoryName]] : []),
+      ["category", categoryName],
     ];
     return el("div", { class: "stack" },
       el("dl", {}, ...fields.flatMap(([key, value]) => [el("dt", {}, t(key)), el("dd", {}, value)])),
@@ -665,7 +658,7 @@ export function mountOnline(ctx) {
 
   function roomHistory() {
     const history = state.history.filter((result) => result.id !== state.round?.result?.id);
-    return history.length ? section("history", ...history.slice().reverse().map((result) =>
+    return history.length ? section("history", ...history.map((result) =>
       el("details", {}, el("summary", {}, result.word, " · ", ctx.modeName(result.mode)), resultView(result, result.players ?? state.players)))) : null;
   }
 
@@ -682,7 +675,10 @@ export function mountOnline(ctx) {
     if (!bound || !state) {
       if (identity) return el("div", { class: "stack" }, statusLine(status || "reconnect"),
         chooseButton("retry", restore, { variant: "secondary", disabled: starting }),
-        chooseButton("leave", () => clearRoom(""), { variant: "ghost", disabled: starting }));
+        chooseButton("forgetSeat", () => {
+          socket?.disconnect();
+          clearRoom("");
+        }, { variant: "ghost", disabled: starting }));
       return enter();
     }
     const leave = async () => {
@@ -691,7 +687,7 @@ export function mountOnline(ctx) {
     };
     const content = state.stage === "lobby" ? preparation()
       : state.stage === "playing" ? roundView()
-      : el("div", { class: "stack" }, section("result", resultView(state.round.result, state.round.players)),
+      : el("div", { class: "stack" }, el("section", { class: "panel stack" }, resultView(state.round.result, state.round.players)),
         scoreboard(), preparation(true));
     return el("div", { class: "stack" },
       invitedCode && invitedCode !== state.code ? statusLine("otherRoom", "notice", { code: state.code }) : null,
@@ -702,17 +698,19 @@ export function mountOnline(ctx) {
     settingsMount?.destroy();
     settingsMount = null;
     const focus = document.activeElement;
-    const focusKey = root.contains(focus) ? focus.dataset.onlineFocus : null;
+    const hadFocus = root.contains(focus);
+    const focusKey = hadFocus ? focus.dataset.onlineFocus : null;
     const selection = focusKey && focus.selectionStart != null ? [focus.selectionStart, focus.selectionEnd] : null;
-    const phases = { roles: "role", clues: "clues", abilities: "ability", discussion: "discussion", voting: "vote", last_guess: "guess" };
+    const phases = { roles: "rolesStage", clues: "clues", abilities: "ability", discussion: "discussion", voting: "vote", last_guess: "guess" };
     const phase = state?.stage === "playing" && state.private ? state.round.phase : state?.stage;
     const currentRoleKey = !bound || state?.round?.paused ? "" : (state?.round?.id ?? "") + ":" + (phase ?? "");
     if (roleKey !== currentRoleKey) {
       roleKey = currentRoleKey;
       roleShown = false;
+      guessSubmitted = false;
       for (const key of Object.keys(drafts)) delete drafts[key];
     }
-    if (renderedPhase !== phase && phase === "playing") showSettings = false;
+    if (state?.stage === "playing") showSettings = false;
     const headingKey = bound && state ? phases[phase] ?? (phase === "playing" ? "waitingTitle" : phase) : "title";
     const heading = el("h1", { tabindex: "-1" }, t(headingKey));
     root.replaceChildren(el("div", { class: "stack" }, el("header", { class: "page-header" }, heading),
@@ -723,13 +721,19 @@ export function mountOnline(ctx) {
       const replacement = [...root.querySelectorAll("[data-online-focus]")].find((element) => element.dataset.onlineFocus === focusKey && !element.disabled);
       replacement?.focus({ preventScroll: true });
       if (selection && replacement?.setSelectionRange) replacement.setSelectionRange(...selection);
-    } else if (phase && renderedPhase && renderedPhase !== phase && root.contains(document.activeElement)) {
+    } else if (phase && renderedPhase && renderedPhase !== phase && hadFocus) {
       heading.focus();
     }
     renderedPhase = phase;
   }
 
   redraw = render;
+  if (!builtInCategories) {
+    void loadManifest().then(({ categories }) => {
+      builtInCategories = new Map(categories.map((category) => [category.id, category]));
+      if (state?.stage === "result") redraw?.();
+    }).catch(() => {});
+  }
   if ((!sessionChecked || invitedCode) && !identity && !starting) {
     sessionChecked = true;
     identity = sessionIdentity(invitedCode);

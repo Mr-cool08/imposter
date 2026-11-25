@@ -5,6 +5,7 @@ from __future__ import annotations
 from collections import OrderedDict, deque
 from dataclasses import dataclass, field
 from hashlib import sha256
+from hmac import compare_digest
 from secrets import choice, token_urlsafe
 from threading import Lock
 from time import time_ns
@@ -68,7 +69,7 @@ class Member:
 @dataclass
 class Connection:
     lock: Lock = field(default_factory=Lock, repr=False)
-    room: Room | None = None
+    room_code: str | None = None
     player_id: str | None = None
     closed: bool = False
 
@@ -124,7 +125,6 @@ class Room:
         self.last_activity = now
         self.members = {host.id: host}
         self.host_id = host.id
-        self.host_away_until = None
         self.catalog = catalog
         self.rules = rules
         self.settings = {}
@@ -133,6 +133,7 @@ class Room:
         self._issues_by_player_count = {}
         self.configure(settings, custom)
         self.round = None
+        self.round_id = None
         self.round_players = []
         self.active_ids = set()
         self.pause_reason = None
@@ -175,39 +176,37 @@ class Room:
             raise RoomError("room_full")
         member, token = Member.connect(name, sid)
         self.members[member.id] = member
+        self.elect_host_if_missing()
         return member, token
 
     def find_token(self, token):
         digest = token_digest(token)
         for member in self.members.values():
-            if not member.departed and member.digest == digest:
+            if not member.departed and compare_digest(member.digest, digest):
                 return member
         raise RoomError("invalid_token")
 
-    def restore(self, member, sid, now):
+    def restore(self, member, sid):
         old_sid = member.sid
         member.sid = sid
-        if member.id == self.host_id:
-            self.host_away_until = None
-        elif self.host_id not in self.members:
-            self.elect_host()
-        elif self.host_away_until is not None and self.host_away_until <= now:
-            self.elect_host()
+        self.elect_host_if_missing()
         return old_sid
 
-    def elect_host(self):
+    def elect_host_if_missing(self):
+        host = self.members.get(self.host_id)
+        host_connected = host is not None and host.sid is not None
+        if host_connected and (not self.playing or self.host_id in self.active_ids):
+            return
         available = self.available()
         if not available:
-            return False
-        next_host = next(
-            (member for member in available if member.id in self.active_ids),
-            available[0],
-        )
-        self.host_id = next_host.id
-        self.host_away_until = None
-        return True
+            return
+        active = next((member for member in available if member.id in self.active_ids), None)
+        if active is not None:
+            self.host_id = active.id
+        elif not host_connected:
+            self.host_id = available[0].id
 
-    def lose(self, member, *, leave, now, host_grace_ms):
+    def lose(self, member, *, leave, now):
         member.sid = None
         if leave or not self.playing:
             member.ready = False
@@ -218,9 +217,7 @@ class Room:
             self.round.pause(now)
             self.pause_reason = "connection"
         if member.id == self.host_id:
-            self.host_away_until = now + host_grace_ms if not leave else now
-            if self.host_away_until <= now:
-                self.elect_host()
+            self.elect_host_if_missing()
 
     def discard_departed(self):
         for member in list(self.members.values()):
@@ -239,6 +236,7 @@ class Room:
             players, self.settings, self.selection["words"], self.selection["pairs"], self.rules,
             used=list(self.used), now=now,
         )
+        self.round_id = self.round.public_state()["id"]
         self.round_players = players
         self.active_ids = {player["id"] for player in players}
         self.chat.clear()
@@ -249,8 +247,9 @@ class Room:
 
     def abort(self, now):
         self.round.act(self.round_players[0]["id"], "abort", {}, now)
-        self.aborted_id = self.round.public_state()["id"]
+        self.aborted_id = self.round_id
         self.round = None
+        self.round_id = None
         self.round_players = []
         self.active_ids.clear()
         self.chat.clear()
@@ -276,15 +275,12 @@ class Room:
         self.discard_departed()
 
     def advance(self, now):
-        changed = False
-        if self.host_away_until is not None and self.host_away_until <= now:
-            changed = self.elect_host()
-        if self.playing and self.round.tick(now):
-            self.settle()
-            changed = True
-        return changed
+        if not self.playing or not self.round.tick(now):
+            return False
+        self.settle()
+        return True
 
-    def snapshots(self, now):
+    def snapshots(self, now, *, only=None):
         round_state = self.round.public_state() if self.round is not None else None
         stage = "playing" if self.playing else "result" if round_state is not None else "lobby"
         available = self.available()
@@ -319,8 +315,10 @@ class Room:
             "scores": [score.snapshot() for score in ranks],
         }
         for member in available:
+            if only is not None and member.sid != only:
+                continue
             participant = member.id in self.active_ids
-            private = self.round.private_state(member.id) if self.playing and participant else None
+            private = self.round.private_state(member.id) if self.round is not None and participant else None
             yield member.sid, {
                 **shared,
                 "playerId": member.id,
@@ -338,9 +336,8 @@ class RoomDirectory:
         self.catalog = app.extensions["content_catalog"]
         self.rules = app.extensions["game_rules"]
         self.clock = unix_ms
-        self.max_rooms = app.config["MAX_ROOMS"]
-        self.ttl_ms = app.config["ROOM_TTL_SECONDS"] * 1000
-        self.host_grace_ms = app.config["HOST_GRACE_SECONDS"] * 1000
+        self.max_rooms = app.config["ONLINE_MAX_ROOMS"]
+        self.ttl_ms = app.config["ONLINE_ROOM_TTL_SECONDS"] * 1000
         self.sweep_interval = app.config.get("ONLINE_SWEEP_INTERVAL_SECONDS", 0.5)
         self.history_limit = app.config.get("ONLINE_HISTORY_LIMIT", 30)
         self.lock = Lock()
@@ -365,7 +362,7 @@ class RoomDirectory:
             return
         with connection.lock:
             connection.closed = True
-            room = connection.room
+            room = self.lookup(connection.room_code)
             if room is None:
                 return
             with room.lock:
@@ -373,12 +370,15 @@ class RoomDirectory:
                 now = self.clock()
                 if member is not None and self.live(room, now):
                     room.advance(now)
-                    room.lose(member, leave=False, now=now, host_grace_ms=self.host_grace_ms)
+                    room.lose(member, leave=False, now=now)
                     self.publish(room, now)
 
-    def find(self, code):
+    def lookup(self, code):
         with self.lock:
-            room = self.rooms.get(code)
+            return self.rooms.get(code)
+
+    def find(self, code):
+        room = self.lookup(code)
         if room is None:
             raise RoomError("room_not_found")
         return room
@@ -394,10 +394,11 @@ class RoomDirectory:
             self.rooms[room.code] = room
         return room, member, token
 
-    def publish(self, room, now):
+    def publish(self, room, now, *, only=None):
         room.last_activity = now
-        room.revision += 1
-        for sid, state in room.snapshots(now):
+        if only is None:
+            room.revision += 1
+        for sid, state in room.snapshots(now, only=only):
             self.socketio.emit("room:state", state, to=sid)
 
     def close(self, room, *, expired=False):

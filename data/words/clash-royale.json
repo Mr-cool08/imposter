@@ -1,0 +1,3812 @@
+[
+  {
+    "id": "clash-royale-knight",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Knight",
+        "aliases": [],
+        "hints": {
+          "easy": "svärd och blond mustasch",
+          "normal": "billig försvarare till fots",
+          "hard": "köper tid framför skyttarna"
+        }
+      },
+      "en": {
+        "word": "Knight",
+        "aliases": [],
+        "hints": {
+          "easy": "sword and blond moustache",
+          "normal": "cheap defender on foot",
+          "hard": "buys time in front of ranged troops"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-archers",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Archers",
+        "aliases": [],
+        "hints": {
+          "easy": "två bågskyttar med rosa hår",
+          "normal": "går att dela på varsin bana",
+          "hard": "områdesskada kan ta båda"
+        }
+      },
+      "en": {
+        "word": "Archers",
+        "aliases": [],
+        "hints": {
+          "easy": "two pink-haired bow users",
+          "normal": "can split between lanes",
+          "hard": "a splash hit can take both"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblins",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblins",
+        "aliases": [],
+        "hints": {
+          "easy": "gröna närstridstrupper med dolkar",
+          "normal": "omringar en ensam anfallare",
+          "hard": "små stick blir snabbt många"
+        }
+      },
+      "en": {
+        "word": "Goblins",
+        "aliases": [],
+        "hints": {
+          "easy": "green melee troops with daggers",
+          "normal": "surround a lone attacker",
+          "hard": "little stabs add up fast"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-giant",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Giant",
+        "aliases": [],
+        "hints": {
+          "easy": "stor barhänt kämpe som går mot byggnader",
+          "normal": "tål mycket framför stödtrupperna",
+          "hard": "kan ledas bort av ett lockbete i mitten"
+        }
+      },
+      "en": {
+        "word": "Giant",
+        "aliases": [],
+        "hints": {
+          "easy": "big barehanded fighter drawn to buildings",
+          "normal": "soaks up hits for supporting troops",
+          "hard": "a central decoy can turn him aside"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-pekka",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "P.E.K.K.A",
+        "aliases": [
+          "PEKKA"
+        ],
+        "hints": {
+          "easy": "tung hornprydd rustning och ett kraftigt svärd",
+          "normal": "slår hårt men träffar en i taget",
+          "hard": "småtrupper stjäl de dyrbara svingen"
+        }
+      },
+      "en": {
+        "word": "P.E.K.K.A",
+        "aliases": [
+          "PEKKA"
+        ],
+        "hints": {
+          "easy": "heavy horned armour and a mighty sword",
+          "normal": "hits hard one enemy at a time",
+          "hard": "tiny troops can waste the big swings"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-minions",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Minions",
+        "aliases": [],
+        "hints": {
+          "easy": "en liten grupp blå flygare",
+          "normal": "kan slå marktrupper som saknar luftförsvar",
+          "hard": "luftsvärm som ryms i en pilsalva"
+        }
+      },
+      "en": {
+        "word": "Minions",
+        "aliases": [],
+        "hints": {
+          "easy": "small group of blue flyers",
+          "normal": "punish ground troops without air defence",
+          "hard": "an aerial swarm that fits under one volley"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-balloon",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Balloon",
+        "aliases": [],
+        "hints": {
+          "easy": "bombsläpp från varmluftsfarkost",
+          "normal": "letar efter byggnader ovanifrån",
+          "hard": "även en nedskjutning kan lämna en smäll"
+        }
+      },
+      "en": {
+        "word": "Balloon",
+        "aliases": [],
+        "hints": {
+          "easy": "bombs dropped from a hot-air craft",
+          "normal": "seeks out buildings from above",
+          "hard": "shooting it down can still leave an explosion"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-barbarians",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Barbarians",
+        "aliases": [],
+        "hints": {
+          "easy": "en grupp blonda svärdskämpar",
+          "normal": "håller nere en tung marktrupp tillsammans",
+          "hard": "gillar när anfallet kommer i en enda fil"
+        }
+      },
+      "en": {
+        "word": "Barbarians",
+        "aliases": [],
+        "hints": {
+          "easy": "a group of blond sword fighters",
+          "normal": "hold down a heavy ground troop together",
+          "hard": "prefer to meet a push in one lane"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-valkyrie",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Valkyrie",
+        "aliases": [],
+        "hints": {
+          "easy": "rödhårig kämpe som svingar runt en yxa",
+          "normal": "rensar fiender även bakom sig",
+          "hard": "en trupp man ogärna omringar"
+        }
+      },
+      "en": {
+        "word": "Valkyrie",
+        "aliases": [],
+        "hints": {
+          "easy": "red-haired fighter with a spinning axe",
+          "normal": "clears enemies behind her too",
+          "hard": "one troop you rarely want to surround"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-skeleton-army",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skeleton Army",
+        "aliases": [],
+        "hints": {
+          "easy": "en hel hop benrangel med småsvärd",
+          "normal": "sätter stopp för anfallare som slår en i taget",
+          "hard": "en liten trollformel kan rädda en stor trupp"
+        }
+      },
+      "en": {
+        "word": "Skeleton Army",
+        "aliases": [],
+        "hints": {
+          "easy": "a crowd of rattling bones with little swords",
+          "normal": "stops attackers that hit one at a time",
+          "hard": "a small spell can rescue a big troop"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-bomber",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bomber",
+        "aliases": [],
+        "hints": {
+          "easy": "benrangel som kastar sprängladdningar",
+          "normal": "städar bort täta grupper på marken",
+          "hard": "målen rakt ovanför undkommer"
+        }
+      },
+      "en": {
+        "word": "Bomber",
+        "aliases": [],
+        "hints": {
+          "easy": "rattling bones lobbing explosives",
+          "normal": "clears clumps on the ground",
+          "hard": "anything directly above gets away"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-musketeer",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Musketeer",
+        "aliases": [],
+        "hints": {
+          "easy": "ensam skytt med krutvapen",
+          "normal": "kan täcka luft från bakom en tålig trupp",
+          "hard": "stöd som helst får tid mellan salvorna"
+        }
+      },
+      "en": {
+        "word": "Musketeer",
+        "aliases": [],
+        "hints": {
+          "easy": "lone sharpshooter with a firearm",
+          "normal": "covers air from behind a sturdy troop",
+          "hard": "support worth keeping safe between shots"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-baby-dragon",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Baby Dragon",
+        "aliases": [],
+        "hints": {
+          "easy": "liten flygare med eldandedräkt",
+          "normal": "bränner täta grupper ovanifrån",
+          "hard": "en svärm gör bäst i att sprida sig"
+        }
+      },
+      "en": {
+        "word": "Baby Dragon",
+        "aliases": [],
+        "hints": {
+          "easy": "small flyer with fiery breath",
+          "normal": "scorches groups from above",
+          "hard": "swarms are better off splitting up"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-prince",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Prince",
+        "aliases": [],
+        "hints": {
+          "easy": "ryttare som tar sats med en lans",
+          "normal": "gör stor skada om första rusningen når fram",
+          "hard": "småtrupper längs vägen kan ta stöten"
+        }
+      },
+      "en": {
+        "word": "Prince",
+        "aliases": [],
+        "hints": {
+          "easy": "mounted lancer who builds up speed",
+          "normal": "does heavy damage if the opening charge lands",
+          "hard": "small troops along the route can take the impact"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-wizard",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Wizard",
+        "aliases": [],
+        "hints": {
+          "easy": "skäggig magiker som skjuter eld",
+          "normal": "bränner luft- och markgrupper",
+          "hard": "småtrupper överlever bättre med en lucka emellan"
+        }
+      },
+      "en": {
+        "word": "Wizard",
+        "aliases": [],
+        "hints": {
+          "easy": "bearded spellcaster who shoots fire",
+          "normal": "scorches air and ground groups",
+          "hard": "small troops survive more easily if they leave a gap"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-mini-pekka",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mini P.E.K.K.A",
+        "aliases": [
+          "Mini PEKKA"
+        ],
+        "hints": {
+          "easy": "liten hornkrigare med hårda svärdshugg",
+          "normal": "pannkakor hör till figuren",
+          "hard": "en samling småmål slösar bort huggen"
+        }
+      },
+      "en": {
+        "word": "Mini P.E.K.K.A",
+        "aliases": [
+          "Mini PEKKA"
+        ],
+        "hints": {
+          "easy": "little horned warrior with heavy sword strikes",
+          "normal": "has a thing for pancakes",
+          "hard": "a crowd of small targets wastes the swings"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-spear-goblins",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spear Goblins",
+        "aliases": [],
+        "hints": {
+          "easy": "gröna småtrupper som kastar spetsiga stavar",
+          "normal": "kan hjälpa till mot flygare",
+          "hard": "billigt sätt att reta ett torn på håll"
+        }
+      },
+      "en": {
+        "word": "Spear Goblins",
+        "aliases": [],
+        "hints": {
+          "easy": "green troops throwing pointed sticks",
+          "normal": "can lend a hand against flyers",
+          "hard": "cheap long-distance tower annoyance"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-giant-skeleton",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Giant Skeleton",
+        "aliases": [],
+        "hints": {
+          "easy": "stor benkämpe som tappar en sprängladdning",
+          "normal": "bomben får dig att flytta bort försvaret",
+          "hard": "fortsätter hota när den faller"
+        }
+      },
+      "en": {
+        "word": "Giant Skeleton",
+        "aliases": [],
+        "hints": {
+          "easy": "oversized bone fighter who drops an explosive",
+          "normal": "its bomb makes defenders move away",
+          "hard": "still dangerous after it falls"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-hog-rider",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hog Rider",
+        "aliases": [],
+        "hints": {
+          "easy": "hammarryttare på en gris",
+          "normal": "kan ta sig över floden på väg mot ett torn",
+          "hard": "ett mittplacerat försvar kan ändra rutten"
+        }
+      },
+      "en": {
+        "word": "Hog Rider",
+        "aliases": [],
+        "hints": {
+          "easy": "hammer-wielding man on a pig",
+          "normal": "can cross the river on the way to a tower",
+          "hard": "a central defence can change the route"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-minion-giant",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Minion Giant",
+        "aliases": [],
+        "hints": {
+          "easy": "stor flygare som spottar frätande projektiler mot byggnader",
+          "normal": "blå tornjägare som kan slå på håll uppifrån",
+          "hard": "ett lockbete kan leda bort den frätande beskjutningen"
+        }
+      },
+      "en": {
+        "word": "Minion Giant",
+        "aliases": [],
+        "hints": {
+          "easy": "oversized flyer that spits toxins at buildings",
+          "normal": "blue tower hunter that attacks from above at range",
+          "hard": "a decoy can draw away the corrosive barrage"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-ice-wizard",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ice Wizard",
+        "aliases": [],
+        "hints": {
+          "easy": "magiker vars projektiler saktar ned en grupp",
+          "normal": "låg fart i motståndarens anfall",
+          "hard": "försvaret får extra sekunder i kylan"
+        }
+      },
+      "en": {
+        "word": "Ice Wizard",
+        "aliases": [],
+        "hints": {
+          "easy": "caster whose projectiles slow a group",
+          "normal": "takes the pace out of an enemy push",
+          "hard": "the defence gets extra seconds in the cold"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-royal-giant",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Royal Giant",
+        "aliases": [
+          "RG"
+        ],
+        "hints": {
+          "easy": "stor skytt med handkanon riktad mot byggnader",
+          "normal": "sätter press utan att gå ända fram till tornet",
+          "hard": "en försvarsbyggnad drar bort artilleriet"
+        }
+      },
+      "en": {
+        "word": "Royal Giant",
+        "aliases": [
+          "RG"
+        ],
+        "hints": {
+          "easy": "big gunner who aims a hand cannon at buildings",
+          "normal": "pressures a tower without walking up to it",
+          "hard": "a defensive building redirects the artillery"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-guards",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Guards",
+        "aliases": [],
+        "hints": {
+          "easy": "benkrigare som bär egna sköldar",
+          "normal": "första träffen kan bara ta skyddet",
+          "hard": "en tung stöt behöver ofta följas upp"
+        }
+      },
+      "en": {
+        "word": "Guards",
+        "aliases": [],
+        "hints": {
+          "easy": "bone warriors with individual shields",
+          "normal": "the first hit may only strip the protection",
+          "hard": "one heavy blow often needs a follow-up"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-princess",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Princess",
+        "aliases": [],
+        "hints": {
+          "easy": "långskjutande bågskytt som kan nå tornet från bron",
+          "normal": "eldprojektiler kan träffa flera i samma område",
+          "hard": "ställer motståndaren inför valet att spara stocken"
+        }
+      },
+      "en": {
+        "word": "Princess",
+        "aliases": [],
+        "hints": {
+          "easy": "long-range bow user who can reach the tower from the bridge",
+          "normal": "fiery projectiles can catch a group",
+          "hard": "makes the opponent think twice about saving the rolling spell"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-dark-prince",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dark Prince",
+        "aliases": [],
+        "hints": {
+          "easy": "sköldbärande ryttare med klubba",
+          "normal": "rusar in och sveper över flera fiender",
+          "hard": "skyddet gör första tunga träffen mindre värdefull"
+        }
+      },
+      "en": {
+        "word": "Dark Prince",
+        "aliases": [],
+        "hints": {
+          "easy": "shielded rider with a mace",
+          "normal": "charges in and sweeps across a group",
+          "hard": "his protection makes the first heavy hit less valuable"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-three-musketeers",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Three Musketeers",
+        "aliases": [],
+        "hints": {
+          "easy": "trio med skjutvapen och bajonetter",
+          "normal": "kan dela upp hotet över två banor",
+          "hard": "samlad formation inbjuder till dyr trollformel"
+        }
+      },
+      "en": {
+        "word": "Three Musketeers",
+        "aliases": [],
+        "hints": {
+          "easy": "trio with guns and bayonets",
+          "normal": "can divide the threat across both lanes",
+          "hard": "a tight formation invites a costly spell"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-lava-hound",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lava Hound",
+        "aliases": [],
+        "hints": {
+          "easy": "flygande stenvarelse som spricker till små flygare",
+          "normal": "tål länge i luften och går mot byggnader",
+          "hard": "att fälla den stora är bara början"
+        }
+      },
+      "en": {
+        "word": "Lava Hound",
+        "aliases": [],
+        "hints": {
+          "easy": "flying stone creature that bursts into smaller flyers",
+          "normal": "soaks up shots in the air and heads for buildings",
+          "hard": "bringing down the big one is only the beginning"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-ice-spirit",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ice Spirit",
+        "aliases": [],
+        "hints": {
+          "easy": "liten hoppare som fryser nära mål",
+          "normal": "pausar fiender tillräckligt länge för ett försvar",
+          "hard": "billig andhämtning vid tornet"
+        }
+      },
+      "en": {
+        "word": "Ice Spirit",
+        "aliases": [],
+        "hints": {
+          "easy": "tiny jumper that freezes nearby targets",
+          "normal": "pauses enemies long enough for defenders to act",
+          "hard": "buys a cheap breather by the tower"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-fire-spirit",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fire Spirit",
+        "aliases": [],
+        "hints": {
+          "easy": "liten hoppare som bränner en klunga",
+          "normal": "kastar sig mot en fiende för en engångssmäll",
+          "hard": "en tät marksvärm kan bli lågornas bästa mål"
+        }
+      },
+      "en": {
+        "word": "Fire Spirit",
+        "aliases": [],
+        "hints": {
+          "easy": "tiny jumper that burns a cluster",
+          "normal": "leaps at an enemy for a one-off blast",
+          "hard": "tight ground swarms make good kindling"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-miner",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Miner",
+        "aliases": [],
+        "hints": {
+          "easy": "gräver sig till vald plats med spade",
+          "normal": "kan börja slå på andra sidan arenan",
+          "hard": "placeringen runt tornet blir en gissningslek"
+        }
+      },
+      "en": {
+        "word": "Miner",
+        "aliases": [],
+        "hints": {
+          "easy": "digs to a chosen spot with a shovel",
+          "normal": "can start swinging on the far side of the arena",
+          "hard": "placement around the tower becomes a guessing game"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-sparky",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sparky",
+        "aliases": [],
+        "hints": {
+          "easy": "stor maskin som laddar upp ett åskskott",
+          "normal": "slår mycket hårt mot täta markmål",
+          "hard": "en snabb elstöt kan nollställa väntan"
+        }
+      },
+      "en": {
+        "word": "Sparky",
+        "aliases": [],
+        "hints": {
+          "easy": "big machine that charges a thunderous shot",
+          "normal": "hits clustered ground targets very hard",
+          "hard": "a quick jolt can reset the wind-up"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-bowler",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bowler",
+        "aliases": [],
+        "hints": {
+          "easy": "blå jätte som rullar ett klot",
+          "normal": "träffar flera i linje på marken",
+          "hard": "försök komma från sidan i stället"
+        }
+      },
+      "en": {
+        "word": "Bowler",
+        "aliases": [],
+        "hints": {
+          "easy": "big blue fighter who rolls a boulder",
+          "normal": "catches multiple ground enemies in a line",
+          "hard": "approaching from the side helps"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-lumberjack",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lumberjack",
+        "aliases": [],
+        "hints": {
+          "easy": "snabb yxkämpe som lämnar en fartzon efter sig",
+          "normal": "flaskan blir värdefull när han stupar",
+          "hard": "de som följer tätt bakom får mest nytta"
+        }
+      },
+      "en": {
+        "word": "Lumberjack",
+        "aliases": [],
+        "hints": {
+          "easy": "fast axe fighter who leaves a speed zone",
+          "normal": "his bottle matters when he falls",
+          "hard": "the troops close behind benefit most"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-battle-ram",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Battle Ram",
+        "aliases": [],
+        "hints": {
+          "easy": "två kämpar som bär en murbräcka",
+          "normal": "rusar mot byggnader och släpper bärarna",
+          "hard": "ett stopp av stöten lämnar ändå närstrid kvar"
+        }
+      },
+      "en": {
+        "word": "Battle Ram",
+        "aliases": [],
+        "hints": {
+          "easy": "two fighters carrying a battering beam",
+          "normal": "charges buildings and releases its carriers",
+          "hard": "stopping the impact still leaves melee fighters"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-inferno-dragon",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Inferno Dragon",
+        "aliases": [],
+        "hints": {
+          "easy": "flygare med en stråle som hettas upp",
+          "normal": "bränner ned en tålig trupp om siktet ligger kvar",
+          "hard": "stör laddningen innan det börjar göra ont"
+        }
+      },
+      "en": {
+        "word": "Inferno Dragon",
+        "aliases": [],
+        "hints": {
+          "easy": "flyer with a beam that heats up",
+          "normal": "melts a tank if it keeps the target",
+          "hard": "interrupt the lock before it starts to hurt"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-ice-golem",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ice Golem",
+        "aliases": [],
+        "hints": {
+          "easy": "kall tålig locktrupp som går mot byggnader",
+          "normal": "saktar ned omgivningen när den faller",
+          "hard": "kan dra en marktrupp till andra banan"
+        }
+      },
+      "en": {
+        "word": "Ice Golem",
+        "aliases": [],
+        "hints": {
+          "easy": "chilly distraction that walks toward buildings",
+          "normal": "slows its surroundings when destroyed",
+          "hard": "can kite a ground troop into the other lane"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-mega-minion",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mega Minion",
+        "aliases": [],
+        "hints": {
+          "easy": "ensam blå flygare i helrustning",
+          "normal": "stadigt luftförsvar mot ett mål i taget",
+          "hard": "gör jobbet utan att ta med en flock"
+        }
+      },
+      "en": {
+        "word": "Mega Minion",
+        "aliases": [],
+        "hints": {
+          "easy": "single blue flyer in full armour",
+          "normal": "dependable air defence against one target at a time",
+          "hard": "does the job without bringing a flock"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-dart-goblin",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dart Goblin",
+        "aliases": [],
+        "hints": {
+          "easy": "liten grön prickskytt med blåsrör",
+          "normal": "skjuter snabbt från långt håll",
+          "hard": "billig rullande skada kan tysta honom"
+        }
+      },
+      "en": {
+        "word": "Dart Goblin",
+        "aliases": [],
+        "hints": {
+          "easy": "little green sharpshooter with a blowpipe",
+          "normal": "fires quickly from far away",
+          "hard": "cheap rolling damage can silence him"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblin-gang",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblin Gang",
+        "aliases": [],
+        "hints": {
+          "easy": "blandad grön grupp med dolkar och kastvapen",
+          "normal": "både närstrid och luftskydd i samma grupp",
+          "hard": "kan fånga upp en ensam anfallare från flera håll"
+        }
+      },
+      "en": {
+        "word": "Goblin Gang",
+        "aliases": [],
+        "hints": {
+          "easy": "mixed green group with daggers and throwing weapons",
+          "normal": "packs melee and air coverage together",
+          "hard": "can catch a lone attacker from several sides"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-electro-wizard",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Electro Wizard",
+        "aliases": [],
+        "hints": {
+          "easy": "magiker som ger en stöt när han landar",
+          "normal": "kan avbryta strålar med sina skott",
+          "hard": "ställd bredvid tornet räddar en snabb nedkomst"
+        }
+      },
+      "en": {
+        "word": "Electro Wizard",
+        "aliases": [],
+        "hints": {
+          "easy": "caster who shocks enemies as he lands",
+          "normal": "can interrupt beams with his shots",
+          "hard": "a quick arrival near the tower can rescue a defence"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-elite-barbarians",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Elite Barbarians",
+        "aliases": [
+          "E-Barbs"
+        ],
+        "hints": {
+          "easy": "två snabba svärdskämpar med hjälmar",
+          "normal": "kontrar och rusar vidare i samma bana",
+          "hard": "lågt försvarselixir gör bron farlig"
+        }
+      },
+      "en": {
+        "word": "Elite Barbarians",
+        "aliases": [
+          "E-Barbs"
+        ],
+        "hints": {
+          "easy": "two fast helmeted swordsmen",
+          "normal": "defend and charge back down the same lane",
+          "hard": "low defensive elixir makes the bridge dangerous"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-hunter",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hunter",
+        "aliases": [],
+        "hints": {
+          "easy": "skäggig skytt vars hagel sprids",
+          "normal": "gör störst skada om många hagel träffar nära",
+          "hard": "kliv tätt inpå är ibland precis fel svar"
+        }
+      },
+      "en": {
+        "word": "Hunter",
+        "aliases": [],
+        "hints": {
+          "easy": "bearded gunner with a spread of pellets",
+          "normal": "does most damage when many pellets land up close",
+          "hard": "closing the distance can be exactly the wrong move"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-executioner",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Executioner",
+        "aliases": [],
+        "hints": {
+          "easy": "maskerad figur som kastar en yxa som vänder",
+          "normal": "samma kast kan skada på vägen tillbaka",
+          "hard": "ställ inte båda stödtrupperna på rad"
+        }
+      },
+      "en": {
+        "word": "Executioner",
+        "aliases": [],
+        "hints": {
+          "easy": "masked fighter who throws a returning axe",
+          "normal": "one throw can also hit on the way back",
+          "hard": "avoid lining up both support troops"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-bandit",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bandit",
+        "aliases": [],
+        "hints": {
+          "easy": "maskerad närstridsfigur med snabb framstöt",
+          "normal": "rusningen är säkrare än att gå dit",
+          "hard": "avståndet till nästa mål kan vara en bonus"
+        }
+      },
+      "en": {
+        "word": "Bandit",
+        "aliases": [],
+        "hints": {
+          "easy": "masked melee fighter with a quick dash",
+          "normal": "dashing is safer than walking all the way",
+          "hard": "a gap to the next target can be an advantage"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-royal-recruits",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Royal Recruits",
+        "aliases": [],
+        "hints": {
+          "easy": "sköldsoldater som sprids över arenans bredd",
+          "normal": "försvarar båda banorna på samma nedsläpp",
+          "hard": "delad front är svår att möta med ett anfall"
+        }
+      },
+      "en": {
+        "word": "Royal Recruits",
+        "aliases": [],
+        "hints": {
+          "easy": "shield soldiers spreading across the arena",
+          "normal": "defend both lanes with a single deployment",
+          "hard": "a split front is hard to answer with one push"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-night-witch",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Night Witch",
+        "aliases": [],
+        "hints": {
+          "easy": "närstridsmagiker som framkallar fladdermöss",
+          "normal": "skapar lufttryck bakom en tålig front",
+          "hard": "stödet fortsätter växa om hon får gå ostört"
+        }
+      },
+      "en": {
+        "word": "Night Witch",
+        "aliases": [],
+        "hints": {
+          "easy": "melee caster who summons bats",
+          "normal": "builds aerial pressure behind a sturdy front",
+          "hard": "her support grows if she's allowed to walk in peace"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-royal-ghost",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Royal Ghost",
+        "aliases": [],
+        "hints": {
+          "easy": "osynlig svärdskämpe som visar sig när han slår",
+          "normal": "håller sig dold medan han närmar sig ett mål",
+          "hard": "kan sväva över floden utan att ta bron"
+        }
+      },
+      "en": {
+        "word": "Royal Ghost",
+        "aliases": [],
+        "hints": {
+          "easy": "invisible swordsman who appears when he strikes",
+          "normal": "stays hidden as he closes on a target",
+          "hard": "can float over the river without taking the bridge"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-ram-rider",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ram Rider",
+        "aliases": [],
+        "hints": {
+          "easy": "ryttare på bagge som snärjer fiendetrupper",
+          "normal": "springer efter byggnader medan ryttaren stör försvaret",
+          "hard": "en jakt med två olika mål"
+        }
+      },
+      "en": {
+        "word": "Ram Rider",
+        "aliases": [],
+        "hints": {
+          "easy": "rider on a horned animal who snares troops",
+          "normal": "the mount seeks buildings while its rider disrupts defenders",
+          "hard": "one chase with two kinds of target"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-zappies",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Zappies",
+        "aliases": [],
+        "hints": {
+          "easy": "flera små elmaskiner som turas om att störa",
+          "normal": "kan hålla ett långsamt mål upptaget med stötar",
+          "hard": "många korta pauser kan stoppa ett stort anfall"
+        }
+      },
+      "en": {
+        "word": "Zappies",
+        "aliases": [],
+        "hints": {
+          "easy": "small electric machines that interrupt in turn",
+          "normal": "keep a slow target occupied with jolts",
+          "hard": "a lot of small pauses can stop one big push"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-rascals",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rascals",
+        "aliases": [],
+        "hints": {
+          "easy": "tålig pojke med två flickor som skjuter tuggummi",
+          "normal": "front och eldunderstöd följer med på ett kort",
+          "hard": "kommer försvaret åt de två längst bak försvinner mycket skada"
+        }
+      },
+      "en": {
+        "word": "Rascals",
+        "aliases": [],
+        "hints": {
+          "easy": "sturdy boy with two girls firing chewing gum",
+          "normal": "front line and ranged cover come on one card",
+          "hard": "reaching the two at the back removes much of the damage"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-cannon-cart",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cannon Cart",
+        "aliases": [],
+        "hints": {
+          "easy": "rullande artilleri som blir kvar när hjulen ger vika",
+          "normal": "rörlig trupp blir försvarsbyggnad",
+          "hard": "du behöver hantera två faser av samma vapen"
+        }
+      },
+      "en": {
+        "word": "Cannon Cart",
+        "aliases": [],
+        "hints": {
+          "easy": "rolling artillery that stays put when the wheels give way",
+          "normal": "a mobile troop becomes a defensive structure",
+          "hard": "you have to deal with two phases of the same weapon"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-mega-knight",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mega Knight",
+        "aliases": [
+          "MK"
+        ],
+        "hints": {
+          "easy": "tung rustningskämpe som hoppar mellan mål",
+          "normal": "landningen kan slå ut en tät markgrupp",
+          "hard": "håll avståndet lagom så slipper du ett nytt nedslag"
+        }
+      },
+      "en": {
+        "word": "Mega Knight",
+        "aliases": [
+          "MK"
+        ],
+        "hints": {
+          "easy": "heavily armoured fighter who leaps toward targets",
+          "normal": "his landing can wipe out a ground cluster",
+          "hard": "the right distance helps avoid another impact"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-skeleton-barrel",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skeleton Barrel",
+        "aliases": [],
+        "hints": {
+          "easy": "ballongburen last som släpper benkrigare",
+          "normal": "om du skjuter ned lasten kommer markhotet direkt",
+          "hard": "kräver ett svar i luften och ett till vid nedslaget"
+        }
+      },
+      "en": {
+        "word": "Skeleton Barrel",
+        "aliases": [],
+        "hints": {
+          "easy": "airborne cargo that spills bone warriors",
+          "normal": "shooting down the cargo brings the ground threat right away",
+          "hard": "calls for one answer above and another at the landing"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-flying-machine",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Flying Machine",
+        "aliases": [],
+        "hints": {
+          "easy": "träfarkost med propeller och projektiler",
+          "normal": "kan peppra från ett avstånd där många marktrupper är hjälplösa",
+          "hard": "skjut ned eldunderstödet innan det samlas bakom fronten"
+        }
+      },
+      "en": {
+        "word": "Flying Machine",
+        "aliases": [],
+        "hints": {
+          "easy": "wooden craft with a propeller and a gun",
+          "normal": "fires from where many ground troops can't touch it",
+          "hard": "remove ranged air support before it settles behind the front"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-wall-breakers",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Wall Breakers",
+        "aliases": [],
+        "hints": {
+          "easy": "två benrangel rusar med varsin bomb",
+          "normal": "springer mot byggnader och spränger sig själva",
+          "hard": "du har inte många sekunder att sätta ett lockbete"
+        }
+      },
+      "en": {
+        "word": "Wall Breakers",
+        "aliases": [],
+        "hints": {
+          "easy": "two rattling runners each carrying a bomb",
+          "normal": "rush buildings and blow themselves up",
+          "hard": "you have little time to set a decoy"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-royal-hogs",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Royal Hogs",
+        "aliases": [],
+        "hints": {
+          "easy": "fyra grisar som springer mot byggnader",
+          "normal": "går att dela mellan arenans båda banor",
+          "hard": "områdesträffar lönar sig när de håller ihop"
+        }
+      },
+      "en": {
+        "word": "Royal Hogs",
+        "aliases": [],
+        "hints": {
+          "easy": "four pigs that run at buildings",
+          "normal": "can be split across both lanes",
+          "hard": "area damage pays off when they stay together"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblin-giant",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblin Giant",
+        "aliases": [],
+        "hints": {
+          "easy": "stor grön fronttrupp med två kastare på ryggen",
+          "normal": "bär sitt eget stöd när han går mot tornet",
+          "hard": "kastvapnen kan bli kvar när bäraren faller"
+        }
+      },
+      "en": {
+        "word": "Goblin Giant",
+        "aliases": [],
+        "hints": {
+          "easy": "big green frontliner with two throwers on his back",
+          "normal": "carries his own ranged support to the tower",
+          "hard": "the throwers can remain after their ride falls"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-fisherman",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fisherman",
+        "aliases": [],
+        "hints": {
+          "easy": "drar markfiender till sig med ett ankare",
+          "normal": "kan flytta en anfallare närmare kungstornet",
+          "hard": "kroken ändrar vem som står först"
+        }
+      },
+      "en": {
+        "word": "Fisherman",
+        "aliases": [],
+        "hints": {
+          "easy": "pulls ground enemies in with an anchor",
+          "normal": "can bring an attacker nearer the King Tower",
+          "hard": "a hook changes who's in front"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-magic-archer",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Magic Archer",
+        "aliases": [],
+        "hints": {
+          "easy": "skytt vars projektil går igenom flera fiender",
+          "normal": "kan nå tornet via en annan trupp i samma linje",
+          "hard": "vinkeln betyder mer än hur nära skytten står"
+        }
+      },
+      "en": {
+        "word": "Magic Archer",
+        "aliases": [],
+        "hints": {
+          "easy": "bow user whose shot passes through several enemies",
+          "normal": "can reach a tower through a troop in the same line",
+          "hard": "the angle matters more than the distance"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-electro-dragon",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Electro Dragon",
+        "aliases": [],
+        "hints": {
+          "easy": "flygare vars stöt hoppar mellan fiender",
+          "normal": "kan avbryta uppladdningar längs kedjan",
+          "hard": "utspritt försvar bryter kontakten"
+        }
+      },
+      "en": {
+        "word": "Electro Dragon",
+        "aliases": [],
+        "hints": {
+          "easy": "flyer whose shock jumps between enemies",
+          "normal": "interrupts wind-ups along the chain",
+          "hard": "spread-out defenders break the connection"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-firecracker",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Firecracker",
+        "aliases": [],
+        "hints": {
+          "easy": "skytt som studsar bakåt av rekylen",
+          "normal": "projektilen sprider sig bakom första träffen",
+          "hard": "kan råka väcka kungstornet genom rätt vinkel"
+        }
+      },
+      "en": {
+        "word": "Firecracker",
+        "aliases": [],
+        "hints": {
+          "easy": "ranged fighter who bounces back from recoil",
+          "normal": "her shot fans out behind the first hit",
+          "hard": "the wrong angle can wake the King Tower"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-elixir-golem",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Elixir Golem",
+        "aliases": [],
+        "hints": {
+          "easy": "rosa fronttrupp som delar sig i klumpar",
+          "normal": "motståndaren får resurser när bitarna besegras",
+          "hard": "en förskottsbetalning som kan bli dyr efter anfallet"
+        }
+      },
+      "en": {
+        "word": "Elixir Golem",
+        "aliases": [],
+        "hints": {
+          "easy": "pink frontliner that splits into blobs",
+          "normal": "the opponent gains resources as the pieces fall",
+          "hard": "an advance that can come due after the push"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-battle-healer",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Battle Healer",
+        "aliases": [],
+        "hints": {
+          "easy": "vingprydd svärdskämpe vars slag läker allierade",
+          "normal": "de andra i en tät grupp kan hålla ut längre",
+          "hard": "utanför närstrid får följet vänta på läkningen"
+        }
+      },
+      "en": {
+        "word": "Battle Healer",
+        "aliases": [],
+        "hints": {
+          "easy": "winged sword fighter whose hits heal allies",
+          "normal": "helps the others in a tight group last longer",
+          "hard": "her escort has to wait for healing outside melee"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-skeleton-dragons",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skeleton Dragons",
+        "aliases": [],
+        "hints": {
+          "easy": "två benflygare som delar ut områdesskada",
+          "normal": "båda kan bränna marken medan de håller sig i luften",
+          "hard": "två eldkällor går att skilja åt vid placering"
+        }
+      },
+      "en": {
+        "word": "Skeleton Dragons",
+        "aliases": [],
+        "hints": {
+          "easy": "pair of bony flyers dealing area damage",
+          "normal": "both scorch the ground while staying airborne",
+          "hard": "the two sources of fire can be split on deployment"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-heal-spirit",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Heal Spirit",
+        "aliases": [],
+        "hints": {
+          "easy": "liten hoppare som lämnar ett läkande område",
+          "normal": "lossar nyttan där hoppet landar",
+          "hard": "byt en engångsträff mot mer tid för fronten"
+        }
+      },
+      "en": {
+        "word": "Heal Spirit",
+        "aliases": [],
+        "hints": {
+          "easy": "little jumper that leaves a healing patch",
+          "normal": "delivers its benefit where the leap ends",
+          "hard": "trade a single hit for extra time on the front line"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-electro-spirit",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Electro Spirit",
+        "aliases": [],
+        "hints": {
+          "easy": "liten hoppare vars stöt vandrar vidare",
+          "normal": "kan avbryta flera uppladdningar med en kedja",
+          "hard": "trupper som står tätt leder strömmen vidare"
+        }
+      },
+      "en": {
+        "word": "Electro Spirit",
+        "aliases": [],
+        "hints": {
+          "easy": "little jumper whose jolt travels onward",
+          "normal": "can interrupt several wind-ups in a chain",
+          "hard": "closely packed troops pass the current along"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-mother-witch",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mother Witch",
+        "aliases": [],
+        "hints": {
+          "easy": "magiker som gör besegrade mål till grisar",
+          "normal": "använder motståndarens småtrupper mot deras torn",
+          "hard": "en svärm kan bli råmaterial till motanfallet"
+        }
+      },
+      "en": {
+        "word": "Mother Witch",
+        "aliases": [],
+        "hints": {
+          "easy": "caster who turns defeated targets into pigs",
+          "normal": "uses the opponent's swarm against their tower",
+          "hard": "a swarm can become raw material for her counterpush"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-electro-giant",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Electro Giant",
+        "aliases": [
+          "E-Giant"
+        ],
+        "hints": {
+          "easy": "stor fronttrupp med ryggsäck som ger svarsstötar",
+          "normal": "nära angripare kan bli träffade när de slår honom",
+          "hard": "håll avstånd om du vill slippa strömmen"
+        }
+      },
+      "en": {
+        "word": "Electro Giant",
+        "aliases": [
+          "E-Giant"
+        ],
+        "hints": {
+          "easy": "big frontliner with a backpack that shocks attackers back",
+          "normal": "nearby attackers can be hit as they strike",
+          "hard": "keep your distance to avoid the current"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-phoenix",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Phoenix",
+        "aliases": [],
+        "hints": {
+          "easy": "eldfågel som lämnar ett ägg när den faller",
+          "normal": "äggskalet måste bort för att stoppa återkomsten",
+          "hard": "vinsten i luftstriden kan vara tillfällig"
+        }
+      },
+      "en": {
+        "word": "Phoenix",
+        "aliases": [],
+        "hints": {
+          "easy": "fiery bird that leaves an egg when it falls",
+          "normal": "break the shell to stop a return",
+          "hard": "winning the air fight may only be temporary"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblin-demolisher",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblin Demolisher",
+        "aliases": [],
+        "hints": {
+          "easy": "grön sprängare som rusar mot en byggnad vid låg hälsa",
+          "normal": "lämnar en explosion när han faller",
+          "hard": "det kan löna sig att slå snabbt innan stubinen blir farlig"
+        }
+      },
+      "en": {
+        "word": "Goblin Demolisher",
+        "aliases": [],
+        "hints": {
+          "easy": "green explosives carrier who rushes a building when weakened",
+          "normal": "leaves a blast when defeated",
+          "hard": "finish him quickly before the fuse matters"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblin-machine",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblin Machine",
+        "aliases": [],
+        "hints": {
+          "easy": "grön pilot i robot med raket och mekaniska armar",
+          "normal": "närstrid framme och projektiler längre bort",
+          "hard": "bakre stöd kan få en överraskning ovanifrån"
+        }
+      },
+      "en": {
+        "word": "Goblin Machine",
+        "aliases": [],
+        "hints": {
+          "easy": "green pilot in a robot with a rocket and mechanical arms",
+          "normal": "brawls up close and fires at distant targets",
+          "hard": "backline support can get a surprise from above"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-suspicious-bush",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Suspicious Bush",
+        "aliases": [],
+        "hints": {
+          "easy": "vandrande grönska som gömmer två angripare",
+          "normal": "det är svårt att sikta på lasten innan den öppnar sig",
+          "hard": "det som prasslar vid tornet kan redan vara för sent att stoppa"
+        }
+      },
+      "en": {
+        "word": "Suspicious Bush",
+        "aliases": [],
+        "hints": {
+          "easy": "walking foliage hiding two attackers",
+          "normal": "the cargo is hard to target before it opens",
+          "hard": "by the time it rustles at the tower it may be too late"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-berserker",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Berserker",
+        "aliases": [],
+        "hints": {
+          "easy": "ensam liten närstridstrupp med två yxor",
+          "normal": "kompenserar blygsam träffskada med snabba hugg",
+          "hard": "billigt sätt att möta småhot ett efter ett"
+        }
+      },
+      "en": {
+        "word": "Berserker",
+        "aliases": [],
+        "hints": {
+          "easy": "small solo melee troop with two axes",
+          "normal": "makes up for light hits by swinging quickly",
+          "hard": "cheap way to handle small threats one by one"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-rune-giant",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rune Giant",
+        "aliases": [],
+        "hints": {
+          "easy": "stor krigare som förstärker andra truppers vapen",
+          "normal": "magin på de andra kan finnas kvar när hon faller",
+          "hard": "fronten lämnar ett avtryck på sina följare"
+        }
+      },
+      "en": {
+        "word": "Rune Giant",
+        "aliases": [],
+        "hints": {
+          "easy": "large warrior who enchants other troops' weapons",
+          "normal": "their enchantments can outlast her",
+          "hard": "the frontliner leaves a mark on those behind her"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-spirit-empress",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spirit Empress",
+        "aliases": [],
+        "hints": {
+          "easy": "kan sättas in som närkämpe på marken eller skytt i luften",
+          "normal": "tillgängligt elixir avgör hennes form",
+          "hard": "valet byter räckvidd lika mycket som färdsätt"
+        }
+      },
+      "en": {
+        "word": "Spirit Empress",
+        "aliases": [],
+        "hints": {
+          "easy": "deploys as a ground brawler or a ranged flyer",
+          "normal": "available elixir decides her form",
+          "hard": "the choice changes both reach and travel"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-furnace",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Furnace",
+        "aliases": [],
+        "hints": {
+          "easy": "vandrande kittel som släpper fram små eldtrupper",
+          "normal": "kastar brygd medan eldstödet fortsätter att komma",
+          "hard": "eldkällan följer med över bron"
+        }
+      },
+      "en": {
+        "word": "Furnace",
+        "aliases": [],
+        "hints": {
+          "easy": "walking cauldron that releases little fire troops",
+          "normal": "flings a brew while more fiery support arrives",
+          "hard": "the source of the flames travels across the bridge"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-golem",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-troops",
+    "tags": [
+      "card",
+      "troop"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Golem",
+        "aliases": [],
+        "hints": {
+          "easy": "väldig stenfront som blir två mindre delar",
+          "normal": "ger tid att samla stödtrupper bakom sig",
+          "hard": "går tungt över bron och kostar mycket att sätta in"
+        }
+      },
+      "en": {
+        "word": "Golem",
+        "aliases": [],
+        "hints": {
+          "easy": "huge stone frontliner that breaks into two smaller pieces",
+          "normal": "gives you time to gather supporting troops behind it",
+          "hard": "lumbers across the bridge and takes a big investment"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-cannon",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cannon",
+        "aliases": [],
+        "hints": {
+          "easy": "fast krutvapen som bara skjuter på markmål",
+          "normal": "billigt lockbete mot tornjägare",
+          "hard": "all nytta kommer från placeringen och jordnära skott"
+        }
+      },
+      "en": {
+        "word": "Cannon",
+        "aliases": [],
+        "hints": {
+          "easy": "stationary gun that shoots only ground targets",
+          "normal": "cheap decoy against building seekers",
+          "hard": "good positioning and low shots do all the work"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblin-hut",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblin Hut",
+        "aliases": [],
+        "hints": {
+          "easy": "hus som skickar ut gröna kastare mot hot i närheten",
+          "normal": "kan bemöta flygare genom de trupper som kommer ut",
+          "hard": "håll dig på avstånd om du vill undvika att väcka huset"
+        }
+      },
+      "en": {
+        "word": "Goblin Hut",
+        "aliases": [],
+        "hints": {
+          "easy": "house that sends green throwers out toward nearby threats",
+          "normal": "its occupants can deal with flyers",
+          "hard": "give the house a wide berth if you don't want to wake it up"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-mortar",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mortar",
+        "aliases": [],
+        "hints": {
+          "easy": "belägringspjäs som lobbar granater långt",
+          "normal": "kan sikta på tornet från egen sida av floden",
+          "hard": "har en död zon närmast mynningen"
+        }
+      },
+      "en": {
+        "word": "Mortar",
+        "aliases": [],
+        "hints": {
+          "easy": "siege weapon that lobs shells a long way",
+          "normal": "can aim at a tower from its own side of the river",
+          "hard": "has a blind spot close to the muzzle"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-inferno-tower",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Inferno Tower",
+        "aliases": [],
+        "hints": {
+          "easy": "byggnad med stråle som blir farligare ju längre den ligger kvar",
+          "normal": "bra mot en ensam trupp med mycket hälsa",
+          "hard": "ett avbrott är värt mer än många små slag"
+        }
+      },
+      "en": {
+        "word": "Inferno Tower",
+        "aliases": [],
+        "hints": {
+          "easy": "structure with a beam that grows stronger as it holds",
+          "normal": "good against a lone troop with plenty of health",
+          "hard": "one interruption is worth more than many light hits"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-bomb-tower",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bomb Tower",
+        "aliases": [],
+        "hints": {
+          "easy": "försvarsbyggnad som lobbar sprängladdningar mot marken",
+          "normal": "skyddar mitten mot tätt samlade angripare",
+          "hard": "en farlig plats även när försvaret faller"
+        }
+      },
+      "en": {
+        "word": "Bomb Tower",
+        "aliases": [],
+        "hints": {
+          "easy": "defensive structure lobbing explosives at the ground",
+          "normal": "guards the middle against tightly packed attackers",
+          "hard": "its spot can stay dangerous even when it falls"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-barbarian-hut",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Barbarian Hut",
+        "aliases": [],
+        "hints": {
+          "easy": "byggnad som skickar ut mustaschprydda svärdskämpar",
+          "normal": "återkommande närstrid kan täppa till en bana",
+          "hard": "räkna med att huset fortsätter kosta dig försvar"
+        }
+      },
+      "en": {
+        "word": "Barbarian Hut",
+        "aliases": [],
+        "hints": {
+          "easy": "building that sends out moustached sword fighters",
+          "normal": "repeated melee threats can clog up a lane",
+          "hard": "expect the house to keep demanding an answer"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-tesla",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tesla",
+        "aliases": [],
+        "hints": {
+          "easy": "elförsvar som hissas upp ur marken",
+          "normal": "dyker upp för att skjuta även på flygare",
+          "hard": "titta efter plattan snarare än vapnet"
+        }
+      },
+      "en": {
+        "word": "Tesla",
+        "aliases": [],
+        "hints": {
+          "easy": "electric defence that rises out of the ground",
+          "normal": "pops up to shoot flyers too",
+          "hard": "look out for the floor plate before the weapon"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-elixir-collector",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Elixir Collector",
+        "aliases": [],
+        "hints": {
+          "easy": "byggnad som producerar den lila spelresursen",
+          "normal": "växlar en kostnad nu mot resurser senare",
+          "hard": "motståndaren kan vilja stoppa investeringen med en formel"
+        }
+      },
+      "en": {
+        "word": "Elixir Collector",
+        "aliases": [],
+        "hints": {
+          "easy": "building that produces the purple battle resource",
+          "normal": "trades a cost now for more to spend later",
+          "hard": "an opponent may use a spell to spoil the investment"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-x-bow",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "X-Bow",
+        "aliases": [],
+        "hints": {
+          "easy": "stationärt belägringsvapen som skjuter en tät ström av bultar",
+          "normal": "försöker låsa på tornet från andra sidan floden",
+          "hard": "håll något mellan vapnet och tornet tills tiden tar slut"
+        }
+      },
+      "en": {
+        "word": "X-Bow",
+        "aliases": [],
+        "hints": {
+          "easy": "stationary siege weapon firing a stream of bolts",
+          "normal": "tries to lock onto a tower from across the river",
+          "hard": "keep something in the way until it runs out of time"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-tombstone",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tombstone",
+        "aliases": [],
+        "hints": {
+          "easy": "gravmärke som släpper ut benkrigare",
+          "normal": "små trupper fortsätter störa tills byggnaden går sönder",
+          "hard": "till och med den sista träffen kan lämna fler försvarare"
+        }
+      },
+      "en": {
+        "word": "Tombstone",
+        "aliases": [],
+        "hints": {
+          "easy": "grave marker that releases bone warriors",
+          "normal": "little troops keep getting in the way until it breaks",
+          "hard": "even the finishing hit can leave more defenders"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblin-cage",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblin Cage",
+        "aliases": [],
+        "hints": {
+          "easy": "gallerbur som släpper ut en grön slagskämpe",
+          "normal": "först lockbete och sedan motanfall",
+          "hard": "det verkliga hotet har väntat bakom lås"
+        }
+      },
+      "en": {
+        "word": "Goblin Cage",
+        "aliases": [],
+        "hints": {
+          "easy": "barred enclosure that releases a green brawler",
+          "normal": "first a decoy and then a counterpush",
+          "hard": "the real threat has been waiting behind a lock"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblin-drill",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-buildings",
+    "tags": [
+      "card",
+      "building"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblin Drill",
+        "aliases": [],
+        "hints": {
+          "easy": "maskin som gräver under arenan och släpper fram närstrid",
+          "normal": "kan skapa ett hot alldeles intill motståndarens torn",
+          "hard": "anfallsvägen behöver ingen bro"
+        }
+      },
+      "en": {
+        "word": "Goblin Drill",
+        "aliases": [],
+        "hints": {
+          "easy": "machine that burrows under the arena and releases melee fighters",
+          "normal": "can create a threat right next to an enemy tower",
+          "hard": "the attack route doesn't need a bridge"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-fireball",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fireball",
+        "aliases": [],
+        "hints": {
+          "easy": "glödande projektil med explosion där den landar",
+          "normal": "träffar gärna både stödenhet och torn på en gång",
+          "hard": "placeringen kan också knuffa bort ett försvar"
+        }
+      },
+      "en": {
+        "word": "Fireball",
+        "aliases": [],
+        "hints": {
+          "easy": "fiery projectile that explodes on impact",
+          "normal": "often catches a supporting troop and a tower together",
+          "hard": "where it lands can also knock a defender aside"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-arrows",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Arrows",
+        "aliases": [],
+        "hints": {
+          "easy": "bred skur av projektiler från ovan",
+          "normal": "rensar både mark- och luftsvärmar",
+          "hard": "flera nedslag täcker samma område"
+        }
+      },
+      "en": {
+        "word": "Arrows",
+        "aliases": [],
+        "hints": {
+          "easy": "wide shower of projectiles from above",
+          "normal": "clears ground and air swarms",
+          "hard": "more than one wave covers the same patch"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-rage",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rage",
+        "aliases": [],
+        "hints": {
+          "easy": "lila zon som ökar fart och attacktempo",
+          "normal": "förstärker ett anfall som redan är på gång",
+          "hard": "gör sekunderna nära tornet mer värdefulla"
+        }
+      },
+      "en": {
+        "word": "Rage",
+        "aliases": [],
+        "hints": {
+          "easy": "purple zone that speeds up movement and attacks",
+          "normal": "boosts a push that's already underway",
+          "hard": "makes every second by the tower count for more"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-rocket",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rocket",
+        "aliases": [],
+        "hints": {
+          "easy": "projektil med lång restid och hårt nedslag",
+          "normal": "kan straffa stöd som placeras tätt intill tornet",
+          "hard": "det lönar sig att lämna en lucka bakom sitt försvar"
+        }
+      },
+      "en": {
+        "word": "Rocket",
+        "aliases": [],
+        "hints": {
+          "easy": "projectile with long travel time and a heavy impact",
+          "normal": "punishes support placed right beside a tower",
+          "hard": "leaving a gap behind your defence can pay off"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblin-barrel",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblin Barrel",
+        "aliases": [],
+        "hints": {
+          "easy": "projektil som öppnas och släpper gröna dolkkämpar",
+          "normal": "angriparna hamnar ofta på flera sidor av tornet",
+          "hard": "det är lurigt att läsa den exakta landningspunkten"
+        }
+      },
+      "en": {
+        "word": "Goblin Barrel",
+        "aliases": [],
+        "hints": {
+          "easy": "projectile that opens into green dagger fighters",
+          "normal": "the attackers often land on different sides of a tower",
+          "hard": "the exact landing spot can be tricky to read"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-freeze",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Freeze",
+        "aliases": [],
+        "hints": {
+          "easy": "iskall formel som stoppar trupper och torn",
+          "normal": "ger ett anfall tid medan försvaret står stilla",
+          "hard": "överraskningen fungerar bäst när försvaret redan är utlagt"
+        }
+      },
+      "en": {
+        "word": "Freeze",
+        "aliases": [],
+        "hints": {
+          "easy": "icy spell that stops troops and towers",
+          "normal": "gives a push time while the defence stands still",
+          "hard": "the surprise works best once defenders are committed"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-mirror",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mirror",
+        "aliases": [],
+        "hints": {
+          "easy": "spelar om kortet du använde precis före",
+          "normal": "motståndaren kan behöva samma svar en gång till",
+          "hard": "ordningen i handen betyder mer än vanligt"
+        }
+      },
+      "en": {
+        "word": "Mirror",
+        "aliases": [],
+        "hints": {
+          "easy": "replays the card you just used",
+          "normal": "the opponent may need the same answer again",
+          "hard": "the order of plays matters more than usual"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-lightning",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lightning",
+        "aliases": [],
+        "hints": {
+          "easy": "flera himmelska elstötar mot tåliga mål",
+          "normal": "slår gärna ut stöd och stör uppladdningar",
+          "hard": "några få starka mål gör platsen lockande"
+        }
+      },
+      "en": {
+        "word": "Lightning",
+        "aliases": [],
+        "hints": {
+          "easy": "several bolts from the sky aimed at sturdy targets",
+          "normal": "removes support and interrupts charges",
+          "hard": "a few strong targets make a tempting spot"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-zap",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Zap",
+        "aliases": [],
+        "hints": {
+          "easy": "snabb liten elstöt över en yta",
+          "normal": "avbryter laddning och kan rädda ett anfall",
+          "hard": "ibland är en kort paus viktigare än skadan"
+        }
+      },
+      "en": {
+        "word": "Zap",
+        "aliases": [],
+        "hints": {
+          "easy": "quick little jolt across an area",
+          "normal": "interrupts charging and can rescue a push",
+          "hard": "sometimes a short pause matters more than damage"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-poison",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Poison",
+        "aliases": [],
+        "hints": {
+          "easy": "frätande zon som skadar gradvis",
+          "normal": "gör platsen runt ett torn svår för bräckligt försvar",
+          "hard": "ju längre någon står kvar desto mer lönar det sig"
+        }
+      },
+      "en": {
+        "word": "Poison",
+        "aliases": [],
+        "hints": {
+          "easy": "toxic patch that deals damage over time",
+          "normal": "makes the space around a tower hard for fragile defenders to occupy",
+          "hard": "the longer they stay the more it pays off"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-graveyard",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Graveyard",
+        "aliases": [],
+        "hints": {
+          "easy": "område där benkrigare dyker upp omkring målet",
+          "normal": "ger mycket press när en tålig trupp tar tornets skott",
+          "hard": "varje nästa uppdykande fiende kan kräva en ny träff"
+        }
+      },
+      "en": {
+        "word": "Graveyard",
+        "aliases": [],
+        "hints": {
+          "easy": "patch where bone warriors emerge around the target",
+          "normal": "creates pressure when a sturdy troop takes the tower shots",
+          "hard": "each new arrival can take another shot to clear"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-the-log",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "The Log",
+        "aliases": [
+          "Log"
+        ],
+        "hints": {
+          "easy": "rullande trästam som knuffar marktrupper",
+          "normal": "röjer små anfallare längs en bana",
+          "hard": "att vara ovanför körspåret är räddningen"
+        }
+      },
+      "en": {
+        "word": "The Log",
+        "aliases": [
+          "Log"
+        ],
+        "hints": {
+          "easy": "rolling tree trunk that pushes ground troops back",
+          "normal": "clears small attackers straight down a lane",
+          "hard": "being above its path is the way to stay safe"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-tornado",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tornado",
+        "aliases": [],
+        "hints": {
+          "easy": "vindvirvel som drar in fientliga trupper",
+          "normal": "kan flytta en angripare så att kungstornet börjar skjuta",
+          "hard": "samlar utspridda mål inför en områdesträff"
+        }
+      },
+      "en": {
+        "word": "Tornado",
+        "aliases": [],
+        "hints": {
+          "easy": "whirlwind that pulls enemy troops inward",
+          "normal": "can move an attacker so the King Tower opens fire",
+          "hard": "gathers scattered enemies for a splash hit"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-clone",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Clone",
+        "aliases": [],
+        "hints": {
+          "easy": "kopierar egna trupper till ömtåliga dubbelgångare",
+          "normal": "kan skapa ytterligare effekter när kopiorna faller",
+          "hard": "ett enda svep genom gruppen kan förstöra allt extra"
+        }
+      },
+      "en": {
+        "word": "Clone",
+        "aliases": [],
+        "hints": {
+          "easy": "copies friendly troops as fragile doubles",
+          "normal": "can produce extra effects when the copies fall",
+          "hard": "one sweep through the group can wipe out the extras"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-earthquake",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Earthquake",
+        "aliases": [],
+        "hints": {
+          "easy": "markskakning som gör särskilt ont på byggnader",
+          "normal": "gör ett fast försvar mindre säkert",
+          "hard": "lufttrupper har inget att frukta från underlaget"
+        }
+      },
+      "en": {
+        "word": "Earthquake",
+        "aliases": [],
+        "hints": {
+          "easy": "ground tremor that hits buildings especially hard",
+          "normal": "makes a fixed defence less reliable",
+          "hard": "air troops have nothing to fear from the ground"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-barbarian-barrel",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Barbarian Barrel",
+        "aliases": [],
+        "hints": {
+          "easy": "rullande behållare som släpper ut en svärdskämpe",
+          "normal": "röjer först väg och lämnar sedan en försvarare",
+          "hard": "vid slutet av rullningen börjar närstriden"
+        }
+      },
+      "en": {
+        "word": "Barbarian Barrel",
+        "aliases": [],
+        "hints": {
+          "easy": "rolling container that releases a swordsman",
+          "normal": "clears a path first and leaves a defender behind",
+          "hard": "melee starts once the rolling stops"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-giant-snowball",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Giant Snowball",
+        "aliases": [],
+        "hints": {
+          "easy": "kastad klump av snö som knuffar undan trupper",
+          "normal": "saktar ned det som blir kvar vid nedslaget",
+          "hard": "kan öppna lite utrymme för en bombbärare i luften"
+        }
+      },
+      "en": {
+        "word": "Giant Snowball",
+        "aliases": [],
+        "hints": {
+          "easy": "thrown lump of snow that shoves troops away",
+          "normal": "slows anything left near the impact",
+          "hard": "can clear a little space for an airborne bomber"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-royal-delivery",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Royal Delivery",
+        "aliases": [],
+        "hints": {
+          "easy": "låda som faller på egen sida och lämnar en soldat",
+          "normal": "en fördröjd landning kan träffa både luft och mark",
+          "hard": "försvarspaketet behöver beställas lite i förväg"
+        }
+      },
+      "en": {
+        "word": "Royal Delivery",
+        "aliases": [],
+        "hints": {
+          "easy": "crate that lands on your side and leaves a soldier",
+          "normal": "a delayed impact can hit both air and ground",
+          "hard": "order your defensive package a little early"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-void",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Void",
+        "aliases": [],
+        "hints": {
+          "easy": "mörkt område med hårdare träffar mot färre mål",
+          "normal": "fler trupper i cirkeln kan späda ut skadan",
+          "hard": "ibland är ett billigt sällskap bästa skyddet för den dyra truppen"
+        }
+      },
+      "en": {
+        "word": "Void",
+        "aliases": [],
+        "hints": {
+          "easy": "dark zone that strikes harder when it has fewer targets",
+          "normal": "more troops in the circle can dilute the damage",
+          "hard": "cheap company can be the best cover for an expensive troop"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblin-curse",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblin Curse",
+        "aliases": [],
+        "hints": {
+          "easy": "zon där fallna fiender blir små gröna angripare",
+          "normal": "omvandlar en bräcklig svärm till ett motanfall",
+          "hard": "många lätta mål i ringen kan snabbt byta sida"
+        }
+      },
+      "en": {
+        "word": "Goblin Curse",
+        "aliases": [],
+        "hints": {
+          "easy": "zone where fallen enemies turn into little green attackers",
+          "normal": "converts a fragile swarm into a counterattack",
+          "hard": "many easy targets inside the ring can quickly change sides"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-vines",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-spells",
+    "tags": [
+      "card",
+      "spell"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vines",
+        "aliases": [],
+        "hints": {
+          "easy": "växtformel som binder mål och drar ned flygare",
+          "normal": "ett luftmål kan plötsligt nås av markförsvar",
+          "hard": "en tung fiende kan hamna stilla mitt i klungan"
+        }
+      },
+      "en": {
+        "word": "Vines",
+        "aliases": [],
+        "hints": {
+          "easy": "plant spell that binds targets and brings flyers down",
+          "normal": "ground defenders can suddenly reach an air target",
+          "hard": "a big enemy can end up stuck in the middle of the crowd"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-golden-knight",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-champions",
+    "tags": [
+      "card",
+      "champion"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Golden Knight",
+        "aliases": [],
+        "hints": {
+          "easy": "guldklädd svärdskämpe som kan rusa från mål till mål",
+          "normal": "täta fiender bildar en kedja för förmågan",
+          "hard": "ett mellanrum i ledet kan bryta framryckningen"
+        }
+      },
+      "en": {
+        "word": "Golden Knight",
+        "aliases": [],
+        "hints": {
+          "easy": "gold-clad swordsman who can dash from target to target",
+          "normal": "close enemies form a chain for his ability",
+          "hard": "a gap in the line can break his advance"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-skeleton-king",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-champions",
+    "tags": [
+      "card",
+      "champion"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skeleton King",
+        "aliases": [],
+        "hints": {
+          "easy": "samlar själar och kallar fram benkrigare",
+          "normal": "många fallna småtrupper kan ladda förmågan",
+          "hard": "det sista anfallet kan bestå av dem som redan har fallit"
+        }
+      },
+      "en": {
+        "word": "Skeleton King",
+        "aliases": [],
+        "hints": {
+          "easy": "collects souls and summons bone warriors",
+          "normal": "lots of fallen small troops can charge the ability",
+          "hard": "the final push can be made of those who already fell"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-archer-queen",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-champions",
+    "tags": [
+      "card",
+      "champion"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Archer Queen",
+        "aliases": [],
+        "hints": {
+          "easy": "armborstskytt som försvinner under sin mantel",
+          "normal": "kan skjuta snabbare medan hon är dold",
+          "hard": "försvaret tappar plötsligt sitt tydliga mål"
+        }
+      },
+      "en": {
+        "word": "Archer Queen",
+        "aliases": [],
+        "hints": {
+          "easy": "crossbow user who vanishes under her cloak",
+          "normal": "can shoot faster while hidden",
+          "hard": "the defence suddenly loses its obvious target"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-mighty-miner",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-champions",
+    "tags": [
+      "card",
+      "champion"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mighty Miner",
+        "aliases": [],
+        "hints": {
+          "easy": "borrtrupp som byter bana och lämnar en bomb",
+          "normal": "borren gör allt mer skada mot samma mål",
+          "hard": "den som följer efter kan få ett sprängande avsked"
+        }
+      },
+      "en": {
+        "word": "Mighty Miner",
+        "aliases": [],
+        "hints": {
+          "easy": "drill fighter who swaps lanes and leaves a bomb",
+          "normal": "the drill digs deeper into the same target",
+          "hard": "anyone left chasing can get an explosive farewell"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-monk",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-champions",
+    "tags": [
+      "card",
+      "champion"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Monk",
+        "aliases": [],
+        "hints": {
+          "easy": "kämpe som kan skicka projektiler tillbaka",
+          "normal": "sista slaget i serien knuffar undan fiender",
+          "hard": "tänk efter innan du skjuter på det lugnaste målet"
+        }
+      },
+      "en": {
+        "word": "Monk",
+        "aliases": [],
+        "hints": {
+          "easy": "fighter who can send projectiles back",
+          "normal": "the last strike of his combo knocks enemies away",
+          "hard": "think twice before firing at the calmest target"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-little-prince",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-champions",
+    "tags": [
+      "card",
+      "champion"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Little Prince",
+        "aliases": [],
+        "hints": {
+          "easy": "liten armborstskytt som kallar in en vakt",
+          "normal": "skjuter allt snabbare när han kan stå kvar",
+          "hard": "närstriden han behöver kan komma som förstärkning"
+        }
+      },
+      "en": {
+        "word": "Little Prince",
+        "aliases": [],
+        "hints": {
+          "easy": "small crossbow wielder who calls in a guard",
+          "normal": "fires faster as he is allowed to stand his ground",
+          "hard": "the melee cover he needs can arrive as a reinforcement"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-goblinstein",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-champions",
+    "tags": [
+      "card",
+      "champion"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Goblinstein",
+        "aliases": [],
+        "hints": {
+          "easy": "doktor och monster som kopplas ihop med ström",
+          "normal": "förmågan skadar fiender mellan laboratoriets duo",
+          "hard": "sprid ut dig när ledningen börjar glöda"
+        }
+      },
+      "en": {
+        "word": "Goblinstein",
+        "aliases": [],
+        "hints": {
+          "easy": "doctor and monster who connect with electricity",
+          "normal": "the ability hurts enemies between the laboratory duo",
+          "hard": "spread out when the wire starts to glow"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-boss-bandit",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-champions",
+    "tags": [
+      "card",
+      "champion"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Boss Bandit",
+        "aliases": [],
+        "hints": {
+          "easy": "maskerad kämpe som kan dra sig bakåt med rökgranat",
+          "normal": "kan återvända med en ny framstöt efter reträtten",
+          "hard": "att ha henne inträngd kan ge henne utrymme att rusa"
+        }
+      },
+      "en": {
+        "word": "Boss Bandit",
+        "aliases": [],
+        "hints": {
+          "easy": "masked fighter who can retreat with a smoke grenade",
+          "normal": "can return with another dash after backing up",
+          "hard": "cornering her can give her room to charge"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-tower-princess",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-tower-troops",
+    "tags": [
+      "card",
+      "tower-troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tower Princess",
+        "aliases": [],
+        "hints": {
+          "easy": "grundvalet för tornets bågskytte",
+          "normal": "skjuter jämnt utan att vänta in någon specialförmåga",
+          "hard": "arenaoffensiven börjar ofta med det här vanliga försvaret i vägen"
+        }
+      },
+      "en": {
+        "word": "Tower Princess",
+        "aliases": [],
+        "hints": {
+          "easy": "starting choice for the towers' bow attacks",
+          "normal": "fires steadily without waiting on a special ability",
+          "hard": "the usual obstacle at the end of an arena push"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-cannoneer",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-tower-troops",
+    "tags": [
+      "card",
+      "tower-troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cannoneer",
+        "aliases": [],
+        "hints": {
+          "easy": "tornförsvar som avfyrar färre men tyngre skott",
+          "normal": "enstaka stora mål passar bättre än en massa små",
+          "hard": "varje onödigt skott på ett benrangel märks"
+        }
+      },
+      "en": {
+        "word": "Cannoneer",
+        "aliases": [],
+        "hints": {
+          "easy": "tower defence with fewer but heavier shots",
+          "normal": "prefers big single targets to many little ones",
+          "hard": "every wasted shot on a rattling bone matters"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-dagger-duchess",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-tower-troops",
+    "tags": [
+      "card",
+      "tower-troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dagger Duchess",
+        "aliases": [],
+        "hints": {
+          "easy": "tornförsvar som kastar knivar ur ett förråd",
+          "normal": "öppnar snabbt men behöver tid att fylla på",
+          "hard": "nästa lilla anfall kan ha bättre chans än det första"
+        }
+      },
+      "en": {
+        "word": "Dagger Duchess",
+        "aliases": [],
+        "hints": {
+          "easy": "tower defender who throws knives from a stockpile",
+          "normal": "starts fast but needs time to refill",
+          "hard": "a second small push may work better than the first"
+        }
+      }
+    }
+  },
+  {
+    "id": "clash-royale-royal-chef",
+    "category": "clash-royale",
+    "subcategory": "clash-royale-tower-troops",
+    "tags": [
+      "card",
+      "tower-troop"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Royal Chef",
+        "aliases": [],
+        "hints": {
+          "easy": "tornförsvar som ger en vänlig trupp högre nivå",
+          "normal": "ibland ger väntan en pannkaka till fronten",
+          "hard": "favoriten bakom spisen kan ändra en kommande duell"
+        }
+      },
+      "en": {
+        "word": "Royal Chef",
+        "aliases": [],
+        "hints": {
+          "easy": "tower defender who raises the level of a friendly troop",
+          "normal": "waiting can send a pancake to the front line",
+          "hard": "a favourite from the kitchen can change the next duel"
+        }
+      }
+    }
+  }
+]

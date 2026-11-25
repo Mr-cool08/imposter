@@ -49,7 +49,7 @@
         "hints": {
           "easy": "Ger läkemedel och följer patienters tillstånd",
           "normal": "Rond på avdelningen",
-          "hard": "Går från säng till säng med ett och samma schema"
+          "hard": "Lämnar över anteckningar till nästa arbetspass"
         }
       },
       "en": {
@@ -939,31 +939,32 @@
     }
   },
   {
-    "id": "occupations-security-guard",
+    "id": "occupations-school-caretaker",
     "category": "occupations",
     "subcategory": "occupations-public",
     "tags": [
-      "safety"
+      "school",
+      "maintenance"
     ],
     "level": "familiar",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Väktare",
+        "word": "Skolvaktmästare",
         "aliases": [],
         "hints": {
-          "easy": "Bevakar byggnader eller områden åt en uppdragsgivare",
-          "normal": "Går en rond efter stängning",
-          "hard": "Kontrollerar en dörr som borde vara låst"
+          "easy": "Håller skolans lokaler i skick",
+          "normal": "Fixar ett krånglande dörrhandtag",
+          "hard": "En nyckelknippa som passar nästan överallt"
         }
       },
       "en": {
-        "word": "Security guard",
+        "word": "School caretaker",
         "aliases": [],
         "hints": {
-          "easy": "Guards property or a site for a client",
-          "normal": "Patrols after closing time",
-          "hard": "Checks a door that should be locked"
+          "easy": "Keeps the school building in working order",
+          "normal": "Fixes a stubborn classroom door handle",
+          "hard": "A key ring that works almost everywhere"
         }
       }
     }
@@ -1134,7 +1135,9 @@
     "languages": {
       "sv": {
         "word": "Byggnadssnickare",
-        "aliases": [],
+        "aliases": [
+          "Snickare"
+        ],
         "hints": {
           "easy": "Bygger stommar och sätter upp innerväggar",
           "normal": "Kapade reglar ska passa mot varandra",
@@ -2661,7 +2664,7 @@
       "sv": {
         "word": "Resesäljare",
         "aliases": [
-          "Resebyråagent"
+          "Resekonsult"
         ],
         "hints": {
           "easy": "Hjälper kunder att boka resor och boende",
@@ -2724,7 +2727,7 @@
         "word": "Tatuerare",
         "aliases": [],
         "hints": {
-          "easy": "Ristar in bestående motiv med färg i huden",
+          "easy": "För in färgpigment i huden för att skapa ett motiv",
           "normal": "Provar motivets placering med en mall",
           "hard": "Ger kunden råd om läkningen"
         }

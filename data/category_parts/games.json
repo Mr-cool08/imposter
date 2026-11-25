@@ -1,0 +1,38 @@
+{
+  "id": "games",
+  "names": {
+    "sv": "Spel",
+    "en": "Games"
+  },
+  "icon": "🎮",
+  "subcategories": [
+    {
+      "id": "games-titles",
+      "names": {
+        "sv": "Speltitlar",
+        "en": "Game Titles"
+      }
+    },
+    {
+      "id": "games-characters",
+      "names": {
+        "sv": "Karaktärer",
+        "en": "Characters"
+      }
+    },
+    {
+      "id": "games-items",
+      "names": {
+        "sv": "Föremål och krafter",
+        "en": "Items and Power-ups"
+      }
+    },
+    {
+      "id": "games-concepts",
+      "names": {
+        "sv": "Spelbegrepp",
+        "en": "Gaming Concepts"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6256 @@
+[
+  {
+    "id": "food-pizza",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pizza",
+        "aliases": [],
+        "hints": {
+          "easy": "Rund ugnsbotten med valfri topping",
+          "normal": "Skärs ofta i trekantiga bitar",
+          "hard": "Kartongen har ett gångjärn av papp"
+        }
+      },
+      "en": {
+        "word": "Pizza",
+        "aliases": [],
+        "hints": {
+          "easy": "Round baked base with your choice of toppings",
+          "normal": "Often cut into triangles",
+          "hard": "The box has a cardboard hinge"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-lasagna",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lasagne",
+        "aliases": [],
+        "hints": {
+          "easy": "Pastaplattor varvas med sås",
+          "normal": "Man skär upp den i rutor",
+          "hard": "Hörnportionen har extra mycket brynt kant"
+        }
+      },
+      "en": {
+        "word": "Lasagna",
+        "aliases": [
+          "Lasagne"
+        ],
+        "hints": {
+          "easy": "Pasta sheets layered with sauce",
+          "normal": "Cut into squares to serve",
+          "hard": "A corner portion has more browned edges"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-spaghetti-bolognese",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spaghetti med köttfärssås",
+        "aliases": [],
+        "hints": {
+          "easy": "Långa strån med tomatkokt nötfärs",
+          "normal": "Snurras gärna runt gaffeln",
+          "hard": "En djup tallrik fångar de röda stänken"
+        }
+      },
+      "en": {
+        "word": "Spaghetti Bolognese",
+        "aliases": [
+          "Spaghetti with meat sauce"
+        ],
+        "hints": {
+          "easy": "Long strands with beef simmered in tomato",
+          "normal": "Often twirled around a fork",
+          "hard": "A deep plate catches the red splashes"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-carbonara",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pasta carbonara",
+        "aliases": [
+          "Carbonara"
+        ],
+        "hints": {
+          "easy": "Ägg binder såsen till varma strån",
+          "normal": "Svartpeppar och salta fläskbitar",
+          "hard": "Eftervärmen gör jobbet i kastrullen"
+        }
+      },
+      "en": {
+        "word": "Carbonara",
+        "aliases": [
+          "Pasta carbonara"
+        ],
+        "hints": {
+          "easy": "Egg binds the sauce to hot strands",
+          "normal": "Black pepper and salty pieces of pork",
+          "hard": "Residual heat does the work"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-macaroni-and-cheese",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Makaroner med ostsås",
+        "aliases": [
+          "Mac and cheese"
+        ],
+        "hints": {
+          "easy": "Små böjda pastarör i krämig sås",
+          "normal": "Såsen kan bli ljust orange",
+          "hard": "I ugnsversionen får ströbrödet ligga överst"
+        }
+      },
+      "en": {
+        "word": "Mac and cheese",
+        "aliases": [
+          "Macaroni and cheese"
+        ],
+        "hints": {
+          "easy": "Little curved pasta tubes in a creamy sauce",
+          "normal": "The sauce can be bright orange",
+          "hard": "The baked version can have a breadcrumb topping"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-meatballs",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Köttbullar",
+        "aliases": [],
+        "hints": {
+          "easy": "Små runda bitar av kryddad färs",
+          "normal": "Rullas mellan handflatorna",
+          "hard": "De får plats två och två på en gaffel"
+        }
+      },
+      "en": {
+        "word": "Meatballs",
+        "aliases": [],
+        "hints": {
+          "easy": "Small rounds of seasoned mince",
+          "normal": "Rolled between the palms",
+          "hard": "Two can fit on one fork"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-hamburger",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Hamburgare",
+        "aliases": [],
+        "hints": {
+          "easy": "En grillad färsbiff mellan brödhalvor",
+          "normal": "Saltgurka kan sticka ut vid kanten",
+          "hard": "Pappret lindas runt den nedersta halvan"
+        }
+      },
+      "en": {
+        "word": "Hamburger",
+        "aliases": [],
+        "hints": {
+          "easy": "A grilled patty between two halves of a bun",
+          "normal": "Pickle may stick out at the edge",
+          "hard": "The wrapper folds around the bottom half"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-hot-dog",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Korv med bröd",
+        "aliases": [],
+        "hints": {
+          "easy": "En smal grillad cylinder i en mjuk skåra",
+          "normal": "Senap kan ringlas i sicksack",
+          "hard": "Ett vanligt val vid arenans kiosk"
+        }
+      },
+      "en": {
+        "word": "Hot dog",
+        "aliases": [],
+        "hints": {
+          "easy": "A grilled sausage tucked into a soft split roll",
+          "normal": "Mustard often goes on in a zigzag",
+          "hard": "A familiar stadium concession"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-tacos",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tacos",
+        "aliases": [],
+        "hints": {
+          "easy": "Små majsplattor viks runt fyllningen",
+          "normal": "Grön sås eller lime kan stå bredvid",
+          "hard": "Ett hårt skal kan brista vid första tuggan"
+        }
+      },
+      "en": {
+        "word": "Tacos",
+        "aliases": [],
+        "hints": {
+          "easy": "Small corn tortillas fold around the filling",
+          "normal": "Green salsa or lime can go alongside",
+          "hard": "A hard shell may crack on the first bite"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-burrito",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Burrito",
+        "aliases": [],
+        "hints": {
+          "easy": "Bönor och andra fyllningar i ett hoprullat vetebröd",
+          "normal": "Båda ändarna kan vikas in",
+          "hard": "Folie håller ihop den när man äter på språng"
+        }
+      },
+      "en": {
+        "word": "Burrito",
+        "aliases": [],
+        "hints": {
+          "easy": "Beans and other fillings rolled in a wheat tortilla",
+          "normal": "Both ends can be tucked in",
+          "hard": "Foil holds it together when eaten on the go"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-quesadilla",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Quesadilla",
+        "aliases": [],
+        "hints": {
+          "easy": "Smält ost mellan stekta tortillas",
+          "normal": "Brukar skäras upp i klyftor",
+          "hard": "Osten fungerar som lim när man vänder den"
+        }
+      },
+      "en": {
+        "word": "Quesadilla",
+        "aliases": [],
+        "hints": {
+          "easy": "Melted cheese between pan-toasted tortillas",
+          "normal": "It is usually cut into wedges",
+          "hard": "The melted filling helps keep it together when flipped"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-enchiladas",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Enchiladas",
+        "aliases": [],
+        "hints": {
+          "easy": "Fyllda majstortillas bakas under chilisås",
+          "normal": "Rullarna ligger tätt i ugnsformen",
+          "hard": "Man använder hellre stekspade än händer"
+        }
+      },
+      "en": {
+        "word": "Enchiladas",
+        "aliases": [],
+        "hints": {
+          "easy": "Filled corn tortillas baked under chili sauce",
+          "normal": "The rolls sit snugly in a baking dish",
+          "hard": "A spatula is handier than fingers for serving"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-falafel",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Falafel",
+        "aliases": [],
+        "hints": {
+          "easy": "Friterade små bollar av baljväxter",
+          "normal": "Persilja kan göra mitten grön",
+          "hard": "De kan stoppas i fickan på ett bröd"
+        }
+      },
+      "en": {
+        "word": "Falafel",
+        "aliases": [],
+        "hints": {
+          "easy": "Small deep-fried balls made with legumes",
+          "normal": "Parsley can make the center green",
+          "hard": "They can be tucked into a bread pocket"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-gyros",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gyros",
+        "aliases": [],
+        "hints": {
+          "easy": "Tunna köttskivor från ett roterande spett",
+          "normal": "Serveras ofta med pitabröd och yoghurtsås",
+          "hard": "Det brynta yttre skärs av medan spettet står upp"
+        }
+      },
+      "en": {
+        "word": "Gyros",
+        "aliases": [],
+        "hints": {
+          "easy": "Thin slices from a rotating spit",
+          "normal": "Often served with pita and yogurt sauce",
+          "hard": "The browned outside is shaved off the upright spit"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-souvlaki",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Souvlaki",
+        "aliases": [],
+        "hints": {
+          "easy": "Små marinerade köttbitar grillas på spett",
+          "normal": "Citron och oregano passar till",
+          "hard": "Handtaget på spettet sticker ofta ut ur pitabrödet"
+        }
+      },
+      "en": {
+        "word": "Souvlaki",
+        "aliases": [],
+        "hints": {
+          "easy": "Small marinated pieces of meat grilled on skewers",
+          "normal": "Lemon and oregano go well with it",
+          "hard": "The skewer handle may stick out of the pita"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-moussaka",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Moussaka",
+        "aliases": [],
+        "hints": {
+          "easy": "Aubergine i lager med färs och krämigt täcke",
+          "normal": "Den grekiska ugnsformen får brynt yta",
+          "hard": "Skivorna behöver vila för att hålla formen"
+        }
+      },
+      "en": {
+        "word": "Moussaka",
+        "aliases": [],
+        "hints": {
+          "easy": "Layers of aubergine, mince and creamy topping",
+          "normal": "The Greek bake develops a browned surface",
+          "hard": "It rests so the portions hold their shape"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-paella",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Paella",
+        "aliases": [],
+        "hints": {
+          "easy": "Saffransris tillagas i en bred låg panna",
+          "normal": "Spansk rätt som kan toppas med skaldjur",
+          "hard": "Den rostade botten kan vara extra eftertraktad"
+        }
+      },
+      "en": {
+        "word": "Paella",
+        "aliases": [],
+        "hints": {
+          "easy": "Saffron rice cooked in a wide shallow pan",
+          "normal": "Spanish dish sometimes topped with seafood",
+          "hard": "The toasted layer at the bottom may be prized"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-risotto",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Risotto",
+        "aliases": [],
+        "hints": {
+          "easy": "Kortkornigt ris kokas krämigt i buljong",
+          "normal": "Vätskan hälls i gradvis",
+          "hard": "Det färdiga riset ska kunna breda ut sig på tallriken"
+        }
+      },
+      "en": {
+        "word": "Risotto",
+        "aliases": [],
+        "hints": {
+          "easy": "Short-grain rice cooked until creamy in stock",
+          "normal": "The liquid goes in gradually",
+          "hard": "The finished rice should spread across the plate"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-arancini",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Arancini",
+        "aliases": [
+          "Italienska risbollar"
+        ],
+        "hints": {
+          "easy": "Panerade och friterade bollar av kokt ris",
+          "normal": "En bit mozzarella kan döljas i mitten",
+          "hard": "Namnet anspelar på små apelsiner"
+        }
+      },
+      "en": {
+        "word": "Arancini",
+        "aliases": [
+          "Italian rice balls"
+        ],
+        "hints": {
+          "easy": "Cooked rice formed into breaded fried balls",
+          "normal": "A piece of mozzarella can hide in the middle",
+          "hard": "The name alludes to little oranges"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-ramen",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ramen",
+        "aliases": [],
+        "hints": {
+          "easy": "Japanska nudlar i en djup skål med buljong",
+          "normal": "Ett ägg med mjuk gula kan ligga överst",
+          "hard": "Pinnar och djup sked kompletterar varandra"
+        }
+      },
+      "en": {
+        "word": "Ramen",
+        "aliases": [],
+        "hints": {
+          "easy": "Japanese noodles in a deep bowl of broth",
+          "normal": "An egg with a soft yolk may go on top",
+          "hard": "Chopsticks and a deep spoon work together"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pho",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pho",
+        "aliases": [
+          "Phở"
+        ],
+        "hints": {
+          "easy": "Vietnamesisk buljong med risnudlar",
+          "normal": "Lime och färska örter serveras ofta vid sidan",
+          "hard": "En hel krydda i buljongen kan likna en stjärna"
+        }
+      },
+      "en": {
+        "word": "Pho",
+        "aliases": [
+          "Phở"
+        ],
+        "hints": {
+          "easy": "Vietnamese broth with rice noodles",
+          "normal": "Lime and fresh herbs often come on the side",
+          "hard": "A whole spice in the broth can look like a star"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-sushi",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sushi",
+        "aliases": [],
+        "hints": {
+          "easy": "Små munsbitar med vinägerkryddat ris",
+          "normal": "Ibland hålls bitarna ihop av ett mörkt algblad",
+          "hard": "En tunn skiva ingefära kan rensa smaken mellan bitarna"
+        }
+      },
+      "en": {
+        "word": "Sushi",
+        "aliases": [],
+        "hints": {
+          "easy": "Bite-size pieces with vinegar-seasoned rice",
+          "normal": "A dark seaweed sheet sometimes holds the pieces together",
+          "hard": "A thin slice of ginger can clear the palate between pieces"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-sashimi",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sashimi",
+        "aliases": [],
+        "hints": {
+          "easy": "Tunt skivad rå fisk serveras separat",
+          "normal": "Bitarna läggs ofta som en solfjäder",
+          "hard": "Knivens rena snitt syns i varje portion"
+        }
+      },
+      "en": {
+        "word": "Sashimi",
+        "aliases": [],
+        "hints": {
+          "easy": "Thinly sliced raw fish served on its own",
+          "normal": "The slices are often fanned out",
+          "hard": "The knife's clean cuts are on display"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pad-thai",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pad thai",
+        "aliases": [],
+        "hints": {
+          "easy": "Wokade risnudlar med tamarind",
+          "normal": "Krossade jordnötter strös gärna ovanpå",
+          "hard": "Limeklyftan pressas först vid bordet"
+        }
+      },
+      "en": {
+        "word": "Pad Thai",
+        "aliases": [],
+        "hints": {
+          "easy": "Stir-fried rice noodles with tamarind",
+          "normal": "Crushed peanuts are a common topping",
+          "hard": "The lime wedge is squeezed at the table"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-bibimbap",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bibimbap",
+        "aliases": [],
+        "hints": {
+          "easy": "Koreansk risskål med grönsaker i små grupper",
+          "normal": "Chilipasta och ägg kan blandas ner",
+          "hard": "En het stenskål kan göra botten knaprig"
+        }
+      },
+      "en": {
+        "word": "Bibimbap",
+        "aliases": [],
+        "hints": {
+          "easy": "Korean rice bowl with vegetables in little groups",
+          "normal": "Chili paste and egg can be stirred in",
+          "hard": "A hot stone bowl can crisp the bottom"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-fried-rice",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stekt ris",
+        "aliases": [],
+        "hints": {
+          "easy": "Kokta riskorn får ny smak i het panna",
+          "normal": "Små ärtor och ägg kan fördelas mellan kornen",
+          "hard": "Gårdagens torrare rester passar bra"
+        }
+      },
+      "en": {
+        "word": "Fried rice",
+        "aliases": [],
+        "hints": {
+          "easy": "Cooked grains of rice take on new flavor in a hot pan",
+          "normal": "Peas and bits of egg can be scattered through it",
+          "hard": "Yesterday's drier leftovers work well"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-fish-and-chips",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fish and chips",
+        "aliases": [],
+        "hints": {
+          "easy": "Frityrsmet runt fiskfilé med grova pommes till",
+          "normal": "I Storbritannien kan man hälla över vinäger",
+          "hard": "Serveringen för tankarna till papper och strandpromenader"
+        }
+      },
+      "en": {
+        "word": "Fish and chips",
+        "aliases": [],
+        "hints": {
+          "easy": "Battered fish fillet with thick-cut fries",
+          "normal": "In Britain you might add a splash of vinegar",
+          "hard": "The serving brings to mind paper wrapping and seaside promenades"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-fish-sticks",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fiskpinnar",
+        "aliases": [],
+        "hints": {
+          "easy": "Panerad fisk i avlånga små stycken",
+          "normal": "Ofta bakas flera likadana samtidigt från frysen",
+          "hard": "De prydliga salta stavarna får plats i en brödskiva"
+        }
+      },
+      "en": {
+        "word": "Fish sticks",
+        "aliases": [
+          "Fish fingers"
+        ],
+        "hints": {
+          "easy": "Breaded fish in small oblong pieces",
+          "normal": "Several identical pieces often go straight from freezer to oven",
+          "hard": "The neat savory bars can fit inside a sandwich"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-fish-soup",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fisksoppa",
+        "aliases": [],
+        "hints": {
+          "easy": "Fiskbitar i en skål varm buljong",
+          "normal": "En bit torsk eller lax får koka försiktigt",
+          "hard": "En klick aioli kan smälta ner i ytan"
+        }
+      },
+      "en": {
+        "word": "Fish soup",
+        "aliases": [],
+        "hints": {
+          "easy": "Pieces of fish in a bowl of hot broth",
+          "normal": "Cod or salmon can be gently simmered in it",
+          "hard": "A dollop of garlic mayonnaise can melt into the surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pea-soup",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ärtsoppa",
+        "aliases": [],
+        "hints": {
+          "easy": "Torkade ärter kokas till en tjock soppa",
+          "normal": "Senap passar särskilt bra till den gula sorten",
+          "hard": "I Sverige får nästa rätt på torsdagen gärna sylt"
+        }
+      },
+      "en": {
+        "word": "Pea soup",
+        "aliases": [],
+        "hints": {
+          "easy": "Dried peas simmered into a thick soup",
+          "normal": "Mustard goes particularly well with the yellow kind",
+          "hard": "In Sweden Thursday's next course may come with jam"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-minestrone",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Minestrone",
+        "aliases": [],
+        "hints": {
+          "easy": "Italiensk soppa med många grönsaker och bönor",
+          "normal": "Pasta kan koka direkt bland grönsakerna",
+          "hard": "Små rester från skafferiet kan bli basen"
+        }
+      },
+      "en": {
+        "word": "Minestrone",
+        "aliases": [],
+        "hints": {
+          "easy": "Italian soup with a variety of vegetables and beans",
+          "normal": "Pasta can cook right among the vegetables",
+          "hard": "Small pantry leftovers can form the base"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-gazpacho",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gazpacho",
+        "aliases": [],
+        "hints": {
+          "easy": "Kall spansk soppa ofta med mixad tomat",
+          "normal": "Gurka och paprika kan mixas ner",
+          "hard": "Serveras gärna en dag då ingen vill sätta på spisen"
+        }
+      },
+      "en": {
+        "word": "Gazpacho",
+        "aliases": [],
+        "hints": {
+          "easy": "Cold Spanish soup often made with blended tomatoes",
+          "normal": "Cucumber and bell pepper can be blended in",
+          "hard": "Welcome on a day when nobody wants to turn on the stove"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-borscht",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Borsjtj",
+        "aliases": [
+          "Rödbetssoppa"
+        ],
+        "hints": {
+          "easy": "Rödbetor färgar buljongen djupt röd",
+          "normal": "Vid servering blir gräddfilen ljusrosa",
+          "hard": "En skvätt syra gör rotfruktens söta smak friskare"
+        }
+      },
+      "en": {
+        "word": "Borscht",
+        "aliases": [
+          "Beetroot soup"
+        ],
+        "hints": {
+          "easy": "Beetroot dyes the broth deep red",
+          "normal": "Sour cream turns pale pink at the table",
+          "hard": "A splash of acid brightens the sweet root flavor"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-chili-con-carne",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Chili con carne",
+        "aliases": [],
+        "hints": {
+          "easy": "Kryddig tomatgryta med nötkött",
+          "normal": "I många versioner ligger bönor i såsen",
+          "hard": "En sked gräddfil kan mildra hettan"
+        }
+      },
+      "en": {
+        "word": "Chili con carne",
+        "aliases": [],
+        "hints": {
+          "easy": "Spicy tomato stew with beef",
+          "normal": "Many versions have beans in the sauce",
+          "hard": "A spoonful of sour cream can cool the heat"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-goulash",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gulasch",
+        "aliases": [],
+        "hints": {
+          "easy": "Ungersk gryträtt med mycket paprikakrydda",
+          "normal": "Tärnat nötkött får sjuda mört",
+          "hard": "Köttet kan lyftas ur en tegelröd buljong"
+        }
+      },
+      "en": {
+        "word": "Goulash",
+        "aliases": [],
+        "hints": {
+          "easy": "Hungarian stew or soup seasoned heavily with paprika",
+          "normal": "Diced beef simmers until tender",
+          "hard": "The meat can be lifted out of a brick-red broth"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-beef-bourguignon",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Boeuf bourguignon",
+        "aliases": [
+          "Bœuf bourguignon"
+        ],
+        "hints": {
+          "easy": "Fransk nötköttsgryta med rödvin",
+          "normal": "Pärllök och svamp kan samsas i såsen",
+          "hard": "En flaska från Bourgogne kan hamna i grytan"
+        }
+      },
+      "en": {
+        "word": "Beef bourguignon",
+        "aliases": [
+          "Boeuf bourguignon"
+        ],
+        "hints": {
+          "easy": "French beef stew made with red wine",
+          "normal": "Pearl onions and mushrooms can share the sauce",
+          "hard": "A bottle from Burgundy can end up in the pot"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-coq-au-vin",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Coq au vin",
+        "aliases": [],
+        "hints": {
+          "easy": "Fransk kycklingrätt som bräseras i vin",
+          "normal": "Champinjoner får suga upp den mörka såsen",
+          "hard": "En äldre tupp hade nytta av den långa koktiden"
+        }
+      },
+      "en": {
+        "word": "Coq au vin",
+        "aliases": [],
+        "hints": {
+          "easy": "French chicken dish braised in wine",
+          "normal": "Button mushrooms soak up the dark sauce",
+          "hard": "An older rooster benefited from the long cooking time"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-ratatouille",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ratatouille",
+        "aliases": [],
+        "hints": {
+          "easy": "Aubergine, zucchini och tomat i provensalsk gryta",
+          "normal": "Sommargrönsakerna får mjukna i olivolja",
+          "hard": "Kan ätas ljummen när det blivit rester"
+        }
+      },
+      "en": {
+        "word": "Ratatouille",
+        "aliases": [],
+        "hints": {
+          "easy": "A Provençal stew of aubergine, courgette and tomato",
+          "normal": "Summer vegetables soften in olive oil",
+          "hard": "The leftovers can be eaten lukewarm"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-butter-chicken",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Butter chicken",
+        "aliases": [
+          "Murgh makhani"
+        ],
+        "hints": {
+          "easy": "Kyckling i len indisk tomatsås",
+          "normal": "Grädde ger en mjuk orange färg",
+          "hard": "Mjukt naan kan användas för att fånga sista klickarna"
+        }
+      },
+      "en": {
+        "word": "Butter chicken",
+        "aliases": [
+          "Murgh makhani"
+        ],
+        "hints": {
+          "easy": "Chicken in a silky Indian tomato sauce",
+          "normal": "Cream gives it a soft orange color",
+          "hard": "Soft naan can pick up the last spoonfuls"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-chicken-tikka-masala",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kyckling tikka masala",
+        "aliases": [],
+        "hints": {
+          "easy": "Grillade kycklingbitar i kryddig tomatsås",
+          "normal": "Köttet kan marineras i yoghurt först",
+          "hard": "Såsen kan göra märkena från grillen svåra att se"
+        }
+      },
+      "en": {
+        "word": "Chicken tikka masala",
+        "aliases": [],
+        "hints": {
+          "easy": "Grilled chicken pieces in a spiced tomato sauce",
+          "normal": "The meat may first be marinated in yogurt",
+          "hard": "The sauce can hide the char marks"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-biryani",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Biryani",
+        "aliases": [],
+        "hints": {
+          "easy": "Kryddat basmatiris tillagas i lager med kött eller grönsaker",
+          "normal": "Stekt lök kan ligga överst",
+          "hard": "När locket lyfts kommer doften före serveringsskeden"
+        }
+      },
+      "en": {
+        "word": "Biryani",
+        "aliases": [],
+        "hints": {
+          "easy": "Spiced basmati cooked in layers with meat or vegetables",
+          "normal": "Fried onions can go on top",
+          "hard": "When the lid lifts, the fragrance arrives before the serving spoon"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-dal",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Dalgryta",
+        "aliases": [
+          "Daal"
+        ],
+        "hints": {
+          "easy": "Linser kokas till en mjuk indisk gryta",
+          "normal": "Kryddor i het olja kan hällas över sist",
+          "hard": "Om linserna faller isär blir skålen krämig"
+        }
+      },
+      "en": {
+        "word": "Dal",
+        "aliases": [
+          "Dahl",
+          "Daal"
+        ],
+        "hints": {
+          "easy": "Lentils cooked into a soft Indian stew",
+          "normal": "Spices bloomed in hot oil may be poured over it at the end",
+          "hard": "When the lentils break down the bowl becomes creamy"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-samosa",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Samosa",
+        "aliases": [],
+        "hints": {
+          "easy": "Frasiga trianglar med kryddad fyllning",
+          "normal": "Potatis och ärtor är vanliga inuti",
+          "hard": "Det vikta hörnet kan doppas i chutney"
+        }
+      },
+      "en": {
+        "word": "Samosa",
+        "aliases": [],
+        "hints": {
+          "easy": "Crisp triangular pockets with a spiced filling",
+          "normal": "Potatoes and peas are common inside",
+          "hard": "A folded corner can be dipped into chutney"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-spring-roll",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vårrulle",
+        "aliases": [],
+        "hints": {
+          "easy": "Krispigt omslag runt strimlade grönsaker",
+          "normal": "Den friterade sorten doppas gärna i sötsur sås",
+          "hard": "Ett tunt lager runt fyllningen räcker för ett tydligt knaster"
+        }
+      },
+      "en": {
+        "word": "Spring roll",
+        "aliases": [],
+        "hints": {
+          "easy": "Crisp wrapper around shredded vegetables",
+          "normal": "The fried kind is often dipped in sweet and sour sauce",
+          "hard": "A thin wrapper makes a distinct crackle"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-fried-egg",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Stekt ägg",
+        "aliases": [],
+        "hints": {
+          "easy": "Vit kant runt en rund gul mitt",
+          "normal": "Kan vändas en gång i pannan",
+          "hard": "En skiva rostat bröd kan fånga en rinnig gula"
+        }
+      },
+      "en": {
+        "word": "Fried egg",
+        "aliases": [],
+        "hints": {
+          "easy": "Set white edges around a round yellow center",
+          "normal": "It can be flipped once in the pan",
+          "hard": "A slice of toast can catch a runny yolk"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-scrambled-eggs",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Äggröra",
+        "aliases": [],
+        "hints": {
+          "easy": "Vispad frukostsats bildar mjuka gula klumpar",
+          "normal": "Spateln hålls i rörelse i pannan",
+          "hard": "Ta av från värmen innan det ser helt färdigt ut"
+        }
+      },
+      "en": {
+        "word": "Scrambled eggs",
+        "aliases": [],
+        "hints": {
+          "easy": "A whisked breakfast mixture forms soft yellow curds",
+          "normal": "A spatula keeps moving around the pan",
+          "hard": "Take it off the heat before it looks fully set"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-omelette",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Omelett",
+        "aliases": [
+          "Äggomelett"
+        ],
+        "hints": {
+          "easy": "Slagna ägg stelnar i pannan till ett mjukt flak",
+          "normal": "Den kan vikas runt svamp eller örter",
+          "hard": "Lägg fyllningen på ena halvan före vikningen"
+        }
+      },
+      "en": {
+        "word": "Omelette",
+        "aliases": [
+          "Omelet"
+        ],
+        "hints": {
+          "easy": "Beaten eggs set into a soft sheet in a pan",
+          "normal": "It may fold around mushrooms or herbs",
+          "hard": "The filling goes on one side before folding"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pancakes",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pannkakor",
+        "aliases": [],
+        "hints": {
+          "easy": "Rundlar av smet steks på båda sidor",
+          "normal": "Många mindre rundlar får plats på ett stekbord",
+          "hard": "En skicklig vändning kräver ingen stekspade"
+        }
+      },
+      "en": {
+        "word": "Pancakes",
+        "aliases": [],
+        "hints": {
+          "easy": "Round portions of batter cooked on both sides",
+          "normal": "Several small rounds can fit on a griddle",
+          "hard": "A practiced flip needs no spatula"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-waffles",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Våfflor",
+        "aliases": [],
+        "hints": {
+          "easy": "Gräddad smet med ett rutigt avtryck",
+          "normal": "Locket trycker mönster från två håll",
+          "hard": "Söt topping kan fastna i de små facken"
+        }
+      },
+      "en": {
+        "word": "Waffles",
+        "aliases": [],
+        "hints": {
+          "easy": "Cooked batter with a grid pattern",
+          "normal": "The lid presses the pattern from above and below",
+          "hard": "Sweet toppings can collect in the little pockets"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-raggmunk",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Raggmunk",
+        "aliases": [],
+        "hints": {
+          "easy": "Råriven knöl blandas ner i steksmet",
+          "normal": "Stekt fläsk och lingon är klassiska tillbehör",
+          "hard": "Strimlorna sticker ut i den frasiga kanten"
+        }
+      },
+      "en": {
+        "word": "Swedish potato pancake",
+        "aliases": [
+          "Raggmunk"
+        ],
+        "hints": {
+          "easy": "Grated raw potatoes mixed into a pan-fried batter",
+          "normal": "Fried pork and lingonberries are classic sides",
+          "hard": "Shreds stick out around the crispy edge"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-potato-dumplings",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kroppkakor",
+        "aliases": [],
+        "hints": {
+          "easy": "Potatisdeg omsluter tärnat fläsk",
+          "normal": "De fyllda bollarna får sjuda i vatten",
+          "hard": "Kryddpeppar göms i mitten"
+        }
+      },
+      "en": {
+        "word": "Swedish potato dumplings",
+        "aliases": [
+          "Kroppkakor"
+        ],
+        "hints": {
+          "easy": "Potato dough wrapped around diced pork",
+          "normal": "The stuffed rounds simmer in water",
+          "hard": "Allspice is hidden in the center"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-potato-and-meat-hash",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pyttipanna",
+        "aliases": [
+          "Pytt i panna"
+        ],
+        "hints": {
+          "easy": "Tärnad potatis, lök och kött steks tillsammans",
+          "normal": "Serveras ofta med en gul äggula och rödbetor",
+          "hard": "Det som blev över av steken kan få ny yta"
+        }
+      },
+      "en": {
+        "word": "Potato and meat hash",
+        "aliases": [
+          "Swedish hash",
+          "Pyttipanna"
+        ],
+        "hints": {
+          "easy": "Diced potatoes, onions and meat fried together",
+          "normal": "Often served with a bright yolk and beetroot",
+          "hard": "Leftover roast can get a new crust"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-stuffed-cabbage-rolls",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kåldolmar",
+        "aliases": [],
+        "hints": {
+          "easy": "Blad av vitkål viks runt en färsfyllning",
+          "normal": "De små paketen läggs med skarven nedåt",
+          "hard": "Huvudet skållas så att bladen går att böja"
+        }
+      },
+      "en": {
+        "word": "Stuffed cabbage rolls",
+        "aliases": [
+          "Cabbage rolls"
+        ],
+        "hints": {
+          "easy": "Cabbage leaves folded around a minced filling",
+          "normal": "The little bundles are laid seam-side down",
+          "hard": "The head is blanched to make the leaves bend"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-onion-soup",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Löksoppa",
+        "aliases": [],
+        "hints": {
+          "easy": "Tunna skivor av en grönsak får steka länge före buljongen",
+          "normal": "En brödskiva kan flyta under gratinerad ost",
+          "hard": "Doften blir söt när pannan blir brun"
+        }
+      },
+      "en": {
+        "word": "French onion soup",
+        "aliases": [
+          "Onion soup"
+        ],
+        "hints": {
+          "easy": "Thin slices of an allium are cooked slowly before the stock goes in",
+          "normal": "A slice of bread can float beneath the browned cheese",
+          "hard": "The smell turns sweet as the pan browns"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-potato-gratin",
+    "category": "food",
+    "subcategory": "food-dishes",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Potatisgratäng",
+        "aliases": [],
+        "hints": {
+          "easy": "Tunna skivor av en rotknöl gräddas i grädde",
+          "normal": "Skivorna ligger lite omlott i formen",
+          "hard": "Det bubblar länge längs kanterna"
+        }
+      },
+      "en": {
+        "word": "Potato gratin",
+        "aliases": [],
+        "hints": {
+          "easy": "Thin slices of a tuber baked in cream",
+          "normal": "The slices overlap in the dish",
+          "hard": "The edges keep bubbling for a while"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cinnamon-roll",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kanelbulle",
+        "aliases": [],
+        "hints": {
+          "easy": "Söt deg rullas till en doftande spiral",
+          "normal": "Fyllningen är brun av kryddor och socker",
+          "hard": "Den innersta snurran är ofta saftigast"
+        }
+      },
+      "en": {
+        "word": "Cinnamon roll",
+        "aliases": [
+          "Cinnamon bun"
+        ],
+        "hints": {
+          "easy": "Sweet dough rolled into a fragrant spiral",
+          "normal": "Spice and sugar give the filling a brown color",
+          "hard": "The innermost turn is often the softest"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-croissant",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Croissant",
+        "aliases": [],
+        "hints": {
+          "easy": "Frasigt franskt bakverk av lager på lager",
+          "normal": "Den klassiska formen liknar en halvmåne",
+          "hard": "Frukostfatet får en ring av bladiga smulor"
+        }
+      },
+      "en": {
+        "word": "Croissant",
+        "aliases": [],
+        "hints": {
+          "easy": "Flaky French pastry made up of many layers",
+          "normal": "The classic shape resembles a crescent",
+          "hard": "The breakfast plate gathers a ring of flaky crumbs"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pain-au-chocolat",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pain au chocolat",
+        "aliases": [
+          "Chokladcroissant"
+        ],
+        "hints": {
+          "easy": "Frasig frukostbakelse med mörka avlånga bitar inuti",
+          "normal": "Fyllningen ligger ofta i två parallella rader",
+          "hard": "De öppna kortändarna kan visa vad som finns i mitten"
+        }
+      },
+      "en": {
+        "word": "Pain au chocolat",
+        "aliases": [
+          "Chocolate croissant"
+        ],
+        "hints": {
+          "easy": "Flaky breakfast pastry with dark bars inside",
+          "normal": "The filling often runs in two parallel lines",
+          "hard": "The open ends can give away what's inside"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-baguette",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Baguette",
+        "aliases": [],
+        "hints": {
+          "easy": "Långt och smalt franskt bröd",
+          "normal": "Det spröda skalet har sneda snitt",
+          "hard": "En bit bröd kan sticka långt ut ur matkassen"
+        }
+      },
+      "en": {
+        "word": "Baguette",
+        "aliases": [],
+        "hints": {
+          "easy": "Long, slender French loaf",
+          "normal": "The crisp crust has diagonal cuts",
+          "hard": "The loaf can stick far out of a grocery bag"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-sourdough-bread",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Surdegsbröd",
+        "aliases": [],
+        "hints": {
+          "easy": "Bröd jäst med en levande kultur av mjöl och vatten",
+          "normal": "Smaken kan vara lätt syrlig",
+          "hard": "Sparad deg matas inför nästa bak"
+        }
+      },
+      "en": {
+        "word": "Sourdough bread",
+        "aliases": [],
+        "hints": {
+          "easy": "Loaf leavened with a live culture of flour and water",
+          "normal": "It can have a slight tang",
+          "hard": "Some starter is fed for the next bake"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-bagel",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bagel",
+        "aliases": [],
+        "hints": {
+          "easy": "Segt bröd med runt hål",
+          "normal": "Brödringen kokas kort före gräddning",
+          "hard": "En strykning färskost kan täcka snittytan"
+        }
+      },
+      "en": {
+        "word": "Bagel",
+        "aliases": [],
+        "hints": {
+          "easy": "Chewy bread with a hole in the middle",
+          "normal": "The ring is briefly boiled before baking",
+          "hard": "A swipe of cream cheese can cover the cut surface"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-soft-pretzel",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mjuk kringla",
+        "aliases": [],
+        "hints": {
+          "easy": "Knuten brödform med saltkorn",
+          "normal": "Degen doppas i ett alkaliskt bad före gräddning",
+          "hard": "Tre öppningar syns mellan ändarna"
+        }
+      },
+      "en": {
+        "word": "Soft pretzel",
+        "aliases": [],
+        "hints": {
+          "easy": "A knotted bread shape with grains of salt",
+          "normal": "The dough gets an alkaline bath before baking",
+          "hard": "There are three gaps between the twists"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-scone",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Scones",
+        "aliases": [],
+        "hints": {
+          "easy": "Snabbakat bröd med bakpulver",
+          "normal": "Det kan delas medan det fortfarande är varmt",
+          "hard": "Sylt samlas i de ojämna ytorna när det bryts isär"
+        }
+      },
+      "en": {
+        "word": "Scone",
+        "aliases": [
+          "Scones"
+        ],
+        "hints": {
+          "easy": "Quick-baked bread leavened with baking powder",
+          "normal": "It can be split while still warm",
+          "hard": "Jam collects on the rough surfaces where it breaks apart"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-muffin",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Muffins",
+        "aliases": [],
+        "hints": {
+          "easy": "En liten mjuk kaka bakad i pappersform",
+          "normal": "Blåbär kan färga smulan lila",
+          "hard": "Den välvda toppen gräddas ovanför formens kant"
+        }
+      },
+      "en": {
+        "word": "Muffin",
+        "aliases": [
+          "Muffins"
+        ],
+        "hints": {
+          "easy": "A small soft cake baked in a paper case",
+          "normal": "Blueberries can dye the crumb purple",
+          "hard": "The domed top bakes above the edge of the case"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cupcake",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cupcake",
+        "aliases": [
+          "Cupcakes"
+        ],
+        "hints": {
+          "easy": "Liten portionskaka med spritsad glasyr",
+          "normal": "Pappersformen skalas av före första tuggan",
+          "hard": "Det söta tornet kan lämna ett märke på näsan"
+        }
+      },
+      "en": {
+        "word": "Cupcake",
+        "aliases": [
+          "Cupcakes"
+        ],
+        "hints": {
+          "easy": "A small individual cake with piped frosting",
+          "normal": "Peel away the paper case before the first bite",
+          "hard": "The sweet tower can leave a mark on your nose"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-gingerbread-cookie",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pepparkaka",
+        "aliases": [
+          "Pepparkakor"
+        ],
+        "hints": {
+          "easy": "Tunn kryddig kaka som stansas ur kavlad deg",
+          "normal": "Hjärtan eller figurer kan ha glasyrstreck",
+          "hard": "I juletid kan degen bli väggar och tak"
+        }
+      },
+      "en": {
+        "word": "Gingerbread cookie",
+        "aliases": [
+          "Gingerbread cookies"
+        ],
+        "hints": {
+          "easy": "Thin spiced cookie cut from rolled dough",
+          "normal": "Hearts or figures can have lines of icing",
+          "hard": "At Christmas the dough can become walls and a roof"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-shortbread",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Skotsk mördegskaka",
+        "aliases": [
+          "Shortbread"
+        ],
+        "hints": {
+          "easy": "Skotsk kaka med mycket smör",
+          "normal": "Smulas lätt även om den ser kompakt ut",
+          "hard": "En gaffel kan märka ovansidan i jämna rader"
+        }
+      },
+      "en": {
+        "word": "Shortbread",
+        "aliases": [],
+        "hints": {
+          "easy": "Buttery Scottish biscuit",
+          "normal": "It crumbles easily despite looking solid",
+          "hard": "A fork can mark the top in neat rows"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-chocolate-chip-cookie",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Småkaka med chokladbitar",
+        "aliases": [
+          "Chocolate chip cookie"
+        ],
+        "hints": {
+          "easy": "Rund småkaka med mörka bitar från en kakaoblandning",
+          "normal": "Spröd kant men gärna mjuk mitt",
+          "hard": "De mörka prickarna kan smeta när kakan är varm"
+        }
+      },
+      "en": {
+        "word": "Chocolate chip cookie",
+        "aliases": [
+          "Chocolate chip cookies"
+        ],
+        "hints": {
+          "easy": "Round cookie studded with pieces of sweetened cocoa",
+          "normal": "Crisp at the edge with a softer middle",
+          "hard": "The dark spots can smudge while warm"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-brownie",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brownie",
+        "aliases": [],
+        "hints": {
+          "easy": "Mörk chokladkaka som delas i kvadrater",
+          "normal": "Mitten brukar vara tät och lätt kladdig",
+          "hard": "Ytan kan spricka som tunn is"
+        }
+      },
+      "en": {
+        "word": "Brownie",
+        "aliases": [],
+        "hints": {
+          "easy": "Dark chocolate bake cut into squares",
+          "normal": "The middle is usually dense and slightly gooey",
+          "hard": "The surface can crack like thin ice"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-challah",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Challah",
+        "aliases": [
+          "Challebröd"
+        ],
+        "hints": {
+          "easy": "Flätat jästbröd till judiska högtider",
+          "normal": "Ägg kan ge inkråmet en gyllene ton",
+          "hard": "De korsade längderna lyser efter pensling"
+        }
+      },
+      "en": {
+        "word": "Challah",
+        "aliases": [],
+        "hints": {
+          "easy": "Braided yeast bread for Jewish holidays",
+          "normal": "Egg can give the crumb a golden color",
+          "hard": "The overlapping strands shine after glazing"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-focaccia",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Focaccia",
+        "aliases": [],
+        "hints": {
+          "easy": "Platt italienskt bröd med olivolja",
+          "normal": "Fingrarna trycker gropar i ytan före ugnen",
+          "hard": "Rosmarin kan fastna i de små oljepölarna"
+        }
+      },
+      "en": {
+        "word": "Focaccia",
+        "aliases": [],
+        "hints": {
+          "easy": "Flat Italian bread made with olive oil",
+          "normal": "Fingers press dimples in the top before baking",
+          "hard": "Rosemary can catch in the small pools of oil"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-naan",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Naan",
+        "aliases": [
+          "Naanbröd"
+        ],
+        "hints": {
+          "easy": "Mjukt sydasiatiskt tunnbröd med mörka blåsor",
+          "normal": "Degen bakas traditionellt mot en het ugnsvägg",
+          "hard": "En riven kant kan fånga kryddig sås"
+        }
+      },
+      "en": {
+        "word": "Naan",
+        "aliases": [
+          "Naan bread"
+        ],
+        "hints": {
+          "easy": "Soft South Asian flatbread with dark blisters",
+          "normal": "The dough traditionally bakes against a hot oven wall",
+          "hard": "A torn edge can scoop up spiced sauce"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pita",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pitabröd",
+        "aliases": [
+          "Pita"
+        ],
+        "hints": {
+          "easy": "Runt tunnbröd som kan bilda en ficka",
+          "normal": "Ångan skiljer lagren åt i ugnen",
+          "hard": "Ett snitt vid kanten öppnar brödet inifrån"
+        }
+      },
+      "en": {
+        "word": "Pita",
+        "aliases": [
+          "Pita bread"
+        ],
+        "hints": {
+          "easy": "Round flatbread that can form a pocket",
+          "normal": "Steam separates the layers in the oven",
+          "hard": "A cut at the edge opens up the inside"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-ciabatta",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ciabatta",
+        "aliases": [],
+        "hints": {
+          "easy": "Italiensk limpa med stora lufthål",
+          "normal": "Våt deg ger ett ojämnt inkråm",
+          "hard": "Den breda låga formen påminner om en toffel"
+        }
+      },
+      "en": {
+        "word": "Ciabatta",
+        "aliases": [],
+        "hints": {
+          "easy": "Italian loaf with large air pockets",
+          "normal": "A wet dough makes an uneven crumb",
+          "hard": "The wide, low shape resembles a slipper"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-semolina-cake",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Basbousa",
+        "aliases": [],
+        "hints": {
+          "easy": "Grynig kaka som dränks med sockerlag",
+          "normal": "Mandel kan tryckas i mitten av varje bit",
+          "hard": "Rutmönstret kan skäras i smeten redan före ugnen"
+        }
+      },
+      "en": {
+        "word": "Basbousa",
+        "aliases": [],
+        "hints": {
+          "easy": "Semolina cake soaked in syrup",
+          "normal": "An almond can be pressed into the middle of each piece",
+          "hard": "The grid can be scored in the batter before baking"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-apple-pie",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Äppelpaj",
+        "aliases": [],
+        "hints": {
+          "easy": "Fruktbitar mjuknar under ett täcke av deg",
+          "normal": "Kanel kan dofta genom springor i locket",
+          "hard": "Efter en stund på galler håller fyllningen bättre ihop"
+        }
+      },
+      "en": {
+        "word": "Apple pie",
+        "aliases": [],
+        "hints": {
+          "easy": "Fruit slices soften under a pastry topping",
+          "normal": "A scent of spice can escape through vents in the crust",
+          "hard": "The filling holds together better after a spell on a cooling rack"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-key-lime-pie",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Key lime-paj",
+        "aliases": [
+          "Key lime pie"
+        ],
+        "hints": {
+          "easy": "Syrlig och söt citrusfyllning på smulig botten",
+          "normal": "Kondenserad mjölk ger krämen kropp",
+          "hard": "Fyllningen brukar vara ljusgul med en dragning åt grönt"
+        }
+      },
+      "en": {
+        "word": "Key lime pie",
+        "aliases": [],
+        "hints": {
+          "easy": "Tart and sweet citrus filling on a crumb crust",
+          "normal": "Condensed milk gives the filling body",
+          "hard": "The filling is usually pale yellow with a hint of green"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-tiramisu",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tiramisu",
+        "aliases": [],
+        "hints": {
+          "easy": "Kaffedoppade kakor mellan lager av len kräm",
+          "normal": "Kakao siktas över före servering",
+          "hard": "Portionsskeden visar mörka och ljusa band"
+        }
+      },
+      "en": {
+        "word": "Tiramisu",
+        "aliases": [],
+        "hints": {
+          "easy": "Coffee-soaked biscuits layered with soft cream",
+          "normal": "Cocoa is sifted over it before serving",
+          "hard": "A serving spoon reveals dark and pale bands"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-creme-brulee",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Crème brûlée",
+        "aliases": [
+          "Creme brulee"
+        ],
+        "hints": {
+          "easy": "Vaniljkräm under ett hårt skikt smält socker",
+          "normal": "En liten brännare ger ytan färg",
+          "hard": "Skeden får börja med ett lätt slag"
+        }
+      },
+      "en": {
+        "word": "Crème brûlée",
+        "aliases": [
+          "Creme brulee"
+        ],
+        "hints": {
+          "easy": "Vanilla custard under a hard crust of melted sugar",
+          "normal": "A small torch colors the surface",
+          "hard": "The spoon starts with a light tap"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-panna-cotta",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pannacotta",
+        "aliases": [
+          "Panna cotta"
+        ],
+        "hints": {
+          "easy": "Söt grädde får stelna till en mjuk pudding",
+          "normal": "Formen kan vändas upp och ner på tallriken",
+          "hard": "En lagom fast portion darrar om fatet skakas"
+        }
+      },
+      "en": {
+        "word": "Panna cotta",
+        "aliases": [],
+        "hints": {
+          "easy": "Sweetened cream set into a soft pudding",
+          "normal": "The mold can be turned upside down onto a plate",
+          "hard": "A properly set portion wobbles when the plate is shaken"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-creme-caramel",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Crème caramel",
+        "aliases": [
+          "Karamellpudding"
+        ],
+        "hints": {
+          "easy": "Len äggstanning med ett lager av kokt socker",
+          "normal": "Bakformen ställs i vattenbad i ugnen",
+          "hard": "När portionen stjälps upp rinner blank sås nerför kanterna"
+        }
+      },
+      "en": {
+        "word": "Crème caramel",
+        "aliases": [
+          "Creme caramel",
+          "Caramel custard"
+        ],
+        "hints": {
+          "easy": "Smooth baked egg custard with a layer of cooked sugar",
+          "normal": "The mold sits in a water bath in the oven",
+          "hard": "When turned out, glossy syrup runs down the sides"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cheesecake",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cheesecake",
+        "aliases": [
+          "Färskostkaka"
+        ],
+        "hints": {
+          "easy": "Syrligt len fyllning på botten av kaksmulor",
+          "normal": "Färska bär passar på den släta ytan",
+          "hard": "En varm kniv kan ge snygga snitt"
+        }
+      },
+      "en": {
+        "word": "Cheesecake",
+        "aliases": [],
+        "hints": {
+          "easy": "A smooth, tangy filling on a cookie-crumb base",
+          "normal": "Fresh berries go well on the smooth top",
+          "hard": "A warm knife can give clean slices"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-chocolate-mousse",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Chokladmousse",
+        "aliases": [],
+        "hints": {
+          "easy": "Luftig mörk efterrätt som ofta serveras i glas",
+          "normal": "Smält kakaoblandning vänds ihop med skum",
+          "hard": "Den ska hålla ett mjukt spår efter skeden"
+        }
+      },
+      "en": {
+        "word": "Chocolate mousse",
+        "aliases": [],
+        "hints": {
+          "easy": "Airy dark dessert often served in a glass",
+          "normal": "A melted cocoa mixture is folded into foam",
+          "hard": "The spoon should leave a soft trail"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-rice-pudding",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Risgrynspudding",
+        "aliases": [
+          "Rispudding"
+        ],
+        "hints": {
+          "easy": "Kokta små gryn i en söt mjölkbas",
+          "normal": "Kanel kan strös över den varma portionen",
+          "hard": "Stärkelsen gör efterrätten fyllig utan mjöl"
+        }
+      },
+      "en": {
+        "word": "Rice pudding",
+        "aliases": [],
+        "hints": {
+          "easy": "Small grains simmered in sweetened milk",
+          "normal": "A little cinnamon can go over a warm portion",
+          "hard": "Starch gives the dessert body without flour"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-banana-split",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Banana split",
+        "aliases": [],
+        "hints": {
+          "easy": "Glasskulor serveras mellan två frukthalvor",
+          "normal": "Varje kula kan få sin egen sås",
+          "hard": "Det avlånga fatet liknar en båt"
+        }
+      },
+      "en": {
+        "word": "Banana split",
+        "aliases": [],
+        "hints": {
+          "easy": "Scoops of ice cream served between two fruit halves",
+          "normal": "Each scoop can get a different drizzle of sauce",
+          "hard": "The long dish looks like a boat"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-sorbet",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sorbet",
+        "aliases": [],
+        "hints": {
+          "easy": "Fryst puré eller juice med socker",
+          "normal": "Citronsorten kan serveras mellan två rätter",
+          "hard": "När en sked smälter på tungan känns smaken klar och frisk"
+        }
+      },
+      "en": {
+        "word": "Sorbet",
+        "aliases": [],
+        "hints": {
+          "easy": "Frozen fruit purée or juice with sugar",
+          "normal": "A lemon version can be served between courses",
+          "hard": "A melting spoonful tastes clean and bright"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-fruit-salad",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fruktsallad",
+        "aliases": [],
+        "hints": {
+          "easy": "Flera sorters färsk söt råvara skärs i munsbitar",
+          "normal": "Pressad citrus kan hindra äppelbitar från att mörkna",
+          "hard": "Den sista skeden i skålen kan mest bestå av saft"
+        }
+      },
+      "en": {
+        "word": "Fruit salad",
+        "aliases": [],
+        "hints": {
+          "easy": "Several kinds of fresh sweet produce are cut into bites",
+          "normal": "A squeeze of citrus can keep apple pieces from browning",
+          "hard": "The last spoonful in the bowl may be mostly juice"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-trifle",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Trifle",
+        "aliases": [],
+        "hints": {
+          "easy": "Engelsk efterrätt med kaka, frukt och vaniljkräm i lager",
+          "normal": "En genomskinlig skål visar ränderna",
+          "hard": "Den mjuka botten kan ha sugit upp en skvätt sherry"
+        }
+      },
+      "en": {
+        "word": "Trifle",
+        "aliases": [],
+        "hints": {
+          "easy": "English dessert with layers of sponge, fruit and custard",
+          "normal": "A clear bowl shows off the stripes",
+          "hard": "The soft base may have soaked up a splash of sherry"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-profiteroles",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Profiteroler",
+        "aliases": [
+          "Profiteroles"
+        ],
+        "hints": {
+          "easy": "Små ihåliga bakverk fyllda med kräm eller glass",
+          "normal": "Varm chokladsås kan hällas över vid servering",
+          "hard": "I ugnen blåser ångan upp ett tomrum"
+        }
+      },
+      "en": {
+        "word": "Profiteroles",
+        "aliases": [],
+        "hints": {
+          "easy": "Small hollow pastries filled with cream or ice cream",
+          "normal": "Warm chocolate sauce can go over them at the table",
+          "hard": "Steam creates an empty center in the oven"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pavlova",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pavlova",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor rund maräng med grädde och frukt",
+          "normal": "Skalet knäcks medan mitten är mjuk",
+          "hard": "Namnet kommer från en balettdansös"
+        }
+      },
+      "en": {
+        "word": "Pavlova",
+        "aliases": [],
+        "hints": {
+          "easy": "Large round meringue with cream and fruit",
+          "normal": "The shell shatters while the center stays soft",
+          "hard": "It takes its name from a ballet dancer"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-sticky-toffee-pudding",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sticky toffee pudding",
+        "aliases": [
+          "Brittisk dadelkaka"
+        ],
+        "hints": {
+          "easy": "Varm brittisk kaka med dadlar och kolasås",
+          "normal": "Såsen får gärna sjunka ner i det mörka inkråmet",
+          "hard": "Den lena såsen blir tjockare när den svalnar"
+        }
+      },
+      "en": {
+        "word": "Sticky toffee pudding",
+        "aliases": [],
+        "hints": {
+          "easy": "Warm British sponge made with dates and a caramel sauce",
+          "normal": "The sauce can seep into the dark crumb",
+          "hard": "The smooth sauce thickens as it cools"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-chocolate-lava-cake",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Chokladfondant",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten bakad efterrätt med rinnande kakaofyllning",
+          "normal": "Den fasta kanten stjälps upp ur en portionsform",
+          "hard": "Första skedtaget gör en pöl på tallriken"
+        }
+      },
+      "en": {
+        "word": "Chocolate lava cake",
+        "aliases": [
+          "Chocolate fondant",
+          "Molten chocolate cake"
+        ],
+        "hints": {
+          "easy": "Small baked dessert with a flowing cocoa center",
+          "normal": "The firm shell turns out of an individual mold",
+          "hard": "The first spoonful leaves a puddle on the plate"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-baklava",
+    "category": "food",
+    "subcategory": "food-desserts",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Baklava",
+        "aliases": [],
+        "hints": {
+          "easy": "Många frasiga degblad runt finhackade nötter",
+          "normal": "Sockerlag tränger ner genom de skurna bitarna",
+          "hard": "Klibbiga romber kan ha gröna smulor överst"
+        }
+      },
+      "en": {
+        "word": "Baklava",
+        "aliases": [],
+        "hints": {
+          "easy": "Many flaky pastry sheets around finely chopped nuts",
+          "normal": "Syrup seeps down through the cut pieces",
+          "hard": "Sticky diamonds can have green crumbs on top"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-apple",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Äpple",
+        "aliases": [],
+        "hints": {
+          "easy": "Frukt med kärnhus",
+          "normal": "Kanel i smulpaj",
+          "hard": "Bilens doftträd"
+        }
+      },
+      "en": {
+        "word": "Apple",
+        "aliases": [],
+        "hints": {
+          "easy": "Fruit with a seedy core",
+          "normal": "Cinnamon crumble",
+          "hard": "Bobbing at Halloween"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pear",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Päron",
+        "aliases": [],
+        "hints": {
+          "easy": "Bred bas och smal hals",
+          "normal": "Saftigt på ostbrickan",
+          "hard": "Inkokt i rödvin"
+        }
+      },
+      "en": {
+        "word": "Pear",
+        "aliases": [],
+        "hints": {
+          "easy": "Wide base and narrow neck",
+          "normal": "Juicy on a cheeseboard",
+          "hard": "Poached in red wine"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-banana",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Banan",
+        "aliases": [],
+        "hints": {
+          "easy": "Böjd frukt med gult skal",
+          "normal": "Mörka prickar när den mognar",
+          "hard": "Mos ger saftig kaka"
+        }
+      },
+      "en": {
+        "word": "Banana",
+        "aliases": [],
+        "hints": {
+          "easy": "Curved fruit with yellow peel",
+          "normal": "Dark speckles as it ripens",
+          "hard": "Mashed into quick bread"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-orange",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Apelsin",
+        "aliases": [],
+        "hints": {
+          "easy": "Rund citrus med tjockt skal",
+          "normal": "Pressas till frukost",
+          "hard": "Rivet skal i julbaket"
+        }
+      },
+      "en": {
+        "word": "Orange",
+        "aliases": [],
+        "hints": {
+          "easy": "Round citrus with thick peel",
+          "normal": "Squeezed at breakfast",
+          "hard": "Zest in a holiday cake"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-mandarin",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mandarin",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten lättskalad citrus",
+          "normal": "Klyftor i matsäcken",
+          "hard": "Skalet lossnar ofta i ett stycke"
+        }
+      },
+      "en": {
+        "word": "Mandarin",
+        "aliases": [
+          "Mandarin orange"
+        ],
+        "hints": {
+          "easy": "Small, easy-peel citrus",
+          "normal": "Segments in a lunch bag",
+          "hard": "The peel often comes off whole"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-lemon",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Citron",
+        "aliases": [],
+        "hints": {
+          "easy": "Gul och syrlig citrus",
+          "normal": "Kan pressas på stekt fisk",
+          "hard": "Skalspiral i glaset"
+        }
+      },
+      "en": {
+        "word": "Lemon",
+        "aliases": [],
+        "hints": {
+          "easy": "Yellow, tart citrus",
+          "normal": "Squeezed over fried fish",
+          "hard": "A twist of peel in a glass"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-lime",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lime",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten grön citrusfrukt",
+          "normal": "Pressas i guacamole",
+          "hard": "Syra till koriander och chili"
+        }
+      },
+      "en": {
+        "word": "Lime",
+        "aliases": [],
+        "hints": {
+          "easy": "Small green citrus fruit",
+          "normal": "Squeezed into guacamole",
+          "hard": "Acidity beside cilantro and chili"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pineapple",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ananas",
+        "aliases": [],
+        "hints": {
+          "easy": "Taggigt skal och grön krona",
+          "normal": "Gula ringar på burk",
+          "hard": "Omstridd pizzatopping"
+        }
+      },
+      "en": {
+        "word": "Pineapple",
+        "aliases": [],
+        "hints": {
+          "easy": "Spiky skin and leafy crown",
+          "normal": "Yellow rings from a tin",
+          "hard": "A divisive pizza topping"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-mango",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mango",
+        "aliases": [],
+        "hints": {
+          "easy": "Gult fruktkött runt en platt kärna",
+          "normal": "Kuber i en salsa",
+          "hard": "Kan tärnas direkt i skalet"
+        }
+      },
+      "en": {
+        "word": "Mango",
+        "aliases": [],
+        "hints": {
+          "easy": "Golden flesh around a flat pit",
+          "normal": "Diced into salsa",
+          "hard": "Scored into cubes inside its skin"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-peach",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Persika",
+        "aliases": [],
+        "hints": {
+          "easy": "Stenfrukt med luddigt skal",
+          "normal": "Vaniljglass i en Melba",
+          "hard": "Puré och mousserande vin i en Bellini"
+        }
+      },
+      "en": {
+        "word": "Peach",
+        "aliases": [],
+        "hints": {
+          "easy": "Stone fruit with fuzzy skin",
+          "normal": "Vanilla ice cream in a Melba",
+          "hard": "Purée with sparkling wine in a Bellini"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-nectarine",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Nektarin",
+        "aliases": [],
+        "hints": {
+          "easy": "Slät stenfrukt med röd kind",
+          "normal": "Fast klyfta på grillen",
+          "hard": "Ofta krispig före full mognad"
+        }
+      },
+      "en": {
+        "word": "Nectarine",
+        "aliases": [],
+        "hints": {
+          "easy": "Smooth stone fruit with a red blush",
+          "normal": "Firm wedges for grilling",
+          "hard": "Often crisp before fully ripe"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-plum",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Plommon",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten syrlig stenfrukt",
+          "normal": "Mörklila skal med matt hinna",
+          "hard": "Torkad i en kompott"
+        }
+      },
+      "en": {
+        "word": "Plum",
+        "aliases": [],
+        "hints": {
+          "easy": "Small, tart stone fruit",
+          "normal": "Dusky bloom on purple skin",
+          "hard": "Dried for a compote"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cherry",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Körsbär",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten blank frukt med hård kärna",
+          "normal": "Säljs ofta med de långa skaften kvar",
+          "hard": "Klassisk glasskupsgarnering"
+        }
+      },
+      "en": {
+        "word": "Cherry",
+        "aliases": [],
+        "hints": {
+          "easy": "Small glossy stone fruit",
+          "normal": "Often sold with the long stems attached",
+          "hard": "A classic sundae garnish"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-grape",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vindruva",
+        "aliases": [],
+        "hints": {
+          "easy": "Små frukter i täta klasar",
+          "normal": "Delas i halvor till fruktsallad",
+          "hard": "Råvara till russin"
+        }
+      },
+      "en": {
+        "word": "Grape",
+        "aliases": [],
+        "hints": {
+          "easy": "Small fruits in tight bunches",
+          "normal": "Halved for fruit salad",
+          "hard": "A raisin in its former life"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-watermelon",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vattenmelon",
+        "aliases": [],
+        "hints": {
+          "easy": "Rött saftigt inre under grön randning",
+          "normal": "Stora klyftor som droppar på picknick",
+          "hard": "Fruktköttet passar med feta"
+        }
+      },
+      "en": {
+        "word": "Watermelon",
+        "aliases": [],
+        "hints": {
+          "easy": "Juicy red flesh under green stripes",
+          "normal": "Big wedges that drip at a picnic",
+          "hard": "Pairs well with feta"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cantaloupe",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cantaloupemelon",
+        "aliases": [],
+        "hints": {
+          "easy": "Orange fruktkött under nätmönstrat skal",
+          "normal": "Klyftor kan lindas i lufttorkad skinka",
+          "hard": "Kärnorna ligger samlade i ett hålrum"
+        }
+      },
+      "en": {
+        "word": "Cantaloupe",
+        "aliases": [],
+        "hints": {
+          "easy": "Orange flesh beneath netted rind",
+          "normal": "Wedges wrapped in cured ham",
+          "hard": "Seeds gathered in a central hollow"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pomegranate",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Granatäpple",
+        "aliases": [],
+        "hints": {
+          "easy": "Hårt skal runt rubinröda kärnor",
+          "normal": "Strös över en sallad",
+          "hard": "Bryts isär längs bleka hinnor"
+        }
+      },
+      "en": {
+        "word": "Pomegranate",
+        "aliases": [],
+        "hints": {
+          "easy": "Hard rind around ruby seeds",
+          "normal": "Scattered over a salad",
+          "hard": "Splits along pale membranes"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-passion-fruit",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Passionsfrukt",
+        "aliases": [],
+        "hints": {
+          "easy": "Skrynkligt skal runt geléiga kärnor",
+          "normal": "Syrligt över cheesecake",
+          "hard": "Äts enklast med en tesked"
+        }
+      },
+      "en": {
+        "word": "Passion fruit",
+        "aliases": [],
+        "hints": {
+          "easy": "Wrinkled shell with jelly-coated seeds",
+          "normal": "A tart topping for cheesecake",
+          "hard": "Best scooped with a teaspoon"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-kiwi",
+    "category": "food",
+    "subcategory": "food-fruit",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kiwi",
+        "aliases": [
+          "Kiwifrukt"
+        ],
+        "hints": {
+          "easy": "Hårigt skal runt lysgrönt fruktkött",
+          "normal": "Svarta frön i en krans",
+          "hard": "Kan gröpas ur som ett kokt ägg"
+        }
+      },
+      "en": {
+        "word": "Kiwi fruit",
+        "aliases": [
+          "Kiwi"
+        ],
+        "hints": {
+          "easy": "Fuzzy skin over bright green flesh",
+          "normal": "A ring of tiny black seeds",
+          "hard": "Can be scooped like a boiled egg"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-carrot",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Morot",
+        "aliases": [],
+        "hints": {
+          "easy": "Orange rot som knastrar",
+          "normal": "Kokta slantar till middagen",
+          "hard": "Sötma i en riven kaka"
+        }
+      },
+      "en": {
+        "word": "Carrot",
+        "aliases": [],
+        "hints": {
+          "easy": "Crunchy orange root",
+          "normal": "Boiled coins with dinner",
+          "hard": "Sweetness grated into a cake"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-parsnip",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Palsternacka",
+        "aliases": [],
+        "hints": {
+          "easy": "Avsmalnande gräddvit rot",
+          "normal": "Söt efter rostning",
+          "hard": "Ger puré en jordig ton"
+        }
+      },
+      "en": {
+        "word": "Parsnip",
+        "aliases": [],
+        "hints": {
+          "easy": "Tapered cream-colored root",
+          "normal": "Sweet after roasting",
+          "hard": "Adds an earthy note to mash"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-potato",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Potatis",
+        "aliases": [],
+        "hints": {
+          "easy": "Knöl som kan få groddar i skafferiet",
+          "normal": "Pressas till fluffiga smulor",
+          "hard": "Tillbehör till sill"
+        }
+      },
+      "en": {
+        "word": "Potato",
+        "aliases": [],
+        "hints": {
+          "easy": "A pantry tuber that can sprout",
+          "normal": "Riced into fluffy crumbs",
+          "hard": "The usual base for gnocchi"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-sweet-potato",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sötpotatis",
+        "aliases": [],
+        "hints": {
+          "easy": "Ofta orange inuti med kopparfärgat skal",
+          "normal": "Klyftor blir mjuka i ugnen",
+          "hard": "En vanlig fyllning i amerikansk paj"
+        }
+      },
+      "en": {
+        "word": "Sweet potato",
+        "aliases": [],
+        "hints": {
+          "easy": "Often orange flesh beneath copper skin",
+          "normal": "Wedges soften in the oven",
+          "hard": "A classic American pie filling"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-yellow-onion",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gul lök",
+        "aliases": [],
+        "hints": {
+          "easy": "Torra gyllene skal och vita lager",
+          "normal": "Kan reta ögonen på skärbrädan",
+          "hard": "Blir söt vid långsam stekning"
+        }
+      },
+      "en": {
+        "word": "Yellow onion",
+        "aliases": [],
+        "hints": {
+          "easy": "Golden papery skin and white layers",
+          "normal": "Can make your eyes tear on the board",
+          "hard": "Turns sweet in a slow sauté"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-red-onion",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rödlök",
+        "aliases": [],
+        "hints": {
+          "easy": "Lila snittyta med ringar",
+          "normal": "Råa skivor i grekisk sallad",
+          "hard": "Blir rosa i ättikslag"
+        }
+      },
+      "en": {
+        "word": "Red onion",
+        "aliases": [],
+        "hints": {
+          "easy": "Purple rings on the cut surface",
+          "normal": "Raw slices in Greek salad",
+          "hard": "Turns pink in pickling brine"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-leek",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Purjolök",
+        "aliases": [],
+        "hints": {
+          "easy": "Lång grön stjälk runt en vit bas",
+          "normal": "Jord gömmer sig mellan bladen",
+          "hard": "Ger mild smak åt en ljus soppa"
+        }
+      },
+      "en": {
+        "word": "Leek",
+        "aliases": [],
+        "hints": {
+          "easy": "Long green stalk with a white base",
+          "normal": "Grit hides between its layers",
+          "hard": "Mild flavor in a pale soup"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-garlic",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vitlök",
+        "aliases": [],
+        "hints": {
+          "easy": "Huvud uppdelat i små klyftor",
+          "normal": "Doften fastnar på fingrarna",
+          "hard": "Rostas hel tills innehållet går att breda"
+        }
+      },
+      "en": {
+        "word": "Garlic",
+        "aliases": [],
+        "hints": {
+          "easy": "A bulb split into small cloves",
+          "normal": "Its smell clings to your fingers",
+          "hard": "Roasted whole until spreadable"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cucumber",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gurka",
+        "aliases": [],
+        "hints": {
+          "easy": "Avlångt grönt skal runt ett saftigt inre",
+          "normal": "Rivs och kramas ur till tzatziki",
+          "hard": "Skivor på ögonlocken"
+        }
+      },
+      "en": {
+        "word": "Cucumber",
+        "aliases": [],
+        "hints": {
+          "easy": "Long green skin over juicy flesh",
+          "normal": "Grated and drained for tzatziki",
+          "hard": "Slices over the eyelids"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-zucchini",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Zucchini",
+        "aliases": [],
+        "hints": {
+          "easy": "Avlång grönsak med mjuka frön",
+          "normal": "Halvor kan gröpas ur och gratineras",
+          "hard": "Tunna band ersätter ibland pasta"
+        }
+      },
+      "en": {
+        "word": "Zucchini",
+        "aliases": [
+          "Courgette"
+        ],
+        "hints": {
+          "easy": "Long vegetable with soft seeds",
+          "normal": "Hollowed halves baked with cheese",
+          "hard": "Spiral ribbons sometimes replace pasta"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-tomato",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tomat",
+        "aliases": [],
+        "hints": {
+          "easy": "Ofta röd med saftiga fröfickor",
+          "normal": "Skivor med mozzarella",
+          "hard": "Skalet lossnar efter skållning"
+        }
+      },
+      "en": {
+        "word": "Tomato",
+        "aliases": [],
+        "hints": {
+          "easy": "Often red with juicy seed pockets",
+          "normal": "Sliced with mozzarella",
+          "hard": "The skin loosens after blanching"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-eggplant",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Aubergine",
+        "aliases": [],
+        "hints": {
+          "easy": "Mörklila skal och svampigt inre",
+          "normal": "Bygger lager i moussaka",
+          "hard": "Rostad blir den mjuk nog att mosa"
+        }
+      },
+      "en": {
+        "word": "Eggplant",
+        "aliases": [
+          "Aubergine"
+        ],
+        "hints": {
+          "easy": "Dark purple skin and spongy flesh",
+          "normal": "Forms layers in moussaka",
+          "hard": "Roasts soft enough to mash"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-broccoli",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Broccoli",
+        "aliases": [],
+        "hints": {
+          "easy": "Gröna buketter på tjock stjälk",
+          "normal": "Ångas till lätt tuggmotstånd",
+          "hard": "Små knoppar fångar upp en dressing"
+        }
+      },
+      "en": {
+        "word": "Broccoli",
+        "aliases": [],
+        "hints": {
+          "easy": "Green florets on a thick stalk",
+          "normal": "Steamed until just tender",
+          "hard": "Tiny buds catch the dressing"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cauliflower",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Blomkål",
+        "aliases": [],
+        "hints": {
+          "easy": "Blek bukett i en krans av blad",
+          "normal": "Kan rivas till gryn",
+          "hard": "En hel skiva kan rostas som en biff"
+        }
+      },
+      "en": {
+        "word": "Cauliflower",
+        "aliases": [],
+        "hints": {
+          "easy": "Pale head surrounded by leaves",
+          "normal": "Can be grated into grains",
+          "hard": "A thick slice can roast like a steak"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-brussels-sprouts",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Brysselkål",
+        "aliases": [],
+        "hints": {
+          "easy": "Små runda huvuden som sitter längs en stam",
+          "normal": "Halveras före rostning",
+          "hard": "Ytterbladen blir knapriga i ugnen"
+        }
+      },
+      "en": {
+        "word": "Brussels sprouts",
+        "aliases": [
+          "Brussel sprouts"
+        ],
+        "hints": {
+          "easy": "Little round heads along one stalk",
+          "normal": "Halved before roasting",
+          "hard": "Outer leaves crisp in the oven"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-spinach",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Spenat",
+        "aliases": [],
+        "hints": {
+          "easy": "Mjuka gröna blad som krymper i pannan",
+          "normal": "Passar till feta i filodeg",
+          "hard": "Burken förknippas med en tecknad sjöman"
+        }
+      },
+      "en": {
+        "word": "Spinach",
+        "aliases": [],
+        "hints": {
+          "easy": "Tender green leaves that wilt in a pan",
+          "normal": "Paired with feta in filo",
+          "hard": "A sailor's cartoon source of strength"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-arugula",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rucola",
+        "aliases": [
+          "Ruccola"
+        ],
+        "hints": {
+          "easy": "Flikiga gröna blad med pepprig smak",
+          "normal": "Strös över en nygräddad pizza",
+          "hard": "Ger bett bland milda salladsblad"
+        }
+      },
+      "en": {
+        "word": "Arugula",
+        "aliases": [
+          "Salad rocket"
+        ],
+        "hints": {
+          "easy": "Lobed leaves with a peppery taste",
+          "normal": "Scattered over a freshly baked pizza",
+          "hard": "Adds bite beside milder greens"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-iceberg-lettuce",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Isbergssallad",
+        "aliases": [],
+        "hints": {
+          "easy": "Tätt runt huvud med krispiga blad",
+          "normal": "Kall strimlad fyllning till tacos",
+          "hard": "Blir gärna till klyftor med krämig dressing"
+        }
+      },
+      "en": {
+        "word": "Iceberg lettuce",
+        "aliases": [],
+        "hints": {
+          "easy": "Tight round head with crisp leaves",
+          "normal": "Cold shreds in a taco",
+          "hard": "Served as wedges under creamy dressing"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-asparagus",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sparris",
+        "aliases": [],
+        "hints": {
+          "easy": "Långa späda skott med fjälliga toppar",
+          "normal": "Kan grillas knippevis",
+          "hard": "Den träiga änden bryts ofta av"
+        }
+      },
+      "en": {
+        "word": "Asparagus",
+        "aliases": [],
+        "hints": {
+          "easy": "Long tender spears with scaly tips",
+          "normal": "Grilled in bunches",
+          "hard": "The woody end often snaps off"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-artichoke",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kronärtskocka",
+        "aliases": [],
+        "hints": {
+          "easy": "Stor knopp med överlappande blad",
+          "normal": "Bladbasen dras mellan tänderna",
+          "hard": "Över hjärtat sitter ett lager ludd"
+        }
+      },
+      "en": {
+        "word": "Globe artichoke",
+        "aliases": [
+          "Artichoke"
+        ],
+        "hints": {
+          "easy": "Large bud with overlapping leaves",
+          "normal": "The leaf base is scraped with your teeth",
+          "hard": "A fuzzy layer covers the heart"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-bell-pepper",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Paprika",
+        "aliases": [],
+        "hints": {
+          "easy": "Ihålig med blek fröklase",
+          "normal": "Färgglada bitar i en wok",
+          "hard": "Står stadigt när den fylls"
+        }
+      },
+      "en": {
+        "word": "Bell pepper",
+        "aliases": [
+          "Capsicum"
+        ],
+        "hints": {
+          "easy": "Hollow with a pale seed cluster",
+          "normal": "Colorful pieces for a stir-fry",
+          "hard": "Stands upright when stuffed"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-radish",
+    "category": "food",
+    "subcategory": "food-vegetables",
+    "tags": [
+      "produce"
+    ],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rädisa",
+        "aliases": [],
+        "hints": {
+          "easy": "Liten rund rot med rött skal",
+          "normal": "Råa skivor ger pepprigt krisp",
+          "hard": "Smör och flingsalt dämpar stinget"
+        }
+      },
+      "en": {
+        "word": "Radish",
+        "aliases": [],
+        "hints": {
+          "easy": "Small round root with red skin",
+          "normal": "Raw slices bring a peppery crunch",
+          "hard": "Butter and flaky salt soften the bite"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-lentils",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Linser",
+        "aliases": [],
+        "hints": {
+          "easy": "Små platta baljväxter",
+          "normal": "En röd sort kokar lätt sönder",
+          "hard": "Ger en vegetarisk gryta fyllighet"
+        }
+      },
+      "en": {
+        "word": "Lentils",
+        "aliases": [],
+        "hints": {
+          "easy": "Small, flat pulses",
+          "normal": "A red variety cooks down quickly",
+          "hard": "Adds body to a vegetarian stew"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-chickpeas",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kikärter",
+        "aliases": [
+          "Kikärtor"
+        ],
+        "hints": {
+          "easy": "Runda baljväxter med liten spets",
+          "normal": "Mixas till hummus",
+          "hard": "Kan rostas tills de knastrar"
+        }
+      },
+      "en": {
+        "word": "Chickpeas",
+        "aliases": [
+          "Garbanzo beans"
+        ],
+        "hints": {
+          "easy": "Round pulses with a little point",
+          "normal": "Blended into hummus",
+          "hard": "Can be roasted until crunchy"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-black-beans",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Svarta bönor",
+        "aliases": [],
+        "hints": {
+          "easy": "Små mörka, ovala baljväxter",
+          "normal": "En fyllning i en burrito",
+          "hard": "Ger mörk färg åt sitt kokspad"
+        }
+      },
+      "en": {
+        "word": "Black beans",
+        "aliases": [],
+        "hints": {
+          "easy": "Small, dark, oval pulses",
+          "normal": "A burrito filling",
+          "hard": "Turns its cooking liquid dark"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-bulgur",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bulgur",
+        "aliases": [],
+        "hints": {
+          "easy": "Förkokta krossade vetekorn",
+          "normal": "Blandas med persilja i tabbouleh",
+          "hard": "Kokt har det lätt nötaktig smak"
+        }
+      },
+      "en": {
+        "word": "Bulgur wheat",
+        "aliases": [
+          "Bulgur"
+        ],
+        "hints": {
+          "easy": "Parboiled cracked wheat grains",
+          "normal": "Mixed with parsley in tabbouleh",
+          "hard": "Slightly nutty after cooking"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-couscous",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Couscous",
+        "aliases": [],
+        "hints": {
+          "easy": "Små gryn av durumvete",
+          "normal": "Sväller under lock i varmt vatten",
+          "hard": "Fluffas med en gaffel till nordafrikansk gryta"
+        }
+      },
+      "en": {
+        "word": "Couscous",
+        "aliases": [],
+        "hints": {
+          "easy": "Tiny granules made from semolina",
+          "normal": "Swells under a lid in hot water",
+          "hard": "Fork-fluffed beside a North African stew"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-quinoa",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Quinoa",
+        "aliases": [],
+        "hints": {
+          "easy": "Små runda frön som kokas som ris",
+          "normal": "En ljus liten svans syns efter kokning",
+          "hard": "Sköljning minskar beska"
+        }
+      },
+      "en": {
+        "word": "Quinoa",
+        "aliases": [],
+        "hints": {
+          "easy": "Small round seeds cooked like rice",
+          "normal": "A pale little tail appears when cooked",
+          "hard": "Rinsing reduces bitterness"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-rolled-oats",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Havregryn",
+        "aliases": [],
+        "hints": {
+          "easy": "Platta flingor till gröt",
+          "normal": "Ger smuldeg tuggmotstånd",
+          "hard": "Kan stå i kylen över natten med mjölk"
+        }
+      },
+      "en": {
+        "word": "Rolled oats",
+        "aliases": [
+          "Oat flakes"
+        ],
+        "hints": {
+          "easy": "Flat flakes for porridge",
+          "normal": "Add chew to a crumble topping",
+          "hard": "Can soak overnight in milk"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-wheat-flour",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vetemjöl",
+        "aliases": [],
+        "hints": {
+          "easy": "Blekt pulver i en bagarbunke",
+          "normal": "Mjölar bordet när degen fastnar",
+          "hard": "Ger bröddeg ett elastiskt nätverk"
+        }
+      },
+      "en": {
+        "word": "Wheat flour",
+        "aliases": [],
+        "hints": {
+          "easy": "Pale powder in a baker's bowl",
+          "normal": "Dusts a bench when dough sticks",
+          "hard": "Forms an elastic network in bread dough"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-dry-yeast",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Torrjäst",
+        "aliases": [],
+        "hints": {
+          "easy": "Små korn som får deg att stiga",
+          "normal": "En påse för brödhyllan",
+          "hard": "Behöver tid för att bilda gas"
+        }
+      },
+      "en": {
+        "word": "Dry yeast",
+        "aliases": [],
+        "hints": {
+          "easy": "Small granules that make dough rise",
+          "normal": "A sachet for the bread shelf",
+          "hard": "Needs time to produce gas"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-baking-powder",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bakpulver",
+        "aliases": [],
+        "hints": {
+          "easy": "Vitt pulver som lyfter sockerkaka",
+          "normal": "En tesked i muffinssmeten",
+          "hard": "Bubblar när det blir vått"
+        }
+      },
+      "en": {
+        "word": "Baking powder",
+        "aliases": [],
+        "hints": {
+          "easy": "White powder that leavens sponge cake",
+          "normal": "A teaspoon in muffin batter",
+          "hard": "Fizzes when it gets wet"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cornstarch",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Majsstärkelse",
+        "aliases": [],
+        "hints": {
+          "easy": "Fint vitt pulver som reder sås",
+          "normal": "Rörs ut i kall vätska först",
+          "hard": "Ger blankare sås än vetemjöl"
+        }
+      },
+      "en": {
+        "word": "Cornstarch",
+        "aliases": [],
+        "hints": {
+          "easy": "Fine white powder that thickens sauces",
+          "normal": "Mixed with cold liquid first",
+          "hard": "Leaves cooked sauces more translucent than wheat flour"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-butter",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Smör",
+        "aliases": [],
+        "hints": {
+          "easy": "Fast mejerifett som smälter i stekpannan",
+          "normal": "En klick på varm potatis",
+          "hard": "Kan brynas tills det doftar nötigt"
+        }
+      },
+      "en": {
+        "word": "Butter",
+        "aliases": [],
+        "hints": {
+          "easy": "Solid dairy fat that melts in a skillet",
+          "normal": "A pat on a hot potato",
+          "hard": "Can be browned until it smells nutty"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-whipping-cream",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vispgrädde",
+        "aliases": [],
+        "hints": {
+          "easy": "Fet mjölkprodukt som kan vispas luftig",
+          "normal": "Spritsas på en tårta",
+          "hard": "Blir till smör om man fortsätter för länge"
+        }
+      },
+      "en": {
+        "word": "Whipping cream",
+        "aliases": [],
+        "hints": {
+          "easy": "Rich dairy liquid that whips into peaks",
+          "normal": "Piped on a cake",
+          "hard": "Turns to butter if beaten too far"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-sour-cream",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gräddfil",
+        "aliases": [],
+        "hints": {
+          "easy": "Syrlig kall mejeriprodukt",
+          "normal": "Rörs ihop med dipkrydda",
+          "hard": "En sval klick på bakad potatis"
+        }
+      },
+      "en": {
+        "word": "Sour cream",
+        "aliases": [],
+        "hints": {
+          "easy": "Tangy chilled dairy topping",
+          "normal": "Stirred with dip seasoning",
+          "hard": "A cool dollop on a baked potato"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cottage-cheese",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Keso",
+        "aliases": [
+          "Cottage cheese"
+        ],
+        "hints": {
+          "easy": "Mjuka vita ostkorn",
+          "normal": "Äts kall med bär",
+          "hard": "Grynen kan röra sig i en mild vätska"
+        }
+      },
+      "en": {
+        "word": "Cottage cheese",
+        "aliases": [],
+        "hints": {
+          "easy": "Soft white curds",
+          "normal": "Eaten cold with berries",
+          "hard": "Curds may sit in a mild dressing"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-halloumi",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Halloumi",
+        "aliases": [],
+        "hints": {
+          "easy": "Salt ost som håller formen på grillen",
+          "normal": "Ger stekskorpa på båda sidor",
+          "hard": "Kan gnissla när man tuggar"
+        }
+      },
+      "en": {
+        "word": "Halloumi",
+        "aliases": [],
+        "hints": {
+          "easy": "Salty cheese that holds up on a grill",
+          "normal": "Browns on both flat sides",
+          "hard": "It can squeak as you chew"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-feta",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fetaost",
+        "aliases": [
+          "Feta"
+        ],
+        "hints": {
+          "easy": "Vit smulig ost i saltlake",
+          "normal": "Tärnas med gurka och oliver",
+          "hard": "Traditionellt med fårmjölk"
+        }
+      },
+      "en": {
+        "word": "Feta",
+        "aliases": [
+          "Feta cheese"
+        ],
+        "hints": {
+          "easy": "White crumbly cheese kept in brine",
+          "normal": "Cubed with cucumber and olives",
+          "hard": "Traditionally made with sheep's milk"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-mozzarella",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mozzarella",
+        "aliases": [],
+        "hints": {
+          "easy": "Mjuk vit ost som säljs som en kula",
+          "normal": "Varvas med basilika och tomat",
+          "hard": "Bildar sega trådar under grillvärme"
+        }
+      },
+      "en": {
+        "word": "Mozzarella",
+        "aliases": [],
+        "hints": {
+          "easy": "Soft white cheese sold in a ball",
+          "normal": "Layered with basil and tomato",
+          "hard": "Stretches into strings under the broiler"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-parmesan",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Parmesan",
+        "aliases": [
+          "Parmigiano Reggiano"
+        ],
+        "hints": {
+          "easy": "Hård lagrad ost till rivjärnet",
+          "normal": "Hyvlas över en caesarsallad",
+          "hard": "En kantbit kan ge buljong djup"
+        }
+      },
+      "en": {
+        "word": "Parmesan",
+        "aliases": [
+          "Parmigiano Reggiano"
+        ],
+        "hints": {
+          "easy": "Hard aged cheese for a grater",
+          "normal": "Shaved over a Caesar salad",
+          "hard": "Its rind can add depth to stock"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-gorgonzola",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gorgonzola",
+        "aliases": [],
+        "hints": {
+          "easy": "Italiensk ost med blå ådror",
+          "normal": "Smälts till en fyllig pastasås",
+          "hard": "Söt frukt balanserar skärpan"
+        }
+      },
+      "en": {
+        "word": "Gorgonzola",
+        "aliases": [],
+        "hints": {
+          "easy": "Italian cheese with blue veins",
+          "normal": "Melted into a rich pasta sauce",
+          "hard": "Sweet fruit balances its sharpness"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-olive-oil",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Olivolja",
+        "aliases": [],
+        "hints": {
+          "easy": "Fruktpressat fett för dressing",
+          "normal": "Hälls i en skål att doppa bröd i",
+          "hard": "Kan ha en pepprig eftersmak"
+        }
+      },
+      "en": {
+        "word": "Olive oil",
+        "aliases": [],
+        "hints": {
+          "easy": "Fruit-pressed fat for dressing",
+          "normal": "Poured into a dish for dipping bread",
+          "hard": "Can leave a peppery finish"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-coconut-milk",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kokosmjölk",
+        "aliases": [],
+        "hints": {
+          "easy": "Vit vätska pressad ur tropiskt fruktkött",
+          "normal": "Mildrar hettan i en thailändsk gryta",
+          "hard": "Fettet kan bilda ett fast lock i burken"
+        }
+      },
+      "en": {
+        "word": "Coconut milk",
+        "aliases": [],
+        "hints": {
+          "easy": "White liquid pressed from tropical flesh",
+          "normal": "Softens the heat in a Thai curry",
+          "hard": "Fat can form a solid cap in the can"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-soy-sauce",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Sojasås",
+        "aliases": [],
+        "hints": {
+          "easy": "Mörk salt smaksättare till risrätter",
+          "normal": "En grund dippskål till sushi",
+          "hard": "Färgar en marinad brun"
+        }
+      },
+      "en": {
+        "word": "Soy sauce",
+        "aliases": [],
+        "hints": {
+          "easy": "Dark salty seasoning for rice dishes",
+          "normal": "A shallow dipping dish beside sushi",
+          "hard": "Turns a marinade brown"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-fish-sauce",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Fisksås",
+        "aliases": [],
+        "hints": {
+          "easy": "Tunn salt smaksättare från fermentering",
+          "normal": "Ger djup åt pad thai",
+          "hard": "Några droppar räcker ofta"
+        }
+      },
+      "en": {
+        "word": "Fish sauce",
+        "aliases": [],
+        "hints": {
+          "easy": "Thin, salty fermented seasoning",
+          "normal": "Adds depth to pad thai",
+          "hard": "A few drops often suffice"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-mustard",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bordssenap",
+        "aliases": [
+          "Senap"
+        ],
+        "hints": {
+          "easy": "Skarp gul kryddpasta till korv",
+          "normal": "Vispas i en vinägrett",
+          "hard": "Hela korn kan ge textur"
+        }
+      },
+      "en": {
+        "word": "Prepared mustard",
+        "aliases": [
+          "Mustard"
+        ],
+        "hints": {
+          "easy": "Sharp yellow condiment for sausages",
+          "normal": "Whisked into a vinaigrette",
+          "hard": "Whole seeds can add texture"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-ketchup",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ketchup",
+        "aliases": [],
+        "hints": {
+          "easy": "Röd söt dressing till pommes",
+          "normal": "Skakas ur flaskan med ett ryck",
+          "hard": "En klick kan balansera syra i brunsås"
+        }
+      },
+      "en": {
+        "word": "Ketchup",
+        "aliases": [],
+        "hints": {
+          "easy": "Sweet red condiment for fries",
+          "normal": "Shaken loose with a jerk of the bottle",
+          "hard": "A dollop can balance an acidic gravy"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-tahini",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tahini",
+        "aliases": [
+          "Sesampasta"
+        ],
+        "hints": {
+          "easy": "Len pasta av malda frön",
+          "normal": "Ger hummus rostad smak",
+          "hard": "Oljan kan lägga sig överst i burken"
+        }
+      },
+      "en": {
+        "word": "Tahini",
+        "aliases": [
+          "Sesame paste"
+        ],
+        "hints": {
+          "easy": "Smooth paste made from ground seeds",
+          "normal": "Gives hummus a toasted note",
+          "hard": "Oil can rise to the top of the jar"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-saffron",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Saffran",
+        "aliases": [],
+        "hints": {
+          "easy": "Dyra röda trådar som färgar gult",
+          "normal": "Doft till luciabullar",
+          "hard": "Några strån räcker till en hel kastrull"
+        }
+      },
+      "en": {
+        "word": "Saffron",
+        "aliases": [],
+        "hints": {
+          "easy": "Costly red threads that stain yellow",
+          "normal": "The fragrant color in paella",
+          "hard": "A few strands can flavor a whole pot"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-smoked-paprika",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rökt paprikapulver",
+        "aliases": [],
+        "hints": {
+          "easy": "Rödmalen krydda med vedig doft",
+          "normal": "Ger bönor grillad ton",
+          "hard": "En nypa färgar en oljedressing"
+        }
+      },
+      "en": {
+        "word": "Smoked paprika",
+        "aliases": [],
+        "hints": {
+          "easy": "Red ground spice with a smoky aroma",
+          "normal": "Gives beans a barbecue note",
+          "hard": "A pinch colors an oil dressing"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cardamom",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kardemumma",
+        "aliases": [],
+        "hints": {
+          "easy": "Parfymerade frön ur små kapslar",
+          "normal": "Krossas till doftande bullfyllning",
+          "hard": "Smaksätter kaffe i delar av Mellanöstern"
+        }
+      },
+      "en": {
+        "word": "Cardamom",
+        "aliases": [],
+        "hints": {
+          "easy": "Fragrant seeds inside little pods",
+          "normal": "Crushed into a spiced bun filling",
+          "hard": "Flavors coffee across parts of the Middle East"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-balsamic-vinegar",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Balsamvinäger",
+        "aliases": [
+          "Balsamico"
+        ],
+        "hints": {
+          "easy": "Mörk vinäger med sötma",
+          "normal": "Ringlas över tomat och mozzarella",
+          "hard": "Kan kokas ner till blank sirap"
+        }
+      },
+      "en": {
+        "word": "Balsamic vinegar",
+        "aliases": [
+          "Balsamic"
+        ],
+        "hints": {
+          "easy": "Dark vinegar with sweetness",
+          "normal": "Drizzled over tomatoes and mozzarella",
+          "hard": "Can reduce to a glossy syrup"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-capers",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kapris",
+        "aliases": [],
+        "hints": {
+          "easy": "Små inlagda blomknoppar",
+          "normal": "Hackas ner i tartarsås",
+          "hard": "En salt punkt i en pastagryta"
+        }
+      },
+      "en": {
+        "word": "Capers",
+        "aliases": [],
+        "hints": {
+          "easy": "Small pickled flower buds",
+          "normal": "Chopped into tartar sauce",
+          "hard": "A salty little burst in pasta"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-maple-syrup",
+    "category": "food",
+    "subcategory": "food-ingredients",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Lönnsirap",
+        "aliases": [],
+        "hints": {
+          "easy": "Bärnstensfärgad sötma från trädsav",
+          "normal": "Ringlas över amerikanska pannkakor",
+          "hard": "Smaksätter gärna en glasyr"
+        }
+      },
+      "en": {
+        "word": "Maple syrup",
+        "aliases": [],
+        "hints": {
+          "easy": "Amber sweetness from tree sap",
+          "normal": "Poured over a pancake stack",
+          "hard": "Can flavor a glaze"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-sparkling-water",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kolsyrat vatten",
+        "aliases": [
+          "Bubbelvatten"
+        ],
+        "hints": {
+          "easy": "Genomskinlig neutral dryck med bubblor",
+          "normal": "Pyser när korken öppnas",
+          "hard": "Kan få en skiva gurka på restaurang"
+        }
+      },
+      "en": {
+        "word": "Sparkling water",
+        "aliases": [
+          "Bubbly water"
+        ],
+        "hints": {
+          "easy": "Clear, plain drink with bubbles",
+          "normal": "Hisses when uncapped",
+          "hard": "Might arrive with a cucumber slice"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-orange-juice",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Apelsinjuice",
+        "aliases": [],
+        "hints": {
+          "easy": "Gulorange citrusdryck med eller utan fruktkött",
+          "normal": "Ett kallt glas till rostat bröd",
+          "hard": "Ger färg åt en mimosa"
+        }
+      },
+      "en": {
+        "word": "Orange juice",
+        "aliases": [],
+        "hints": {
+          "easy": "Golden citrus drink with or without pulp",
+          "normal": "A cold glass next to toast",
+          "hard": "Colors a mimosa"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-apple-juice",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Äppeljuice",
+        "aliases": [],
+        "hints": {
+          "easy": "Pressad fruktdryck som ofta är klar och bärnstensfärgad",
+          "normal": "En liten kartong i skolväskan",
+          "hard": "Kan värmas med kanel till en höstdryck"
+        }
+      },
+      "en": {
+        "word": "Apple juice",
+        "aliases": [],
+        "hints": {
+          "easy": "Pressed fruit drink that is often clear and amber",
+          "normal": "A small carton in a school bag",
+          "hard": "Can be warmed with cinnamon for autumn"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-ginger-ale",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ginger ale",
+        "aliases": [],
+        "hints": {
+          "easy": "Ljus läsk med mild ingefärssmak",
+          "normal": "Hälls över is som drinkmixer",
+          "hard": "Ger bubblor åt en alkoholfri Shirley Temple"
+        }
+      },
+      "en": {
+        "word": "Ginger ale",
+        "aliases": [],
+        "hints": {
+          "easy": "Pale soda with a mellow root-spice flavor",
+          "normal": "Poured over ice as a mixer",
+          "hard": "Adds fizz to a Shirley Temple"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cola",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cola",
+        "aliases": [
+          "Colaläsk"
+        ],
+        "hints": {
+          "easy": "Mörk söt läsk med kolsyra",
+          "normal": "Klassisk storkopp till biopopcorn",
+          "hard": "En citronskiva passar i glaset"
+        }
+      },
+      "en": {
+        "word": "Cola",
+        "aliases": [],
+        "hints": {
+          "easy": "Dark, sweet carbonated soda",
+          "normal": "A classic large cup with movie popcorn",
+          "hard": "A slice of lemon suits the glass"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-lemonade",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Citronlemonad",
+        "aliases": [
+          "Lemonad"
+        ],
+        "hints": {
+          "easy": "Söt och syrlig citrondryck",
+          "normal": "Kanna full av is på sommaren",
+          "hard": "Förknippas med ett hemmabyggt försäljningsstånd"
+        }
+      },
+      "en": {
+        "word": "Lemonade",
+        "aliases": [],
+        "hints": {
+          "easy": "Sweet, tart citrus drink",
+          "normal": "A pitcher full of ice in summer",
+          "hard": "Often sold at a curbside stand"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-tonic-water",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tonic",
+        "aliases": [
+          "Tonicvatten"
+        ],
+        "hints": {
+          "easy": "Bubblig klar dryck med bitter smak",
+          "normal": "Citrusklyfta till en klassisk gindrink",
+          "hard": "Kinin ger den beska tonen"
+        }
+      },
+      "en": {
+        "word": "Tonic water",
+        "aliases": [
+          "Tonic"
+        ],
+        "hints": {
+          "easy": "Clear, fizzy drink with a bitter taste",
+          "normal": "A citrus wedge in a classic gin drink",
+          "hard": "Quinine supplies the bitter note"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-hot-chocolate",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Varm choklad",
+        "aliases": [],
+        "hints": {
+          "easy": "Varm söt kakaodryck",
+          "normal": "En mugg efter pulkabacken",
+          "hard": "Kan toppas med små vita marshmallows"
+        }
+      },
+      "en": {
+        "word": "Hot chocolate",
+        "aliases": [
+          "Hot cocoa"
+        ],
+        "hints": {
+          "easy": "Warm, sweet cocoa drink",
+          "normal": "A mug after sledding",
+          "hard": "Sometimes topped with tiny marshmallows"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-milkshake",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Milkshake",
+        "aliases": [
+          "Mjölkshake"
+        ],
+        "hints": {
+          "easy": "Kall söt dryck mixad med glass",
+          "normal": "Dricks gärna med tjockt sugrör",
+          "hard": "Serveras i höga glas på en diner"
+        }
+      },
+      "en": {
+        "word": "Milkshake",
+        "aliases": [],
+        "hints": {
+          "easy": "Cold sweet drink blended with ice cream",
+          "normal": "Best through a thick straw",
+          "hard": "Served in a tall diner glass"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-kefir",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kefir",
+        "aliases": [],
+        "hints": {
+          "easy": "Syrlig drickbar mjölk efter fermentering",
+          "normal": "Kan hällas över frukostflingor",
+          "hard": "Kulturen kan bilda mjuka gryn"
+        }
+      },
+      "en": {
+        "word": "Kefir",
+        "aliases": [],
+        "hints": {
+          "easy": "Tangy drinkable fermented milk",
+          "normal": "Poured over breakfast cereal",
+          "hard": "The culture can form soft grains"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-kombucha",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kombucha",
+        "aliases": [],
+        "hints": {
+          "easy": "Syrlig kolsyrad dryck av fermenterat te",
+          "normal": "Säljs ofta kyld i glasflaska",
+          "hard": "En seg hinna kan bildas under jäsningen"
+        }
+      },
+      "en": {
+        "word": "Kombucha",
+        "aliases": [],
+        "hints": {
+          "easy": "Tangy fizzy drink made from fermented tea",
+          "normal": "Often sold chilled in glass bottles",
+          "hard": "A rubbery layer can form as it ferments"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-espresso",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Espresso",
+        "aliases": [],
+        "hints": {
+          "easy": "Mycket koncentrerat kaffe ur liten kopp",
+          "normal": "En shot från en tryckmaskin",
+          "hard": "Ett hasselnötsfärgat skum kan ligga överst"
+        }
+      },
+      "en": {
+        "word": "Espresso",
+        "aliases": [],
+        "hints": {
+          "easy": "Very concentrated coffee in a tiny cup",
+          "normal": "A shot pulled under pressure",
+          "hard": "A hazelnut-colored foam may sit on top"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-filter-coffee",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bryggkaffe",
+        "aliases": [],
+        "hints": {
+          "easy": "Varmt vatten rinner genom malda bönor",
+          "normal": "Kannan står ofta på en värmeplatta",
+          "hard": "Papperskonen fångar sumpen"
+        }
+      },
+      "en": {
+        "word": "Filter coffee",
+        "aliases": [
+          "Drip coffee"
+        ],
+        "hints": {
+          "easy": "Hot water drips through ground beans",
+          "normal": "The carafe often sits on a warmer",
+          "hard": "A paper cone catches the grounds"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-caffe-latte",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Caffè latte",
+        "aliases": [
+          "Kaffelatte",
+          "Latte"
+        ],
+        "hints": {
+          "easy": "Espresso med mycket ångad mjölk",
+          "normal": "Ett högt glas på kaféet",
+          "hard": "Konsistensen är mjukare än en stor skumkrona"
+        }
+      },
+      "en": {
+        "word": "Caffè latte",
+        "aliases": [
+          "Cafe latte",
+          "Latte"
+        ],
+        "hints": {
+          "easy": "Espresso with plenty of steamed milk",
+          "normal": "A tall glass at the café",
+          "hard": "Silky texture under a thin layer of foam"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cappuccino",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Cappuccino",
+        "aliases": [],
+        "hints": {
+          "easy": "En espressodryck med tjockt mjölkskum",
+          "normal": "Skummet kan ätas med sked",
+          "hard": "Traditionellt en italiensk frukostbeställning"
+        }
+      },
+      "en": {
+        "word": "Cappuccino",
+        "aliases": [],
+        "hints": {
+          "easy": "Espresso drink with a thick layer of milk foam",
+          "normal": "Its foam can be eaten with a spoon",
+          "hard": "Traditionally an Italian breakfast order"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-matcha",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Matchate",
+        "aliases": [
+          "Matcha"
+        ],
+        "hints": {
+          "easy": "Klart grönt tepulver vispas i vatten",
+          "normal": "En bambuvisp skapar fint skum",
+          "hard": "Pulvret ger desserter en gräsig ton"
+        }
+      },
+      "en": {
+        "word": "Matcha tea",
+        "aliases": [
+          "Matcha"
+        ],
+        "hints": {
+          "easy": "Bright green tea powder whisked into water",
+          "normal": "A bamboo whisk makes fine foam",
+          "hard": "The powder gives desserts a grassy note"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-chamomile-tea",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kamomillte",
+        "aliases": [],
+        "hints": {
+          "easy": "Mild infusion av små ljusa blommor",
+          "normal": "Dricks ofta vid läggdags",
+          "hard": "En varm kopp kan dofta svagt av äpple"
+        }
+      },
+      "en": {
+        "word": "Chamomile tea",
+        "aliases": [],
+        "hints": {
+          "easy": "Mild infusion of little pale flowers",
+          "normal": "Often drunk around bedtime",
+          "hard": "A hot cup can smell faintly of apple"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-bubble-tea",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Bubbelte",
+        "aliases": [
+          "Bubble tea",
+          "Boba"
+        ],
+        "hints": {
+          "easy": "Kall tedryck med sega pärlor",
+          "normal": "Extra brett sugrör till en förseglad kopp",
+          "hard": "Tapioka samlas på botten"
+        }
+      },
+      "en": {
+        "word": "Bubble tea",
+        "aliases": [
+          "Boba tea",
+          "Boba"
+        ],
+        "hints": {
+          "easy": "Cold tea drink with chewy pearls",
+          "normal": "Extra-wide straw through a sealed lid",
+          "hard": "Tapioca settles at the bottom"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-glogg",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Glögg",
+        "aliases": [],
+        "hints": {
+          "easy": "Uppvärmd kryddig vindryck till jul",
+          "normal": "Serveras med små skedar i Sverige",
+          "hard": "Stjärnanis kan flyta på ytan"
+        }
+      },
+      "en": {
+        "word": "Swedish mulled wine",
+        "aliases": [
+          "Glögg",
+          "Glogg"
+        ],
+        "hints": {
+          "easy": "Warm spiced wine for the holidays",
+          "normal": "Served with raisins and almonds",
+          "hard": "Star anise may float on top"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-mojito",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Mojito",
+        "aliases": [],
+        "hints": {
+          "easy": "Kubansk romdrink med mynta och lime",
+          "normal": "Blad och socker stöts i botten av glaset",
+          "hard": "Krossad is håller den kall"
+        }
+      },
+      "en": {
+        "word": "Mojito",
+        "aliases": [],
+        "hints": {
+          "easy": "Cuban rum cocktail with mint and lime",
+          "normal": "Leaves and sugar are muddled in the glass",
+          "hard": "Crushed ice keeps it cold"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-margarita",
+    "category": "food",
+    "subcategory": "food-drinks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Margarita",
+        "aliases": [],
+        "hints": {
+          "easy": "Syrlig drink med tequila",
+          "normal": "Saltet sitter runt glasets kant",
+          "hard": "Kan mixas till en slaskig frusen variant"
+        }
+      },
+      "en": {
+        "word": "Margarita",
+        "aliases": [],
+        "hints": {
+          "easy": "Tart tequila cocktail",
+          "normal": "Salt rims the glass",
+          "hard": "Can be blended into a frozen slush"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-popcorn",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Popcorn",
+        "aliases": [],
+        "hints": {
+          "easy": "Majskorn som exploderar till vita puffar",
+          "normal": "Sprak i kastrullen före filmen",
+          "hard": "Smält smör fastnar i ojämna vrår"
+        }
+      },
+      "en": {
+        "word": "Popcorn",
+        "aliases": [],
+        "hints": {
+          "easy": "Corn kernels that burst into white puffs",
+          "normal": "A rattling pan before the movie",
+          "hard": "Melted butter catches in uneven nooks"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-potato-chips",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Potatischips",
+        "aliases": [
+          "Chips"
+        ],
+        "hints": {
+          "easy": "Tunna friterade skivor i påse",
+          "normal": "Salt fastnar på fingrarna",
+          "hard": "Kan vara vågiga för ett tjockt dipplyft"
+        }
+      },
+      "en": {
+        "word": "Potato chips",
+        "aliases": [
+          "Crisps"
+        ],
+        "hints": {
+          "easy": "Thin fried slices in a bag",
+          "normal": "Salt clings to your fingers",
+          "hard": "Ridges can hold a thick dip"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-tortilla-chips",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Tortillachips",
+        "aliases": [
+          "Nachochips"
+        ],
+        "hints": {
+          "easy": "Spröda trianglar av majs",
+          "normal": "Doppas i guacamole",
+          "hard": "Bär smält ost och jalapeños under grillen"
+        }
+      },
+      "en": {
+        "word": "Tortilla chips",
+        "aliases": [
+          "Nacho chips"
+        ],
+        "hints": {
+          "easy": "Crisp corn triangles",
+          "normal": "Dipped in guacamole",
+          "hard": "Hold melted cheese and jalapeños under the broiler"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-cheese-puffs",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Ostbågar",
+        "aliases": [
+          "Ostkrokar"
+        ],
+        "hints": {
+          "easy": "Luftiga majssnacks som böjer sig som krokar",
+          "normal": "Ger orange fingertoppar",
+          "hard": "Smälter nästan på tungan"
+        }
+      },
+      "en": {
+        "word": "Cheese puffs",
+        "aliases": [
+          "Cheese curls"
+        ],
+        "hints": {
+          "easy": "Airy corn snacks curved like hooks",
+          "normal": "Leave your fingertips orange",
+          "hard": "Almost dissolve on the tongue"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-seaweed-snacks",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rostade algchips",
+        "aliases": [
+          "Sjögrässnacks"
+        ],
+        "hints": {
+          "easy": "Tunna rostade blad med havssmak",
+          "normal": "Sköra mörkgröna rutor i en liten bricka",
+          "hard": "Sesamolja kan ge ytan glans"
+        }
+      },
+      "en": {
+        "word": "Roasted seaweed snacks",
+        "aliases": [
+          "Seaweed crisps"
+        ],
+        "hints": {
+          "easy": "Thin roasted sheets with a taste of the sea",
+          "normal": "Fragile dark green squares in a little tray",
+          "hard": "Sesame oil may give the surface a shine"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-rice-cakes",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Riskakor",
+        "aliases": [],
+        "hints": {
+          "easy": "Lätta runda kakor av puffade korn",
+          "normal": "Kan toppas med jordnötssmör",
+          "hard": "Knastrar först och mjuknar när man tuggar"
+        }
+      },
+      "en": {
+        "word": "Puffed rice cakes",
+        "aliases": [],
+        "hints": {
+          "easy": "Light round cakes of puffed grain",
+          "normal": "Can be topped with peanut butter",
+          "hard": "Crunch first and soften as you chew"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-roasted-peanuts",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Rostade jordnötter",
+        "aliases": [],
+        "hints": {
+          "easy": "Små salta halvor i barskålen",
+          "normal": "Det tunna bruna skalet gnids lätt av",
+          "hard": "Till ölen på puben"
+        }
+      },
+      "en": {
+        "word": "Roasted peanuts",
+        "aliases": [],
+        "hints": {
+          "easy": "Small salty halves in a snack bowl",
+          "normal": "The thin brown skins rub off easily",
+          "hard": "Set out with beer at a pub"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-pistachios",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Pistaschnötter",
+        "aliases": [
+          "Pistagenötter"
+        ],
+        "hints": {
+          "easy": "Gröna kärnor i spruckna skal",
+          "normal": "En liten hög tomma halvor blir kvar",
+          "hard": "Smaksätter ljusgrön gelato"
+        }
+      },
+      "en": {
+        "word": "Pistachios",
+        "aliases": [],
+        "hints": {
+          "easy": "Green kernels in cracked shells",
+          "normal": "A small heap of empty halves remains",
+          "hard": "Flavor pale green gelato"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-trail-mix",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Vandringsmix",
+        "aliases": [
+          "Nöt- och fruktmix"
+        ],
+        "hints": {
+          "easy": "Påse med blandade nötter och torkad frukt",
+          "normal": "Tas fram när vandringsleden blir brant",
+          "hard": "Mörka russin gömmer sig bland ljusa bitar"
+        }
+      },
+      "en": {
+        "word": "Trail mix",
+        "aliases": [],
+        "hints": {
+          "easy": "Bag of mixed nuts and dried fruit",
+          "normal": "Handy when the hiking trail gets steep",
+          "hard": "Dark raisins hide among the pale pieces"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-granola-bar",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Müslibar",
+        "aliases": [
+          "Müslikaka"
+        ],
+        "hints": {
+          "easy": "Sammanpressade gryn i rektangulär form",
+          "normal": "En i varje ficka på utflykten",
+          "hard": "Sirap kan hålla ihop blandningen"
+        }
+      },
+      "en": {
+        "word": "Granola bar",
+        "aliases": [
+          "Muesli bar"
+        ],
+        "hints": {
+          "easy": "Compressed grains in a rectangle",
+          "normal": "One in each pocket on a trip",
+          "hard": "Syrup can bind the mixture"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-beef-jerky",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Torkat nötkött",
+        "aliases": [
+          "Beef jerky"
+        ],
+        "hints": {
+          "easy": "Tunna remsor av saltat, torkat kött",
+          "normal": "Segt mellanmål ur en återförslutbar påse",
+          "hard": "Rök eller peppar kan dröja kvar i smaken"
+        }
+      },
+      "en": {
+        "word": "Beef jerky",
+        "aliases": [],
+        "hints": {
+          "easy": "Thin strips of salted dried meat",
+          "normal": "A chewy snack from a resealable bag",
+          "hard": "Smoke or pepper can linger on the palate"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-gummy-bears",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Gelébjörnar",
+        "aliases": [
+          "Gummibjörnar"
+        ],
+        "hints": {
+          "easy": "Små sega godisar med öron och tassar",
+          "normal": "Blandade färger i en genomskinlig påse",
+          "hard": "Går att böja innan de går av"
+        }
+      },
+      "en": {
+        "word": "Gummy bears",
+        "aliases": [],
+        "hints": {
+          "easy": "Little chewy sweets with ears and paws",
+          "normal": "Mixed colors in a clear bag",
+          "hard": "Bend before they break"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-salty-licorice",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Saltlakrits",
+        "aliases": [
+          "Salmiakgodis"
+        ],
+        "hints": {
+          "easy": "Svart godis med salt bett",
+          "normal": "Vanligt bland nordiskt lösgodis",
+          "hard": "Ammoniumklorid ger den skarpa smaken"
+        }
+      },
+      "en": {
+        "word": "Salty liquorice",
+        "aliases": [
+          "Salty licorice",
+          "Salmiak candy"
+        ],
+        "hints": {
+          "easy": "Black candy with a salty bite",
+          "normal": "Common in Nordic pick-and-mix bins",
+          "hard": "Ammonium chloride provides the sharp bite"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-peanut-brittle",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "intermediate",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Jordnötsbräck",
+        "aliases": [],
+        "hints": {
+          "easy": "Sprött karamellflarn med rostade nötter",
+          "normal": "Bryts i ojämna skärvor efter avsvalning",
+          "hard": "Bikarbonat kan göra massan luftigare"
+        }
+      },
+      "en": {
+        "word": "Peanut brittle",
+        "aliases": [],
+        "hints": {
+          "easy": "Brittle caramel sheet studded with toasted nuts",
+          "normal": "Snapped into jagged pieces once cool",
+          "hard": "Baking soda can aerate the candy"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-toffee",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Kola",
+        "aliases": [
+          "Kolagodis"
+        ],
+        "hints": {
+          "easy": "Sockergodis kokt med smör eller grädde",
+          "normal": "Smörig bit som gärna fastnar i tänderna",
+          "hard": "Hälls på en plåt innan den stelnar"
+        }
+      },
+      "en": {
+        "word": "Toffee",
+        "aliases": [],
+        "hints": {
+          "easy": "Sugar candy cooked with butter or cream",
+          "normal": "Buttery bite that clings to your teeth",
+          "hard": "Poured onto a tray before setting"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-marshmallows",
+    "category": "food",
+    "subcategory": "food-snacks",
+    "tags": [],
+    "level": "familiar",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Marshmallows",
+        "aliases": [
+          "Marshmallow"
+        ],
+        "hints": {
+          "easy": "Mjuka söta kuddar av uppvispat skum",
+          "normal": "Träs på pinne över glöd",
+          "hard": "Kan smälta mellan två kex och choklad"
+        }
+      },
+      "en": {
+        "word": "Marshmallows",
+        "aliases": [
+          "Marshmallow"
+        ],
+        "hints": {
+          "easy": "Soft sweet pillows made from whipped foam",
+          "normal": "On a stick over glowing embers",
+          "hard": "Can melt between crackers and chocolate"
+        }
+      }
+    }
+  },
+  {
+    "id": "food-chocolate-babka",
+    "category": "food",
+    "subcategory": "food-baked-goods",
+    "tags": [
+      "prepared-food"
+    ],
+    "level": "expert",
+    "review": "editorial",
+    "languages": {
+      "sv": {
+        "word": "Chokladbabka",
+        "aliases": [
+          "Babka"
+        ],
+        "hints": {
+          "easy": "Sött jästbröd tvinnat runt en mörk fyllning",
+          "normal": "Delad degfläta gräddas i brödform",
+          "hard": "Skivorna får mörka virvlar"
+        }
+      },
+      "en": {
+        "word": "Chocolate babka",
+        "aliases": [
+          "Babka"
+        ],
+        "hints": {
+          "easy": "Sweet yeasted loaf twisted around a dark filling",
+          "normal": "A split braid baked in a loaf tin",
+          "hard": "Dark swirls run through the slices"
+        }
+      }
+    }
+  }
+]
