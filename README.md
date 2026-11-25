@@ -56,7 +56,7 @@ GitHub Actions kör Python- och JavaScript-tester, innehållsvalidering, webblä
 docker compose up --build -d
 ```
 
-På Linux kan appen även startas med `gunicorn --bind 127.0.0.1:5000 --workers 1 --threads 4 wsgi:app`. Produktionsstarten har debug avstängt. Hälsokontrollen finns på `/healthz`. Om mobiltelefoner ska installera appen, servera den via HTTPS med en omvänd proxy. Uppdatera en Compose-installation genom att köra `docker compose up --build -d` på nytt. Webbläsaren kan aktivera den nya offlineversionen mellan omgångar.
+På Linux kan appen även startas med `gunicorn --bind 127.0.0.1:5000 --workers 1 --threads 4 --no-control-socket wsgi:app`. Produktionsstarten har debug avstängt och körs i Docker med ett vanligt användarkonto. Hälsokontrollen finns på `/healthz`. Om mobiltelefoner ska installera appen, servera den via HTTPS med en omvänd proxy. Uppdatera en Compose-installation genom att köra `docker compose up --build -d` på nytt. Webbläsaren kan aktivera den nya offlineversionen mellan omgångar.
 
 ## Ändra spelet
 

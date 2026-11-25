@@ -17,4 +17,4 @@ USER imposter
 EXPOSE 5000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=15s \
     CMD ["python", "-c", "from urllib.request import urlopen; urlopen('http://127.0.0.1:5000/healthz', timeout=3).close()"]
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "1", "--threads", "4", "wsgi:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "1", "--threads", "4", "--no-control-socket", "wsgi:app"]

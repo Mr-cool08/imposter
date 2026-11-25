@@ -1,29 +1,17 @@
-# Monteringskontrakt för gränssnittet
+# Gränssnittet
 
-Jinja-skalet `app/templates/index.html` innehåller ett gemensamt sidhuvud och `#app-view` för den aktiva vyn. `app/static/js/ui.mjs` äger navigering och språkbyte. Alla moduler är fristående ES-moduler utan byggsteg.
+`app/templates/index.html` laddar ett gemensamt skal och språket från `/api/i18n/<lang>.json`. `ui.mjs` öppnar `mountLocal(ctx)` i spelinställningarna direkt på `/`. Egna ordpaket går att redigera via Appval mellan omgångar. Offlinepanelen visar vilka valda paket som har sparats.
 
-## Monteringspunkter
+## Spelvyn
 
-- `local.mjs` exporterar `mountLocal(ctx)`.
-- `online.mjs` exporterar `mountOnline(ctx)`. Läs `ctx.joinCode` för en direktlänk på `/join/<code>`. En rumsmodul behöver behålla transport-/rumsstatus på modulnivå om den ska leva över ett vybyte.
-- `extras.mjs` exporterar `mountExtras(ctx)`. `ctx.route` är `history` eller `custom`. Historik skrivs av respektive spelläge med `ctx.saveResult(result, source, {players, sessionId, completedAt, category} = {})`, där source är `local` eller `online`. Skalet delegerar till `recordRound` i extramodulen. Spelarlistan kan också skickas som `result.players`, och `result.finishedAt` används som reserv för tidsstämpeln. `category` kan ge kategorins visningsnamn. `ctx.readResults()` returnerar resultat kompletterade med källan, deltagarna och tidsstämpeln, nyast först. `ctx.clearResults()` tömmer historiken. Läs egna paket från extramodulens `getCustomContent()` för lokalt spel. För valt onlinepaket används `listCustomPackages()` och `getCustomPackage(id)`.
-- `offline.mjs` exporterar `mountOffline(ctx)`. Anropas en gång med `ctx.root` satt till `#offline-tools` i sidhuvudet. Modulen kan montera sin panel i den roten. `ctx.isRoundActive()` är ett komplement till lyssning på `window`:s `imposter:round-state` som bär `event.detail.active`. Lyssna på `imposter:language` för att uppdatera panelens språk vid byte. `ctx.t` och `ctx.lang` följer det aktuella språket även i befintlig kontext. Reparations- och installationskontroller kan vara tillgängliga i hemvyn och under setup. Läs konfiguration för valda lokala paket via `ctx.storage.get("localSettings", {})`, med inbyggda standardval som reserv. Lokalvyn skickar en `imposter:local-settings` på `window` när den sparar val.
+1. `mountSettings(ctx, {root, settings, playerCount, onChange, onSelection})` visar läge, ordmaterial och val av roller. `getSelection()` ger `{words, pairs, issues, loading, error}`. Första rollkortet öppnas först när spelarna och urvalet har validerats.
+2. Lokalvyn ber en spelare i taget att ta över mobilen. Spelaren trycker för att visa kortet och döljer det innan nästa spelare tar över. Fokusförlust, bakgrundsläge och återställning från webbläsarens snabbcache döljer kortet.
+3. Efter sista kortet visas **Visa roller**. Knappen avslöjar roller och ord efter att gruppen har spelat. Resultatet ger val att spela igen eller återgå till inställningarna.
 
-En vymontering får returnera en avmonteringsfunktion synkront eller en Promise av samma värde. Nätverksarbete kan ske i bakgrunden. `ctx.signal` avbryts vid vybyte och `ctx.root` kopplas loss. Använd avmonteringsfunktionen för timers och globala lyssnare. `ctx.setNavigationGuard(handler)` registrerar en synkron funktion som körs innan vyn lämnas. Returnera `false` för att behålla vyn, till exempel om spelaren avbryter en dialog. Avlägsna alltid eventuell privat information direkt vid försök att lämna vyn, även om spelaren väljer att stanna. För spelvyer kvar på samma URL hanteras fasövergångar utan historikposter.
+## Delade funktioner
 
-## Kontext
-
-- `root` är ett tomt DOM-element som modulen äger. `route` är `home`, `local`, `online`, `history`, `custom` eller `rules`.
-- `lang` är `sv` eller `en`. `t(key, values = {})` slår upp en platt översättningsnyckel och ersätter variabler som `{name}` eller `{count}`. Alla fragment i `data/i18n` laddas från `/api/i18n/<lang>.json`.
-- `navigate(route)` navigerar till en vy. `notify(message, {error = false} = {})` visar ett tydligt statusbesked. Visa fel som kräver ett val även inne i vyn.
-- `setRoundActive(active)` ägs av spelvyerna. Sätt `true` under den aktiva omgången och `false` vid resultat, avbrott eller utträde. Onlinekontexten får fortsätta anropa den efter ett vybyte så länge rummet är aktivt. `isRoundActive()` är sann om en lokal omgång eller en onlinerunda pågår i fliken. `preferences()` ger `{theme, sound, vibration, rememberNames}` för aktuella inställningar. `feedback("reveal" | "advance" | "finish")` spelar ljud/vibration enbart när de valts av spelaren.
-- `storage.get(key, fallback)`, `storage.set(key, value)` och `storage.remove(key)` hanterar JSON under prefixet `imposter:`. Översvämning eller blockerad lagring visas som ett begripligt besked och ett minnesalternativ behåller data under besöket. Använd `localSettings` och `localPlayers` för lokala val och spelarlistor. Kontrollera `preferences().rememberNames` före skrivning av `localPlayers`. Temat, språket och övriga appval sparas internt i `preferences`. Lagra ingen pågående lokal omgång.
-- `rules` är en funktion som hämtar och delar projektets regeldata och returnerar en Promise. `modeName(id)`, `roleName(id)` och `rulesView(target, {mode, profiles} = {})` delar språk mellan spellägen. `rulesView` fyller en befintlig container. Utelämnade lägesval visar samtliga lägen.
-- `el(tag, attrs = {}, ...children)` skapar DOM med `textContent` via textnoder. Lägg till klasser med `class`, lyssnare med `onClick` osv och övriga attribut direkt. `button(text, handler, {variant = "primary", ...attrs} = {})` ger en vanlig knapp som ser likadan ut i alla vyer. Varianter är `primary`, `secondary`, `ghost` och `danger`.
-- Gemensamma CSS-klasser är `.stack`, `.cluster`, `.split`, `.page-header`, `.panel`, `.panel--subtle`, `.field`, `.muted`, `.error`, `.notice`, `.pill`, `.button` och `.sr-only`. `.hand-off` tillämpar samma bakgrund, typografi och utrymme på alla privata lokala steg.
-
-## Spelinställningar
-
-Importera `{ DEFAULT_SETTINGS, mountSettings }` från `settings.mjs`. Anropa `mountSettings(ctx, { root, settings, playerCount, onChange, onSelection, includeClueStyle })`. `root` är inställningarnas behållare. `onChange(settings)` anropas när ett val uppdateras. `onSelection(selection)` anropas vid ändrad filtrering och innehåller `{words, pairs, issues, loading, error}`. `issues` kommer från motorn. Om `includeClueStyle` är sann visas upplägget muntlig/text. Returvärdet är `{getSettings(), getSelection(), setPlayerCount(n), destroy()}`. Kategorier/styrka/avancerat/Chaos och innehållsräkning hanteras gemensamt. Använd `getSelection()` i lokalspel för att få det urval som validerats. För online valideras motsvarande inställningar på servern.
-
-Shellens länkar går till `/#home`, `/#local`, `/#online`, `/#history`, `/#custom` och `/#rules`. Direktinbjudningar går till `/join/<code>`. Både språk och aktuellt läge ska vara begripliga när tilläggsmoduler laddas asynkront.
+- `ctx.t(key, values)` väljer text med aktuell språkkod. `ctx.modeName(id)` och `ctx.roleName(id)` visar läges- och rollnamn.
+- `ctx.el` skapar DOM-element med textnoder. `ctx.button` skapar knappar med gemensam stil och `ctx.notify` visar status och fel.
+- `ctx.storage` sparar namn och mindre inställningar som JSON i `localStorage`. En minneskopia används om lagring blockeras. Pågående privata kort lever i minnet.
+- `mountExtras(ctx)` öppnar ordpaketsredigeraren. När redigeraren stängs uppdateras urvalet med `imposter:custom-content`.
+- `mountOffline(ctx)` kan visa uppdateringen av appskalet mellan omgångar. Vyn aviserar språk och val via `imposter:language`, `imposter:round-state` och `imposter:local-settings`.

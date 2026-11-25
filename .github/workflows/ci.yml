@@ -52,6 +52,13 @@ jobs:
           docker compose config --quiet
           docker compose up --build --detach --wait --wait-timeout 90
           curl --fail --silent --show-error http://127.0.0.1:5000/healthz
+      - name: Check the application startup log
+        run: |
+          startup_logs=$(docker compose logs --no-color app 2>&1)
+          if [[ "$startup_logs" == *'[ERROR]'* ]]; then
+            printf '%s\n' "$startup_logs"
+            exit 1
+          fi
       - name: Show application logs if startup fails
         if: failure()
         run: docker compose logs app
