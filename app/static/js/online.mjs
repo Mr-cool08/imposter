@@ -5,7 +5,7 @@ import { getCustomPackage, listCustomPackages } from "./extras.mjs";
 const VENDOR_URL = "/static/vendor/socket.io.min.js";
 const SESSION_ROOM = "imposter:online:room";
 const SESSION_TOKEN = "imposter:online:token:";
-const CODE = /^[A-Z0-9]{5}$/;
+const CODE = /^[23456789ABCDEFGHJKLMNPQRSTUVWXYZ]{5}$/;
 const ACK_MS = 5000;
 const errorAliases = {
   bad_payload: "invalid_payload",
@@ -37,6 +37,7 @@ let starting = false;
 let busy = false;
 let problem = null;
 let builtInCategories;
+let gameRules;
 let serverClock = { server: 0, local: 0 };
 const savedResults = new Set();
 
@@ -255,7 +256,9 @@ export function mountOnline(ctx) {
   const { root, el, button } = ctx;
   const t = (key, values) => ctx.t("online." + key, values);
   const invitedCode = String(ctx.joinCode ?? "").toUpperCase();
-  let name = ctx.preferences().rememberNames ? ctx.storage.get("onlineName", "") : "";
+  const rememberNames = ctx.preferences().rememberNames;
+  if (!rememberNames) ctx.storage.remove("onlineName");
+  let name = rememberNames ? ctx.storage.get("onlineName", "") : "";
   let codeDraft = CODE.test(invitedCode) ? invitedCode : "";
   let roleShown = false;
   let roleKey = "";
@@ -269,7 +272,7 @@ export function mountOnline(ctx) {
 
   context = ctx;
   const action = (actionName, data) => command("room:action", { action: actionName, data: data ?? {} }, true);
-  const chooseButton = (text, handler, options = {}) => button(t(text), handler, options);
+  const chooseButton = (text, handler, options = {}) => button(t(text), handler, { "data-online-focus": text, ...options });
   const control = (text, handler, options = {}) => chooseButton(text, handler, { disabled: busy || !bound, ...options });
   const statusLine = (text, className = "notice", values) => text ? el("p", { class: className, role: className === "error" ? "alert" : "status" }, t(text, values)) : null;
   const playerName = (id, roster) => roster?.find((player) => player.id === id)?.name ?? id;
@@ -516,7 +519,7 @@ export function mountOnline(ctx) {
       statusLine(activePlayer ? "yourTurn" : "turn", "notice", { name: roundName(round.currentPlayerId) }),
       activePlayer
         ? round.clueStyle === "text"
-          ? textForm("clueInput", "sendClue", 80, (text) => action("clue", { text }))
+          ? textForm("clueInput", "sendClue", gameRules?.clueMaxLength ?? 80, (text) => action("clue", { text }))
           : el("div", { class: "stack" }, statusLine("oralClue", "muted"), control("finishTurn", () => action("clue")))
         : null,
       turnOrder(), clueList(), roleCard());
@@ -594,7 +597,7 @@ export function mountOnline(ctx) {
     };
     return el("div", { class: "stack" }, phaseTimer(),
       statusLine(state.private?.canGuess ? "guessPrompt" : guessSubmitted ? "guessSent" : "guessWaiting", "muted"),
-      state.private?.canGuess ? textForm("guessInput", "sendGuess", 120, sendGuess) : null,
+      state.private?.canGuess ? textForm("guessInput", "sendGuess", gameRules?.guessMaxLength ?? 120, sendGuess) : null,
       state.private?.canGuess ? control("passAbility", () => sendGuess(null), { variant: "secondary" }) : null);
   }
 
@@ -717,10 +720,11 @@ export function mountOnline(ctx) {
       !identity && status ? statusLine(status) : null,
       storageUnavailable && identity ? statusLine("storageUnavailable") : null,
       complaint(), view()));
-    if (focusKey) {
-      const replacement = [...root.querySelectorAll("[data-online-focus]")].find((element) => element.dataset.onlineFocus === focusKey && !element.disabled);
-      replacement?.focus({ preventScroll: true });
-      if (selection && replacement?.setSelectionRange) replacement.setSelectionRange(...selection);
+    const replacement = focusKey && [...root.querySelectorAll("[data-online-focus]")].find((element) =>
+      element.dataset.onlineFocus === focusKey && !element.disabled);
+    if (replacement) {
+      replacement.focus({ preventScroll: true });
+      if (selection && replacement.setSelectionRange) replacement.setSelectionRange(...selection);
     } else if (phase && renderedPhase && renderedPhase !== phase && hadFocus) {
       heading.focus();
     }
@@ -734,11 +738,12 @@ export function mountOnline(ctx) {
       if (state?.stage === "result") redraw?.();
     }).catch(() => {});
   }
+  if (!gameRules) void ctx.rules().then((rules) => { gameRules = rules; }).catch(() => {});
   if ((!sessionChecked || invitedCode) && !identity && !starting) {
     sessionChecked = true;
     identity = sessionIdentity(invitedCode);
-    if (identity) void restore();
   }
+  if (identity && !bound && !starting && !suspended) void restore();
   ctx.setRoundActive(state?.stage === "playing");
   const hideCard = () => {
     if (roleShown) {
@@ -746,7 +751,12 @@ export function mountOnline(ctx) {
       render();
     }
   };
-  ctx.setNavigationGuard(() => { hideCard(); return true; });
+  ctx.setNavigationGuard(() => {
+    hideCard();
+    if (state?.stage !== "playing") return true;
+    ctx.notify(t("finishOrLeave"));
+    return false;
+  });
   window.addEventListener("blur", hideCard);
   document.addEventListener("visibilitychange", hideCard);
   timer = window.setInterval(() => {
@@ -756,7 +766,10 @@ export function mountOnline(ctx) {
   }, 250);
   render();
   return () => {
-    if (redraw === render) redraw = null;
+    if (redraw === render) {
+      redraw = null;
+      if (state?.stage !== "playing") socket?.disconnect();
+    }
     window.clearInterval(timer);
     window.removeEventListener("blur", hideCard);
     document.removeEventListener("visibilitychange", hideCard);
