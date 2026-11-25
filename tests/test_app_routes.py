@@ -8,17 +8,13 @@ def app():
     return create_app({
         "TESTING": True,
         "APP_NAME": "Provspel",
-        "PUBLIC_ORIGIN": "https://play.example.test",
-        "ONLINE_SWEEP_INTERVAL_SECONDS": 0,
     })
 
 
-def test_neutral_shell_and_manifest(app):
+def test_game_shell_and_manifest(app):
     client = app.test_client()
     home = client.get("/")
-    invitation = client.get("/join/ABC123")
-    assert home.status_code == invitation.status_code == 200
-    assert home.data == invitation.data
+    assert home.status_code == 200
     assert b"Provspel" in home.data
     assert "Lita inte på någon" in home.get_data(as_text=True)
 
@@ -44,9 +40,8 @@ def test_public_data_routes_agree_on_catalog_version(app):
     assert client.get("/healthz").json == {"status": "ok", "contentVersion": catalog["version"]}
 
 
-def test_socket_client_is_local_and_service_worker_has_root_scope(app):
+def test_service_worker_has_root_scope(app):
     client = app.test_client()
-    assert client.get("/static/vendor/socket.io.min.js").status_code == 200
     worker = client.get("/sw.js")
     assert worker.status_code == 200
     assert worker.headers["Service-Worker-Allowed"] == "/"
@@ -63,22 +58,7 @@ def test_both_language_routes_have_the_same_messages(app):
     assert client.get("/api/i18n/missing.json").status_code == 404
 
 
-def test_qr_codes_use_the_public_origin(app, monkeypatch):
-    paths = []
-
-    def capture_invitation(path, *, image_factory):
-        paths.append(path)
-
-        class Image:
-            def save(self, output):
-                output.write(b"<svg/>")
-
-        return Image()
-
-    monkeypatch.setattr("app.routes.qrcode.make", capture_invitation)
+def test_multiplayer_endpoints_are_absent(app):
     client = app.test_client()
-    response = client.get("/api/qr/ABC123.svg")
-    assert response.mimetype == "image/svg+xml"
-    assert response.headers["Cache-Control"] == "no-store"
-    assert paths == ["https://play.example.test/join/ABC123"]
-    assert client.get("/api/qr/bad-code.svg").status_code == 404
+    for path in ("/join/ABC123", "/api/qr/ABC123.svg", "/socket.io/", "/static/js/online.mjs"):
+        assert client.get(path).status_code == 404, path

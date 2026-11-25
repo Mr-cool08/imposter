@@ -11,10 +11,10 @@ function snapshot(round, players, outcome = null) {
   };
 }
 
-function replay({ players, settings, rolls, used, now, events }) {
+function replay({ players, settings, rolls, used, now, events, flow }) {
   let index = 0;
   const rng = () => rolls[index++] ?? 0;
-  const round = createRound(players, settings, content.words, content.pairs, rules, { rng, used, now });
+  const round = createRound(players, settings, content.words, content.pairs, rules, { rng, used, now, flow });
   const frames = [snapshot(round, players)];
   const localGuessNominees = [round.localGuessNominee()];
   for (const [method, ...args] of events) {
@@ -28,7 +28,7 @@ function replay({ players, settings, rolls, used, now, events }) {
     frames.push(snapshot(round, players, outcome));
     localGuessNominees.push(round.localGuessNominee());
   }
-  return { frames, localGuessNominees };
+  return { frames, localGuessNominees, used };
 }
 
 const issues = configurations.map(({ settings, count }) =>

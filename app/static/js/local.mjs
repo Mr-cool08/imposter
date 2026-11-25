@@ -1,9 +1,7 @@
 import { createRound } from "./engine.mjs";
 import { DEFAULT_SETTINGS, mountSettings } from "./settings.mjs";
 
-const session = new Map();
-let sessionId;
-const privatePhases = new Set(["roles", "abilities", "voting", "last_guess"]);
+const usedWords = [];
 const maxPlayers = 20;
 const maxNameLength = 32;
 
@@ -12,61 +10,33 @@ function playerId() {
     return Array.from(parts, (part) => part.toString(16).padStart(8, "0")).join("");
 }
 
-function addUsedWords(used, result) {
+function rememberWords(result) {
     for (const id of [result.wordId, result.pairedWordId]) {
         if (!id) continue;
-        const previous = used.indexOf(id);
-        if (previous >= 0) used.splice(previous, 1);
-        used.push(id);
+        const previous = usedWords.indexOf(id);
+        if (previous >= 0) usedWords.splice(previous, 1);
+        usedWords.push(id);
     }
-}
-
-function secondsLeft(state) {
-    if (state.paused) return state.remainingMs === null ? null : Math.ceil(state.remainingMs / 1000);
-    return state.deadline === null ? null : Math.max(0, Math.ceil((state.deadline - Date.now()) / 1000));
 }
 
 export function mountLocal(ctx) {
     const { root, el, t, button, signal, storage } = ctx;
-    const history = ctx.readResults().filter((result) => result.source === "local").reverse();
-    const completedIds = new Set(history.map((result) => result.id));
-    const used = [];
-    history.forEach((result) => addUsedWords(used, result));
-    for (const result of session.values()) {
-        if (!completedIds.has(result.id)) addUsedWords(used, result);
-    }
 
     let players = ctx.preferences().rememberNames ? storage.get("localPlayers", []) : [];
     if (!Array.isArray(players)) players = [];
     players = players.filter((player) => typeof player?.id === "string" && typeof player?.name === "string").slice(0, maxPlayers);
-    let settings = { ...DEFAULT_SETTINGS, language: ctx.lang, ...storage.get("localSettings", {}) };
+    let settings = { ...DEFAULT_SETTINGS, language: ctx.lang, ...storage.get("localSettings", {}), freePlay: true };
     let editor;
     let round;
     let roundSelection;
     let starting = false;
     let privateOpen = false;
-    let guessWaiting = false;
-    let report = null;
-    let state;
-    let stage;
-    let timer;
-    let message;
-    let focusControl;
 
     const test = (name) => ({ "data-testid": `local-${name}` });
     const paragraph = (text, style = "muted") => el("p", { class: style }, text);
-    const label = (target) => {
-        if (target === "@all") return t("local.group.all");
-        if (target === "@none") return t("local.group.none");
-        return state.players.find((player) => player.id === target)?.name ?? "";
-    };
     function heading(title, description) {
         return el("header", { class: "page-header" }, el("h1", { tabindex: "-1" }, title),
             description ? paragraph(description) : "");
-    }
-
-    function setMessage(text) {
-        if (message) message.textContent = text;
     }
 
     function savePlayers() {
@@ -80,12 +50,14 @@ export function mountLocal(ctx) {
     }
 
     function renderSetup() {
+        const nameDraft = root.querySelector("#local-name")?.value ?? "";
         editor?.destroy();
         editor = null;
         round = null;
         roundSelection = null;
         ctx.setRoundActive(false);
         root.dataset.localPhase = "setup";
+        root.dataset.testid = "local-setup";
 
         const playersList = el("ul", { class: "local-player-list stack" });
         const count = el("p", { class: "muted", "aria-live": "polite" });
@@ -95,6 +67,7 @@ export function mountLocal(ctx) {
             maxlength: maxNameLength,
             autocomplete: "off",
             required: true,
+            value: nameDraft,
             placeholder: t("local.players.placeholder"),
             ...test("player-name"),
         });
@@ -144,8 +117,8 @@ export function mountLocal(ctx) {
         const start = button(t("local.setup.start"), () => {
             const selection = editor.getSelection();
             if (!canStart(selection)) return;
-            settings = editor.getSettings();
-            beginRound(selection, setupError);
+            settings = { ...editor.getSettings(), freePlay: true };
+            beginRound(selection, setupError, start);
         }, test("start"));
         const setupError = el("p", { class: "error", "aria-live": "polite" });
         const startHelp = el("p", { id: "local-start-help", class: "muted", "aria-live": "polite" });
@@ -176,334 +149,137 @@ export function mountLocal(ctx) {
             settings,
             playerCount: players.length,
             onChange: (value) => {
-                settings = value;
+                settings = { ...value, freePlay: true };
                 saveSettings();
                 setupError.textContent = "";
             },
             onSelection: adjustStart,
-            includeClueStyle: false,
         });
         adjustStart();
     }
 
-    async function beginRound(selection, sourceError) {
+    async function beginRound(selection, sourceError, trigger) {
         if (starting) return;
-        const selected = { ...settings, clueStyle: "oral" };
+        const selected = { ...settings, freePlay: true };
         const roster = players;
         starting = true;
+        trigger.disabled = true;
         sourceError.textContent = t("local.setup.loading");
         try {
             const rules = await ctx.rules();
             if (signal.aborted) return;
-            round = createRound(roster, selected, selection.words, selection.pairs, rules, { used });
-            sessionId ??= `local-${playerId()}`;
-            roundSelection = selection;
-            players = roster;
-            settings = selected;
-            saveSettings();
-            savePlayers();
-            editor?.destroy();
-            editor = null;
-            privateOpen = false;
-            guessWaiting = false;
-            report = null;
-            ctx.setRoundActive(true);
-            renderRound();
+            round = createRound(roster, selected, selection.words, selection.pairs, rules, { used: usedWords, flow: "table" });
         } catch {
-            if (!signal.aborted) {
-                sourceError.textContent = t("local.error.start");
-            }
+            if (!signal.aborted) sourceError.textContent = t("local.error.start");
+            return;
         } finally {
             starting = false;
+            trigger.disabled = false;
         }
+
+        roundSelection = selection;
+        players = roster;
+        settings = selected;
+        saveSettings();
+        savePlayers();
+        editor?.destroy();
+        editor = null;
+        privateOpen = false;
+        ctx.setRoundActive(true);
+        renderRound();
     }
 
-    function focusStage() {
-        if (document.hidden || !document.hasFocus()) return;
-        window.scrollTo(0, 0);
-        focusControl?.focus({ preventScroll: true });
-    }
+    function renderRound({ focus = true, error = "" } = {}) {
+        const state = round.publicState();
+        const stage = el("section", { class: "stack local-stage" });
+        root.dataset.localPhase = state.phase;
+        delete root.dataset.testid;
 
-    function renderRound({ focus = true } = {}) {
-        state = round.publicState();
-        root.dataset.localPhase = report ? "abilities" : state.phase;
-        timer = null;
-        const activePhase = report ? "abilities" : state.phase;
-        message = el("p", { class: "error", "aria-live": "polite" });
-        stage = el("section", { class: "stack local-stage" });
-        focusControl = null;
-        if (privatePhases.has(activePhase)) renderPrivate(activePhase);
-        else if (activePhase === "clues") renderClues();
-        else if (activePhase === "discussion") renderDiscussion();
-        else if (activePhase === "reveal") renderResult(state.result);
-        else renderAborted();
+        let focusControl;
+        if (state.phase === "roles") focusControl = renderPrivate(stage, state);
+        else if (state.phase === "playing") renderPlaying(stage, state);
+        else renderResult(stage, state);
 
-        stage.append(message);
-        if (activePhase !== "reveal" && activePhase !== "aborted") {
-            stage.append(button(t("local.round.abort"), abortRound, { variant: "ghost", class: "local-abort" }));
-        }
+        if (error) stage.append(paragraph(error, "error"));
         root.replaceChildren(stage);
-        focusControl ??= stage.querySelector("h1");
-        updateTimer();
-        if (focus) focusStage();
-    }
-
-    function currentPrivatePlayer(phase) {
-        if (report) return report.id;
-        if (phase === "last_guess") return round.localGuessNominee();
-        return state.players[state.completed]?.id;
-    }
-
-    function renderPrivate(phase) {
-        const id = currentPrivatePlayer(phase);
-        const content = el("div", { class: "hand-off panel stack", ...test("handoff") });
-        if (phase === "last_guess") {
-            timer = el("p", { class: "local-countdown", "aria-label": t("local.guess.time") });
-            if (guessWaiting) {
-                content.append(el("h1", { tabindex: "-1" }, t("local.guess.private")), timer,
-                    paragraph(t("local.guess.wait")));
-                stage.append(content);
-                return;
-            }
+        if (focus && !document.hidden && document.hasFocus()) {
+            window.scrollTo(0, 0);
+            (focusControl ?? stage.querySelector("h1"))?.focus({ preventScroll: true });
         }
-        const completed = report?.completed ?? state.completed;
-        const step = phase === "last_guess"
-            ? paragraph(t("local.guess.private"), "local-phase-label")
-            : paragraph(t("local.private.step", { step: completed + 1, count: state.players.length }), "local-phase-label");
-        content.append(step, el("h1", { tabindex: "-1" }, t("local.private.pass", { name: label(id) })));
-        if (timer) content.append(timer);
-        if (!privateOpen || !id) {
-            const show = button(t("local.private.show"), () => {
+    }
+
+    function renderPrivate(stage, state) {
+        const { id, name } = state.players[state.completed];
+        const content = el("div", { class: "hand-off panel stack", ...test("handoff") },
+            paragraph(t("local.private.step", { step: state.completed + 1, count: state.players.length }), "local-phase-label"),
+            el("h1", { tabindex: "-1" }, t("local.private.pass", { name })));
+        stage.append(content);
+
+        if (!privateOpen) {
+            const open = button(t("local.private.show"), () => {
                 if (document.hidden || !document.hasFocus()) return;
-                if (phase === "last_guess" && state.paused) round.resume();
                 privateOpen = true;
                 renderRound();
                 ctx.feedback("reveal");
             }, test("show-private"));
-            content.append(paragraph(t("local.private.ready")), show);
-            focusControl = show;
-        } else {
-            const secret = el("div", { class: "local-private-content stack", ...test("private-content") });
-            const data = round.privateState(id);
-            if (phase === "roles") renderCard(secret, id, data.card);
-            else if (phase === "abilities") renderAbility(secret, id, data);
-            else if (phase === "voting") renderVote(secret, id);
-            else if (data.canGuess) renderGuess(secret, id);
-            else secret.append(secretHeading(t("local.guess.private")),
-                paragraph(t("local.guess.noAction")), button(t("local.ability.confirm"), waitForReveal));
-            content.append(secret);
-            focusControl = secret.querySelector("h2");
+            content.append(paragraph(t("local.private.ready")), open);
+            return open;
         }
-        stage.append(content);
-    }
 
-    function secretHeading(text) {
-        return el("h2", { tabindex: "-1" }, text);
-    }
-
-    function renderCard(secret, id, card) {
-        const shownRole = card.role ? ctx.roleName(card.role) : t("local.card.word");
-        const value = card.word ?? card.hint ?? t("local.card.empty");
+        const card = round.privateState(id).card;
+        const role = el("h2", { tabindex: "-1" }, card.role ? ctx.roleName(card.role) : t("local.card.word"));
         const field = card.word ? "word" : card.hint ? "hint" : "note";
+        const value = card.word ?? card.hint ?? t("local.card.empty");
+        const wordLang = card.word || card.hint ? settings.language : ctx.lang;
         const fields = el("dl", { class: "local-card-data" },
-            el("dt", {}, t(`local.card.${field}`)), el("dd", { class: "local-card-value" }, value));
-        if (card.partners.length) fields.append(el("dt", {}, t("local.card.partners")),
-            el("dd", {}, card.partners.map(label).join(", ")));
-        secret.append(secretHeading(shownRole), fields,
-            button(t("local.card.hide"), () => submit(id, "ack_role"), test("hide-card")));
-    }
+            el("dt", { class: card.role ? null : "sr-only" }, t("local.card." + field)),
+            el("dd", { class: "local-card-value", lang: wordLang }, value));
 
-    function privateChoice(secret, id, { formId, title, description, targets, submitLabel, action, allowSkip }) {
-        const inputName = `local-${formId}-target`;
-        const lock = button(submitLabel, null, { type: "submit", disabled: true, ...test(`lock-${formId}`) });
-        const fieldset = el("fieldset", { class: "local-choice-list stack" },
-            el("legend", { class: "sr-only" }, title));
-        const options = targets.filter((target) => target !== id);
-        for (const target of options) {
-            fieldset.append(el("label", { class: "local-choice" },
-                el("input", { type: "radio", name: inputName, value: target, required: true, ...test(`${formId}-target`) }),
-                el("span", {}, label(target))));
+        if (card.partners.length) {
+            const partners = state.players.filter((player) => card.partners.includes(player.id));
+            fields.append(el("dt", {}, t("local.card.partners")), el("dd", {}, partners.map((player) => player.name).join(", ")));
         }
-        const form = el("form", {
-            class: "stack",
-            onChange: () => { lock.disabled = !form.elements.namedItem(inputName)?.value; },
-            onSubmit: (event) => {
-                event.preventDefault();
-                const target = new FormData(form).get(inputName);
-                if (target) action(target);
-            },
-        }, fieldset, lock, allowSkip
-            ? button(t("local.ability.skip"), () => action(null), { variant: "secondary" })
-            : "");
-        secret.append(secretHeading(title), paragraph(description), form);
+        content.append(el("div", { class: "local-private-content stack", ...test("private-content") },
+            role, fields, button(t("local.card.hide"), () => advance(id, "ack_role"), test("hide-card"))));
+        return role;
     }
 
-    function renderAbility(secret, id, data) {
-        if (report) {
-            const { investigation } = report;
-            secret.append(secretHeading(t("local.ability.report")),
-                paragraph(t(investigation.impostorTeam ? "local.ability.onTeam" : "local.ability.offTeam",
-                    { name: label(investigation.playerId) })),
-                button(t("local.ability.confirm"), closeReport));
-            return;
-        }
-        if (!data.ability) {
-            secret.append(secretHeading(t("local.ability.title")), paragraph(t("local.ability.neutral")),
-                button(t("local.ability.confirm"), () => submit(id, "ability", { targetId: null })));
-            return;
-        }
-        privateChoice(secret, id, {
-            formId: "ability",
-            title: ctx.roleName(data.ability),
-            description: t(`local.ability.${data.ability}`),
-            targets: state.players.map((player) => player.id),
-            submitLabel: t("local.ability.use"),
-            allowSkip: true,
-            action: (targetId) => submit(id, "ability", { targetId },
-                data.ability === "detective" && targetId ? state.completed : null),
-        });
-    }
-
-    function renderVote(secret, id) {
-        privateChoice(secret, id, {
-            formId: "vote",
-            title: t("local.phase.voting"),
-            description: t("local.vote.prompt"),
-            targets: state.options,
-            submitLabel: t("local.vote.lock"),
-            action: (targetId) => submit(id, "vote", { targetId }),
-        });
-    }
-
-    function waitForReveal() {
-        privateOpen = false;
-        guessWaiting = true;
-        renderRound();
-    }
-
-    function renderGuess(secret, id) {
-        const guess = el("input", { id: "local-guess", required: true, type: "text", autocomplete: "off", spellcheck: "false" });
-        const form = el("form", { class: "stack", onSubmit: (event) => {
-            event.preventDefault();
-            const text = guess.value.trim();
-            if (text) submit(id, "guess", { text });
-        } }, el("label", { for: "local-guess" }, t("local.guess.label")), guess,
-        button(t("local.guess.submit"), null, { type: "submit" }),
-        button(t("local.guess.skip"), () => submit(id, "guess", { text: null }), { variant: "secondary" }));
-        secret.append(secretHeading(t("local.phase.last_guess")), paragraph(t("local.guess.prompt")), form);
-    }
-
-    function renderClues() {
-        stage.append(heading(t("local.phase.clues"),
-            t("local.clue.round", { current: state.clueRound, count: state.clueRounds })));
-        const current = state.currentPlayerId;
-        const order = el("ol", { class: "local-order" }, ...state.order.map((id) => el("li",
-            id === current ? { "aria-current": "step" } : {}, label(id))));
+    function renderPlaying(stage, state) {
         stage.append(el("section", { class: "panel stack" },
-            el("h2", {}, t("local.clue.turn", { name: label(current) })),
-            paragraph(t("local.clue.prompt")),
-            order, button(t("local.clue.next"), () => submit(current, "clue"), test("clue-next"))));
+            heading(t("local.playing.title"), t("local.playing.prompt")),
+            button(t("local.playing.show"), () => advance(state.players[0].id, "reveal_roles"), test("show-roles"))));
     }
 
-    function renderDiscussion() {
-        stage.append(heading(t("local.phase.discussion"), t("local.discussion.prompt")));
-        timer = el("p", { class: "local-countdown" });
-        const toggled = state.paused;
-        stage.append(el("section", { class: "panel stack" }, timer,
-            toggled ? paragraph(t("local.discussion.paused")) : "",
-            el("div", { class: "cluster" },
-                button(t("local.discussion.vote"), () => submit(state.players[0].id, "end_discussion"),
-                    { disabled: toggled, ...test("end-discussion") }),
-                button(t(toggled ? "local.discussion.resume" : "local.discussion.pause"), toggleDiscussion,
-                    { variant: "secondary" }))));
-    }
-
-    function renderAborted() {
-        ctx.setRoundActive(false);
-        stage.append(heading(t("local.round.aborted"), t("local.round.abortBody")),
-            button(t("local.result.settings"), returnToSetup, { variant: "secondary" }));
-    }
-
-    function renderResult(result) {
+    function renderResult(stage, state) {
+        const { result } = state;
         const category = roundSelection.categories?.find(({ id }) => id === result.category);
         const categoryText = category?.names?.[ctx.lang] ?? result.category;
-        if (!completedIds.has(result.id)) {
-            const completedAt = Date.now();
-            const record = { ...result, players: state.players, completedAt };
-            completedIds.add(result.id);
-            session.set(result.id, record);
-            addUsedWords(used, result);
-            ctx.saveResult(result, "local", { players: state.players, sessionId, completedAt, category: categoryText });
-            ctx.feedback("finish");
+        const words = el("dl", { class: "local-result-data" },
+            el("dt", {}, t(result.pairedWord ? "local.result.words" : "local.card.word")),
+            el("dd", { class: "local-card-value", lang: settings.language }, result.word));
+        if (result.pairedWord) {
+            words.append(el("dd", { class: "local-card-value", lang: settings.language }, result.pairedWord));
         }
-        ctx.setRoundActive(false);
-        stage.setAttribute("data-testid", "local-result");
-        stage.append(heading(t("local.result.title"), t(`local.result.reason.${result.reason}`)));
+        if (categoryText) words.append(el("dt", {}, t("local.result.category")), el("dd", {}, categoryText));
+        words.append(el("dt", {}, t("local.result.mode")), el("dd", {}, ctx.modeName(result.mode)));
 
-        const words = el("div", { class: "panel stack local-result-reveal" },
-            el("h2", {}, t(`local.result.team.${result.winnerTeam}`)),
-            result.winners.length ? paragraph(result.winners.map(label).join(", ")) : "",
-            el("dl", { class: "local-result-data" },
-                el("dt", {}, t(result.pairedWord ? "local.result.words" : "local.card.word")),
-                el("dd", { class: "local-card-value" }, result.pairedWord ? `${result.word} / ${result.pairedWord}` : result.word),
-                categoryText ? el("dt", {}, t("local.result.category")) : "", categoryText ? el("dd", {}, categoryText) : "",
-                el("dt", {}, t("local.result.mode")), el("dd", {}, ctx.modeName(result.mode))),
-            result.reused ? paragraph(t("local.result.reused")) : "");
+        const rows = state.players.map(({ id, name }) => el("tr", {},
+            el("th", { scope: "row" }, name), el("td", {}, ctx.roleName(result.roles[id]))));
+        const roles = el("table", { class: "local-result-table" },
+            el("thead", {}, el("tr", {},
+                el("th", { scope: "col" }, t("local.result.column.participant")),
+                el("th", { scope: "col" }, t("local.result.column.role")))),
+            el("tbody", {}, rows));
 
-        const playerRows = state.players.map(({ id, name }) => el("tr", {},
-            el("th", { scope: "row" }, name),
-            el("td", {}, ctx.roleName(result.roles[id])),
-            el("td", {}, label(result.votes[id])),
-            el("td", {}, result.points[id])));
-        const details = el("section", { class: "panel stack" },
-            el("h2", {}, t("local.result.detail")),
-            result.voteWinner === null ? paragraph(t("local.result.tie")) :
-                paragraph(t("local.result.voteWinner", { target: label(result.voteWinner) })),
-            result.protected ? paragraph(t("local.result.protected", { name: label(result.protected) })) : "",
-            result.eliminated ? paragraph(t("local.result.eliminated", { name: label(result.eliminated) })) : "",
-            result.guess?.text ? paragraph(t("local.result.guess", { text: result.guess.text })) : "",
-            resultTable(["participant", "role", "vote", "points"], playerRows));
-        const scoreContainer = el("section", { class: "panel stack" });
-        renderSessionScores(scoreContainer);
         const replayError = el("p", { class: "error", "aria-live": "polite" });
-        const actions = el("div", { class: "cluster" },
-            button(t("local.result.next"), () => beginRound(roundSelection, replayError), test("next-round")),
-            button(t("local.result.settings"), returnToSetup, { variant: "secondary" }),
-            button(t("local.result.history"), () => ctx.navigate("history"), { variant: "ghost" }));
-        stage.append(words, details, scoreContainer, actions, replayError);
-    }
-
-    function resultTable(columns, rows) {
-        return el("table", { class: "local-result-table" },
-            el("thead", {}, el("tr", {}, ...columns.map((key) =>
-                el("th", { scope: "col" }, t(`local.result.column.${key}`))))),
-            el("tbody", {}, ...rows));
-    }
-
-    function renderSessionScores(container) {
-        const scores = new Map(players.map(({ id, name }) => [id, { id, name, points: 0, wins: 0 }]));
-        for (const result of session.values()) {
-            for (const { id, name } of result.players) {
-                if (!scores.has(id)) scores.set(id, { id, name, points: 0, wins: 0 });
-                const score = scores.get(id);
-                score.points += result.points[id] ?? 0;
-                if (result.winners.includes(id)) score.wins += 1;
-            }
-        }
-        const ranked = [...scores.values()].sort((a, b) => b.points - a.points || b.wins - a.wins ||
-            a.name.localeCompare(b.name, ctx.lang));
-        const rows = ranked.map(({ name, points, wins }) => el("tr", {},
-            el("th", { scope: "row" }, name), el("td", {}, points), el("td", {}, wins)));
-        container.replaceChildren(el("h2", {}, t("local.result.scoreboard")),
-            resultTable(["participant", "points", "wins"], rows),
-            button(t("local.result.reset"), () => {
-                if (!window.confirm(t("local.result.confirmReset"))) return;
-                session.clear();
-                sessionId = undefined;
-                renderSessionScores(container);
-                container.querySelector("h2")?.setAttribute("tabindex", "-1");
-                container.querySelector("h2")?.focus();
-            }, { variant: "ghost", disabled: session.size === 0 }));
+        const next = button(t("local.result.next"), () => beginRound(roundSelection, replayError, next), test("next-round"));
+        stage.setAttribute("data-testid", "local-result");
+        stage.append(heading(t("local.result.title")),
+            el("section", { class: "panel stack local-result-reveal" }, words,
+                result.reused ? paragraph(t("local.result.reused")) : ""),
+            el("section", { class: "panel stack" }, el("h2", {}, t("local.result.roles")), roles),
+            el("div", { class: "cluster" }, next, button(t("local.result.settings"), returnToSetup, { variant: "secondary" })),
+            replayError);
     }
 
     function concealPrivate() {
@@ -512,76 +288,31 @@ export function mountLocal(ctx) {
         renderRound({ focus: false });
     }
 
-    function submit(id, action, data = {}, detectiveStep = null) {
-        if (signal.aborted) return;
-        const phase = state.phase;
-        if (privatePhases.has(phase) && !privateOpen && action !== "abort") return;
+    function advance(id, action) {
+        if (signal.aborted || (action === "ack_role" && !privateOpen)) return;
         if (privateOpen) {
             privateOpen = false;
-            stage.querySelector(".local-private-content")?.remove();
+            root.querySelector(".local-private-content")?.remove();
         }
-        try {
-            round.act(id, action, data);
-            if (action === "guess") guessWaiting = true;
-            if (phase === "voting" && round.phase === "last_guess" && state.mode === "chaos") round.pause();
-            if (action === "abort") report = null;
-            if (detectiveStep !== null) {
-                const { investigation } = round.privateState(id);
-                if (investigation) {
-                    const pausedDiscussion = round.phase === "discussion" && round.pause();
-                    report = { id, completed: detectiveStep, investigation, pausedDiscussion };
-                    privateOpen = document.hasFocus() && !document.hidden;
-                }
-            }
-            ctx.feedback("advance");
-            renderRound();
-        } catch (error) {
-            renderRound();
-            if (round.phase === phase) {
-                setMessage(t(error?.code === "invalid_text" ? "local.error.guess" : "local.error.action"));
-            }
-        }
-    }
 
-    function closeReport() {
-        if (!privateOpen || !report) return;
-        if (report.pausedDiscussion) round.resume();
-        report = null;
-        privateOpen = false;
+        try {
+            round.act(id, action);
+        } catch {
+            renderRound({ error: t("local.error.action") });
+            return;
+        }
+        if (round.phase === "reveal") {
+            rememberWords(round.publicState().result);
+            ctx.setRoundActive(false);
+            ctx.feedback("finish");
+        } else ctx.feedback("advance");
         renderRound();
     }
 
     function returnToSetup() {
         renderSetup();
-        root.querySelector("h1")?.focus();
-    }
-
-    function abortRound() {
-        concealPrivate();
-        if (!window.confirm(t("local.round.confirmAbort"))) return;
-        submit(state.players[0].id, "abort");
-    }
-
-    function toggleDiscussion() {
-        if (state.paused) round.resume();
-        else round.pause();
-        renderRound();
-    }
-
-    function updateTimer() {
-        if (!timer) return;
-        const seconds = secondsLeft(state);
-        const display = seconds === null ? t("local.discussion.unlimited")
-            : `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
-        if (timer.textContent !== display) timer.textContent = display;
-    }
-
-    function tick() {
-        if (!round || report || !timer) return;
-        if (round.tick()) {
-            privateOpen = false;
-            renderRound();
-        } else updateTimer();
+        window.scrollTo(0, 0);
+        root.querySelector("h1")?.focus({ preventScroll: true });
     }
 
     const concealOnHidden = () => {
@@ -589,28 +320,25 @@ export function mountLocal(ctx) {
     };
     const concealOnRestore = (event) => {
         if (event.persisted) concealPrivate();
-        tick();
     };
+    function refreshSetup() {
+        if (root.dataset.localPhase === "setup" && !starting) renderSetup();
+    }
 
     window.addEventListener("blur", concealPrivate, { signal });
     window.addEventListener("pagehide", concealPrivate, { signal });
     window.addEventListener("pageshow", concealOnRestore, { signal });
     window.addEventListener("popstate", concealPrivate, { signal, capture: true });
+    window.addEventListener("imposter:language", refreshSetup, { signal });
+    window.addEventListener("imposter:custom-content", refreshSetup, { signal });
     document.addEventListener("visibilitychange", concealOnHidden, { signal });
     document.addEventListener("freeze", concealPrivate, { signal });
-    ctx.setNavigationGuard(() => {
-        concealPrivate();
-        const playing = round && !["reveal", "aborted"].includes(round.phase);
-        return !playing || window.confirm(t("local.round.confirmLeave"));
-    });
-    const clock = window.setInterval(tick, 200);
+
     renderSetup();
     return () => {
-        window.clearInterval(clock);
         editor?.destroy();
-        if (round && !["reveal", "aborted"].includes(round.phase)) ctx.setRoundActive(false);
+        if (round && round.phase !== "reveal") ctx.setRoundActive(false);
         round = null;
-        stage = null;
-        timer = null;
     };
 }
+

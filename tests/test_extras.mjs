@@ -151,7 +151,7 @@ test('reports syntax errors in JSON, the CSV header and a quoted CSV row', () =>
   assertPackageIssues(extras.parseCustomPackage(`${validCsv.trimEnd()}\n"unterminated`, 'csv'));
 });
 
-test('saves, edits and deletes a local package and exposes only the room content fields', () => {
+test('saves, edits and deletes a local package and selects its playable content', () => {
   const custom = glassPackage('-lifecycle');
   const [tumbler] = custom.words;
   const separate = { ...glassPackage('-other-pack'), words: [], pairs: [] };
@@ -164,26 +164,25 @@ test('saves, edits and deletes a local package and exposes only the room content
     assert.equal(extras.getCustomContent().categories.length, 2);
     assert.equal(extras.listCustomPackages().find(item => item.id === custom.id)?.words.length, 2);
 
-    const room = extras.getCustomPackage(custom.id);
-    assert.deepEqual(Object.keys(room).sort(), ['categories', 'pairs', 'words']);
-    assert.deepEqual(room, extras.getCustomContent([custom.id]));
-    assert.deepEqual(room.pairs, normalized.pairs);
-    room.words.pop();
-    assert.equal(extras.getCustomPackage(custom.id).words.length, 2);
+    const content = extras.getCustomContent([custom.id]);
+    assert.deepEqual(Object.keys(content).sort(), ['categories', 'pairs', 'words']);
+    assert.deepEqual(content.pairs, normalized.pairs);
+    content.words.pop();
+    assert.equal(extras.getCustomContent([custom.id]).words.length, 2);
 
     const edited = glassPackage('-lifecycle');
     edited.words[0].languages.sv.hints.normal = 'Till måltiden';
     assert.equal(extras.saveCustomPackage(edited).persisted, true);
     assert.equal(extras.listCustomPackages().filter(item => item.id === custom.id).length, 1);
-    const editedWord = extras.getCustomPackage(custom.id).words.find(word => word.id === tumbler.id);
+    const editedWord = extras.getCustomContent([custom.id]).words.find(word => word.id === tumbler.id);
     assert.equal(editedWord.languages.sv.hints.normal, 'Till måltiden');
 
     const conflict = { ...edited, id: `${custom.id}-conflict` };
     assertPackageIssues(extras.saveCustomPackage(conflict));
-    assert.equal(extras.getCustomPackage(conflict.id), null);
+    assert.equal(extras.listCustomPackages().some(pack => pack.id === conflict.id), false);
 
     assert.equal(extras.deleteCustomPackage(custom.id).persisted, true);
-    assert.equal(extras.getCustomPackage(custom.id), null);
+    assert.equal(extras.listCustomPackages().some(pack => pack.id === custom.id), false);
   } finally {
     extras.deleteCustomPackage(custom.id);
     extras.deleteCustomPackage(separate.id);
@@ -199,10 +198,10 @@ test('keeps a package usable in memory when browser storage is full or blocked',
     assert.equal(saved.ok, true);
     assert.equal(saved.persisted, false);
     assert.deepEqual(storedValues, before);
-    assert.equal(extras.getCustomPackage(custom.id).words.length, 2);
+    assert.equal(extras.getCustomContent([custom.id]).words.length, 2);
 
     readFailure = new DOMException('Storage blocked', 'SecurityError');
-    assert.ok(extras.getCustomPackage(custom.id).words.some(word => word.languages.sv.word === 'Dricksglas'));
+    assert.ok(extras.getCustomContent([custom.id]).words.some(word => word.languages.sv.word === 'Dricksglas'));
   } finally {
     writeFailure = null;
     readFailure = null;
@@ -239,122 +238,5 @@ test('flags a clue once per word, language, level and reason and exports it loca
     assert.deepEqual(extras.listHintFlags().map(flag => flag.language), ['en']);
   } finally {
     extras.clearHintFlags();
-  }
-});
-
-function completedRound(suffix, { source = 'local', civilWin = false } = {}) {
-  const id = `round-${suffix}`;
-  const mode = civilWin ? 'blind' : 'classic';
-  return {
-    roundId: id,
-    sessionId: `session-${source}-test`,
-    source,
-    completedAt: civilWin ? '2026-11-25T12:10:00.000Z' : '2026-11-25T12:00:00.000Z',
-    players: [{ id: 'a', name: 'Åsa' }, { id: 'b', name: 'Bo' }, { id: 'c', name: 'Cleo' }],
-    result: {
-      id,
-      mode,
-      selectedMode: mode,
-      wordId: 'custom-glass-tumbler',
-      word: 'Dricksglas',
-      pairedWordId: null,
-      pairedWord: null,
-      category: 'custom-glass',
-      reused: civilWin,
-      roles: civilWin ? { a: 'civil', b: 'imposter', c: 'civil' } : { a: 'imposter', b: 'civil', c: 'civil' },
-      votes: { a: 'b', b: 'c', c: 'b' },
-      voteWinner: 'b',
-      eliminated: 'b',
-      protected: null,
-      winners: civilWin ? ['a', 'c'] : ['a'],
-      winnerTeam: civilWin ? 'civils' : 'impostors',
-      reason: civilWin ? 'imposter_eliminated' : 'imposter_survived',
-      guess: null,
-      points: civilWin ? { a: 2, b: 0, c: 2 } : { a: 2, b: 0, c: 0 },
-    },
-  };
-}
-
-test('records completed results once each and reports points, roles and games played by mode', () => {
-  extras.clearHistory();
-  const classic = completedRound('classic');
-  const blind = completedRound('blind', { civilWin: true });
-  try {
-    const first = extras.recordRound(classic);
-    assert.equal(first.ok, true);
-    assert.equal(first.added, true);
-    assert.equal(first.persisted, true);
-    assert.equal(extras.recordRound(classic).added, false);
-    assert.equal(extras.recordRound(blind).added, true);
-    assert.equal(extras.recordRound({ ...blind, roundId: 'round-aborted', result: null }).ok, false);
-
-    const history = extras.readHistory();
-    assert.equal(history.length, 2);
-    const stored = history.find(round => round.roundId === classic.roundId);
-    assert.deepEqual(stored.result, classic.result);
-
-    const stats = extras.summarizeHistory();
-    assert.equal(stats.roundCount, 2);
-    assert.deepEqual(stats.byMode, { classic: 1, blind: 1 });
-    const player = stats.players.find(item => item.name === 'Åsa');
-    assert.equal(player.points, 4);
-    assert.equal(player.played, 2);
-    assert.equal(player.wins, 2);
-    assert.equal(player.imposterGames, 1);
-    assert.equal(player.imposterWins, 1);
-    assert.deepEqual(player.byRole, { imposter: { played: 1, wins: 1 }, civil: { played: 1, wins: 1 } });
-    assert.deepEqual(player.byMode, { classic: { played: 1, wins: 1 }, blind: { played: 1, wins: 1 } });
-  } finally {
-    extras.clearHistory();
-  }
-});
-
-test('history JSON round-trips finished online and local rounds and rejects partial imports', () => {
-  extras.clearHistory();
-  try {
-    assert.equal(extras.recordRound(completedRound('local-archive')).added, true);
-    assert.equal(extras.recordRound(completedRound('online-archive', { source: 'online', civilWin: true })).added, true);
-    const exported = extras.serializeHistory();
-    const before = extras.readHistory();
-    assert.deepEqual(JSON.parse(exported), { version: 1, rounds: before });
-    assert.equal(extras.clearHistory().persisted, true);
-    assert.deepEqual(extras.readHistory(), []);
-
-    const imported = extras.importHistory(exported);
-    assert.equal(imported.ok, true);
-    assert.equal(imported.added, 2);
-    assert.equal(imported.persisted, true);
-    assert.deepEqual(extras.readHistory(), before);
-    assert.equal(extras.importHistory(exported).added, 0);
-
-    const incomplete = completedRound('missing-votes');
-    delete incomplete.result.votes;
-    const mixed = JSON.stringify({ version: 1, rounds: [completedRound('valid'), incomplete] });
-    assert.equal(extras.importHistory(mixed).ok, false);
-    assert.deepEqual(extras.readHistory(), before);
-  } finally {
-    extras.clearHistory();
-  }
-});
-
-test('holds completed results in memory when history cannot be saved', () => {
-  extras.clearHistory();
-  writeFailure = new DOMException('Storage full', 'QuotaExceededError');
-  try {
-    const before = new Map(storedValues);
-    const result = extras.recordRound(completedRound('offline-save'));
-    assert.equal(result.ok, true);
-    assert.equal(result.added, true);
-    assert.equal(result.persisted, false);
-    assert.deepEqual(storedValues, before);
-
-    readFailure = new DOMException('Storage blocked', 'SecurityError');
-    assert.equal(extras.readHistory().length, 1);
-    assert.equal(extras.recordRound(completedRound('offline-save')).added, false);
-    assert.equal(extras.summarizeHistory().roundCount, 1);
-  } finally {
-    writeFailure = null;
-    readFailure = null;
-    extras.clearHistory();
   }
 });

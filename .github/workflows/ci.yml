@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Rules, content and browser tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Install test dependencies
+        run: |
+          python -m pip install -r requirements-dev.txt
+          python -m pip check
+          python -m playwright install --with-deps chromium
+      - name: Validate the bilingual word packs
+        run: python tools/validate_content.py
+      - name: Run Python and browser tests
+        run: python -m pytest -q
+      - name: Test JSON and CSV word pack handling
+        run: node --test tests/test_extras.mjs
+
+  docker:
+    name: Docker startup
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Build and start the application
+        run: |
+          docker compose config --quiet
+          docker compose up --build --detach --wait --wait-timeout 90
+          curl --fail --silent --show-error http://127.0.0.1:5000/healthz
+      - name: Show application logs if startup fails
+        if: failure()
+        run: docker compose logs app
+      - name: Stop the test container
+        if: always()
+        run: docker compose down

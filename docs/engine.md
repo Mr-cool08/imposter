@@ -1,11 +1,19 @@
 # Spelmotor
 
-Pythonmodulen `app.game.engine` och JavaScriptmodulen `app/static/js/engine.mjs` använder samma regeldata från `data/rules.json` och samma JSON-fält. De här kontrakten gäller både lokalt spel och onlinespel.
+Imposter Party spelas på en gemensam mobil. JavaScriptmodulen `app/static/js/engine.mjs` använder regeldata från `data/rules.json`. Pythonmodulen `app.game.engine` används som referens i paritetstesterna.
 
-## Start och validering
+## Flödet på mobilen
+
+1. Välj spelare och inställningar. Validera med `profileIssues(settings, playerCount, words, pairs, rules)` och starta med `createRound(players, settings, words, pairs, rules, {used, flow: "table"})`.
+2. Lämna mobilen till en spelare i taget. Vyn hämtar spelarens kort med `privateState(id).card` vid ett aktivt tryck och döljer det före `act(id, "ack_role")`. Efter sista kortet går omgången från `roles` till `playing`.
+3. Gruppen spelar runt bordet och väljer själv ordning, diskussion och när spelet är slut. Knappen för avslöjande anropar `act(id, "reveal_roles")`. Därefter visar `publicState().result` rollerna, huvudord och eventuellt parord samt läget som drogs i Chaos.
+
+`reveal_roles` fungerar först i `playing`. Mellan korten och avslöjandet har `privateState(id).card` värdet `null` och `publicState().result` värdet `null`. Resultatet har samma allmänna form som nedan med `reason: "roles_revealed"`, `winners: []`, `votes: {}`, `points: {}` och `null` för `winnerTeam`, `voteWinner`, `eliminated`, `protected` och `guess`. Spara ord-ID för att undvika upprepning i nästa omgång.
+
+## Start och validering i båda motorerna
 
 - Python `profile_issues(settings, player_count, words, pairs, rules)` och JS `profileIssues(settings, playerCount, words, pairs, rules)` returnerar en lista av `{code, mode}`. `mode` är läges-ID eller `null`. Vid Chaos anges antingen läget för varje ogiltig profil i poolens ordning eller `chaos` för ett fel i gemensamma inställningar.
-- Python `create_round(players, settings, words, pairs, rules, *, rng=None, used=None, now=None)` och JS `createRound(players, settings, words, pairs, rules, {rng, used, now}={})` returnerar ett privat omgångsobjekt. Omgångens `phase` kan läsas direkt. Skicka bara spelar- och vyobjekten nedan till klienten.
+- Python `create_round(players, settings, words, pairs, rules, *, rng=None, used=None, now=None)` och JS `createRound(players, settings, words, pairs, rules, {rng, used, now, flow}={})` returnerar ett privat omgångsobjekt. Omgångens `phase` kan läsas direkt. JS-alternativet `flow: "table"` väljer mobilflödet. Om `flow` utelämnas används referensflödet. Andra uttryckliga värden ger `invalid_data`.
 - `players` är en lista med `{id, name}`. ID:n är unika, icke-tomma strängar. `@all` och `@none` är reserverade. Namn ska innehålla synlig text.
 - `words` och `pairs` har innehållsbibliotekets format. Motorn använder ord med giltig språkversion och applicerar omgångens valda filter. Båda sidorna av ett ordpar måste vara kvar. `categories: []` och `subcategories: []` väljer alla tillgängliga. `levels` är `["familiar"]` som standard och ska innehålla minst en nivå.
 - Inställningarna får standardvärden från regeldata. Inga extra roller väljs med `extraRole: null` eller genom att utelämna fältet. `randomMin: null` och `randomMax: null` lämnar gränsen automatisk. Samma uttryckliga undre och övre gräns ger ett fast antal. En uttrycklig gräns utanför den tillåtna rollfördelningen ger ett fel. Enskilda automatgränser använder den validerade fördelningens yttervärde.
@@ -13,15 +21,17 @@ Pythonmodulen `app.game.engine` och JavaScriptmodulen `app/static/js/engine.mjs`
 - `used` är en lista med tidigare visade ord-ID:n, äldst först. Motorn ändrar aldrig listan. Anroparen lägger till resultatets `wordId` och eventuella `pairedWordId` en gång per avslutad omgång. Vanliga urval drar bland ospelade ord. Parurval drar först bland par med flest ospelade ord. När flera återanvända alternativ återstår undviks senast visade ord i första hand. Alla tillgängliga begrepp i samma urval kan därmed användas innan motorn behöver återgå helt till äldre ord. `reused` i resultatet visar att minst ett draget begrepp har förekommit tidigare.
 - `now` är Unix-millisekunder och utelämnat värde ersätts med aktuell tid. Det valfria slumpgränssnittet `rng()` returnerar ett tal i `[0, 1)`. Produktion använder systemets kryptografiska slump. Testordningen är Chaos-viktat val, slumpat imposterantal i Random, valt ord/par, parorientering om relevant, Fisher–Yates för rolltilldelning från listans slut, eventuellt partner-ID för Accomplice, separat Fisher–Yates för turordning och sist omgångs-ID (`round-` följt av fyra sammanfogade, åtta tecken långa hexvärden). Val mellan kandidater och imposterantal drar ett värde även om ett enda alternativ finns.
 
-## Tillstånd
+## Tillstånd och referensflöde
 
-Python `public_state()` och JS `publicState()` ger samma JSON-objekt, avsett för varje deltagare. Fält med `null` och tomma listor finns med.
+Standardanropet för båda motorerna används för att testa regelmatrisen, fasövergångarna och de fullständiga regelutfallen. Den lokala webbappen använder bara mobilflödet ovan.
+
+Python `public_state()` och JS `publicState()` ger samma JSON-objekt i gemensamt testläge. Lokalvyn använder vyn för den information som gruppen får se. Fält med `null` och tomma listor finns med.
 
 | Fält | Värde |
 | --- | --- |
 | `id` | Unikt omgångs-ID |
 | `mode` | Användarens valda öppna läge eller `chaos` |
-| `phase` | `roles`, `clues`, `abilities`, `discussion`, `voting`, `last_guess`, `reveal` eller `aborted` |
+| `phase` | `roles`, `playing`, `clues`, `abilities`, `discussion`, `voting`, `last_guess`, `reveal` eller `aborted`. `playing` används i mobilflödet |
 | `players` | Lista med omgångens `{id, name}` |
 | `order` | Slumpad turordning som lista med spelar-ID:n |
 | `clueStyle`, `clueRounds`, `discussionSeconds` | Gemensamma omgångsinställningar |
@@ -33,12 +43,12 @@ Python `public_state()` och JS `publicState()` ger samma JSON-objekt, avsett fö
 | `paused`, `deadline`, `remainingMs` | Pausindikator, aktivt Unix-slutvärde eller `null`, samt fryst tid i millisekunder eller `null` |
 | `result` | Resultatobjektet nedan vid `reveal`, annars `null` |
 
-Python `private_state(player_id)` och JS `privateState(playerId)` ger bara den autentiserade spelarens JSON-objekt. Ett okänt ID ger `unknown_player`.
+Python `private_state(player_id)` och JS `privateState(playerId)` ger en spelares privata JSON-objekt. På den gemensamma mobilen ska vyn bara läsa och visa rollkortet för den som håller mobilen. Ett okänt ID ger `unknown_player`.
 
 | Fält | Värde |
 | --- | --- |
 | `playerId` | Berörd spelare |
-| `card` | `{role, word, hint, partners}` i aktiva faser. Ordkorten i Undercover och vanliga civilkort i Chaos använder `role: null`. Övriga rollkort har roll-ID. `word` och `hint` är strängar eller `null`. `partners` är en lista med de övriga kända impostorernas ID:n eller tom. `card` är `null` efter avslöjande eller avbrott |
+| `card` | `{role, word, hint, partners}` i kortfasen. Ordkorten i Undercover och vanliga civilkort i Chaos använder `role: null`. Övriga rollkort har roll-ID. `word` och `hint` är strängar eller `null`. `partners` innehåller kända medspelares ID:n. Referensflödet behåller kortet genom de aktiva faserna |
 | `roleReady`, `abilityReady`, `voted` | Spelarens egna bekräftelser för omgången |
 | `ability` | `detective`, `guardian` eller `null`. Endast satt under privatfasen |
 | `investigation` | `{playerId, impostorTeam}` efter en undersökning. `impostorTeam` är boolesk. Annars `null`. Synligt för detektiven genom de aktiva faserna |
@@ -54,7 +64,7 @@ Python `private_state(player_id)` och JS `privateState(playerId)` ger bara den a
 
 ## Handlingar och faser
 
-`act(player_id, action, data, now)` i Python och `act(playerId, action, data, now)` i JS tar en handling från en känd spelare. `data` är ett objekt och kan utelämnas för handlingar utan data. `act`, `tick(now)`, `pause(now)` och `resume(now)` returnerar `true` efter en ändring. Upprepade eller inaktuella tick-, paus- och återupptagningsanrop returnerar `false` när tillståndet inte ändras. Felaktiga handlingar ger ett motorfel. Rummet ser till att gemensamma kontroller som `end_discussion`, `abort`, `pause` och `resume` bara används av behöriga anropare. Lagret som anropar motorn delar ut poäng från `result` en gång per ID.
+`act(player_id, action, data, now)` i Python och `act(playerId, action, data, now)` i JS tar en handling från en känd spelare. `data` är ett objekt och kan utelämnas för handlingar utan data. `act`, `tick(now)`, `pause(now)` och `resume(now)` returnerar `true` efter en ändring. Upprepade eller inaktuella tick-, paus- och återupptagningsanrop returnerar `false` när tillståndet inte ändras. Felaktiga handlingar ger ett motorfel. Tabellen beskriver referensflödet som omfattas av motortesterna.
 
 | Fas | Handlings-ID och data | Övergång |
 | --- | --- | --- |
@@ -68,9 +78,9 @@ Python `private_state(player_id)` och JS `privateState(playerId)` ger bara den a
 
 Tid räknas under diskussion och sista gissning. `deadline` sätts när en tidsbestämd fas börjar. Paus fryser en eventuell tidsfrist och blockerar handlingar förutom `abort`. Återupptagning sätter en ny tidsfrist utifrån återstående tid. `act` tillämpar förfluten tid före handlingen, så en gissning som kommer vid eller efter tidsfristen avslutar som utebliven. Textledtrådar och gissningar trimmas i ändarna och har högsta längd enligt regeldata, mätt i Unicode-tecken. Gissningsmatchning använder NFC, gemener och sammanpressade blanksteg mot ordet och dess uttryckliga alias.
 
-Om minst en profil i Chaos kan ge sista gissning går alla omgångar i poolen till samma 20 sekunder långa `last_guess`-fas. `canGuess` avgör privat om spelaren har en gissning kvar. Inlämning ändrar inte publik status innan tidsfristen löper ut. Lokalt ska även den här vyn använda en neutral överlämning. Öppna lägen avslöjar direkt när en berörd spelare har gissat eller avstått.
+Om minst en profil i Chaos kan ge sista gissning använder referensflödet samma 20 sekunder långa `last_guess`-fas för alla omgångar i poolen. `canGuess` avgör privat om spelaren har en gissning kvar. Inlämning påverkar resultatet när tidsfristen löper ut. Öppna lägen avslöjar direkt när en berörd spelare har gissat eller avstått.
 
-För gemensam mobil finns JS-metoden `localGuessNominee()`. Under `last_guess` returnerar den det unikt högst röstade spelar-ID:t före skydd och rollregler. Vid lika röster eller gruppval returnerar den första spelaren i ledtrådsordningen. Utanför fasen returnerar den `null`. Lokalvyn använder ID:t för att välja en likadan överlämning i varje Chaos-omgång och tittar på `canGuess` först när den privata vyn öppnas. Metoden ingår bara i det lokala omgångsobjektet.
+JS-referensflödets metod `localGuessNominee()` returnerar det unikt högst röstade spelar-ID:t före skydd och rollregler under `last_guess`. Vid lika röster eller gruppval används den första spelaren i ledtrådsordningen. Utanför fasen returnerar metoden `null`.
 
 Gruppalternativ visas bara när röstfasen öppnar. Öppet `all` eller `none` lägger till sitt eget alternativ. Om något av dessa lägen finns i Chaos-poolen erbjuds båda alternativen vid varje röstning i den poolen. Ett unikt gruppval räknas aldrig som att någon person blivit utröstad.
 

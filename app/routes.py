@@ -1,18 +1,13 @@
 from __future__ import annotations
 
 import hashlib
-import io
 import json
-import re
 from pathlib import Path
 
-import qrcode
-from flask import Response, abort, jsonify, render_template, request, url_for
-from qrcode.image.svg import SvgPathImage
+from flask import Response, abort, jsonify, render_template
 
 KNOWN_LANGUAGES = ("sv", "en")
 STATIC_EXTENSIONS = {".css", ".mjs", ".js", ".png", ".svg", ".webp", ".ico", ".woff2", ".wav", ".mp3"}
-ROOM_CODE = re.compile(r"[A-Z0-9]{4,10}")
 
 
 def read_translations(data_dir: Path) -> dict:
@@ -21,8 +16,8 @@ def read_translations(data_dir: Path) -> dict:
         messages = {}
         for source in sorted((data_dir / "i18n").glob(f"*.{language}.json")):
             fragment = json.loads(source.read_text(encoding="utf-8"))
-            if not isinstance(fragment, dict):
-                raise ValueError(f"Translation fragment {source.name} must be a JSON object")
+            if not isinstance(fragment, dict) or any(not isinstance(value, str) for value in fragment.values()):
+                raise ValueError(f"Translation fragment {source.name} must map keys to strings")
             duplicate = messages.keys() & fragment.keys()
             if duplicate:
                 raise ValueError(f"Repeated translation keys in {source.name}: {', '.join(sorted(duplicate))}")
@@ -71,15 +66,13 @@ def register_routes(app, data_dir: Path) -> None:
         response.headers.setdefault("X-Frame-Options", "DENY")
         return response
 
-    @app.get("/", defaults={"code": None})
-    @app.get("/join/<code>")
-    def home(code):
+    @app.get("/")
+    def home():
         return render_template(
             "index.html",
             app_name=app.config["APP_NAME"],
             slogans=app.config["SLOGANS"],
             slogan=app.config["SLOGANS"]["sv"],
-            public_origin=app.config["PUBLIC_ORIGIN"],
         )
 
     @app.get("/healthz")
@@ -143,13 +136,3 @@ def register_routes(app, data_dir: Path) -> None:
             "Cache-Control": "no-cache",
         })
 
-    @app.get("/api/qr/<code>.svg")
-    def qr_join(code):
-        code = code.upper()
-        if not ROOM_CODE.fullmatch(code):
-            abort(404)
-        origin = app.config["PUBLIC_ORIGIN"] or request.host_url.rstrip("/")
-        image = qrcode.make(origin + url_for("home", code=code), image_factory=SvgPathImage)
-        output = io.BytesIO()
-        image.save(output)
-        return Response(output.getvalue(), mimetype="image/svg+xml", headers={"Cache-Control": "no-store"})

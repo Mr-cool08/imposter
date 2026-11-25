@@ -1,13 +1,10 @@
 .extras-view,
-.extras-entry,
-.extras-history__details {
+.extras-entry {
   min-inline-size: 0;
   overflow-wrap: anywhere;
 }
 
-.extras-grid,
-.extras-history__filters,
-.extras-history__metrics {
+.extras-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
   gap: 1rem;
@@ -43,17 +40,14 @@
   font-weight: 700;
 }
 
-.extras-list,
-.extras-history__list,
-.extras-history__rankings {
+.extras-list {
   display: grid;
   gap: 0.75rem;
   margin-block: 0;
   padding-inline-start: 1.25rem;
 }
 
-.extras-list:has(> .extras-entry),
-.extras-history__list {
+.extras-list:has(> .extras-entry) {
   padding-inline-start: 0;
   list-style: none;
 }
@@ -72,8 +66,7 @@
 
 .extras-entry p,
 .extras-preview-card p,
-.extras-preview-card h3,
-.extras-history__metrics dd {
+.extras-preview-card h3 {
   margin: 0;
 }
 
@@ -97,14 +90,7 @@
   inline-size: min(100%, 30rem);
 }
 
-.extras-view summary,
-.extras-history__details summary {
+.extras-view summary {
   cursor: pointer;
   font-weight: 700;
-}
-
-.extras-history__output,
-.extras-history__issues {
-  min-inline-size: 0;
-  overflow-wrap: anywhere;
 }

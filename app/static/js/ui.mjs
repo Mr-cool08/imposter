@@ -1,43 +1,35 @@
-import { clearHistory, readHistory, recordRound } from "./extras-history.mjs";
-
-const routes = new Set(["home", "local", "online", "custom", "history", "rules"]);
-const modes = ["classic", "random", "all", "none", "reverse", "joker", "undercover", "alliance", "blind", "chaos"];
-const roles = ["civil", "imposter", "joker", "detective", "guardian", "spy", "accomplice", "double_agent", "undercover"];
-const mounts = {
-  local: () => import("./local.mjs").then(module => module.mountLocal),
-  online: () => import("./online.mjs").then(module => module.mountOnline),
-  history: () => import("./extras.mjs").then(module => module.mountExtras),
-  custom: () => import("./extras.mjs").then(module => module.mountExtras),
-};
-
-const main = document.querySelector("#app-view");
-const notice = document.querySelector("#app-notice");
-const languageInput = document.querySelector("#app-language");
-const themeInput = document.querySelector("#app-theme");
-const soundInput = document.querySelector("#app-sound");
-const vibrationInput = document.querySelector("#app-vibration");
-const rememberInput = document.querySelector("#app-remember-names");
-const resetPreferences = document.querySelector("#app-reset-preferences");
-const preferencesMenu = document.querySelector("#preferences-menu");
-const offlineMenu = document.querySelector("#offline-menu");
-const offlineTools = document.querySelector("#offline-tools");
+const byId = (id) => document.getElementById(id);
+const main = byId("app-view");
+const localRoot = byId("local-view");
+const wordTools = byId("word-tools");
+const wordToolsRoot = byId("word-tools-view");
+const openWords = byId("open-word-tools");
+const closeWords = byId("close-word-tools");
+const notice = byId("app-notice");
+const preferencesMenu = byId("preferences-menu");
+const offlineTools = byId("offline-tools");
 const themeColor = document.querySelector('meta[name="theme-color"]');
-const defaultPreferences = { language: "sv", theme: "dark", sound: false, vibration: false, rememberNames: true };
+const languageInput = byId("app-language");
+const themeInput = byId("app-theme");
+const soundInput = byId("app-sound");
+const vibrationInput = byId("app-vibration");
+const rememberInput = byId("app-remember-names");
+const resetPreferences = byId("app-reset-preferences");
+const slogan = byId("app-slogan");
 const appName = document.body.dataset.appName;
+const defaultPreferences = { language: "sv", theme: "dark", sound: false, vibration: false, rememberNames: true };
 
-const unsaved = new Map();
 const translations = new Map();
+const unsaved = new Map();
 let prefs = { ...defaultPreferences };
 let messages = {};
-let current = null;
-let activeRound = false;
-let onlineView = null;
-const activeRounds = { local: false, online: false };
 let storageUnavailable = false;
-let nextReset = false;
+let activeRound = false;
+let languageChange = 0;
+let localView;
+let wordsView;
 let rulesPromise;
 let audio;
-let languageChange = 0;
 
 const storage = {
   get(key, fallback = null) {
@@ -82,8 +74,6 @@ function el(tag, attrs = {}, ...children) {
       node.addEventListener(key.slice(2).toLowerCase(), value);
     } else if (key === "dataset") {
       Object.assign(node.dataset, value);
-    } else if (key === "style" && typeof value === "object") {
-      Object.assign(node.style, value);
     } else {
       const attribute = { className: "class", htmlFor: "for", tabIndex: "tabindex" }[key] ?? key;
       node.setAttribute(attribute, value === true && !key.startsWith("aria-") ? "" : String(value));
@@ -114,50 +104,14 @@ function t(key, values = {}) {
 }
 
 function notify(message, { error = false } = {}) {
-  if (!message) {
-    notice.hidden = true;
-    notice.textContent = "";
-    return;
-  }
+  notice.hidden = !message;
   notice.dataset.error = String(error);
-  notice.hidden = false;
-  notice.textContent = message;
+  notice.textContent = message ?? "";
 }
 
 function showStorageWarning() {
   storageUnavailable = true;
-  if (Object.hasOwn(messages, "ui.storageWarning")) {
-    notify(t("ui.storageWarning"), { error: true });
-  }
-}
-
-function saveResult(result, source, options = {}) {
-  const { players = result.players, sessionId, completedAt = result.finishedAt, category } = options;
-  const saved = recordRound({
-    roundId: result.id,
-    result,
-    source,
-    players,
-    sessionId,
-    completedAt,
-    category,
-  });
-  if (!saved.ok) notify(t("ui.historyError"), { error: true });
-  else if (!saved.persisted) showStorageWarning();
-  return saved;
-}
-
-function readResults() {
-  return readHistory().map(entry => ({
-    ...entry.result, source: entry.source, players: entry.players,
-    finishedAt: entry.completedAt, sessionId: entry.sessionId,
-  }));
-}
-
-function clearResults() {
-  const cleared = clearHistory();
-  if (!cleared.persisted) showStorageWarning();
-  return cleared;
+  if (Object.hasOwn(messages, "ui.storageWarning")) notify(t("ui.storageWarning"), { error: true });
 }
 
 function rules() {
@@ -173,13 +127,11 @@ function rules() {
   return rulesPromise;
 }
 
-function setRoundActive(route, active) {
-  activeRounds[route] = Boolean(active);
-  const next = activeRounds.local || activeRounds.online;
+function setRoundActive(active) {
+  const next = Boolean(active);
   if (next === activeRound) return;
   activeRound = next;
-  languageInput.disabled = next;
-  resetPreferences.disabled = next;
+  if (next) preferencesMenu.open = false;
   window.dispatchEvent(new CustomEvent("imposter:round-state", { detail: { active: next } }));
 }
 
@@ -207,175 +159,78 @@ function feedback(kind) {
     tone.stop(start + 0.18);
     audio.resume().catch(() => {});
   } catch {
-    // Playback is optional on devices with a restricted audio context.
+    // Sound is optional on devices that restrict an audio context.
   }
 }
 
-function modeName(id) {
-  return t("ui.mode." + id);
-}
-
-function roleName(id) {
-  return t("rules.roleName." + id);
-}
-
-function rulesView(target, { mode, profiles } = {}) {
-  const visibleModes = mode === "chaos" && profiles?.length
-    ? [...new Set(profiles.map(profile => profile.mode))].filter(id => modes.includes(id))
-    : mode ? [mode] : modes;
-  const ruleCards = (items, heading, title, description) =>
-    el("section", { class: "stack" },
-      el("h2", {}, t(heading)),
-      el("div", { class: "rule-grid" }, items.map(id =>
-        el("article", { class: "panel panel--subtle rule-card" },
-          el("h3", {}, title(id)), el("p", { class: "muted" }, t(description + id))))));
-  const basics = el("div", { class: "rule-grid" }, [
-    ["rules.flowTitle", "rules.flow"],
-    ["rules.voteTitle", "rules.vote"],
-    ["rules.guessTitle", "rules.guess"],
-    ["rules.abilitiesTitle", "rules.abilities"],
-  ].map(([heading, text]) =>
-    el("article", { class: "panel rule-card" }, el("h3", {}, t(heading)), el("p", {}, t(text)))));
-  target.replaceChildren(el("div", { class: "game-rules" },
-    (!mode || mode === "chaos") && el("p", { class: "notice" }, t("rules.chaosPrivacy")),
-    ruleCards(visibleModes, "rules.modesTitle", modeName, "rules.mode."),
-    basics,
-    !mode && ruleCards(roles, "rules.rolesTitle", roleName, "rules.role."),
-  ));
-}
-
-function context(root, route, view, joinCode = null) {
+function context(root, view, route) {
   return {
-    root, route, joinCode, signal: view?.abort.signal,
+    root, route, signal: view?.abort.signal,
     get lang() { return prefs.language; },
-    navigate, t, el, button, notify, storage, rules, modeName, roleName, rulesView,
-    saveResult, readResults, clearResults, feedback,
+    t, el, button, notify, storage, rules, feedback,
+    modeName: id => t("ui.mode." + id),
+    roleName: id => t("rules.roleName." + id),
     preferences: () => ({ ...prefs }),
     isRoundActive: () => activeRound,
     setRoundActive(active) {
-      if ((route === "local" && current === view) || (route === "online" && onlineView === view)) {
-        setRoundActive(route, active);
-      }
+      if (route === "local" && localView === view) setRoundActive(active);
     },
     setNavigationGuard(handler) {
-      if (view && current === view) view.guard = handler;
+      if (view) view.guard = handler;
     },
   };
 }
 
-function renderHome(root) {
-  const art = el("div", { class: "hero-art", "aria-hidden": "true" },
-    el("span", { class: "hero-orbit" }),
-    el("span", { class: "hero-card hero-card--back" }),
-    el("span", { class: "hero-card hero-card--middle" }),
-    el("span", { class: "hero-card hero-card--front" },
-      el("span", { class: "hero-card__corner" }, "✦"),
-      el("span", { class: "hero-card__symbol" }, "?"),
-      el("span", { class: "hero-card__corner hero-card__corner--end" }, "✦")));
-  const option = (route, icon, primary = false) =>
-    el("a", {
-      href: "/#" + route,
-      class: "play-option" + (primary ? " play-option--primary" : ""),
-      "data-route": route,
-      "data-testid": "play-" + route,
-    },
-    el("span", { class: "play-option__icon", "aria-hidden": "true" }, icon),
-    el("span", { class: "play-option__text" },
-      el("strong", {}, t("ui." + route)), el("small", {}, t("ui." + route + "Description"))),
-    el("span", { class: "play-option__arrow", "aria-hidden": "true" }, "↗"));
-  const slogan = prefs.language === "en" ? document.body.dataset.sloganEn : document.body.dataset.sloganSv;
-  root.replaceChildren(
-    el("section", { class: "home-hero", "aria-labelledby": "home-title" },
-      el("div", { class: "home-hero__copy" },
-        el("p", { class: "home-slogan" }, slogan),
-        el("h1", { id: "home-title" }, appName),
-        el("p", { class: "home-hero__description" }, t("ui.homeDescription"))),
-      art),
-    el("section", { class: "play-options", "aria-label": t("ui.playOptions") },
-      option("local", "", true), option("online", "↔")));
+function loadError(root, retry) {
+  root.replaceChildren(el("div", { class: "panel stack" },
+    el("p", { class: "error", role: "alert" }, t("ui.loadError")), button(t("ui.retry"), retry)));
 }
 
-function renderRules(root) {
-  const content = el("div");
-  root.replaceChildren(
-    el("header", { class: "page-header" },
-      el("h1", {}, t("rules.title")), el("p", { class: "muted" }, t("rules.intro"))),
-    content);
-  rulesView(content);
+async function mountLocalView() {
+  if (localView) {
+    localView.abort.abort();
+    localView.cleanup?.();
+  }
+  const view = { abort: new AbortController() };
+  localView = view;
+  try {
+    const { mountLocal } = await import("./local.mjs");
+    if (localView === view) view.cleanup = mountLocal(context(localRoot, view, "local"));
+  } catch {
+    if (localView === view) loadError(localRoot, mountLocalView);
+  }
 }
 
-function routeFromLocation() {
-  const fragment = location.hash.slice(1);
-  const invite = location.pathname.match(/^\/join\/([A-Z0-9]{4,10})\/?$/i);
-  if (routes.has(fragment)) return { route: fragment, joinCode: fragment === "online" ? invite?.[1].toUpperCase() ?? null : null };
-  return invite
-    ? { route: "online", joinCode: invite[1].toUpperCase() }
-    : { route: "home", joinCode: null };
-}
-
-function viewURL(route, joinCode) {
-  return joinCode && route === "online" ? "/join/" + joinCode : "/#" + route;
-}
-
-function closeMenus() {
+async function showWordTools() {
+  if (activeRound || wordsView) return;
   preferencesMenu.open = false;
-  offlineMenu.open = false;
-}
-
-function navigate(route) {
-  if (!routes.has(route)) return false;
-  return activate({ route, joinCode: null }, { push: true, focus: true });
-}
-
-function activate({ route, joinCode }, { force = false, push = false, focus = false } = {}) {
-  if (!force && current?.route === route && current.joinCode === joinCode) return true;
-  if (!force && current?.guard?.() === false) {
-    if (!push) history.pushState(null, "", viewURL(current.route, current.joinCode));
-    return false;
-  }
-  if (push) history.pushState(null, "", viewURL(route, joinCode));
-  if (focus) closeMenus();
-  const old = current;
-  const view = { route, joinCode, abort: new AbortController(), cleanup: null, guard: null };
-  current = view;
-  if (route === "online") onlineView = view;
-  old?.abort.abort();
-  old?.cleanup?.();
-  if (old?.route === "local") setRoundActive("local", false);
-  const root = el("div", { class: "app-view", "data-view": route });
-  main.replaceChildren(root);
-  document.querySelectorAll(".site-header [data-route]").forEach(link => {
-    if (link.dataset.route === route) link.setAttribute("aria-current", "page");
-    else link.removeAttribute("aria-current");
-  });
-  if (focus) {
-    main.focus();
-    window.scrollTo(0, 0);
-  }
-  if (route === "home") renderHome(root);
-  else if (route === "rules") renderRules(root);
-  else {
-    root.append(el("p", { class: "notice", role: "status" }, t("ui.loading")));
-    mounts[route]().then(mount => {
-      if (current !== view) return undefined;
-      if (typeof mount !== "function") throw new TypeError("Missing view mount");
-      root.replaceChildren();
-      return mount(context(root, route, view, joinCode));
-    }).then(cleanup => {
-      if (typeof cleanup !== "function") return;
-      if (current === view) view.cleanup = cleanup;
-      else cleanup();
-    }).catch(() => {
-      if (view.abort.signal.aborted) return;
-      root.replaceChildren(el("section", { class: "panel stack" },
-        el("h1", {}, t("ui.viewErrorTitle")),
-        el("p", {}, t("ui.viewError")),
-        el("div", { class: "cluster" },
-          button(t("ui.retry"), () => activate({ route, joinCode }, { force: true })),
-          button(t("ui.home"), () => navigate("home"), { variant: "secondary" }))));
+  localRoot.hidden = true;
+  wordTools.hidden = false;
+  closeWords.focus();
+  wordToolsRoot.replaceChildren(el("p", { class: "muted", role: "status" }, t("ui.loading")));
+  const view = { abort: new AbortController() };
+  wordsView = view;
+  try {
+    const { mountExtras } = await import("./extras.mjs");
+    if (wordsView === view) view.cleanup = mountExtras(context(wordToolsRoot, view, "custom"));
+  } catch {
+    if (wordsView === view) loadError(wordToolsRoot, () => {
+      closeWordTools();
+      void showWordTools();
     });
   }
-  return true;
+}
+
+function closeWordTools() {
+  if (!wordsView || wordsView.guard?.() === false) return;
+  wordsView.abort.abort();
+  wordsView.cleanup?.();
+  wordsView = null;
+  wordToolsRoot.replaceChildren();
+  wordTools.hidden = true;
+  localRoot.hidden = false;
+  window.dispatchEvent(new Event("imposter:custom-content"));
+  main.focus();
 }
 
 async function getMessages(language) {
@@ -390,13 +245,10 @@ async function getMessages(language) {
 function useMessages(dictionary) {
   messages = dictionary;
   document.documentElement.lang = prefs.language;
-  const slogan = prefs.language === "en" ? document.body.dataset.sloganEn : document.body.dataset.sloganSv;
-  document.title = appName + " · " + slogan;
+  slogan.textContent = prefs.language === "en" ? document.body.dataset.sloganEn : document.body.dataset.sloganSv;
+  document.title = appName + " · " + slogan.textContent;
   document.querySelectorAll("[data-i18n]").forEach(node => {
     node.textContent = t(node.dataset.i18n);
-  });
-  document.querySelectorAll("[data-i18n-label]").forEach(node => {
-    node.setAttribute("aria-label", t(node.dataset.i18nLabel));
   });
   if (storageUnavailable) showStorageWarning();
 }
@@ -415,24 +267,18 @@ function updateInputs() {
   rememberInput.checked = prefs.rememberNames;
 }
 
-async function changeLanguage(language, { remount = true } = {}) {
+async function changeLanguage(language, { refresh = true } = {}) {
   const request = ++languageChange;
-  if (activeRound || language === prefs.language) {
-    languageInput.value = prefs.language;
-    return;
-  }
   try {
+    if (activeRound || language === prefs.language) return;
     const dictionary = await getMessages(language);
     if (request !== languageChange || activeRound) return;
-    if (remount && current?.guard?.() === false) return;
     prefs.language = language;
     storage.set("preferences", prefs);
     useMessages(dictionary);
-    window.dispatchEvent(new CustomEvent("imposter:language", { detail: { language } }));
-    if (remount) activate(routeFromLocation(), { force: true });
+    if (refresh) window.dispatchEvent(new CustomEvent("imposter:language", { detail: { language } }));
   } catch {
-    if (request !== languageChange) return;
-    notify(t("ui.languageError"), { error: true });
+    if (request === languageChange) notify(t("ui.languageError"), { error: true });
   } finally {
     if (request === languageChange) languageInput.value = prefs.language;
   }
@@ -440,34 +286,20 @@ async function changeLanguage(language, { remount = true } = {}) {
 
 function wireControls() {
   document.addEventListener("click", event => {
-    const link = event.target.closest("a[data-route]");
-    if (link && event.button === 0 && !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey) {
-      event.preventDefault();
-      navigate(link.dataset.route);
-    }
-    if (!event.target.closest(".site-tool")) closeMenus();
+    if (!event.target.closest("#preferences-menu")) preferencesMenu.open = false;
   });
   document.querySelector(".skip-link").addEventListener("click", event => {
     event.preventDefault();
     main.focus();
   });
   document.addEventListener("keydown", event => {
-    if (event.key !== "Escape") return;
-    const openMenu = document.querySelector(".site-tool[open]");
-    if (openMenu) {
-      closeMenus();
-      openMenu.querySelector("summary").focus();
+    if (event.key === "Escape" && preferencesMenu.open) {
+      preferencesMenu.open = false;
+      preferencesMenu.querySelector("summary").focus();
     }
   });
-  preferencesMenu.addEventListener("toggle", () => {
-    if (preferencesMenu.open) offlineMenu.open = false;
-  });
-  offlineMenu.addEventListener("toggle", () => {
-    if (offlineMenu.open) preferencesMenu.open = false;
-  });
-  const syncURL = () => activate(routeFromLocation(), { focus: true });
-  window.addEventListener("popstate", syncURL);
-  window.addEventListener("hashchange", syncURL);
+  openWords.addEventListener("click", showWordTools);
+  closeWords.addEventListener("click", closeWordTools);
   languageInput.addEventListener("change", () => changeLanguage(languageInput.value));
   themeInput.addEventListener("change", () => {
     prefs.theme = themeInput.value;
@@ -478,29 +310,26 @@ function wireControls() {
     input.addEventListener("change", () => {
       prefs[key] = input.checked;
       storage.set("preferences", prefs);
-      if (key === "rememberNames" && !input.checked) {
-        storage.remove("localPlayers");
-        storage.remove("onlineName");
-      } else if (key !== "rememberNames" && input.checked) feedback("advance");
+      if (key === "rememberNames" && !input.checked) storage.remove("localPlayers");
+      else if (key !== "rememberNames" && input.checked) feedback("advance");
     });
   });
   resetPreferences.addEventListener("click", async () => {
-    if (nextReset || activeRound || current?.guard?.() === false || !window.confirm(t("ui.confirmReset"))) return;
-    nextReset = true;
+    if (activeRound || !window.confirm(t("ui.confirmReset"))) return;
+    resetPreferences.disabled = true;
     try {
-      await changeLanguage(defaultPreferences.language, { remount: false });
+      await changeLanguage(defaultPreferences.language);
       if (activeRound) return;
       prefs = { ...defaultPreferences, language: prefs.language };
       storage.remove("localSettings");
       storage.remove("localPlayers");
-      storage.remove("onlineName");
       storage.set("preferences", prefs);
       window.dispatchEvent(new Event("imposter:local-settings"));
       updateInputs();
-      activate(routeFromLocation(), { force: true });
+      await mountLocalView();
       if (!storageUnavailable) notify(t("ui.resetDone"));
     } finally {
-      nextReset = false;
+      resetPreferences.disabled = false;
     }
   });
 }
@@ -527,17 +356,16 @@ async function boot() {
     }
     useMessages(dictionary);
   } catch {
-    main.replaceChildren(el("section", { class: "panel stack" },
-      el("h1", {}, appName),
-      el("p", {}, prefs.language === "en"
-        ? "The interface could not load. Reconnect and try again."
-        : "Gränssnittet kunde inte laddas. Anslut och försök igen."),
+    localRoot.replaceChildren(el("section", { class: "panel stack" },
+      el("p", { class: "error", role: "alert" }, prefs.language === "en"
+        ? "The game could not load. Reconnect and try again."
+        : "Spelet kunde inte laddas. Anslut och försök igen."),
       button(prefs.language === "en" ? "Try again" : "Försök igen", () => location.reload())));
     return;
   }
   wireControls();
-  activate(routeFromLocation());
-  import("./offline.mjs").then(module => module.mountOffline(context(offlineTools, "home", null)))
+  void mountLocalView();
+  import("./offline.mjs").then(module => module.mountOffline(context(offlineTools, null, "local")))
     .catch(() => {
       offlineTools.replaceChildren(el("p", { class: "error" }, t("ui.offlineError")));
     });

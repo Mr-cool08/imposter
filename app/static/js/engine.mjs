@@ -6,6 +6,7 @@ const COMMON_SETTINGS = [
 const PHASE_ACTIONS = new Map([
   ["ack_role", "roles"], ["clue", "clues"], ["ability", "abilities"],
   ["end_discussion", "discussion"], ["vote", "voting"], ["guess", "last_guess"],
+  ["reveal_roles", "playing"],
 ]);
 const FINISHED_PHASES = new Set(["reveal", "aborted"]);
 
@@ -318,11 +319,12 @@ function checkedPlayers(players, rules) {
   });
 }
 
-export function createRound(players, settings, words, pairs, rules, { rng, used, now } = {}) {
+export function createRound(players, settings, words, pairs, rules, { rng, used, now, flow } = {}) {
   const roster = checkedPlayers(players, rules);
   const { selected, profiles, content, issues } = prepare(settings, roster.length, words, pairs, rules);
   if (issues.length) throw new EngineError(issues[0].code, issues);
   instant(now);
+  if (flow !== undefined && flow !== "table") throw new EngineError("invalid_data");
   const random = rng ?? randomValue;
   const chaos = selected.mode === "chaos";
   const profile = chaos ? chooseProfile(profiles, random) : profiles[0];
@@ -338,6 +340,7 @@ export function createRound(players, settings, words, pairs, rules, { rng, used,
   const neutralGuess = chaos && profiles.some(({ settings }) => settings.lastGuess);
   return new Round({
     id, roster, ids, selected, profile, chosen, roles, order, rules, groupOptions, neutralGuess,
+    table: flow === "table",
   });
 }
 
@@ -407,9 +410,10 @@ class Round {
   privateState(playerId) {
     const role = this.#role(playerId);
     const active = !FINISHED_PHASES.has(this.#phase);
+    const cardAvailable = this.#round.table ? this.#phase === "roles" : active;
     const result = active ? this.#investigations.get(playerId) : null;
     return {
-      playerId, card: active ? this.#card(playerId, role) : null,
+      playerId, card: cardAvailable ? this.#card(playerId, role) : null,
       roleReady: this.#roleReady.has(playerId), abilityReady: this.#abilityReady.has(playerId),
       voted: this.#votes.has(playerId),
       ability: this.#phase === "abilities" && (role === "guardian" || role === "detective") ? role : null,
@@ -461,7 +465,9 @@ class Round {
       case "ack_role":
         if (this.#roleReady.has(playerId)) throw new EngineError("already_done");
         this.#roleReady.add(playerId);
-        if (this.#roleReady.size === this.#round.ids.length) this.#phase = "clues";
+        if (this.#roleReady.size === this.#round.ids.length) {
+          this.#phase = this.#round.table ? "playing" : "clues";
+        }
         break;
       case "clue":
         this.#clue(playerId, data.text, now);
@@ -477,6 +483,9 @@ class Round {
         break;
       case "guess":
         this.#submitGuess(playerId, data.text ?? null);
+        break;
+      case "reveal_roles":
+        this.#revealTable();
         break;
     }
     return true;
@@ -629,8 +638,26 @@ class Round {
     this.#remainingMs = null;
   }
 
+  #revealDetails() {
+    const { id, selected, profile, chosen, roles } = this.#round;
+    return {
+      id, mode: profile.settings.mode, selectedMode: selected.mode, wordId: chosen.word.id,
+      word: chosen.word.word, pairedWordId: chosen.pairedWord?.id ?? null,
+      pairedWord: chosen.pairedWord?.word ?? null, category: chosen.word.category,
+      reused: chosen.reused, roles: Object.fromEntries(roles.assignments),
+    };
+  }
+
+  #revealTable() {
+    this.#result = {
+      ...this.#revealDetails(), votes: {}, voteWinner: null, eliminated: null, protected: null,
+      winners: [], winnerTeam: null, reason: "roles_revealed", guess: null, points: {},
+    };
+    this.#finish("reveal");
+  }
+
   #reveal() {
-    const { id, ids, selected, profile, chosen, roles, rules } = this.#round;
+    const { ids, roles, rules } = this.#round;
     const { voteWinner, eliminated, protected: protectedPlayer } = this.#verdict;
     let { winnerTeam, reason } = this.#verdict;
     if (this.#guess !== null) {
@@ -656,10 +683,7 @@ class Round {
     const winnersSet = new Set(winners);
     const winnerPoints = winnerTeam === "joker" ? rules.jokerPoints : rules.teamPoints;
     this.#result = {
-      id, mode: profile.settings.mode, selectedMode: selected.mode, wordId: chosen.word.id,
-      word: chosen.word.word, pairedWordId: chosen.pairedWord?.id ?? null,
-      pairedWord: chosen.pairedWord?.word ?? null, category: chosen.word.category,
-      reused: chosen.reused, roles: Object.fromEntries(roles.assignments),
+      ...this.#revealDetails(),
       votes: Object.fromEntries(ids.map(playerId => [playerId, this.#votes.get(playerId)])),
       voteWinner, eliminated, protected: protectedPlayer, winners, winnerTeam, reason, guess: this.#guess,
       points: Object.fromEntries(ids.map(playerId => [playerId, winnersSet.has(playerId) ? winnerPoints : 0])),

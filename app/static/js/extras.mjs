@@ -1,7 +1,4 @@
 import { CUSTOM_LIMITS, exportCustomCSV, loadManifest, loadPack, parseCustomCSV, validateCustom } from "./content.mjs";
-import { mountHistory } from "./extras-history.mjs";
-
-export { clearHistory, importHistory, mountHistory, readHistory, recordRound, serializeHistory, summarizeHistory } from "./extras-history.mjs";
 
 const LANGUAGES = ["sv", "en"];
 const HINT_LEVELS = ["easy", "normal", "hard"];
@@ -129,11 +126,6 @@ export function listCustomPackages() {
   return copy(packages.read());
 }
 
-export function getCustomPackage(id) {
-  const selected = packages.read().find(packed => packed.id === id);
-  return selected ? copy(contentPart(selected)) : null;
-}
-
 function combinePackages(selected) {
   return {
     categories: selected.flatMap(packed => packed.categories),
@@ -230,7 +222,6 @@ function blankWord(category) {
 }
 
 export function mountExtras(ctx) {
-  if (ctx.route === "history") return mountHistory(ctx.root, { ...ctx, customCategories: getCustomContent().categories });
   const { root, el: e, lang, signal } = ctx;
   const t = (key, values) => ctx.t(`extras.${key}`, values);
   const button = (key, action, attrs = {}) => ctx.button(t(key), action, attrs);

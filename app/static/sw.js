@@ -18,7 +18,7 @@ const shellPaths = new Set([
     catalogPath,
     "/api/content/rules",
     ...Object.values(languagePaths),
-    ...assets.filter((asset) => /^\/static\/(?:css|js|icons|vendor)\/[A-Za-z0-9._/-]+$/.test(asset)),
+    ...assets.filter((asset) => /^\/static\/(?:css|js|icons)\/[A-Za-z0-9._/-]+$/.test(asset)),
 ]);
 
 function publicRequest(path) {
@@ -148,7 +148,7 @@ self.addEventListener("fetch", (event) => {
     if (request.method !== "GET" || origin !== self.location.origin
         || request.headers.has("Authorization")) return;
 
-    if (request.mode === "navigate" && (pathname === "/" || /^\/join\/[a-z0-9]{4,12}\/?$/i.test(pathname))) {
+    if (request.mode === "navigate" && pathname === "/") {
         event.respondWith(serveShellPath("/"));
     } else if (!search && shellPaths.has(pathname)) {
         event.respondWith(serveShellPath(pathname));

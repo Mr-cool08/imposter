@@ -3,10 +3,9 @@ import { profileIssues } from "./engine.mjs";
 import { getCustomContent } from "./extras.mjs";
 
 const modes = ["classic", "random", "all", "none", "reverse", "joker", "undercover", "alliance", "blind", "chaos"];
-const extraRoles = ["detective", "guardian", "spy", "accomplice", "double_agent"];
+const extraRoles = ["spy", "accomplice", "double_agent"];
 const levels = ["familiar", "intermediate", "expert"];
 const extraModes = ["classic", "random", "blind", "alliance"];
-const guessModes = [...extraModes, "joker"];
 const categoryIcons = {
     minecraft: "⬢", "clash-royale": "♜", games: "✦", everyday: "▦", technology: "⌘",
     food: "◒", animals: "❉", nature: "✿", sports: "◉", vehicles: "➤", "film-tv": "▣",
@@ -14,15 +13,12 @@ const categoryIcons = {
 };
 
 export const DEFAULT_SETTINGS = Object.freeze({
+    freePlay: true,
     mode: "classic",
     joker: false,
     extraRole: null,
     randomMin: null,
     randomMax: null,
-    lastGuess: false,
-    clueRounds: 1,
-    discussionSeconds: 60,
-    clueStyle: "oral",
     language: "sv",
     hint: "normal",
     subcategories: Object.freeze([]),
@@ -30,7 +26,7 @@ export const DEFAULT_SETTINGS = Object.freeze({
     chaos: Object.freeze([]),
 });
 
-const profileDefaults = { joker: false, extraRole: null, randomMin: null, randomMax: null, lastGuess: false };
+const profileDefaults = { joker: false, extraRole: null, randomMin: null, randomMax: null };
 
 function newProfile(mode) {
     return { mode, ...profileDefaults, weight: 1 };
@@ -44,24 +40,33 @@ function chosenIds(value, fallback) {
     return Array.isArray(value) ? [...new Set(value.filter((id) => typeof id === "string"))] : fallback;
 }
 
-function readSettings(settings, language, includeClueStyle) {
-    const value = { ...DEFAULT_SETTINGS, language, ...settings };
-    value.mode = choose(value.mode, modes, DEFAULT_SETTINGS.mode);
-    value.language = choose(value.language, ["sv", "en"], language);
-    value.hint = choose(value.hint, ["easy", "normal", "hard"], DEFAULT_SETTINGS.hint);
-    value.clueRounds = choose(value.clueRounds, [1, 2, 3], DEFAULT_SETTINGS.clueRounds);
-    value.discussionSeconds = choose(value.discussionSeconds, [0, 30, 60, 120], DEFAULT_SETTINGS.discussionSeconds);
-    value.clueStyle = includeClueStyle ? choose(value.clueStyle, ["oral", "text"], DEFAULT_SETTINGS.clueStyle) : "oral";
-    value.subcategories = chosenIds(value.subcategories, []);
-    value.levels = chosenIds(value.levels, ["familiar"]).filter((level) => levels.includes(level));
-    value.chaos = Array.isArray(value.chaos) ? value.chaos.filter((profile) => profile && typeof profile === "object") : [];
-    if (Array.isArray(value.categories)) value.categories = chosenIds(value.categories);
-    else delete value.categories;
-    if (value.mode === "chaos") {
-        const inherited = Object.fromEntries(Object.keys(profileDefaults).map((key) => [key, value[key]]));
-        value.chaos = value.chaos.map((profile) => ({
-            ...inherited, lastGuess: guessModes.includes(profile.mode) && inherited.lastGuess, ...profile,
-        }));
+function readModifiers(settings, fallback = profileDefaults) {
+    const { joker = fallback.joker, extraRole = fallback.extraRole, randomMin = fallback.randomMin, randomMax = fallback.randomMax } = settings;
+    return { joker, extraRole: choose(extraRole, extraRoles, null), randomMin, randomMax };
+}
+
+function readSettings(settings, language) {
+    const modifiers = readModifiers(settings);
+    const mode = choose(settings.mode, modes, DEFAULT_SETTINGS.mode);
+    const profiles = Array.isArray(settings.chaos)
+        ? settings.chaos.filter((profile) => profile && typeof profile === "object")
+        : [];
+    const value = {
+        freePlay: true,
+        mode,
+        ...modifiers,
+        language: choose(settings.language, ["sv", "en"], language),
+        hint: choose(settings.hint, ["easy", "normal", "hard"], DEFAULT_SETTINGS.hint),
+        subcategories: chosenIds(settings.subcategories, []),
+        levels: chosenIds(settings.levels, DEFAULT_SETTINGS.levels).filter((level) => levels.includes(level)),
+        chaos: profiles.map((profile) => ({
+            mode: profile.mode,
+            ...readModifiers(profile, mode === "chaos" ? modifiers : profileDefaults),
+            weight: profile.weight,
+        })),
+    };
+    if (Array.isArray(settings.categories)) {
+        value.categories = chosenIds(settings.categories);
     }
     return cleanMode(value);
 }
@@ -72,14 +77,12 @@ function cleanMode(value) {
     if (!extraModes.includes(value.mode) || (value.extraRole === "spy" && !["classic", "random"].includes(value.mode))) {
         result.extraRole = null;
     }
-    if (!guessModes.includes(value.mode)) result.lastGuess = false;
     if (value.mode !== "random") Object.assign(result, { randomMin: null, randomMax: null });
     return result;
 }
 
 export function mountSettings(ctx, {
     root = ctx.root, settings = DEFAULT_SETTINGS, playerCount = 0, onChange = () => {}, onSelection = () => {},
-    includeClueStyle = false, custom,
 } = {}) {
     const { el, button, t, modeName, roleName } = ctx;
     const controller = new AbortController();
@@ -93,10 +96,8 @@ export function mountSettings(ctx, {
     const modeDescription = el("p", { class: "settings-mode__description muted" });
     const modeAdvanced = el("div", { class: "settings-mode-advanced stack" });
     const pool = el("section", { class: "chaos-pool stack", "aria-label": t("settings.chaos_pool") });
-    const ruleBody = el("div", { class: "stack" });
     const buttonAttrs = { variant: "ghost" };
-    let value = readSettings(settings, ctx.lang, includeClueStyle);
-    if (settings === DEFAULT_SETTINGS) value.language = ctx.lang;
+    let value = readSettings(settings === DEFAULT_SETTINGS ? {} : settings, ctx.lang);
     let chaosInitialized = value.mode === "chaos" || value.chaos.length > 0;
     let selection = { words: [], pairs: [], categories: [], issues: [], loading: true, error: null };
     let revision = 0;
@@ -107,7 +108,7 @@ export function mountSettings(ctx, {
     let categories = [];
     const categoryDetails = new Map();
     const profileErrorLists = [];
-    const selectedCustom = custom === undefined && !includeClueStyle ? getCustomContent() : custom ?? null;
+    const selectedCustom = getCustomContent();
 
     function label(text, input) {
         return el("label", { class: "field" }, el("span", {}, text), input);
@@ -152,7 +153,6 @@ export function mountSettings(ctx, {
         value = next;
         if (modeChanged) renderMode();
         else if (poolChanged) renderPool();
-        if (modeChanged || poolChanged) renderRules();
         onChange(getSettings());
         if (filtering) void refreshSelection();
         else validateSelection();
@@ -188,10 +188,10 @@ export function mountSettings(ctx, {
     function modifiers(modifier, mode, change) {
         const controls = el("div", { class: "stack" });
         const supportsJoker = extraModes.includes(mode);
-        const supportsGuess = guessModes.includes(mode);
         const availableExtraRoles = extraRoles.filter((role) => rules
             ? rules.extras[role]?.modes.includes(mode)
             : extraModes.includes(mode) && (role !== "spy" || ["classic", "random"].includes(mode)));
+        if (!supportsJoker && !modifier.joker && availableExtraRoles.length === 0 && !modifier.extraRole) return null;
         if (supportsJoker || (modifier.joker && mode !== "joker")) {
             controls.append(checkbox(t("settings.joker"), Boolean(modifier.joker), (checked) => change("joker", checked)));
         }
@@ -219,14 +219,6 @@ export function mountSettings(ctx, {
                 numberField("randomMin", modifier.randomMin, (number) => change("randomMin", number), { optional: true, max: 9 }),
                 numberField("randomMax", modifier.randomMax, (number) => change("randomMax", number), { optional: true, max: 9 })));
             controls.append(el("p", { class: "muted" }, t("settings.random_help")));
-        }
-        if (supportsGuess || modifier.lastGuess) {
-            controls.append(checkbox(t("settings.lastGuess"), Boolean(modifier.lastGuess), (checked) => change("lastGuess", checked)));
-        }
-        if (supportsGuess) {
-            controls.append(el("p", { class: "muted" }, t("settings.last_guess_help")));
-        } else {
-            controls.append(el("p", { class: "muted" }, t("settings.last_guess_disabled")));
         }
         return controls;
     }
@@ -260,10 +252,10 @@ export function mountSettings(ctx, {
                 el("p", { class: "muted" }, t(`settings.mode_description.${profile.mode}`)),
             );
             if (validProfile(profile)) {
-                const advanced = el("details", { class: "settings-advanced" },
-                    el("summary", {}, t("settings.profile_options")),
-                    modifiers({ ...profileDefaults, ...profile }, profile.mode, (key, item) => patchProfile(index, { [key]: item })));
-                form.append(advanced);
+                const controls = modifiers(profile, profile.mode, (key, item) => patchProfile(index, { [key]: item }));
+                if (controls) {
+                    form.append(el("details", { class: "settings-advanced" }, el("summary", {}, t("settings.profile_options")), controls));
+                }
             }
             const profileIssuesList = el("ul", { class: "settings-issues error", "aria-live": "polite" });
             profileErrorLists.push(profileIssuesList);
@@ -279,17 +271,10 @@ export function mountSettings(ctx, {
 
     function renderMode() {
         modeDescription.textContent = t(`settings.mode_description.${value.mode}`);
-        modeAdvanced.replaceChildren();
-        if (value.mode === "chaos") {
-            modeAdvanced.append(el("p", { class: "muted" }, t("settings.chaos_modifiers")));
-        } else {
-            modeAdvanced.append(modifiers(value, value.mode, (key, item) => changeField(key, item)));
-        }
+        const controls = modifiers(value, value.mode, (key, item) => changeField(key, item));
+        modeAdvanced.replaceChildren(...(controls ? [controls] : []));
+        modeAdvanced.hidden = !controls;
         renderPool();
-    }
-
-    function renderRules() {
-        ctx.rulesView(ruleBody, { mode: value.mode, profiles: value.chaos });
     }
 
     function updateCategory(category, checked) {
@@ -450,23 +435,13 @@ export function mountSettings(ctx, {
         el("fieldset", { class: "stack" }, el("legend", {}, t("settings.levels")),
             el("div", { class: "cluster" }, ...levels.map((level) => checkbox(t(`settings.level.${level}`), value.levels.includes(level),
                 (checked) => toggleMembership("levels", level, checked))))), counts);
-    const commonAdvanced = el("div", { class: "settings-grid" },
-        select("clueRounds", value.clueRounds, [1, 2, 3].map((count) => [count, String(count)]), (item) => changeField("clueRounds", Number(item))),
-        select("discussionSeconds", value.discussionSeconds, [[0, t("settings.unlimited")],
-            ...[30, 60, 120].map((count) => [count, t("settings.seconds", { count })])], (item) => changeField("discussionSeconds", Number(item))),
-        select("language", value.language, [["sv", "Svenska"], ["en", "English"]], (item) => changeField("language", item, { filtering: true })),
-    );
-    if (includeClueStyle) {
-        commonAdvanced.append(select("clueStyle", value.clueStyle, [["oral", t("settings.oral")], ["text", t("settings.text")]],
-            (item) => changeField("clueStyle", item)));
-    }
+    const wordLanguage = select("language", value.language, [["sv", "Svenska"], ["en", "English"]],
+        (item) => changeField("language", item, { filtering: true }));
     const advanced = el("details", { class: "settings-advanced" },
-        el("summary", {}, t("settings.advanced")), el("div", { class: "stack" }, commonAdvanced, modeAdvanced));
-    const rulesDetails = el("details", { class: "settings-rules" }, el("summary", {}, t("settings.round_rules")), ruleBody);
-    editor.append(basic, catalog, advanced, pool, rulesDetails, issuesList);
+        el("summary", {}, t("settings.advanced")), el("div", { class: "stack" }, wordLanguage, modeAdvanced));
+    editor.append(basic, catalog, advanced, pool, issuesList);
     root.replaceChildren(editor);
     renderMode();
-    renderRules();
     window.addEventListener("imposter:offline-change", refreshAfterOffline, { signal: controller.signal });
     ctx.signal?.addEventListener("abort", destroy, { once: true, signal: controller.signal });
     queueMicrotask(() => void refreshSelection());

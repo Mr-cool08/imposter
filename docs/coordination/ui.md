@@ -1,11 +1,9 @@
-# Samordning av kategoriurval
+# Fritt lokalspel i gränssnittet
 
-Innehållskontraktet i `docs/content.md` skiljer mellan utelämnat `categories` (alla kategorier) och `categories: []` (inga valda kategorier). Gränssnittet skickar utelämnat fält eller utvalda kategori-ID:n som normalt startval och blockerar start vid tomt urval. Behåll skillnaden i katalogens anrop och återläsning av sparade inställningar, särskilt om onlinerummet normaliserar inställningarna före filtrering. Motorstandarden `categories: []` betyder alla ord i motorns redan filtrerade urval. Offlinepanelen behöver skilja ett utelämnat fält från ett uttryckligen tomt urval om den visar eller laddar just valda kategorier.
+Startsidan visar spelinställningarna direkt. Appval ligger i `#preferences-menu`. Där öppnar `#offline-menu > summary` nedladdningspanelen och `#open-word-tools` öppnar egna ordpaket. Pakethanteringen är en del av inställningarna och har ingen separat URL. Sidhuvudets verktyg är dolda under handoff, spel och avslöjande.
 
-## Flikbyte i Chromium-testet
+Testpunkter är `local-setup`, `local-player-name`, `local-add-player`, `local-start`, `local-handoff`, `local-show-private`, `local-private-content`, `local-hide-card`, `local-show-roles`, `local-result` och `local-next-round` som `data-testid`. Omgångsflödet använder motorvalet `{flow: "table"}`. Inga gamla steg exponeras i gränssnittet.
 
-Playwright aktiverar fokusemulering för varje sida. Med standardinställningen utlöser `other_tab.bring_to_front()` inget `blur` på spelsidan, som fortsätter rapportera `document.hasFocus() === true`. Webbläsartestet stänger av emuleringen med CDP före flikbytet. Den kompletta offlineomgången passerar kontrollen, inklusive återgång till det dolda kortet och historiksparning.
+Offlinepanelen behöver filtrera bort egna paket-ID:n med `getCustomContent().categories` från `extras.mjs`. Lagringsnyckeln `customPack` motsvarar ingen källa i den nuvarande redigeraren. Panelen kan då även visa skalberedskap för ett urval med enbart egna ord.
 
-## Gränssnittets verifiering
-
-Lokalvyn testades i Chrome vid 320 px för avbruten bakåtnavigering och återgång från en annan sida. `pageshow.persisted` var sann och den privata vyn var fortfarande borttagen ur DOM. Vid 320, 390 och 1440 px fungerade start, inställningspanelen, språk- och temabyte, regler och lokal setup utan horisontell skroll. En riktad flerspelarkörning passerade vybyte under aktiv onlinerunda, bibehållen uppdateringsspärr och upplåsning vid resultat. Testet verifierade också att avstängd namnsparning rensade både lokal- och onlinenamn. De svenska och engelska UI-fragmenten innehåller 274 validerade nycklar vardera.
+Playwright söker relativt den yttre raden i `filter(has=...)`. Använd en sidbaserad radhuvudlocator för att matcha en resultatspelare, exempelvis `row.filter(has=page.get_by_role("rowheader", name=name, exact=True))`. En radhuvudlocator byggd från hela resultatområdet försöker hitta resultatområdet på nytt inuti raden.

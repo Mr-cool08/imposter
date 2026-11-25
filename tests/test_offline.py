@@ -43,10 +43,8 @@ def public_origin():
                 self.reply_json({})
             elif path in ("/api/i18n/sv.json", "/api/i18n/en.json"):
                 self.reply_json({"language": Path(path).stem})
-            elif path == "/api/rooms/PLAY/private":
+            elif path == "/api/private-fixture":
                 self.reply_json({"private": True})
-            elif path == "/socket.io/":
-                self.reply_json({"socket": True})
             else:
                 self.send_error(404)
 
@@ -103,21 +101,19 @@ def test_downloaded_public_content_and_shell_work_offline(browser_page, public_o
     origin, _ = public_origin
     start_worker(page, origin)
     assert page.evaluate("options => offline.downloadOffline(options)", MODE)["ready"]
-    assert page.evaluate("async () => (await fetch('/api/rooms/PLAY/private')).json()") == {"private": True}
-    assert page.evaluate("async () => (await fetch('/socket.io/?transport=polling')).json()") == {"socket": True}
+    assert page.evaluate("async () => (await fetch('/api/private-fixture')).json()") == {"private": True}
     cached = page.evaluate("""async () => {
         const keys = await caches.keys();
         const sets = await Promise.all(keys.map(async key => (await caches.open(key)).keys()));
         return sets.flat().map(request => new URL(request.url).pathname);
     }""")
-    assert "/api/rooms/PLAY/private" not in cached
-    assert "/socket.io/" not in cached
+    assert "/api/private-fixture" not in cached
     assert "/api/content/packs/animals.json" not in cached
 
     page.context.set_offline(True)
-    page.goto(origin + "/join/PLAY")
+    page.goto(origin + "/?offline-test=1")
     assert page.title() == "Offline test"
-    assert page.url.endswith("/join/PLAY")
+    assert page.url.endswith("/?offline-test=1")
     assert page.evaluate("async () => (await fetch('/api/i18n/en.json')).json()") == {"language": "en"}
     assert page.evaluate("async () => (await fetch('/api/content/packs/food.json')).json()")["words"]
     assert page.evaluate("async () => (await fetch('/api/content/packs/animals.json')).status") == 503

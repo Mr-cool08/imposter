@@ -1,4 +1,4 @@
-"""Server-side round rules. Serialize rounds through the public and private views."""
+"""Python reference for round rules and JavaScript parity checks."""
 
 from collections import Counter
 from copy import deepcopy
@@ -404,7 +404,7 @@ def create_round(players, settings, words, pairs, rules, *, rng=None, used=None,
 
 
 class Round:
-    """State machine for one private round. The caller serializes actions per room."""
+    """State machine for one private reference round."""
 
     def __init__(
         self, round_id, players, selected_mode, settings, word, paired, reused, roles,

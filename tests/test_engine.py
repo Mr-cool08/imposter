@@ -471,10 +471,100 @@ def test_invalid_player_ids_cannot_break_vote_targets():
         assert raised.value.code == "invalid_players"
 
 
-def test_python_and_javascript_engine_parity():
+def replay_javascript(cases, configurations=()):
     node = shutil.which("node")
     if not node:
         pytest.skip("Node.js saknas för JavaScriptmotorns fristående testkörning")
+    completed = subprocess.run(
+        [node, str(FIXTURES / "engine_replay.mjs")],
+        input=json.dumps({
+            "content": CONTENT, "rules": RULES, "cases": cases,
+            "configurations": configurations,
+        }), encoding="utf-8", capture_output=True, timeout=30,
+    )
+    assert completed.returncode == 0, completed.stderr
+    return json.loads(completed.stdout)
+
+
+def test_javascript_table_play_reveals_only_after_physical_play():
+    roster = players(6)
+    blueberry, apple, popcorn, _ = [word["id"] for word in WORDS]
+    rounds = [
+        ({}, (), [blueberry], apple, None, False, {"civil": 5, "imposter": 1}),
+        ({"mode": "blind"}, (), [apple, popcorn, blueberry], apple, None, True, {"civil": 5, "imposter": 1}),
+        ({"mode": "undercover"}, (0, 0.8), [], apple, blueberry, False, {"civil": 5, "undercover": 1}),
+        ({"extraRole": "spy", "joker": True}, (), [], blueberry, apple, False, {"civil": 4, "spy": 1, "joker": 1}),
+        ({"mode": "chaos", "chaos": [{"mode": "classic", "weight": 1}, {"mode": "all", "weight": 1}]},
+         (0.6,), [], blueberry, None, False, {"imposter": 6}),
+    ]
+    opening = [
+        (["act", "p1", "reveal_roles", {}, NOW], "wrong_phase"),
+        (["act", "p1", "ack_role", {}, NOW], True),
+        (["act", "p1", "ack_role", {}, NOW], "already_done"),
+    ]
+    acknowledgments = [(["act", player["id"], "ack_role", {}, NOW], True) for player in roster[1:]]
+    playing = [
+        (["tick", NOW + 600_000], False),
+        (["act", "p1", "clue", {"text": "En ledtråd"}, NOW], "wrong_phase"),
+        (["act", "p1", "ability", {}, NOW], "wrong_phase"),
+        (["act", "p1", "end_discussion", {}, NOW], "wrong_phase"),
+        (["act", "p1", "vote", {"targetId": "p2"}, NOW], "wrong_phase"),
+        (["act", "p1", "guess", {"text": "Äppelpaj"}, NOW], "wrong_phase"),
+        (["act", "outsider", "reveal_roles", {}, NOW], "unknown_player"),
+    ]
+    ending = [
+        (["act", "p1", "reveal_roles", {}, NOW], True),
+        (["act", "p1", "reveal_roles", {}, NOW], "wrong_phase"),
+    ]
+    steps = opening + acknowledgments + playing + ending
+    inputs = [
+        {"players": roster, "settings": settings, "rolls": rolls, "used": used, "now": NOW,
+         "flow": "table", "events": [event for event, _ in steps]}
+        for settings, rolls, used, *_ in rounds
+    ]
+    observed = replay_javascript(inputs)["rounds"]
+    for actual, (settings, _, used, word, paired, reused, roles) in zip(observed, rounds, strict=True):
+        frames = actual["frames"]
+        assert actual["used"] == used
+        assert not any(actual["localGuessNominees"])
+        assert frames[0]["outcome"] is None
+        for frame, (_, expected) in zip(frames[1:], steps, strict=True):
+            assert frame["outcome"] == ({"code": expected, "issues": []} if isinstance(expected, str) else expected)
+
+        mode = settings.get("mode", "classic")
+        start_playing = len(opening) + len(acknowledgments)
+        for frame in frames[:start_playing]:
+            assert frame["public"]["phase"] == "roles"
+            assert frame["public"]["result"] is None
+            assert all(view["card"] is not None for view in frame["private"].values())
+        initial_cards = [view["card"] for view in frames[0]["private"].values()]
+        if mode == "undercover":
+            assert Counter(card["word"] for card in initial_cards) == {"Äppelpaj": 5, "Blåbärspaj": 1}
+            assert all(card["role"] is None for card in initial_cards)
+        if mode == "blind":
+            assert [card for card in initial_cards if card["role"] == "imposter"] == [
+                {"role": "imposter", "word": None, "hint": None, "partners": []},
+            ]
+
+        for frame in frames[start_playing:-2]:
+            public = frame["public"]
+            assert public["phase"] == "playing" and public["mode"] == mode
+            assert public["result"] is None and public["options"] == [] and public["clues"] == []
+            assert public["deadline"] is None and public["currentPlayerId"] is None
+            assert all(view["card"] is None and not view["canGuess"] for view in frame["private"].values())
+
+        final = frames[-1]["public"]
+        assert final["phase"] == "reveal" and final == frames[-2]["public"]
+        result = final["result"]
+        assert result["reason"] == "roles_revealed"
+        assert result["selectedMode"] == mode and result["mode"] == ("all" if mode == "chaos" else mode)
+        assert result["wordId"] == word and result["pairedWordId"] == paired and result["reused"] is reused
+        assert Counter(result["roles"].values()) == roles
+        assert result["votes"] == {} and result["points"] == {} and result["winners"] == []
+        assert all(result[field] is None for field in ("winnerTeam", "voteWinner", "eliminated", "protected", "guess"))
+
+
+def test_python_and_javascript_engine_parity():
     configurations = [
         {"settings": settings, "count": count}
         for count in range(2, 22)
@@ -485,14 +575,7 @@ def test_python_and_javascript_engine_parity():
         configurations.append({"settings": case["settings"], "count": case.get("count", 6)})
     configurations.extend({"settings": settings, "count": 6} for settings, _ in INVALID_SETTINGS_CASES)
     rounds = [drive_case(case) for case in CASES]
-    completed = subprocess.run(
-        [node, str(FIXTURES / "engine_replay.mjs")],
-        input=json.dumps({
-            "content": CONTENT, "rules": RULES, "cases": [round.input() for round in rounds],
-            "configurations": configurations,
-        }), encoding="utf-8", capture_output=True, check=True, timeout=30,
-    )
-    parity = json.loads(completed.stdout)
+    parity = replay_javascript([round.input() for round in rounds], configurations)
     assert len(parity["issues"]) == len(configurations)
     for actual, configuration in zip(parity["issues"], configurations, strict=True):
         assert actual == issues(configuration["settings"], configuration["count"]), configuration
