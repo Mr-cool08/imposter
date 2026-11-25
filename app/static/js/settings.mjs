@@ -181,20 +181,28 @@ export function mountSettings(ctx, {
 
     function modifiers(modifier, mode, change) {
         const controls = el("div", { class: "stack" });
+        const supportsJoker = extraModes.includes(mode);
+        const supportsGuess = guessModes.includes(mode);
         const availableExtraRoles = extraRoles.filter((role) => rules
             ? rules.extras[role]?.modes.includes(mode)
             : extraModes.includes(mode) && (role !== "spy" || ["classic", "random"].includes(mode)));
-        if (extraModes.includes(mode)) {
+        if (supportsJoker || (modifier.joker && mode !== "joker")) {
             controls.append(checkbox(t("settings.joker"), Boolean(modifier.joker), (checked) => change("joker", checked)));
+        }
+        if (supportsJoker) {
             controls.append(el("p", { class: "muted" }, t("settings.joker_help")));
         } else if (mode === "joker") {
             controls.append(el("p", { class: "muted" }, t("settings.joker_included")));
         } else {
             controls.append(el("p", { class: "muted" }, t("settings.joker_disabled")));
         }
-        if (availableExtraRoles.length) {
-            const options = [["", t("settings.no_extra")], ...availableExtraRoles.map((id) => [id, roleName(id)])];
+        if (availableExtraRoles.length || modifier.extraRole) {
+            const listed = new Set(availableExtraRoles);
+            if (modifier.extraRole) listed.add(modifier.extraRole);
+            const options = [["", t("settings.no_extra")], ...Array.from(listed, (id) => [id, roleName(id)])];
             controls.append(select("extraRole", modifier.extraRole, options, (id) => change("extraRole", id || null)));
+        }
+        if (availableExtraRoles.length) {
             controls.append(el("p", { class: "muted" }, t("settings.extra_help")));
             if (!availableExtraRoles.includes("spy")) controls.append(el("p", { class: "muted" }, t("settings.spy_modes")));
         } else {
@@ -206,8 +214,10 @@ export function mountSettings(ctx, {
                 numberField("randomMax", modifier.randomMax, (number) => change("randomMax", number), { optional: true, max: 9 })));
             controls.append(el("p", { class: "muted" }, t("settings.random_help")));
         }
-        if (guessModes.includes(mode)) {
+        if (supportsGuess || modifier.lastGuess) {
             controls.append(checkbox(t("settings.lastGuess"), Boolean(modifier.lastGuess), (checked) => change("lastGuess", checked)));
+        }
+        if (supportsGuess) {
             controls.append(el("p", { class: "muted" }, t("settings.last_guess_help")));
         } else {
             controls.append(el("p", { class: "muted" }, t("settings.last_guess_disabled")));
@@ -217,7 +227,6 @@ export function mountSettings(ctx, {
 
     function patchProfile(index, patch, rerender = false) {
         const chaos = value.chaos.map((profile, i) => i === index ? { ...profile, ...patch } : profile);
-        if (rerender) chaos[index] = cleanMode(chaos[index]);
         handleChange({ ...value, chaos }, { poolChanged: rerender });
         if (rerender) pool.querySelectorAll('select[name="profile_mode"]')[index]?.focus();
     }
