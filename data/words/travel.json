@@ -17,15 +17,6 @@
           "normal": "Midsommar",
           "hard": "Älgar"
         }
-      },
-      "en": {
-        "word": "Sweden",
-        "aliases": [],
-        "hints": {
-          "easy": "Stockholm",
-          "normal": "Midsummer",
-          "hard": "Moose"
-        }
       }
     }
   },
@@ -41,15 +32,6 @@
     "languages": {
       "sv": {
         "word": "Norge",
-        "aliases": [],
-        "hints": {
-          "easy": "Oslo",
-          "normal": "Fjord",
-          "hard": "Brunost"
-        }
-      },
-      "en": {
-        "word": "Norway",
         "aliases": [],
         "hints": {
           "easy": "Oslo",
@@ -77,15 +59,6 @@
           "normal": "Bastu",
           "hard": "Mumintroll"
         }
-      },
-      "en": {
-        "word": "Finland",
-        "aliases": [],
-        "hints": {
-          "easy": "Helsinki",
-          "normal": "Sauna",
-          "hard": "Moomins"
-        }
       }
     }
   },
@@ -104,15 +77,6 @@
         "aliases": [],
         "hints": {
           "easy": "Köpenhamn",
-          "normal": "Lego",
-          "hard": "Hygge"
-        }
-      },
-      "en": {
-        "word": "Denmark",
-        "aliases": [],
-        "hints": {
-          "easy": "Copenhagen",
           "normal": "Lego",
           "hard": "Hygge"
         }
@@ -136,15 +100,6 @@
           "easy": "Reykjavik",
           "normal": "Vulkaner",
           "hard": "Gejsrar"
-        }
-      },
-      "en": {
-        "word": "Iceland",
-        "aliases": [],
-        "hints": {
-          "easy": "Reykjavik",
-          "normal": "Volcanoes",
-          "hard": "Geysers"
         }
       }
     }
@@ -170,17 +125,6 @@
           "normal": "Kungahus",
           "hard": "Pund"
         }
-      },
-      "en": {
-        "word": "United Kingdom",
-        "aliases": [
-          "UK"
-        ],
-        "hints": {
-          "easy": "London",
-          "normal": "Royalty",
-          "hard": "Pound"
-        }
       }
     }
   },
@@ -201,15 +145,6 @@
           "easy": "Dublin",
           "normal": "Klöver",
           "hard": "Harpa"
-        }
-      },
-      "en": {
-        "word": "Ireland",
-        "aliases": [],
-        "hints": {
-          "easy": "Dublin",
-          "normal": "Shamrock",
-          "hard": "Harp"
         }
       }
     }
@@ -232,15 +167,6 @@
           "normal": "Baguetter",
           "hard": "Trikolor"
         }
-      },
-      "en": {
-        "word": "France",
-        "aliases": [],
-        "hints": {
-          "easy": "Paris",
-          "normal": "Baguettes",
-          "hard": "Tricolor"
-        }
       }
     }
   },
@@ -256,15 +182,6 @@
     "languages": {
       "sv": {
         "word": "Spanien",
-        "aliases": [],
-        "hints": {
-          "easy": "Madrid",
-          "normal": "Flamenco",
-          "hard": "Tapas"
-        }
-      },
-      "en": {
-        "word": "Spain",
         "aliases": [],
         "hints": {
           "easy": "Madrid",
@@ -292,15 +209,6 @@
           "normal": "Fado",
           "hard": "Sardiner"
         }
-      },
-      "en": {
-        "word": "Portugal",
-        "aliases": [],
-        "hints": {
-          "easy": "Lisbon",
-          "normal": "Fado",
-          "hard": "Sardines"
-        }
       }
     }
   },
@@ -322,15 +230,6 @@
           "normal": "Pizza",
           "hard": "Stövel"
         }
-      },
-      "en": {
-        "word": "Italy",
-        "aliases": [],
-        "hints": {
-          "easy": "Rome",
-          "normal": "Pizza",
-          "hard": "Boot"
-        }
       }
     }
   },
@@ -350,15 +249,6 @@
         "hints": {
           "easy": "Aten",
           "normal": "Oliver",
-          "hard": "Feta"
-        }
-      },
-      "en": {
-        "word": "Greece",
-        "aliases": [],
-        "hints": {
-          "easy": "Athens",
-          "normal": "Olives",
           "hard": "Feta"
         }
       }
@@ -382,15 +272,6 @@
           "normal": "Pierogi",
           "hard": "Wisła"
         }
-      },
-      "en": {
-        "word": "Poland",
-        "aliases": [],
-        "hints": {
-          "easy": "Warsaw",
-          "normal": "Pierogi",
-          "hard": "Vistula"
-        }
       }
     }
   },
@@ -406,15 +287,6 @@
     "languages": {
       "sv": {
         "word": "Tyskland",
-        "aliases": [],
-        "hints": {
-          "easy": "Berlin",
-          "normal": "Autobahn",
-          "hard": "Pretzels"
-        }
-      },
-      "en": {
-        "word": "Germany",
         "aliases": [],
         "hints": {
           "easy": "Berlin",
@@ -442,15 +314,6 @@
           "normal": "Choklad",
           "hard": "Neutralitet"
         }
-      },
-      "en": {
-        "word": "Switzerland",
-        "aliases": [],
-        "hints": {
-          "easy": "Alps",
-          "normal": "Chocolate",
-          "hard": "Neutrality"
-        }
       }
     }
   },
@@ -470,15 +333,6 @@
         "hints": {
           "easy": "Wien",
           "normal": "Vals",
-          "hard": "Schnitzel"
-        }
-      },
-      "en": {
-        "word": "Austria",
-        "aliases": [],
-        "hints": {
-          "easy": "Vienna",
-          "normal": "Waltz",
           "hard": "Schnitzel"
         }
       }
@@ -502,17 +356,6 @@
           "normal": "Tulpaner",
           "hard": "Väderkvarnar"
         }
-      },
-      "en": {
-        "word": "Netherlands",
-        "aliases": [
-          "The Netherlands"
-        ],
-        "hints": {
-          "easy": "Amsterdam",
-          "normal": "Tulips",
-          "hard": "Windmills"
-        }
       }
     }
   },
@@ -532,15 +375,6 @@
         "hints": {
           "easy": "Zagreb",
           "normal": "Adriatiska",
-          "hard": "Dubrovnik"
-        }
-      },
-      "en": {
-        "word": "Croatia",
-        "aliases": [],
-        "hints": {
-          "easy": "Zagreb",
-          "normal": "Adriatic",
           "hard": "Dubrovnik"
         }
       }
@@ -564,15 +398,6 @@
           "normal": "Kaukasus",
           "hard": "Khachapuri"
         }
-      },
-      "en": {
-        "word": "Georgia",
-        "aliases": [],
-        "hints": {
-          "easy": "Tbilisi",
-          "normal": "Caucasus",
-          "hard": "Khachapuri"
-        }
       }
     }
   },
@@ -594,15 +419,6 @@
           "normal": "Pyramider",
           "hard": "Nilen"
         }
-      },
-      "en": {
-        "word": "Egypt",
-        "aliases": [],
-        "hints": {
-          "easy": "Cairo",
-          "normal": "Pyramids",
-          "hard": "Nile"
-        }
       }
     }
   },
@@ -622,15 +438,6 @@
         "hints": {
           "easy": "Marrakech",
           "normal": "Atlasbergen",
-          "hard": "Tagine"
-        }
-      },
-      "en": {
-        "word": "Morocco",
-        "aliases": [],
-        "hints": {
-          "easy": "Marrakech",
-          "normal": "Atlas",
           "hard": "Tagine"
         }
       }
@@ -654,15 +461,6 @@
           "normal": "Injera",
           "hard": "Högland"
         }
-      },
-      "en": {
-        "word": "Ethiopia",
-        "aliases": [],
-        "hints": {
-          "easy": "Coffee",
-          "normal": "Injera",
-          "hard": "Highlands"
-        }
       }
     }
   },
@@ -684,15 +482,6 @@
           "normal": "Safari",
           "hard": "Masajer"
         }
-      },
-      "en": {
-        "word": "Kenya",
-        "aliases": [],
-        "hints": {
-          "easy": "Nairobi",
-          "normal": "Safari",
-          "hard": "Maasai"
-        }
       }
     }
   },
@@ -707,15 +496,6 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Tanzania",
-        "aliases": [],
-        "hints": {
-          "easy": "Kilimanjaro",
-          "normal": "Serengeti",
-          "hard": "Zanzibar"
-        }
-      },
-      "en": {
         "word": "Tanzania",
         "aliases": [],
         "hints": {
@@ -744,15 +524,6 @@
           "normal": "Mandela",
           "hard": "Proteor"
         }
-      },
-      "en": {
-        "word": "South Africa",
-        "aliases": [],
-        "hints": {
-          "easy": "Johannesburg",
-          "normal": "Mandela",
-          "hard": "Proteas"
-        }
       }
     }
   },
@@ -772,15 +543,6 @@
         "hints": {
           "easy": "Lönnlöv",
           "normal": "Ishockey",
-          "hard": "Ottawa"
-        }
-      },
-      "en": {
-        "word": "Canada",
-        "aliases": [],
-        "hints": {
-          "easy": "Maple",
-          "normal": "Hockey",
           "hard": "Ottawa"
         }
       }
@@ -806,19 +568,6 @@
           "normal": "Frihetsgudinnan",
           "hard": "Dollar"
         }
-      },
-      "en": {
-        "word": "United States",
-        "aliases": [
-          "United States of America",
-          "USA",
-          "US"
-        ],
-        "hints": {
-          "easy": "Hollywood",
-          "normal": "Liberty",
-          "hard": "Dollar"
-        }
       }
     }
   },
@@ -839,15 +588,6 @@
           "easy": "Tacos",
           "normal": "Mariachi",
           "hard": "Kaktusar"
-        }
-      },
-      "en": {
-        "word": "Mexico",
-        "aliases": [],
-        "hints": {
-          "easy": "Tacos",
-          "normal": "Mariachi",
-          "hard": "Cacti"
         }
       }
     }
@@ -870,15 +610,6 @@
           "normal": "Karneval",
           "hard": "Samba"
         }
-      },
-      "en": {
-        "word": "Brazil",
-        "aliases": [],
-        "hints": {
-          "easy": "Amazon",
-          "normal": "Carnival",
-          "hard": "Samba"
-        }
       }
     }
   },
@@ -893,15 +624,6 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Argentina",
-        "aliases": [],
-        "hints": {
-          "easy": "Tango",
-          "normal": "Pampas",
-          "hard": "Mate"
-        }
-      },
-      "en": {
         "word": "Argentina",
         "aliases": [],
         "hints": {
@@ -930,15 +652,6 @@
           "normal": "Atacama",
           "hard": "Santiago"
         }
-      },
-      "en": {
-        "word": "Chile",
-        "aliases": [],
-        "hints": {
-          "easy": "Andes",
-          "normal": "Atacama",
-          "hard": "Santiago"
-        }
       }
     }
   },
@@ -959,15 +672,6 @@
           "easy": "Lima",
           "normal": "Inka",
           "hard": "Lamor"
-        }
-      },
-      "en": {
-        "word": "Peru",
-        "aliases": [],
-        "hints": {
-          "easy": "Lima",
-          "normal": "Inca",
-          "hard": "Llamas"
         }
       }
     }
@@ -990,15 +694,6 @@
           "normal": "Sushi",
           "hard": "Körsbärsblomning"
         }
-      },
-      "en": {
-        "word": "Japan",
-        "aliases": [],
-        "hints": {
-          "easy": "Tokyo",
-          "normal": "Sushi",
-          "hard": "Blossoms"
-        }
       }
     }
   },
@@ -1014,15 +709,6 @@
     "languages": {
       "sv": {
         "word": "Sydkorea",
-        "aliases": [],
-        "hints": {
-          "easy": "Seoul",
-          "normal": "Kimchi",
-          "hard": "Taekwondo"
-        }
-      },
-      "en": {
-        "word": "South Korea",
         "aliases": [],
         "hints": {
           "easy": "Seoul",
@@ -1050,15 +736,6 @@
           "normal": "Curry",
           "hard": "Monsun"
         }
-      },
-      "en": {
-        "word": "India",
-        "aliases": [],
-        "hints": {
-          "easy": "Bollywood",
-          "normal": "Curry",
-          "hard": "Monsoon"
-        }
       }
     }
   },
@@ -1079,15 +756,6 @@
           "easy": "Everest",
           "normal": "Himalaya",
           "hard": "Katmandu"
-        }
-      },
-      "en": {
-        "word": "Nepal",
-        "aliases": [],
-        "hints": {
-          "easy": "Everest",
-          "normal": "Himalayas",
-          "hard": "Kathmandu"
         }
       }
     }
@@ -1110,15 +778,6 @@
           "normal": "Tempel",
           "hard": "Elefanter"
         }
-      },
-      "en": {
-        "word": "Thailand",
-        "aliases": [],
-        "hints": {
-          "easy": "Bangkok",
-          "normal": "Temples",
-          "hard": "Elephants"
-        }
       }
     }
   },
@@ -1133,15 +792,6 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Vietnam",
-        "aliases": [],
-        "hints": {
-          "easy": "Hanoi",
-          "normal": "Pho",
-          "hard": "Mekong"
-        }
-      },
-      "en": {
         "word": "Vietnam",
         "aliases": [],
         "hints": {
@@ -1170,15 +820,6 @@
           "normal": "Sydney",
           "hard": "Eukalyptus"
         }
-      },
-      "en": {
-        "word": "Australia",
-        "aliases": [],
-        "hints": {
-          "easy": "Kangaroo",
-          "normal": "Sydney",
-          "hard": "Eucalyptus"
-        }
       }
     }
   },
@@ -1200,15 +841,6 @@
           "normal": "Maori",
           "hard": "Får"
         }
-      },
-      "en": {
-        "word": "New Zealand",
-        "aliases": [],
-        "hints": {
-          "easy": "Kiwi",
-          "normal": "Māori",
-          "hard": "Sheep"
-        }
       }
     }
   },
@@ -1229,15 +861,6 @@
           "easy": "Enklav",
           "normal": "Maseru",
           "hard": "Bergsland"
-        }
-      },
-      "en": {
-        "word": "Lesotho",
-        "aliases": [],
-        "hints": {
-          "easy": "Enclave",
-          "normal": "Maseru",
-          "hard": "Mountainous"
         }
       }
     }
@@ -1262,17 +885,6 @@
           "normal": "Monarki",
           "hard": "Inland"
         }
-      },
-      "en": {
-        "word": "Eswatini",
-        "aliases": [
-          "Swaziland"
-        ],
-        "hints": {
-          "easy": "Mbabane",
-          "normal": "Monarchy",
-          "hard": "Landlocked"
-        }
       }
     }
   },
@@ -1294,15 +906,6 @@
           "normal": "Tunnelbana",
           "hard": "Skärgård"
         }
-      },
-      "en": {
-        "word": "Stockholm",
-        "aliases": [],
-        "hints": {
-          "easy": "Capital",
-          "normal": "Subway",
-          "hard": "Archipelago"
-        }
       }
     }
   },
@@ -1322,17 +925,6 @@
         "hints": {
           "easy": "Liseberg",
           "normal": "Spårvagn",
-          "hard": "Göta"
-        }
-      },
-      "en": {
-        "word": "Gothenburg",
-        "aliases": [
-          "Göteborg"
-        ],
-        "hints": {
-          "easy": "Liseberg",
-          "normal": "Trams",
           "hard": "Göta"
         }
       }
@@ -1356,17 +948,6 @@
           "normal": "Öresund",
           "hard": "Svängd"
         }
-      },
-      "en": {
-        "word": "Malmö",
-        "aliases": [
-          "Malmo"
-        ],
-        "hints": {
-          "easy": "Scania",
-          "normal": "Öresund",
-          "hard": "Twisting"
-        }
       }
     }
   },
@@ -1388,15 +969,6 @@
           "normal": "Tivoli",
           "hard": "Sjöjungfru"
         }
-      },
-      "en": {
-        "word": "Copenhagen",
-        "aliases": [],
-        "hints": {
-          "easy": "Denmark",
-          "normal": "Tivoli",
-          "hard": "Mermaid"
-        }
       }
     }
   },
@@ -1415,15 +987,6 @@
         "aliases": [],
         "hints": {
           "easy": "Norge",
-          "normal": "Holmenkollen",
-          "hard": "Fjord"
-        }
-      },
-      "en": {
-        "word": "Oslo",
-        "aliases": [],
-        "hints": {
-          "easy": "Norway",
           "normal": "Holmenkollen",
           "hard": "Fjord"
         }
@@ -1448,15 +1011,6 @@
           "normal": "Domkyrka",
           "hard": "Sveaborg"
         }
-      },
-      "en": {
-        "word": "Helsinki",
-        "aliases": [],
-        "hints": {
-          "easy": "Finland",
-          "normal": "Cathedral",
-          "hard": "Suomenlinna"
-        }
       }
     }
   },
@@ -1480,17 +1034,6 @@
           "normal": "Hallgrímskirkja",
           "hard": "Geotermisk"
         }
-      },
-      "en": {
-        "word": "Reykjavík",
-        "aliases": [
-          "Reykjavik"
-        ],
-        "hints": {
-          "easy": "Iceland",
-          "normal": "Hallgrímskirkja",
-          "hard": "Geothermal"
-        }
       }
     }
   },
@@ -1512,15 +1055,6 @@
           "normal": "Tunnelbana",
           "hard": "Themsen"
         }
-      },
-      "en": {
-        "word": "London",
-        "aliases": [],
-        "hints": {
-          "easy": "England",
-          "normal": "Underground",
-          "hard": "Thames"
-        }
       }
     }
   },
@@ -1540,15 +1074,6 @@
         "hints": {
           "easy": "Eiffeltornet",
           "normal": "Frankrike",
-          "hard": "Seine"
-        }
-      },
-      "en": {
-        "word": "Paris",
-        "aliases": [],
-        "hints": {
-          "easy": "Eiffel",
-          "normal": "France",
           "hard": "Seine"
         }
       }
@@ -1572,17 +1097,6 @@
           "normal": "Colosseum",
           "hard": "Tibern"
         }
-      },
-      "en": {
-        "word": "Rome",
-        "aliases": [
-          "Roma"
-        ],
-        "hints": {
-          "easy": "Italy",
-          "normal": "Colosseum",
-          "hard": "Tiber"
-        }
       }
     }
   },
@@ -1603,17 +1117,6 @@
           "easy": "Gondol",
           "normal": "Kanaler",
           "hard": "Maskerad"
-        }
-      },
-      "en": {
-        "word": "Venice",
-        "aliases": [
-          "Venezia"
-        ],
-        "hints": {
-          "easy": "Gondola",
-          "normal": "Canals",
-          "hard": "Masquerade"
         }
       }
     }
@@ -1636,15 +1139,6 @@
           "normal": "Gaudí",
           "hard": "Mosaik"
         }
-      },
-      "en": {
-        "word": "Barcelona",
-        "aliases": [],
-        "hints": {
-          "easy": "Catalonia",
-          "normal": "Gaudí",
-          "hard": "Mosaic"
-        }
       }
     }
   },
@@ -1664,17 +1158,6 @@
         "hints": {
           "easy": "Portugal",
           "normal": "Spårvagnar",
-          "hard": "Fado"
-        }
-      },
-      "en": {
-        "word": "Lisbon",
-        "aliases": [
-          "Lisboa"
-        ],
-        "hints": {
-          "easy": "Portugal",
-          "normal": "Trams",
           "hard": "Fado"
         }
       }
@@ -1698,15 +1181,6 @@
           "normal": "Kanaler",
           "hard": "Cyklar"
         }
-      },
-      "en": {
-        "word": "Amsterdam",
-        "aliases": [],
-        "hints": {
-          "easy": "Netherlands",
-          "normal": "Canals",
-          "hard": "Bicycles"
-        }
       }
     }
   },
@@ -1727,15 +1201,6 @@
           "easy": "Tyskland",
           "normal": "Muren",
           "hard": "Björn"
-        }
-      },
-      "en": {
-        "word": "Berlin",
-        "aliases": [],
-        "hints": {
-          "easy": "Germany",
-          "normal": "Wall",
-          "hard": "Bear"
         }
       }
     }
@@ -1758,17 +1223,6 @@
           "normal": "Vals",
           "hard": "Kaféer"
         }
-      },
-      "en": {
-        "word": "Vienna",
-        "aliases": [
-          "Wien"
-        ],
-        "hints": {
-          "easy": "Austria",
-          "normal": "Waltz",
-          "hard": "Cafes"
-        }
       }
     }
   },
@@ -1789,17 +1243,6 @@
           "easy": "Tjeckien",
           "normal": "Karlsbron",
           "hard": "Astronomi"
-        }
-      },
-      "en": {
-        "word": "Prague",
-        "aliases": [
-          "Praha"
-        ],
-        "hints": {
-          "easy": "Czechia",
-          "normal": "Bridge",
-          "hard": "Astronomy"
         }
       }
     }
@@ -1822,17 +1265,6 @@
           "normal": "Minareter",
           "hard": "Kontinenter"
         }
-      },
-      "en": {
-        "word": "Istanbul",
-        "aliases": [
-          "İstanbul"
-        ],
-        "hints": {
-          "easy": "Bosporus",
-          "normal": "Minarets",
-          "hard": "Continents"
-        }
       }
     }
   },
@@ -1852,15 +1284,6 @@
         "hints": {
           "easy": "Egypten",
           "normal": "Nilen",
-          "hard": "Giza"
-        }
-      },
-      "en": {
-        "word": "Cairo",
-        "aliases": [],
-        "hints": {
-          "easy": "Egypt",
-          "normal": "Nile",
           "hard": "Giza"
         }
       }
@@ -1886,17 +1309,6 @@
           "normal": "Souk",
           "hard": "Medina"
         }
-      },
-      "en": {
-        "word": "Marrakesh",
-        "aliases": [
-          "Marrakech"
-        ],
-        "hints": {
-          "easy": "Morocco",
-          "normal": "Souk",
-          "hard": "Medina"
-        }
       }
     }
   },
@@ -1917,15 +1329,6 @@
           "easy": "Taffelberget",
           "normal": "Afrikansk",
           "hard": "Hamnstad"
-        }
-      },
-      "en": {
-        "word": "Cape Town",
-        "aliases": [],
-        "hints": {
-          "easy": "Plateau",
-          "normal": "African",
-          "hard": "Harbor"
         }
       }
     }
@@ -1948,15 +1351,6 @@
           "normal": "Nationalpark",
           "hard": "Safari"
         }
-      },
-      "en": {
-        "word": "Nairobi",
-        "aliases": [],
-        "hints": {
-          "easy": "Kenya",
-          "normal": "Wildlife",
-          "hard": "Safari"
-        }
       }
     }
   },
@@ -1974,18 +1368,6 @@
         "word": "New York",
         "aliases": [
           "New York City"
-        ],
-        "hints": {
-          "easy": "Manhattan",
-          "normal": "Broadway",
-          "hard": "Taxi"
-        }
-      },
-      "en": {
-        "word": "New York City",
-        "aliases": [
-          "New York",
-          "NYC"
         ],
         "hints": {
           "easy": "Manhattan",
@@ -2013,15 +1395,6 @@
           "normal": "Dimma",
           "hard": "Branter"
         }
-      },
-      "en": {
-        "word": "San Francisco",
-        "aliases": [],
-        "hints": {
-          "easy": "California",
-          "normal": "Fog",
-          "hard": "Slopes"
-        }
       }
     }
   },
@@ -2043,17 +1416,6 @@
         "hints": {
           "easy": "Québec",
           "normal": "Franskspråkig",
-          "hard": "Bagels"
-        }
-      },
-      "en": {
-        "word": "Montreal",
-        "aliases": [
-          "Montréal"
-        ],
-        "hints": {
-          "easy": "Quebec",
-          "normal": "Francophone",
           "hard": "Bagels"
         }
       }
@@ -2079,18 +1441,6 @@
           "normal": "Azteker",
           "hard": "Högplatå"
         }
-      },
-      "en": {
-        "word": "Mexico City",
-        "aliases": [
-          "Ciudad de México",
-          "CDMX"
-        ],
-        "hints": {
-          "easy": "Capital",
-          "normal": "Aztecs",
-          "hard": "Plateau"
-        }
       }
     }
   },
@@ -2110,17 +1460,6 @@
         "hints": {
           "easy": "Kuba",
           "normal": "Veteranbilar",
-          "hard": "Malecón"
-        }
-      },
-      "en": {
-        "word": "Havana",
-        "aliases": [
-          "La Habana"
-        ],
-        "hints": {
-          "easy": "Cuba",
-          "normal": "Classics",
           "hard": "Malecón"
         }
       }
@@ -2146,17 +1485,6 @@
           "normal": "Copacabana",
           "hard": "Sockertoppen"
         }
-      },
-      "en": {
-        "word": "Rio de Janeiro",
-        "aliases": [
-          "Rio"
-        ],
-        "hints": {
-          "easy": "Carnival",
-          "normal": "Copacabana",
-          "hard": "Sugarloaf"
-        }
       }
     }
   },
@@ -2178,15 +1506,6 @@
           "normal": "Tango",
           "hard": "Hamn"
         }
-      },
-      "en": {
-        "word": "Buenos Aires",
-        "aliases": [],
-        "hints": {
-          "easy": "Argentina",
-          "normal": "Tango",
-          "hard": "Port"
-        }
       }
     }
   },
@@ -2206,15 +1525,6 @@
         "hints": {
           "easy": "Peru",
           "normal": "Stillahavskust",
-          "hard": "Ceviche"
-        }
-      },
-      "en": {
-        "word": "Lima",
-        "aliases": [],
-        "hints": {
-          "easy": "Peru",
-          "normal": "Pacific",
           "hard": "Ceviche"
         }
       }
@@ -2240,17 +1550,6 @@
           "normal": "Anderna",
           "hard": "Högland"
         }
-      },
-      "en": {
-        "word": "Cusco",
-        "aliases": [
-          "Cuzco"
-        ],
-        "hints": {
-          "easy": "Inca",
-          "normal": "Andes",
-          "hard": "Highlands"
-        }
       }
     }
   },
@@ -2272,15 +1571,6 @@
           "normal": "Shibuya",
           "hard": "Storstad"
         }
-      },
-      "en": {
-        "word": "Tokyo",
-        "aliases": [],
-        "hints": {
-          "easy": "Japan",
-          "normal": "Shibuya",
-          "hard": "Metropolis"
-        }
       }
     }
   },
@@ -2300,15 +1590,6 @@
         "hints": {
           "easy": "Japan",
           "normal": "Tempel",
-          "hard": "Geisha"
-        }
-      },
-      "en": {
-        "word": "Kyoto",
-        "aliases": [],
-        "hints": {
-          "easy": "Japan",
-          "normal": "Temples",
           "hard": "Geisha"
         }
       }
@@ -2332,15 +1613,6 @@
           "normal": "Palats",
           "hard": "Han"
         }
-      },
-      "en": {
-        "word": "Seoul",
-        "aliases": [],
-        "hints": {
-          "easy": "Korea",
-          "normal": "Palaces",
-          "hard": "Han"
-        }
       }
     }
   },
@@ -2361,15 +1633,6 @@
           "easy": "Thailand",
           "normal": "Trafik",
           "hard": "Gatumat"
-        }
-      },
-      "en": {
-        "word": "Bangkok",
-        "aliases": [],
-        "hints": {
-          "easy": "Thailand",
-          "normal": "Traffic",
-          "hard": "Vendors"
         }
       }
     }
@@ -2392,15 +1655,6 @@
           "normal": "Huvudstad",
           "hard": "Sjö"
         }
-      },
-      "en": {
-        "word": "Hanoi",
-        "aliases": [],
-        "hints": {
-          "easy": "Vietnam",
-          "normal": "Capital",
-          "hard": "Lake"
-        }
       }
     }
   },
@@ -2421,15 +1675,6 @@
           "easy": "Stadsstat",
           "normal": "Lejon",
           "hard": "Trädgårdar"
-        }
-      },
-      "en": {
-        "word": "Singapore",
-        "aliases": [],
-        "hints": {
-          "easy": "Citystate",
-          "normal": "Lion",
-          "hard": "Gardens"
         }
       }
     }
@@ -2452,15 +1697,6 @@
           "normal": "Segeltak",
           "hard": "Hamnbro"
         }
-      },
-      "en": {
-        "word": "Sydney",
-        "aliases": [],
-        "hints": {
-          "easy": "Australia",
-          "normal": "Sails",
-          "hard": "Bridge"
-        }
       }
     }
   },
@@ -2482,15 +1718,6 @@
           "normal": "Hamnar",
           "hard": "Vulkaner"
         }
-      },
-      "en": {
-        "word": "Auckland",
-        "aliases": [],
-        "hints": {
-          "easy": "Sailing",
-          "normal": "Harbors",
-          "hard": "Volcanoes"
-        }
       }
     }
   },
@@ -2511,15 +1738,6 @@
           "easy": "Ecuador",
           "normal": "Ekvatorn",
           "hard": "Anderna"
-        }
-      },
-      "en": {
-        "word": "Quito",
-        "aliases": [],
-        "hints": {
-          "easy": "Ecuador",
-          "normal": "Equator",
-          "hard": "Andes"
         }
       }
     }
@@ -2544,17 +1762,6 @@
           "normal": "Lyktor",
           "hard": "Skräddare"
         }
-      },
-      "en": {
-        "word": "Hội An",
-        "aliases": [
-          "Hoi An"
-        ],
-        "hints": {
-          "easy": "Vietnam",
-          "normal": "Lanterns",
-          "hard": "Tailors"
-        }
       }
     }
   },
@@ -2576,15 +1783,6 @@
           "normal": "Mekong",
           "hard": "Tempel"
         }
-      },
-      "en": {
-        "word": "Luang Prabang",
-        "aliases": [],
-        "hints": {
-          "easy": "Laos",
-          "normal": "Mekong",
-          "hard": "Temples"
-        }
       }
     }
   },
@@ -2605,15 +1803,6 @@
           "easy": "Paris",
           "normal": "Järn",
           "hard": "Världsutställning"
-        }
-      },
-      "en": {
-        "word": "Eiffel Tower",
-        "aliases": [],
-        "hints": {
-          "easy": "Paris",
-          "normal": "Iron",
-          "hard": "Exposition"
         }
       }
     }
@@ -2638,15 +1827,6 @@
           "normal": "Parad",
           "hard": "Napoleon"
         }
-      },
-      "en": {
-        "word": "Arc de Triomphe",
-        "aliases": [],
-        "hints": {
-          "easy": "Paris",
-          "normal": "Parade",
-          "hard": "Napoleon"
-        }
       }
     }
   },
@@ -2667,15 +1847,6 @@
           "easy": "Gladiatorer",
           "normal": "Rom",
           "hard": "Amfiteater"
-        }
-      },
-      "en": {
-        "word": "Colosseum",
-        "aliases": [],
-        "hints": {
-          "easy": "Gladiators",
-          "normal": "Rome",
-          "hard": "Amphitheater"
         }
       }
     }
@@ -2700,15 +1871,6 @@
           "normal": "Italien",
           "hard": "Klockor"
         }
-      },
-      "en": {
-        "word": "Leaning Tower of Pisa",
-        "aliases": [],
-        "hints": {
-          "easy": "Tilted",
-          "normal": "Italy",
-          "hard": "Bells"
-        }
       }
     }
   },
@@ -2732,17 +1894,6 @@
           "normal": "Barcelona",
           "hard": "Basilikabygge"
         }
-      },
-      "en": {
-        "word": "Sagrada Família",
-        "aliases": [
-          "Sagrada Familia"
-        ],
-        "hints": {
-          "easy": "Gaudí",
-          "normal": "Barcelona",
-          "hard": "Basilica"
-        }
       }
     }
   },
@@ -2764,15 +1915,6 @@
           "normal": "Morisk",
           "hard": "Innergård"
         }
-      },
-      "en": {
-        "word": "Alhambra",
-        "aliases": [],
-        "hints": {
-          "easy": "Granada",
-          "normal": "Moorish",
-          "hard": "Courtyard"
-        }
       }
     }
   },
@@ -2792,15 +1934,6 @@
         "hints": {
           "easy": "London",
           "normal": "Klocka",
-          "hard": "Westminster"
-        }
-      },
-      "en": {
-        "word": "Big Ben",
-        "aliases": [],
-        "hints": {
-          "easy": "London",
-          "normal": "Clock",
           "hard": "Westminster"
         }
       }
@@ -2824,15 +1957,6 @@
           "normal": "Klaffbro",
           "hard": "Themsen"
         }
-      },
-      "en": {
-        "word": "Tower Bridge",
-        "aliases": [],
-        "hints": {
-          "easy": "London",
-          "normal": "Drawbridge",
-          "hard": "Thames"
-        }
       }
     }
   },
@@ -2853,15 +1977,6 @@
           "easy": "Stencirkel",
           "normal": "England",
           "hard": "Solstånd"
-        }
-      },
-      "en": {
-        "word": "Stonehenge",
-        "aliases": [],
-        "hints": {
-          "easy": "Stones",
-          "normal": "England",
-          "hard": "Solstice"
         }
       }
     }
@@ -2886,17 +2001,6 @@
           "normal": "Tidvatten",
           "hard": "Normandie"
         }
-      },
-      "en": {
-        "word": "Mont-Saint-Michel",
-        "aliases": [
-          "Mont Saint-Michel"
-        ],
-        "hints": {
-          "easy": "Abbey",
-          "normal": "Tides",
-          "hard": "Normandy"
-        }
       }
     }
   },
@@ -2917,15 +2021,6 @@
           "easy": "Aten",
           "normal": "Akropolis",
           "hard": "Pelare"
-        }
-      },
-      "en": {
-        "word": "Parthenon",
-        "aliases": [],
-        "hints": {
-          "easy": "Athens",
-          "normal": "Acropolis",
-          "hard": "Columns"
         }
       }
     }
@@ -2950,17 +2045,6 @@
           "normal": "Faraoner",
           "hard": "Gravkammare"
         }
-      },
-      "en": {
-        "word": "Pyramids of Giza",
-        "aliases": [
-          "Giza Pyramids"
-        ],
-        "hints": {
-          "easy": "Egypt",
-          "normal": "Pharaohs",
-          "hard": "Tombs"
-        }
       }
     }
   },
@@ -2984,18 +2068,6 @@
           "normal": "Egypten",
           "hard": "Sandsten"
         }
-      },
-      "en": {
-        "word": "Great Sphinx of Giza",
-        "aliases": [
-          "Great Sphinx",
-          "Sphinx of Giza"
-        ],
-        "hints": {
-          "easy": "Lion",
-          "normal": "Egypt",
-          "hard": "Limestone"
-        }
       }
     }
   },
@@ -3016,15 +2088,6 @@
           "easy": "Platå",
           "normal": "Linbana",
           "hard": "Afrika"
-        }
-      },
-      "en": {
-        "word": "Table Mountain",
-        "aliases": [],
-        "hints": {
-          "easy": "Plateau",
-          "normal": "Cableway",
-          "hard": "Africa"
         }
       }
     }
@@ -3047,15 +2110,6 @@
           "normal": "Zambezi",
           "hard": "Dimma"
         }
-      },
-      "en": {
-        "word": "Victoria Falls",
-        "aliases": [],
-        "hints": {
-          "easy": "Waterfall",
-          "normal": "Zambezi",
-          "hard": "Mist"
-        }
       }
     }
   },
@@ -3076,15 +2130,6 @@
           "easy": "Ramses",
           "normal": "Klipptempel",
           "hard": "Förflyttning"
-        }
-      },
-      "en": {
-        "word": "Abu Simbel",
-        "aliases": [],
-        "hints": {
-          "easy": "Ramses",
-          "normal": "Temple",
-          "hard": "Relocation"
         }
       }
     }
@@ -3107,17 +2152,6 @@
           "normal": "Manhattan",
           "hard": "Koppar"
         }
-      },
-      "en": {
-        "word": "Statue of Liberty",
-        "aliases": [
-          "Lady Liberty"
-        ],
-        "hints": {
-          "easy": "Torch",
-          "normal": "Manhattan",
-          "hard": "Copper"
-        }
       }
     }
   },
@@ -3139,15 +2173,6 @@
         "hints": {
           "easy": "Kalifornien",
           "normal": "Hängbro",
-          "hard": "Orange"
-        }
-      },
-      "en": {
-        "word": "Golden Gate Bridge",
-        "aliases": [],
-        "hints": {
-          "easy": "California",
-          "normal": "Suspension",
           "hard": "Orange"
         }
       }
@@ -3173,15 +2198,6 @@
           "normal": "Hängbro",
           "hard": "Neogotik"
         }
-      },
-      "en": {
-        "word": "Brooklyn Bridge",
-        "aliases": [],
-        "hints": {
-          "easy": "Manhattan",
-          "normal": "Suspension",
-          "hard": "Gothic"
-        }
       }
     }
   },
@@ -3201,15 +2217,6 @@
         "hints": {
           "easy": "Arizona",
           "normal": "Ravin",
-          "hard": "Colorado"
-        }
-      },
-      "en": {
-        "word": "Grand Canyon",
-        "aliases": [],
-        "hints": {
-          "easy": "Arizona",
-          "normal": "Gorge",
           "hard": "Colorado"
         }
       }
@@ -3235,17 +2242,6 @@
           "normal": "Pyramid",
           "hard": "Yucatán"
         }
-      },
-      "en": {
-        "word": "Chichén Itzá",
-        "aliases": [
-          "Chichen Itza"
-        ],
-        "hints": {
-          "easy": "Maya",
-          "normal": "Pyramid",
-          "hard": "Yucatan"
-        }
       }
     }
   },
@@ -3266,15 +2262,6 @@
           "easy": "Inka",
           "normal": "Peru",
           "hard": "Terrasser"
-        }
-      },
-      "en": {
-        "word": "Machu Picchu",
-        "aliases": [],
-        "hints": {
-          "easy": "Inca",
-          "normal": "Peru",
-          "hard": "Terraces"
         }
       }
     }
@@ -3299,17 +2286,6 @@
           "normal": "Utsträckta",
           "hard": "Bergstopp"
         }
-      },
-      "en": {
-        "word": "Christ the Redeemer",
-        "aliases": [
-          "Cristo Redentor"
-        ],
-        "hints": {
-          "easy": "Rio",
-          "normal": "Outstretched",
-          "hard": "Summit"
-        }
       }
     }
   },
@@ -3329,15 +2305,6 @@
         "hints": {
           "easy": "Indien",
           "normal": "Marmor",
-          "hard": "Mausoleum"
-        }
-      },
-      "en": {
-        "word": "Taj Mahal",
-        "aliases": [],
-        "hints": {
-          "easy": "India",
-          "normal": "Marble",
           "hard": "Mausoleum"
         }
       }
@@ -3363,17 +2330,6 @@
           "normal": "Murverk",
           "hard": "Vakttorn"
         }
-      },
-      "en": {
-        "word": "Great Wall of China",
-        "aliases": [
-          "Great Wall"
-        ],
-        "hints": {
-          "easy": "Fortification",
-          "normal": "Masonry",
-          "hard": "Watchtowers"
-        }
       }
     }
   },
@@ -3393,15 +2349,6 @@
         "hints": {
           "easy": "Kambodja",
           "normal": "Tempel",
-          "hard": "Lotus"
-        }
-      },
-      "en": {
-        "word": "Angkor Wat",
-        "aliases": [],
-        "hints": {
-          "easy": "Cambodia",
-          "normal": "Temple",
           "hard": "Lotus"
         }
       }
@@ -3425,15 +2372,6 @@
           "normal": "Klippstad",
           "hard": "Sandsten"
         }
-      },
-      "en": {
-        "word": "Petra",
-        "aliases": [],
-        "hints": {
-          "easy": "Jordan",
-          "normal": "City",
-          "hard": "Sandstone"
-        }
       }
     }
   },
@@ -3454,15 +2392,6 @@
           "easy": "Dubai",
           "normal": "Skyskrapa",
           "hard": "Höjd"
-        }
-      },
-      "en": {
-        "word": "Burj Khalifa",
-        "aliases": [],
-        "hints": {
-          "easy": "Dubai",
-          "normal": "Skyscraper",
-          "hard": "Height"
         }
       }
     }
@@ -3487,15 +2416,6 @@
           "normal": "Häger",
           "hard": "Vit"
         }
-      },
-      "en": {
-        "word": "Himeji Castle",
-        "aliases": [],
-        "hints": {
-          "easy": "Japan",
-          "normal": "Heron",
-          "hard": "White"
-        }
       }
     }
   },
@@ -3510,15 +2430,6 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Borobudur",
-        "aliases": [],
-        "hints": {
-          "easy": "Java",
-          "normal": "Buddhism",
-          "hard": "Stupa"
-        }
-      },
-      "en": {
         "word": "Borobudur",
         "aliases": [],
         "hints": {
@@ -3549,15 +2460,6 @@
           "normal": "Hamn",
           "hard": "Scen"
         }
-      },
-      "en": {
-        "word": "Sydney Opera House",
-        "aliases": [],
-        "hints": {
-          "easy": "Sails",
-          "normal": "Harbor",
-          "hard": "Stage"
-        }
       }
     }
   },
@@ -3581,17 +2483,6 @@
           "normal": "Sandsten",
           "hard": "Rödfärgad"
         }
-      },
-      "en": {
-        "word": "Uluru",
-        "aliases": [
-          "Ayers Rock"
-        ],
-        "hints": {
-          "easy": "Australia",
-          "normal": "Sandstone",
-          "hard": "Reddish"
-        }
       }
     }
   },
@@ -3612,15 +2503,6 @@
           "easy": "Koraller",
           "normal": "Australien",
           "hard": "Dykning"
-        }
-      },
-      "en": {
-        "word": "Great Barrier Reef",
-        "aliases": [],
-        "hints": {
-          "easy": "Corals",
-          "normal": "Australia",
-          "hard": "Diving"
         }
       }
     }
@@ -3645,17 +2527,6 @@
           "normal": "Amon",
           "hard": "Pelarsal"
         }
-      },
-      "en": {
-        "word": "Karnak",
-        "aliases": [
-          "Karnak Temple"
-        ],
-        "hints": {
-          "easy": "Luxor",
-          "normal": "Amon",
-          "hard": "Columns"
-        }
       }
     }
   },
@@ -3678,15 +2549,6 @@
           "easy": "Gränskontroll",
           "normal": "Stämplar",
           "hard": "Legitimation"
-        }
-      },
-      "en": {
-        "word": "Passport",
-        "aliases": [],
-        "hints": {
-          "easy": "Border",
-          "normal": "Stamps",
-          "hard": "Identification"
         }
       }
     }
@@ -3711,17 +2573,6 @@
           "normal": "Ambassad",
           "hard": "Giltighet"
         }
-      },
-      "en": {
-        "word": "Visa",
-        "aliases": [
-          "Entry visa"
-        ],
-        "hints": {
-          "easy": "Entry",
-          "normal": "Embassy",
-          "hard": "Validity"
-        }
       }
     }
   },
@@ -3742,15 +2593,6 @@
           "easy": "Ombordstigning",
           "normal": "Gate",
           "hard": "Platsnummer"
-        }
-      },
-      "en": {
-        "word": "Boarding pass",
-        "aliases": [],
-        "hints": {
-          "easy": "Boarding",
-          "normal": "Gate",
-          "hard": "Seat"
         }
       }
     }
@@ -3773,15 +2615,6 @@
           "normal": "Giltighet",
           "hard": "Resperiod"
         }
-      },
-      "en": {
-        "word": "Rail pass",
-        "aliases": [],
-        "hints": {
-          "easy": "Railway",
-          "normal": "Validity",
-          "hard": "Period"
-        }
       }
     }
   },
@@ -3802,17 +2635,6 @@
           "easy": "Hyrbil",
           "normal": "Legitimation",
           "hard": "Behörighet"
-        }
-      },
-      "en": {
-        "word": "International Driving Permit",
-        "aliases": [
-          "IDP"
-        ],
-        "hints": {
-          "easy": "Rental",
-          "normal": "Identification",
-          "hard": "Authorization"
         }
       }
     }
@@ -3835,15 +2657,6 @@
           "normal": "Införsel",
           "hard": "Varulista"
         }
-      },
-      "en": {
-        "word": "Customs declaration",
-        "aliases": [],
-        "hints": {
-          "easy": "Customs",
-          "normal": "Import",
-          "hard": "Inventory"
-        }
       }
     }
   },
@@ -3864,17 +2677,6 @@
           "easy": "Försäkring",
           "normal": "Sjukvård",
           "hard": "Intyg"
-        }
-      },
-      "en": {
-        "word": "Travel insurance certificate",
-        "aliases": [
-          "Proof of travel insurance"
-        ],
-        "hints": {
-          "easy": "Insurance",
-          "normal": "Healthcare",
-          "hard": "Certificate"
         }
       }
     }
@@ -3899,17 +2701,6 @@
           "normal": "Bagage",
           "hard": "Handtag"
         }
-      },
-      "en": {
-        "word": "Luggage tag",
-        "aliases": [
-          "Bag tag"
-        ],
-        "hints": {
-          "easy": "Label",
-          "normal": "Baggage",
-          "hard": "Handle"
-        }
       }
     }
   },
@@ -3933,17 +2724,6 @@
           "normal": "Kvitto",
           "hard": "Streckkod"
         }
-      },
-      "en": {
-        "word": "Baggage claim check",
-        "aliases": [
-          "Baggage receipt"
-        ],
-        "hints": {
-          "easy": "Baggage",
-          "normal": "Receipt",
-          "hard": "Barcode"
-        }
       }
     }
   },
@@ -3964,15 +2744,6 @@
           "easy": "Bagage",
           "normal": "Packning",
           "hard": "Hjul"
-        }
-      },
-      "en": {
-        "word": "Suitcase",
-        "aliases": [],
-        "hints": {
-          "easy": "Luggage",
-          "normal": "Packing",
-          "hard": "Wheels"
         }
       }
     }
@@ -3997,17 +2768,6 @@
           "normal": "Galge",
           "hard": "Veck"
         }
-      },
-      "en": {
-        "word": "Garment bag",
-        "aliases": [
-          "Suit bag"
-        ],
-        "hints": {
-          "easy": "Suit",
-          "normal": "Hanger",
-          "hard": "Creases"
-        }
       }
     }
   },
@@ -4028,15 +2788,6 @@
           "easy": "Organisering",
           "normal": "Packning",
           "hard": "Dragkedja"
-        }
-      },
-      "en": {
-        "word": "Packing cube",
-        "aliases": [],
-        "hints": {
-          "easy": "Organization",
-          "normal": "Packing",
-          "hard": "Zipper"
         }
       }
     }
@@ -4059,15 +2810,6 @@
           "normal": "Sömn",
           "hard": "Hästsko"
         }
-      },
-      "en": {
-        "word": "Travel pillow",
-        "aliases": [],
-        "hints": {
-          "easy": "Neck",
-          "normal": "Sleep",
-          "hard": "Horseshoe"
-        }
       }
     }
   },
@@ -4088,17 +2830,6 @@
           "easy": "Sevärdheter",
           "normal": "Tips",
           "hard": "Resmål"
-        }
-      },
-      "en": {
-        "word": "Travel guidebook",
-        "aliases": [
-          "Guidebook"
-        ],
-        "hints": {
-          "easy": "Sights",
-          "normal": "Recommendations",
-          "hard": "Destinations"
         }
       }
     }
@@ -4121,15 +2852,6 @@
           "normal": "Orientering",
           "hard": "Kvarter"
         }
-      },
-      "en": {
-        "word": "City map",
-        "aliases": [],
-        "hints": {
-          "easy": "Streets",
-          "normal": "Orientation",
-          "hard": "Blocks"
-        }
       }
     }
   },
@@ -4150,15 +2872,6 @@
           "easy": "Översättning",
           "normal": "Fraser",
           "hard": "Turist"
-        }
-      },
-      "en": {
-        "word": "Phrasebook",
-        "aliases": [],
-        "hints": {
-          "easy": "Translation",
-          "normal": "Phrases",
-          "hard": "Tourist"
         }
       }
     }
@@ -4183,17 +2896,6 @@
           "normal": "Dörr",
           "hard": "Kortläsare"
         }
-      },
-      "en": {
-        "word": "Hotel key card",
-        "aliases": [
-          "Room key card"
-        ],
-        "hints": {
-          "easy": "Hotel",
-          "normal": "Door",
-          "hard": "Reader"
-        }
       }
     }
   },
@@ -4214,17 +2916,6 @@
           "easy": "Dörrhandtag",
           "normal": "Ostört",
           "hard": "Hotell"
-        }
-      },
-      "en": {
-        "word": "Do not disturb sign",
-        "aliases": [
-          "Do not disturb door hanger"
-        ],
-        "hints": {
-          "easy": "Doorknob",
-          "normal": "Privacy",
-          "hard": "Hotel"
         }
       }
     }
@@ -4248,17 +2939,6 @@
           "easy": "Stöldskydd",
           "normal": "Sifferkod",
           "hard": "Dragkedja"
-        }
-      },
-      "en": {
-        "word": "Luggage lock",
-        "aliases": [
-          "Suitcase lock"
-        ],
-        "hints": {
-          "easy": "Security",
-          "normal": "Combination",
-          "hard": "Zipper"
         }
       }
     }

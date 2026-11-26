@@ -13,7 +13,7 @@
   {"name": "guardian blocks joker victory", "settings": {"mode": "classic", "joker": true, "extraRole": "guardian"}, "protect": "joker", "voteFor": "joker", "reason": "imposter_survived", "winnerTeam": "impostors"},
   {"name": "guardian blocks imposter elimination and guess", "settings": {"mode": "classic", "extraRole": "guardian", "lastGuess": true}, "protect": "imposter", "voteFor": "imposter", "reason": "imposter_survived", "winnerTeam": "impostors"},
   {"name": "undercover minority caught", "settings": {"mode": "undercover"}, "rolls": [0, 0.8], "voteFor": "undercover-minority", "reason": "undercover_eliminated", "winnerTeam": "civils"},
-  {"name": "undercover minority survives", "settings": {"mode": "undercover", "language": "en"}, "voteFor": "undercover-majority", "reason": "undercover_survived", "winnerTeam": "impostors"},
+  {"name": "undercover minority survives", "settings": {"mode": "undercover"}, "voteFor": "undercover-majority", "reason": "undercover_survived", "winnerTeam": "impostors"},
   {"name": "alliance hit", "settings": {"mode": "alliance"}, "voteFor": "imposter", "reason": "imposter_eliminated", "winnerTeam": "civils"},
   {"name": "blind hit", "settings": {"mode": "blind"}, "voteFor": "imposter", "reason": "imposter_eliminated", "winnerTeam": "civils"},
   {"name": "spy is a valid target", "settings": {"mode": "classic", "extraRole": "spy"}, "voteFor": "spy", "reason": "imposter_eliminated", "winnerTeam": "civils"},

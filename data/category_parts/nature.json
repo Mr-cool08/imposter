@@ -1,37 +1,32 @@
 {
   "id": "nature",
   "names": {
-    "sv": "Natur",
-    "en": "Nature"
+    "sv": "Natur"
   },
   "icon": "🌿",
   "subcategories": [
     {
       "id": "nature-landscape",
       "names": {
-        "sv": "Landskap",
-        "en": "Landscapes"
+        "sv": "Landskap"
       }
     },
     {
       "id": "nature-weather",
       "names": {
-        "sv": "Väder",
-        "en": "Weather"
+        "sv": "Väder"
       }
     },
     {
       "id": "nature-plants",
       "names": {
-        "sv": "Växter",
-        "en": "Plants"
+        "sv": "Växter"
       }
     },
     {
       "id": "nature-phenomena",
       "names": {
-        "sv": "Naturfenomen",
-        "en": "Natural phenomena"
+        "sv": "Naturfenomen"
       }
     }
   ]

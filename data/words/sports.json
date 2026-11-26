@@ -17,18 +17,6 @@
           "normal": "Boll",
           "hard": "Passning"
         }
-      },
-      "en": {
-        "word": "Soccer",
-        "aliases": [
-          "Association football",
-          "Football"
-        ],
-        "hints": {
-          "easy": "Goal",
-          "normal": "Ball",
-          "hard": "Pass"
-        }
       }
     }
   },
@@ -49,15 +37,6 @@
           "easy": "Inomhus",
           "normal": "Fem",
           "hard": "Sidlinje"
-        }
-      },
-      "en": {
-        "word": "Futsal",
-        "aliases": [],
-        "hints": {
-          "easy": "Indoors",
-          "normal": "Five",
-          "hard": "Sideline"
         }
       }
     }
@@ -82,15 +61,6 @@
           "normal": "Studs",
           "hard": "Parkett"
         }
-      },
-      "en": {
-        "word": "Basketball",
-        "aliases": [],
-        "hints": {
-          "easy": "Hoop",
-          "normal": "Bounce",
-          "hard": "Hardwood"
-        }
       }
     }
   },
@@ -112,15 +82,6 @@
           "normal": "Smash",
           "hard": "Fingerslag"
         }
-      },
-      "en": {
-        "word": "Volleyball",
-        "aliases": [],
-        "hints": {
-          "easy": "Net",
-          "normal": "Smash",
-          "hard": "Set"
-        }
       }
     }
   },
@@ -141,15 +102,6 @@
           "easy": "Kast",
           "normal": "Målgård",
           "hard": "Linjespelare"
-        }
-      },
-      "en": {
-        "word": "Handball",
-        "aliases": [],
-        "hints": {
-          "easy": "Throw",
-          "normal": "Crease",
-          "hard": "Pivot"
         }
       }
     }
@@ -173,15 +125,6 @@
           "normal": "Skridskor",
           "hard": "Sarg"
         }
-      },
-      "en": {
-        "word": "Ice hockey",
-        "aliases": [],
-        "hints": {
-          "easy": "Puck",
-          "normal": "Skates",
-          "hard": "Boards"
-        }
       }
     }
   },
@@ -202,15 +145,6 @@
           "easy": "Plastboll",
           "normal": "Klubba",
           "hard": "Idrottshall"
-        }
-      },
-      "en": {
-        "word": "Floorball",
-        "aliases": [],
-        "hints": {
-          "easy": "Plastic",
-          "normal": "Stick",
-          "hard": "Gym"
         }
       }
     }
@@ -234,15 +168,6 @@
           "normal": "Boll",
           "hard": "Vinter"
         }
-      },
-      "en": {
-        "word": "Bandy",
-        "aliases": [],
-        "hints": {
-          "easy": "Ice",
-          "normal": "Ball",
-          "hard": "Winter"
-        }
       }
     }
   },
@@ -264,15 +189,6 @@
           "normal": "Serve",
           "hard": "Baslinje"
         }
-      },
-      "en": {
-        "word": "Tennis",
-        "aliases": [],
-        "hints": {
-          "easy": "Racket",
-          "normal": "Serve",
-          "hard": "Baseline"
-        }
       }
     }
   },
@@ -293,15 +209,6 @@
           "easy": "Fjäderboll",
           "normal": "Racket",
           "hard": "Lätt"
-        }
-      },
-      "en": {
-        "word": "Badminton",
-        "aliases": [],
-        "hints": {
-          "easy": "Shuttlecock",
-          "normal": "Racket",
-          "hard": "Light"
         }
       }
     }
@@ -326,18 +233,6 @@
           "normal": "Bord",
           "hard": "Skruv"
         }
-      },
-      "en": {
-        "word": "Table tennis",
-        "aliases": [
-          "Ping-pong",
-          "Ping pong"
-        ],
-        "hints": {
-          "easy": "Pingpong",
-          "normal": "Table",
-          "hard": "Spin"
-        }
       }
     }
   },
@@ -358,15 +253,6 @@
           "easy": "Vägg",
           "normal": "Racket",
           "hard": "Hörn"
-        }
-      },
-      "en": {
-        "word": "Squash",
-        "aliases": [],
-        "hints": {
-          "easy": "Wall",
-          "normal": "Racket",
-          "hard": "Corner"
         }
       }
     }
@@ -389,15 +275,6 @@
           "normal": "Dubbel",
           "hard": "Perforering"
         }
-      },
-      "en": {
-        "word": "Padel",
-        "aliases": [],
-        "hints": {
-          "easy": "Glass",
-          "normal": "Doubles",
-          "hard": "Perforations"
-        }
       }
     }
   },
@@ -419,15 +296,6 @@
           "normal": "Paddel",
           "hard": "Köket"
         }
-      },
-      "en": {
-        "word": "Pickleball",
-        "aliases": [],
-        "hints": {
-          "easy": "Plastic",
-          "normal": "Paddle",
-          "hard": "Kitchen"
-        }
       }
     }
   },
@@ -447,15 +315,6 @@
         "hints": {
           "easy": "Klubbor",
           "normal": "Hål",
-          "hard": "Fairway"
-        }
-      },
-      "en": {
-        "word": "Golf",
-        "aliases": [],
-        "hints": {
-          "easy": "Clubs",
-          "normal": "Hole",
           "hard": "Fairway"
         }
       }
@@ -481,17 +340,6 @@
           "normal": "Kedjor",
           "hard": "Kast"
         }
-      },
-      "en": {
-        "word": "Disc golf",
-        "aliases": [
-          "Frisbee golf"
-        ],
-        "hints": {
-          "easy": "Frisbee",
-          "normal": "Chains",
-          "hard": "Throw"
-        }
       }
     }
   },
@@ -512,15 +360,6 @@
           "easy": "Pilar",
           "normal": "Tavla",
           "hard": "Sträng"
-        }
-      },
-      "en": {
-        "word": "Archery",
-        "aliases": [],
-        "hints": {
-          "easy": "Arrows",
-          "normal": "Target",
-          "hard": "String"
         }
       }
     }
@@ -543,15 +382,6 @@
           "normal": "Mask",
           "hard": "Parad"
         }
-      },
-      "en": {
-        "word": "Fencing",
-        "aliases": [],
-        "hints": {
-          "easy": "Foil",
-          "normal": "Mask",
-          "hard": "Parry"
-        }
       }
     }
   },
@@ -573,15 +403,6 @@
           "normal": "Grepp",
           "hard": "Fall"
         }
-      },
-      "en": {
-        "word": "Wrestling",
-        "aliases": [],
-        "hints": {
-          "easy": "Mat",
-          "normal": "Grapple",
-          "hard": "Pin"
-        }
       }
     }
   },
@@ -600,15 +421,6 @@
         "aliases": [],
         "hints": {
           "easy": "Kast",
-          "normal": "Judogi",
-          "hard": "Ippon"
-        }
-      },
-      "en": {
-        "word": "Judo",
-        "aliases": [],
-        "hints": {
-          "easy": "Throw",
           "normal": "Judogi",
           "hard": "Ippon"
         }
@@ -633,15 +445,6 @@
           "normal": "Kata",
           "hard": "Dojo"
         }
-      },
-      "en": {
-        "word": "Karate",
-        "aliases": [],
-        "hints": {
-          "easy": "Kicks",
-          "normal": "Kata",
-          "hard": "Dojo"
-        }
       }
     }
   },
@@ -663,15 +466,6 @@
           "normal": "Korea",
           "hard": "Poäng"
         }
-      },
-      "en": {
-        "word": "Taekwondo",
-        "aliases": [],
-        "hints": {
-          "easy": "Kicks",
-          "normal": "Korea",
-          "hard": "Points"
-        }
       }
     }
   },
@@ -692,15 +486,6 @@
           "easy": "Handskar",
           "normal": "Ring",
           "hard": "Rond"
-        }
-      },
-      "en": {
-        "word": "Boxing",
-        "aliases": [],
-        "hints": {
-          "easy": "Gloves",
-          "normal": "Ring",
-          "hard": "Round"
         }
       }
     }
@@ -724,15 +509,6 @@
           "normal": "Sopning",
           "hard": "Bo"
         }
-      },
-      "en": {
-        "word": "Curling",
-        "aliases": [],
-        "hints": {
-          "easy": "Stones",
-          "normal": "Sweeping",
-          "hard": "House"
-        }
       }
     }
   },
@@ -754,15 +530,6 @@
           "normal": "Skridskor",
           "hard": "Program"
         }
-      },
-      "en": {
-        "word": "Figure skating",
-        "aliases": [],
-        "hints": {
-          "easy": "Spin",
-          "normal": "Skates",
-          "hard": "Routine"
-        }
       }
     }
   },
@@ -782,15 +549,6 @@
         "hints": {
           "easy": "Skridskor",
           "normal": "Varv",
-          "hard": "Oval"
-        }
-      },
-      "en": {
-        "word": "Speed skating",
-        "aliases": [],
-        "hints": {
-          "easy": "Skates",
-          "normal": "Laps",
           "hard": "Oval"
         }
       }
@@ -816,17 +574,6 @@
           "normal": "Stavar",
           "hard": "Diagonal"
         }
-      },
-      "en": {
-        "word": "Cross-country skiing",
-        "aliases": [
-          "XC skiing"
-        ],
-        "hints": {
-          "easy": "Tracks",
-          "normal": "Poles",
-          "hard": "Diagonal"
-        }
       }
     }
   },
@@ -849,17 +596,6 @@
           "easy": "Utför",
           "normal": "Slalom",
           "hard": "Portar"
-        }
-      },
-      "en": {
-        "word": "Alpine skiing",
-        "aliases": [
-          "Downhill skiing"
-        ],
-        "hints": {
-          "easy": "Downhill",
-          "normal": "Slalom",
-          "hard": "Gates"
         }
       }
     }
@@ -884,15 +620,6 @@
           "normal": "Backe",
           "hard": "Sidledes"
         }
-      },
-      "en": {
-        "word": "Snowboarding",
-        "aliases": [],
-        "hints": {
-          "easy": "Board",
-          "normal": "Slope",
-          "hard": "Sideways"
-        }
       }
     }
   },
@@ -912,15 +639,6 @@
         "hints": {
           "easy": "Hoppbacke",
           "normal": "Landning",
-          "hard": "Telemark"
-        }
-      },
-      "en": {
-        "word": "Ski jumping",
-        "aliases": [],
-        "hints": {
-          "easy": "Ramp",
-          "normal": "Landing",
           "hard": "Telemark"
         }
       }
@@ -944,15 +662,6 @@
           "normal": "Skidor",
           "hard": "Straffrunda"
         }
-      },
-      "en": {
-        "word": "Biathlon",
-        "aliases": [],
-        "hints": {
-          "easy": "Rifle",
-          "normal": "Skis",
-          "hard": "Penalty"
-        }
       }
     }
   },
@@ -973,15 +682,6 @@
           "easy": "Karta",
           "normal": "Kompass",
           "hard": "Kontroll"
-        }
-      },
-      "en": {
-        "word": "Orienteering",
-        "aliases": [],
-        "hints": {
-          "easy": "Map",
-          "normal": "Compass",
-          "hard": "Checkpoint"
         }
       }
     }
@@ -1005,15 +705,6 @@
           "easy": "Långdistans",
           "normal": "Löpning",
           "hard": "Aten"
-        }
-      },
-      "en": {
-        "word": "Marathon",
-        "aliases": [],
-        "hints": {
-          "easy": "Endurance",
-          "normal": "Running",
-          "hard": "Athens"
         }
       }
     }
@@ -1039,17 +730,6 @@
           "normal": "Startblock",
           "hard": "Hundra"
         }
-      },
-      "en": {
-        "word": "Sprinting",
-        "aliases": [
-          "Sprint"
-        ],
-        "hints": {
-          "easy": "Speed",
-          "normal": "Blocks",
-          "hard": "Hundred"
-        }
       }
     }
   },
@@ -1070,17 +750,6 @@
           "easy": "Hinder",
           "normal": "Bana",
           "hard": "Rytm"
-        }
-      },
-      "en": {
-        "word": "Hurdles",
-        "aliases": [
-          "Hurdling"
-        ],
-        "hints": {
-          "easy": "Obstacles",
-          "normal": "Track",
-          "hard": "Rhythm"
         }
       }
     }
@@ -1103,17 +772,6 @@
           "normal": "Matta",
           "hard": "Ribba"
         }
-      },
-      "en": {
-        "word": "Pole vault",
-        "aliases": [
-          "Pole vaulting"
-        ],
-        "hints": {
-          "easy": "Pole",
-          "normal": "Mat",
-          "hard": "Bar"
-        }
       }
     }
   },
@@ -1133,15 +791,6 @@
         "hints": {
           "easy": "Ribba",
           "normal": "Ansats",
-          "hard": "Flop"
-        }
-      },
-      "en": {
-        "word": "High jump",
-        "aliases": [],
-        "hints": {
-          "easy": "Bar",
-          "normal": "Approach",
           "hard": "Flop"
         }
       }
@@ -1164,15 +813,6 @@
           "easy": "Sandgrop",
           "normal": "Avstamp",
           "hard": "Planka"
-        }
-      },
-      "en": {
-        "word": "Long jump",
-        "aliases": [],
-        "hints": {
-          "easy": "Sandpit",
-          "normal": "Takeoff",
-          "hard": "Board"
         }
       }
     }
@@ -1197,17 +837,6 @@
           "normal": "Rotation",
           "hard": "Kastcirkel"
         }
-      },
-      "en": {
-        "word": "Discus throw",
-        "aliases": [
-          "Discus"
-        ],
-        "hints": {
-          "easy": "Disc",
-          "normal": "Rotation",
-          "hard": "Circle"
-        }
       }
     }
   },
@@ -1231,17 +860,6 @@
           "normal": "Spets",
           "hard": "Ansats"
         }
-      },
-      "en": {
-        "word": "Javelin throw",
-        "aliases": [
-          "Javelin"
-        ],
-        "hints": {
-          "easy": "Field",
-          "normal": "Tip",
-          "hard": "Runup"
-        }
       }
     }
   },
@@ -1263,15 +881,6 @@
           "normal": "Axel",
           "hard": "Ring"
         }
-      },
-      "en": {
-        "word": "Shot put",
-        "aliases": [],
-        "hints": {
-          "easy": "Ball",
-          "normal": "Shoulder",
-          "hard": "Circle"
-        }
       }
     }
   },
@@ -1292,15 +901,6 @@
           "easy": "Stafettpinne",
           "normal": "Lag",
           "hard": "Växling"
-        }
-      },
-      "en": {
-        "word": "Relay race",
-        "aliases": [],
-        "hints": {
-          "easy": "Baton",
-          "normal": "Team",
-          "hard": "Exchange"
         }
       }
     }
@@ -1325,17 +925,6 @@
           "normal": "Crawl",
           "hard": "Vändning"
         }
-      },
-      "en": {
-        "word": "Competitive swimming",
-        "aliases": [
-          "Swimming"
-        ],
-        "hints": {
-          "easy": "Pool",
-          "normal": "Crawl",
-          "hard": "Turn"
-        }
       }
     }
   },
@@ -1357,15 +946,6 @@
           "easy": "Bassäng",
           "normal": "Mål",
           "hard": "Mössor"
-        }
-      },
-      "en": {
-        "word": "Water polo",
-        "aliases": [],
-        "hints": {
-          "easy": "Pool",
-          "normal": "Goal",
-          "hard": "Caps"
         }
       }
     }
@@ -1390,18 +970,6 @@
           "normal": "Bassäng",
           "hard": "Koreografi"
         }
-      },
-      "en": {
-        "word": "Artistic swimming",
-        "aliases": [
-          "Synchronised swimming",
-          "Synchronized swimming"
-        ],
-        "hints": {
-          "easy": "Synchronization",
-          "normal": "Pool",
-          "hard": "Choreography"
-        }
       }
     }
   },
@@ -1422,17 +990,6 @@
           "easy": "Svikt",
           "normal": "Volt",
           "hard": "Nedslag"
-        }
-      },
-      "en": {
-        "word": "Competitive diving",
-        "aliases": [
-          "Springboard and platform diving"
-        ],
-        "hints": {
-          "easy": "Springboard",
-          "normal": "Somersault",
-          "hard": "Entry"
         }
       }
     }
@@ -1455,15 +1012,6 @@
           "normal": "Båt",
           "hard": "Takthållning"
         }
-      },
-      "en": {
-        "word": "Rowing",
-        "aliases": [],
-        "hints": {
-          "easy": "Oars",
-          "normal": "Boat",
-          "hard": "Rhythm"
-        }
       }
     }
   },
@@ -1485,15 +1033,6 @@
           "normal": "Tackling",
           "hard": "Klunga"
         }
-      },
-      "en": {
-        "word": "Rugby",
-        "aliases": [],
-        "hints": {
-          "easy": "Oval",
-          "normal": "Tackle",
-          "hard": "Scrum"
-        }
       }
     }
   },
@@ -1513,15 +1052,6 @@
         "hints": {
           "easy": "Slagträ",
           "normal": "Baser",
-          "hard": "Inning"
-        }
-      },
-      "en": {
-        "word": "Baseball",
-        "aliases": [],
-        "hints": {
-          "easy": "Bat",
-          "normal": "Bases",
           "hard": "Inning"
         }
       }
@@ -1545,15 +1075,6 @@
           "normal": "Slagträ",
           "hard": "Kastcirkel"
         }
-      },
-      "en": {
-        "word": "Softball",
-        "aliases": [],
-        "hints": {
-          "easy": "Underhand",
-          "normal": "Bat",
-          "hard": "Circle"
-        }
       }
     }
   },
@@ -1574,15 +1095,6 @@
           "easy": "Klubbor",
           "normal": "Nät",
           "hard": "Fånga"
-        }
-      },
-      "en": {
-        "word": "Lacrosse",
-        "aliases": [],
-        "hints": {
-          "easy": "Sticks",
-          "normal": "Mesh",
-          "hard": "Catch"
         }
       }
     }
@@ -1607,15 +1119,6 @@
           "normal": "Volt",
           "hard": "Landning"
         }
-      },
-      "en": {
-        "word": "Artistic gymnastics",
-        "aliases": [],
-        "hints": {
-          "easy": "Apparatus",
-          "normal": "Flip",
-          "hard": "Landing"
-        }
       }
     }
   },
@@ -1638,15 +1141,6 @@
           "easy": "Klättervägg",
           "normal": "Matta",
           "hard": "Grepp"
-        }
-      },
-      "en": {
-        "word": "Bouldering",
-        "aliases": [],
-        "hints": {
-          "easy": "Wall",
-          "normal": "Mat",
-          "hard": "Holds"
         }
       }
     }
@@ -1671,15 +1165,6 @@
           "normal": "Bräda",
           "hard": "Paddla"
         }
-      },
-      "en": {
-        "word": "Surfing",
-        "aliases": [],
-        "hints": {
-          "easy": "Waves",
-          "normal": "Board",
-          "hard": "Paddle"
-        }
       }
     }
   },
@@ -1703,15 +1188,6 @@
           "normal": "Cykel",
           "hard": "Växling"
         }
-      },
-      "en": {
-        "word": "Triathlon",
-        "aliases": [],
-        "hints": {
-          "easy": "Swimming",
-          "normal": "Cycling",
-          "hard": "Transition"
-        }
       }
     }
   },
@@ -1733,15 +1209,6 @@
           "normal": "Knäböj",
           "hard": "Bänk"
         }
-      },
-      "en": {
-        "word": "Powerlifting",
-        "aliases": [],
-        "hints": {
-          "easy": "Deadlift",
-          "normal": "Squat",
-          "hard": "Bench"
-        }
       }
     }
   },
@@ -1762,17 +1229,6 @@
           "easy": "Skivstång",
           "normal": "Ryck",
           "hard": "Stöt"
-        }
-      },
-      "en": {
-        "word": "Olympic weightlifting",
-        "aliases": [
-          "Weightlifting"
-        ],
-        "hints": {
-          "easy": "Barbell",
-          "normal": "Snatch",
-          "hard": "Jerk"
         }
       }
     }
@@ -1796,15 +1252,6 @@
           "normal": "Hjul",
           "hard": "Parkett"
         }
-      },
-      "en": {
-        "word": "Wheelchair basketball",
-        "aliases": [],
-        "hints": {
-          "easy": "Hoop",
-          "normal": "Wheels",
-          "hard": "Court"
-        }
       }
     }
   },
@@ -1826,15 +1273,6 @@
           "easy": "Bjällra",
           "normal": "Ögonbindel",
           "hard": "Försvar"
-        }
-      },
-      "en": {
-        "word": "Goalball",
-        "aliases": [],
-        "hints": {
-          "easy": "Bell",
-          "normal": "Blindfold",
-          "hard": "Defense"
         }
       }
     }
@@ -1859,17 +1297,6 @@
           "normal": "Grus",
           "hard": "Lille"
         }
-      },
-      "en": {
-        "word": "Pétanque",
-        "aliases": [
-          "Petanque"
-        ],
-        "hints": {
-          "easy": "Boules",
-          "normal": "Gravel",
-          "hard": "Jack"
-        }
       }
     }
   },
@@ -1890,18 +1317,6 @@
           "easy": "Dobbar",
           "normal": "Gräs",
           "hard": "Fäste"
-        }
-      },
-      "en": {
-        "word": "Cleats",
-        "aliases": [
-          "Football boots",
-          "Soccer boots"
-        ],
-        "hints": {
-          "easy": "Studs",
-          "normal": "Grass",
-          "hard": "Traction"
         }
       }
     }
@@ -1926,17 +1341,6 @@
           "normal": "Tackling",
           "hard": "Strumpor"
         }
-      },
-      "en": {
-        "word": "Shin guards",
-        "aliases": [
-          "Shin pads"
-        ],
-        "hints": {
-          "easy": "Shins",
-          "normal": "Tackle",
-          "hard": "Socks"
-        }
       }
     }
   },
@@ -1958,17 +1362,6 @@
           "normal": "Bett",
           "hard": "Formgjutet"
         }
-      },
-      "en": {
-        "word": "Mouthguard",
-        "aliases": [
-          "Mouth guard"
-        ],
-        "hints": {
-          "easy": "Teeth",
-          "normal": "Bite",
-          "hard": "Molded"
-        }
       }
     }
   },
@@ -1988,15 +1381,6 @@
         "hints": {
           "easy": "Slag",
           "normal": "Vaddering",
-          "hard": "Ring"
-        }
-      },
-      "en": {
-        "word": "Boxing gloves",
-        "aliases": [],
-        "hints": {
-          "easy": "Punching",
-          "normal": "Padding",
           "hard": "Ring"
         }
       }
@@ -2020,17 +1404,6 @@
           "normal": "Bassäng",
           "hard": "Imskydd"
         }
-      },
-      "en": {
-        "word": "Swimming goggles",
-        "aliases": [
-          "Swim goggles"
-        ],
-        "hints": {
-          "easy": "Eyes",
-          "normal": "Pool",
-          "hard": "Coating"
-        }
       }
     }
   },
@@ -2051,17 +1424,6 @@
           "easy": "Snö",
           "normal": "Sikt",
           "hard": "Reflexer"
-        }
-      },
-      "en": {
-        "word": "Ski goggles",
-        "aliases": [
-          "Snow goggles"
-        ],
-        "hints": {
-          "easy": "Snow",
-          "normal": "Visibility",
-          "hard": "Glare"
         }
       }
     }
@@ -2086,17 +1448,6 @@
           "normal": "Silikon",
           "hard": "Motstånd"
         }
-      },
-      "en": {
-        "word": "Swim cap",
-        "aliases": [
-          "Swimming cap"
-        ],
-        "hints": {
-          "easy": "Hair",
-          "normal": "Silicone",
-          "hard": "Drag"
-        }
       }
     }
   },
@@ -2116,15 +1467,6 @@
         "hints": {
           "easy": "Sprinter",
           "normal": "Avstamp",
-          "hard": "Acceleration"
-        }
-      },
-      "en": {
-        "word": "Starting blocks",
-        "aliases": [],
-        "hints": {
-          "easy": "Sprinter",
-          "normal": "Push",
           "hard": "Acceleration"
         }
       }
@@ -2150,17 +1492,6 @@
           "normal": "Löpare",
           "hard": "Pinne"
         }
-      },
-      "en": {
-        "word": "Relay baton",
-        "aliases": [
-          "Baton"
-        ],
-        "hints": {
-          "easy": "Handoff",
-          "normal": "Runner",
-          "hard": "Stick"
-        }
       }
     }
   },
@@ -2183,17 +1514,6 @@
           "easy": "Hockey",
           "normal": "Gummi",
           "hard": "Skiva"
-        }
-      },
-      "en": {
-        "word": "Puck",
-        "aliases": [
-          "Hockey puck"
-        ],
-        "hints": {
-          "easy": "Hockey",
-          "normal": "Rubber",
-          "hard": "Disc"
         }
       }
     }
@@ -2218,17 +1538,6 @@
           "normal": "Is",
           "hard": "Friktion"
         }
-      },
-      "en": {
-        "word": "Curling broom",
-        "aliases": [
-          "Curling brush"
-        ],
-        "hints": {
-          "easy": "Sweeping",
-          "normal": "Ice",
-          "hard": "Friction"
-        }
       }
     }
   },
@@ -2252,17 +1561,6 @@
           "normal": "Fjädrar",
           "hard": "Kork"
         }
-      },
-      "en": {
-        "word": "Shuttlecock",
-        "aliases": [
-          "Badminton birdie"
-        ],
-        "hints": {
-          "easy": "Badminton",
-          "normal": "Feathers",
-          "hard": "Cork"
-        }
       }
     }
   },
@@ -2283,15 +1581,6 @@
           "easy": "Spänning",
           "normal": "Träffyta",
           "hard": "Flätning"
-        }
-      },
-      "en": {
-        "word": "Racket strings",
-        "aliases": [],
-        "hints": {
-          "easy": "Tension",
-          "normal": "Surface",
-          "hard": "Weave"
         }
       }
     }
@@ -2314,15 +1603,6 @@
           "normal": "Vägg",
           "hard": "Skruvar"
         }
-      },
-      "en": {
-        "word": "Climbing holds",
-        "aliases": [],
-        "hints": {
-          "easy": "Grip",
-          "normal": "Wall",
-          "hard": "Bolts"
-        }
       }
     }
   },
@@ -2343,15 +1623,6 @@
           "easy": "Säkring",
           "normal": "Midja",
           "hard": "Spännen"
-        }
-      },
-      "en": {
-        "word": "Climbing harness",
-        "aliases": [],
-        "hints": {
-          "easy": "Belay",
-          "normal": "Waist",
-          "hard": "Buckles"
         }
       }
     }
@@ -2376,15 +1647,6 @@
           "normal": "Grepp",
           "hard": "Dragsko"
         }
-      },
-      "en": {
-        "word": "Chalk bag",
-        "aliases": [],
-        "hints": {
-          "easy": "Chalk",
-          "normal": "Grip",
-          "hard": "Drawstring"
-        }
       }
     }
   },
@@ -2408,17 +1670,6 @@
           "normal": "Boll",
           "hard": "Upphöjning"
         }
-      },
-      "en": {
-        "word": "Golf tee",
-        "aliases": [
-          "Tee"
-        ],
-        "hints": {
-          "easy": "Drive",
-          "normal": "Ball",
-          "hard": "Elevation"
-        }
       }
     }
   },
@@ -2439,15 +1690,6 @@
           "easy": "Maskor",
           "normal": "Skott",
           "hard": "Stolpar"
-        }
-      },
-      "en": {
-        "word": "Goal net",
-        "aliases": [],
-        "hints": {
-          "easy": "Mesh",
-          "normal": "Shot",
-          "hard": "Posts"
         }
       }
     }
@@ -2472,17 +1714,6 @@
           "normal": "Upplopp",
           "hard": "Vinnare"
         }
-      },
-      "en": {
-        "word": "Finish tape",
-        "aliases": [
-          "Finishing tape"
-        ],
-        "hints": {
-          "easy": "Finish",
-          "normal": "Straight",
-          "hard": "Winner"
-        }
       }
     }
   },
@@ -2506,17 +1737,6 @@
           "normal": "Flytbojar",
           "hard": "Vågdämpning"
         }
-      },
-      "en": {
-        "word": "Lane line",
-        "aliases": [
-          "Lane rope"
-        ],
-        "hints": {
-          "easy": "Pool",
-          "normal": "Floats",
-          "hard": "Waves"
-        }
       }
     }
   },
@@ -2537,15 +1757,6 @@
           "easy": "Gymnastik",
           "normal": "Smal",
           "hard": "Landning"
-        }
-      },
-      "en": {
-        "word": "Balance beam",
-        "aliases": [],
-        "hints": {
-          "easy": "Gymnastics",
-          "normal": "Narrow",
-          "hard": "Landing"
         }
       }
     }
@@ -2568,15 +1779,6 @@
           "normal": "Räcken",
           "hard": "Sving"
         }
-      },
-      "en": {
-        "word": "Parallel bars",
-        "aliases": [],
-        "hints": {
-          "easy": "Gymnastics",
-          "normal": "Rails",
-          "hard": "Swing"
-        }
       }
     }
   },
@@ -2597,15 +1799,6 @@
           "easy": "Gymnastik",
           "normal": "Handtag",
           "hard": "Cirklar"
-        }
-      },
-      "en": {
-        "word": "Pommel horse",
-        "aliases": [],
-        "hints": {
-          "easy": "Gymnastics",
-          "normal": "Handles",
-          "hard": "Circles"
         }
       }
     }
@@ -2630,17 +1823,6 @@
           "normal": "Sarg",
           "hard": "Kyla"
         }
-      },
-      "en": {
-        "word": "Ice rink",
-        "aliases": [
-          "Ice skating rink"
-        ],
-        "hints": {
-          "easy": "Skates",
-          "normal": "Boards",
-          "hard": "Cold"
-        }
       }
     }
   },
@@ -2661,17 +1843,6 @@
           "easy": "Löpning",
           "normal": "Oval",
           "hard": "Banmarkeringar"
-        }
-      },
-      "en": {
-        "word": "Running track",
-        "aliases": [
-          "Athletics track"
-        ],
-        "hints": {
-          "easy": "Running",
-          "normal": "Oval",
-          "hard": "Lanes"
         }
       }
     }
@@ -2694,15 +1865,6 @@
           "normal": "Oval",
           "hard": "Dosering"
         }
-      },
-      "en": {
-        "word": "Velodrome",
-        "aliases": [],
-        "hints": {
-          "easy": "Cycling",
-          "normal": "Oval",
-          "hard": "Banking"
-        }
       }
     }
   },
@@ -2723,15 +1885,6 @@
           "easy": "Slagträ",
           "normal": "Nät",
           "hard": "Kastmaskin"
-        }
-      },
-      "en": {
-        "word": "Batting cage",
-        "aliases": [],
-        "hints": {
-          "easy": "Bat",
-          "normal": "Net",
-          "hard": "Pitcher"
         }
       }
     }
@@ -2754,17 +1907,6 @@
           "normal": "Ramper",
           "hard": "Betong"
         }
-      },
-      "en": {
-        "word": "Skatepark",
-        "aliases": [
-          "Skate park"
-        ],
-        "hints": {
-          "easy": "Skateboard",
-          "normal": "Ramps",
-          "hard": "Concrete"
-        }
       }
     }
   },
@@ -2786,17 +1928,6 @@
         "hints": {
           "easy": "Flagga",
           "normal": "Kortklippt",
-          "hard": "Precision"
-        }
-      },
-      "en": {
-        "word": "Putting green",
-        "aliases": [
-          "Green"
-        ],
-        "hints": {
-          "easy": "Flag",
-          "normal": "Mown",
           "hard": "Precision"
         }
       }
@@ -2822,17 +1953,6 @@
           "normal": "Rutor",
           "hard": "Snabbhet"
         }
-      },
-      "en": {
-        "word": "Agility ladder",
-        "aliases": [
-          "Speed ladder"
-        ],
-        "hints": {
-          "easy": "Footwork",
-          "normal": "Squares",
-          "hard": "Speed"
-        }
       }
     }
   },
@@ -2852,15 +1972,6 @@
         "hints": {
           "easy": "Regel",
           "normal": "Försvarslinje",
-          "hard": "Position"
-        }
-      },
-      "en": {
-        "word": "Offside",
-        "aliases": [],
-        "hints": {
-          "easy": "Rule",
-          "normal": "Defense",
           "hard": "Position"
         }
       }
@@ -2886,17 +1997,6 @@
           "normal": "Flagga",
           "hard": "Inlägg"
         }
-      },
-      "en": {
-        "word": "Corner kick",
-        "aliases": [
-          "Corner"
-        ],
-        "hints": {
-          "easy": "Quadrant",
-          "normal": "Flag",
-          "hard": "Cross"
-        }
       }
     }
   },
@@ -2917,15 +2017,6 @@
           "easy": "Regelbrott",
           "normal": "Mur",
           "hard": "Domare"
-        }
-      },
-      "en": {
-        "word": "Free kick",
-        "aliases": [],
-        "hints": {
-          "easy": "Foul",
-          "normal": "Wall",
-          "hard": "Referee"
         }
       }
     }
@@ -2950,17 +2041,6 @@
           "normal": "Målvakt",
           "hard": "Elva"
         }
-      },
-      "en": {
-        "word": "Penalty kick",
-        "aliases": [
-          "Penalty"
-        ],
-        "hints": {
-          "easy": "Spot",
-          "normal": "Goalkeeper",
-          "hard": "Eleven"
-        }
       }
     }
   },
@@ -2981,17 +2061,6 @@
           "easy": "Sidlinje",
           "normal": "Händer",
           "hard": "Omstart"
-        }
-      },
-      "en": {
-        "word": "Throw-in",
-        "aliases": [
-          "Throw in"
-        ],
-        "hints": {
-          "easy": "Sideline",
-          "normal": "Hands",
-          "hard": "Restart"
         }
       }
     }
@@ -3016,15 +2085,6 @@
           "normal": "Dribbling",
           "hard": "Förnedring"
         }
-      },
-      "en": {
-        "word": "Nutmeg",
-        "aliases": [],
-        "hints": {
-          "easy": "Legs",
-          "normal": "Dribbling",
-          "hard": "Embarrassment"
-        }
       }
     }
   },
@@ -3048,17 +2108,6 @@
           "normal": "Mål",
           "hard": "Match"
         }
-      },
-      "en": {
-        "word": "Hat trick",
-        "aliases": [
-          "Hat-trick"
-        ],
-        "hints": {
-          "easy": "Three",
-          "normal": "Goals",
-          "hard": "Game"
-        }
       }
     }
   },
@@ -3079,15 +2128,6 @@
           "easy": "Misstag",
           "normal": "Försvarare",
           "hard": "Bakåt"
-        }
-      },
-      "en": {
-        "word": "Own goal",
-        "aliases": [],
-        "hints": {
-          "easy": "Mistake",
-          "normal": "Defender",
-          "hard": "Backwards"
         }
       }
     }
@@ -3112,15 +2152,6 @@
           "normal": "Målvakt",
           "hard": "Försvar"
         }
-      },
-      "en": {
-        "word": "Clean sheet",
-        "aliases": [],
-        "hints": {
-          "easy": "Zero",
-          "normal": "Goalkeeper",
-          "hard": "Defense"
-        }
       }
     }
   },
@@ -3143,15 +2174,6 @@
           "easy": "Passning",
           "normal": "Lagkamrat",
           "hard": "Poäng"
-        }
-      },
-      "en": {
-        "word": "Assist",
-        "aliases": [],
-        "hints": {
-          "easy": "Pass",
-          "normal": "Teammate",
-          "hard": "Points"
         }
       }
     }
@@ -3176,17 +2198,6 @@
           "normal": "Volleyboll",
           "hard": "Mottagning"
         }
-      },
-      "en": {
-        "word": "Forearm pass",
-        "aliases": [
-          "Bump pass"
-        ],
-        "hints": {
-          "easy": "Forearms",
-          "normal": "Volleyball",
-          "hard": "Reception"
-        }
       }
     }
   },
@@ -3207,17 +2218,6 @@
           "easy": "Korg",
           "normal": "Hopp",
           "hard": "Ring"
-        }
-      },
-      "en": {
-        "word": "Slam dunk",
-        "aliases": [
-          "Dunk"
-        ],
-        "hints": {
-          "easy": "Hoop",
-          "normal": "Jump",
-          "hard": "Rim"
         }
       }
     }
@@ -3240,15 +2240,6 @@
           "normal": "Linje",
           "hard": "Obeivrat"
         }
-      },
-      "en": {
-        "word": "Free throw",
-        "aliases": [],
-        "hints": {
-          "easy": "Basketball",
-          "normal": "Line",
-          "hard": "Uncontested"
-        }
       }
     }
   },
@@ -3270,18 +2261,6 @@
           "normal": "Puck",
           "hard": "Cirkel"
         }
-      },
-      "en": {
-        "word": "Faceoff",
-        "aliases": [
-          "Face-off",
-          "Face off"
-        ],
-        "hints": {
-          "easy": "Drop",
-          "normal": "Puck",
-          "hard": "Circle"
-        }
       }
     }
   },
@@ -3302,15 +2281,6 @@
           "easy": "Långpass",
           "normal": "Mållinje",
           "hard": "Avblåsning"
-        }
-      },
-      "en": {
-        "word": "Icing",
-        "aliases": [],
-        "hints": {
-          "easy": "Clearance",
-          "normal": "Line",
-          "hard": "Whistle"
         }
       }
     }
@@ -3335,17 +2305,6 @@
           "normal": "Fler",
           "hard": "Speciallag"
         }
-      },
-      "en": {
-        "word": "Power play",
-        "aliases": [
-          "Powerplay"
-        ],
-        "hints": {
-          "easy": "Penalty",
-          "normal": "More",
-          "hard": "Unit"
-        }
       }
     }
   },
@@ -3369,18 +2328,6 @@
           "normal": "Direkt",
           "hard": "Fullträff"
         }
-      },
-      "en": {
-        "word": "Hole in one",
-        "aliases": [
-          "Hole-in-one",
-          "Ace"
-        ],
-        "hints": {
-          "easy": "Drive",
-          "normal": "Direct",
-          "hard": "Perfection"
-        }
       }
     }
   },
@@ -3401,15 +2348,6 @@
           "easy": "Golf",
           "normal": "Under",
           "hard": "Slag"
-        }
-      },
-      "en": {
-        "word": "Birdie",
-        "aliases": [],
-        "hints": {
-          "easy": "Golf",
-          "normal": "Under",
-          "hard": "Stroke"
         }
       }
     }
@@ -3434,18 +2372,6 @@
           "normal": "Tennis",
           "hard": "Poäng"
         }
-      },
-      "en": {
-        "word": "Tiebreak",
-        "aliases": [
-          "Tie-break",
-          "Tie break"
-        ],
-        "hints": {
-          "easy": "Decider",
-          "normal": "Tennis",
-          "hard": "Points"
-        }
       }
     }
   },
@@ -3468,18 +2394,6 @@
           "easy": "Paus",
           "normal": "Coach",
           "hard": "Taktik"
-        }
-      },
-      "en": {
-        "word": "Timeout",
-        "aliases": [
-          "Time-out",
-          "Time out"
-        ],
-        "hints": {
-          "easy": "Break",
-          "normal": "Coach",
-          "hard": "Tactics"
         }
       }
     }
@@ -3505,18 +2419,6 @@
           "normal": "Räkning",
           "hard": "Nedslag"
         }
-      },
-      "en": {
-        "word": "Knockout",
-        "aliases": [
-          "Knock-out",
-          "KO"
-        ],
-        "hints": {
-          "easy": "Unconscious",
-          "normal": "Count",
-          "hard": "Canvas"
-        }
       }
     }
   },
@@ -3537,15 +2439,6 @@
           "easy": "Förtid",
           "normal": "Reaktion",
           "hard": "Diskvalificering"
-        }
-      },
-      "en": {
-        "word": "False start",
-        "aliases": [],
-        "hints": {
-          "easy": "Early",
-          "normal": "Reaction",
-          "hard": "Disqualification"
         }
       }
     }
@@ -3570,15 +2463,6 @@
           "normal": "Kamera",
           "hard": "Marginal"
         }
-      },
-      "en": {
-        "word": "Photo finish",
-        "aliases": [],
-        "hints": {
-          "easy": "Finish",
-          "normal": "Camera",
-          "hard": "Margin"
-        }
       }
     }
   },
@@ -3602,18 +2486,6 @@
           "normal": "Prestation",
           "hard": "Förbättring"
         }
-      },
-      "en": {
-        "word": "Personal best",
-        "aliases": [
-          "Personal record",
-          "PB"
-        ],
-        "hints": {
-          "easy": "Record",
-          "normal": "Performance",
-          "hard": "Improvement"
-        }
       }
     }
   },
@@ -3634,17 +2506,6 @@
           "easy": "Oavgjort",
           "normal": "Minuter",
           "hard": "Avgörande"
-        }
-      },
-      "en": {
-        "word": "Extra time",
-        "aliases": [
-          "Overtime"
-        ],
-        "hints": {
-          "easy": "Tie",
-          "normal": "Minutes",
-          "hard": "Decider"
         }
       }
     }
@@ -3667,15 +2528,6 @@
           "normal": "Domare",
           "hard": "Regelbrott"
         }
-      },
-      "en": {
-        "word": "Yellow card",
-        "aliases": [],
-        "hints": {
-          "easy": "Warning",
-          "normal": "Referee",
-          "hard": "Foul"
-        }
       }
     }
   },
@@ -3697,15 +2549,6 @@
           "normal": "Domare",
           "hard": "Regelbrott"
         }
-      },
-      "en": {
-        "word": "Red card",
-        "aliases": [],
-        "hints": {
-          "easy": "Ejection",
-          "normal": "Referee",
-          "hard": "Foul"
-        }
       }
     }
   },
@@ -3726,15 +2569,6 @@
           "easy": "Läktare",
           "normal": "Banderoll",
           "hard": "Koreografi"
-        }
-      },
-      "en": {
-        "word": "Tifo",
-        "aliases": [],
-        "hints": {
-          "easy": "Stands",
-          "normal": "Banner",
-          "hard": "Choreography"
         }
       }
     }
@@ -3759,15 +2593,6 @@
           "normal": "Kängor",
           "hard": "Ryggsäck"
         }
-      },
-      "en": {
-        "word": "Hiking",
-        "aliases": [],
-        "hints": {
-          "easy": "Trail",
-          "normal": "Boots",
-          "hard": "Backpack"
-        }
       }
     }
   },
@@ -3791,17 +2616,6 @@
           "normal": "Sovsäck",
           "hard": "Lägereld"
         }
-      },
-      "en": {
-        "word": "Camping",
-        "aliases": [
-          "Tent camping"
-        ],
-        "hints": {
-          "easy": "Tent",
-          "normal": "Sleeping",
-          "hard": "Campfire"
-        }
       }
     }
   },
@@ -3823,15 +2637,6 @@
           "normal": "Koordinater",
           "hard": "Loggbok"
         }
-      },
-      "en": {
-        "word": "Geocaching",
-        "aliases": [],
-        "hints": {
-          "easy": "Treasure",
-          "normal": "Coordinates",
-          "hard": "Logbook"
-        }
       }
     }
   },
@@ -3851,17 +2656,6 @@
         "hints": {
           "easy": "Stavar",
           "normal": "Promenad",
-          "hard": "Diagonal"
-        }
-      },
-      "en": {
-        "word": "Nordic walking",
-        "aliases": [
-          "Pole walking"
-        ],
-        "hints": {
-          "easy": "Poles",
-          "normal": "Walk",
           "hard": "Diagonal"
         }
       }
@@ -3887,17 +2681,6 @@
           "normal": "Lina",
           "hard": "Ankare"
         }
-      },
-      "en": {
-        "word": "Slacklining",
-        "aliases": [
-          "Slackline walking"
-        ],
-        "hints": {
-          "easy": "Balance",
-          "normal": "Webbing",
-          "hard": "Anchor"
-        }
       }
     }
   },
@@ -3919,15 +2702,6 @@
           "normal": "Andning",
           "hard": "Positioner"
         }
-      },
-      "en": {
-        "word": "Yoga",
-        "aliases": [],
-        "hints": {
-          "easy": "Mat",
-          "normal": "Breathing",
-          "hard": "Poses"
-        }
       }
     }
   },
@@ -3947,15 +2721,6 @@
         "hints": {
           "easy": "Bål",
           "normal": "Kontroll",
-          "hard": "Reformer"
-        }
-      },
-      "en": {
-        "word": "Pilates",
-        "aliases": [],
-        "hints": {
-          "easy": "Core",
-          "normal": "Control",
           "hard": "Reformer"
         }
       }
@@ -3981,17 +2746,6 @@
           "normal": "Armhävningar",
           "hard": "Styrka"
         }
-      },
-      "en": {
-        "word": "Calisthenics",
-        "aliases": [
-          "Bodyweight training"
-        ],
-        "hints": {
-          "easy": "Bodyweight",
-          "normal": "Pushups",
-          "hard": "Strength"
-        }
       }
     }
   },
@@ -4015,17 +2769,6 @@
           "normal": "Intensitet",
           "hard": "Vila"
         }
-      },
-      "en": {
-        "word": "High-intensity interval training",
-        "aliases": [
-          "HIIT"
-        ],
-        "hints": {
-          "easy": "Intervals",
-          "normal": "Intensity",
-          "hard": "Rest"
-        }
       }
     }
   },
@@ -4045,15 +2788,6 @@
         "hints": {
           "easy": "Stationer",
           "normal": "Varv",
-          "hard": "Timer"
-        }
-      },
-      "en": {
-        "word": "Circuit training",
-        "aliases": [],
-        "hints": {
-          "easy": "Stations",
-          "normal": "Rounds",
           "hard": "Timer"
         }
       }
@@ -4080,17 +2814,6 @@
           "normal": "Hjul",
           "hard": "Asfalt"
         }
-      },
-      "en": {
-        "word": "Inline skating",
-        "aliases": [
-          "Rollerblading"
-        ],
-        "hints": {
-          "easy": "Rollerskates",
-          "normal": "Wheels",
-          "hard": "Asphalt"
-        }
       }
     }
   },
@@ -4115,17 +2838,6 @@
           "normal": "Kallt",
           "hard": "Dopp"
         }
-      },
-      "en": {
-        "word": "Winter bathing",
-        "aliases": [
-          "Cold-water dipping"
-        ],
-        "hints": {
-          "easy": "Ice",
-          "normal": "Cold",
-          "hard": "Dip"
-        }
       }
     }
   },
@@ -4146,17 +2858,6 @@
           "easy": "Andningsrör",
           "normal": "Yta",
           "hard": "Cyklop"
-        }
-      },
-      "en": {
-        "word": "Snorkelling",
-        "aliases": [
-          "Snorkeling"
-        ],
-        "hints": {
-          "easy": "Tube",
-          "normal": "Surface",
-          "hard": "Mask"
         }
       }
     }
@@ -4182,15 +2883,6 @@
           "normal": "Regulator",
           "hard": "Djup"
         }
-      },
-      "en": {
-        "word": "Scuba diving",
-        "aliases": [],
-        "hints": {
-          "easy": "Tank",
-          "normal": "Regulator",
-          "hard": "Depth"
-        }
       }
     }
   },
@@ -4211,15 +2903,6 @@
           "easy": "Vajer",
           "normal": "Klippa",
           "hard": "Karbinhake"
-        }
-      },
-      "en": {
-        "word": "Via ferrata",
-        "aliases": [],
-        "hints": {
-          "easy": "Cable",
-          "normal": "Cliff",
-          "hard": "Carabiner"
         }
       }
     }
@@ -4242,18 +2925,6 @@
           "normal": "Korg",
           "hard": "Skog"
         }
-      },
-      "en": {
-        "word": "Mushroom foraging",
-        "aliases": [
-          "Mushroom hunting",
-          "Mushroom picking"
-        ],
-        "hints": {
-          "easy": "Chanterelles",
-          "normal": "Basket",
-          "hard": "Forest"
-        }
       }
     }
   },
@@ -4274,15 +2945,6 @@
           "easy": "Klubba",
           "normal": "Bågar",
           "hard": "Gräsmatta"
-        }
-      },
-      "en": {
-        "word": "Croquet",
-        "aliases": [],
-        "hints": {
-          "easy": "Mallet",
-          "normal": "Hoops",
-          "hard": "Lawn"
         }
       }
     }
@@ -4307,18 +2969,6 @@
           "normal": "Snurrar",
           "hard": "Freeze"
         }
-      },
-      "en": {
-        "word": "Breakdancing",
-        "aliases": [
-          "Breaking",
-          "Breakdance"
-        ],
-        "hints": {
-          "easy": "Floor",
-          "normal": "Spins",
-          "hard": "Freeze"
-        }
       }
     }
   },
@@ -4340,17 +2990,6 @@
         "hints": {
           "easy": "Rader",
           "normal": "Steg",
-          "hard": "Country"
-        }
-      },
-      "en": {
-        "word": "Line dancing",
-        "aliases": [
-          "Line dance"
-        ],
-        "hints": {
-          "easy": "Rows",
-          "normal": "Steps",
           "hard": "Country"
         }
       }

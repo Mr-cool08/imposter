@@ -17,19 +17,6 @@
           "normal": "Diagnos",
           "hard": "Remiss"
         }
-      },
-      "en": {
-        "word": "General practitioner",
-        "aliases": [
-          "GP",
-          "Primary care physician",
-          "Family doctor"
-        ],
-        "hints": {
-          "easy": "Clinic",
-          "normal": "Diagnosis",
-          "hard": "Referral"
-        }
       }
     }
   },
@@ -49,15 +36,6 @@
         "hints": {
           "easy": "Omvårdnad",
           "normal": "Sjukhus",
-          "hard": "Patient"
-        }
-      },
-      "en": {
-        "word": "Nurse",
-        "aliases": [],
-        "hints": {
-          "easy": "Care",
-          "normal": "Hospital",
           "hard": "Patient"
         }
       }
@@ -81,15 +59,6 @@
           "normal": "Borr",
           "hard": "Karies"
         }
-      },
-      "en": {
-        "word": "Dentist",
-        "aliases": [],
-        "hints": {
-          "easy": "Teeth",
-          "normal": "Drill",
-          "hard": "Cavities"
-        }
       }
     }
   },
@@ -110,15 +79,6 @@
           "easy": "Tandsten",
           "normal": "Putsning",
           "hard": "Tandkött"
-        }
-      },
-      "en": {
-        "word": "Dental hygienist",
-        "aliases": [],
-        "hints": {
-          "easy": "Tartar",
-          "normal": "Polishing",
-          "hard": "Gums"
         }
       }
     }
@@ -141,15 +101,6 @@
           "normal": "Graviditet",
           "hard": "Värkar"
         }
-      },
-      "en": {
-        "word": "Midwife",
-        "aliases": [],
-        "hints": {
-          "easy": "Childbirth",
-          "normal": "Pregnancy",
-          "hard": "Contractions"
-        }
       }
     }
   },
@@ -171,15 +122,6 @@
           "normal": "Recept",
           "hard": "Interaktion"
         }
-      },
-      "en": {
-        "word": "Pharmacist",
-        "aliases": [],
-        "hints": {
-          "easy": "Medicine",
-          "normal": "Prescriptions",
-          "hard": "Interactions"
-        }
       }
     }
   },
@@ -200,15 +142,6 @@
           "easy": "Glasögon",
           "normal": "Syn",
           "hard": "Bågar"
-        }
-      },
-      "en": {
-        "word": "Optician",
-        "aliases": [],
-        "hints": {
-          "easy": "Glasses",
-          "normal": "Vision",
-          "hard": "Frames"
         }
       }
     }
@@ -233,18 +166,6 @@
           "normal": "Rörelse",
           "hard": "Övningar"
         }
-      },
-      "en": {
-        "word": "Physiotherapist",
-        "aliases": [
-          "Physical therapist",
-          "Physio"
-        ],
-        "hints": {
-          "easy": "Rehab",
-          "normal": "Movement",
-          "hard": "Exercises"
-        }
       }
     }
   },
@@ -265,18 +186,6 @@
           "easy": "Uttal",
           "normal": "Tal",
           "hard": "Sväljning"
-        }
-      },
-      "en": {
-        "word": "Speech therapist",
-        "aliases": [
-          "Speech-language pathologist",
-          "Speech and language therapist"
-        ],
-        "hints": {
-          "easy": "Pronunciation",
-          "normal": "Speech",
-          "hard": "Swallowing"
         }
       }
     }
@@ -299,15 +208,6 @@
           "normal": "Beteende",
           "hard": "Utredning"
         }
-      },
-      "en": {
-        "word": "Psychologist",
-        "aliases": [],
-        "hints": {
-          "easy": "Talking",
-          "normal": "Behavior",
-          "hard": "Assessment"
-        }
       }
     }
   },
@@ -328,17 +228,6 @@
           "easy": "Djur",
           "normal": "Djurklinik",
           "hard": "Vaccin"
-        }
-      },
-      "en": {
-        "word": "Veterinarian",
-        "aliases": [
-          "Vet"
-        ],
-        "hints": {
-          "easy": "Animals",
-          "normal": "Clinic",
-          "hard": "Vaccine"
         }
       }
     }
@@ -361,15 +250,6 @@
           "normal": "Vardag",
           "hard": "Anpassning"
         }
-      },
-      "en": {
-        "word": "Occupational therapist",
-        "aliases": [],
-        "hints": {
-          "easy": "Aids",
-          "normal": "Routines",
-          "hard": "Adaptation"
-        }
       }
     }
   },
@@ -390,17 +270,6 @@
           "easy": "Kost",
           "normal": "Måltider",
           "hard": "Näring"
-        }
-      },
-      "en": {
-        "word": "Dietitian",
-        "aliases": [
-          "Dietician"
-        ],
-        "hints": {
-          "easy": "Nutrition",
-          "normal": "Meals",
-          "hard": "Nutrients"
         }
       }
     }
@@ -423,18 +292,6 @@
           "normal": "Strålning",
           "hard": "Positionering"
         }
-      },
-      "en": {
-        "word": "Radiographer",
-        "aliases": [
-          "Diagnostic radiographer",
-          "Radiologic technologist"
-        ],
-        "hints": {
-          "easy": "Imaging",
-          "normal": "Radiation",
-          "hard": "Positioning"
-        }
       }
     }
   },
@@ -455,18 +312,6 @@
           "easy": "Laboratorium",
           "normal": "Blodprov",
           "hard": "Mikroskop"
-        }
-      },
-      "en": {
-        "word": "Biomedical scientist",
-        "aliases": [
-          "Clinical laboratory scientist",
-          "Medical laboratory scientist"
-        ],
-        "hints": {
-          "easy": "Laboratory",
-          "normal": "Samples",
-          "hard": "Microscope"
         }
       }
     }
@@ -489,15 +334,6 @@
           "normal": "Skalpell",
           "hard": "Stygn"
         }
-      },
-      "en": {
-        "word": "Surgeon",
-        "aliases": [],
-        "hints": {
-          "easy": "Operation",
-          "normal": "Scalpel",
-          "hard": "Stitches"
-        }
       }
     }
   },
@@ -517,15 +353,6 @@
         "hints": {
           "easy": "Hörsel",
           "normal": "Hörapparat",
-          "hard": "Audiogram"
-        }
-      },
-      "en": {
-        "word": "Audiologist",
-        "aliases": [],
-        "hints": {
-          "easy": "Hearing",
-          "normal": "Aids",
           "hard": "Audiogram"
         }
       }
@@ -551,17 +378,6 @@
           "normal": "Operation",
           "hard": "Narkos"
         }
-      },
-      "en": {
-        "word": "Anesthesiologist",
-        "aliases": [
-          "Anaesthesiologist"
-        ],
-        "hints": {
-          "easy": "Sedation",
-          "normal": "Operation",
-          "hard": "Anesthesia"
-        }
       }
     }
   },
@@ -582,15 +398,6 @@
           "easy": "Barn",
           "normal": "Förskola",
           "hard": "Lek"
-        }
-      },
-      "en": {
-        "word": "Preschool teacher",
-        "aliases": [],
-        "hints": {
-          "easy": "Children",
-          "normal": "Preschool",
-          "hard": "Play"
         }
       }
     }
@@ -613,17 +420,6 @@
           "normal": "Läsning",
           "hard": "Lektionsplanering"
         }
-      },
-      "en": {
-        "word": "Primary school teacher",
-        "aliases": [
-          "Elementary school teacher"
-        ],
-        "hints": {
-          "easy": "Classroom",
-          "normal": "Reading",
-          "hard": "Planning"
-        }
       }
     }
   },
@@ -645,15 +441,6 @@
           "normal": "Lån",
           "hard": "Katalog"
         }
-      },
-      "en": {
-        "word": "Librarian",
-        "aliases": [],
-        "hints": {
-          "easy": "Library",
-          "normal": "Loans",
-          "hard": "Catalog"
-        }
       }
     }
   },
@@ -674,15 +461,6 @@
           "easy": "Arkiv",
           "normal": "Handlingar",
           "hard": "Bevarande"
-        }
-      },
-      "en": {
-        "word": "Archivist",
-        "aliases": [],
-        "hints": {
-          "easy": "Archive",
-          "normal": "Records",
-          "hard": "Preservation"
         }
       }
     }
@@ -706,17 +484,6 @@
           "normal": "Samtal",
           "hard": "Trygghet"
         }
-      },
-      "en": {
-        "word": "School counsellor",
-        "aliases": [
-          "School counselor"
-        ],
-        "hints": {
-          "easy": "Support",
-          "normal": "Listening",
-          "hard": "Wellbeing"
-        }
       }
     }
   },
@@ -737,15 +504,6 @@
           "easy": "Socialtjänst",
           "normal": "Familjer",
           "hard": "Utredning"
-        }
-      },
-      "en": {
-        "word": "Social worker",
-        "aliases": [],
-        "hints": {
-          "easy": "Welfare",
-          "normal": "Families",
-          "hard": "Assessment"
         }
       }
     }
@@ -768,17 +526,6 @@
           "normal": "Patrull",
           "hard": "Gripande"
         }
-      },
-      "en": {
-        "word": "Police officer",
-        "aliases": [
-          "Police constable"
-        ],
-        "hints": {
-          "easy": "Uniform",
-          "normal": "Patrol",
-          "hard": "Arrest"
-        }
       }
     }
   },
@@ -799,17 +546,6 @@
           "easy": "Brand",
           "normal": "Slang",
           "hard": "Räddning"
-        }
-      },
-      "en": {
-        "word": "Firefighter",
-        "aliases": [
-          "Fire fighter"
-        ],
-        "hints": {
-          "easy": "Fire",
-          "normal": "Hose",
-          "hard": "Rescue"
         }
       }
     }
@@ -832,15 +568,6 @@
           "normal": "Rättegång",
           "hard": "Opartiskhet"
         }
-      },
-      "en": {
-        "word": "Judge",
-        "aliases": [],
-        "hints": {
-          "easy": "Ruling",
-          "normal": "Trial",
-          "hard": "Impartiality"
-        }
       }
     }
   },
@@ -860,18 +587,6 @@
         "hints": {
           "easy": "Brottmål",
           "normal": "Klient",
-          "hard": "Alibi"
-        }
-      },
-      "en": {
-        "word": "Defense attorney",
-        "aliases": [
-          "Defence lawyer",
-          "Defense lawyer"
-        ],
-        "hints": {
-          "easy": "Trial",
-          "normal": "Client",
           "hard": "Alibi"
         }
       }
@@ -895,15 +610,6 @@
           "normal": "Bevis",
           "hard": "Förundersökning"
         }
-      },
-      "en": {
-        "word": "Prosecutor",
-        "aliases": [],
-        "hints": {
-          "easy": "Charges",
-          "normal": "Evidence",
-          "hard": "Investigation"
-        }
       }
     }
   },
@@ -925,15 +631,6 @@
           "easy": "Översättning",
           "normal": "Rättegång",
           "hard": "Vittnesmål"
-        }
-      },
-      "en": {
-        "word": "Court interpreter",
-        "aliases": [],
-        "hints": {
-          "easy": "Translation",
-          "normal": "Trial",
-          "hard": "Testimony"
         }
       }
     }
@@ -957,15 +654,6 @@
           "normal": "Underhåll",
           "hard": "Korridor"
         }
-      },
-      "en": {
-        "word": "School caretaker",
-        "aliases": [],
-        "hints": {
-          "easy": "Keys",
-          "normal": "Maintenance",
-          "hard": "Corridor"
-        }
       }
     }
   },
@@ -986,15 +674,6 @@
           "easy": "Begravning",
           "normal": "Kista",
           "hard": "Ceremoni"
-        }
-      },
-      "en": {
-        "word": "Funeral director",
-        "aliases": [],
-        "hints": {
-          "easy": "Funeral",
-          "normal": "Coffin",
-          "hard": "Ceremony"
         }
       }
     }
@@ -1017,15 +696,6 @@
           "normal": "Kvarter",
           "hard": "Översiktsplan"
         }
-      },
-      "en": {
-        "word": "Urban planner",
-        "aliases": [],
-        "hints": {
-          "easy": "Zoning",
-          "normal": "Blocks",
-          "hard": "Planning"
-        }
       }
     }
   },
@@ -1046,15 +716,6 @@
           "easy": "Besiktning",
           "normal": "Bygglov",
           "hard": "Tillsyn"
-        }
-      },
-      "en": {
-        "word": "Building inspector",
-        "aliases": [],
-        "hints": {
-          "easy": "Inspection",
-          "normal": "Permit",
-          "hard": "Compliance"
         }
       }
     }
@@ -1077,19 +738,6 @@
           "normal": "Utbildningar",
           "hard": "Vägledning"
         }
-      },
-      "en": {
-        "word": "Careers adviser",
-        "aliases": [
-          "Career adviser",
-          "Career advisor",
-          "Careers advisor"
-        ],
-        "hints": {
-          "easy": "Career",
-          "normal": "Education",
-          "hard": "Guidance"
-        }
       }
     }
   },
@@ -1110,15 +758,6 @@
           "easy": "Fängelse",
           "normal": "Cell",
           "hard": "Lås"
-        }
-      },
-      "en": {
-        "word": "Prison officer",
-        "aliases": [],
-        "hints": {
-          "easy": "Prison",
-          "normal": "Cell",
-          "hard": "Locks"
         }
       }
     }
@@ -1143,15 +782,6 @@
           "normal": "Stomme",
           "hard": "Reglar"
         }
-      },
-      "en": {
-        "word": "Construction carpenter",
-        "aliases": [],
-        "hints": {
-          "easy": "Saw",
-          "normal": "Framing",
-          "hard": "Studs"
-        }
       }
     }
   },
@@ -1172,15 +802,6 @@
           "easy": "Vattenrör",
           "normal": "Avlopp",
           "hard": "Läcka"
-        }
-      },
-      "en": {
-        "word": "Plumber",
-        "aliases": [],
-        "hints": {
-          "easy": "Pipes",
-          "normal": "Drains",
-          "hard": "Leak"
         }
       }
     }
@@ -1203,15 +824,6 @@
           "normal": "Uttag",
           "hard": "Säkring"
         }
-      },
-      "en": {
-        "word": "Electrician",
-        "aliases": [],
-        "hints": {
-          "easy": "Wiring",
-          "normal": "Outlets",
-          "hard": "Fuse"
-        }
       }
     }
   },
@@ -1232,15 +844,6 @@
           "easy": "Pensel",
           "normal": "Färg",
           "hard": "Maskering"
-        }
-      },
-      "en": {
-        "word": "House painter",
-        "aliases": [],
-        "hints": {
-          "easy": "Brush",
-          "normal": "Paint",
-          "hard": "Masking"
         }
       }
     }
@@ -1263,15 +866,6 @@
           "normal": "Murbruk",
           "hard": "Fog"
         }
-      },
-      "en": {
-        "word": "Bricklayer",
-        "aliases": [],
-        "hints": {
-          "easy": "Bricks",
-          "normal": "Mortar",
-          "hard": "Joint"
-        }
       }
     }
   },
@@ -1292,15 +886,6 @@
           "easy": "Takpannor",
           "normal": "Takås",
           "hard": "Fallskydd"
-        }
-      },
-      "en": {
-        "word": "Roofer",
-        "aliases": [],
-        "hints": {
-          "easy": "Tiles",
-          "normal": "Ridge",
-          "hard": "Harness"
         }
       }
     }
@@ -1323,15 +908,6 @@
           "normal": "Underlag",
           "hard": "Lister"
         }
-      },
-      "en": {
-        "word": "Flooring installer",
-        "aliases": [],
-        "hints": {
-          "easy": "Parquet",
-          "normal": "Underlay",
-          "hard": "Trim"
-        }
       }
     }
   },
@@ -1352,15 +928,6 @@
           "easy": "Glas",
           "normal": "Fönster",
           "hard": "Kitt"
-        }
-      },
-      "en": {
-        "word": "Glazier",
-        "aliases": [],
-        "hints": {
-          "easy": "Glass",
-          "normal": "Windows",
-          "hard": "Putty"
         }
       }
     }
@@ -1383,15 +950,6 @@
           "normal": "Låscylinder",
           "hard": "Dörrbeslag"
         }
-      },
-      "en": {
-        "word": "Locksmith",
-        "aliases": [],
-        "hints": {
-          "easy": "Keys",
-          "normal": "Cylinder",
-          "hard": "Hardware"
-        }
       }
     }
   },
@@ -1412,15 +970,6 @@
           "easy": "Metall",
           "normal": "Svetsfog",
           "hard": "Gnistor"
-        }
-      },
-      "en": {
-        "word": "Welder",
-        "aliases": [],
-        "hints": {
-          "easy": "Metal",
-          "normal": "Joint",
-          "hard": "Sparks"
         }
       }
     }
@@ -1443,15 +992,6 @@
           "normal": "Finsnickeri",
           "hard": "Faner"
         }
-      },
-      "en": {
-        "word": "Furniture maker",
-        "aliases": [],
-        "hints": {
-          "easy": "Furniture",
-          "normal": "Joinery",
-          "hard": "Veneer"
-        }
       }
     }
   },
@@ -1472,15 +1012,6 @@
           "easy": "Sten",
           "normal": "Mejsel",
           "hard": "Granit"
-        }
-      },
-      "en": {
-        "word": "Stonemason",
-        "aliases": [],
-        "hints": {
-          "easy": "Stone",
-          "normal": "Chisel",
-          "hard": "Granite"
         }
       }
     }
@@ -1503,15 +1034,6 @@
           "normal": "Stoppning",
           "hard": "Tyg"
         }
-      },
-      "en": {
-        "word": "Upholsterer",
-        "aliases": [],
-        "hints": {
-          "easy": "Armchair",
-          "normal": "Stuffing",
-          "hard": "Fabric"
-        }
       }
     }
   },
@@ -1532,15 +1054,6 @@
           "easy": "Skorsten",
           "normal": "Sot",
           "hard": "Borste"
-        }
-      },
-      "en": {
-        "word": "Chimney sweep",
-        "aliases": [],
-        "hints": {
-          "easy": "Chimney",
-          "normal": "Soot",
-          "hard": "Brush"
         }
       }
     }
@@ -1563,15 +1076,6 @@
           "normal": "Visare",
           "hard": "Kugghjul"
         }
-      },
-      "en": {
-        "word": "Watchmaker",
-        "aliases": [],
-        "hints": {
-          "easy": "Movement",
-          "normal": "Hands",
-          "hard": "Gears"
-        }
       }
     }
   },
@@ -1592,15 +1096,6 @@
           "easy": "Smycken",
           "normal": "Guld",
           "hard": "Lödning"
-        }
-      },
-      "en": {
-        "word": "Goldsmith",
-        "aliases": [],
-        "hints": {
-          "easy": "Jewelry",
-          "normal": "Gold",
-          "hard": "Soldering"
         }
       }
     }
@@ -1623,15 +1118,6 @@
           "normal": "Sömmar",
           "hard": "Mått"
         }
-      },
-      "en": {
-        "word": "Tailor",
-        "aliases": [],
-        "hints": {
-          "easy": "Suit",
-          "normal": "Seams",
-          "hard": "Measurements"
-        }
       }
     }
   },
@@ -1652,15 +1138,6 @@
           "easy": "Skor",
           "normal": "Sulor",
           "hard": "Läst"
-        }
-      },
-      "en": {
-        "word": "Shoemaker",
-        "aliases": [],
-        "hints": {
-          "easy": "Shoes",
-          "normal": "Soles",
-          "hard": "Last"
         }
       }
     }
@@ -1684,15 +1161,6 @@
           "normal": "Repliker",
           "hard": "Manus"
         }
-      },
-      "en": {
-        "word": "Actor",
-        "aliases": [],
-        "hints": {
-          "easy": "Roles",
-          "normal": "Lines",
-          "hard": "Script"
-        }
       }
     }
   },
@@ -1715,15 +1183,6 @@
           "normal": "Inspelning",
           "hard": "Tagning"
         }
-      },
-      "en": {
-        "word": "Director",
-        "aliases": [],
-        "hints": {
-          "easy": "Staging",
-          "normal": "Filming",
-          "hard": "Take"
-        }
       }
     }
   },
@@ -1744,15 +1203,6 @@
           "easy": "Scenbyte",
           "normal": "Kuliss",
           "hard": "Signal"
-        }
-      },
-      "en": {
-        "word": "Stage manager",
-        "aliases": [],
-        "hints": {
-          "easy": "Scene",
-          "normal": "Backstage",
-          "hard": "Cue"
         }
       }
     }
@@ -1776,15 +1226,6 @@
           "normal": "Bildspråk",
           "hard": "Ljussättning"
         }
-      },
-      "en": {
-        "word": "Cinematographer",
-        "aliases": [],
-        "hints": {
-          "easy": "Camera",
-          "normal": "Framing",
-          "hard": "Lighting"
-        }
       }
     }
   },
@@ -1806,15 +1247,6 @@
           "easy": "Scenkläder",
           "normal": "Skisser",
           "hard": "Epok"
-        }
-      },
-      "en": {
-        "word": "Costume designer",
-        "aliases": [],
-        "hints": {
-          "easy": "Wardrobe",
-          "normal": "Sketches",
-          "hard": "Period"
         }
       }
     }
@@ -1838,15 +1270,6 @@
           "normal": "Borstar",
           "hard": "Foundation"
         }
-      },
-      "en": {
-        "word": "Makeup artist",
-        "aliases": [],
-        "hints": {
-          "easy": "Makeup",
-          "normal": "Brushes",
-          "hard": "Foundation"
-        }
       }
     }
   },
@@ -1867,15 +1290,6 @@
           "easy": "Koreografi",
           "normal": "Rörelse",
           "hard": "Takt"
-        }
-      },
-      "en": {
-        "word": "Dancer",
-        "aliases": [],
-        "hints": {
-          "easy": "Choreography",
-          "normal": "Movement",
-          "hard": "Rhythm"
         }
       }
     }
@@ -1898,15 +1312,6 @@
           "normal": "Steg",
           "hard": "Formationer"
         }
-      },
-      "en": {
-        "word": "Choreographer",
-        "aliases": [],
-        "hints": {
-          "easy": "Dance",
-          "normal": "Steps",
-          "hard": "Formations"
-        }
       }
     }
   },
@@ -1928,15 +1333,6 @@
           "normal": "Bokbilder",
           "hard": "Uppdrag"
         }
-      },
-      "en": {
-        "word": "Illustrator",
-        "aliases": [],
-        "hints": {
-          "easy": "Drawings",
-          "normal": "Art",
-          "hard": "Commission"
-        }
       }
     }
   },
@@ -1957,15 +1353,6 @@
           "easy": "Layout",
           "normal": "Typografi",
           "hard": "Logotyp"
-        }
-      },
-      "en": {
-        "word": "Graphic designer",
-        "aliases": [],
-        "hints": {
-          "easy": "Layout",
-          "normal": "Typography",
-          "hard": "Logo"
         }
       }
     }
@@ -1989,15 +1376,6 @@
           "normal": "Intervju",
           "hard": "Källor"
         }
-      },
-      "en": {
-        "word": "Journalist",
-        "aliases": [],
-        "hints": {
-          "easy": "News",
-          "normal": "Interview",
-          "hard": "Sources"
-        }
       }
     }
   },
@@ -2018,15 +1396,6 @@
           "easy": "Kamera",
           "normal": "Porträtt",
           "hard": "Slutartid"
-        }
-      },
-      "en": {
-        "word": "Photographer",
-        "aliases": [],
-        "hints": {
-          "easy": "Camera",
-          "normal": "Portrait",
-          "hard": "Shutter"
         }
       }
     }
@@ -2050,15 +1419,6 @@
           "normal": "Mixerbord",
           "hard": "Nivåer"
         }
-      },
-      "en": {
-        "word": "Sound engineer",
-        "aliases": [],
-        "hints": {
-          "easy": "Microphones",
-          "normal": "Mixer",
-          "hard": "Levels"
-        }
       }
     }
   },
@@ -2079,15 +1439,6 @@
           "easy": "Klippning",
           "normal": "Tagningar",
           "hard": "Övergångar"
-        }
-      },
-      "en": {
-        "word": "Film editor",
-        "aliases": [],
-        "hints": {
-          "easy": "Cutting",
-          "normal": "Footage",
-          "hard": "Transitions"
         }
       }
     }
@@ -2111,15 +1462,6 @@
           "normal": "Översättning",
           "hard": "Original"
         }
-      },
-      "en": {
-        "word": "Translator",
-        "aliases": [],
-        "hints": {
-          "easy": "Languages",
-          "normal": "Translation",
-          "hard": "Original"
-        }
       }
     }
   },
@@ -2140,15 +1482,6 @@
           "easy": "Utställning",
           "normal": "Urval",
           "hard": "Katalog"
-        }
-      },
-      "en": {
-        "word": "Exhibition curator",
-        "aliases": [],
-        "hints": {
-          "easy": "Exhibition",
-          "normal": "Selection",
-          "hard": "Catalog"
         }
       }
     }
@@ -2171,15 +1504,6 @@
           "normal": "Skrivande",
           "hard": "Manuskript"
         }
-      },
-      "en": {
-        "word": "Author",
-        "aliases": [],
-        "hints": {
-          "easy": "Books",
-          "normal": "Writing",
-          "hard": "Manuscript"
-        }
       }
     }
   },
@@ -2200,15 +1524,6 @@
           "easy": "Stavfel",
           "normal": "Korrektur",
           "hard": "Kommatecken"
-        }
-      },
-      "en": {
-        "word": "Proofreader",
-        "aliases": [],
-        "hints": {
-          "easy": "Typos",
-          "normal": "Proofs",
-          "hard": "Commas"
         }
       }
     }
@@ -2231,15 +1546,6 @@
           "normal": "Klippning",
           "hard": "Salong"
         }
-      },
-      "en": {
-        "word": "Hairdresser",
-        "aliases": [],
-        "hints": {
-          "easy": "Scissors",
-          "normal": "Haircut",
-          "hard": "Salon"
-        }
       }
     }
   },
@@ -2261,15 +1567,6 @@
           "normal": "Nagellack",
           "hard": "Filning"
         }
-      },
-      "en": {
-        "word": "Nail technician",
-        "aliases": [],
-        "hints": {
-          "easy": "Manicure",
-          "normal": "Polish",
-          "hard": "Filing"
-        }
       }
     }
   },
@@ -2290,15 +1587,6 @@
           "easy": "Muskler",
           "normal": "Knådning",
           "hard": "Spänning"
-        }
-      },
-      "en": {
-        "word": "Massage therapist",
-        "aliases": [],
-        "hints": {
-          "easy": "Muscles",
-          "normal": "Kneading",
-          "hard": "Tension"
         }
       }
     }
@@ -2323,17 +1611,6 @@
           "normal": "Beställning",
           "hard": "Bricka"
         }
-      },
-      "en": {
-        "word": "Waiter",
-        "aliases": [
-          "Waitress"
-        ],
-        "hints": {
-          "easy": "Service",
-          "normal": "Order",
-          "hard": "Tray"
-        }
       }
     }
   },
@@ -2355,15 +1632,6 @@
           "easy": "Drinkar",
           "normal": "Skakare",
           "hard": "Is"
-        }
-      },
-      "en": {
-        "word": "Bartender",
-        "aliases": [],
-        "hints": {
-          "easy": "Cocktails",
-          "normal": "Shaker",
-          "hard": "Ice"
         }
       }
     }
@@ -2387,15 +1655,6 @@
           "normal": "Espresso",
           "hard": "Mjölkskum"
         }
-      },
-      "en": {
-        "word": "Barista",
-        "aliases": [],
-        "hints": {
-          "easy": "Coffee",
-          "normal": "Espresso",
-          "hard": "Foam"
-        }
       }
     }
   },
@@ -2417,15 +1676,6 @@
           "easy": "Reception",
           "normal": "Incheckning",
           "hard": "Telefon"
-        }
-      },
-      "en": {
-        "word": "Receptionist",
-        "aliases": [],
-        "hints": {
-          "easy": "Reception",
-          "normal": "Checkin",
-          "hard": "Phone"
         }
       }
     }
@@ -2449,17 +1699,6 @@
           "normal": "Skanner",
           "hard": "Kvitto"
         }
-      },
-      "en": {
-        "word": "Checkout cashier",
-        "aliases": [
-          "Checkout operator"
-        ],
-        "hints": {
-          "easy": "Register",
-          "normal": "Scanner",
-          "hard": "Receipt"
-        }
       }
     }
   },
@@ -2480,17 +1719,6 @@
           "easy": "Bostäder",
           "normal": "Visning",
           "hard": "Budgivning"
-        }
-      },
-      "en": {
-        "word": "Real estate agent",
-        "aliases": [
-          "Estate agent"
-        ],
-        "hints": {
-          "easy": "Houses",
-          "normal": "Viewing",
-          "hard": "Bidding"
         }
       }
     }
@@ -2513,17 +1741,6 @@
           "normal": "Städvagn",
           "hard": "Rumslista"
         }
-      },
-      "en": {
-        "word": "Hotel housekeeper",
-        "aliases": [
-          "Guest room attendant"
-        ],
-        "hints": {
-          "easy": "Linen",
-          "normal": "Cart",
-          "hard": "Checklist"
-        }
       }
     }
   },
@@ -2544,15 +1761,6 @@
           "easy": "Bokföring",
           "normal": "Balansräkning",
           "hard": "Avstämning"
-        }
-      },
-      "en": {
-        "word": "Accountant",
-        "aliases": [],
-        "hints": {
-          "easy": "Bookkeeping",
-          "normal": "Balance",
-          "hard": "Reconciliation"
         }
       }
     }
@@ -2575,15 +1783,6 @@
           "normal": "Årsredovisning",
           "hard": "Oberoende"
         }
-      },
-      "en": {
-        "word": "Auditor",
-        "aliases": [],
-        "hints": {
-          "easy": "Review",
-          "normal": "Accounts",
-          "hard": "Independence"
-        }
       }
     }
   },
@@ -2604,17 +1803,6 @@
           "easy": "Försäkring",
           "normal": "Skada",
           "hard": "Ersättning"
-        }
-      },
-      "en": {
-        "word": "Claims adjuster",
-        "aliases": [
-          "Loss adjuster"
-        ],
-        "hints": {
-          "easy": "Insurance",
-          "normal": "Damage",
-          "hard": "Compensation"
         }
       }
     }
@@ -2637,15 +1825,6 @@
           "easy": "Arrangemang",
           "normal": "Lokal",
           "hard": "Körschema"
-        }
-      },
-      "en": {
-        "word": "Event planner",
-        "aliases": [],
-        "hints": {
-          "easy": "Events",
-          "normal": "Venue",
-          "hard": "Schedule"
         }
       }
     }
@@ -2671,15 +1850,6 @@
           "normal": "Bokningar",
           "hard": "Resmål"
         }
-      },
-      "en": {
-        "word": "Travel agent",
-        "aliases": [],
-        "hints": {
-          "easy": "Trips",
-          "normal": "Bookings",
-          "hard": "Destinations"
-        }
       }
     }
   },
@@ -2700,15 +1870,6 @@
           "easy": "Kundfrågor",
           "normal": "Support",
           "hard": "Återkoppling"
-        }
-      },
-      "en": {
-        "word": "Customer service representative",
-        "aliases": [],
-        "hints": {
-          "easy": "Enquiries",
-          "normal": "Support",
-          "hard": "Feedback"
         }
       }
     }
@@ -2731,17 +1892,6 @@
           "normal": "Nål",
           "hard": "Motiv"
         }
-      },
-      "en": {
-        "word": "Tattoo artist",
-        "aliases": [
-          "Tattooist"
-        ],
-        "hints": {
-          "easy": "Ink",
-          "normal": "Needle",
-          "hard": "Design"
-        }
       }
     }
   },
@@ -2762,15 +1912,6 @@
           "easy": "Bankkontor",
           "normal": "Insättning",
           "hard": "Uttag"
-        }
-      },
-      "en": {
-        "word": "Bank teller",
-        "aliases": [],
-        "hints": {
-          "easy": "Branch",
-          "normal": "Deposit",
-          "hard": "Withdrawal"
         }
       }
     }
@@ -2793,15 +1934,6 @@
           "normal": "Skörd",
           "hard": "Åkrar"
         }
-      },
-      "en": {
-        "word": "Farmer",
-        "aliases": [],
-        "hints": {
-          "easy": "Farm",
-          "normal": "Harvest",
-          "hard": "Fields"
-        }
       }
     }
   },
@@ -2822,15 +1954,6 @@
           "easy": "Grönsaker",
           "normal": "Odling",
           "hard": "Växthus"
-        }
-      },
-      "en": {
-        "word": "Vegetable grower",
-        "aliases": [],
-        "hints": {
-          "easy": "Vegetables",
-          "normal": "Cultivation",
-          "hard": "Greenhouse"
         }
       }
     }
@@ -2853,15 +1976,6 @@
           "normal": "Beskärning",
           "hard": "Klättring"
         }
-      },
-      "en": {
-        "word": "Arborist",
-        "aliases": [],
-        "hints": {
-          "easy": "Trees",
-          "normal": "Pruning",
-          "hard": "Climbing"
-        }
       }
     }
   },
@@ -2882,15 +1996,6 @@
           "easy": "Rabatter",
           "normal": "Plantering",
           "hard": "Beskärning"
-        }
-      },
-      "en": {
-        "word": "Gardener",
-        "aliases": [],
-        "hints": {
-          "easy": "Flowerbeds",
-          "normal": "Planting",
-          "hard": "Pruning"
         }
       }
     }
@@ -2913,15 +2018,6 @@
           "normal": "Blomsterbutik",
           "hard": "Snittblommor"
         }
-      },
-      "en": {
-        "word": "Florist",
-        "aliases": [],
-        "hints": {
-          "easy": "Bouquet",
-          "normal": "Shop",
-          "hard": "Blossoms"
-        }
       }
     }
   },
@@ -2942,15 +2038,6 @@
           "easy": "Utemiljö",
           "normal": "Parkritning",
           "hard": "Markplanering"
-        }
-      },
-      "en": {
-        "word": "Landscape architect",
-        "aliases": [],
-        "hints": {
-          "easy": "Outdoors",
-          "normal": "Design",
-          "hard": "Grading"
         }
       }
     }
@@ -2973,15 +2060,6 @@
           "normal": "Avverkning",
           "hard": "Motorsåg"
         }
-      },
-      "en": {
-        "word": "Forestry worker",
-        "aliases": [],
-        "hints": {
-          "easy": "Forest",
-          "normal": "Logging",
-          "hard": "Chainsaw"
-        }
       }
     }
   },
@@ -3002,15 +2080,6 @@
           "easy": "Bikupa",
           "normal": "Honung",
           "hard": "Rökpust"
-        }
-      },
-      "en": {
-        "word": "Beekeeper",
-        "aliases": [],
-        "hints": {
-          "easy": "Hive",
-          "normal": "Honey",
-          "hard": "Smoker"
         }
       }
     }
@@ -3033,15 +2102,6 @@
           "normal": "Hovar",
           "hard": "Söm"
         }
-      },
-      "en": {
-        "word": "Farrier",
-        "aliases": [],
-        "hints": {
-          "easy": "Horseshoes",
-          "normal": "Hooves",
-          "hard": "Nails"
-        }
       }
     }
   },
@@ -3062,17 +2122,6 @@
           "easy": "Djurpark",
           "normal": "Utfodring",
           "hard": "Hägn"
-        }
-      },
-      "en": {
-        "word": "Zookeeper",
-        "aliases": [
-          "Zoo keeper"
-        ],
-        "hints": {
-          "easy": "Zoo",
-          "normal": "Feeding",
-          "hard": "Enclosure"
         }
       }
     }
@@ -3095,15 +2144,6 @@
           "normal": "Trimning",
           "hard": "Borstning"
         }
-      },
-      "en": {
-        "word": "Dog groomer",
-        "aliases": [],
-        "hints": {
-          "easy": "Fur",
-          "normal": "Trimming",
-          "hard": "Brushing"
-        }
       }
     }
   },
@@ -3125,15 +2165,6 @@
           "normal": "Belöning",
           "hard": "Klicker"
         }
-      },
-      "en": {
-        "word": "Dog trainer",
-        "aliases": [],
-        "hints": {
-          "easy": "Obedience",
-          "normal": "Reward",
-          "hard": "Clicker"
-        }
       }
     }
   },
@@ -3154,15 +2185,6 @@
           "easy": "Bröd",
           "normal": "Deg",
           "hard": "Ugn"
-        }
-      },
-      "en": {
-        "word": "Baker",
-        "aliases": [],
-        "hints": {
-          "easy": "Bread",
-          "normal": "Dough",
-          "hard": "Oven"
         }
       }
     }
@@ -3186,15 +2208,6 @@
           "normal": "Tårtor",
           "hard": "Glasyr"
         }
-      },
-      "en": {
-        "word": "Pastry chef",
-        "aliases": [],
-        "hints": {
-          "easy": "Pastries",
-          "normal": "Cakes",
-          "hard": "Icing"
-        }
       }
     }
   },
@@ -3215,15 +2228,6 @@
           "easy": "Kök",
           "normal": "Matlagning",
           "hard": "Meny"
-        }
-      },
-      "en": {
-        "word": "Chef",
-        "aliases": [],
-        "hints": {
-          "easy": "Kitchen",
-          "normal": "Cooking",
-          "hard": "Menu"
         }
       }
     }
@@ -3246,17 +2250,6 @@
           "normal": "Mjölk",
           "hard": "Lagring"
         }
-      },
-      "en": {
-        "word": "Cheesemaker",
-        "aliases": [
-          "Cheese maker"
-        ],
-        "hints": {
-          "easy": "Coagulation",
-          "normal": "Milk",
-          "hard": "Aging"
-        }
       }
     }
   },
@@ -3278,15 +2271,6 @@
           "normal": "Styckschema",
           "hard": "Kniv"
         }
-      },
-      "en": {
-        "word": "Meat cutter",
-        "aliases": [],
-        "hints": {
-          "easy": "Meat",
-          "normal": "Cuts",
-          "hard": "Knife"
-        }
       }
     }
   },
@@ -3307,15 +2291,6 @@
           "easy": "Fiskdisk",
           "normal": "Filéering",
           "hard": "Isbädd"
-        }
-      },
-      "en": {
-        "word": "Fishmonger",
-        "aliases": [],
-        "hints": {
-          "easy": "Counter",
-          "normal": "Filleting",
-          "hard": "Ice"
         }
       }
     }

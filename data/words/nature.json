@@ -18,15 +18,6 @@
           "normal": "höjd",
           "hard": "horisont"
         }
-      },
-      "en": {
-        "word": "Mountain",
-        "aliases": [],
-        "hints": {
-          "easy": "summit",
-          "normal": "altitude",
-          "hard": "skyline"
-        }
       }
     }
   },
@@ -48,15 +39,6 @@
           "easy": "sluttning",
           "normal": "utsikt",
           "hard": "krön"
-        }
-      },
-      "en": {
-        "word": "Hill",
-        "aliases": [],
-        "hints": {
-          "easy": "slope",
-          "normal": "viewpoint",
-          "hard": "crest"
         }
       }
     }
@@ -80,15 +62,6 @@
           "normal": "flod",
           "hard": "morgondimma"
         }
-      },
-      "en": {
-        "word": "Valley",
-        "aliases": [],
-        "hints": {
-          "easy": "lowland",
-          "normal": "river",
-          "hard": "mist"
-        }
       }
     }
   },
@@ -109,17 +82,6 @@
         "hints": {
           "easy": "ravin",
           "normal": "klippväggar",
-          "hard": "erosion"
-        }
-      },
-      "en": {
-        "word": "Canyon",
-        "aliases": [
-          "Gorge"
-        ],
-        "hints": {
-          "easy": "chasm",
-          "normal": "cliffs",
           "hard": "erosion"
         }
       }
@@ -143,17 +105,6 @@
           "easy": "högslätt",
           "normal": "jämn",
           "hard": "utsikt"
-        }
-      },
-      "en": {
-        "word": "Plateau",
-        "aliases": [
-          "Tableland"
-        ],
-        "hints": {
-          "easy": "elevated",
-          "normal": "level",
-          "hard": "upland"
         }
       }
     }
@@ -179,15 +130,6 @@
           "normal": "brant",
           "hard": "avsats"
         }
-      },
-      "en": {
-        "word": "Cliff",
-        "aliases": [],
-        "hints": {
-          "easy": "precipice",
-          "normal": "steep",
-          "hard": "ledge"
-        }
       }
     }
   },
@@ -212,17 +154,6 @@
           "normal": "bergssluttning",
           "hard": "grus"
         }
-      },
-      "en": {
-        "word": "Scree slope",
-        "aliases": [
-          "Talus slope"
-        ],
-        "hints": {
-          "easy": "rubble",
-          "normal": "slope",
-          "hard": "gravel"
-        }
       }
     }
   },
@@ -245,17 +176,6 @@
           "normal": "inlandsis",
           "hard": "block"
         }
-      },
-      "en": {
-        "word": "Moraine ridge",
-        "aliases": [
-          "Moraine"
-        ],
-        "hints": {
-          "easy": "debris",
-          "normal": "glaciation",
-          "hard": "boulders"
-        }
       }
     }
   },
@@ -276,15 +196,6 @@
         "hints": {
           "easy": "bergshåla",
           "normal": "mörker",
-          "hard": "tunnel"
-        }
-      },
-      "en": {
-        "word": "Cave",
-        "aliases": [],
-        "hints": {
-          "easy": "underground",
-          "normal": "darkness",
           "hard": "tunnel"
         }
       }
@@ -309,15 +220,6 @@
           "normal": "tak",
           "hard": "kalk"
         }
-      },
-      "en": {
-        "word": "Stalactite",
-        "aliases": [],
-        "hints": {
-          "easy": "dripstone",
-          "normal": "ceiling",
-          "hard": "limestone"
-        }
       }
     }
   },
@@ -339,15 +241,6 @@
           "easy": "droppsten",
           "normal": "golv",
           "hard": "kalk"
-        }
-      },
-      "en": {
-        "word": "Stalagmite",
-        "aliases": [],
-        "hints": {
-          "easy": "dripstone",
-          "normal": "floor",
-          "hard": "limestone"
         }
       }
     }
@@ -371,15 +264,6 @@
           "normal": "långsam",
           "hard": "spricka"
         }
-      },
-      "en": {
-        "word": "Glacier",
-        "aliases": [],
-        "hints": {
-          "easy": "ice",
-          "normal": "slow",
-          "hard": "crevasse"
-        }
       }
     }
   },
@@ -402,15 +286,6 @@
           "normal": "flyter",
           "hard": "undervatten"
         }
-      },
-      "en": {
-        "word": "Iceberg",
-        "aliases": [],
-        "hints": {
-          "easy": "floating",
-          "normal": "cold",
-          "hard": "submerged"
-        }
       }
     }
   },
@@ -432,15 +307,6 @@
           "easy": "havsvik",
           "normal": "dalgång",
           "hard": "inlandsis"
-        }
-      },
-      "en": {
-        "word": "Fjord",
-        "aliases": [],
-        "hints": {
-          "easy": "inlet",
-          "normal": "valley",
-          "hard": "glaciation"
         }
       }
     }
@@ -466,15 +332,6 @@
           "normal": "kust",
           "hard": "skydd"
         }
-      },
-      "en": {
-        "word": "Bay",
-        "aliases": [],
-        "hints": {
-          "easy": "inlet",
-          "normal": "coast",
-          "hard": "shelter"
-        }
       }
     }
   },
@@ -496,15 +353,6 @@
           "easy": "farled",
           "normal": "passage",
           "hard": "kust"
-        }
-      },
-      "en": {
-        "word": "Strait",
-        "aliases": [],
-        "hints": {
-          "easy": "channel",
-          "normal": "passage",
-          "hard": "coast"
         }
       }
     }
@@ -528,15 +376,6 @@
           "normal": "färja",
           "hard": "kust"
         }
-      },
-      "en": {
-        "word": "Island",
-        "aliases": [],
-        "hints": {
-          "easy": "surrounded",
-          "normal": "ferry",
-          "hard": "coastline"
-        }
       }
     }
   },
@@ -558,15 +397,6 @@
           "easy": "udde",
           "normal": "fastland",
           "hard": "landtunga"
-        }
-      },
-      "en": {
-        "word": "Peninsula",
-        "aliases": [],
-        "hints": {
-          "easy": "headland",
-          "normal": "mainland",
-          "hard": "promontory"
         }
       }
     }
@@ -592,15 +422,6 @@
           "normal": "skär",
           "hard": "båtliv"
         }
-      },
-      "en": {
-        "word": "Archipelago",
-        "aliases": [],
-        "hints": {
-          "easy": "islands",
-          "normal": "skerries",
-          "hard": "boating"
-        }
       }
     }
   },
@@ -624,15 +445,6 @@
           "easy": "sandkulle",
           "normal": "vind",
           "hard": "strand"
-        }
-      },
-      "en": {
-        "word": "Sand dune",
-        "aliases": [],
-        "hints": {
-          "easy": "drift",
-          "normal": "wind",
-          "hard": "beach"
         }
       }
     }
@@ -658,15 +470,6 @@
           "normal": "vågor",
           "hard": "sol"
         }
-      },
-      "en": {
-        "word": "Beach",
-        "aliases": [],
-        "hints": {
-          "easy": "bathing",
-          "normal": "waves",
-          "hard": "sun"
-        }
       }
     }
   },
@@ -691,17 +494,6 @@
           "normal": "slätt",
           "hard": "avdunstning"
         }
-      },
-      "en": {
-        "word": "Salt flat",
-        "aliases": [
-          "Salt pan"
-        ],
-        "hints": {
-          "easy": "crust",
-          "normal": "plain",
-          "hard": "evaporation"
-        }
       }
     }
   },
@@ -723,15 +515,6 @@
           "easy": "vattenkälla",
           "normal": "palmer",
           "hard": "öken"
-        }
-      },
-      "en": {
-        "word": "Oasis",
-        "aliases": [],
-        "hints": {
-          "easy": "water",
-          "normal": "palms",
-          "hard": "desert"
         }
       }
     }
@@ -755,15 +538,6 @@
           "normal": "fukt",
           "hard": "trädkronor"
         }
-      },
-      "en": {
-        "word": "Rainforest",
-        "aliases": [],
-        "hints": {
-          "easy": "jungle",
-          "normal": "humidity",
-          "hard": "canopy"
-        }
       }
     }
   },
@@ -785,15 +559,6 @@
           "easy": "grässlätt",
           "normal": "torr",
           "hard": "betesmark"
-        }
-      },
-      "en": {
-        "word": "Steppe",
-        "aliases": [],
-        "hints": {
-          "easy": "grassland",
-          "normal": "semiarid",
-          "hard": "grazing"
         }
       }
     }
@@ -817,15 +582,6 @@
           "normal": "arktisk",
           "hard": "dvärgbuskar"
         }
-      },
-      "en": {
-        "word": "Tundra",
-        "aliases": [],
-        "hints": {
-          "easy": "permafrost",
-          "normal": "Arctic",
-          "hard": "shrubs"
-        }
       }
     }
   },
@@ -847,17 +603,6 @@
           "easy": "gammelskog",
           "normal": "dödved",
           "hard": "orörd"
-        }
-      },
-      "en": {
-        "word": "Primeval forest",
-        "aliases": [
-          "Virgin forest"
-        ],
-        "hints": {
-          "easy": "ancient",
-          "normal": "deadwood",
-          "hard": "untouched"
         }
       }
     }
@@ -883,15 +628,6 @@
           "normal": "öppen",
           "hard": "surjord"
         }
-      },
-      "en": {
-        "word": "Heath",
-        "aliases": [],
-        "hints": {
-          "easy": "shrubland",
-          "normal": "open",
-          "hard": "acidic"
-        }
       }
     }
   },
@@ -913,15 +649,6 @@
           "easy": "översvämning",
           "normal": "flod",
           "hard": "slam"
-        }
-      },
-      "en": {
-        "word": "Floodplain",
-        "aliases": [],
-        "hints": {
-          "easy": "overflow",
-          "normal": "river",
-          "hard": "silt"
         }
       }
     }
@@ -947,15 +674,6 @@
           "normal": "surt",
           "hard": "vattensjukt"
         }
-      },
-      "en": {
-        "word": "Bog",
-        "aliases": [],
-        "hints": {
-          "easy": "sphagnum",
-          "normal": "acidic",
-          "hard": "waterlogged"
-        }
       }
     }
   },
@@ -978,15 +696,6 @@
           "normal": "grundvatten",
           "hard": "starr"
         }
-      },
-      "en": {
-        "word": "Fen",
-        "aliases": [],
-        "hints": {
-          "easy": "wetland",
-          "normal": "groundwater",
-          "hard": "sedges"
-        }
       }
     }
   },
@@ -1008,15 +717,6 @@
           "easy": "luftrötter",
           "normal": "tidvatten",
           "hard": "bräckt"
-        }
-      },
-      "en": {
-        "word": "Mangrove forest",
-        "aliases": [],
-        "hints": {
-          "easy": "roots",
-          "normal": "tides",
-          "hard": "brackish"
         }
       }
     }
@@ -1042,17 +742,6 @@
           "normal": "flodarm",
           "hard": "sediment"
         }
-      },
-      "en": {
-        "word": "River delta",
-        "aliases": [
-          "Delta"
-        ],
-        "hints": {
-          "easy": "river",
-          "normal": "branches",
-          "hard": "sediment"
-        }
       }
     }
   },
@@ -1074,15 +763,6 @@
           "easy": "kaskad",
           "normal": "stup",
           "hard": "brus"
-        }
-      },
-      "en": {
-        "word": "Waterfall",
-        "aliases": [],
-        "hints": {
-          "easy": "cascade",
-          "normal": "plunge",
-          "hard": "roar"
         }
       }
     }
@@ -1108,15 +788,6 @@
           "normal": "ström",
           "hard": "skum"
         }
-      },
-      "en": {
-        "word": "Rapids",
-        "aliases": [],
-        "hints": {
-          "easy": "whitewater",
-          "normal": "current",
-          "hard": "foam"
-        }
       }
     }
   },
@@ -1141,15 +812,6 @@
           "normal": "sötvatten",
           "hard": "brygga"
         }
-      },
-      "en": {
-        "word": "Lake",
-        "aliases": [],
-        "hints": {
-          "easy": "inland",
-          "normal": "freshwater",
-          "hard": "dock"
-        }
       }
     }
   },
@@ -1171,15 +833,6 @@
           "easy": "flöde",
           "normal": "ström",
           "hard": "mynning"
-        }
-      },
-      "en": {
-        "word": "River",
-        "aliases": [],
-        "hints": {
-          "easy": "current",
-          "normal": "bank",
-          "hard": "estuary"
         }
       }
     }
@@ -1203,18 +856,6 @@
           "normal": "porlar",
           "hard": "stenar"
         }
-      },
-      "en": {
-        "word": "Brook",
-        "aliases": [
-          "Creek",
-          "Stream"
-        ],
-        "hints": {
-          "easy": "rivulet",
-          "normal": "babbling",
-          "hard": "pebbles"
-        }
       }
     }
   },
@@ -1237,15 +878,6 @@
           "normal": "korallrev",
           "hard": "grund"
         }
-      },
-      "en": {
-        "word": "Lagoon",
-        "aliases": [],
-        "hints": {
-          "easy": "shallows",
-          "normal": "coral",
-          "hard": "sheltered"
-        }
       }
     }
   },
@@ -1267,15 +899,6 @@
           "easy": "droppar",
           "normal": "paraply",
           "hard": "gråväder"
-        }
-      },
-      "en": {
-        "word": "Rain",
-        "aliases": [],
-        "hints": {
-          "easy": "droplets",
-          "normal": "umbrella",
-          "hard": "overcast"
         }
       }
     }
@@ -1301,15 +924,6 @@
           "normal": "finfördelat",
           "hard": "grått"
         }
-      },
-      "en": {
-        "word": "Drizzle",
-        "aliases": [],
-        "hints": {
-          "easy": "sprinkle",
-          "normal": "fine",
-          "hard": "grey"
-        }
       }
     }
   },
@@ -1331,15 +945,6 @@
           "easy": "iskorn",
           "normal": "smatter",
           "hard": "åska"
-        }
-      },
-      "en": {
-        "word": "Hail",
-        "aliases": [],
-        "hints": {
-          "easy": "pellets",
-          "normal": "rattling",
-          "hard": "thunder"
         }
       }
     }
@@ -1363,15 +968,6 @@
           "normal": "drivor",
           "hard": "tö"
         }
-      },
-      "en": {
-        "word": "Snowfall",
-        "aliases": [],
-        "hints": {
-          "easy": "flakes",
-          "normal": "drifts",
-          "hard": "thaw"
-        }
       }
     }
   },
@@ -1393,17 +989,6 @@
           "easy": "snöblandat",
           "normal": "slask",
           "hard": "nollgradigt"
-        }
-      },
-      "en": {
-        "word": "Rain and snow mix",
-        "aliases": [
-          "Sleet"
-        ],
-        "hints": {
-          "easy": "slush",
-          "normal": "wintry",
-          "hard": "freezing"
         }
       }
     }
@@ -1427,15 +1012,6 @@
           "normal": "vägbanor",
           "hard": "underkylt"
         }
-      },
-      "en": {
-        "word": "Freezing rain",
-        "aliases": [],
-        "hints": {
-          "easy": "glaze",
-          "normal": "roads",
-          "hard": "supercooled"
-        }
       }
     }
   },
@@ -1457,15 +1033,6 @@
           "easy": "dis",
           "normal": "sikt",
           "hard": "slöja"
-        }
-      },
-      "en": {
-        "word": "Fog",
-        "aliases": [],
-        "hints": {
-          "easy": "mist",
-          "normal": "visibility",
-          "hard": "veil"
         }
       }
     }
@@ -1489,15 +1056,6 @@
           "normal": "gräs",
           "hard": "kondensering"
         }
-      },
-      "en": {
-        "word": "Dew",
-        "aliases": [],
-        "hints": {
-          "easy": "morning",
-          "normal": "grass",
-          "hard": "condensation"
-        }
       }
     }
   },
@@ -1519,17 +1077,6 @@
           "easy": "iskristaller",
           "normal": "vitfrost",
           "hard": "grenar"
-        }
-      },
-      "en": {
-        "word": "Hoarfrost",
-        "aliases": [
-          "Hoar frost"
-        ],
-        "hints": {
-          "easy": "crystals",
-          "normal": "glistening",
-          "hard": "branches"
         }
       }
     }
@@ -1555,15 +1102,6 @@
           "normal": "dunder",
           "hard": "urladdning"
         }
-      },
-      "en": {
-        "word": "Thunderstorm",
-        "aliases": [],
-        "hints": {
-          "easy": "lightning",
-          "normal": "rumble",
-          "hard": "discharge"
-        }
       }
     }
   },
@@ -1587,18 +1125,6 @@
           "easy": "fallvind",
           "normal": "varm",
           "hard": "läsida"
-        }
-      },
-      "en": {
-        "word": "Foehn wind",
-        "aliases": [
-          "Foehn",
-          "Föhn wind"
-        ],
-        "hints": {
-          "easy": "downslope",
-          "normal": "warm",
-          "hard": "leeward"
         }
       }
     }
@@ -1624,15 +1150,6 @@
           "normal": "blixt",
           "hard": "eko"
         }
-      },
-      "en": {
-        "word": "Thunder",
-        "aliases": [],
-        "hints": {
-          "easy": "rumble",
-          "normal": "lightning",
-          "hard": "echo"
-        }
       }
     }
   },
@@ -1655,17 +1172,6 @@
           "normal": "storm",
           "hard": "vitvägg"
         }
-      },
-      "en": {
-        "word": "Snowstorm",
-        "aliases": [
-          "Blizzard"
-        ],
-        "hints": {
-          "easy": "whiteout",
-          "normal": "storm",
-          "hard": "visibility"
-        }
       }
     }
   },
@@ -1687,15 +1193,6 @@
           "easy": "markyra",
           "normal": "drivor",
           "hard": "marknivå"
-        }
-      },
-      "en": {
-        "word": "Drifting snow",
-        "aliases": [],
-        "hints": {
-          "easy": "snowdrifts",
-          "normal": "ground",
-          "hard": "windblown"
         }
       }
     }
@@ -1722,18 +1219,6 @@
           "normal": "öga",
           "hard": "stormflod"
         }
-      },
-      "en": {
-        "word": "Tropical cyclone",
-        "aliases": [
-          "Hurricane",
-          "Typhoon"
-        ],
-        "hints": {
-          "easy": "tropical",
-          "normal": "eye",
-          "hard": "surge"
-        }
       }
     }
   },
@@ -1755,17 +1240,6 @@
           "easy": "stekhett",
           "normal": "hetta",
           "hard": "rekord"
-        }
-      },
-      "en": {
-        "word": "Heat wave",
-        "aliases": [
-          "Heatwave"
-        ],
-        "hints": {
-          "easy": "scorching",
-          "normal": "prolonged",
-          "hard": "record"
         }
       }
     }
@@ -1789,15 +1263,6 @@
           "normal": "minusgrader",
           "hard": "kortvarig"
         }
-      },
-      "en": {
-        "word": "Cold snap",
-        "aliases": [],
-        "hints": {
-          "easy": "freeze",
-          "normal": "frost",
-          "hard": "sudden"
-        }
       }
     }
   },
@@ -1819,15 +1284,6 @@
           "easy": "vattenbrist",
           "normal": "torrsprickor",
           "hard": "skörd"
-        }
-      },
-      "en": {
-        "word": "Drought",
-        "aliases": [],
-        "hints": {
-          "easy": "shortage",
-          "normal": "parched",
-          "hard": "crops"
         }
       }
     }
@@ -1851,18 +1307,6 @@
           "normal": "plötslig",
           "hard": "kast"
         }
-      },
-      "en": {
-        "word": "Gust of wind",
-        "aliases": [
-          "Gust",
-          "Wind gust"
-        ],
-        "hints": {
-          "easy": "blast",
-          "normal": "sudden",
-          "hard": "burst"
-        }
       }
     }
   },
@@ -1884,15 +1328,6 @@
           "easy": "kustvind",
           "normal": "avkylning",
           "hard": "eftermiddag"
-        }
-      },
-      "en": {
-        "word": "Sea breeze",
-        "aliases": [],
-        "hints": {
-          "easy": "onshore",
-          "normal": "cooling",
-          "hard": "afternoon"
         }
       }
     }
@@ -1916,15 +1351,6 @@
           "normal": "cykling",
           "hard": "broms"
         }
-      },
-      "en": {
-        "word": "Headwind",
-        "aliases": [],
-        "hints": {
-          "easy": "resistance",
-          "normal": "cycling",
-          "hard": "drag"
-        }
       }
     }
   },
@@ -1947,15 +1373,6 @@
           "normal": "hastighet",
           "hard": "cykling"
         }
-      },
-      "en": {
-        "word": "Tailwind",
-        "aliases": [],
-        "hints": {
-          "easy": "boost",
-          "normal": "speed",
-          "hard": "cycling"
-        }
       }
     }
   },
@@ -1977,15 +1394,6 @@
           "easy": "sidledes",
           "normal": "landning",
           "hard": "styrning"
-        }
-      },
-      "en": {
-        "word": "Crosswind",
-        "aliases": [],
-        "hints": {
-          "easy": "sideways",
-          "normal": "landing",
-          "hard": "steering"
         }
       }
     }
@@ -2011,17 +1419,6 @@
           "normal": "sjunkluft",
           "hard": "stabilt"
         }
-      },
-      "en": {
-        "word": "High-pressure system",
-        "aliases": [
-          "Anticyclone"
-        ],
-        "hints": {
-          "easy": "clear",
-          "normal": "subsidence",
-          "hard": "stable"
-        }
       }
     }
   },
@@ -2046,17 +1443,6 @@
           "normal": "stigluft",
           "hard": "fronter"
         }
-      },
-      "en": {
-        "word": "Low-pressure system",
-        "aliases": [
-          "Depression"
-        ],
-        "hints": {
-          "easy": "clouds",
-          "normal": "ascent",
-          "hard": "fronts"
-        }
       }
     }
   },
@@ -2079,15 +1465,6 @@
           "normal": "skurar",
           "hard": "vindkantring"
         }
-      },
-      "en": {
-        "word": "Cold front",
-        "aliases": [],
-        "hints": {
-          "easy": "cooling",
-          "normal": "showers",
-          "hard": "gusts"
-        }
       }
     }
   },
@@ -2109,15 +1486,6 @@
           "easy": "mildluft",
           "normal": "ihållande",
           "hard": "molntäcke"
-        }
-      },
-      "en": {
-        "word": "Warm front",
-        "aliases": [],
-        "hints": {
-          "easy": "mildness",
-          "normal": "prolonged",
-          "hard": "overcast"
         }
       }
     }
@@ -2143,17 +1511,6 @@
           "normal": "bomull",
           "hard": "konvektion"
         }
-      },
-      "en": {
-        "word": "Cumulus cloud",
-        "aliases": [
-          "Cumulus"
-        ],
-        "hints": {
-          "easy": "cotton",
-          "normal": "puffy",
-          "hard": "convection"
-        }
       }
     }
   },
@@ -2177,17 +1534,6 @@
           "easy": "fjäderlikt",
           "normal": "ispartiklar",
           "hard": "höghöjd"
-        }
-      },
-      "en": {
-        "word": "Cirrus cloud",
-        "aliases": [
-          "Cirrus"
-        ],
-        "hints": {
-          "easy": "wispy",
-          "normal": "crystals",
-          "hard": "altitude"
         }
       }
     }
@@ -2213,17 +1559,6 @@
           "normal": "kalluft",
           "hard": "smog"
         }
-      },
-      "en": {
-        "word": "Temperature inversion",
-        "aliases": [
-          "Inversion"
-        ],
-        "hints": {
-          "easy": "layer",
-          "normal": "trapped",
-          "hard": "smog"
-        }
       }
     }
   },
@@ -2245,15 +1580,6 @@
           "easy": "väderkarta",
           "normal": "lufttryck",
           "hard": "kontur"
-        }
-      },
-      "en": {
-        "word": "Isobar",
-        "aliases": [],
-        "hints": {
-          "easy": "chart",
-          "normal": "pressure",
-          "hard": "contour"
         }
       }
     }
@@ -2279,15 +1605,6 @@
           "normal": "vindskador",
           "hard": "åskcell"
         }
-      },
-      "en": {
-        "word": "Downburst",
-        "aliases": [],
-        "hints": {
-          "easy": "downdraft",
-          "normal": "damage",
-          "hard": "thundercloud"
-        }
       }
     }
   },
@@ -2312,17 +1629,6 @@
           "normal": "kotte",
           "hard": "sandmark"
         }
-      },
-      "en": {
-        "word": "Scots pine",
-        "aliases": [
-          "Pine"
-        ],
-        "hints": {
-          "easy": "needles",
-          "normal": "cone",
-          "hard": "sandy"
-        }
       }
     }
   },
@@ -2344,17 +1650,6 @@
           "easy": "julpynt",
           "normal": "barr",
           "hard": "skugga"
-        }
-      },
-      "en": {
-        "word": "Norway spruce",
-        "aliases": [
-          "Spruce"
-        ],
-        "hints": {
-          "easy": "evergreen",
-          "normal": "needles",
-          "hard": "shade"
         }
       }
     }
@@ -2378,15 +1673,6 @@
           "normal": "vit",
           "hard": "hänge"
         }
-      },
-      "en": {
-        "word": "Birch",
-        "aliases": [],
-        "hints": {
-          "easy": "bark",
-          "normal": "white",
-          "hard": "catkin"
-        }
       }
     }
   },
@@ -2408,15 +1694,6 @@
           "easy": "ekollon",
           "normal": "löv",
           "hard": "bastant"
-        }
-      },
-      "en": {
-        "word": "Oak",
-        "aliases": [],
-        "hints": {
-          "easy": "acorn",
-          "normal": "leaves",
-          "hard": "sturdy"
         }
       }
     }
@@ -2440,15 +1717,6 @@
           "normal": "flikblad",
           "hard": "höstfärg"
         }
-      },
-      "en": {
-        "word": "Maple",
-        "aliases": [],
-        "hints": {
-          "easy": "syrup",
-          "normal": "lobes",
-          "hard": "autumn"
-        }
       }
     }
   },
@@ -2471,17 +1739,6 @@
           "normal": "slät",
           "hard": "lövskog"
         }
-      },
-      "en": {
-        "word": "Beech",
-        "aliases": [
-          "Beech tree"
-        ],
-        "hints": {
-          "easy": "mast",
-          "normal": "smooth",
-          "hard": "woodland"
-        }
       }
     }
   },
@@ -2503,17 +1760,6 @@
           "easy": "parblad",
           "normal": "träslag",
           "hard": "seghet"
-        }
-      },
-      "en": {
-        "word": "Ash tree",
-        "aliases": [
-          "Ash"
-        ],
-        "hints": {
-          "easy": "leaflets",
-          "normal": "timber",
-          "hard": "flexible"
         }
       }
     }
@@ -2539,15 +1785,6 @@
           "normal": "vide",
           "hard": "vattenkant"
         }
-      },
-      "en": {
-        "word": "Willow",
-        "aliases": [],
-        "hints": {
-          "easy": "weeping",
-          "normal": "catkins",
-          "hard": "waterside"
-        }
       }
     }
   },
@@ -2569,15 +1806,6 @@
           "easy": "alkottar",
           "normal": "fuktmark",
           "hard": "kväve"
-        }
-      },
-      "en": {
-        "word": "Alder",
-        "aliases": [],
-        "hints": {
-          "easy": "cones",
-          "normal": "wetland",
-          "hard": "nitrogen"
         }
       }
     }
@@ -2603,17 +1831,6 @@
           "normal": "fåglar",
           "hard": "parblad"
         }
-      },
-      "en": {
-        "word": "Rowan",
-        "aliases": [
-          "Mountain ash"
-        ],
-        "hints": {
-          "easy": "berries",
-          "normal": "birds",
-          "hard": "leaflets"
-        }
       }
     }
   },
@@ -2633,17 +1850,6 @@
         "aliases": [],
         "hints": {
           "easy": "darrblad",
-          "normal": "silver",
-          "hard": "bark"
-        }
-      },
-      "en": {
-        "word": "European aspen",
-        "aliases": [
-          "Aspen"
-        ],
-        "hints": {
-          "easy": "trembling",
           "normal": "silver",
           "hard": "bark"
         }
@@ -2671,15 +1877,6 @@
           "normal": "gin",
           "hard": "stickiga"
         }
-      },
-      "en": {
-        "word": "Juniper",
-        "aliases": [],
-        "hints": {
-          "easy": "berries",
-          "normal": "gin",
-          "hard": "prickly"
-        }
       }
     }
   },
@@ -2701,17 +1898,6 @@
           "easy": "jätteträd",
           "normal": "Kalifornien",
           "hard": "brandskydd"
-        }
-      },
-      "en": {
-        "word": "Giant sequoia",
-        "aliases": [
-          "Giant redwood"
-        ],
-        "hints": {
-          "easy": "redwood",
-          "normal": "California",
-          "hard": "fireproof"
         }
       }
     }
@@ -2737,15 +1923,6 @@
           "normal": "savann",
           "hard": "vattenlager"
         }
-      },
-      "en": {
-        "word": "Baobab",
-        "aliases": [],
-        "hints": {
-          "easy": "trunk",
-          "normal": "savannah",
-          "hard": "storage"
-        }
       }
     }
   },
@@ -2767,15 +1944,6 @@
           "easy": "blomlök",
           "normal": "Holland",
           "hard": "vårbukett"
-        }
-      },
-      "en": {
-        "word": "Tulip",
-        "aliases": [],
-        "hints": {
-          "easy": "bulb",
-          "normal": "Holland",
-          "hard": "bouquet"
         }
       }
     }
@@ -2799,17 +1967,6 @@
           "normal": "gul",
           "hard": "trumpet"
         }
-      },
-      "en": {
-        "word": "Daffodil",
-        "aliases": [
-          "Trumpet narcissus"
-        ],
-        "hints": {
-          "easy": "yellow",
-          "normal": "trumpet",
-          "hard": "spring"
-        }
       }
     }
   },
@@ -2831,15 +1988,6 @@
           "easy": "vårtecken",
           "normal": "nickande",
           "hard": "klocka"
-        }
-      },
-      "en": {
-        "word": "Snowdrop",
-        "aliases": [],
-        "hints": {
-          "easy": "spring",
-          "normal": "nodding",
-          "hard": "bell"
         }
       }
     }
@@ -2863,15 +2011,6 @@
           "normal": "gräsmatta",
           "hard": "kalkblad"
         }
-      },
-      "en": {
-        "word": "Crocus",
-        "aliases": [],
-        "hints": {
-          "easy": "early",
-          "normal": "lawn",
-          "hard": "petals"
-        }
       }
     }
   },
@@ -2893,15 +2032,6 @@
           "easy": "fröboll",
           "normal": "blåsa",
           "hard": "ogräs"
-        }
-      },
-      "en": {
-        "word": "Dandelion",
-        "aliases": [],
-        "hints": {
-          "easy": "seedhead",
-          "normal": "blowing",
-          "hard": "weed"
         }
       }
     }
@@ -2925,18 +2055,6 @@
           "normal": "äng",
           "hard": "blomblad"
         }
-      },
-      "en": {
-        "word": "Common daisy",
-        "aliases": [
-          "Lawn daisy",
-          "Daisy"
-        ],
-        "hints": {
-          "easy": "meadow",
-          "normal": "petals",
-          "hard": "white"
-        }
       }
     }
   },
@@ -2958,15 +2076,6 @@
           "easy": "klockor",
           "normal": "doft",
           "hard": "giftig"
-        }
-      },
-      "en": {
-        "word": "Lily of the valley",
-        "aliases": [],
-        "hints": {
-          "easy": "bells",
-          "normal": "perfume",
-          "hard": "poisonous"
         }
       }
     }
@@ -2992,18 +2101,6 @@
           "normal": "åker",
           "hard": "minnesblomma"
         }
-      },
-      "en": {
-        "word": "Corn poppy",
-        "aliases": [
-          "Field poppy",
-          "Common poppy"
-        ],
-        "hints": {
-          "easy": "scarlet",
-          "normal": "field",
-          "hard": "remembrance"
-        }
       }
     }
   },
@@ -3027,15 +2124,6 @@
           "easy": "treblad",
           "normal": "gräsmatta",
           "hard": "kväve"
-        }
-      },
-      "en": {
-        "word": "White clover",
-        "aliases": [],
-        "hints": {
-          "easy": "trefoil",
-          "normal": "lawns",
-          "hard": "nitrogen"
         }
       }
     }
@@ -3061,17 +2149,6 @@
           "normal": "vägkant",
           "hard": "invasiv"
         }
-      },
-      "en": {
-        "word": "Garden lupin",
-        "aliases": [
-          "Bigleaf lupine"
-        ],
-        "hints": {
-          "easy": "spires",
-          "normal": "roadsides",
-          "hard": "invasive"
-        }
       }
     }
   },
@@ -3093,17 +2170,6 @@
           "easy": "ris",
           "normal": "lila",
           "hard": "sensommar"
-        }
-      },
-      "en": {
-        "word": "Heather",
-        "aliases": [
-          "Common heather"
-        ],
-        "hints": {
-          "easy": "moor",
-          "normal": "purple",
-          "hard": "summer"
         }
       }
     }
@@ -3129,17 +2195,6 @@
           "normal": "nässelsoppa",
           "hard": "ogräs"
         }
-      },
-      "en": {
-        "word": "Stinging nettle",
-        "aliases": [
-          "Nettle"
-        ],
-        "hints": {
-          "easy": "sting",
-          "normal": "soup",
-          "hard": "weed"
-        }
       }
     }
   },
@@ -3161,15 +2216,6 @@
           "easy": "flikblad",
           "normal": "sporer",
           "hard": "skog"
-        }
-      },
-      "en": {
-        "word": "Fern",
-        "aliases": [],
-        "hints": {
-          "easy": "fronds",
-          "normal": "spores",
-          "hard": "woodland"
         }
       }
     }
@@ -3195,17 +2241,6 @@
           "normal": "kisel",
           "hard": "uråldrig"
         }
-      },
-      "en": {
-        "word": "Field horsetail",
-        "aliases": [
-          "Common horsetail"
-        ],
-        "hints": {
-          "easy": "jointed",
-          "normal": "silica",
-          "hard": "ancient"
-        }
       }
     }
   },
@@ -3229,17 +2264,6 @@
           "easy": "kolv",
           "normal": "vass",
           "hard": "kärr"
-        }
-      },
-      "en": {
-        "word": "Cattail",
-        "aliases": [
-          "Reedmace"
-        ],
-        "hints": {
-          "easy": "reed",
-          "normal": "marsh",
-          "hard": "seedhead"
         }
       }
     }
@@ -3265,18 +2289,6 @@
           "normal": "torv",
           "hard": "svampig"
         }
-      },
-      "en": {
-        "word": "Sphagnum moss",
-        "aliases": [
-          "Sphagnum",
-          "Peat moss"
-        ],
-        "hints": {
-          "easy": "peat",
-          "normal": "bog",
-          "hard": "spongy"
-        }
       }
     }
   },
@@ -3299,18 +2311,6 @@
           "normal": "mur",
           "hard": "vintergrön"
         }
-      },
-      "en": {
-        "word": "Common ivy",
-        "aliases": [
-          "Ivy",
-          "English ivy"
-        ],
-        "hints": {
-          "easy": "climber",
-          "normal": "wall",
-          "hard": "evergreen"
-        }
       }
     }
   },
@@ -3332,15 +2332,6 @@
           "easy": "julkyss",
           "normal": "värdträd",
           "hard": "vintergrön"
-        }
-      },
-      "en": {
-        "word": "Mistletoe",
-        "aliases": [],
-        "hints": {
-          "easy": "kissing",
-          "normal": "host",
-          "hard": "evergreen"
         }
       }
     }
@@ -3366,15 +2357,6 @@
           "normal": "insektsätare",
           "hard": "känselhår"
         }
-      },
-      "en": {
-        "word": "Venus flytrap",
-        "aliases": [],
-        "hints": {
-          "easy": "traps",
-          "normal": "carnivorous",
-          "hard": "trigger"
-        }
       }
     }
   },
@@ -3396,15 +2378,6 @@
           "easy": "klibbigt",
           "normal": "blad",
           "hard": "småinsekter"
-        }
-      },
-      "en": {
-        "word": "Sundew",
-        "aliases": [],
-        "hints": {
-          "easy": "sticky",
-          "normal": "leaves",
-          "hard": "insects"
         }
       }
     }
@@ -3428,15 +2401,6 @@
           "normal": "regn",
           "hard": "brytning"
         }
-      },
-      "en": {
-        "word": "Rainbow",
-        "aliases": [],
-        "hints": {
-          "easy": "colours",
-          "normal": "refraction",
-          "hard": "shower"
-        }
       }
     }
   },
@@ -3459,17 +2423,6 @@
           "normal": "polarnatt",
           "hard": "solvind"
         }
-      },
-      "en": {
-        "word": "Northern lights",
-        "aliases": [
-          "Aurora borealis"
-        ],
-        "hints": {
-          "easy": "lights",
-          "normal": "Arctic",
-          "hard": "ions"
-        }
       }
     }
   },
@@ -3491,18 +2444,6 @@
           "easy": "ljusfläck",
           "normal": "ismoln",
           "hard": "sidoljus"
-        }
-      },
-      "en": {
-        "word": "Sundog",
-        "aliases": [
-          "Mock sun",
-          "Parhelion"
-        ],
-        "hints": {
-          "easy": "gleam",
-          "normal": "crystals",
-          "hard": "lateral"
         }
       }
     }
@@ -3528,17 +2469,6 @@
           "normal": "iskristaller",
           "hard": "cirrus"
         }
-      },
-      "en": {
-        "word": "Solar halo",
-        "aliases": [
-          "Sun halo"
-        ],
-        "hints": {
-          "easy": "ring",
-          "normal": "crystals",
-          "hard": "cirrus"
-        }
       }
     }
   },
@@ -3560,17 +2490,6 @@
           "easy": "ljuspelare",
           "normal": "solnedgång",
           "hard": "iskristaller"
-        }
-      },
-      "en": {
-        "word": "Sun pillar",
-        "aliases": [
-          "Solar pillar"
-        ],
-        "hints": {
-          "easy": "vertical",
-          "normal": "sunset",
-          "hard": "crystals"
         }
       }
     }
@@ -3594,15 +2513,6 @@
           "normal": "öken",
           "hard": "luftskikt"
         }
-      },
-      "en": {
-        "word": "Mirage",
-        "aliases": [],
-        "hints": {
-          "easy": "illusion",
-          "normal": "desert",
-          "hard": "refraction"
-        }
       }
     }
   },
@@ -3625,15 +2535,6 @@
           "normal": "månskugga",
           "hard": "korona"
         }
-      },
-      "en": {
-        "word": "Solar eclipse",
-        "aliases": [],
-        "hints": {
-          "easy": "totality",
-          "normal": "shadow",
-          "hard": "corona"
-        }
       }
     }
   },
@@ -3655,15 +2556,6 @@
           "easy": "blodmåne",
           "normal": "jordskugga",
           "hard": "kopparröd"
-        }
-      },
-      "en": {
-        "word": "Lunar eclipse",
-        "aliases": [],
-        "hints": {
-          "easy": "reddening",
-          "normal": "shadow",
-          "hard": "copper"
         }
       }
     }
@@ -3689,17 +2581,6 @@
           "normal": "ljusstreck",
           "hard": "atmosfär"
         }
-      },
-      "en": {
-        "word": "Shooting star",
-        "aliases": [
-          "Meteor"
-        ],
-        "hints": {
-          "easy": "streak",
-          "normal": "shooting",
-          "hard": "atmosphere"
-        }
       }
     }
   },
@@ -3721,15 +2602,6 @@
           "easy": "rymdsten",
           "normal": "nedslag",
           "hard": "krater"
-        }
-      },
-      "en": {
-        "word": "Meteorite",
-        "aliases": [],
-        "hints": {
-          "easy": "impact",
-          "normal": "rock",
-          "hard": "crater"
         }
       }
     }
@@ -3753,15 +2625,6 @@
           "normal": "is",
           "hard": "omloppsbana"
         }
-      },
-      "en": {
-        "word": "Comet",
-        "aliases": [],
-        "hints": {
-          "easy": "tail",
-          "normal": "ice",
-          "hard": "orbit"
-        }
       }
     }
   },
@@ -3783,17 +2646,6 @@
           "easy": "flod",
           "normal": "ebb",
           "hard": "måne"
-        }
-      },
-      "en": {
-        "word": "Tide",
-        "aliases": [
-          "Tides"
-        ],
-        "hints": {
-          "easy": "rise",
-          "normal": "ebb",
-          "hard": "moon"
         }
       }
     }
@@ -3817,15 +2669,6 @@
           "normal": "jordskalv",
           "hard": "kust"
         }
-      },
-      "en": {
-        "word": "Tsunami",
-        "aliases": [],
-        "hints": {
-          "easy": "wave",
-          "normal": "earthquake",
-          "hard": "coast"
-        }
       }
     }
   },
@@ -3847,15 +2690,6 @@
           "easy": "vattenstånd",
           "normal": "storm",
           "hard": "kustnära"
-        }
-      },
-      "en": {
-        "word": "Storm surge",
-        "aliases": [],
-        "hints": {
-          "easy": "inundation",
-          "normal": "wind",
-          "hard": "shoreline"
         }
       }
     }
@@ -3881,15 +2715,6 @@
           "normal": "snömassa",
           "hard": "utför"
         }
-      },
-      "en": {
-        "word": "Avalanche",
-        "aliases": [],
-        "hints": {
-          "easy": "snowslide",
-          "normal": "slope",
-          "hard": "burial"
-        }
       }
     }
   },
@@ -3911,17 +2736,6 @@
           "easy": "klippblock",
           "normal": "klippvägg",
           "hard": "block"
-        }
-      },
-      "en": {
-        "word": "Rockfall",
-        "aliases": [
-          "Rock fall"
-        ],
-        "hints": {
-          "easy": "boulders",
-          "normal": "cliff",
-          "hard": "debris"
         }
       }
     }
@@ -3945,18 +2759,6 @@
           "normal": "sluttning",
           "hard": "regn"
         }
-      },
-      "en": {
-        "word": "Landslide",
-        "aliases": [
-          "Land slip",
-          "Landslip"
-        ],
-        "hints": {
-          "easy": "mud",
-          "normal": "slope",
-          "hard": "rainfall"
-        }
       }
     }
   },
@@ -3978,15 +2780,6 @@
           "easy": "fontän",
           "normal": "varmvatten",
           "hard": "utbrott"
-        }
-      },
-      "en": {
-        "word": "Geyser",
-        "aliases": [],
-        "hints": {
-          "easy": "fountain",
-          "normal": "steam",
-          "hard": "eruption"
         }
       }
     }
@@ -4012,15 +2805,6 @@
           "normal": "mineraler",
           "hard": "ånga"
         }
-      },
-      "en": {
-        "word": "Hot spring",
-        "aliases": [],
-        "hints": {
-          "easy": "thermal",
-          "normal": "minerals",
-          "hard": "bathing"
-        }
       }
     }
   },
@@ -4042,15 +2826,6 @@
           "easy": "krater",
           "normal": "utbrott",
           "hard": "aska"
-        }
-      },
-      "en": {
-        "word": "Volcano",
-        "aliases": [],
-        "hints": {
-          "easy": "crater",
-          "normal": "eruption",
-          "hard": "ash"
         }
       }
     }
@@ -4074,15 +2849,6 @@
           "normal": "flyter",
           "hard": "bergart"
         }
-      },
-      "en": {
-        "word": "Lava",
-        "aliases": [],
-        "hints": {
-          "easy": "molten",
-          "normal": "flow",
-          "hard": "solidification"
-        }
       }
     }
   },
@@ -4104,15 +2870,6 @@
           "easy": "smälta",
           "normal": "underjord",
           "hard": "tryck"
-        }
-      },
-      "en": {
-        "word": "Magma",
-        "aliases": [],
-        "hints": {
-          "easy": "molten",
-          "normal": "underground",
-          "hard": "pressure"
         }
       }
     }
@@ -4136,17 +2893,6 @@
           "normal": "vatten",
           "hard": "utvidgning"
         }
-      },
-      "en": {
-        "word": "Frost wedging",
-        "aliases": [
-          "Freeze-thaw weathering"
-        ],
-        "hints": {
-          "easy": "cracks",
-          "normal": "water",
-          "hard": "expansion"
-        }
       }
     }
   },
@@ -4168,17 +2914,6 @@
           "easy": "flammor",
           "normal": "rök",
           "hard": "torka"
-        }
-      },
-      "en": {
-        "word": "Forest fire",
-        "aliases": [
-          "Wildfire"
-        ],
-        "hints": {
-          "easy": "flames",
-          "normal": "smoke",
-          "hard": "drought"
         }
       }
     }
@@ -4202,15 +2937,6 @@
           "normal": "flöde",
           "hard": "lågland"
         }
-      },
-      "en": {
-        "word": "Flood",
-        "aliases": [],
-        "hints": {
-          "easy": "inundation",
-          "normal": "overflow",
-          "hard": "lowland"
-        }
       }
     }
   },
@@ -4233,15 +2959,6 @@
           "normal": "arktisk",
           "hard": "upptining"
         }
-      },
-      "en": {
-        "word": "Permafrost",
-        "aliases": [],
-        "hints": {
-          "easy": "frozen",
-          "normal": "Arctic",
-          "hard": "thawing"
-        }
       }
     }
   },
@@ -4263,17 +2980,6 @@
           "easy": "blåglöd",
           "normal": "plankton",
           "hard": "självlysande"
-        }
-      },
-      "en": {
-        "word": "Sea sparkle",
-        "aliases": [
-          "Bioluminescent waves"
-        ],
-        "hints": {
-          "easy": "bioluminescence",
-          "normal": "plankton",
-          "hard": "turquoise"
         }
       }
     }

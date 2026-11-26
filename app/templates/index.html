@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/extras.css') }}">
   <script type="module" src="{{ url_for('static', filename='js/ui.mjs') }}"></script>
 </head>
-<body data-app-name="{{ app_name }}" data-slogan-sv="{{ slogans.sv }}" data-slogan-en="{{ slogans.en }}">
+<body data-app-name="{{ app_name }}">
   <a href="#app-view" class="skip-link" data-i18n="ui.skip">Till innehållet</a>
   <header class="site-header">
     <div class="layout site-header__inner">
@@ -32,13 +32,6 @@
             <span data-i18n="ui.preferences">Appval</span>
           </summary>
           <div class="site-tool__panel panel stack">
-            <label class="field">
-              <span data-i18n="ui.language">Språk</span>
-              <select id="app-language">
-                <option value="sv" lang="sv">Svenska</option>
-                <option value="en" lang="en">English</option>
-              </select>
-            </label>
             <label class="field">
               <span data-i18n="ui.theme">Tema</span>
               <select id="app-theme">
@@ -83,7 +76,7 @@
     </section>
   </main>
   <noscript>
-    <p class="layout notice">Slå på JavaScript för att spela. Enable JavaScript to play.</p>
+    <p class="layout notice">Slå på JavaScript för att spela.</p>
   </noscript>
 </body>
 </html>

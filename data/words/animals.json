@@ -17,15 +17,6 @@
           "normal": "koppel",
           "hard": "lydnad"
         }
-      },
-      "en": {
-        "word": "Dog",
-        "aliases": [],
-        "hints": {
-          "easy": "bark",
-          "normal": "leash",
-          "hard": "obedience"
-        }
       }
     }
   },
@@ -46,15 +37,6 @@
           "easy": "spinnande",
           "normal": "morrhår",
           "hard": "fönsterbräda"
-        }
-      },
-      "en": {
-        "word": "Cat",
-        "aliases": [],
-        "hints": {
-          "easy": "purring",
-          "normal": "whiskers",
-          "hard": "windowsill"
         }
       }
     }
@@ -77,15 +59,6 @@
           "normal": "skutt",
           "hard": "gnaga"
         }
-      },
-      "en": {
-        "word": "Rabbit",
-        "aliases": [],
-        "hints": {
-          "easy": "carrot",
-          "normal": "hopping",
-          "hard": "gnawing"
-        }
       }
     }
   },
@@ -106,17 +79,6 @@
           "easy": "pip",
           "normal": "grönsaker",
           "hard": "sällskapsdjur"
-        }
-      },
-      "en": {
-        "word": "Guinea pig",
-        "aliases": [
-          "Cavy"
-        ],
-        "hints": {
-          "easy": "squeak",
-          "normal": "vegetables",
-          "hard": "companionship"
         }
       }
     }
@@ -139,15 +101,6 @@
           "normal": "kindpåsar",
           "hard": "nattaktiv"
         }
-      },
-      "en": {
-        "word": "Hamster",
-        "aliases": [],
-        "hints": {
-          "easy": "wheel",
-          "normal": "cheeks",
-          "hard": "nocturnal"
-        }
       }
     }
   },
@@ -169,15 +122,6 @@
           "normal": "lekfull",
           "hard": "snabbhet"
         }
-      },
-      "en": {
-        "word": "Ferret",
-        "aliases": [],
-        "hints": {
-          "easy": "tunnels",
-          "normal": "playful",
-          "hard": "agility"
-        }
       }
     }
   },
@@ -198,15 +142,6 @@
           "easy": "mjuk",
           "normal": "päls",
           "hard": "sandbad"
-        }
-      },
-      "en": {
-        "word": "Chinchilla",
-        "aliases": [],
-        "hints": {
-          "easy": "soft",
-          "normal": "fur",
-          "hard": "dusty"
         }
       }
     }
@@ -232,17 +167,6 @@
           "normal": "sand",
           "hard": "svans"
         }
-      },
-      "en": {
-        "word": "Mongolian gerbil",
-        "aliases": [
-          "Gerbil"
-        ],
-        "hints": {
-          "easy": "burrowing",
-          "normal": "sand",
-          "hard": "tail"
-        }
       }
     }
   },
@@ -263,17 +187,6 @@
           "easy": "gnagare",
           "normal": "nyfiken",
           "hard": "klättring"
-        }
-      },
-      "en": {
-        "word": "Pet rat",
-        "aliases": [
-          "Fancy rat"
-        ],
-        "hints": {
-          "easy": "rodent",
-          "normal": "curious",
-          "hard": "climbing"
         }
       }
     }
@@ -296,15 +209,6 @@
           "normal": "mule",
           "hard": "idissla"
         }
-      },
-      "en": {
-        "word": "Dairy cow",
-        "aliases": [],
-        "hints": {
-          "easy": "milk",
-          "normal": "muzzle",
-          "hard": "ruminant"
-        }
       }
     }
   },
@@ -326,15 +230,6 @@
           "normal": "hovar",
           "hard": "man"
         }
-      },
-      "en": {
-        "word": "Horse",
-        "aliases": [],
-        "hints": {
-          "easy": "saddle",
-          "normal": "hooves",
-          "hard": "mane"
-        }
       }
     }
   },
@@ -355,17 +250,6 @@
           "easy": "åsneskri",
           "normal": "envis",
           "hard": "packning"
-        }
-      },
-      "en": {
-        "word": "Donkey",
-        "aliases": [
-          "Ass"
-        ],
-        "hints": {
-          "easy": "braying",
-          "normal": "stubborn",
-          "hard": "cargo"
         }
       }
     }
@@ -390,15 +274,6 @@
           "normal": "lera",
           "hard": "knorr"
         }
-      },
-      "en": {
-        "word": "Pig",
-        "aliases": [],
-        "hints": {
-          "easy": "snout",
-          "normal": "mud",
-          "hard": "corkscrew"
-        }
       }
     }
   },
@@ -419,15 +294,6 @@
           "easy": "ull",
           "normal": "flock",
           "hard": "betesmark"
-        }
-      },
-      "en": {
-        "word": "Sheep",
-        "aliases": [],
-        "hints": {
-          "easy": "wool",
-          "normal": "flock",
-          "hard": "pasture"
         }
       }
     }
@@ -450,15 +316,6 @@
           "normal": "horn",
           "hard": "bergssluttning"
         }
-      },
-      "en": {
-        "word": "Goat",
-        "aliases": [],
-        "hints": {
-          "easy": "bleat",
-          "normal": "horns",
-          "hard": "hillside"
-        }
       }
     }
   },
@@ -479,15 +336,6 @@
           "easy": "ull",
           "normal": "andinsk",
           "hard": "tamdjur"
-        }
-      },
-      "en": {
-        "word": "Alpaca",
-        "aliases": [],
-        "hints": {
-          "easy": "fleece",
-          "normal": "Andean",
-          "hard": "domesticated"
         }
       }
     }
@@ -510,15 +358,6 @@
           "normal": "Anderna",
           "hard": "lastdjur"
         }
-      },
-      "en": {
-        "word": "Llama",
-        "aliases": [],
-        "hints": {
-          "easy": "spitting",
-          "normal": "Andes",
-          "hard": "burden"
-        }
       }
     }
   },
@@ -539,17 +378,6 @@
           "easy": "puckel",
           "normal": "öken",
           "hard": "vattenbrist"
-        }
-      },
-      "en": {
-        "word": "Dromedary",
-        "aliases": [
-          "One-humped camel"
-        ],
-        "hints": {
-          "easy": "hump",
-          "normal": "desert",
-          "hard": "drought"
         }
       }
     }
@@ -572,17 +400,6 @@
           "normal": "stäpp",
           "hard": "karavan"
         }
-      },
-      "en": {
-        "word": "Bactrian camel",
-        "aliases": [
-          "Two-humped camel"
-        ],
-        "hints": {
-          "easy": "humps",
-          "normal": "steppe",
-          "hard": "caravan"
-        }
       }
     }
   },
@@ -603,15 +420,6 @@
           "easy": "Tibet",
           "normal": "ragg",
           "hard": "högland"
-        }
-      },
-      "en": {
-        "word": "Yak",
-        "aliases": [],
-        "hints": {
-          "easy": "Tibet",
-          "normal": "shaggy",
-          "hard": "highlands"
         }
       }
     }
@@ -634,15 +442,6 @@
           "normal": "risfält",
           "hard": "dragdjur"
         }
-      },
-      "en": {
-        "word": "Water buffalo",
-        "aliases": [],
-        "hints": {
-          "easy": "horns",
-          "normal": "ricefields",
-          "hard": "ploughing"
-        }
       }
     }
   },
@@ -663,15 +462,6 @@
           "easy": "snabel",
           "normal": "betar",
           "hard": "hjord"
-        }
-      },
-      "en": {
-        "word": "Elephant",
-        "aliases": [],
-        "hints": {
-          "easy": "trunk",
-          "normal": "tusks",
-          "hard": "herd"
         }
       }
     }
@@ -694,15 +484,6 @@
           "normal": "vrål",
           "hard": "flock"
         }
-      },
-      "en": {
-        "word": "Lion",
-        "aliases": [],
-        "hints": {
-          "easy": "mane",
-          "normal": "roar",
-          "hard": "pride"
-        }
       }
     }
   },
@@ -722,15 +503,6 @@
         "hints": {
           "easy": "ränder",
           "normal": "rovdjur",
-          "hard": "mangrove"
-        }
-      },
-      "en": {
-        "word": "Tiger",
-        "aliases": [],
-        "hints": {
-          "easy": "stripes",
-          "normal": "predator",
           "hard": "mangrove"
         }
       }
@@ -754,15 +526,6 @@
           "normal": "fläckar",
           "hard": "acceleration"
         }
-      },
-      "en": {
-        "word": "Cheetah",
-        "aliases": [],
-        "hints": {
-          "easy": "sprinter",
-          "normal": "spots",
-          "hard": "acceleration"
-        }
       }
     }
   },
@@ -784,15 +547,6 @@
           "normal": "klättrare",
           "hard": "träd"
         }
-      },
-      "en": {
-        "word": "Leopard",
-        "aliases": [],
-        "hints": {
-          "easy": "spots",
-          "normal": "climber",
-          "hard": "trees"
-        }
       }
     }
   },
@@ -813,15 +567,6 @@
           "easy": "fläckar",
           "normal": "Amazonas",
           "hard": "bett"
-        }
-      },
-      "en": {
-        "word": "Jaguar",
-        "aliases": [],
-        "hints": {
-          "easy": "spots",
-          "normal": "Amazon",
-          "hard": "bite"
         }
       }
     }
@@ -846,18 +591,6 @@
           "normal": "ensam",
           "hard": "berg"
         }
-      },
-      "en": {
-        "word": "Cougar",
-        "aliases": [
-          "Puma",
-          "Mountain lion"
-        ],
-        "hints": {
-          "easy": "stalking",
-          "normal": "solitary",
-          "hard": "mountains"
-        }
       }
     }
   },
@@ -878,15 +611,6 @@
           "easy": "ränder",
           "normal": "savann",
           "hard": "bräker"
-        }
-      },
-      "en": {
-        "word": "Zebra",
-        "aliases": [],
-        "hints": {
-          "easy": "stripes",
-          "normal": "savannah",
-          "hard": "braying"
         }
       }
     }
@@ -909,15 +633,6 @@
           "normal": "savann",
           "hard": "akacia"
         }
-      },
-      "en": {
-        "word": "Giraffe",
-        "aliases": [],
-        "hints": {
-          "easy": "tall",
-          "normal": "savannah",
-          "hard": "acacia"
-        }
       }
     }
   },
@@ -938,17 +653,6 @@
           "easy": "horn",
           "normal": "pansar",
           "hard": "hotad"
-        }
-      },
-      "en": {
-        "word": "Rhinoceros",
-        "aliases": [
-          "Rhino"
-        ],
-        "hints": {
-          "easy": "horn",
-          "normal": "armour",
-          "hard": "threatened"
         }
       }
     }
@@ -971,17 +675,6 @@
           "normal": "flod",
           "hard": "revir"
         }
-      },
-      "en": {
-        "word": "Hippopotamus",
-        "aliases": [
-          "Hippo"
-        ],
-        "hints": {
-          "easy": "gape",
-          "normal": "river",
-          "hard": "territorial"
-        }
       }
     }
   },
@@ -1002,15 +695,6 @@
           "easy": "bröstdunk",
           "normal": "silverrygg",
           "hard": "grupp"
-        }
-      },
-      "en": {
-        "word": "Gorilla",
-        "aliases": [],
-        "hints": {
-          "easy": "chest",
-          "normal": "silverback",
-          "hard": "troop"
         }
       }
     }
@@ -1033,17 +717,6 @@
           "normal": "människoapa",
           "hard": "termiter"
         }
-      },
-      "en": {
-        "word": "Chimpanzee",
-        "aliases": [
-          "Chimp"
-        ],
-        "hints": {
-          "easy": "tools",
-          "normal": "ape",
-          "hard": "termites"
-        }
       }
     }
   },
@@ -1064,15 +737,6 @@
           "easy": "rödbrun",
           "normal": "trädkronor",
           "hard": "ensam"
-        }
-      },
-      "en": {
-        "word": "Orangutan",
-        "aliases": [],
-        "hints": {
-          "easy": "auburn",
-          "normal": "canopy",
-          "hard": "solitary"
         }
       }
     }
@@ -1097,18 +761,6 @@
           "normal": "flock",
           "hard": "spår"
         }
-      },
-      "en": {
-        "word": "Wolf",
-        "aliases": [
-          "Grey wolf",
-          "Gray wolf"
-        ],
-        "hints": {
-          "easy": "howling",
-          "normal": "pack",
-          "hard": "tracks"
-        }
       }
     }
   },
@@ -1132,17 +784,6 @@
           "normal": "listig",
           "hard": "gryt"
         }
-      },
-      "en": {
-        "word": "Red fox",
-        "aliases": [
-          "Fox"
-        ],
-        "hints": {
-          "easy": "bushy",
-          "normal": "cunning",
-          "hard": "den"
-        }
       }
     }
   },
@@ -1164,15 +805,6 @@
           "normal": "ramar",
           "hard": "bär"
         }
-      },
-      "en": {
-        "word": "Brown bear",
-        "aliases": [],
-        "hints": {
-          "easy": "hibernation",
-          "normal": "paws",
-          "hard": "berries"
-        }
       }
     }
   },
@@ -1193,15 +825,6 @@
           "easy": "packis",
           "normal": "vit",
           "hard": "sälar"
-        }
-      },
-      "en": {
-        "word": "Polar bear",
-        "aliases": [],
-        "hints": {
-          "easy": "floes",
-          "normal": "white",
-          "hard": "seals"
         }
       }
     }
@@ -1226,17 +849,6 @@
           "normal": "svartvit",
           "hard": "klättrar"
         }
-      },
-      "en": {
-        "word": "Giant panda",
-        "aliases": [
-          "Panda"
-        ],
-        "hints": {
-          "easy": "bamboo",
-          "normal": "monochrome",
-          "hard": "climbing"
-        }
       }
     }
   },
@@ -1257,15 +869,6 @@
           "easy": "ögonmask",
           "normal": "tassar",
           "hard": "soptunna"
-        }
-      },
-      "en": {
-        "word": "Raccoon",
-        "aliases": [],
-        "hints": {
-          "easy": "mask",
-          "normal": "paws",
-          "hard": "bins"
         }
       }
     }
@@ -1288,15 +891,6 @@
           "normal": "varningsfärg",
           "hard": "randig"
         }
-      },
-      "en": {
-        "word": "Skunk",
-        "aliases": [],
-        "hints": {
-          "easy": "stench",
-          "normal": "warning",
-          "hard": "striped"
-        }
       }
     }
   },
@@ -1317,15 +911,6 @@
           "easy": "gryt",
           "normal": "svartvit",
           "hard": "nattaktiv"
-        }
-      },
-      "en": {
-        "word": "Badger",
-        "aliases": [],
-        "hints": {
-          "easy": "burrow",
-          "normal": "striped",
-          "hard": "nocturnal"
         }
       }
     }
@@ -1348,15 +933,6 @@
           "normal": "boll",
           "hard": "kompost"
         }
-      },
-      "en": {
-        "word": "Hedgehog",
-        "aliases": [],
-        "hints": {
-          "easy": "spines",
-          "normal": "ball",
-          "hard": "compost"
-        }
       }
     }
   },
@@ -1377,15 +953,6 @@
           "easy": "ekollon",
           "normal": "yvig",
           "hard": "klättrar"
-        }
-      },
-      "en": {
-        "word": "Squirrel",
-        "aliases": [],
-        "hints": {
-          "easy": "acorns",
-          "normal": "bushy",
-          "hard": "climbing"
         }
       }
     }
@@ -1408,15 +975,6 @@
           "normal": "framtänder",
           "hard": "gnaga"
         }
-      },
-      "en": {
-        "word": "Beaver",
-        "aliases": [],
-        "hints": {
-          "easy": "dam",
-          "normal": "incisors",
-          "hard": "gnawing"
-        }
       }
     }
   },
@@ -1437,15 +995,6 @@
           "easy": "kid",
           "normal": "skog",
           "hard": "språng"
-        }
-      },
-      "en": {
-        "word": "Roe deer",
-        "aliases": [],
-        "hints": {
-          "easy": "fawn",
-          "normal": "woodland",
-          "hard": "bounding"
         }
       }
     }
@@ -1468,17 +1017,6 @@
           "normal": "skogsbryn",
           "hard": "trafiksäkerhet"
         }
-      },
-      "en": {
-        "word": "Moose",
-        "aliases": [
-          "Eurasian elk"
-        ],
-        "hints": {
-          "easy": "antlers",
-          "normal": "wetland",
-          "hard": "roadways"
-        }
       }
     }
   },
@@ -1500,17 +1038,6 @@
           "normal": "fjäll",
           "hard": "lav"
         }
-      },
-      "en": {
-        "word": "Reindeer",
-        "aliases": [
-          "Caribou"
-        ],
-        "hints": {
-          "easy": "sleigh",
-          "normal": "tundra",
-          "hard": "lichen"
-        }
       }
     }
   },
@@ -1531,15 +1058,6 @@
           "easy": "språng",
           "normal": "åker",
           "hard": "vinterpäls"
-        }
-      },
-      "en": {
-        "word": "Hare",
-        "aliases": [],
-        "hints": {
-          "easy": "bounding",
-          "normal": "field",
-          "hard": "camouflage"
         }
       }
     }
@@ -1564,17 +1082,6 @@
           "normal": "flock",
           "hard": "bog"
         }
-      },
-      "en": {
-        "word": "American bison",
-        "aliases": [
-          "Bison"
-        ],
-        "hints": {
-          "easy": "prairie",
-          "normal": "herd",
-          "hard": "shoulder"
-        }
       }
     }
   },
@@ -1596,15 +1103,6 @@
           "normal": "tropik",
           "hard": "simmare"
         }
-      },
-      "en": {
-        "word": "Tapir",
-        "aliases": [],
-        "hints": {
-          "easy": "proboscis",
-          "normal": "tropical",
-          "hard": "swimmer"
-        }
       }
     }
   },
@@ -1625,15 +1123,6 @@
           "easy": "långsam",
           "normal": "hänger",
           "hard": "trädkrona"
-        }
-      },
-      "en": {
-        "word": "Sloth",
-        "aliases": [],
-        "hints": {
-          "easy": "slow",
-          "normal": "hanging",
-          "hard": "canopy"
         }
       }
     }
@@ -1658,17 +1147,6 @@
           "normal": "termiter",
           "hard": "klor"
         }
-      },
-      "en": {
-        "word": "Giant anteater",
-        "aliases": [
-          "Anteater"
-        ],
-        "hints": {
-          "easy": "tongue",
-          "normal": "termites",
-          "hard": "claws"
-        }
       }
     }
   },
@@ -1690,15 +1168,6 @@
           "normal": "gräver",
           "hard": "skymning"
         }
-      },
-      "en": {
-        "word": "Armadillo",
-        "aliases": [],
-        "hints": {
-          "easy": "armour",
-          "normal": "burrowing",
-          "hard": "dusk"
-        }
       }
     }
   },
@@ -1719,15 +1188,6 @@
           "easy": "spejare",
           "normal": "koloni",
           "hard": "gräver"
-        }
-      },
-      "en": {
-        "word": "Meerkat",
-        "aliases": [],
-        "hints": {
-          "easy": "sentinel",
-          "normal": "colony",
-          "hard": "burrowing"
         }
       }
     }
@@ -1752,15 +1212,6 @@
           "normal": "Madagaskar",
           "hard": "klättrare"
         }
-      },
-      "en": {
-        "word": "Ring-tailed lemur",
-        "aliases": [],
-        "hints": {
-          "easy": "tail",
-          "normal": "Madagascar",
-          "hard": "climber"
-        }
       }
     }
   },
@@ -1781,15 +1232,6 @@
           "easy": "nos",
           "normal": "flock",
           "hard": "marklevande"
-        }
-      },
-      "en": {
-        "word": "Baboon",
-        "aliases": [],
-        "hints": {
-          "easy": "muzzle",
-          "normal": "troop",
-          "hard": "terrestrial"
         }
       }
     }
@@ -1814,17 +1256,6 @@
           "normal": "käkar",
           "hard": "klan"
         }
-      },
-      "en": {
-        "word": "Spotted hyena",
-        "aliases": [
-          "Hyena"
-        ],
-        "hints": {
-          "easy": "laughter",
-          "normal": "jaws",
-          "hard": "clan"
-        }
       }
     }
   },
@@ -1845,15 +1276,6 @@
           "easy": "asätare",
           "normal": "revir",
           "hard": "skymning"
-        }
-      },
-      "en": {
-        "word": "Golden jackal",
-        "aliases": [],
-        "hints": {
-          "easy": "scavenger",
-          "normal": "territory",
-          "hard": "dusk"
         }
       }
     }
@@ -1876,15 +1298,6 @@
           "normal": "skutt",
           "hard": "bakben"
         }
-      },
-      "en": {
-        "word": "Kangaroo",
-        "aliases": [],
-        "hints": {
-          "easy": "pouch",
-          "normal": "hopping",
-          "hard": "hindlegs"
-        }
       }
     }
   },
@@ -1906,15 +1319,6 @@
           "normal": "pung",
           "hard": "sömn"
         }
-      },
-      "en": {
-        "word": "Koala",
-        "aliases": [],
-        "hints": {
-          "easy": "eucalyptus",
-          "normal": "marsupial",
-          "hard": "sleep"
-        }
       }
     }
   },
@@ -1935,15 +1339,6 @@
           "easy": "grävare",
           "normal": "pung",
           "hard": "spillning"
-        }
-      },
-      "en": {
-        "word": "Wombat",
-        "aliases": [],
-        "hints": {
-          "easy": "burrower",
-          "normal": "pouch",
-          "hard": "droppings"
         }
       }
     }
@@ -1968,15 +1363,6 @@
           "normal": "skrik",
           "hard": "asätare"
         }
-      },
-      "en": {
-        "word": "Tasmanian devil",
-        "aliases": [],
-        "hints": {
-          "easy": "marsupial",
-          "normal": "screech",
-          "hard": "scavenger"
-        }
       }
     }
   },
@@ -1998,15 +1384,6 @@
           "normal": "ägg",
           "hard": "sporre"
         }
-      },
-      "en": {
-        "word": "Platypus",
-        "aliases": [],
-        "hints": {
-          "easy": "bill",
-          "normal": "eggs",
-          "hard": "spur"
-        }
       }
     }
   },
@@ -2027,17 +1404,6 @@
           "easy": "taggar",
           "normal": "ägg",
           "hard": "tunga"
-        }
-      },
-      "en": {
-        "word": "Echidna",
-        "aliases": [
-          "Spiny anteater"
-        ],
-        "hints": {
-          "easy": "spines",
-          "normal": "eggs",
-          "hard": "tongue"
         }
       }
     }
@@ -2062,17 +1428,6 @@
           "normal": "pung",
           "hard": "klättrare"
         }
-      },
-      "en": {
-        "word": "Virginia opossum",
-        "aliases": [
-          "Opossum"
-        ],
-        "hints": {
-          "easy": "motionless",
-          "normal": "pouch",
-          "hard": "climber"
-        }
       }
     }
   },
@@ -2094,15 +1449,6 @@
           "normal": "tunnlar",
           "hard": "syn"
         }
-      },
-      "en": {
-        "word": "Mole",
-        "aliases": [],
-        "hints": {
-          "easy": "mound",
-          "normal": "tunnels",
-          "hard": "eyesight"
-        }
       }
     }
   },
@@ -2123,15 +1469,6 @@
           "easy": "ekolod",
           "normal": "natt",
           "hard": "flygare"
-        }
-      },
-      "en": {
-        "word": "Bat",
-        "aliases": [],
-        "hints": {
-          "easy": "echolocation",
-          "normal": "nocturnal",
-          "hard": "mammal"
         }
       }
     }
@@ -2156,15 +1493,6 @@
           "normal": "koloni",
           "hard": "drottning"
         }
-      },
-      "en": {
-        "word": "Naked mole-rat",
-        "aliases": [],
-        "hints": {
-          "easy": "hairless",
-          "normal": "colony",
-          "hard": "queen"
-        }
       }
     }
   },
@@ -2188,15 +1516,6 @@
           "normal": "ylande",
           "hard": "anpassning"
         }
-      },
-      "en": {
-        "word": "Coyote",
-        "aliases": [],
-        "hints": {
-          "easy": "howling",
-          "normal": "prairie",
-          "hard": "adaptability"
-        }
       }
     }
   },
@@ -2219,17 +1538,6 @@
           "easy": "örontofsar",
           "normal": "katt",
           "hard": "tassavtryck"
-        }
-      },
-      "en": {
-        "word": "Eurasian lynx",
-        "aliases": [
-          "Lynx"
-        ],
-        "hints": {
-          "easy": "tufts",
-          "normal": "feline",
-          "hard": "pawprints"
         }
       }
     }
@@ -2255,17 +1563,6 @@
           "normal": "Himalaya",
           "hard": "klättrare"
         }
-      },
-      "en": {
-        "word": "Red panda",
-        "aliases": [
-          "Lesser panda"
-        ],
-        "hints": {
-          "easy": "bamboo",
-          "normal": "Himalayas",
-          "hard": "climber"
-        }
       }
     }
   },
@@ -2288,17 +1585,6 @@
           "easy": "öron",
           "normal": "öken",
           "hard": "nattaktiv"
-        }
-      },
-      "en": {
-        "word": "Fennec fox",
-        "aliases": [
-          "Fennec"
-        ],
-        "hints": {
-          "easy": "ears",
-          "normal": "desert",
-          "hard": "nocturnal"
         }
       }
     }
@@ -2323,17 +1609,6 @@
           "normal": "flock",
           "hard": "uthållighet"
         }
-      },
-      "en": {
-        "word": "African wild dog",
-        "aliases": [
-          "Painted dog"
-        ],
-        "hints": {
-          "easy": "patches",
-          "normal": "pack",
-          "hard": "endurance"
-        }
       }
     }
   },
@@ -2355,15 +1630,6 @@
           "normal": "fjäll",
           "hard": "asätare"
         }
-      },
-      "en": {
-        "word": "Wolverine",
-        "aliases": [],
-        "hints": {
-          "easy": "mustelid",
-          "normal": "alpine",
-          "hard": "scavenger"
-        }
       }
     }
   },
@@ -2384,17 +1650,6 @@
           "easy": "snövitt",
           "normal": "vinterpäls",
           "hard": "svanstipp"
-        }
-      },
-      "en": {
-        "word": "Stoat",
-        "aliases": [
-          "Ermine"
-        ],
-        "hints": {
-          "easy": "white",
-          "normal": "winter",
-          "hard": "tail"
         }
       }
     }
@@ -2419,17 +1674,6 @@
           "normal": "vatten",
           "hard": "invasiv"
         }
-      },
-      "en": {
-        "word": "American mink",
-        "aliases": [
-          "Mink"
-        ],
-        "hints": {
-          "easy": "fur",
-          "normal": "water",
-          "hard": "invasive"
-        }
       }
     }
   },
@@ -2450,15 +1694,6 @@
           "easy": "mårddjur",
           "normal": "musjägare",
           "hard": "tunnlar"
-        }
-      },
-      "en": {
-        "word": "Least weasel",
-        "aliases": [],
-        "hints": {
-          "easy": "mustelid",
-          "normal": "mice",
-          "hard": "tunnels"
         }
       }
     }
@@ -2483,15 +1718,6 @@
           "normal": "träd",
           "hard": "strupfläck"
         }
-      },
-      "en": {
-        "word": "Pine marten",
-        "aliases": [],
-        "hints": {
-          "easy": "mustelid",
-          "normal": "trees",
-          "hard": "bib"
-        }
       }
     }
   },
@@ -2512,15 +1738,6 @@
           "easy": "armgång",
           "normal": "regnskog",
           "hard": "sång"
-        }
-      },
-      "en": {
-        "word": "Gibbon",
-        "aliases": [],
-        "hints": {
-          "easy": "brachiation",
-          "normal": "rainforest",
-          "hard": "singing"
         }
       }
     }
@@ -2543,15 +1760,6 @@
           "normal": "regnskog",
           "hard": "aggression"
         }
-      },
-      "en": {
-        "word": "Mandrill",
-        "aliases": [],
-        "hints": {
-          "easy": "colourful",
-          "normal": "rainforest",
-          "hard": "troop"
-        }
       }
     }
   },
@@ -2570,15 +1778,6 @@
         "aliases": [],
         "hints": {
           "easy": "jättenäsa",
-          "normal": "Borneo",
-          "hard": "mangrove"
-        }
-      },
-      "en": {
-        "word": "Proboscis monkey",
-        "aliases": [],
-        "hints": {
-          "easy": "nose",
           "normal": "Borneo",
           "hard": "mangrove"
         }
@@ -2603,17 +1802,6 @@
           "normal": "tropisk",
           "hard": "nyfiken"
         }
-      },
-      "en": {
-        "word": "Capuchin monkey",
-        "aliases": [
-          "Capuchin"
-        ],
-        "hints": {
-          "easy": "tools",
-          "normal": "tropical",
-          "hard": "inquisitive"
-        }
       }
     }
   },
@@ -2637,15 +1825,6 @@
           "normal": "Madagaskar",
           "hard": "knacka"
         }
-      },
-      "en": {
-        "word": "Aye-aye",
-        "aliases": [],
-        "hints": {
-          "easy": "finger",
-          "normal": "Madagascar",
-          "hard": "tapping"
-        }
       }
     }
   },
@@ -2666,15 +1845,6 @@
           "easy": "benränder",
           "normal": "djungel",
           "hard": "släktskap"
-        }
-      },
-      "en": {
-        "word": "Okapi",
-        "aliases": [],
-        "hints": {
-          "easy": "stripes",
-          "normal": "jungle",
-          "hard": "relative"
         }
       }
     }
@@ -2699,17 +1869,6 @@
           "normal": "savann",
           "hard": "hjord"
         }
-      },
-      "en": {
-        "word": "Blue wildebeest",
-        "aliases": [
-          "Wildebeest"
-        ],
-        "hints": {
-          "easy": "migration",
-          "normal": "savannah",
-          "hard": "herd"
-        }
       }
     }
   },
@@ -2730,15 +1889,6 @@
           "easy": "språng",
           "normal": "antilop",
           "hard": "savann"
-        }
-      },
-      "en": {
-        "word": "Impala",
-        "aliases": [],
-        "hints": {
-          "easy": "bounding",
-          "normal": "antelope",
-          "hard": "savannah"
         }
       }
     }
@@ -2763,17 +1913,6 @@
           "normal": "stäpp",
           "hard": "flytt"
         }
-      },
-      "en": {
-        "word": "Saiga",
-        "aliases": [
-          "Saiga antelope"
-        ],
-        "hints": {
-          "easy": "nose",
-          "normal": "steppe",
-          "hard": "migration"
-        }
       }
     }
   },
@@ -2797,17 +1936,6 @@
           "normal": "klättring",
           "hard": "klippor"
         }
-      },
-      "en": {
-        "word": "Alpine ibex",
-        "aliases": [
-          "Ibex"
-        ],
-        "hints": {
-          "easy": "horns",
-          "normal": "climbing",
-          "hard": "cliffs"
-        }
       }
     }
   },
@@ -2828,17 +1956,6 @@
           "easy": "päls",
           "normal": "Arktis",
           "hard": "försvarsring"
-        }
-      },
-      "en": {
-        "word": "Muskox",
-        "aliases": [
-          "Musk ox"
-        ],
-        "hints": {
-          "easy": "fur",
-          "normal": "Arctic",
-          "hard": "defensive"
         }
       }
     }
@@ -2863,15 +1980,6 @@
           "normal": "vatten",
           "hard": "flock"
         }
-      },
-      "en": {
-        "word": "Capybara",
-        "aliases": [],
-        "hints": {
-          "easy": "rodent",
-          "normal": "water",
-          "hard": "herd"
-        }
       }
     }
   },
@@ -2892,15 +2000,6 @@
           "easy": "koloni",
           "normal": "vissel",
           "hard": "jordhåla"
-        }
-      },
-      "en": {
-        "word": "Prairie dog",
-        "aliases": [],
-        "hints": {
-          "easy": "colony",
-          "normal": "whistles",
-          "hard": "burrow"
         }
       }
     }
@@ -2925,15 +2024,6 @@
           "normal": "gnagare",
           "hard": "klättring"
         }
-      },
-      "en": {
-        "word": "North American porcupine",
-        "aliases": [],
-        "hints": {
-          "easy": "quills",
-          "normal": "rodent",
-          "hard": "climbing"
-        }
       }
     }
   },
@@ -2952,15 +2042,6 @@
           "easy": "Antarktis",
           "normal": "fågel",
           "hard": "äggvärmare"
-        }
-      },
-      "en": {
-        "word": "Emperor penguin",
-        "aliases": [],
-        "hints": {
-          "easy": "Antarctica",
-          "normal": "flightless",
-          "hard": "incubation"
         }
       }
     }
@@ -2981,15 +2062,6 @@
           "normal": "snabb",
           "hard": "bakben"
         }
-      },
-      "en": {
-        "word": "Ostrich",
-        "aliases": [],
-        "hints": {
-          "easy": "eggs",
-          "normal": "speed",
-          "hard": "kick"
-        }
       }
     }
   },
@@ -3008,15 +2080,6 @@
           "easy": "flygoförmögen",
           "normal": "Australien",
           "hard": "ägg"
-        }
-      },
-      "en": {
-        "word": "Emu",
-        "aliases": [],
-        "hints": {
-          "easy": "flightless",
-          "normal": "Australia",
-          "hard": "eggs"
         }
       }
     }
@@ -3037,15 +2100,6 @@
           "normal": "balans",
           "hard": "filtrerar"
         }
-      },
-      "en": {
-        "word": "Flamingo",
-        "aliases": [],
-        "hints": {
-          "easy": "pink",
-          "normal": "balance",
-          "hard": "filtering"
-        }
       }
     }
   },
@@ -3064,15 +2118,6 @@
           "easy": "näbbpåse",
           "normal": "fiskar",
           "hard": "skopa"
-        }
-      },
-      "en": {
-        "word": "Pelican",
-        "aliases": [],
-        "hints": {
-          "easy": "pouch",
-          "normal": "fishing",
-          "hard": "scoop"
         }
       }
     }
@@ -3093,15 +2138,6 @@
           "normal": "solfjäder",
           "hard": "ögonfläckar"
         }
-      },
-      "en": {
-        "word": "Peacock",
-        "aliases": [],
-        "hints": {
-          "easy": "plumage",
-          "normal": "fan",
-          "hard": "eyespots"
-        }
       }
     }
   },
@@ -3120,15 +2156,6 @@
           "easy": "vit",
           "normal": "långhals",
           "hard": "fräsande"
-        }
-      },
-      "en": {
-        "word": "Mute swan",
-        "aliases": [],
-        "hints": {
-          "easy": "white",
-          "normal": "serpentine",
-          "hard": "hissing"
         }
       }
     }
@@ -3149,15 +2176,6 @@
           "normal": "kvack",
           "hard": "damm"
         }
-      },
-      "en": {
-        "word": "Mallard",
-        "aliases": [],
-        "hints": {
-          "easy": "green",
-          "normal": "quack",
-          "hard": "pond"
-        }
       }
     }
   },
@@ -3176,15 +2194,6 @@
           "easy": "kackel",
           "normal": "flyttfågel",
           "hard": "stamform"
-        }
-      },
-      "en": {
-        "word": "Greylag goose",
-        "aliases": [],
-        "hints": {
-          "easy": "honking",
-          "normal": "migration",
-          "hard": "ancestor"
         }
       }
     }
@@ -3205,15 +2214,6 @@
           "normal": "fiskare",
           "hard": "stillhet"
         }
-      },
-      "en": {
-        "word": "Heron",
-        "aliases": [],
-        "hints": {
-          "easy": "wader",
-          "normal": "fisherman",
-          "hard": "stillness"
-        }
       }
     }
   },
@@ -3232,15 +2232,6 @@
           "easy": "skorsten",
           "normal": "näbbklapper",
           "hard": "bebis"
-        }
-      },
-      "en": {
-        "word": "Stork",
-        "aliases": [],
-        "hints": {
-          "easy": "chimney",
-          "normal": "clatter",
-          "hard": "babies"
         }
       }
     }
@@ -3261,15 +2252,6 @@
           "normal": "flyttfågel",
           "hard": "vingspann"
         }
-      },
-      "en": {
-        "word": "Crane",
-        "aliases": [],
-        "hints": {
-          "easy": "dance",
-          "normal": "migration",
-          "hard": "wingspan"
-        }
       }
     }
   },
@@ -3288,17 +2270,6 @@
           "easy": "fiskmås",
           "normal": "skri",
           "hard": "kust"
-        }
-      },
-      "en": {
-        "word": "Gull",
-        "aliases": [
-          "Seagull"
-        ],
-        "hints": {
-          "easy": "screech",
-          "normal": "coast",
-          "hard": "scavenger"
         }
       }
     }
@@ -3319,17 +2290,6 @@
           "normal": "klippor",
           "hard": "sill"
         }
-      },
-      "en": {
-        "word": "Atlantic puffin",
-        "aliases": [
-          "Puffin"
-        ],
-        "hints": {
-          "easy": "colourful",
-          "normal": "cliffs",
-          "hard": "sandlance"
-        }
       }
     }
   },
@@ -3348,15 +2308,6 @@
           "easy": "vingspann",
           "normal": "ocean",
           "hard": "glider"
-        }
-      },
-      "en": {
-        "word": "Albatross",
-        "aliases": [],
-        "hints": {
-          "easy": "wingspan",
-          "normal": "ocean",
-          "hard": "gliding"
         }
       }
     }
@@ -3377,15 +2328,6 @@
           "normal": "fisk",
           "hard": "vingvädring"
         }
-      },
-      "en": {
-        "word": "Cormorant",
-        "aliases": [],
-        "hints": {
-          "easy": "diver",
-          "normal": "fish",
-          "hard": "drying"
-        }
       }
     }
   },
@@ -3404,15 +2346,6 @@
           "easy": "örontofsar",
           "normal": "uggla",
           "hard": "natt"
-        }
-      },
-      "en": {
-        "word": "Eagle owl",
-        "aliases": [],
-        "hints": {
-          "easy": "tufts",
-          "normal": "nocturnal",
-          "hard": "hoot"
         }
       }
     }
@@ -3433,15 +2366,6 @@
           "normal": "tundra",
           "hard": "lämlar"
         }
-      },
-      "en": {
-        "word": "Snowy owl",
-        "aliases": [],
-        "hints": {
-          "easy": "white",
-          "normal": "tundra",
-          "hard": "lemmings"
-        }
       }
     }
   },
@@ -3460,15 +2384,6 @@
           "easy": "rovfågel",
           "normal": "klippor",
           "hard": "klor"
-        }
-      },
-      "en": {
-        "word": "Golden eagle",
-        "aliases": [],
-        "hints": {
-          "easy": "raptor",
-          "normal": "cliffs",
-          "hard": "talons"
         }
       }
     }
@@ -3489,17 +2404,6 @@
           "normal": "hastighet",
           "hard": "skyskrapor"
         }
-      },
-      "en": {
-        "word": "Peregrine falcon",
-        "aliases": [
-          "Peregrine"
-        ],
-        "hints": {
-          "easy": "stoop",
-          "normal": "speed",
-          "hard": "skyscrapers"
-        }
       }
     }
   },
@@ -3518,15 +2422,6 @@
           "easy": "trummar",
           "normal": "träd",
           "hard": "rödfläck"
-        }
-      },
-      "en": {
-        "word": "Great spotted woodpecker",
-        "aliases": [],
-        "hints": {
-          "easy": "drumming",
-          "normal": "trees",
-          "hard": "crimson"
         }
       }
     }
@@ -3547,15 +2442,6 @@
           "normal": "långsvans",
           "hard": "skrän"
         }
-      },
-      "en": {
-        "word": "Magpie",
-        "aliases": [],
-        "hints": {
-          "easy": "monochrome",
-          "normal": "chatter",
-          "hard": "folklore"
-        }
       }
     }
   },
@@ -3574,15 +2460,6 @@
           "easy": "svart",
           "normal": "kraxar",
           "hard": "mytologi"
-        }
-      },
-      "en": {
-        "word": "Raven",
-        "aliases": [],
-        "hints": {
-          "easy": "caw",
-          "normal": "black",
-          "hard": "mythology"
         }
       }
     }
@@ -3603,15 +2480,6 @@
           "normal": "stad",
           "hard": "smulor"
         }
-      },
-      "en": {
-        "word": "House sparrow",
-        "aliases": [],
-        "hints": {
-          "easy": "songbird",
-          "normal": "urban",
-          "hard": "crumbs"
-        }
       }
     }
   },
@@ -3630,17 +2498,6 @@
           "easy": "rödbröst",
           "normal": "vinter",
           "hard": "trädgård"
-        }
-      },
-      "en": {
-        "word": "European robin",
-        "aliases": [
-          "Robin"
-        ],
-        "hints": {
-          "easy": "redbreast",
-          "normal": "winter",
-          "hard": "garden"
         }
       }
     }
@@ -3661,17 +2518,6 @@
           "normal": "dyker",
           "hard": "åkant"
         }
-      },
-      "en": {
-        "word": "Common kingfisher",
-        "aliases": [
-          "Kingfisher"
-        ],
-        "hints": {
-          "easy": "blue",
-          "normal": "diving",
-          "hard": "riverbank"
-        }
       }
     }
   },
@@ -3691,17 +2537,6 @@
           "normal": "boparasit",
           "hard": "vårtecken"
         }
-      },
-      "en": {
-        "word": "Common cuckoo",
-        "aliases": [
-          "Cuckoo"
-        ],
-        "hints": {
-          "easy": "calling",
-          "normal": "parasitism",
-          "hard": "springtime"
-        }
       }
     }
   },
@@ -3720,15 +2555,6 @@
           "easy": "nektar",
           "normal": "hovrar",
           "hard": "vingslag"
-        }
-      },
-      "en": {
-        "word": "Hummingbird",
-        "aliases": [],
-        "hints": {
-          "easy": "nectar",
-          "normal": "hovering",
-          "hard": "wingbeat"
         }
       }
     }
@@ -3751,17 +2577,6 @@
           "normal": "papegoja",
           "hard": "nattlig"
         }
-      },
-      "en": {
-        "word": "Kākāpō",
-        "aliases": [
-          "Kakapo"
-        ],
-        "hints": {
-          "easy": "flightless",
-          "normal": "parrot",
-          "hard": "nocturnal"
-        }
       }
     }
   },
@@ -3780,15 +2595,6 @@
           "easy": "papegoja",
           "normal": "nyfiken",
           "hard": "fjäll"
-        }
-      },
-      "en": {
-        "word": "Kea",
-        "aliases": [],
-        "hints": {
-          "easy": "parrot",
-          "normal": "inquisitive",
-          "hard": "mountains"
         }
       }
     }
@@ -3809,15 +2615,6 @@
           "normal": "krill",
           "hard": "hav"
         }
-      },
-      "en": {
-        "word": "Blue whale",
-        "aliases": [],
-        "hints": {
-          "easy": "enormous",
-          "normal": "krill",
-          "hard": "ocean"
-        }
       }
     }
   },
@@ -3837,15 +2634,6 @@
           "normal": "hopp",
           "hard": "fenor"
         }
-      },
-      "en": {
-        "word": "Humpback whale",
-        "aliases": [],
-        "hints": {
-          "easy": "song",
-          "normal": "breaching",
-          "hard": "flippers"
-        }
       }
     }
   },
@@ -3864,17 +2652,6 @@
           "easy": "svartvit",
           "normal": "ryggfena",
           "hard": "samjakt"
-        }
-      },
-      "en": {
-        "word": "Orca",
-        "aliases": [
-          "Killer whale"
-        ],
-        "hints": {
-          "easy": "monochrome",
-          "normal": "dorsal",
-          "hard": "teamwork"
         }
       }
     }
@@ -3897,15 +2674,6 @@
           "normal": "lekfull",
           "hard": "vattenyta"
         }
-      },
-      "en": {
-        "word": "Bottlenose dolphin",
-        "aliases": [],
-        "hints": {
-          "easy": "echolocation",
-          "normal": "playful",
-          "hard": "surface"
-        }
       }
     }
   },
@@ -3924,15 +2692,6 @@
           "easy": "djupdykare",
           "normal": "bläckfisk",
           "hard": "djupdyk"
-        }
-      },
-      "en": {
-        "word": "Sperm whale",
-        "aliases": [],
-        "hints": {
-          "easy": "squid",
-          "normal": "deepwater",
-          "hard": "diving"
         }
       }
     }
@@ -3953,15 +2712,6 @@
           "normal": "bete",
           "hard": "Arktis"
         }
-      },
-      "en": {
-        "word": "Narwhal",
-        "aliases": [],
-        "hints": {
-          "easy": "unicorn",
-          "normal": "tusk",
-          "hard": "Arctic"
-        }
       }
     }
   },
@@ -3980,17 +2730,6 @@
           "easy": "vit",
           "normal": "vissling",
           "hard": "arktisk"
-        }
-      },
-      "en": {
-        "word": "Beluga whale",
-        "aliases": [
-          "Beluga"
-        ],
-        "hints": {
-          "easy": "white",
-          "normal": "whistling",
-          "hard": "Arctic"
         }
       }
     }
@@ -4011,15 +2750,6 @@
           "normal": "morrhår",
           "hard": "isflak"
         }
-      },
-      "en": {
-        "word": "Walrus",
-        "aliases": [],
-        "hints": {
-          "easy": "tusks",
-          "normal": "whiskers",
-          "hard": "floe"
-        }
       }
     }
   },
@@ -4038,18 +2768,6 @@
           "easy": "kobb",
           "normal": "kust",
           "hard": "fisk"
-        }
-      },
-      "en": {
-        "word": "Harbour seal",
-        "aliases": [
-          "Common seal",
-          "Harbor seal"
-        ],
-        "hints": {
-          "easy": "rocks",
-          "normal": "coast",
-          "hard": "fish"
         }
       }
     }
@@ -4070,15 +2788,6 @@
           "normal": "sjögräs",
           "hard": "långsam"
         }
-      },
-      "en": {
-        "word": "Manatee",
-        "aliases": [],
-        "hints": {
-          "easy": "seagrass",
-          "normal": "slow",
-          "hard": "aquatic"
-        }
       }
     }
   },
@@ -4097,17 +2806,6 @@
           "easy": "skygg",
           "normal": "ekolod",
           "hard": "kustnära"
-        }
-      },
-      "en": {
-        "word": "Harbour porpoise",
-        "aliases": [
-          "Harbor porpoise"
-        ],
-        "hints": {
-          "easy": "echolocation",
-          "normal": "inshore",
-          "hard": "shy"
         }
       }
     }
@@ -4128,17 +2826,6 @@
           "normal": "tänder",
           "hard": "yta"
         }
-      },
-      "en": {
-        "word": "Great white shark",
-        "aliases": [
-          "White shark"
-        ],
-        "hints": {
-          "easy": "predator",
-          "normal": "teeth",
-          "hard": "surface"
-        }
       }
     }
   },
@@ -4158,17 +2845,6 @@
           "normal": "fenor",
           "hard": "grupp"
         }
-      },
-      "en": {
-        "word": "Hammerhead shark",
-        "aliases": [
-          "Hammerhead"
-        ],
-        "hints": {
-          "easy": "flattened",
-          "normal": "fins",
-          "hard": "schooling"
-        }
       }
     }
   },
@@ -4187,17 +2863,6 @@
           "easy": "rocka",
           "normal": "plankton",
           "hard": "glidflykt"
-        }
-      },
-      "en": {
-        "word": "Manta ray",
-        "aliases": [
-          "Manta"
-        ],
-        "hints": {
-          "easy": "plankton",
-          "normal": "gliding",
-          "hard": "wings"
         }
       }
     }
@@ -4220,15 +2885,6 @@
           "normal": "Amazonas",
           "hard": "grumlig"
         }
-      },
-      "en": {
-        "word": "Electric eel",
-        "aliases": [],
-        "hints": {
-          "easy": "shock",
-          "normal": "Amazon",
-          "hard": "murky"
-        }
       }
     }
   },
@@ -4247,17 +2903,6 @@
           "easy": "klippskreva",
           "normal": "tänder",
           "hard": "gömställe"
-        }
-      },
-      "en": {
-        "word": "Moray eel",
-        "aliases": [
-          "Moray"
-        ],
-        "hints": {
-          "easy": "crevice",
-          "normal": "teeth",
-          "hard": "hiding"
         }
       }
     }
@@ -4278,17 +2923,6 @@
           "normal": "vasstandad",
           "hard": "vass"
         }
-      },
-      "en": {
-        "word": "Northern pike",
-        "aliases": [
-          "Pike"
-        ],
-        "hints": {
-          "easy": "ambush",
-          "normal": "sharp",
-          "hard": "reeds"
-        }
       }
     }
   },
@@ -4307,17 +2941,6 @@
           "easy": "ränder",
           "normal": "taggfena",
           "hard": "insjö"
-        }
-      },
-      "en": {
-        "word": "European perch",
-        "aliases": [
-          "Perch"
-        ],
-        "hints": {
-          "easy": "stripes",
-          "normal": "spiny",
-          "hard": "freshwater"
         }
       }
     }
@@ -4338,15 +2961,6 @@
           "normal": "spets",
           "hard": "snabb"
         }
-      },
-      "en": {
-        "word": "Swordfish",
-        "aliases": [],
-        "hints": {
-          "easy": "bill",
-          "normal": "pointed",
-          "hard": "swift"
-        }
       }
     }
   },
@@ -4365,15 +2979,6 @@
           "easy": "ryggfena",
           "normal": "hastighet",
           "hard": "tropikerna"
-        }
-      },
-      "en": {
-        "word": "Sailfish",
-        "aliases": [],
-        "hints": {
-          "easy": "dorsal",
-          "normal": "speed",
-          "hard": "tropics"
         }
       }
     }
@@ -4394,15 +2999,6 @@
           "normal": "anemon",
           "hard": "symbios"
         }
-      },
-      "en": {
-        "word": "Clownfish",
-        "aliases": [],
-        "hints": {
-          "easy": "orange",
-          "normal": "anemone",
-          "hard": "symbiosis"
-        }
       }
     }
   },
@@ -4421,15 +3017,6 @@
           "easy": "gripsvans",
           "normal": "yngelpåse",
           "hard": "lodrät"
-        }
-      },
-      "en": {
-        "word": "Seahorse",
-        "aliases": [],
-        "hints": {
-          "easy": "prehensile",
-          "normal": "pouch",
-          "hard": "upright"
         }
       }
     }
@@ -4450,17 +3037,6 @@
           "normal": "jättelik",
           "hard": "vattenyta"
         }
-      },
-      "en": {
-        "word": "Ocean sunfish",
-        "aliases": [
-          "Common mola"
-        ],
-        "hints": {
-          "easy": "flat",
-          "normal": "enormous",
-          "hard": "surface"
-        }
       }
     }
   },
@@ -4479,15 +3055,6 @@
           "easy": "armar",
           "normal": "sugkoppar",
           "hard": "kamouflage"
-        }
-      },
-      "en": {
-        "word": "Common octopus",
-        "aliases": [],
-        "hints": {
-          "easy": "arms",
-          "normal": "suckers",
-          "hard": "camouflage"
         }
       }
     }
@@ -4508,15 +3075,6 @@
           "normal": "djuphav",
           "hard": "ögon"
         }
-      },
-      "en": {
-        "word": "Giant squid",
-        "aliases": [],
-        "hints": {
-          "easy": "tentacles",
-          "normal": "depths",
-          "hard": "eyes"
-        }
       }
     }
   },
@@ -4535,15 +3093,6 @@
           "easy": "bläck",
           "normal": "kamouflage",
           "hard": "skal"
-        }
-      },
-      "en": {
-        "word": "Cuttlefish",
-        "aliases": [],
-        "hints": {
-          "easy": "ink",
-          "normal": "camouflage",
-          "hard": "shell"
         }
       }
     }
@@ -4564,17 +3113,6 @@
           "normal": "genomskinlig",
           "hard": "ringar"
         }
-      },
-      "en": {
-        "word": "Moon jelly",
-        "aliases": [
-          "Moon jellyfish"
-        ],
-        "hints": {
-          "easy": "gelatinous",
-          "normal": "translucent",
-          "hard": "rings"
-        }
       }
     }
   },
@@ -4593,17 +3131,6 @@
           "easy": "femarmad",
           "normal": "havsbotten",
           "hard": "återskapar"
-        }
-      },
-      "en": {
-        "word": "Starfish",
-        "aliases": [
-          "Sea star"
-        ],
-        "hints": {
-          "easy": "arms",
-          "normal": "seabed",
-          "hard": "regeneration"
         }
       }
     }
@@ -4624,15 +3151,6 @@
           "normal": "klot",
           "hard": "tång"
         }
-      },
-      "en": {
-        "word": "Sea urchin",
-        "aliases": [],
-        "hints": {
-          "easy": "spines",
-          "normal": "spherical",
-          "hard": "kelp"
-        }
       }
     }
   },
@@ -4652,15 +3170,6 @@
           "normal": "havsbotten",
           "hard": "bottenslam"
         }
-      },
-      "en": {
-        "word": "Sea cucumber",
-        "aliases": [],
-        "hints": {
-          "easy": "elongated",
-          "normal": "seabed",
-          "hard": "sediment"
-        }
       }
     }
   },
@@ -4679,15 +3188,6 @@
           "easy": "käkar",
           "normal": "bakhåll",
           "hard": "flodbank"
-        }
-      },
-      "en": {
-        "word": "Nile crocodile",
-        "aliases": [],
-        "hints": {
-          "easy": "jaws",
-          "normal": "ambush",
-          "hard": "riverbank"
         }
       }
     }
@@ -4710,15 +3210,6 @@
           "normal": "trubbnos",
           "hard": "reptil"
         }
-      },
-      "en": {
-        "word": "American alligator",
-        "aliases": [],
-        "hints": {
-          "easy": "swamp",
-          "normal": "blunt",
-          "hard": "reptile"
-        }
       }
     }
   },
@@ -4737,17 +3228,6 @@
           "easy": "skal",
           "normal": "simfenor",
           "hard": "strand"
-        }
-      },
-      "en": {
-        "word": "Green sea turtle",
-        "aliases": [
-          "Green turtle"
-        ],
-        "hints": {
-          "easy": "shell",
-          "normal": "flippers",
-          "hard": "beach"
         }
       }
     }
@@ -4768,17 +3248,6 @@
           "normal": "långsam",
           "hard": "ögrupp"
         }
-      },
-      "en": {
-        "word": "Galápagos tortoise",
-        "aliases": [
-          "Galapagos tortoise"
-        ],
-        "hints": {
-          "easy": "shell",
-          "normal": "slow",
-          "hard": "archipelago"
-        }
       }
     }
   },
@@ -4797,15 +3266,6 @@
           "easy": "jätteödla",
           "normal": "gift",
           "hard": "ögrupp"
-        }
-      },
-      "en": {
-        "word": "Komodo dragon",
-        "aliases": [],
-        "hints": {
-          "easy": "lizard",
-          "normal": "venom",
-          "hard": "archipelago"
         }
       }
     }
@@ -4826,15 +3286,6 @@
           "normal": "trädkrona",
           "hard": "växtätare"
         }
-      },
-      "en": {
-        "word": "Green iguana",
-        "aliases": [],
-        "hints": {
-          "easy": "crest",
-          "normal": "treetops",
-          "hard": "herbivore"
-        }
       }
     }
   },
@@ -4853,15 +3304,6 @@
           "easy": "färgskifte",
           "normal": "tunga",
           "hard": "ögon"
-        }
-      },
-      "en": {
-        "word": "Chameleon",
-        "aliases": [],
-        "hints": {
-          "easy": "camouflage",
-          "normal": "tongue",
-          "hard": "eyes"
         }
       }
     }
@@ -4884,15 +3326,6 @@
           "normal": "trampdynor",
           "hard": "vägg"
         }
-      },
-      "en": {
-        "word": "Gecko",
-        "aliases": [],
-        "hints": {
-          "easy": "climbing",
-          "normal": "toepads",
-          "hard": "walls"
-        }
       }
     }
   },
@@ -4911,17 +3344,6 @@
           "easy": "sicksack",
           "normal": "gift",
           "hard": "skogsbryn"
-        }
-      },
-      "en": {
-        "word": "Common European adder",
-        "aliases": [
-          "Adder"
-        ],
-        "hints": {
-          "easy": "zigzag",
-          "normal": "venom",
-          "hard": "woodland"
         }
       }
     }
@@ -4944,17 +3366,6 @@
           "normal": "simmar",
           "hard": "ofarlig"
         }
-      },
-      "en": {
-        "word": "Common grass snake",
-        "aliases": [
-          "Eastern grass snake"
-        ],
-        "hints": {
-          "easy": "collar",
-          "normal": "swims",
-          "hard": "harmless"
-        }
       }
     }
   },
@@ -4973,15 +3384,6 @@
           "easy": "huva",
           "normal": "gift",
           "hard": "ormjakt"
-        }
-      },
-      "en": {
-        "word": "King cobra",
-        "aliases": [],
-        "hints": {
-          "easy": "hood",
-          "normal": "venom",
-          "hard": "ophiophagy"
         }
       }
     }
@@ -5002,15 +3404,6 @@
           "normal": "öken",
           "hard": "varning"
         }
-      },
-      "en": {
-        "word": "Rattlesnake",
-        "aliases": [],
-        "hints": {
-          "easy": "rattle",
-          "normal": "desert",
-          "hard": "warning"
-        }
       }
     }
   },
@@ -5029,15 +3422,6 @@
           "easy": "jätteorm",
           "normal": "vatten",
           "hard": "kvävning"
-        }
-      },
-      "en": {
-        "word": "Green anaconda",
-        "aliases": [],
-        "hints": {
-          "easy": "constrictor",
-          "normal": "water",
-          "hard": "bulk"
         }
       }
     }
@@ -5058,15 +3442,6 @@
           "normal": "längd",
           "hard": "slingrar"
         }
-      },
-      "en": {
-        "word": "Reticulated python",
-        "aliases": [],
-        "hints": {
-          "easy": "pattern",
-          "normal": "length",
-          "hard": "coils"
-        }
       }
     }
   },
@@ -5085,17 +3460,6 @@
           "easy": "kvack",
           "normal": "grodyngel",
           "hard": "damm"
-        }
-      },
-      "en": {
-        "word": "Common frog",
-        "aliases": [
-          "European common frog"
-        ],
-        "hints": {
-          "easy": "croak",
-          "normal": "tadpole",
-          "hard": "pond"
         }
       }
     }
@@ -5116,17 +3480,6 @@
           "normal": "groddjur",
           "hard": "kryper"
         }
-      },
-      "en": {
-        "word": "Common toad",
-        "aliases": [
-          "European toad"
-        ],
-        "hints": {
-          "easy": "warts",
-          "normal": "amphibian",
-          "hard": "crawling"
-        }
       }
     }
   },
@@ -5145,15 +3498,6 @@
           "easy": "svartgul",
           "normal": "fuktig",
           "hard": "gift"
-        }
-      },
-      "en": {
-        "word": "Fire salamander",
-        "aliases": [],
-        "hints": {
-          "easy": "yellow",
-          "normal": "damp",
-          "hard": "toxins"
         }
       }
     }
@@ -5174,17 +3518,6 @@
           "normal": "småvatten",
           "hard": "lekdräkt"
         }
-      },
-      "en": {
-        "word": "Great crested newt",
-        "aliases": [
-          "Northern crested newt"
-        ],
-        "hints": {
-          "easy": "ridge",
-          "normal": "ponds",
-          "hard": "breeding"
-        }
       }
     }
   },
@@ -5202,15 +3535,6 @@
         "hints": {
           "easy": "grottor",
           "normal": "blek",
-          "hard": "blind"
-        }
-      },
-      "en": {
-        "word": "Olm",
-        "aliases": [],
-        "hints": {
-          "easy": "caves",
-          "normal": "pale",
           "hard": "blind"
         }
       }
@@ -5232,18 +3556,6 @@
           "normal": "kupa",
           "hard": "pollinerar"
         }
-      },
-      "en": {
-        "word": "Western honey bee",
-        "aliases": [
-          "Honey bee",
-          "Honeybee"
-        ],
-        "hints": {
-          "easy": "nectar",
-          "normal": "hive",
-          "hard": "pollinates"
-        }
       }
     }
   },
@@ -5262,15 +3574,6 @@
           "easy": "luddig",
           "normal": "surr",
           "hard": "pollinerar"
-        }
-      },
-      "en": {
-        "word": "Bumblebee",
-        "aliases": [],
-        "hints": {
-          "easy": "fuzzy",
-          "normal": "buzzing",
-          "hard": "pollinates"
         }
       }
     }
@@ -5291,15 +3594,6 @@
           "normal": "midja",
           "hard": "picknick"
         }
-      },
-      "en": {
-        "word": "Common wasp",
-        "aliases": [],
-        "hints": {
-          "easy": "sting",
-          "normal": "waist",
-          "hard": "picnic"
-        }
       }
     }
   },
@@ -5318,15 +3612,6 @@
           "easy": "jättelik",
           "normal": "surr",
           "hard": "trädholk"
-        }
-      },
-      "en": {
-        "word": "European hornet",
-        "aliases": [],
-        "hints": {
-          "easy": "buzzing",
-          "normal": "nest",
-          "hard": "cavity"
         }
       }
     }
@@ -5347,15 +3632,6 @@
           "normal": "barrskog",
           "hard": "arbetsdelning"
         }
-      },
-      "en": {
-        "word": "Red wood ant",
-        "aliases": [],
-        "hints": {
-          "easy": "mound",
-          "normal": "woodland",
-          "hard": "workers"
-        }
       }
     }
   },
@@ -5374,17 +3650,6 @@
           "easy": "blad",
           "normal": "svamp",
           "hard": "kolonier"
-        }
-      },
-      "en": {
-        "word": "Leafcutter ant",
-        "aliases": [
-          "Leaf-cutter ant"
-        ],
-        "hints": {
-          "easy": "foliage",
-          "normal": "fungus",
-          "hard": "colonies"
         }
       }
     }
@@ -5405,15 +3670,6 @@
           "normal": "surr",
           "hard": "sommarkväll"
         }
-      },
-      "en": {
-        "word": "Mosquito",
-        "aliases": [],
-        "hints": {
-          "easy": "bite",
-          "normal": "buzzing",
-          "hard": "dusk"
-        }
       }
     }
   },
@@ -5432,17 +3688,6 @@
           "easy": "surr",
           "normal": "flugsmälla",
           "hard": "fasettögon"
-        }
-      },
-      "en": {
-        "word": "Housefly",
-        "aliases": [
-          "House fly"
-        ],
-        "hints": {
-          "easy": "buzzing",
-          "normal": "swatter",
-          "hard": "vision"
         }
       }
     }
@@ -5463,15 +3708,6 @@
           "normal": "damm",
           "hard": "fasettögon"
         }
-      },
-      "en": {
-        "word": "Dragonfly",
-        "aliases": [],
-        "hints": {
-          "easy": "aerobatics",
-          "normal": "pond",
-          "hard": "eyes"
-        }
       }
     }
   },
@@ -5490,15 +3726,6 @@
           "easy": "kortlivad",
           "normal": "svärm",
           "hard": "vatten"
-        }
-      },
-      "en": {
-        "word": "Mayfly",
-        "aliases": [],
-        "hints": {
-          "easy": "ephemeral",
-          "normal": "swarm",
-          "hard": "aquatic"
         }
       }
     }
@@ -5519,15 +3746,6 @@
           "normal": "migration",
           "hard": "sidenört"
         }
-      },
-      "en": {
-        "word": "Monarch butterfly",
-        "aliases": [],
-        "hints": {
-          "easy": "orange",
-          "normal": "migration",
-          "hard": "milkweed"
-        }
       }
     }
   },
@@ -5546,17 +3764,6 @@
           "easy": "ögonfläckar",
           "normal": "vingar",
           "hard": "nässlor"
-        }
-      },
-      "en": {
-        "word": "Peacock butterfly",
-        "aliases": [
-          "European peacock butterfly"
-        ],
-        "hints": {
-          "easy": "eyespots",
-          "normal": "wings",
-          "hard": "nettles"
         }
       }
     }
@@ -5577,15 +3784,6 @@
           "normal": "nattfjäril",
           "hard": "kokong"
         }
-      },
-      "en": {
-        "word": "Atlas moth",
-        "aliases": [],
-        "hints": {
-          "easy": "wings",
-          "normal": "nocturnal",
-          "hard": "cocoon"
-        }
       }
     }
   },
@@ -5604,17 +3802,6 @@
           "easy": "prickar",
           "normal": "rödfärg",
           "hard": "bladlöss"
-        }
-      },
-      "en": {
-        "word": "Seven-spot ladybird",
-        "aliases": [
-          "Seven-spotted ladybug"
-        ],
-        "hints": {
-          "easy": "spots",
-          "normal": "crimson",
-          "hard": "aphids"
         }
       }
     }
@@ -5635,17 +3822,6 @@
           "normal": "ek",
           "hard": "skalbagge"
         }
-      },
-      "en": {
-        "word": "European stag beetle",
-        "aliases": [
-          "Stag beetle"
-        ],
-        "hints": {
-          "easy": "mandibles",
-          "normal": "oak",
-          "hard": "larva"
-        }
       }
     }
   },
@@ -5664,17 +3840,6 @@
           "easy": "tång",
           "normal": "nattaktiv",
           "hard": "fukt"
-        }
-      },
-      "en": {
-        "word": "Common earwig",
-        "aliases": [
-          "European earwig"
-        ],
-        "hints": {
-          "easy": "pincers",
-          "normal": "nocturnal",
-          "hard": "damp"
         }
       }
     }
@@ -5695,15 +3860,6 @@
           "normal": "jord",
           "hard": "framben"
         }
-      },
-      "en": {
-        "word": "Mole cricket",
-        "aliases": [],
-        "hints": {
-          "easy": "burrowing",
-          "normal": "soil",
-          "hard": "forelegs"
-        }
       }
     }
   },
@@ -5722,15 +3878,6 @@
           "easy": "syrsa",
           "normal": "spelar",
           "hard": "skymning"
-        }
-      },
-      "en": {
-        "word": "Field cricket",
-        "aliases": [],
-        "hints": {
-          "easy": "chirping",
-          "normal": "meadow",
-          "hard": "dusk"
         }
       }
     }
@@ -5751,17 +3898,6 @@
           "normal": "rovdjur",
           "hard": "framben"
         }
-      },
-      "en": {
-        "word": "Praying mantis",
-        "aliases": [
-          "Praying mantid"
-        ],
-        "hints": {
-          "easy": "posture",
-          "normal": "predator",
-          "hard": "forelegs"
-        }
       }
     }
   },
@@ -5780,15 +3916,6 @@
           "easy": "hårig",
           "normal": "spindel",
           "hard": "håla"
-        }
-      },
-      "en": {
-        "word": "Tarantula",
-        "aliases": [],
-        "hints": {
-          "easy": "hairy",
-          "normal": "spider",
-          "hard": "burrow"
         }
       }
     }
@@ -5809,17 +3936,6 @@
           "normal": "gift",
           "hard": "nät"
         }
-      },
-      "en": {
-        "word": "Black widow spider",
-        "aliases": [
-          "Black widow"
-        ],
-        "hints": {
-          "easy": "hourglass",
-          "normal": "venom",
-          "hard": "web"
-        }
       }
     }
   },
@@ -5838,17 +3954,6 @@
           "easy": "korsmönster",
           "normal": "nät",
           "hard": "trädgård"
-        }
-      },
-      "en": {
-        "word": "European garden spider",
-        "aliases": [
-          "Cross orb-weaver"
-        ],
-        "hints": {
-          "easy": "pattern",
-          "normal": "web",
-          "hard": "garden"
         }
       }
     }
@@ -5869,17 +3974,6 @@
           "normal": "slingrar",
           "hard": "fukt"
         }
-      },
-      "en": {
-        "word": "Common earthworm",
-        "aliases": [
-          "Lobworm"
-        ],
-        "hints": {
-          "easy": "soil",
-          "normal": "wriggles",
-          "hard": "moisture"
-        }
       }
     }
   },
@@ -5898,17 +3992,6 @@
           "easy": "snäcka",
           "normal": "skal",
           "hard": "ränder"
-        }
-      },
-      "en": {
-        "word": "White-lipped snail",
-        "aliases": [
-          "White-lipped garden snail"
-        ],
-        "hints": {
-          "easy": "shell",
-          "normal": "stripes",
-          "hard": "spiral"
         }
       }
     }
@@ -5929,17 +4012,6 @@
           "normal": "slem",
           "hard": "parning"
         }
-      },
-      "en": {
-        "word": "Leopard slug",
-        "aliases": [
-          "Great grey slug"
-        ],
-        "hints": {
-          "easy": "spots",
-          "normal": "slime",
-          "hard": "mating"
-        }
       }
     }
   },
@@ -5958,15 +4030,6 @@
           "easy": "källare",
           "normal": "fuktigt",
           "hard": "kräftdjur"
-        }
-      },
-      "en": {
-        "word": "Woodlouse",
-        "aliases": [],
-        "hints": {
-          "easy": "damp",
-          "normal": "crustacean",
-          "hard": "logs"
         }
       }
     }

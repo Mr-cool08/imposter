@@ -48,7 +48,7 @@
   "clueRounds": [1, 2, 3],
   "discussionSeconds": [0, 30, 60, 120],
   "clueStyles": ["oral", "text"],
-  "languages": ["sv", "en"],
+  "languages": ["sv"],
   "hints": ["easy", "normal", "hard"],
   "levels": ["familiar", "intermediate", "expert"],
   "groupOptions": ["@all", "@none"],

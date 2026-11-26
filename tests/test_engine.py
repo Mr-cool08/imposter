@@ -34,6 +34,7 @@ INVALID_SETTINGS_CASES = [
     ({"mode": "chaos", "chaos": [{"mode": "classic", "weight": False}]}, "chaos_weight"),
     ({"mode": "chaos", "chaos": [{"mode": "chaos", "weight": 1}]}, "invalid_mode"),
     ({"mode": "chaos", "chaos": [{"mode": "classic", "language": "en", "weight": 1}]}, "invalid_settings"),
+    ({"language": "en"}, "invalid_settings"),
     ({"mode": "random", "randomMin": 2, "randomMax": 1}, "invalid_random_range"),
     ({"mode": "random", "randomMax": True}, "invalid_settings"),
     ({"mode": "random", "freePlay": 1}, "invalid_settings"),
@@ -429,7 +430,7 @@ def test_only_pairs_with_both_selected_words_are_playable():
     assert issues({"mode": "undercover"}, words=WORDS[1:]) == [{"code": "no_pairs", "mode": "undercover"}]
     assert issues({"mode": "classic", "extraRole": "spy", "levels": ["expert"]}) == [{"code": "no_pairs", "mode": "classic"}]
     assert issues({"categories": ["animals"]}) == [{"code": "no_words", "mode": "classic"}]
-    assert issues({"mode": "undercover", "language": "en", "subcategories": ["food-desserts"]}) == []
+    assert issues({"mode": "undercover", "language": "sv", "subcategories": ["food-desserts"]}) == []
 
 
 def result_after_voting(round):

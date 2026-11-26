@@ -1,6 +1,5 @@
 import { CUSTOM_LIMITS, exportCustomCSV, loadManifest, loadPack, parseCustomCSV, validateCustom } from "./content.mjs";
 
-const LANGUAGES = ["sv", "en"];
 const HINT_LEVELS = ["easy", "normal", "hard"];
 const WORD_LEVELS = ["familiar", "intermediate", "expert"];
 const REVIEWS = ["needs_review", "editorial"];
@@ -12,7 +11,7 @@ function copy(value) {
   return JSON.parse(JSON.stringify(value));
 }
 
-function localList(key, isEntry) {
+function localList(key, normalize) {
   let memory = [];
   let transient = false;
   let readable = true;
@@ -24,8 +23,8 @@ function localList(key, isEntry) {
           const raw = globalThis.localStorage.getItem(key);
           if (raw !== previous) {
             const value = JSON.parse(raw ?? "[]");
-            if (!Array.isArray(value) || !value.every(isEntry)) throw new TypeError("Invalid stored list");
-            memory = value;
+            if (!Array.isArray(value)) throw new TypeError("Invalid stored list");
+            memory = normalize(value);
             previous = raw;
           }
           readable = true;
@@ -53,10 +52,18 @@ function localList(key, isEntry) {
   };
 }
 
-const packages = localList("imposter:customPackages.v1", entry => !!entry?.id && validateCustomPackage(entry).ok);
-const flags = localList("imposter:hintFlags.v1", flag => isId(flag?.id) && isId(flag.wordId)
-  && LANGUAGES.includes(flag.language) && HINT_LEVELS.includes(flag.level)
-  && [flag.word, flag.hint, flag.reason, flag.createdAt].every(value => typeof value === "string"));
+const packages = localList("imposter:customPackages.v1", entries => entries.map(entry => {
+  const packed = entry?.id && validateCustomPackage(entry).package;
+  if (!packed) throw new TypeError("Invalid stored package");
+  return packed;
+}));
+const flags = localList("imposter:hintFlags.v1", entries => entries.filter(flag => {
+  if (!isId(flag?.id) || !isId(flag.wordId) || !HINT_LEVELS.includes(flag.level)
+      || ![flag.language, flag.word, flag.hint, flag.reason, flag.createdAt].every(value => typeof value === "string")) {
+    throw new TypeError("Invalid stored flag");
+  }
+  return flag.language === "sv";
+}));
 
 function makeId(prefix) {
   const suffix = globalThis.crypto.randomUUID?.() ?? Array.from(
@@ -91,12 +98,10 @@ export function validateCustomPackage(input, base = null) {
   try {
     const content = validateCustom(contentPart(input), base);
     const id = input.id ?? makeId("pack");
-    const names = input.names ?? content.categories[0]?.names ?? { sv: "Eget paket", en: "Custom pack" };
+    const names = input.names ?? content.categories[0]?.names ?? { sv: "Eget paket" };
     if (!names || typeof names !== "object" || Array.isArray(names)) return problem("invalid_object", "names");
-    const issue = LANGUAGES.find(language => !isText(names[language], 100));
-    if (issue) return problem("invalid_text", `names.${issue}`);
-    const translated = Object.fromEntries(LANGUAGES.map(language => [language, names[language].trim()]));
-    return { ok: true, package: { id, names: translated, ...content }, issues: [] };
+    if (!isText(names.sv, 100)) return problem("invalid_text", "names.sv");
+    return { ok: true, package: { id, names: { sv: names.sv.trim() }, ...content }, issues: [] };
   } catch (error) {
     return { ok: false, issues: error.issues?.length ? error.issues : [{ code: "invalid_package", path: "$" }] };
   }
@@ -162,15 +167,14 @@ export function deleteCustomPackage(id) {
   return { ok: true, persisted: current.length === remaining.length ? packages.persisted : packages.write(remaining) };
 }
 
-export function flagHint({ wordId, language, level, reason = "", word = "", hint = "" } = {}) {
-  if (!isId(wordId) || !LANGUAGES.includes(language) || !HINT_LEVELS.includes(level)
+export function flagHint({ wordId, language = "sv", level, reason = "", word = "", hint = "" } = {}) {
+  if (!isId(wordId) || language !== "sv" || !HINT_LEVELS.includes(level)
       || !isText(reason, 300, true) || !isText(word, 100, true) || !isText(hint, 160, true)) {
     return problem("invalid_hint");
   }
   const trimmed = reason.trim();
   const current = flags.read();
-  const same = current.some(flag => flag.wordId === wordId && flag.language === language
-    && flag.level === level && flag.reason === trimmed);
+  const same = current.some(flag => flag.wordId === wordId && flag.level === level && flag.reason === trimmed);
   if (same) return { ok: true, added: false, persisted: flags.persisted };
   const flag = { id: makeId("hint"), wordId, language, level, word: word.trim(), hint: hint.trim(),
     reason: trimmed, createdAt: new Date().toISOString() };
@@ -204,7 +208,7 @@ function download(name, data, type) {
   window.setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
-const emptyNames = () => ({ sv: "", en: "" });
+const emptyNames = () => ({ sv: "" });
 
 function blankPackage() {
   return { id: makeId("pack"), names: emptyNames(), categories: [], words: [], pairs: [] };
@@ -215,9 +219,9 @@ function blankWord(category) {
     id: makeId(category.id.length <= 63 ? category.id : "word"),
     category: category.id, subcategory: category.subcategories[0].id,
     tags: [], level: "familiar", review: "needs_review",
-    languages: Object.fromEntries(LANGUAGES.map(language => [language, {
+    languages: { sv: {
       word: "", aliases: [], hints: { easy: "", normal: "", hard: "" },
-    }])),
+    } },
   };
 }
 
@@ -237,13 +241,12 @@ export function mountExtras(ctx) {
   let issues = [];
   let manifest = null;
   let manifestPending = null;
-  const preview = { source: "custom", lang, level: "normal", category: "", word: "", pack: null, loading: false, error: false };
+  const preview = { source: "custom", level: "normal", category: "", word: "", pack: null, loading: false, error: false };
   let previewRequest = 0;
   let previewBox;
 
-  const label = value => value?.[lang]?.trim() || value?.sv?.trim() || value?.en?.trim() || t("unnamedPackage");
-  const wordLabel = word => word?.languages[lang].word.trim() || word?.languages[lang === "sv" ? "en" : "sv"].word.trim()
-    || t("word");
+  const label = value => value?.sv?.trim() || t("unnamedPackage");
+  const wordLabel = word => word?.languages.sv?.word.trim() || t("word");
   const ask = (key, values) => window.confirm(t(key, values));
   const mayLeaveDraft = () => !dirty || ask("leaveConfirm");
   const active = () => !signal?.aborted;
@@ -272,10 +275,10 @@ export function mountExtras(ctx) {
   }
 
   function nameFields(value, caption, prefix = "") {
-    return e("div", { class: "extras-grid" }, ...LANGUAGES.map(language => textField(
-      `${t(caption)} · ${t(language)}`, value[language], name => { value[language] = name; dirty = true; },
-      { maxlength: CUSTOM_LIMITS.nameLength, lang: language, ...(prefix ? { id: `${prefix}-${language}` } : {}) },
-    )));
+    return e("div", { class: "extras-grid" }, textField(
+      `${t(caption)} · ${t("sv")}`, value.sv, name => { value.sv = name; dirty = true; },
+      { maxlength: CUSTOM_LIMITS.nameLength, lang, ...(prefix ? { id: `${prefix}-${lang}` } : {}) },
+    ));
   }
 
   function note(key, persisted = true, values) {
@@ -366,7 +369,7 @@ export function mountExtras(ctx) {
     const create = () => {
       const id = makeId("custom");
       draft.categories.push({ id, names: emptyNames(), icon: "📝", subcategories: [{
-        id: `${id}-general`, names: { sv: "Allmänt", en: "General" },
+        id: `${id}-general`, names: { sv: "Allmänt" },
       }] });
       categoryId = id;
       wordId = "";
@@ -414,6 +417,7 @@ export function mountExtras(ctx) {
     const currentCategory = draft.categories.find(category => category.id === categoryId);
     const eligible = draft.words.filter(word => word.category === categoryId);
     const currentWord = eligible.find(word => word.id === wordId);
+    const entry = currentWord?.languages.sv;
     const items = eligible.map(word => [word.id, wordLabel(word)]);
     const set = (object, key, value) => {
       object[key] = value;
@@ -430,16 +434,13 @@ export function mountExtras(ctx) {
           selectField(t("review"), currentWord.review, REVIEWS.map(review => [review, t(review)]), value => set(currentWord, "review", value)),
         ),
         listField(t("tagList"), currentWord.tags, value => set(currentWord, "tags", value)),
-        e("div", { class: "extras-grid" }, ...LANGUAGES.map(language => {
-          const entry = currentWord.languages[language];
-          return e("fieldset", { class: "extras-language stack" }, e("legend", {}, t(language)),
-            textField(t("word"), entry.word, value => set(entry, "word", value),
-              { lang: language, maxlength: CUSTOM_LIMITS.wordLength, id: `extras-word-${language}` }),
-            listField(t("aliases"), entry.aliases, value => set(entry, "aliases", value)),
-            ...HINT_LEVELS.map(level => textField(t(level), entry.hints[level], value => set(entry.hints, level, value),
-              { lang: language, maxlength: CUSTOM_LIMITS.hintLength })),
-          );
-        })),
+        e("fieldset", { class: "extras-language stack" }, e("legend", {}, t("sv")),
+          textField(t("word"), entry.word, value => set(entry, "word", value),
+            { lang, maxlength: CUSTOM_LIMITS.wordLength, id: `extras-word-${lang}` }),
+          listField(t("aliases"), entry.aliases, value => set(entry, "aliases", value)),
+          ...HINT_LEVELS.map(level => textField(t(level), entry.hints[level], value => set(entry.hints, level, value),
+            { lang, maxlength: CUSTOM_LIMITS.hintLength })),
+        ),
       ) : null,
       currentCategory && !currentCategory.subcategories.length ? e("p", { class: "muted" }, t("addWordFirstCategory")) : null,
       e("div", { class: "cluster" }, button("addWord", () => {
@@ -543,10 +544,10 @@ export function mountExtras(ctx) {
     }
   }
 
-  function previewCard(role, content, type, language) {
+  function previewCard(role, content, type) {
     return e("article", { class: "panel panel--subtle extras-preview-card" },
       e("h3", {}, t(role)), e("p", { class: "muted" }, t(type)),
-      e("p", { class: "extras-preview-value", lang: language }, content),
+      e("p", { class: "extras-preview-value", lang }, content),
     );
   }
 
@@ -556,7 +557,7 @@ export function mountExtras(ctx) {
     const customWords = draft?.words ?? listCustomPackages().flatMap(packed => packed.words);
     const words = custom ? customWords : preview.pack?.words ?? [];
     const word = words.find(word => word.id === preview.word);
-    const translation = word?.languages[preview.lang];
+    const translation = word?.languages.sv;
     const hint = translation?.hints[preview.level]?.trim();
     const reason = e("input", { type: "text", maxlength: 300, placeholder: t("flagPlaceholder") });
     const changePreview = (key, value, eventTarget) => {
@@ -574,7 +575,7 @@ export function mountExtras(ctx) {
       field.dataset.previewField = key;
       return field;
     };
-    const wordChoices = words.map(entry => [entry.id, entry.languages[preview.lang]?.word.trim() || wordLabel(entry)]);
+    const wordChoices = words.map(entry => [entry.id, wordLabel(entry)]);
     previewBox.replaceChildren(e("h2", {}, t("previewTitle")), e("p", {}, t("previewIntro")),
       e("div", { class: "extras-grid" },
         previewField("source", "previewSource", preview.source,
@@ -590,7 +591,6 @@ export function mountExtras(ctx) {
             }
             previewBox.querySelector('[data-preview-field="source"] select')?.focus();
           }),
-        previewField("lang", "previewLanguage", preview.lang, LANGUAGES.map(language => [language, t(language)])),
         !custom && manifest ? previewField("category", "category", preview.category,
           manifest.categories.map(category => [category.id, label(category.names)]), "previewSelectCategory", id => {
             void loadPublicPreview(id);
@@ -605,15 +605,15 @@ export function mountExtras(ctx) {
         button("previewRetry", () => void loadPublicPreview(), secondary),
       ) : null,
       translation?.word.trim() ? e("div", { class: "extras-grid" },
-        previewCard("previewCivil", translation.word, "previewWord", preview.lang),
-        previewCard("previewImposter", hint || t("previewNoHint"), "previewHint", hint ? preview.lang : lang),
-        previewCard("previewJoker", translation.word, "previewWord", preview.lang),
-        previewCard("previewBlind", t("previewNoHint"), "previewHint", lang),
+        previewCard("previewCivil", translation.word, "previewWord"),
+        previewCard("previewImposter", hint || t("previewNoHint"), "previewHint"),
+        previewCard("previewJoker", translation.word, "previewWord"),
+        previewCard("previewBlind", t("previewNoHint"), "previewHint"),
       ) : e("p", { class: "muted" }, t(words.length ? "previewNoWord" : "noWords")),
       hint && translation.word.trim() ? e("div", { class: "extras-flag-form stack" },
         e("label", { class: "field" }, t("flagReason"), reason),
         button("flagHint", () => {
-          const result = flagHint({ wordId: word.id, language: preview.lang, level: preview.level,
+          const result = flagHint({ wordId: word.id, level: preview.level,
             reason: reason.value, word: translation.word, hint });
           issues = result.issues ?? [];
           if (result.ok) note(result.added ? "flagAdded" : "flagDuplicate", result.persisted);
@@ -655,7 +655,7 @@ export function mountExtras(ctx) {
     else if (key === "invalid_csv" && issue.path.endsWith(".type")) key = "csv_record";
     const lookup = `extras.issue.${key}`;
     const translated = ctx.t(lookup);
-    return translated === lookup ? (issue.message ?? t("failed")) : translated;
+    return translated === lookup ? t("failed") : translated;
   }
 
   function issueLine(issue) {

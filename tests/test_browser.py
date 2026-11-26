@@ -90,6 +90,13 @@ def test_start_page_and_public_apis(app_url, chromium, device):
     context = browser.new_context(base_url=app_url, **options)
     page = context.new_page()
     try:
+        page.add_init_script("""() => {
+            for (const key of ["imposter:preferences", "imposter:localSettings"]) {
+                if (localStorage.getItem(key) === null) {
+                    localStorage.setItem(key, JSON.stringify({ language: "en" }));
+                }
+            }
+        }""")
         errors = []
         requests = []
         page.on("pageerror", lambda error: errors.append(str(error)))
@@ -109,24 +116,22 @@ def test_start_page_and_public_apis(app_url, chromium, device):
 
         page.locator("#preferences-menu > summary").click()
         playwright_api.expect(page.get_by_text("Spela utan nätverk", exact=True)).to_have_count(0)
-        page.locator("#app-language").select_option("en")
-        playwright_api.expect(page.locator("html")).to_have_attribute("lang", "en")
-        english = page.request.get("/api/i18n/en.json").json()
+        playwright_api.expect(page.locator("#app-language")).to_have_count(0)
         swedish = page.request.get("/api/i18n/sv.json").json()
-        assert english.keys() == swedish.keys()
         settings = page.locator("#local-view")
-        playwright_api.expect(settings.get_by_role("heading", name=english["local.setup.title"], exact=True)).to_be_visible()
-        playwright_api.expect(settings.get_by_role("heading", name=swedish["local.setup.title"], exact=True)).to_have_count(0)
+        playwright_api.expect(settings.get_by_role("heading", name=swedish["local.setup.title"], exact=True)).to_be_visible()
+        playwright_api.expect(settings.get_by_label(swedish["settings.language"], exact=True)).to_have_count(0)
         page.locator("#app-theme").select_option("light")
         playwright_api.expect(page.locator("html")).to_have_attribute("data-theme", "light")
         page.reload()
-        playwright_api.expect(page.locator("html")).to_have_attribute("lang", "en")
+        playwright_api.expect(page.locator("html")).to_have_attribute("lang", "sv")
         playwright_api.expect(page.locator("html")).to_have_attribute("data-theme", "light")
         playwright_api.expect(page.get_by_test_id("local-player-name")).to_be_visible()
+        add_players(page, ["Anna", "Bo", "Cecilia"])
         expect_no_horizontal_scroll(page)
         origin = urlsplit(app_url).netloc
         assert all(urlsplit(url).netloc == origin for url in requests if url.startswith(("http:", "https:")))
-        assert not any("socket.io" in url or "/js/online.mjs" in url for url in requests)
+        assert not any("socket.io" in url or "/js/online.mjs" in url or "/api/i18n/en.json" in url for url in requests)
         assert page.evaluate("async () => (await navigator.serviceWorker?.getRegistrations())?.length ?? 0") == 0
         assert not errors
     finally:
@@ -165,7 +170,7 @@ def expect_rules_content(page, translations):
         expect(entry.get_by_text(translations[f"guide.role.{role}"], exact=True)).to_be_visible()
 
 
-def test_rules_page_direct_entry_navigation_and_localization(app_url, chromium):
+def test_rules_page_direct_entry_and_navigation(app_url, chromium):
     browser, mobile = chromium
     context = browser.new_context(base_url=app_url, **mobile)
     page = context.new_page()
@@ -173,22 +178,14 @@ def test_rules_page_direct_entry_navigation_and_localization(app_url, chromium):
     try:
         page.goto(f"{app_url}/#regler")
         swedish = page.request.get("/api/i18n/sv.json").json()
-        english = page.request.get("/api/i18n/en.json").json()
         expect_rules_content(page, swedish)
         expect(page.get_by_test_id("local-player-name")).not_to_be_visible()
         expect_no_horizontal_scroll(page)
 
-        page.locator("#preferences-menu > summary").click()
-        page.locator("#app-language").select_option("en")
-        expect(page.locator("html")).to_have_attribute("lang", "en")
-        expect(page).to_have_url(re.compile(r"#regler$"))
-        expect_rules_content(page, english)
-        expect_no_horizontal_scroll(page)
-
-        page.get_by_role("link", name=english["guide.back"], exact=True).click()
+        page.get_by_role("link", name=swedish["guide.back"], exact=True).click()
         expect(page.get_by_test_id("local-player-name")).to_be_visible()
         expect(page.get_by_test_id("rules-guide")).not_to_be_visible()
-        page.get_by_role("link", name=english["guide.navigation"], exact=True).click()
+        page.get_by_role("link", name=swedish["guide.navigation"], exact=True).click()
         expect(page).to_have_url(re.compile(r"#regler$"))
         expect(page.get_by_test_id("rules-guide")).to_be_visible()
         page.go_back()

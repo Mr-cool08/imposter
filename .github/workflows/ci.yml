@@ -32,7 +32,7 @@ jobs:
           python -m pip install -r requirements-dev.txt
           python -m pip check
           python -m playwright install --with-deps chromium
-      - name: Validate the bilingual word packs
+      - name: Validate the Swedish word packs
         run: python tools/validate_content.py
       - name: Run Python and browser tests
         run: python -m pytest -q

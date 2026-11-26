@@ -25,7 +25,7 @@ export function mountLocal(ctx) {
     let players = ctx.preferences().rememberNames ? storage.get("localPlayers", []) : [];
     if (!Array.isArray(players)) players = [];
     players = players.filter((player) => typeof player?.id === "string" && typeof player?.name === "string").slice(0, maxPlayers);
-    let settings = { ...DEFAULT_SETTINGS, language: ctx.lang, ...storage.get("localSettings", {}), freePlay: true };
+    let settings = { ...DEFAULT_SETTINGS, ...storage.get("localSettings", {}), language: ctx.lang, freePlay: true };
     let editor;
     let round;
     let roundSelection;
@@ -229,10 +229,9 @@ export function mountLocal(ctx) {
         const role = el("h2", { tabindex: "-1" }, card.role ? ctx.roleName(card.role) : t("local.card.word"));
         const field = card.word ? "word" : card.hint ? "hint" : "note";
         const value = card.word ?? card.hint ?? t("local.card.empty");
-        const wordLang = card.word || card.hint ? settings.language : ctx.lang;
         const fields = el("dl", { class: "local-card-data" },
             el("dt", { class: card.role ? null : "sr-only" }, t("local.card." + field)),
-            el("dd", { class: "local-card-value", lang: wordLang }, value));
+            el("dd", { class: "local-card-value", lang: ctx.lang }, value));
 
         if (card.partners.length) {
             const partners = state.players.filter((player) => card.partners.includes(player.id));
@@ -328,7 +327,6 @@ export function mountLocal(ctx) {
     window.addEventListener("pagehide", concealPrivate, { signal });
     window.addEventListener("pageshow", concealOnRestore, { signal });
     window.addEventListener("popstate", concealPrivate, { signal, capture: true });
-    window.addEventListener("imposter:language", refreshSetup, { signal });
     window.addEventListener("imposter:custom-content", refreshSetup, { signal });
     document.addEventListener("visibilitychange", concealOnHidden, { signal });
     document.addEventListener("freeze", concealPrivate, { signal });

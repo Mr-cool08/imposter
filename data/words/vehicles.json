@@ -17,15 +17,6 @@
           "normal": "Fyrdörrad",
           "hard": "Kaross"
         }
-      },
-      "en": {
-        "word": "Sedan",
-        "aliases": [],
-        "hints": {
-          "easy": "Trunk",
-          "normal": "Passengers",
-          "hard": "Bodywork"
-        }
       }
     }
   },
@@ -48,17 +39,6 @@
           "easy": "Lastutrymme",
           "normal": "Baklucka",
           "hard": "Familj"
-        }
-      },
-      "en": {
-        "word": "Station wagon",
-        "aliases": [
-          "Estate car"
-        ],
-        "hints": {
-          "easy": "Cargo",
-          "normal": "Tailgate",
-          "hard": "Family"
         }
       }
     }
@@ -83,17 +63,6 @@
           "normal": "Sol",
           "hard": "Sufflett"
         }
-      },
-      "en": {
-        "word": "Convertible",
-        "aliases": [
-          "Cabriolet"
-        ],
-        "hints": {
-          "easy": "Roofless",
-          "normal": "Sun",
-          "hard": "Canvas"
-        }
       }
     }
   },
@@ -114,15 +83,6 @@
           "easy": "Flak",
           "normal": "Last",
           "hard": "Hytt"
-        }
-      },
-      "en": {
-        "word": "Pickup truck",
-        "aliases": [],
-        "hints": {
-          "easy": "Bed",
-          "normal": "Payload",
-          "hard": "Cab"
         }
       }
     }
@@ -145,15 +105,6 @@
           "normal": "Chaufför",
           "hard": "Förlängd"
         }
-      },
-      "en": {
-        "word": "Limousine",
-        "aliases": [],
-        "hints": {
-          "easy": "Luxury",
-          "normal": "Chauffeur",
-          "hard": "Stretched"
-        }
       }
     }
   },
@@ -175,15 +126,6 @@
           "normal": "Markfrigång",
           "hard": "Högbyggd"
         }
-      },
-      "en": {
-        "word": "SUV",
-        "aliases": [],
-        "hints": {
-          "easy": "Terrain",
-          "normal": "Clearance",
-          "hard": "Tall"
-        }
       }
     }
   },
@@ -204,15 +146,6 @@
           "easy": "Trehjul",
           "normal": "Motor",
           "hard": "Stabilitet"
-        }
-      },
-      "en": {
-        "word": "Motorized three-wheeler",
-        "aliases": [],
-        "hints": {
-          "easy": "Wheels",
-          "normal": "Motor",
-          "hard": "Stability"
         }
       }
     }
@@ -237,17 +170,6 @@
           "normal": "Led",
           "hard": "Stadstrafik"
         }
-      },
-      "en": {
-        "word": "Articulated bus",
-        "aliases": [
-          "Bendy bus"
-        ],
-        "hints": {
-          "easy": "Accordion",
-          "normal": "Joint",
-          "hard": "Transit"
-        }
       }
     }
   },
@@ -271,17 +193,6 @@
           "normal": "London",
           "hard": "Trappa"
         }
-      },
-      "en": {
-        "word": "Double-decker bus",
-        "aliases": [
-          "Double-decker"
-        ],
-        "hints": {
-          "easy": "Upstairs",
-          "normal": "London",
-          "hard": "Stairway"
-        }
       }
     }
   },
@@ -302,15 +213,6 @@
           "easy": "Smågrupp",
           "normal": "Sittplatser",
           "hard": "Skyttel"
-        }
-      },
-      "en": {
-        "word": "Minibus",
-        "aliases": [],
-        "hints": {
-          "easy": "Group",
-          "normal": "Seats",
-          "hard": "Shuttle"
         }
       }
     }
@@ -333,17 +235,6 @@
           "normal": "Säng",
           "hard": "Boende"
         }
-      },
-      "en": {
-        "word": "Motorhome",
-        "aliases": [
-          "Motor home"
-        ],
-        "hints": {
-          "easy": "Camping",
-          "normal": "Bed",
-          "hard": "Lodging"
-        }
       }
     }
   },
@@ -364,17 +255,6 @@
           "easy": "Släp",
           "normal": "Camping",
           "hard": "Dragkrok"
-        }
-      },
-      "en": {
-        "word": "Travel trailer",
-        "aliases": [
-          "Caravan"
-        ],
-        "hints": {
-          "easy": "Trailer",
-          "normal": "Camping",
-          "hard": "Hitch"
         }
       }
     }
@@ -397,15 +277,6 @@
           "normal": "Siren",
           "hard": "Bår"
         }
-      },
-      "en": {
-        "word": "Ambulance",
-        "aliases": [],
-        "hints": {
-          "easy": "Emergency",
-          "normal": "Siren",
-          "hard": "Stretcher"
-        }
       }
     }
   },
@@ -426,17 +297,6 @@
           "easy": "Släckning",
           "normal": "Slang",
           "hard": "Stege"
-        }
-      },
-      "en": {
-        "word": "Fire engine",
-        "aliases": [
-          "Fire truck"
-        ],
-        "hints": {
-          "easy": "Firefighting",
-          "normal": "Hose",
-          "hard": "Ladder"
         }
       }
     }
@@ -459,17 +319,6 @@
           "normal": "Sopkärl",
           "hard": "Komprimering"
         }
-      },
-      "en": {
-        "word": "Garbage truck",
-        "aliases": [
-          "Refuse truck"
-        ],
-        "hints": {
-          "easy": "Waste",
-          "normal": "Bins",
-          "hard": "Compaction"
-        }
       }
     }
   },
@@ -491,15 +340,6 @@
           "normal": "Vinsch",
           "hard": "Haveri"
         }
-      },
-      "en": {
-        "word": "Tow truck",
-        "aliases": [],
-        "hints": {
-          "easy": "Recovery",
-          "normal": "Winch",
-          "hard": "Breakdown"
-        }
       }
     }
   },
@@ -519,15 +359,6 @@
         "hints": {
           "easy": "Kista",
           "normal": "Begravning",
-          "hard": "Procession"
-        }
-      },
-      "en": {
-        "word": "Hearse",
-        "aliases": [],
-        "hints": {
-          "easy": "Coffin",
-          "normal": "Funeral",
           "hard": "Procession"
         }
       }
@@ -551,15 +382,6 @@
           "normal": "Trumma",
           "hard": "Rotation"
         }
-      },
-      "en": {
-        "word": "Concrete mixer truck",
-        "aliases": [],
-        "hints": {
-          "easy": "Concrete",
-          "normal": "Drum",
-          "hard": "Rotation"
-        }
       }
     }
   },
@@ -580,15 +402,6 @@
           "easy": "Vätska",
           "normal": "Cistern",
           "hard": "Bränsle"
-        }
-      },
-      "en": {
-        "word": "Tanker truck",
-        "aliases": [],
-        "hints": {
-          "easy": "Liquid",
-          "normal": "Cistern",
-          "hard": "Fuel"
         }
       }
     }
@@ -613,15 +426,6 @@
           "normal": "Trottoar",
           "hard": "Damm"
         }
-      },
-      "en": {
-        "word": "Street sweeper",
-        "aliases": [],
-        "hints": {
-          "easy": "Brushes",
-          "normal": "Curb",
-          "hard": "Dust"
-        }
       }
     }
   },
@@ -643,15 +447,6 @@
           "normal": "Plogblad",
           "hard": "Vinter"
         }
-      },
-      "en": {
-        "word": "Snowplow",
-        "aliases": [],
-        "hints": {
-          "easy": "Clearing",
-          "normal": "Blade",
-          "hard": "Winter"
-        }
       }
     }
   },
@@ -672,15 +467,6 @@
           "easy": "Tvåhjul",
           "normal": "Hastighetsgräns",
           "hard": "Hjälm"
-        }
-      },
-      "en": {
-        "word": "Moped",
-        "aliases": [],
-        "hints": {
-          "easy": "Wheels",
-          "normal": "Speed",
-          "hard": "Helmet"
         }
       }
     }
@@ -705,17 +491,6 @@
           "normal": "Passagerare",
           "hard": "Sightseeing"
         }
-      },
-      "en": {
-        "word": "Pedicab",
-        "aliases": [
-          "Cycle rickshaw"
-        ],
-        "hints": {
-          "easy": "Pedal",
-          "normal": "Passenger",
-          "hard": "Sightseeing"
-        }
       }
     }
   },
@@ -736,17 +511,6 @@
           "easy": "Terräng",
           "normal": "Fyrhjulsdrift",
           "hard": "Sadel"
-        }
-      },
-      "en": {
-        "word": "ATV",
-        "aliases": [
-          "Quad bike"
-        ],
-        "hints": {
-          "easy": "Terrain",
-          "normal": "Traction",
-          "hard": "Saddle"
         }
       }
     }
@@ -769,17 +533,6 @@
           "normal": "Tömning",
           "hard": "Hydraulik"
         }
-      },
-      "en": {
-        "word": "Dump truck",
-        "aliases": [
-          "Tipper truck"
-        ],
-        "hints": {
-          "easy": "Bed",
-          "normal": "Unloading",
-          "hard": "Hydraulics"
-        }
       }
     }
   },
@@ -801,15 +554,6 @@
           "normal": "Mast",
           "hard": "Kryssning"
         }
-      },
-      "en": {
-        "word": "Sailboat",
-        "aliases": [],
-        "hints": {
-          "easy": "Wind",
-          "normal": "Mast",
-          "hard": "Tacking"
-        }
       }
     }
   },
@@ -830,15 +574,6 @@
           "easy": "Åror",
           "normal": "Sjö",
           "hard": "Årtullar"
-        }
-      },
-      "en": {
-        "word": "Rowboat",
-        "aliases": [],
-        "hints": {
-          "easy": "Oars",
-          "normal": "Lake",
-          "hard": "Oarlocks"
         }
       }
     }
@@ -864,17 +599,6 @@
           "normal": "Öppen",
           "hard": "Knästående"
         }
-      },
-      "en": {
-        "word": "Open canoe",
-        "aliases": [
-          "Canoe"
-        ],
-        "hints": {
-          "easy": "Paddle",
-          "normal": "Open",
-          "hard": "Kneeling"
-        }
       }
     }
   },
@@ -895,15 +619,6 @@
           "easy": "Paddling",
           "normal": "Sittbrunn",
           "hard": "Eskimåsväng"
-        }
-      },
-      "en": {
-        "word": "Kayak",
-        "aliases": [],
-        "hints": {
-          "easy": "Paddling",
-          "normal": "Cockpit",
-          "hard": "Roll"
         }
       }
     }
@@ -926,15 +641,6 @@
           "normal": "Passagerare",
           "hard": "Tidtabell"
         }
-      },
-      "en": {
-        "word": "Ferry",
-        "aliases": [],
-        "hints": {
-          "easy": "Crossing",
-          "normal": "Passengers",
-          "hard": "Timetable"
-        }
       }
     }
   },
@@ -956,15 +662,6 @@
           "normal": "Passagerare",
           "hard": "Linjetrafik"
         }
-      },
-      "en": {
-        "word": "Ocean liner",
-        "aliases": [],
-        "hints": {
-          "easy": "Atlantic",
-          "normal": "Passengers",
-          "hard": "Routes"
-        }
       }
     }
   },
@@ -985,15 +682,6 @@
           "easy": "Last",
           "normal": "Staplar",
           "hard": "Hamn"
-        }
-      },
-      "en": {
-        "word": "Container ship",
-        "aliases": [],
-        "hints": {
-          "easy": "Cargo",
-          "normal": "Stacks",
-          "hard": "Port"
         }
       }
     }
@@ -1018,17 +706,6 @@
           "normal": "Ramp",
           "hard": "Hjullast"
         }
-      },
-      "en": {
-        "word": "Roll-on/roll-off ship",
-        "aliases": [
-          "Ro-ro ship"
-        ],
-        "hints": {
-          "easy": "Ferry",
-          "normal": "Ramp",
-          "hard": "Wheels"
-        }
       }
     }
   },
@@ -1049,15 +726,6 @@
           "easy": "Råolja",
           "normal": "Sjötransport",
           "hard": "Skrov"
-        }
-      },
-      "en": {
-        "word": "Oil tanker",
-        "aliases": [],
-        "hints": {
-          "easy": "Petroleum",
-          "normal": "Shipping",
-          "hard": "Hull"
         }
       }
     }
@@ -1080,15 +748,6 @@
           "normal": "Lastlucka",
           "hard": "Lossning"
         }
-      },
-      "en": {
-        "word": "Bulk carrier",
-        "aliases": [],
-        "hints": {
-          "easy": "Grain",
-          "normal": "Hatch",
-          "hard": "Unloading"
-        }
       }
     }
   },
@@ -1109,15 +768,6 @@
           "easy": "Bogsering",
           "normal": "Hamn",
           "hard": "Dragkraft"
-        }
-      },
-      "en": {
-        "word": "Tugboat",
-        "aliases": [],
-        "hints": {
-          "easy": "Towing",
-          "normal": "Harbor",
-          "hard": "Pull"
         }
       }
     }
@@ -1140,15 +790,6 @@
           "normal": "Polarvatten",
           "hard": "Förstärkt"
         }
-      },
-      "en": {
-        "word": "Icebreaker",
-        "aliases": [],
-        "hints": {
-          "easy": "Ice",
-          "normal": "Arctic",
-          "hard": "Reinforced"
-        }
       }
     }
   },
@@ -1169,15 +810,6 @@
           "easy": "Muddring",
           "normal": "Bottensediment",
           "hard": "Farled"
-        }
-      },
-      "en": {
-        "word": "Dredger",
-        "aliases": [],
-        "hints": {
-          "easy": "Dredging",
-          "normal": "Sediment",
-          "hard": "Channel"
         }
       }
     }
@@ -1200,15 +832,6 @@
           "normal": "Nät",
           "hard": "Släpdragning"
         }
-      },
-      "en": {
-        "word": "Trawler",
-        "aliases": [],
-        "hints": {
-          "easy": "Fishing",
-          "normal": "Net",
-          "hard": "Towing"
-        }
       }
     }
   },
@@ -1229,15 +852,6 @@
           "easy": "Sjöräddning",
           "normal": "Evakuering",
           "hard": "Dävert"
-        }
-      },
-      "en": {
-        "word": "Lifeboat",
-        "aliases": [],
-        "hints": {
-          "easy": "Rescue",
-          "normal": "Evacuation",
-          "hard": "Davit"
         }
       }
     }
@@ -1260,15 +874,6 @@
           "normal": "Periskop",
           "hard": "Dykning"
         }
-      },
-      "en": {
-        "word": "Submarine",
-        "aliases": [],
-        "hints": {
-          "easy": "Underwater",
-          "normal": "Periscope",
-          "hard": "Diving"
-        }
       }
     }
   },
@@ -1289,17 +894,6 @@
           "easy": "Havsbotten",
           "normal": "Tryckskrov",
           "hard": "Provtagning"
-        }
-      },
-      "en": {
-        "word": "Deep-sea submersible",
-        "aliases": [
-          "Deep-diving submersible"
-        ],
-        "hints": {
-          "easy": "Seabed",
-          "normal": "Pressure",
-          "hard": "Sampling"
         }
       }
     }
@@ -1324,17 +918,6 @@
           "normal": "Ånga",
           "hard": "Flod"
         }
-      },
-      "en": {
-        "word": "Paddle steamer",
-        "aliases": [
-          "Paddlewheel steamer"
-        ],
-        "hints": {
-          "easy": "Paddle",
-          "normal": "Steam",
-          "hard": "River"
-        }
       }
     }
   },
@@ -1355,15 +938,6 @@
           "easy": "Luftkudde",
           "normal": "Kjol",
           "hard": "Svävning"
-        }
-      },
-      "en": {
-        "word": "Hovercraft",
-        "aliases": [],
-        "hints": {
-          "easy": "Cushion",
-          "normal": "Skirt",
-          "hard": "Gliding"
         }
       }
     }
@@ -1386,15 +960,6 @@
           "normal": "Lyftkraft",
           "hard": "Motstånd"
         }
-      },
-      "en": {
-        "word": "Hydrofoil",
-        "aliases": [],
-        "hints": {
-          "easy": "Foils",
-          "normal": "Lift",
-          "hard": "Drag"
-        }
       }
     }
   },
@@ -1414,15 +979,6 @@
         "hints": {
           "easy": "Stakning",
           "normal": "Flatbottnad",
-          "hard": "Cambridge"
-        }
-      },
-      "en": {
-        "word": "Punt",
-        "aliases": [],
-        "hints": {
-          "easy": "Poling",
-          "normal": "Flat",
           "hard": "Cambridge"
         }
       }
@@ -1446,15 +1002,6 @@
           "normal": "Kanal",
           "hard": "Bogseras"
         }
-      },
-      "en": {
-        "word": "Barge",
-        "aliases": [],
-        "hints": {
-          "easy": "Cargo",
-          "normal": "Canal",
-          "hard": "Towed"
-        }
       }
     }
   },
@@ -1475,15 +1022,6 @@
           "easy": "Flytelement",
           "normal": "Soldäck",
           "hard": "Stabil"
-        }
-      },
-      "en": {
-        "word": "Pontoon boat",
-        "aliases": [],
-        "hints": {
-          "easy": "Floats",
-          "normal": "Deck",
-          "hard": "Stable"
         }
       }
     }
@@ -1506,15 +1044,6 @@
           "normal": "Paddling",
           "hard": "Balans"
         }
-      },
-      "en": {
-        "word": "Outrigger canoe",
-        "aliases": [],
-        "hints": {
-          "easy": "Float",
-          "normal": "Paddling",
-          "hard": "Balance"
-        }
       }
     }
   },
@@ -1536,17 +1065,6 @@
           "normal": "Gummi",
           "hard": "Reservfarkost"
         }
-      },
-      "en": {
-        "word": "Inflatable boat",
-        "aliases": [
-          "Inflatable dinghy"
-        ],
-        "hints": {
-          "easy": "Pump",
-          "normal": "Rubber",
-          "hard": "Tender"
-        }
       }
     }
   },
@@ -1567,15 +1085,6 @@
           "easy": "Rotor",
           "normal": "Vertikalt",
           "hard": "Hovra"
-        }
-      },
-      "en": {
-        "word": "Helicopter",
-        "aliases": [],
-        "hints": {
-          "easy": "Rotor",
-          "normal": "Vertical",
-          "hard": "Hover"
         }
       }
     }
@@ -1600,17 +1109,6 @@
           "normal": "Flygplats",
           "hard": "Kabin"
         }
-      },
-      "en": {
-        "word": "Airliner",
-        "aliases": [
-          "Passenger airliner"
-        ],
-        "hints": {
-          "easy": "Passengers",
-          "normal": "Airport",
-          "hard": "Cabin"
-        }
       }
     }
   },
@@ -1634,17 +1132,6 @@
           "normal": "Lastlucka",
           "hard": "Pallar"
         }
-      },
-      "en": {
-        "word": "Cargo aircraft",
-        "aliases": [
-          "Cargo plane"
-        ],
-        "hints": {
-          "easy": "Freight",
-          "normal": "Hatch",
-          "hard": "Pallets"
-        }
       }
     }
   },
@@ -1665,15 +1152,6 @@
           "easy": "Privat",
           "normal": "Direktflyg",
           "hard": "Tjänsteresa"
-        }
-      },
-      "en": {
-        "word": "Business jet",
-        "aliases": [],
-        "hints": {
-          "easy": "Private",
-          "normal": "Direct",
-          "hard": "Executive"
         }
       }
     }
@@ -1698,17 +1176,6 @@
           "normal": "Termik",
           "hard": "Bogsering"
         }
-      },
-      "en": {
-        "word": "Glider",
-        "aliases": [
-          "Sailplane"
-        ],
-        "hints": {
-          "easy": "Unpowered",
-          "normal": "Thermals",
-          "hard": "Towing"
-        }
       }
     }
   },
@@ -1729,15 +1196,6 @@
           "easy": "Brännare",
           "normal": "Korg",
           "hard": "Lyftkraft"
-        }
-      },
-      "en": {
-        "word": "Hot-air balloon",
-        "aliases": [],
-        "hints": {
-          "easy": "Burner",
-          "normal": "Basket",
-          "hard": "Buoyancy"
         }
       }
     }
@@ -1760,17 +1218,6 @@
           "normal": "Helium",
           "hard": "Gondol"
         }
-      },
-      "en": {
-        "word": "Airship",
-        "aliases": [
-          "Dirigible"
-        ],
-        "hints": {
-          "easy": "Zeppelin",
-          "normal": "Helium",
-          "hard": "Gondola"
-        }
       }
     }
   },
@@ -1792,15 +1239,6 @@
           "normal": "Radiosond",
           "hard": "Atmosfär"
         }
-      },
-      "en": {
-        "word": "Weather balloon",
-        "aliases": [],
-        "hints": {
-          "easy": "Meteorology",
-          "normal": "Radiosonde",
-          "hard": "Atmosphere"
-        }
       }
     }
   },
@@ -1821,15 +1259,6 @@
           "easy": "Förankring",
           "normal": "Helium",
           "hard": "Spaning"
-        }
-      },
-      "en": {
-        "word": "Tethered aerostat",
-        "aliases": [],
-        "hints": {
-          "easy": "Anchor",
-          "normal": "Helium",
-          "hard": "Surveillance"
         }
       }
     }
@@ -1854,15 +1283,6 @@
           "normal": "Vatten",
           "hard": "Landning"
         }
-      },
-      "en": {
-        "word": "Floatplane",
-        "aliases": [],
-        "hints": {
-          "easy": "Floats",
-          "normal": "Water",
-          "hard": "Landing"
-        }
       }
     }
   },
@@ -1883,15 +1303,6 @@
           "easy": "Båtskrov",
           "normal": "Sjölandning",
           "hard": "Amfibisk"
-        }
-      },
-      "en": {
-        "word": "Flying boat",
-        "aliases": [],
-        "hints": {
-          "easy": "Hull",
-          "normal": "Landing",
-          "hard": "Amphibious"
         }
       }
     }
@@ -1914,15 +1325,6 @@
           "normal": "Tank",
           "hard": "Tömning"
         }
-      },
-      "en": {
-        "word": "Water bomber",
-        "aliases": [],
-        "hints": {
-          "easy": "Wildfire",
-          "normal": "Tank",
-          "hard": "Drop"
-        }
       }
     }
   },
@@ -1943,15 +1345,6 @@
           "easy": "Dubbla",
           "normal": "Vingar",
           "hard": "Stag"
-        }
-      },
-      "en": {
-        "word": "Biplane",
-        "aliases": [],
-        "hints": {
-          "easy": "Double",
-          "normal": "Wings",
-          "hard": "Bracing"
         }
       }
     }
@@ -1976,17 +1369,6 @@
           "normal": "Rotor",
           "hard": "Autorotation"
         }
-      },
-      "en": {
-        "word": "Autogyro",
-        "aliases": [
-          "Gyrocopter"
-        ],
-        "hints": {
-          "easy": "Freewheeling",
-          "normal": "Rotor",
-          "hard": "Autorotation"
-        }
       }
     }
   },
@@ -2007,15 +1389,6 @@
           "easy": "Propellrar",
           "normal": "Vridning",
           "hard": "Vertikalt"
-        }
-      },
-      "en": {
-        "word": "Tiltrotor aircraft",
-        "aliases": [],
-        "hints": {
-          "easy": "Propellers",
-          "normal": "Rotation",
-          "hard": "Vertical"
         }
       }
     }
@@ -2038,15 +1411,6 @@
           "normal": "Fågellik",
           "hard": "Vingar"
         }
-      },
-      "en": {
-        "word": "Ornithopter",
-        "aliases": [],
-        "hints": {
-          "easy": "Flapping",
-          "normal": "Bird",
-          "hard": "Wings"
-        }
       }
     }
   },
@@ -2067,15 +1431,6 @@
           "easy": "Raketmotor",
           "normal": "Experiment",
           "hard": "Hastighet"
-        }
-      },
-      "en": {
-        "word": "Rocket-powered aircraft",
-        "aliases": [],
-        "hints": {
-          "easy": "Rocket",
-          "normal": "Experiment",
-          "hard": "Speed"
         }
       }
     }
@@ -2098,15 +1453,6 @@
           "normal": "Fjärrstyrning",
           "hard": "Kamera"
         }
-      },
-      "en": {
-        "word": "Camera drone",
-        "aliases": [],
-        "hints": {
-          "easy": "Aerial",
-          "normal": "Remote",
-          "hard": "Camera"
-        }
       }
     }
   },
@@ -2127,17 +1473,6 @@
           "easy": "Bekämpning",
           "normal": "Grödor",
           "hard": "Lågflygning"
-        }
-      },
-      "en": {
-        "word": "Crop duster",
-        "aliases": [
-          "Crop dusting aircraft"
-        ],
-        "hints": {
-          "easy": "Spraying",
-          "normal": "Crops",
-          "hard": "Low"
         }
       }
     }
@@ -2160,15 +1495,6 @@
           "normal": "Muskelkraft",
           "hard": "Lättvikt"
         }
-      },
-      "en": {
-        "word": "Human-powered aircraft",
-        "aliases": [],
-        "hints": {
-          "easy": "Pedals",
-          "normal": "Muscle",
-          "hard": "Lightweight"
-        }
       }
     }
   },
@@ -2189,15 +1515,6 @@
           "easy": "Glidflygning",
           "normal": "Sele",
           "hard": "Triangel"
-        }
-      },
-      "en": {
-        "word": "Hang glider",
-        "aliases": [],
-        "hints": {
-          "easy": "Gliding",
-          "normal": "Harness",
-          "hard": "Triangle"
         }
       }
     }
@@ -2220,15 +1537,6 @@
           "normal": "Vattenyta",
           "hard": "Låghöjd"
         }
-      },
-      "en": {
-        "word": "Ground-effect vehicle",
-        "aliases": [],
-        "hints": {
-          "easy": "Lift",
-          "normal": "Surface",
-          "hard": "Altitude"
-        }
       }
     }
   },
@@ -2248,15 +1556,6 @@
         "hints": {
           "easy": "Concorde",
           "normal": "Ljudvall",
-          "hard": "Mach"
-        }
-      },
-      "en": {
-        "word": "Supersonic transport",
-        "aliases": [],
-        "hints": {
-          "easy": "Concorde",
-          "normal": "Barrier",
           "hard": "Mach"
         }
       }
@@ -2280,15 +1579,6 @@
           "normal": "Last",
           "hard": "Lyftkrok"
         }
-      },
-      "en": {
-        "word": "Aerial crane",
-        "aliases": [],
-        "hints": {
-          "easy": "Airlift",
-          "normal": "Cargo",
-          "hard": "Hook"
-        }
       }
     }
   },
@@ -2309,15 +1599,6 @@
           "easy": "Tre",
           "normal": "Vingar",
           "hard": "Staplade"
-        }
-      },
-      "en": {
-        "word": "Triplane",
-        "aliases": [],
-        "hints": {
-          "easy": "Three",
-          "normal": "Wings",
-          "hard": "Stacked"
         }
       }
     }
@@ -2340,15 +1621,6 @@
           "normal": "Kol",
           "hard": "Skorsten"
         }
-      },
-      "en": {
-        "word": "Steam locomotive",
-        "aliases": [],
-        "hints": {
-          "easy": "Steam",
-          "normal": "Coal",
-          "hard": "Chimney"
-        }
       }
     }
   },
@@ -2369,15 +1641,6 @@
           "easy": "Ström",
           "normal": "Kontaktledning",
           "hard": "Strömavtagare"
-        }
-      },
-      "en": {
-        "word": "Electric locomotive",
-        "aliases": [],
-        "hints": {
-          "easy": "Electricity",
-          "normal": "Catenary",
-          "hard": "Pantograph"
         }
       }
     }
@@ -2400,15 +1663,6 @@
           "normal": "Motor",
           "hard": "Avgaser"
         }
-      },
-      "en": {
-        "word": "Diesel locomotive",
-        "aliases": [],
-        "hints": {
-          "easy": "Fuel",
-          "normal": "Motor",
-          "hard": "Exhaust"
-        }
       }
     }
   },
@@ -2429,15 +1683,6 @@
           "easy": "Snabbt",
           "normal": "Shinkansen",
           "hard": "Aerodynamik"
-        }
-      },
-      "en": {
-        "word": "High-speed train",
-        "aliases": [],
-        "hints": {
-          "easy": "Fast",
-          "normal": "Shinkansen",
-          "hard": "Aerodynamics"
         }
       }
     }
@@ -2460,17 +1705,6 @@
           "normal": "Svävning",
           "hard": "Friktion"
         }
-      },
-      "en": {
-        "word": "Maglev train",
-        "aliases": [
-          "Maglev"
-        ],
-        "hints": {
-          "easy": "Magnets",
-          "normal": "Levitation",
-          "hard": "Friction"
-        }
       }
     }
   },
@@ -2491,17 +1725,6 @@
           "easy": "Stadsgator",
           "normal": "Räls",
           "hard": "Hållplats"
-        }
-      },
-      "en": {
-        "word": "Tram",
-        "aliases": [
-          "Streetcar"
-        ],
-        "hints": {
-          "easy": "Streets",
-          "normal": "Rails",
-          "hard": "Stop"
         }
       }
     }
@@ -2524,18 +1747,6 @@
           "normal": "Perrong",
           "hard": "Storstad"
         }
-      },
-      "en": {
-        "word": "Subway train",
-        "aliases": [
-          "Metro train",
-          "Underground train"
-        ],
-        "hints": {
-          "easy": "Tunnel",
-          "normal": "Platform",
-          "hard": "Metropolis"
-        }
       }
     }
   },
@@ -2556,15 +1767,6 @@
           "easy": "Enkelspår",
           "normal": "Upphöjt",
           "hard": "Balk"
-        }
-      },
-      "en": {
-        "word": "Monorail",
-        "aliases": [],
-        "hints": {
-          "easy": "Rail",
-          "normal": "Elevated",
-          "hard": "Beam"
         }
       }
     }
@@ -2587,15 +1789,6 @@
           "normal": "Lättvikt",
           "hard": "Landsbygd"
         }
-      },
-      "en": {
-        "word": "Railbus",
-        "aliases": [],
-        "hints": {
-          "easy": "Rails",
-          "normal": "Lightweight",
-          "hard": "Rural"
-        }
       }
     }
   },
@@ -2616,17 +1809,6 @@
           "easy": "Brant",
           "normal": "Vajer",
           "hard": "Motvikt"
-        }
-      },
-      "en": {
-        "word": "Funicular",
-        "aliases": [
-          "Funicular railway"
-        ],
-        "hints": {
-          "easy": "Steep",
-          "normal": "Cable",
-          "hard": "Counterweight"
         }
       }
     }
@@ -2649,15 +1831,6 @@
           "normal": "Berg",
           "hard": "Räls"
         }
-      },
-      "en": {
-        "word": "Rack railway train",
-        "aliases": [],
-        "hints": {
-          "easy": "Teeth",
-          "normal": "Mountain",
-          "hard": "Rails"
-        }
       }
     }
   },
@@ -2678,15 +1851,6 @@
           "easy": "Vajer",
           "normal": "Grepp",
           "hard": "Kuperat"
-        }
-      },
-      "en": {
-        "word": "Cable tram",
-        "aliases": [],
-        "hints": {
-          "easy": "Cable",
-          "normal": "Grip",
-          "hard": "Hilly"
         }
       }
     }
@@ -2711,17 +1875,6 @@
           "normal": "Räls",
           "hard": "Utflykt"
         }
-      },
-      "en": {
-        "word": "Railbike",
-        "aliases": [
-          "Rail bike"
-        ],
-        "hints": {
-          "easy": "Pedals",
-          "normal": "Rails",
-          "hard": "Outing"
-        }
       }
     }
   },
@@ -2742,17 +1895,6 @@
           "easy": "Säng",
           "normal": "Natt",
           "hard": "Kupé"
-        }
-      },
-      "en": {
-        "word": "Sleeping car",
-        "aliases": [
-          "Sleeper car"
-        ],
-        "hints": {
-          "easy": "Bed",
-          "normal": "Night",
-          "hard": "Compartment"
         }
       }
     }
@@ -2775,15 +1917,6 @@
           "normal": "Bord",
           "hard": "Servering"
         }
-      },
-      "en": {
-        "word": "Dining car",
-        "aliases": [],
-        "hints": {
-          "easy": "Meal",
-          "normal": "Table",
-          "hard": "Service"
-        }
       }
     }
   },
@@ -2804,15 +1937,6 @@
           "easy": "Utsikt",
           "normal": "Panoramafönster",
           "hard": "Landskap"
-        }
-      },
-      "en": {
-        "word": "Observation car",
-        "aliases": [],
-        "hints": {
-          "easy": "View",
-          "normal": "Windows",
-          "hard": "Scenery"
         }
       }
     }
@@ -2835,15 +1959,6 @@
           "normal": "Sortering",
           "hard": "Brev"
         }
-      },
-      "en": {
-        "word": "Railway post office",
-        "aliases": [],
-        "hints": {
-          "easy": "Mail",
-          "normal": "Sorting",
-          "hard": "Letters"
-        }
       }
     }
   },
@@ -2864,17 +1979,6 @@
           "easy": "Vätska",
           "normal": "Järnväg",
           "hard": "Frakt"
-        }
-      },
-      "en": {
-        "word": "Tank car",
-        "aliases": [
-          "Rail tanker"
-        ],
-        "hints": {
-          "easy": "Liquid",
-          "normal": "Rail",
-          "hard": "Freight"
         }
       }
     }
@@ -2897,15 +2001,6 @@
           "normal": "Gravitation",
           "hard": "Spannmål"
         }
-      },
-      "en": {
-        "word": "Hopper wagon",
-        "aliases": [],
-        "hints": {
-          "easy": "Hatch",
-          "normal": "Gravity",
-          "hard": "Grain"
-        }
       }
     }
   },
@@ -2926,15 +2021,6 @@
           "easy": "Biltransport",
           "normal": "Järnväg",
           "hard": "Våningar"
-        }
-      },
-      "en": {
-        "word": "Autorack",
-        "aliases": [],
-        "hints": {
-          "easy": "Automobiles",
-          "normal": "Rail",
-          "hard": "Decks"
         }
       }
     }
@@ -2957,15 +2043,6 @@
           "normal": "Sliprar",
           "hard": "Vibration"
         }
-      },
-      "en": {
-        "word": "Track tamper",
-        "aliases": [],
-        "hints": {
-          "easy": "Ballast",
-          "normal": "Sleepers",
-          "hard": "Vibration"
-        }
       }
     }
   },
@@ -2986,15 +2063,6 @@
           "easy": "Räls",
           "normal": "Slipsten",
           "hard": "Gnistor"
-        }
-      },
-      "en": {
-        "word": "Rail grinding train",
-        "aliases": [],
-        "hints": {
-          "easy": "Rails",
-          "normal": "Wheel",
-          "hard": "Sparks"
         }
       }
     }
@@ -3019,17 +2087,6 @@
           "normal": "Rotor",
           "hard": "Kast"
         }
-      },
-      "en": {
-        "word": "Rotary snowplow",
-        "aliases": [
-          "Rotary snowplough"
-        ],
-        "hints": {
-          "easy": "Snow",
-          "normal": "Rotor",
-          "hard": "Throw"
-        }
       }
     }
   },
@@ -3050,15 +2107,6 @@
           "easy": "Grävning",
           "normal": "Vägdrift",
           "hard": "Räls"
-        }
-      },
-      "en": {
-        "word": "Road–rail excavator",
-        "aliases": [],
-        "hints": {
-          "easy": "Digging",
-          "normal": "Roadway",
-          "hard": "Rails"
         }
       }
     }
@@ -3081,17 +2129,6 @@
           "normal": "Bangård",
           "hard": "Koppling"
         }
-      },
-      "en": {
-        "word": "Switching locomotive",
-        "aliases": [
-          "Shunting locomotive"
-        ],
-        "hints": {
-          "easy": "Shunting",
-          "normal": "Railyard",
-          "hard": "Coupling"
-        }
       }
     }
   },
@@ -3112,15 +2149,6 @@
           "easy": "Grävning",
           "normal": "Skopa",
           "hard": "Grävarm"
-        }
-      },
-      "en": {
-        "word": "Excavator",
-        "aliases": [],
-        "hints": {
-          "easy": "Digging",
-          "normal": "Bucket",
-          "hard": "Boom"
         }
       }
     }
@@ -3143,15 +2171,6 @@
           "normal": "Schaktblad",
           "hard": "Larvband"
         }
-      },
-      "en": {
-        "word": "Bulldozer",
-        "aliases": [],
-        "hints": {
-          "easy": "Grading",
-          "normal": "Blade",
-          "hard": "Tracks"
-        }
       }
     }
   },
@@ -3172,15 +2191,6 @@
           "easy": "Materialhantering",
           "normal": "Skopa",
           "hard": "Midjestyrning"
-        }
-      },
-      "en": {
-        "word": "Wheel loader",
-        "aliases": [],
-        "hints": {
-          "easy": "Loading",
-          "normal": "Bucket",
-          "hard": "Articulation"
         }
       }
     }
@@ -3203,15 +2213,6 @@
           "normal": "Dubbelfunktion",
           "hard": "Stödben"
         }
-      },
-      "en": {
-        "word": "Backhoe loader",
-        "aliases": [],
-        "hints": {
-          "easy": "Bucket",
-          "normal": "Versatility",
-          "hard": "Stabilizers"
-        }
       }
     }
   },
@@ -3232,15 +2233,6 @@
           "easy": "Packning",
           "normal": "Trumma",
           "hard": "Asfalt"
-        }
-      },
-      "en": {
-        "word": "Road roller",
-        "aliases": [],
-        "hints": {
-          "easy": "Compaction",
-          "normal": "Drum",
-          "hard": "Asphalt"
         }
       }
     }
@@ -3263,15 +2255,6 @@
           "normal": "Matta",
           "hard": "Avjämning"
         }
-      },
-      "en": {
-        "word": "Asphalt paver",
-        "aliases": [],
-        "hints": {
-          "easy": "Paving",
-          "normal": "Mat",
-          "hard": "Screed"
-        }
       }
     }
   },
@@ -3292,17 +2275,6 @@
           "easy": "Fräsning",
           "normal": "Vägbana",
           "hard": "Tänder"
-        }
-      },
-      "en": {
-        "word": "Cold planer",
-        "aliases": [
-          "Pavement milling machine"
-        ],
-        "hints": {
-          "easy": "Milling",
-          "normal": "Roadway",
-          "hard": "Teeth"
         }
       }
     }
@@ -3325,15 +2297,6 @@
           "normal": "Vägbana",
           "hard": "Schaktblad"
         }
-      },
-      "en": {
-        "word": "Motor grader",
-        "aliases": [],
-        "hints": {
-          "easy": "Leveling",
-          "normal": "Roadway",
-          "hard": "Blade"
-        }
       }
     }
   },
@@ -3353,15 +2316,6 @@
         "hints": {
           "easy": "Jordmassor",
           "normal": "Skrapstål",
-          "hard": "Transport"
-        }
-      },
-      "en": {
-        "word": "Motor scraper",
-        "aliases": [],
-        "hints": {
-          "easy": "Earth",
-          "normal": "Blade",
           "hard": "Transport"
         }
       }
@@ -3385,15 +2339,6 @@
           "normal": "Kablar",
           "hard": "Kedja"
         }
-      },
-      "en": {
-        "word": "Trencher",
-        "aliases": [],
-        "hints": {
-          "easy": "Trench",
-          "normal": "Cables",
-          "hard": "Chain"
-        }
       }
     }
   },
@@ -3414,15 +2359,6 @@
           "easy": "Borrkrona",
           "normal": "Berg",
           "hard": "Borrsköld"
-        }
-      },
-      "en": {
-        "word": "Tunnel boring machine",
-        "aliases": [],
-        "hints": {
-          "easy": "Cutter",
-          "normal": "Rock",
-          "hard": "Shield"
         }
       }
     }
@@ -3445,17 +2381,6 @@
           "normal": "Lager",
           "hard": "Lyft"
         }
-      },
-      "en": {
-        "word": "Forklift",
-        "aliases": [
-          "Forklift truck"
-        ],
-        "hints": {
-          "easy": "Pallet",
-          "normal": "Warehouse",
-          "hard": "Lifting"
-        }
       }
     }
   },
@@ -3476,15 +2401,6 @@
           "easy": "Plattform",
           "normal": "Kryssarmar",
           "hard": "Höjd"
-        }
-      },
-      "en": {
-        "word": "Scissor lift",
-        "aliases": [],
-        "hints": {
-          "easy": "Platform",
-          "normal": "Crossbars",
-          "hard": "Height"
         }
       }
     }
@@ -3507,15 +2423,6 @@
           "normal": "Arbetsarm",
           "hard": "Räckvidd"
         }
-      },
-      "en": {
-        "word": "Boom lift",
-        "aliases": [],
-        "hints": {
-          "easy": "Basket",
-          "normal": "Arm",
-          "hard": "Reach"
-        }
       }
     }
   },
@@ -3536,15 +2443,6 @@
           "easy": "Lyft",
           "normal": "Krok",
           "hard": "Stödben"
-        }
-      },
-      "en": {
-        "word": "Mobile crane",
-        "aliases": [],
-        "hints": {
-          "easy": "Lifting",
-          "normal": "Hook",
-          "hard": "Outriggers"
         }
       }
     }
@@ -3567,15 +2465,6 @@
           "normal": "Terminal",
           "hard": "Högbent"
         }
-      },
-      "en": {
-        "word": "Straddle carrier",
-        "aliases": [],
-        "hints": {
-          "easy": "Containers",
-          "normal": "Terminal",
-          "hard": "Straddling"
-        }
       }
     }
   },
@@ -3596,15 +2485,6 @@
           "easy": "Åker",
           "normal": "Plog",
           "hard": "Dragkraft"
-        }
-      },
-      "en": {
-        "word": "Farm tractor",
-        "aliases": [],
-        "hints": {
-          "easy": "Field",
-          "normal": "Plow",
-          "hard": "Traction"
         }
       }
     }
@@ -3627,15 +2507,6 @@
           "normal": "Spannmål",
           "hard": "Skärbord"
         }
-      },
-      "en": {
-        "word": "Combine harvester",
-        "aliases": [],
-        "hints": {
-          "easy": "Threshing",
-          "normal": "Grain",
-          "hard": "Header"
-        }
       }
     }
   },
@@ -3656,15 +2527,6 @@
           "easy": "Ensilage",
           "normal": "Hackning",
           "hard": "Majs"
-        }
-      },
-      "en": {
-        "word": "Forage harvester",
-        "aliases": [],
-        "hints": {
-          "easy": "Silage",
-          "normal": "Chopping",
-          "hard": "Maize"
         }
       }
     }
@@ -3687,15 +2549,6 @@
           "normal": "Balar",
           "hard": "Bindgarn"
         }
-      },
-      "en": {
-        "word": "Baler",
-        "aliases": [],
-        "hints": {
-          "easy": "Hay",
-          "normal": "Bales",
-          "hard": "Twine"
-        }
       }
     }
   },
@@ -3716,15 +2569,6 @@
           "easy": "Trädfällning",
           "normal": "Kvistning",
           "hard": "Grip"
-        }
-      },
-      "en": {
-        "word": "Forestry harvester",
-        "aliases": [],
-        "hints": {
-          "easy": "Felling",
-          "normal": "Delimbing",
-          "hard": "Grapple"
         }
       }
     }
@@ -3747,15 +2591,6 @@
           "normal": "Lastning",
           "hard": "Skotning"
         }
-      },
-      "en": {
-        "word": "Forwarder",
-        "aliases": [],
-        "hints": {
-          "easy": "Logs",
-          "normal": "Loading",
-          "hard": "Transport"
-        }
       }
     }
   },
@@ -3776,15 +2611,6 @@
           "easy": "Timmer",
           "normal": "Släpning",
           "hard": "Vinsch"
-        }
-      },
-      "en": {
-        "word": "Skidder",
-        "aliases": [],
-        "hints": {
-          "easy": "Logs",
-          "normal": "Dragging",
-          "hard": "Winch"
         }
       }
     }
@@ -3807,15 +2633,6 @@
           "normal": "Preparering",
           "hard": "Larvband"
         }
-      },
-      "en": {
-        "word": "Snow groomer",
-        "aliases": [],
-        "hints": {
-          "easy": "Slope",
-          "normal": "Grooming",
-          "hard": "Tracks"
-        }
       }
     }
   },
@@ -3836,17 +2653,6 @@
           "easy": "Gruva",
           "normal": "Malm",
           "hard": "Lastkapacitet"
-        }
-      },
-      "en": {
-        "word": "Mining haul truck",
-        "aliases": [
-          "Mine haul truck"
-        ],
-        "hints": {
-          "easy": "Mine",
-          "normal": "Ore",
-          "hard": "Payload"
         }
       }
     }

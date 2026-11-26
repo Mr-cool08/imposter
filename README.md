@@ -1,6 +1,6 @@
 # Imposter Party
 
-**Lita inte på någon.** Ett ordspel för 3–20 personer som spelas i webbläsaren på en gemensam mobil. Svenska är standardspråk och engelska finns som alternativ.
+**Lita inte på någon.** Ett ordspel på svenska för 3–20 personer som spelas i webbläsaren på en gemensam mobil.
 
 1. Lägg till spelare och välj spelläge, kategorier och roller.
 2. Skicka runt mobilen. Varje spelare visar sitt privata kort och döljer det innan mobilen lämnas vidare.
@@ -68,6 +68,6 @@ På Linux kan appen även startas med `gunicorn --bind 127.0.0.1:5000 --workers 
 | Rollfördelning och spellägen | `data/rules.json`, `app/static/js/engine.mjs` och [motordokumentationen](docs/engine.md) |
 | Ord, kategorier och ordpar | `data/words/`, `data/category_parts/`, `data/pairs/` och [innehållsguiden](docs/content.md) |
 | Faktiska innehållsantal | [Innehållsrapporten](docs/content-report.md) |
-| Gränssnitt och språk | `app/templates/index.html`, `app/static/css/` och `data/i18n/` |
+| Gränssnitt och texter | `app/templates/index.html`, `app/static/css/` och `data/i18n/` |
 
 Flask levererar appen och JSON-filerna. Webbläsarens JavaScript delar ut roller, håller de pågående korten i arbetsminnet och visar dem efter spelarens aktiva val.

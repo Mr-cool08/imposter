@@ -1,26 +1,25 @@
 {
   "id": "technology",
   "names": {
-    "sv": "Teknologi",
-    "en": "Technology"
+    "sv": "Teknologi"
   },
   "icon": "🖥️",
   "subcategories": [
     {
       "id": "technology-software",
-      "names": {"sv": "Programvara och digitala begrepp", "en": "Software and digital concepts"}
+      "names": {"sv": "Programvara och digitala begrepp"}
     },
     {
       "id": "technology-computers",
-      "names": {"sv": "Datorer och tillbehör", "en": "Computers and peripherals"}
+      "names": {"sv": "Datorer och tillbehör"}
     },
     {
       "id": "technology-networking",
-      "names": {"sv": "Nätverk och anslutningar", "en": "Networks and connectivity"}
+      "names": {"sv": "Nätverk och anslutningar"}
     },
     {
       "id": "technology-electronics",
-      "names": {"sv": "Elektronik och komponenter", "en": "Electronics and components"}
+      "names": {"sv": "Elektronik och komponenter"}
     }
   ]
 }

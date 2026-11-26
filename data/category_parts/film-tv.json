@@ -1,37 +1,32 @@
 {
   "id": "film-tv",
   "names": {
-    "sv": "Film och serier",
-    "en": "Film and TV"
+    "sv": "Film och serier"
   },
   "icon": "🎬",
   "subcategories": [
     {
       "id": "film-tv-films",
       "names": {
-        "sv": "Filmer",
-        "en": "Films"
+        "sv": "Filmer"
       }
     },
     {
       "id": "film-tv-series",
       "names": {
-        "sv": "Tv-serier",
-        "en": "TV series"
+        "sv": "Tv-serier"
       }
     },
     {
       "id": "film-tv-characters",
       "names": {
-        "sv": "Rollfigurer",
-        "en": "Characters"
+        "sv": "Rollfigurer"
       }
     },
     {
       "id": "film-tv-production",
       "names": {
-        "sv": "Filmproduktion",
-        "en": "Film production"
+        "sv": "Filmproduktion"
       }
     }
   ]

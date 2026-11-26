@@ -1,44 +1,38 @@
 {
   "id": "minecraft",
   "names": {
-    "sv": "Minecraft",
-    "en": "Minecraft"
+    "sv": "Minecraft"
   },
   "icon": "🧱",
   "subcategories": [
     {
       "id": "minecraft-mobs",
       "names": {
-        "sv": "Varelser",
-        "en": "Mobs"
+        "sv": "Varelser"
       }
     },
     {
       "id": "minecraft-blocks",
       "names": {
-        "sv": "Block",
-        "en": "Blocks"
+        "sv": "Block"
       }
     },
     {
       "id": "minecraft-items",
       "names": {
-        "sv": "Föremål och förtrollningar",
-        "en": "Items and enchantments"
+        "sv": "Föremål och förtrollningar"
       }
     },
     {
       "id": "minecraft-biomes",
       "names": {
-        "sv": "Biomer",
-        "en": "Biomes"
+        "sv": "Biomer"
       }
     },
     {
       "id": "minecraft-structures",
       "names": {
-        "sv": "Strukturer",
-        "en": "Structures"
+        "sv": "Strukturer"
       }
     }
   ]

@@ -2,44 +2,38 @@
   {
     "id": "clash-royale",
     "names": {
-      "sv": "Clash Royale",
-      "en": "Clash Royale"
+      "sv": "Clash Royale"
     },
     "icon": "♜",
     "subcategories": [
       {
         "id": "clash-royale-troops",
         "names": {
-          "sv": "Trupper",
-          "en": "Troops"
+          "sv": "Trupper"
         }
       },
       {
         "id": "clash-royale-buildings",
         "names": {
-          "sv": "Byggnader",
-          "en": "Buildings"
+          "sv": "Byggnader"
         }
       },
       {
         "id": "clash-royale-spells",
         "names": {
-          "sv": "Trollformler",
-          "en": "Spells"
+          "sv": "Trollformler"
         }
       },
       {
         "id": "clash-royale-champions",
         "names": {
-          "sv": "Champions",
-          "en": "Champions"
+          "sv": "Champions"
         }
       },
       {
         "id": "clash-royale-tower-troops",
         "names": {
-          "sv": "Torntrupper",
-          "en": "Tower Troops"
+          "sv": "Torntrupper"
         }
       }
     ]
@@ -47,44 +41,38 @@
   {
     "id": "everyday",
     "names": {
-      "sv": "Vardagsföremål",
-      "en": "Everyday objects"
+      "sv": "Vardagsföremål"
     },
     "icon": "🧰",
     "subcategories": [
       {
         "id": "everyday-kitchen",
         "names": {
-          "sv": "Köksredskap",
-          "en": "Kitchen equipment"
+          "sv": "Köksredskap"
         }
       },
       {
         "id": "everyday-workshop",
         "names": {
-          "sv": "Hand- och elverktyg",
-          "en": "Hand and power tools"
+          "sv": "Hand- och elverktyg"
         }
       },
       {
         "id": "everyday-furniture",
         "names": {
-          "sv": "Möbler",
-          "en": "Furniture"
+          "sv": "Möbler"
         }
       },
       {
         "id": "everyday-office",
         "names": {
-          "sv": "Kontorsföremål",
-          "en": "Office equipment"
+          "sv": "Kontorsföremål"
         }
       },
       {
         "id": "everyday-garden",
         "names": {
-          "sv": "Trädgårdsredskap",
-          "en": "Garden equipment"
+          "sv": "Trädgårdsredskap"
         }
       }
     ]
@@ -92,65 +80,56 @@
   {
     "id": "food",
     "names": {
-      "sv": "Mat och dryck",
-      "en": "Food and drink"
+      "sv": "Mat och dryck"
     },
     "icon": "🍕",
     "subcategories": [
       {
         "id": "food-dishes",
         "names": {
-          "sv": "Maträtter",
-          "en": "Main dishes"
+          "sv": "Maträtter"
         }
       },
       {
         "id": "food-fruit",
         "names": {
-          "sv": "Frukt",
-          "en": "Fruit"
+          "sv": "Frukt"
         }
       },
       {
         "id": "food-vegetables",
         "names": {
-          "sv": "Grönsaker",
-          "en": "Vegetables"
+          "sv": "Grönsaker"
         }
       },
       {
         "id": "food-ingredients",
         "names": {
-          "sv": "Ingredienser och smaksättning",
-          "en": "Ingredients and condiments"
+          "sv": "Ingredienser och smaksättning"
         }
       },
       {
         "id": "food-baked-goods",
         "names": {
-          "sv": "Bakverk och bröd",
-          "en": "Baked goods and bread"
+          "sv": "Bakverk och bröd"
         }
       },
       {
         "id": "food-desserts",
         "names": {
-          "sv": "Efterrätter",
-          "en": "Desserts"
+          "sv": "Efterrätter"
         }
       },
       {
         "id": "food-snacks",
         "names": {
-          "sv": "Snacks och godis",
-          "en": "Snacks and candy"
+          "sv": "Snacks och godis"
         }
       },
       {
         "id": "food-drinks",
         "names": {
-          "sv": "Drycker",
-          "en": "Drinks"
+          "sv": "Drycker"
         }
       }
     ]
@@ -158,58 +137,50 @@
   {
     "id": "home-school-clothes",
     "names": {
-      "sv": "Hem, skola och kläder",
-      "en": "Home, school and clothes"
+      "sv": "Hem, skola och kläder"
     },
     "icon": "🏠",
     "subcategories": [
       {
         "id": "hsc-school-supplies",
         "names": {
-          "sv": "Skolsaker",
-          "en": "School supplies"
+          "sv": "Skolsaker"
         }
       },
       {
         "id": "hsc-rooms",
         "names": {
-          "sv": "Rum",
-          "en": "Rooms"
+          "sv": "Rum"
         }
       },
       {
         "id": "hsc-cleaning",
         "names": {
-          "sv": "Städning",
-          "en": "Cleaning"
+          "sv": "Städning"
         }
       },
       {
         "id": "hsc-laundry",
         "names": {
-          "sv": "Tvätt och klädvård",
-          "en": "Laundry and garment care"
+          "sv": "Tvätt och klädvård"
         }
       },
       {
         "id": "hsc-household",
         "names": {
-          "sv": "Badrum och hygien",
-          "en": "Bathroom and hygiene"
+          "sv": "Badrum och hygien"
         }
       },
       {
         "id": "hsc-clothing",
         "names": {
-          "sv": "Kläder",
-          "en": "Clothing"
+          "sv": "Kläder"
         }
       },
       {
         "id": "hsc-accessories",
         "names": {
-          "sv": "Accessoarer",
-          "en": "Accessories"
+          "sv": "Accessoarer"
         }
       }
     ]
@@ -217,51 +188,44 @@
   {
     "id": "occupations",
     "names": {
-      "sv": "Yrken",
-      "en": "Occupations"
+      "sv": "Yrken"
     },
     "icon": "💼",
     "subcategories": [
       {
         "id": "occupations-health",
         "names": {
-          "sv": "Vård och hälsa",
-          "en": "Care and health"
+          "sv": "Vård och hälsa"
         }
       },
       {
         "id": "occupations-public",
         "names": {
-          "sv": "Samhälle och utbildning",
-          "en": "Public service and education"
+          "sv": "Samhälle och utbildning"
         }
       },
       {
         "id": "occupations-trades",
         "names": {
-          "sv": "Hantverk och bygg",
-          "en": "Trades and construction"
+          "sv": "Hantverk och bygg"
         }
       },
       {
         "id": "occupations-arts",
         "names": {
-          "sv": "Konst och medier",
-          "en": "Arts and media"
+          "sv": "Konst och medier"
         }
       },
       {
         "id": "occupations-service",
         "names": {
-          "sv": "Service och ekonomi",
-          "en": "Service and finance"
+          "sv": "Service och ekonomi"
         }
       },
       {
         "id": "occupations-land-food",
         "names": {
-          "sv": "Djur, odling och mat",
-          "en": "Animals, growing and food"
+          "sv": "Djur, odling och mat"
         }
       }
     ]
@@ -269,37 +233,32 @@
   {
     "id": "technology",
     "names": {
-      "sv": "Teknologi",
-      "en": "Technology"
+      "sv": "Teknologi"
     },
     "icon": "🖥️",
     "subcategories": [
       {
         "id": "technology-software",
         "names": {
-          "sv": "Programvara och digitala begrepp",
-          "en": "Software and digital concepts"
+          "sv": "Programvara och digitala begrepp"
         }
       },
       {
         "id": "technology-computers",
         "names": {
-          "sv": "Datorer och tillbehör",
-          "en": "Computers and peripherals"
+          "sv": "Datorer och tillbehör"
         }
       },
       {
         "id": "technology-networking",
         "names": {
-          "sv": "Nätverk och anslutningar",
-          "en": "Networks and connectivity"
+          "sv": "Nätverk och anslutningar"
         }
       },
       {
         "id": "technology-electronics",
         "names": {
-          "sv": "Elektronik och komponenter",
-          "en": "Electronics and components"
+          "sv": "Elektronik och komponenter"
         }
       }
     ]
@@ -307,37 +266,32 @@
   {
     "id": "travel",
     "names": {
-      "sv": "Platser och resor",
-      "en": "Places and travel"
+      "sv": "Platser och resor"
     },
     "icon": "🌍",
     "subcategories": [
       {
         "id": "travel-countries",
         "names": {
-          "sv": "Länder",
-          "en": "Countries"
+          "sv": "Länder"
         }
       },
       {
         "id": "travel-cities",
         "names": {
-          "sv": "Städer",
-          "en": "Cities"
+          "sv": "Städer"
         }
       },
       {
         "id": "travel-landmarks",
         "names": {
-          "sv": "Sevärdheter",
-          "en": "Landmarks"
+          "sv": "Sevärdheter"
         }
       },
       {
         "id": "travel-gear",
         "names": {
-          "sv": "Resesaker",
-          "en": "Travel items"
+          "sv": "Resesaker"
         }
       }
     ]
@@ -345,37 +299,32 @@
   {
     "id": "film-tv",
     "names": {
-      "sv": "Film och serier",
-      "en": "Film and TV"
+      "sv": "Film och serier"
     },
     "icon": "🎬",
     "subcategories": [
       {
         "id": "film-tv-films",
         "names": {
-          "sv": "Filmer",
-          "en": "Films"
+          "sv": "Filmer"
         }
       },
       {
         "id": "film-tv-series",
         "names": {
-          "sv": "Tv-serier",
-          "en": "TV series"
+          "sv": "Tv-serier"
         }
       },
       {
         "id": "film-tv-characters",
         "names": {
-          "sv": "Rollfigurer",
-          "en": "Characters"
+          "sv": "Rollfigurer"
         }
       },
       {
         "id": "film-tv-production",
         "names": {
-          "sv": "Filmproduktion",
-          "en": "Film production"
+          "sv": "Filmproduktion"
         }
       }
     ]
@@ -383,37 +332,32 @@
   {
     "id": "games",
     "names": {
-      "sv": "Spel",
-      "en": "Games"
+      "sv": "Spel"
     },
     "icon": "🎮",
     "subcategories": [
       {
         "id": "games-titles",
         "names": {
-          "sv": "Speltitlar",
-          "en": "Game Titles"
+          "sv": "Speltitlar"
         }
       },
       {
         "id": "games-characters",
         "names": {
-          "sv": "Karaktärer",
-          "en": "Characters"
+          "sv": "Karaktärer"
         }
       },
       {
         "id": "games-items",
         "names": {
-          "sv": "Föremål och krafter",
-          "en": "Items and Power-ups"
+          "sv": "Föremål och krafter"
         }
       },
       {
         "id": "games-concepts",
         "names": {
-          "sv": "Spelbegrepp",
-          "en": "Gaming Concepts"
+          "sv": "Spelbegrepp"
         }
       }
     ]
@@ -421,44 +365,38 @@
   {
     "id": "minecraft",
     "names": {
-      "sv": "Minecraft",
-      "en": "Minecraft"
+      "sv": "Minecraft"
     },
     "icon": "🧱",
     "subcategories": [
       {
         "id": "minecraft-mobs",
         "names": {
-          "sv": "Varelser",
-          "en": "Mobs"
+          "sv": "Varelser"
         }
       },
       {
         "id": "minecraft-blocks",
         "names": {
-          "sv": "Block",
-          "en": "Blocks"
+          "sv": "Block"
         }
       },
       {
         "id": "minecraft-items",
         "names": {
-          "sv": "Föremål och förtrollningar",
-          "en": "Items and enchantments"
+          "sv": "Föremål och förtrollningar"
         }
       },
       {
         "id": "minecraft-biomes",
         "names": {
-          "sv": "Biomer",
-          "en": "Biomes"
+          "sv": "Biomer"
         }
       },
       {
         "id": "minecraft-structures",
         "names": {
-          "sv": "Strukturer",
-          "en": "Structures"
+          "sv": "Strukturer"
         }
       }
     ]
@@ -466,65 +404,56 @@
   {
     "id": "music",
     "names": {
-      "sv": "Musik",
-      "en": "Music"
+      "sv": "Musik"
     },
     "icon": "🎵",
     "subcategories": [
       {
         "id": "music-strings",
         "names": {
-          "sv": "Stränginstrument",
-          "en": "String instruments"
+          "sv": "Stränginstrument"
         }
       },
       {
         "id": "music-wind",
         "names": {
-          "sv": "Blåsinstrument",
-          "en": "Wind instruments"
+          "sv": "Blåsinstrument"
         }
       },
       {
         "id": "music-keys",
         "names": {
-          "sv": "Tangentinstrument",
-          "en": "Keyboard instruments"
+          "sv": "Tangentinstrument"
         }
       },
       {
         "id": "music-percussion",
         "names": {
-          "sv": "Slagverk",
-          "en": "Percussion"
+          "sv": "Slagverk"
         }
       },
       {
         "id": "music-styles",
         "names": {
-          "sv": "Musikstilar",
-          "en": "Music genres"
+          "sv": "Musikstilar"
         }
       },
       {
         "id": "music-songwriting",
         "names": {
-          "sv": "Låtdelar och musikformer",
-          "en": "Song sections and forms"
+          "sv": "Låtdelar och musikformer"
         }
       },
       {
         "id": "music-theory",
         "names": {
-          "sv": "Musikteori",
-          "en": "Music theory"
+          "sv": "Musikteori"
         }
       },
       {
         "id": "music-performance",
         "names": {
-          "sv": "Noter och framförande",
-          "en": "Notation and performance"
+          "sv": "Noter och framförande"
         }
       }
     ]
@@ -532,37 +461,32 @@
   {
     "id": "nature",
     "names": {
-      "sv": "Natur",
-      "en": "Nature"
+      "sv": "Natur"
     },
     "icon": "🌿",
     "subcategories": [
       {
         "id": "nature-landscape",
         "names": {
-          "sv": "Landskap",
-          "en": "Landscapes"
+          "sv": "Landskap"
         }
       },
       {
         "id": "nature-weather",
         "names": {
-          "sv": "Väder",
-          "en": "Weather"
+          "sv": "Väder"
         }
       },
       {
         "id": "nature-plants",
         "names": {
-          "sv": "Växter",
-          "en": "Plants"
+          "sv": "Växter"
         }
       },
       {
         "id": "nature-phenomena",
         "names": {
-          "sv": "Naturfenomen",
-          "en": "Natural phenomena"
+          "sv": "Naturfenomen"
         }
       }
     ]
@@ -570,51 +494,44 @@
   {
     "id": "animals",
     "names": {
-      "sv": "Djur",
-      "en": "Animals"
+      "sv": "Djur"
     },
     "icon": "🐾",
     "subcategories": [
       {
         "id": "animals-domestic",
         "names": {
-          "sv": "Husdjur och lantbruksdjur",
-          "en": "Pets and farm animals"
+          "sv": "Husdjur och lantbruksdjur"
         }
       },
       {
         "id": "animals-land-mammals",
         "names": {
-          "sv": "Vilda landdäggdjur",
-          "en": "Wild land mammals"
+          "sv": "Vilda landdäggdjur"
         }
       },
       {
         "id": "animals-birds",
         "names": {
-          "sv": "Fåglar",
-          "en": "Birds"
+          "sv": "Fåglar"
         }
       },
       {
         "id": "animals-aquatic",
         "names": {
-          "sv": "Fiskar och andra vattendjur",
-          "en": "Fish and other aquatic animals"
+          "sv": "Fiskar och andra vattendjur"
         }
       },
       {
         "id": "animals-reptiles-amphibians",
         "names": {
-          "sv": "Reptiler och groddjur",
-          "en": "Reptiles and amphibians"
+          "sv": "Reptiler och groddjur"
         }
       },
       {
         "id": "animals-invertebrates",
         "names": {
-          "sv": "Insekter och andra smådjur",
-          "en": "Insects and other invertebrates"
+          "sv": "Insekter och andra smådjur"
         }
       }
     ]
@@ -622,37 +539,32 @@
   {
     "id": "sports",
     "names": {
-      "sv": "Sport och fritid",
-      "en": "Sports and leisure"
+      "sv": "Sport och fritid"
     },
     "icon": "🏅",
     "subcategories": [
       {
         "id": "sports-disciplines",
         "names": {
-          "sv": "Sporter och grenar",
-          "en": "Sports and disciplines"
+          "sv": "Sporter och grenar"
         }
       },
       {
         "id": "sports-equipment",
         "names": {
-          "sv": "Utrustning och arenor",
-          "en": "Equipment and venues"
+          "sv": "Utrustning och arenor"
         }
       },
       {
         "id": "sports-play",
         "names": {
-          "sv": "Spelmoment och tävling",
-          "en": "Plays and competition"
+          "sv": "Spelmoment och tävling"
         }
       },
       {
         "id": "sports-leisure",
         "names": {
-          "sv": "Fritid och träning",
-          "en": "Leisure and exercise"
+          "sv": "Fritid och träning"
         }
       }
     ]
@@ -660,44 +572,38 @@
   {
     "id": "vehicles",
     "names": {
-      "sv": "Fordon",
-      "en": "Vehicles"
+      "sv": "Fordon"
     },
     "icon": "🚚",
     "subcategories": [
       {
         "id": "vehicles-road",
         "names": {
-          "sv": "Vägfordon",
-          "en": "Road vehicles"
+          "sv": "Vägfordon"
         }
       },
       {
         "id": "vehicles-water",
         "names": {
-          "sv": "Båtar och fartyg",
-          "en": "Boats and ships"
+          "sv": "Båtar och fartyg"
         }
       },
       {
         "id": "vehicles-air",
         "names": {
-          "sv": "Luftfarkoster",
-          "en": "Aircraft"
+          "sv": "Luftfarkoster"
         }
       },
       {
         "id": "vehicles-rail",
         "names": {
-          "sv": "Spårfordon",
-          "en": "Rail vehicles"
+          "sv": "Spårfordon"
         }
       },
       {
         "id": "vehicles-work",
         "names": {
-          "sv": "Arbetsmaskiner",
-          "en": "Work machines"
+          "sv": "Arbetsmaskiner"
         }
       }
     ]

@@ -1,37 +1,32 @@
 {
   "id": "travel",
   "names": {
-    "sv": "Platser och resor",
-    "en": "Places and travel"
+    "sv": "Platser och resor"
   },
   "icon": "🌍",
   "subcategories": [
     {
       "id": "travel-countries",
       "names": {
-        "sv": "Länder",
-        "en": "Countries"
+        "sv": "Länder"
       }
     },
     {
       "id": "travel-cities",
       "names": {
-        "sv": "Städer",
-        "en": "Cities"
+        "sv": "Städer"
       }
     },
     {
       "id": "travel-landmarks",
       "names": {
-        "sv": "Sevärdheter",
-        "en": "Landmarks"
+        "sv": "Sevärdheter"
       }
     },
     {
       "id": "travel-gear",
       "names": {
-        "sv": "Resesaker",
-        "en": "Travel items"
+        "sv": "Resesaker"
       }
     }
   ]

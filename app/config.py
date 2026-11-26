@@ -31,6 +31,6 @@ def load_config() -> dict:
     load_dotenv(ROOT / ".env")
     return {
         "APP_NAME": os.getenv("APP_NAME", "Imposter Party"),
-        "SLOGANS": {"sv": "Lita inte på någon", "en": "Trust no one"},
+        "SLOGANS": {"sv": "Lita inte på någon"},
         "DATA_DIR": ROOT / "data",
     }

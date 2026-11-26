@@ -19,17 +19,6 @@
           "normal": "Kassa",
           "hard": "Produktnummer"
         }
-      },
-      "en": {
-        "word": "barcode scanner",
-        "aliases": [
-          "barcode reader"
-        ],
-        "hints": {
-          "easy": "Code",
-          "normal": "Checkout",
-          "hard": "Widths"
-        }
       }
     }
   },
@@ -52,18 +41,6 @@
           "easy": "Kamera",
           "normal": "Överföring",
           "hard": "Bildserie"
-        }
-      },
-      "en": {
-        "word": "memory card reader",
-        "aliases": [
-          "SD card reader",
-          "card reader"
-        ],
-        "hints": {
-          "easy": "Camera",
-          "normal": "Transfer",
-          "hard": "Photos"
         }
       }
     }
@@ -88,18 +65,6 @@
           "normal": "Upplösning",
           "hard": "Bildfrekvens"
         }
-      },
-      "en": {
-        "word": "computer monitor",
-        "aliases": [
-          "monitor",
-          "computer display"
-        ],
-        "hints": {
-          "easy": "Picture",
-          "normal": "Resolution",
-          "hard": "Refresh"
-        }
       }
     }
   },
@@ -122,17 +87,6 @@
           "easy": "Pekare",
           "normal": "Rullhjul",
           "hard": "Underlag"
-        }
-      },
-      "en": {
-        "word": "computer mouse",
-        "aliases": [
-          "mouse"
-        ],
-        "hints": {
-          "easy": "Pointer",
-          "normal": "Wheel",
-          "hard": "Mousepad"
         }
       }
     }
@@ -157,18 +111,6 @@
           "normal": "Kärnor",
           "hard": "Transistorer"
         }
-      },
-      "en": {
-        "word": "processor",
-        "aliases": [
-          "CPU",
-          "central processing unit"
-        ],
-        "hints": {
-          "easy": "Instructions",
-          "normal": "Cores",
-          "hard": "Transistors"
-        }
       }
     }
   },
@@ -189,15 +131,6 @@
           "easy": "Tangentbord",
           "normal": "Skrivbord",
           "hard": "Expansionskort"
-        }
-      },
-      "en": {
-        "word": "desktop computer",
-        "aliases": [],
-        "hints": {
-          "easy": "Keyboard",
-          "normal": "Desk",
-          "hard": "Expansion"
         }
       }
     }
@@ -222,17 +155,6 @@
           "normal": "Kontakt",
           "hard": "Skärm"
         }
-      },
-      "en": {
-        "word": "DisplayPort",
-        "aliases": [
-          "DP"
-        ],
-        "hints": {
-          "easy": "Signal",
-          "normal": "Connector",
-          "hard": "Monitor"
-        }
       }
     }
   },
@@ -255,17 +177,6 @@
           "easy": "Tillbehör",
           "normal": "Laddning",
           "hard": "Sladdar"
-        }
-      },
-      "en": {
-        "word": "docking station",
-        "aliases": [
-          "laptop dock"
-        ],
-        "hints": {
-          "easy": "Peripherals",
-          "normal": "Charging",
-          "hard": "Cables"
         }
       }
     }
@@ -290,19 +201,6 @@
           "normal": "Port",
           "hard": "Presentation"
         }
-      },
-      "en": {
-        "word": "USB flash drive",
-        "aliases": [
-          "flash drive",
-          "thumb drive",
-          "USB stick"
-        ],
-        "hints": {
-          "easy": "Files",
-          "normal": "Port",
-          "hard": "Presentation"
-        }
       }
     }
   },
@@ -324,18 +222,6 @@
           "normal": "Överskrivning",
           "hard": "Ikon"
         }
-      },
-      "en": {
-        "word": "floppy disk",
-        "aliases": [
-          "floppy",
-          "diskette"
-        ],
-        "hints": {
-          "easy": "Storage",
-          "normal": "Overwriting",
-          "hard": "Icon"
-        }
       }
     }
   },
@@ -356,17 +242,6 @@
           "easy": "Rendering",
           "normal": "Texturer",
           "hard": "Fläktar"
-        }
-      },
-      "en": {
-        "word": "graphics card",
-        "aliases": [
-          "video card"
-        ],
-        "hints": {
-          "easy": "Rendering",
-          "normal": "Textures",
-          "hard": "Triangles"
         }
       }
     }
@@ -392,18 +267,6 @@
           "normal": "Läshuvud",
           "hard": "Magnetism"
         }
-      },
-      "en": {
-        "word": "hard disk drive",
-        "aliases": [
-          "HDD",
-          "mechanical hard drive"
-        ],
-        "hints": {
-          "easy": "Platters",
-          "normal": "Spindles",
-          "hard": "Magnetism"
-        }
       }
     }
   },
@@ -424,17 +287,6 @@
           "easy": "Metallribbor",
           "normal": "Värmeavgivning",
           "hard": "Flänsar"
-        }
-      },
-      "en": {
-        "word": "heat sink",
-        "aliases": [
-          "heatsink"
-        ],
-        "hints": {
-          "easy": "Fins",
-          "normal": "Cooling",
-          "hard": "Metal"
         }
       }
     }
@@ -459,17 +311,6 @@
           "normal": "Munstycken",
           "hard": "Utskrift"
         }
-      },
-      "en": {
-        "word": "ink cartridge",
-        "aliases": [
-          "printer ink cartridge"
-        ],
-        "hints": {
-          "easy": "Printer",
-          "normal": "Nozzles",
-          "hard": "Liquid"
-        }
       }
     }
   },
@@ -490,15 +331,6 @@
           "easy": "Bokstäver",
           "normal": "Mellanslag",
           "hard": "Fingrar"
-        }
-      },
-      "en": {
-        "word": "keyboard",
-        "aliases": [],
-        "hints": {
-          "easy": "Letters",
-          "normal": "Spacebar",
-          "hard": "Fingers"
         }
       }
     }
@@ -523,15 +355,6 @@
           "normal": "Knapparna",
           "hard": "Fingertoppen"
         }
-      },
-      "en": {
-        "word": "keycap",
-        "aliases": [],
-        "hints": {
-          "easy": "Mechanism",
-          "normal": "Swap",
-          "hard": "Letter"
-        }
       }
     }
   },
@@ -554,17 +377,6 @@
           "easy": "Tangentbord",
           "normal": "Signalerna",
           "hard": "Skrivbord"
-        }
-      },
-      "en": {
-        "word": "KVM switch",
-        "aliases": [
-          "KVM"
-        ],
-        "hints": {
-          "easy": "Keyboard",
-          "normal": "Signals",
-          "hard": "Systems"
         }
       }
     }
@@ -589,17 +401,6 @@
           "normal": "Ström",
           "hard": "Gångjärn"
         }
-      },
-      "en": {
-        "word": "laptop",
-        "aliases": [
-          "notebook computer"
-        ],
-        "hints": {
-          "easy": "Screen",
-          "normal": "Power",
-          "hard": "Hinge"
-        }
       }
     }
   },
@@ -620,15 +421,6 @@
           "easy": "Kamera",
           "normal": "Lagring",
           "hard": "Foton"
-        }
-      },
-      "en": {
-        "word": "memory card",
-        "aliases": [],
-        "hints": {
-          "easy": "Camera",
-          "normal": "Storage",
-          "hard": "Photos"
         }
       }
     }
@@ -653,17 +445,6 @@
           "normal": "Minnen",
           "hard": "Kopparspåren"
         }
-      },
-      "en": {
-        "word": "motherboard",
-        "aliases": [
-          "mainboard"
-        ],
-        "hints": {
-          "easy": "CPU",
-          "normal": "Expansion",
-          "hard": "Traces"
-        }
       }
     }
   },
@@ -685,18 +466,6 @@
         "hints": {
           "easy": "Laser",
           "normal": "Släde",
-          "hard": "Spiral"
-        }
-      },
-      "en": {
-        "word": "optical drive",
-        "aliases": [
-          "optical disc drive",
-          "disc drive"
-        ],
-        "hints": {
-          "easy": "Laser",
-          "normal": "Tray",
           "hard": "Spiral"
         }
       }
@@ -722,17 +491,6 @@
           "normal": "Komponentbyte",
           "hard": "Luftflödet"
         }
-      },
-      "en": {
-        "word": "computer case",
-        "aliases": [
-          "PC case"
-        ],
-        "hints": {
-          "easy": "Enclosure",
-          "normal": "Panel",
-          "hard": "Vents"
-        }
       }
     }
   },
@@ -755,18 +513,6 @@
           "easy": "Chassit",
           "normal": "Belastning",
           "hard": "Ramen"
-        }
-      },
-      "en": {
-        "word": "computer fan",
-        "aliases": [
-          "case fan",
-          "PC fan"
-        ],
-        "hints": {
-          "easy": "Blades",
-          "normal": "Speeds",
-          "hard": "Spinning"
         }
       }
     }
@@ -791,18 +537,6 @@
           "normal": "Moderkortet",
           "hard": "Komponenterna"
         }
-      },
-      "en": {
-        "word": "computer power supply",
-        "aliases": [
-          "PSU",
-          "power supply unit"
-        ],
-        "hints": {
-          "easy": "Internals",
-          "normal": "Motherboard",
-          "hard": "Wattage"
-        }
       }
     }
   },
@@ -823,15 +557,6 @@
           "easy": "Papper",
           "normal": "Bläck",
           "hard": "Utskriftskö"
-        }
-      },
-      "en": {
-        "word": "printer",
-        "aliases": [],
-        "hints": {
-          "easy": "Paper",
-          "normal": "Ink",
-          "hard": "Queue"
         }
       }
     }
@@ -856,17 +581,6 @@
           "normal": "Ström",
           "hard": "Flikar"
         }
-      },
-      "en": {
-        "word": "RAM",
-        "aliases": [
-          "random-access memory"
-        ],
-        "hints": {
-          "easy": "Workspace",
-          "normal": "Power",
-          "hard": "Tabs"
-        }
       }
     }
   },
@@ -889,17 +603,6 @@
           "easy": "Dokument",
           "normal": "Glasskiva",
           "hard": "Ljuslinje"
-        }
-      },
-      "en": {
-        "word": "scanner",
-        "aliases": [
-          "document scanner"
-        ],
-        "hints": {
-          "easy": "Documents",
-          "normal": "Glass",
-          "hard": "Light"
         }
       }
     }
@@ -925,17 +628,6 @@
           "normal": "Styrutrustning",
           "hard": "Varianterna"
         }
-      },
-      "en": {
-        "word": "serial port",
-        "aliases": [
-          "COM port"
-        ],
-        "hints": {
-          "easy": "Connection",
-          "normal": "Modems",
-          "hard": "Exposes"
-        }
       }
     }
   },
@@ -959,17 +651,6 @@
           "normal": "Starttid",
           "hard": "Tystnad"
         }
-      },
-      "en": {
-        "word": "solid-state drive",
-        "aliases": [
-          "SSD"
-        ],
-        "hints": {
-          "easy": "Storage",
-          "normal": "Booting",
-          "hard": "Silence"
-        }
       }
     }
   },
@@ -990,17 +671,6 @@
           "easy": "Ljudsignaler",
           "normal": "Högtalarna",
           "hard": "Kortplats"
-        }
-      },
-      "en": {
-        "word": "sound card",
-        "aliases": [
-          "audio card"
-        ],
-        "hints": {
-          "easy": "Recording",
-          "normal": "Speakers",
-          "hard": "Jacks"
         }
       }
     }
@@ -1025,17 +695,6 @@
           "normal": "Tryck",
           "hard": "Handstil"
         }
-      },
-      "en": {
-        "word": "stylus",
-        "aliases": [
-          "digital pen"
-        ],
-        "hints": {
-          "easy": "Touchscreen",
-          "normal": "Pressure",
-          "hard": "Handwriting"
-        }
       }
     }
   },
@@ -1056,17 +715,6 @@
           "easy": "Pekskärm",
           "normal": "Film",
           "hard": "Bokformat"
-        }
-      },
-      "en": {
-        "word": "tablet",
-        "aliases": [
-          "tablet computer"
-        ],
-        "hints": {
-          "easy": "Touchscreen",
-          "normal": "Films",
-          "hard": "Reading"
         }
       }
     }
@@ -1091,17 +739,6 @@
           "normal": "Ojämnheter",
           "hard": "Monteringen"
         }
-      },
-      "en": {
-        "word": "thermal paste",
-        "aliases": [
-          "thermal compound"
-        ],
-        "hints": {
-          "easy": "Smear",
-          "normal": "Microscopic",
-          "hard": "Dab"
-        }
       }
     }
   },
@@ -1124,15 +761,6 @@
           "easy": "Lager",
           "normal": "Plasttråd",
           "hard": "Brytas"
-        }
-      },
-      "en": {
-        "word": "3D printer",
-        "aliases": [],
-        "hints": {
-          "easy": "Layer",
-          "normal": "Nozzle",
-          "hard": "Temporary"
         }
       }
     }
@@ -1157,17 +785,6 @@
           "normal": "Sidorna",
           "hard": "Fäster"
         }
-      },
-      "en": {
-        "word": "toner cartridge",
-        "aliases": [
-          "laser toner cartridge"
-        ],
-        "hints": {
-          "easy": "Printer",
-          "normal": "Replaced",
-          "hard": "Fixes"
-        }
       }
     }
   },
@@ -1191,17 +808,6 @@
           "normal": "Fingrar",
           "hard": "Rektangel"
         }
-      },
-      "en": {
-        "word": "touchpad",
-        "aliases": [
-          "trackpad"
-        ],
-        "hints": {
-          "easy": "Pointer",
-          "normal": "Fingers",
-          "hard": "Rectangle"
-        }
       }
     }
   },
@@ -1224,15 +830,6 @@
           "easy": "Pekaren",
           "normal": "Enheten",
           "hard": "Förflyttningen"
-        }
-      },
-      "en": {
-        "word": "trackball",
-        "aliases": [],
-        "hints": {
-          "easy": "Ball",
-          "normal": "Base",
-          "hard": "Thumb"
         }
       }
     }
@@ -1258,17 +855,6 @@
           "normal": "Stänga",
           "hard": "Slocknar"
         }
-      },
-      "en": {
-        "word": "uninterruptible power supply",
-        "aliases": [
-          "UPS"
-        ],
-        "hints": {
-          "easy": "Computer",
-          "normal": "Save",
-          "hard": "Beep"
-        }
       }
     }
   },
@@ -1289,17 +875,6 @@
           "easy": "Anslutningar",
           "normal": "Tillbehör",
           "hard": "Kabel"
-        }
-      },
-      "en": {
-        "word": "USB hub",
-        "aliases": [
-          "USB splitter"
-        ],
-        "hints": {
-          "easy": "Connection",
-          "normal": "Accessories",
-          "hard": "Upstream"
         }
       }
     }
@@ -1324,18 +899,6 @@
           "normal": "Skruvar",
           "hard": "Uttaget"
         }
-      },
-      "en": {
-        "word": "VGA connector",
-        "aliases": [
-          "VGA plug",
-          "VGA"
-        ],
-        "hints": {
-          "easy": "Video",
-          "normal": "Screws",
-          "hard": "Analogue"
-        }
       }
     }
   },
@@ -1358,17 +921,6 @@
           "easy": "Videosamtal",
           "normal": "Skärm",
           "hard": "Lampa"
-        }
-      },
-      "en": {
-        "word": "webcam",
-        "aliases": [
-          "web camera"
-        ],
-        "hints": {
-          "easy": "Videoconference",
-          "normal": "Screen",
-          "hard": "Indicator"
         }
       }
     }
@@ -1393,17 +945,6 @@
           "normal": "Förbundna",
           "hard": "Mittspringa"
         }
-      },
-      "en": {
-        "word": "breadboard",
-        "aliases": [
-          "solderless breadboard"
-        ],
-        "hints": {
-          "easy": "Jumpers",
-          "normal": "Connect",
-          "hard": "Central"
-        }
       }
     }
   },
@@ -1424,15 +965,6 @@
           "easy": "Laddning",
           "normal": "Spänningstoppar",
           "hard": "Farad"
-        }
-      },
-      "en": {
-        "word": "capacitor",
-        "aliases": [],
-        "hints": {
-          "easy": "Conducting",
-          "normal": "Voltage",
-          "hard": "Capacity"
         }
       }
     }
@@ -1457,15 +989,6 @@
           "normal": "Elcentral",
           "hard": "Spak"
         }
-      },
-      "en": {
-        "word": "circuit breaker",
-        "aliases": [],
-        "hints": {
-          "easy": "Overcurrent",
-          "normal": "Panel",
-          "hard": "Lever"
-        }
       }
     }
   },
@@ -1488,18 +1011,6 @@
           "easy": "Antenn",
           "normal": "Mittledare",
           "hard": "Kopparspets"
-        }
-      },
-      "en": {
-        "word": "coaxial cable",
-        "aliases": [
-          "coax cable",
-          "coax"
-        ],
-        "hints": {
-          "easy": "Aerial",
-          "normal": "Conductor",
-          "hard": "Copper"
         }
       }
     }
@@ -1524,18 +1035,6 @@
           "normal": "Pluspolen",
           "hard": "Silverblank"
         }
-      },
-      "en": {
-        "word": "coin cell",
-        "aliases": [
-          "button battery",
-          "button cell"
-        ],
-        "hints": {
-          "easy": "Gadgets",
-          "normal": "Positive",
-          "hard": "Silvery"
-        }
       }
     }
   },
@@ -1559,17 +1058,6 @@
           "normal": "Styrkretsar",
           "hard": "Metallkapsel"
         }
-      },
-      "en": {
-        "word": "crystal oscillator",
-        "aliases": [
-          "quartz oscillator"
-        ],
-        "hints": {
-          "easy": "Provide",
-          "normal": "Clocks",
-          "hard": "Resonance"
-        }
       }
     }
   },
@@ -1590,15 +1078,6 @@
           "easy": "Riktning",
           "normal": "Växelström",
           "hard": "Katod"
-        }
-      },
-      "en": {
-        "word": "rectifier diode",
-        "aliases": [],
-        "hints": {
-          "easy": "Direction",
-          "normal": "Current",
-          "hard": "Stripe"
         }
       }
     }
@@ -1624,18 +1103,6 @@
           "normal": "Strömmen",
           "hard": "Animationer"
         }
-      },
-      "en": {
-        "word": "e-paper display",
-        "aliases": [
-          "electronic paper",
-          "e-ink display"
-        ],
-        "hints": {
-          "easy": "Particles",
-          "normal": "Image",
-          "hard": "Animations"
-        }
       }
     }
   },
@@ -1658,18 +1125,6 @@
           "easy": "Böcker",
           "normal": "Solljus",
           "hard": "Bibliotek"
-        }
-      },
-      "en": {
-        "word": "e-reader",
-        "aliases": [
-          "ebook reader",
-          "e-book reader"
-        ],
-        "hints": {
-          "easy": "Books",
-          "normal": "Sunlight",
-          "hard": "Library"
         }
       }
     }
@@ -1694,18 +1149,6 @@
           "normal": "Laddfodral",
           "hard": "Hörselgång"
         }
-      },
-      "en": {
-        "word": "earbuds",
-        "aliases": [
-          "earphones",
-          "in-ear headphones"
-        ],
-        "hints": {
-          "easy": "Ears",
-          "normal": "Charging",
-          "hard": "Earplug"
-        }
       }
     }
   },
@@ -1728,18 +1171,6 @@
           "easy": "Varning",
           "normal": "Timer",
           "hard": "Keramik"
-        }
-      },
-      "en": {
-        "word": "buzzer",
-        "aliases": [
-          "electric buzzer",
-          "piezo buzzer"
-        ],
-        "hints": {
-          "easy": "Warning",
-          "normal": "Timer",
-          "hard": "Ceramic"
         }
       }
     }
@@ -1764,15 +1195,6 @@
           "normal": "Ersättning",
           "hard": "Smälttråd"
         }
-      },
-      "en": {
-        "word": "fuse",
-        "aliases": [],
-        "hints": {
-          "easy": "Overcurrent",
-          "normal": "Replacement",
-          "hard": "Filament"
-        }
       }
     }
   },
@@ -1795,17 +1217,6 @@
           "easy": "Kabel",
           "normal": "Spelkonsol",
           "hard": "Bildsignal"
-        }
-      },
-      "en": {
-        "word": "HDMI",
-        "aliases": [
-          "HDMI connector"
-        ],
-        "hints": {
-          "easy": "Cable",
-          "normal": "Console",
-          "hard": "Signal"
         }
       }
     }
@@ -1830,17 +1241,6 @@
           "normal": "Ljud",
           "hard": "Bygel"
         }
-      },
-      "en": {
-        "word": "over-ear headphones",
-        "aliases": [
-          "circumaural headphones"
-        ],
-        "hints": {
-          "easy": "Earcups",
-          "normal": "Sound",
-          "hard": "Headband"
-        }
       }
     }
   },
@@ -1863,18 +1263,6 @@
           "easy": "Plaströr",
           "normal": "Isolerar",
           "hard": "Monteringen"
-        }
-      },
-      "en": {
-        "word": "heat-shrink tubing",
-        "aliases": [
-          "heat shrink tubing",
-          "heat shrink"
-        ],
-        "hints": {
-          "easy": "Contracts",
-          "normal": "Insulates",
-          "hard": "Loosely"
         }
       }
     }
@@ -1899,17 +1287,6 @@
           "normal": "Magnetfält",
           "hard": "Ström"
         }
-      },
-      "en": {
-        "word": "inductor",
-        "aliases": [
-          "coil"
-        ],
-        "hints": {
-          "easy": "Winding",
-          "normal": "Magnetism",
-          "hard": "Current"
-        }
       }
     }
   },
@@ -1932,17 +1309,6 @@
           "easy": "Halvledare",
           "normal": "Ljus",
           "hard": "Polaritet"
-        }
-      },
-      "en": {
-        "word": "light-emitting diode",
-        "aliases": [
-          "LED"
-        ],
-        "hints": {
-          "easy": "Semiconductor",
-          "normal": "Light",
-          "hard": "Polarity"
         }
       }
     }
@@ -1967,17 +1333,6 @@
           "normal": "Förhållande",
           "hard": "Laddningsbärare"
         }
-      },
-      "en": {
-        "word": "lithium-ion battery",
-        "aliases": [
-          "Li-ion battery"
-        ],
-        "hints": {
-          "easy": "Rechargeable",
-          "normal": "Energy",
-          "hard": "Carriers"
-        }
       }
     }
   },
@@ -1998,15 +1353,6 @@
           "easy": "Spänning",
           "normal": "Mätspets",
           "hard": "Ledning"
-        }
-      },
-      "en": {
-        "word": "multimeter",
-        "aliases": [],
-        "hints": {
-          "easy": "Resistance",
-          "normal": "Probe",
-          "hard": "Continuity"
         }
       }
     }
@@ -2031,18 +1377,6 @@
           "normal": "Brandvarnare",
           "hard": "Snäppfäste"
         }
-      },
-      "en": {
-        "word": "9-volt battery",
-        "aliases": [
-          "9V battery",
-          "nine-volt battery"
-        ],
-        "hints": {
-          "easy": "Rectangle",
-          "normal": "Alarm",
-          "hard": "Terminals"
-        }
       }
     }
   },
@@ -2066,17 +1400,6 @@
           "normal": "Bildpunkter",
           "hard": "Byggas"
         }
-      },
-      "en": {
-        "word": "OLED display",
-        "aliases": [
-          "organic light-emitting diode display"
-        ],
-        "hints": {
-          "easy": "Emit",
-          "normal": "Individual",
-          "hard": "Layers"
-        }
       }
     }
   },
@@ -2097,17 +1420,6 @@
           "easy": "Signal",
           "normal": "Störningar",
           "hard": "Tidbasen"
-        }
-      },
-      "en": {
-        "word": "oscilloscope",
-        "aliases": [
-          "scope"
-        ],
-        "hints": {
-          "easy": "Electrical",
-          "normal": "Trace",
-          "hard": "Horizontal"
         }
       }
     }
@@ -2130,15 +1442,6 @@
           "normal": "Fjärrkontroll",
           "hard": "Skugga"
         }
-      },
-      "en": {
-        "word": "photodiode",
-        "aliases": [],
-        "hints": {
-          "easy": "Semiconductor",
-          "normal": "Pulses",
-          "hard": "Reduces"
-        }
       }
     }
   },
@@ -2159,17 +1462,6 @@
           "easy": "Spänning",
           "normal": "Volymrattar",
           "hard": "Glidkontakt"
-        }
-      },
-      "en": {
-        "word": "potentiometer",
-        "aliases": [
-          "pot"
-        ],
-        "hints": {
-          "easy": "Resistor",
-          "normal": "Knobs",
-          "hard": "Sliding"
         }
       }
     }
@@ -2195,18 +1487,6 @@
           "normal": "Laddning",
           "hard": "Reserv"
         }
-      },
-      "en": {
-        "word": "power bank",
-        "aliases": [
-          "portable charger",
-          "battery pack"
-        ],
-        "hints": {
-          "easy": "Battery",
-          "normal": "Charging",
-          "hard": "Backup"
-        }
       }
     }
   },
@@ -2231,17 +1511,6 @@
           "normal": "Komponentben",
           "hard": "Förgrenat"
         }
-      },
-      "en": {
-        "word": "printed circuit board",
-        "aliases": [
-          "PCB"
-        ],
-        "hints": {
-          "easy": "Components",
-          "normal": "Soldered",
-          "hard": "Branching"
-        }
       }
     }
   },
@@ -2263,17 +1532,6 @@
           "normal": "Lins",
           "hard": "Bild"
         }
-      },
-      "en": {
-        "word": "projector",
-        "aliases": [
-          "video projector"
-        ],
-        "hints": {
-          "easy": "Wall",
-          "normal": "Lens",
-          "hard": "Image"
-        }
       }
     }
   },
@@ -2294,17 +1552,6 @@
           "easy": "Finger",
           "normal": "Fjäder",
           "hard": "Dörrklocka"
-        }
-      },
-      "en": {
-        "word": "push button",
-        "aliases": [
-          "pushbutton"
-        ],
-        "hints": {
-          "easy": "Finger",
-          "normal": "Spring",
-          "hard": "Doorbell"
         }
       }
     }
@@ -2330,17 +1577,6 @@
           "normal": "Känna",
           "hard": "Kontakterna"
         }
-      },
-      "en": {
-        "word": "reed switch",
-        "aliases": [
-          "magnetic reed switch"
-        ],
-        "hints": {
-          "easy": "Metal",
-          "normal": "Detect",
-          "hard": "Contacts"
-        }
       }
     }
   },
@@ -2363,17 +1599,6 @@
           "easy": "Magnetspole",
           "normal": "Kontakten",
           "hard": "Styrsignalen"
-        }
-      },
-      "en": {
-        "word": "electrical relay",
-        "aliases": [
-          "electromechanical relay"
-        ],
-        "hints": {
-          "easy": "Switch",
-          "normal": "Contacts",
-          "hard": "Separate"
         }
       }
     }
@@ -2398,17 +1623,6 @@
           "normal": "Kanal",
           "hard": "Soffkudde"
         }
-      },
-      "en": {
-        "word": "remote control",
-        "aliases": [
-          "TV remote"
-        ],
-        "hints": {
-          "easy": "Volume",
-          "normal": "Channel",
-          "hard": "Cushion"
-        }
       }
     }
   },
@@ -2431,15 +1645,6 @@
           "easy": "Begränsar",
           "normal": "Färgringar",
           "hard": "Egenskapen"
-        }
-      },
-      "en": {
-        "word": "resistor",
-        "aliases": [],
-        "hints": {
-          "easy": "Limits",
-          "normal": "Bands",
-          "hard": "Rating"
         }
       }
     }
@@ -2465,17 +1670,6 @@
           "normal": "Tala",
           "hard": "Riktningen"
         }
-      },
-      "en": {
-        "word": "rotary encoder",
-        "aliases": [
-          "shaft encoder"
-        ],
-        "hints": {
-          "easy": "Turning",
-          "normal": "Controller",
-          "hard": "Direction"
-        }
       }
     }
   },
@@ -2498,17 +1692,6 @@
           "easy": "Återkoppling",
           "normal": "Radiostyrd",
           "hard": "Korrigerar"
-        }
-      },
-      "en": {
-        "word": "servo motor",
-        "aliases": [
-          "servomotor"
-        ],
-        "hints": {
-          "easy": "Feedback",
-          "normal": "Rudder",
-          "hard": "Corrects"
         }
       }
     }
@@ -2533,17 +1716,6 @@
           "normal": "Väckarklockor",
           "hard": "Lysa"
         }
-      },
-      "en": {
-        "word": "seven-segment display",
-        "aliases": [
-          "7-segment display"
-        ],
-        "hints": {
-          "easy": "Lit",
-          "normal": "Clocks",
-          "hard": "Displaying"
-        }
       }
     }
   },
@@ -2567,15 +1739,6 @@
           "normal": "Kamera",
           "hard": "Hemskärm"
         }
-      },
-      "en": {
-        "word": "smartphone",
-        "aliases": [],
-        "hints": {
-          "easy": "Apps",
-          "normal": "Camera",
-          "hard": "Screen"
-        }
       }
     }
   },
@@ -2597,17 +1760,6 @@
           "normal": "Meddelanden",
           "hard": "Vibrationer"
         }
-      },
-      "en": {
-        "word": "smartwatch",
-        "aliases": [
-          "smart watch"
-        ],
-        "hints": {
-          "easy": "Notifications",
-          "normal": "Messages",
-          "hard": "Vibrations"
-        }
       }
     }
   },
@@ -2628,17 +1780,6 @@
           "easy": "Lödning",
           "normal": "Anslutningar",
           "hard": "Mjukmetall"
-        }
-      },
-      "en": {
-        "word": "solder",
-        "aliases": [
-          "solder wire"
-        ],
-        "hints": {
-          "easy": "Melting",
-          "normal": "Connections",
-          "hard": "Wire"
         }
       }
     }
@@ -2664,17 +1805,6 @@
           "normal": "TV",
           "hard": "Dialog"
         }
-      },
-      "en": {
-        "word": "soundbar",
-        "aliases": [
-          "sound bar"
-        ],
-        "hints": {
-          "easy": "Speaker",
-          "normal": "Television",
-          "hard": "Dialogue"
-        }
       }
     }
   },
@@ -2696,17 +1826,6 @@
           "normal": "Membranet",
           "hard": "Baskickar"
         }
-      },
-      "en": {
-        "word": "loudspeaker",
-        "aliases": [
-          "speaker"
-        ],
-        "hints": {
-          "easy": "Electrical",
-          "normal": "Diaphragm",
-          "hard": "Cabinet"
-        }
       }
     }
   },
@@ -2727,15 +1846,6 @@
           "easy": "Vrider",
           "normal": "Utskriftshuvudet",
           "hard": "Utgångsläget"
-        }
-      },
-      "en": {
-        "word": "stepper motor",
-        "aliases": [],
-        "hints": {
-          "easy": "Shaft",
-          "normal": "Printer",
-          "hard": "Movement"
         }
       }
     }
@@ -2762,19 +1872,6 @@
           "normal": "Fjärrkontroll",
           "hard": "Soffa"
         }
-      },
-      "en": {
-        "word": "television",
-        "aliases": [
-          "TV",
-          "TV set",
-          "television set"
-        ],
-        "hints": {
-          "easy": "Films",
-          "normal": "Remote",
-          "hard": "Sofa"
-        }
       }
     }
   },
@@ -2797,15 +1894,6 @@
           "easy": "Elektriskt",
           "normal": "Termometrar",
           "hard": "Falla"
-        }
-      },
-      "en": {
-        "word": "thermistor",
-        "aliases": [],
-        "hints": {
-          "easy": "Resistance",
-          "normal": "Thermometers",
-          "hard": "Reading"
         }
       }
     }
@@ -2830,15 +1918,6 @@
           "normal": "Läge",
           "hard": "Vipp"
         }
-      },
-      "en": {
-        "word": "toggle switch",
-        "aliases": [],
-        "hints": {
-          "easy": "Lever",
-          "normal": "Release",
-          "hard": "Upwards"
-        }
       }
     }
   },
@@ -2862,17 +1941,6 @@
           "normal": "Spolarna",
           "hard": "Spänningsförhållandet"
         }
-      },
-      "en": {
-        "word": "transformer",
-        "aliases": [
-          "electrical transformer"
-        ],
-        "hints": {
-          "easy": "AC",
-          "normal": "Magnetic",
-          "hard": "Ratio"
-        }
       }
     }
   },
@@ -2893,15 +1961,6 @@
           "easy": "Halvledare",
           "normal": "Miljarder",
           "hard": "Styrsignal"
-        }
-      },
-      "en": {
-        "word": "transistor",
-        "aliases": [],
-        "hints": {
-          "easy": "Semiconductor",
-          "normal": "Billions",
-          "hard": "Decides"
         }
       }
     }
@@ -2926,17 +1985,6 @@
           "normal": "Laddning",
           "hard": "Symmetri"
         }
-      },
-      "en": {
-        "word": "USB-C",
-        "aliases": [
-          "USB Type-C"
-        ],
-        "hints": {
-          "easy": "Connector",
-          "normal": "Charging",
-          "hard": "Symmetry"
-        }
       }
     }
   },
@@ -2960,15 +2008,6 @@
           "normal": "Matningen",
           "hard": "Återkoppling"
         }
-      },
-      "en": {
-        "word": "voltage regulator",
-        "aliases": [],
-        "hints": {
-          "easy": "Output",
-          "normal": "Fluctuating",
-          "hard": "Feedback"
-        }
       }
     }
   },
@@ -2990,18 +2029,6 @@
         "hints": {
           "easy": "Vägguttag",
           "normal": "Laddkabel",
-          "hard": "Adapter"
-        }
-      },
-      "en": {
-        "word": "wall charger",
-        "aliases": [
-          "mains charger",
-          "USB wall charger"
-        ],
-        "hints": {
-          "easy": "Socket",
-          "normal": "Cable",
           "hard": "Adapter"
         }
       }
@@ -3028,18 +2055,6 @@
           "normal": "Spolarna",
           "hard": "Fläcken"
         }
-      },
-      "en": {
-        "word": "wireless charging pad",
-        "aliases": [
-          "wireless charger",
-          "charging mat"
-        ],
-        "hints": {
-          "easy": "Battery",
-          "normal": "Coils",
-          "hard": "Plugging"
-        }
       }
     }
   },
@@ -3064,18 +2079,6 @@
           "normal": "Kontor",
           "hard": "Nätverkskabel"
         }
-      },
-      "en": {
-        "word": "access point",
-        "aliases": [
-          "wireless access point",
-          "WAP"
-        ],
-        "hints": {
-          "easy": "Wireless",
-          "normal": "Office",
-          "hard": "Ethernet"
-        }
       }
     }
   },
@@ -3098,17 +2101,6 @@
           "easy": "Radiosignaler",
           "normal": "Täckning",
           "hard": "Symbol"
-        }
-      },
-      "en": {
-        "word": "airplane mode",
-        "aliases": [
-          "flight mode"
-        ],
-        "hints": {
-          "easy": "Signals",
-          "normal": "Takeoff",
-          "hard": "Icon"
         }
       }
     }
@@ -3133,17 +2125,6 @@
           "normal": "Högupplösta",
           "hard": "Abonnemang"
         }
-      },
-      "en": {
-        "word": "bandwidth",
-        "aliases": [
-          "network bandwidth"
-        ],
-        "hints": {
-          "easy": "Connection",
-          "normal": "Resolution",
-          "hard": "Internet"
-        }
       }
     }
   },
@@ -3164,15 +2145,6 @@
           "easy": "Trådlöst",
           "normal": "Högtalare",
           "hard": "Parkoppling"
-        }
-      },
-      "en": {
-        "word": "Bluetooth",
-        "aliases": [],
-        "hints": {
-          "easy": "Wireless",
-          "normal": "Speaker",
-          "hard": "Pairing"
         }
       }
     }
@@ -3197,17 +2169,6 @@
           "normal": "Hämtas",
           "hard": "Originalet"
         }
-      },
-      "en": {
-        "word": "content delivery network",
-        "aliases": [
-          "CDN"
-        ],
-        "hints": {
-          "easy": "Servers",
-          "normal": "Visitors",
-          "hard": "Update"
-        }
       }
     }
   },
@@ -3230,17 +2191,6 @@
           "easy": "Operatörens",
           "normal": "Hemnätet",
           "hard": "Förbindelse"
-        }
-      },
-      "en": {
-        "word": "mobile network",
-        "aliases": [
-          "cellular network"
-        ],
-        "hints": {
-          "easy": "Carrier",
-          "normal": "Switch",
-          "hard": "Link"
         }
       }
     }
@@ -3265,15 +2215,6 @@
           "normal": "Webbläsare",
           "hard": "Exemplar"
         }
-      },
-      "en": {
-        "word": "client",
-        "aliases": [],
-        "hints": {
-          "easy": "Program",
-          "normal": "Browser",
-          "hard": "Instances"
-        }
       }
     }
   },
@@ -3294,17 +2235,6 @@
           "easy": "Inställningar",
           "normal": "Konfiguration",
           "hard": "Enheten"
-        }
-      },
-      "en": {
-        "word": "DHCP",
-        "aliases": [
-          "dynamic host configuration protocol"
-        ],
-        "hints": {
-          "easy": "Settings",
-          "normal": "Computer",
-          "hard": "Borrows"
         }
       }
     }
@@ -3329,17 +2259,6 @@
           "normal": "Namn",
           "hard": "Serverbyte"
         }
-      },
-      "en": {
-        "word": "DNS",
-        "aliases": [
-          "domain name system"
-        ],
-        "hints": {
-          "easy": "Addresses",
-          "normal": "Names",
-          "hard": "Servers"
-        }
       }
     }
   },
@@ -3363,17 +2282,6 @@
           "normal": "Sluta",
           "hard": "Rätten"
         }
-      },
-      "en": {
-        "word": "domain name",
-        "aliases": [
-          "domain"
-        ],
-        "hints": {
-          "easy": "Website",
-          "normal": "End",
-          "hard": "Buy"
-        }
       }
     }
   },
@@ -3394,15 +2302,6 @@
           "easy": "Anslutningar",
           "normal": "Sladdens",
           "hard": "Hastigheter"
-        }
-      },
-      "en": {
-        "word": "Ethernet",
-        "aliases": [],
-        "hints": {
-          "easy": "Technology",
-          "normal": "Connector",
-          "hard": "Standard"
         }
       }
     }
@@ -3428,17 +2327,6 @@
           "normal": "Vardera",
           "hard": "Förlängningslist"
         }
-      },
-      "en": {
-        "word": "powerline networking",
-        "aliases": [
-          "powerline adapter"
-        ],
-        "hints": {
-          "easy": "Wiring",
-          "normal": "Sockets",
-          "hard": "Filtered"
-        }
       }
     }
   },
@@ -3463,19 +2351,6 @@
           "normal": "Internet",
           "hard": "Glasstrå"
         }
-      },
-      "en": {
-        "word": "fibre-optic cable",
-        "aliases": [
-          "fiber optic cable",
-          "optical fibre",
-          "optical fiber"
-        ],
-        "hints": {
-          "easy": "Pulses",
-          "normal": "Internet",
-          "hard": "Glass"
-        }
       }
     }
   },
@@ -3497,15 +2372,6 @@
           "normal": "Regler",
           "hard": "Undantag"
         }
-      },
-      "en": {
-        "word": "firewall",
-        "aliases": [],
-        "hints": {
-          "easy": "Traffic",
-          "normal": "Rules",
-          "hard": "Exception"
-        }
       }
     }
   },
@@ -3526,17 +2392,6 @@
           "easy": "Förfrågan",
           "normal": "Webbläsare",
           "hard": "Svar"
-        }
-      },
-      "en": {
-        "word": "HTTP",
-        "aliases": [
-          "hypertext transfer protocol"
-        ],
-        "hints": {
-          "easy": "Request",
-          "normal": "Browser",
-          "hard": "Response"
         }
       }
     }
@@ -3561,15 +2416,6 @@
           "normal": "Ansluter",
           "hard": "Äldre"
         }
-      },
-      "en": {
-        "word": "IP address",
-        "aliases": [],
-        "hints": {
-          "easy": "Identifier",
-          "normal": "Joins",
-          "hard": "Numbers"
-        }
       }
     }
   },
@@ -3592,17 +2438,6 @@
           "easy": "Fördröjningen",
           "normal": "Reagera",
           "hard": "Millisekunder"
-        }
-      },
-      "en": {
-        "word": "latency",
-        "aliases": [
-          "network latency"
-        ],
-        "hints": {
-          "easy": "Delay",
-          "normal": "Respond",
-          "hard": "Milliseconds"
         }
       }
     }
@@ -3627,15 +2462,6 @@
           "normal": "Hexadecimala",
           "hard": "Slumpat"
         }
-      },
-      "en": {
-        "word": "MAC address",
-        "aliases": [],
-        "hints": {
-          "easy": "Identifies",
-          "normal": "Digits",
-          "hard": "Randomized"
-        }
       }
     }
   },
@@ -3658,17 +2484,6 @@
           "easy": "Samarbetar",
           "normal": "Våningarna",
           "hard": "Station"
-        }
-      },
-      "en": {
-        "word": "mesh network",
-        "aliases": [
-          "mesh Wi-Fi"
-        ],
-        "hints": {
-          "easy": "Stations",
-          "normal": "Wireless",
-          "hard": "Neighbour"
         }
       }
     }
@@ -3694,18 +2509,6 @@
           "normal": "Ansluta",
           "hard": "Datapott"
         }
-      },
-      "en": {
-        "word": "mobile hotspot",
-        "aliases": [
-          "personal hotspot",
-          "tethering"
-        ],
-        "hints": {
-          "easy": "Connection",
-          "normal": "Laptop",
-          "hard": "Allowance"
-        }
       }
     }
   },
@@ -3726,15 +2529,6 @@
           "easy": "Datasignalen",
           "normal": "Gammalt",
           "hard": "Förbindelsen"
-        }
-      },
-      "en": {
-        "word": "modem",
-        "aliases": [],
-        "hints": {
-          "easy": "Provider",
-          "normal": "Dialling",
-          "hard": "Status"
         }
       }
     }
@@ -3759,15 +2553,6 @@
           "normal": "Sändning",
           "hard": "Gruppadress"
         }
-      },
-      "en": {
-        "word": "multicast",
-        "aliases": [],
-        "hints": {
-          "easy": "Receivers",
-          "normal": "Screens",
-          "hard": "Subscribe"
-        }
       }
     }
   },
@@ -3790,17 +2575,6 @@
           "easy": "Nätadresser",
           "normal": "Hemprylar",
           "hard": "Konversation"
-        }
-      },
-      "en": {
-        "word": "network address translation",
-        "aliases": [
-          "NAT"
-        ],
-        "hints": {
-          "easy": "Rewrites",
-          "normal": "Household",
-          "hard": "Conversation"
         }
       }
     }
@@ -3825,17 +2599,6 @@
           "normal": "Fotoarkiv",
           "hard": "Diskplatser"
         }
-      },
-      "en": {
-        "word": "network-attached storage",
-        "aliases": [
-          "NAS"
-        ],
-        "hints": {
-          "easy": "Reached",
-          "normal": "Collection",
-          "hard": "Tolerate"
-        }
       }
     }
   },
@@ -3858,17 +2621,6 @@
           "easy": "Kabelanslutna",
           "normal": "Blinkar",
           "hard": "Enhetsadress"
-        }
-      },
-      "en": {
-        "word": "network switch",
-        "aliases": [
-          "Ethernet switch"
-        ],
-        "hints": {
-          "easy": "Wired",
-          "normal": "Blinks",
-          "hard": "Learns"
         }
       }
     }
@@ -3893,17 +2645,6 @@
           "normal": "Betalning",
           "hard": "Centimeter"
         }
-      },
-      "en": {
-        "word": "NFC",
-        "aliases": [
-          "near-field communication"
-        ],
-        "hints": {
-          "easy": "Contactless",
-          "normal": "Payment",
-          "hard": "Centimetres"
-        }
       }
     }
   },
@@ -3927,18 +2668,6 @@
           "normal": "Meddelande",
           "hard": "Delarna"
         }
-      },
-      "en": {
-        "word": "data packet",
-        "aliases": [
-          "network packet",
-          "packet"
-        ],
-        "hints": {
-          "easy": "Sent",
-          "normal": "Message",
-          "hard": "Receiver"
-        }
       }
     }
   },
@@ -3959,15 +2688,6 @@
           "easy": "Databitar",
           "normal": "Försvinna",
           "hard": "Mätverktyg"
-        }
-      },
-      "en": {
-        "word": "packet loss",
-        "aliases": [],
-        "hints": {
-          "easy": "Chunks",
-          "normal": "Voice",
-          "hard": "Percentage"
         }
       }
     }
@@ -3993,18 +2713,6 @@
           "normal": "Hämta",
           "hard": "Deltagare"
         }
-      },
-      "en": {
-        "word": "peer-to-peer network",
-        "aliases": [
-          "peer to peer",
-          "P2P"
-        ],
-        "hints": {
-          "easy": "Equals",
-          "normal": "Computer",
-          "hard": "Participant"
-        }
       }
     }
   },
@@ -4028,17 +2736,6 @@
           "normal": "Svar",
           "hard": "Millisekunder"
         }
-      },
-      "en": {
-        "word": "ping",
-        "aliases": [
-          "ping test"
-        ],
-        "hints": {
-          "easy": "Latency",
-          "normal": "Response",
-          "hard": "Milliseconds"
-        }
       }
     }
   },
@@ -4059,15 +2756,6 @@
           "easy": "Siffra",
           "normal": "Serveradress",
           "hard": "Tjänster"
-        }
-      },
-      "en": {
-        "word": "port number",
-        "aliases": [],
-        "hints": {
-          "easy": "Distinguishes",
-          "normal": "Colon",
-          "hard": "Services"
         }
       }
     }
@@ -4091,17 +2779,6 @@
           "easy": "Uppsättning",
           "normal": "Meddelanden",
           "hard": "Spelregler"
-        }
-      },
-      "en": {
-        "word": "network protocol",
-        "aliases": [
-          "protocol"
-        ],
-        "hints": {
-          "easy": "Communicate",
-          "normal": "Understand",
-          "hard": "Conventions"
         }
       }
     }
@@ -4127,17 +2804,6 @@
           "normal": "Skola",
           "hard": "Mellanhandens"
         }
-      },
-      "en": {
-        "word": "proxy server",
-        "aliases": [
-          "proxy"
-        ],
-        "hints": {
-          "easy": "Middleman",
-          "normal": "Browsing",
-          "hard": "Intermediary"
-        }
       }
     }
   },
@@ -4158,15 +2824,6 @@
           "easy": "Datatrafik",
           "normal": "Internet",
           "hard": "Hemnät"
-        }
-      },
-      "en": {
-        "word": "router",
-        "aliases": [],
-        "hints": {
-          "easy": "Traffic",
-          "normal": "Internet",
-          "hard": "Household"
         }
       }
     }
@@ -4189,15 +2846,6 @@
           "normal": "Anslutningar",
           "hard": "Värddator"
         }
-      },
-      "en": {
-        "word": "server",
-        "aliases": [],
-        "hints": {
-          "easy": "Requests",
-          "normal": "Connections",
-          "hard": "Host"
-        }
       }
     }
   },
@@ -4218,17 +2866,6 @@
           "easy": "Fjärranslutning",
           "normal": "Terminal",
           "hard": "Bekräfta"
-        }
-      },
-      "en": {
-        "word": "SSH",
-        "aliases": [
-          "secure shell"
-        ],
-        "hints": {
-          "easy": "Controls",
-          "normal": "Server",
-          "hard": "Fingerprint"
         }
       }
     }
@@ -4253,17 +2890,6 @@
           "normal": "Listan",
           "hard": "Sändare"
         }
-      },
-      "en": {
-        "word": "SSID",
-        "aliases": [
-          "service set identifier"
-        ],
-        "hints": {
-          "easy": "Wireless",
-          "normal": "List",
-          "hard": "Broadcast"
-        }
       }
     }
   },
@@ -4287,17 +2913,6 @@
           "normal": "Mottagaren",
           "hard": "Snedstreck"
         }
-      },
-      "en": {
-        "word": "subnet",
-        "aliases": [
-          "subnetwork"
-        ],
-        "hints": {
-          "easy": "Portion",
-          "normal": "Destination",
-          "hard": "Slash"
-        }
       }
     }
   },
@@ -4319,17 +2934,6 @@
           "normal": "Komplett",
           "hard": "Bekräftar"
         }
-      },
-      "en": {
-        "word": "TCP",
-        "aliases": [
-          "transmission control protocol"
-        ],
-        "hints": {
-          "easy": "Delivers",
-          "normal": "Intact",
-          "hard": "Acknowledges"
-        }
       }
     }
   },
@@ -4350,17 +2954,6 @@
           "easy": "Nätverksparter",
           "normal": "Certifikat",
           "hard": "Handslag"
-        }
-      },
-      "en": {
-        "word": "TLS",
-        "aliases": [
-          "transport layer security"
-        ],
-        "hints": {
-          "easy": "Endpoints",
-          "normal": "Browser",
-          "hard": "Handshake"
         }
       }
     }
@@ -4385,15 +2978,6 @@
           "normal": "Nätväg",
           "hard": "Fördröjning"
         }
-      },
-      "en": {
-        "word": "traceroute",
-        "aliases": [],
-        "hints": {
-          "easy": "Hops",
-          "normal": "Route",
-          "hard": "Latency"
-        }
       }
     }
   },
@@ -4414,17 +2998,6 @@
           "easy": "Garantier",
           "normal": "Livesamtal",
           "hard": "Bekräftelse"
-        }
-      },
-      "en": {
-        "word": "UDP",
-        "aliases": [
-          "user datagram protocol"
-        ],
-        "hints": {
-          "easy": "Guaranteeing",
-          "normal": "Matter",
-          "hard": "Acknowledgement"
         }
       }
     }
@@ -4449,17 +3022,6 @@
           "normal": "Arbetsplatsens",
           "hard": "Webbsidor"
         }
-      },
-      "en": {
-        "word": "VPN",
-        "aliases": [
-          "virtual private network"
-        ],
-        "hints": {
-          "easy": "Encrypted",
-          "normal": "Internal",
-          "hard": "Sites"
-        }
       }
     }
   },
@@ -4483,17 +3045,6 @@
           "normal": "Nätverk",
           "hard": "Staplar"
         }
-      },
-      "en": {
-        "word": "Wi-Fi",
-        "aliases": [
-          "wifi"
-        ],
-        "hints": {
-          "easy": "Wireless",
-          "normal": "Network",
-          "hard": "Bars"
-        }
       }
     }
   },
@@ -4515,19 +3066,6 @@
         "hints": {
           "easy": "Räckvidd",
           "normal": "Täckning",
-          "hard": "Signal"
-        }
-      },
-      "en": {
-        "word": "Wi-Fi extender",
-        "aliases": [
-          "wireless repeater",
-          "Wi-Fi repeater",
-          "range extender"
-        ],
-        "hints": {
-          "easy": "Range",
-          "normal": "Coverage",
           "hard": "Signal"
         }
       }
@@ -4553,17 +3091,6 @@
           "normal": "Prognos",
           "hard": "Version"
         }
-      },
-      "en": {
-        "word": "API",
-        "aliases": [
-          "application programming interface"
-        ],
-        "hints": {
-          "easy": "Function",
-          "normal": "Forecast",
-          "hard": "Versions"
-        }
       }
     }
   },
@@ -4586,15 +3113,6 @@
           "easy": "Förslag",
           "normal": "Tecken",
           "hard": "Kontakt"
-        }
-      },
-      "en": {
-        "word": "autocomplete",
-        "aliases": [],
-        "hints": {
-          "easy": "Suggestions",
-          "normal": "Characters",
-          "hard": "Contact"
         }
       }
     }
@@ -4619,15 +3137,6 @@
           "normal": "Mellanslag",
           "hard": "Ersättning"
         }
-      },
-      "en": {
-        "word": "autocorrect",
-        "aliases": [],
-        "hints": {
-          "easy": "Spelling",
-          "normal": "Spacebar",
-          "hard": "Replacement"
-        }
       }
     }
   },
@@ -4651,17 +3160,6 @@
           "normal": "Återställning",
           "hard": "Databortfall"
         }
-      },
-      "en": {
-        "word": "backup",
-        "aliases": [
-          "backup copy"
-        ],
-        "hints": {
-          "easy": "Copy",
-          "normal": "Recovery",
-          "hard": "Loss"
-        }
       }
     }
   },
@@ -4682,15 +3180,6 @@
           "easy": "Kassa",
           "normal": "Förpackning",
           "hard": "Siffror"
-        }
-      },
-      "en": {
-        "word": "barcode",
-        "aliases": [],
-        "hints": {
-          "easy": "Checkout",
-          "normal": "Packaging",
-          "hard": "Numbers"
         }
       }
     }
@@ -4716,18 +3205,6 @@
           "normal": "Session",
           "hard": "Utgångsdatum"
         }
-      },
-      "en": {
-        "word": "browser cookie",
-        "aliases": [
-          "cookie",
-          "HTTP cookie"
-        ],
-        "hints": {
-          "easy": "Website",
-          "normal": "Session",
-          "hard": "Expiry"
-        }
       }
     }
   },
@@ -4750,17 +3227,6 @@
           "easy": "Tillägg",
           "normal": "Reklam",
           "hard": "Behörigheter"
-        }
-      },
-      "en": {
-        "word": "browser extension",
-        "aliases": [
-          "browser add-on"
-        ],
-        "hints": {
-          "easy": "Addon",
-          "normal": "Ads",
-          "hard": "Permissions"
         }
       }
     }
@@ -4785,17 +3251,6 @@
           "normal": "Veckovy",
           "hard": "Färgblock"
         }
-      },
-      "en": {
-        "word": "calendar app",
-        "aliases": [
-          "digital calendar"
-        ],
-        "hints": {
-          "easy": "Meetings",
-          "normal": "Week",
-          "hard": "Colours"
-        }
       }
     }
   },
@@ -4816,15 +3271,6 @@
           "easy": "Robotkontroll",
           "normal": "Trafikljus",
           "hard": "Ljud"
-        }
-      },
-      "en": {
-        "word": "CAPTCHA",
-        "aliases": [],
-        "hints": {
-          "easy": "Verification",
-          "normal": "Traffic",
-          "hard": "Audio"
         }
       }
     }
@@ -4847,15 +3293,6 @@
           "normal": "Överföring",
           "hard": "Siffra"
         }
-      },
-      "en": {
-        "word": "checksum",
-        "aliases": [],
-        "hints": {
-          "easy": "Computed",
-          "normal": "Published",
-          "hard": "Changed"
-        }
       }
     }
   },
@@ -4876,15 +3313,6 @@
           "easy": "Kopiering",
           "normal": "Temporärt",
           "hard": "Inklistring"
-        }
-      },
-      "en": {
-        "word": "clipboard",
-        "aliases": [],
-        "hints": {
-          "easy": "Copying",
-          "normal": "Temporary",
-          "hard": "Pasting"
         }
       }
     }
@@ -4909,17 +3337,6 @@
           "normal": "Synkning",
           "hard": "Uppladdning"
         }
-      },
-      "en": {
-        "word": "cloud storage",
-        "aliases": [
-          "online storage"
-        ],
-        "hints": {
-          "easy": "Files",
-          "normal": "Syncing",
-          "hard": "Upload"
-        }
       }
     }
   },
@@ -4941,15 +3358,6 @@
           "normal": "Enter",
           "hard": "Markör"
         }
-      },
-      "en": {
-        "word": "command line",
-        "aliases": [],
-        "hints": {
-          "easy": "Typing",
-          "normal": "Enter",
-          "hard": "Blinking"
-        }
       }
     }
   },
@@ -4970,15 +3378,6 @@
           "easy": "Programkod",
           "normal": "Stoppas",
           "hard": "Innehålla"
-        }
-      },
-      "en": {
-        "word": "compiler",
-        "aliases": [],
-        "hints": {
-          "easy": "Execution",
-          "normal": "Language",
-          "hard": "Output"
         }
       }
     }
@@ -5003,17 +3402,6 @@
           "normal": "Bländning",
           "hard": "Solnedgång"
         }
-      },
-      "en": {
-        "word": "dark mode",
-        "aliases": [
-          "dark theme"
-        ],
-        "hints": {
-          "easy": "Background",
-          "normal": "Glare",
-          "hard": "Sunset"
-        }
       }
     }
   },
@@ -5033,15 +3421,6 @@
         "hints": {
           "easy": "Register",
           "normal": "Normalisering",
-          "hard": "Index"
-        }
-      },
-      "en": {
-        "word": "database",
-        "aliases": [],
-        "hints": {
-          "easy": "Records",
-          "normal": "Normalization",
           "hard": "Index"
         }
       }
@@ -5068,15 +3447,6 @@
           "normal": "Variabel",
           "hard": "Körningen"
         }
-      },
-      "en": {
-        "word": "debugger",
-        "aliases": [],
-        "hints": {
-          "easy": "Pauses",
-          "normal": "Execution",
-          "hard": "Follow"
-        }
       }
     }
   },
@@ -5097,15 +3467,6 @@
           "easy": "Avsändare",
           "normal": "Ändrats",
           "hard": "Kontrollera"
-        }
-      },
-      "en": {
-        "word": "digital signature",
-        "aliases": [],
-        "hints": {
-          "easy": "Integrity",
-          "normal": "Invalidate",
-          "hard": "Public"
         }
       }
     }
@@ -5131,17 +3492,6 @@
           "normal": "Bilaga",
           "hard": "Kopia"
         }
-      },
-      "en": {
-        "word": "email",
-        "aliases": [
-          "e-mail"
-        ],
-        "hints": {
-          "easy": "Message",
-          "normal": "Attachment",
-          "hard": "Blind"
-        }
       }
     }
   },
@@ -5163,15 +3513,6 @@
           "normal": "Nyckel",
           "hard": "Slump"
         }
-      },
-      "en": {
-        "word": "encryption",
-        "aliases": [],
-        "hints": {
-          "easy": "Unreadable",
-          "normal": "Key",
-          "hard": "Randomness"
-        }
       }
     }
   },
@@ -5192,15 +3533,6 @@
           "easy": "Bestämmer",
           "normal": "Exporteras",
           "hard": "Struktur"
-        }
-      },
-      "en": {
-        "word": "file format",
-        "aliases": [],
-        "hints": {
-          "easy": "Document",
-          "normal": "Exported",
-          "hard": "Renaming"
         }
       }
     }
@@ -5225,17 +3557,6 @@
           "normal": "Bunt",
           "hard": "Egenskaperna"
         }
-      },
-      "en": {
-        "word": "file manager",
-        "aliases": [
-          "file explorer"
-        ],
-        "hints": {
-          "easy": "Folders",
-          "normal": "Batch",
-          "hard": "Properties"
-        }
       }
     }
   },
@@ -5258,17 +3579,6 @@
           "easy": "Skada",
           "normal": "Installation",
           "hard": "Säkerhetskontroll"
-        }
-      },
-      "en": {
-        "word": "malware",
-        "aliases": [
-          "malicious software"
-        ],
-        "hints": {
-          "easy": "Harm",
-          "normal": "Installation",
-          "hard": "Security"
         }
       }
     }
@@ -5293,17 +3603,6 @@
           "normal": "Fördelar",
           "hard": "Behörighet"
         }
-      },
-      "en": {
-        "word": "operating system",
-        "aliases": [
-          "OS"
-        ],
-        "hints": {
-          "easy": "Applications",
-          "normal": "Allocates",
-          "hard": "Privileges"
-        }
       }
     }
   },
@@ -5326,17 +3625,6 @@
           "easy": "Inskannad",
           "normal": "Fotograferat",
           "hard": "Nolla"
-        }
-      },
-      "en": {
-        "word": "optical character recognition",
-        "aliases": [
-          "OCR"
-        ],
-        "hints": {
-          "easy": "Letters",
-          "normal": "Photographed",
-          "hard": "Smudge"
         }
       }
     }
@@ -5361,15 +3649,6 @@
           "normal": "Lösenord",
           "hard": "Hemlig"
         }
-      },
-      "en": {
-        "word": "passkey",
-        "aliases": [],
-        "hints": {
-          "easy": "Cryptographic",
-          "normal": "Remember",
-          "hard": "Half"
-        }
       }
     }
   },
@@ -5391,15 +3670,6 @@
           "normal": "Inloggning",
           "hard": "Gissning"
         }
-      },
-      "en": {
-        "word": "password",
-        "aliases": [],
-        "hints": {
-          "easy": "Characters",
-          "normal": "Login",
-          "hard": "Guessing"
-        }
       }
     }
   },
@@ -5420,15 +3690,6 @@
           "easy": "Inloggningar",
           "normal": "Kod",
           "hard": "Huvudnyckel"
-        }
-      },
-      "en": {
-        "word": "password manager",
-        "aliases": [],
-        "hints": {
-          "easy": "Vault",
-          "normal": "Credential",
-          "hard": "Master"
         }
       }
     }
@@ -5453,17 +3714,6 @@
           "normal": "Manual",
           "hard": "Formulär"
         }
-      },
-      "en": {
-        "word": "PDF",
-        "aliases": [
-          "PDF file"
-        ],
-        "hints": {
-          "easy": "Document",
-          "normal": "Manual",
-          "hard": "Forms"
-        }
       }
     }
   },
@@ -5486,17 +3736,6 @@
           "easy": "Föredrag",
           "normal": "Punktlistan",
           "hard": "Talaranteckningarna"
-        }
-      },
-      "en": {
-        "word": "presentation software",
-        "aliases": [
-          "slideshow software"
-        ],
-        "hints": {
-          "easy": "Talk",
-          "normal": "Bullets",
-          "hard": "Speaker"
         }
       }
     }
@@ -5522,18 +3761,6 @@
           "normal": "Fönster",
           "hard": "Nedladdningar"
         }
-      },
-      "en": {
-        "word": "private browsing",
-        "aliases": [
-          "incognito mode",
-          "InPrivate browsing"
-        ],
-        "hints": {
-          "easy": "History",
-          "normal": "Window",
-          "hard": "Downloads"
-        }
       }
     }
   },
@@ -5557,15 +3784,6 @@
           "normal": "Kamera",
           "hard": "Riktning"
         }
-      },
-      "en": {
-        "word": "QR code",
-        "aliases": [],
-        "hints": {
-          "easy": "Squares",
-          "normal": "Camera",
-          "hard": "Orientation"
-        }
       }
     }
   },
@@ -5586,15 +3804,6 @@
           "easy": "Radering",
           "normal": "Återställning",
           "hard": "Tömning"
-        }
-      },
-      "en": {
-        "word": "recycle bin",
-        "aliases": [],
-        "hints": {
-          "easy": "Deletion",
-          "normal": "Recovery",
-          "hard": "Emptying"
         }
       }
     }
@@ -5620,18 +3829,6 @@
           "normal": "Siffra",
           "hard": "Hakar"
         }
-      },
-      "en": {
-        "word": "regular expression",
-        "aliases": [
-          "regex",
-          "regexp"
-        ],
-        "hints": {
-          "easy": "Replacing",
-          "normal": "Select",
-          "hard": "Alternatives"
-        }
       }
     }
   },
@@ -5655,15 +3852,6 @@
           "normal": "Tillgång",
           "hard": "Lagringen"
         }
-      },
-      "en": {
-        "word": "software sandbox",
-        "aliases": [],
-        "hints": {
-          "easy": "Environment",
-          "normal": "Giving",
-          "hard": "Limited"
-        }
       }
     }
   },
@@ -5684,15 +3872,6 @@
           "easy": "Gränssnitt",
           "normal": "Alternativtexten",
           "hard": "Navigerar"
-        }
-      },
-      "en": {
-        "word": "screen reader",
-        "aliases": [],
-        "hints": {
-          "easy": "Speaks",
-          "normal": "Alternative",
-          "hard": "Navigation"
         }
       }
     }
@@ -5717,17 +3896,6 @@
           "normal": "Felmeddelande",
           "hard": "Utsnitt"
         }
-      },
-      "en": {
-        "word": "screenshot",
-        "aliases": [
-          "screen grab"
-        ],
-        "hints": {
-          "easy": "Snapshot",
-          "normal": "Error",
-          "hard": "Crop"
-        }
       }
     }
   },
@@ -5748,15 +3916,6 @@
           "easy": "Sökord",
           "normal": "Träfflista",
           "hard": "Annons"
-        }
-      },
-      "en": {
-        "word": "search engine",
-        "aliases": [],
-        "hints": {
-          "easy": "Keywords",
-          "normal": "Results",
-          "hard": "Advertisement"
         }
       }
     }
@@ -5780,17 +3939,6 @@
           "easy": "Beroenden",
           "normal": "Paketerad",
           "hard": "Instanser"
-        }
-      },
-      "en": {
-        "word": "software container",
-        "aliases": [
-          "container"
-        ],
-        "hints": {
-          "easy": "Dependencies",
-          "normal": "Packaged",
-          "hard": "Instances"
         }
       }
     }
@@ -5816,17 +3964,6 @@
           "normal": "Omstart",
           "hard": "Version"
         }
-      },
-      "en": {
-        "word": "software update",
-        "aliases": [
-          "update"
-        ],
-        "hints": {
-          "easy": "Changes",
-          "normal": "Restart",
-          "hard": "Version"
-        }
       }
     }
   },
@@ -5847,15 +3984,6 @@
           "easy": "Instruktioner",
           "normal": "Utvecklare",
           "hard": "Kommentarer"
-        }
-      },
-      "en": {
-        "word": "source code",
-        "aliases": [],
-        "hints": {
-          "easy": "Instructions",
-          "normal": "Developer",
-          "hard": "Comments"
         }
       }
     }
@@ -5880,17 +4008,6 @@
           "normal": "Reklam",
           "hard": "Filter"
         }
-      },
-      "en": {
-        "word": "spam",
-        "aliases": [
-          "junk mail"
-        ],
-        "hints": {
-          "easy": "Bulk",
-          "normal": "Advertising",
-          "hard": "Filter"
-        }
       }
     }
   },
@@ -5911,15 +4028,6 @@
           "easy": "Talade",
           "normal": "Tangentbord",
           "hard": "Tolkningen"
-        }
-      },
-      "en": {
-        "word": "speech recognition",
-        "aliases": [],
-        "hints": {
-          "easy": "Spoken",
-          "normal": "Typing",
-          "hard": "Talking"
         }
       }
     }
@@ -5944,15 +4052,6 @@
           "normal": "Kolumn",
           "hard": "Hänvisa"
         }
-      },
-      "en": {
-        "word": "spreadsheet",
-        "aliases": [],
-        "hints": {
-          "easy": "Calculates",
-          "normal": "Column",
-          "hard": "Cell"
-        }
       }
     }
   },
@@ -5973,17 +4072,6 @@
           "easy": "Belastar",
           "normal": "Hängt",
           "hard": "Sortera"
-        }
-      },
-      "en": {
-        "word": "task manager",
-        "aliases": [
-          "process manager"
-        ],
-        "hints": {
-          "easy": "Slowing",
-          "normal": "Program",
-          "hard": "Memory"
         }
       }
     }
@@ -6008,18 +4096,6 @@
           "normal": "Meddelande",
           "hard": "Betoningen"
         }
-      },
-      "en": {
-        "word": "text-to-speech",
-        "aliases": [
-          "TTS",
-          "speech synthesis"
-        ],
-        "hints": {
-          "easy": "Generated",
-          "normal": "Listen",
-          "hard": "Stress"
-        }
       }
     }
   },
@@ -6043,17 +4119,6 @@
           "normal": "Lösenordet",
           "hard": "Reservkoder"
         }
-      },
-      "en": {
-        "word": "two-factor authentication",
-        "aliases": [
-          "2FA"
-        ],
-        "hints": {
-          "easy": "Requires",
-          "normal": "Entering",
-          "hard": "Recovery"
-        }
       }
     }
   },
@@ -6074,15 +4139,6 @@
           "easy": "Ändring",
           "normal": "Kortkommando",
           "hard": "Återställning"
-        }
-      },
-      "en": {
-        "word": "undo",
-        "aliases": [],
-        "hints": {
-          "easy": "Change",
-          "normal": "Shortcut",
-          "hard": "Revert"
         }
       }
     }
@@ -6107,17 +4163,6 @@
           "normal": "Jobba",
           "hard": "Spåra"
         }
-      },
-      "en": {
-        "word": "version control",
-        "aliases": [
-          "revision control"
-        ],
-        "hints": {
-          "easy": "Code",
-          "normal": "Separate",
-          "hard": "Appeared"
-        }
       }
     }
   },
@@ -6140,17 +4185,6 @@
           "easy": "Efterliknad",
           "normal": "System",
           "hard": "Gästen"
-        }
-      },
-      "en": {
-        "word": "virtual machine",
-        "aliases": [
-          "VM"
-        ],
-        "hints": {
-          "easy": "Emulated",
-          "normal": "Window",
-          "hard": "Guest"
         }
       }
     }
@@ -6175,17 +4209,6 @@
           "normal": "Flikar",
           "hard": "Bokmärken"
         }
-      },
-      "en": {
-        "word": "web browser",
-        "aliases": [
-          "browser"
-        ],
-        "hints": {
-          "easy": "Address",
-          "normal": "Tabs",
-          "hard": "Bookmarks"
-        }
       }
     }
   },
@@ -6206,15 +4229,6 @@
           "easy": "Händelse",
           "normal": "Betalning",
           "hard": "Status"
-        }
-      },
-      "en": {
-        "word": "webhook",
-        "aliases": [],
-        "hints": {
-          "easy": "URL",
-          "normal": "Purchase",
-          "hard": "Receiver"
         }
       }
     }
@@ -6239,15 +4253,6 @@
           "normal": "Typsnitt",
           "hard": "Markeringar"
         }
-      },
-      "en": {
-        "word": "word processor",
-        "aliases": [],
-        "hints": {
-          "easy": "Headings",
-          "normal": "Fonts",
-          "hard": "Formatting"
-        }
       }
     }
   },
@@ -6271,17 +4276,6 @@
           "easy": "Komprimerat",
           "normal": "Dokumenten",
           "hard": "Textloggar"
-        }
-      },
-      "en": {
-        "word": "ZIP archive",
-        "aliases": [
-          "ZIP file"
-        ],
-        "hints": {
-          "easy": "Compressed",
-          "normal": "Editing",
-          "hard": "Shrink"
         }
       }
     }

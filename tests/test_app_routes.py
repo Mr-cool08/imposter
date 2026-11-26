@@ -29,12 +29,16 @@ def test_public_data_routes_agree_on_catalog_version(app):
     client = app.test_client()
     catalog = client.get("/api/content/manifest").json
     assert catalog["categories"]
+    for category in catalog["categories"]:
+        assert category["names"].keys() == {"sv"}
+        assert all(subcategory["names"].keys() == {"sv"} for subcategory in category["subcategories"])
     sample = catalog["categories"][0]["id"]
     pack = client.get(f"/api/content/packs/{sample}.json").json
     assert pack["version"] == catalog["version"]
     assert all(word["category"] == sample for word in pack["words"])
     assert client.get("/api/content/packs/missing-category.json").status_code == 404
-    assert client.get("/api/content/rules").status_code == 200
+    assert all(word["languages"].keys() == {"sv"} for word in pack["words"])
+    assert client.get("/api/content/rules").json["languages"] == ["sv"]
     assert client.get("/healthz").json == {"status": "ok", "contentVersion": catalog["version"]}
 
 
@@ -46,12 +50,12 @@ def test_legacy_service_worker_update_is_available(app):
     assert worker.cache_control.no_cache
 
 
-def test_both_language_routes_have_the_same_messages(app):
+def test_only_swedish_messages_are_available(app):
     client = app.test_client()
-    swedish = client.get("/api/i18n/sv.json").json
-    english = client.get("/api/i18n/en.json").json
-    assert swedish.keys() == english.keys()
-    assert swedish and swedish != english
+    swedish = client.get("/api/i18n/sv.json")
+    assert swedish.status_code == 200
+    assert swedish.json["local.setup.title"]
+    assert client.get("/api/i18n/en.json").status_code == 404
     assert client.get("/api/i18n/missing.json").status_code == 404
 
 

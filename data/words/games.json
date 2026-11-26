@@ -17,17 +17,6 @@
           "normal": "Underjord",
           "hard": "Flaggstång"
         }
-      },
-      "en": {
-        "word": "Super Mario Bros.",
-        "aliases": [
-          "SMB"
-        ],
-        "hints": {
-          "easy": "Goombas",
-          "normal": "Underground",
-          "hard": "Flagpole"
-        }
       }
     }
   },
@@ -49,17 +38,6 @@
           "normal": "Antigravitation",
           "hard": "Regnbåge"
         }
-      },
-      "en": {
-        "word": "Mario Kart 8 Deluxe",
-        "aliases": [
-          "MK8D"
-        ],
-        "hints": {
-          "easy": "Banana",
-          "normal": "Antigravity",
-          "hard": "Rainbow"
-        }
       }
     }
   },
@@ -80,17 +58,6 @@
           "easy": "Punggrävlingar",
           "normal": "Sladd",
           "hard": "Lådor"
-        }
-      },
-      "en": {
-        "word": "Crash Team Racing Nitro-Fueled",
-        "aliases": [
-          "CTR Nitro-Fueled"
-        ],
-        "hints": {
-          "easy": "Bandicoots",
-          "normal": "Drifting",
-          "hard": "Crates"
         }
       }
     }
@@ -114,18 +81,6 @@
           "normal": "Helgedom",
           "hard": "Dvala"
         }
-      },
-      "en": {
-        "word": "The Legend of Zelda: Breath of the Wild",
-        "aliases": [
-          "Breath of the Wild",
-          "BOTW"
-        ],
-        "hints": {
-          "easy": "Hyrule",
-          "normal": "Shrine",
-          "hard": "Hibernation"
-        }
       }
     }
   },
@@ -148,18 +103,6 @@
           "normal": "Museum",
           "hard": "Rovor"
         }
-      },
-      "en": {
-        "word": "Animal Crossing: New Horizons",
-        "aliases": [
-          "New Horizons",
-          "ACNH"
-        ],
-        "hints": {
-          "easy": "Island",
-          "normal": "Museum",
-          "hard": "Turnips"
-        }
       }
     }
   },
@@ -179,15 +122,6 @@
           "normal": "Pelican",
           "hard": "Allaktivitetshus"
         }
-      },
-      "en": {
-        "word": "Stardew Valley",
-        "aliases": [],
-        "hints": {
-          "easy": "Farm",
-          "normal": "Pelican",
-          "hard": "Community"
-        }
       }
     }
   },
@@ -206,15 +140,6 @@
           "easy": "Klossar",
           "normal": "Rader",
           "hard": "Brunn"
-        }
-      },
-      "en": {
-        "word": "Tetris",
-        "aliases": [],
-        "hints": {
-          "easy": "Blocks",
-          "normal": "Rows",
-          "hard": "Well"
         }
       }
     }
@@ -237,17 +162,6 @@
           "normal": "Spöken",
           "hard": "Piller"
         }
-      },
-      "en": {
-        "word": "Pac-Man",
-        "aliases": [
-          "Pacman"
-        ],
-        "hints": {
-          "easy": "Maze",
-          "normal": "Ghosts",
-          "hard": "Pellets"
-        }
       }
     }
   },
@@ -266,15 +180,6 @@
           "easy": "Utomjordingar",
           "normal": "Formation",
           "hard": "Skydd"
-        }
-      },
-      "en": {
-        "word": "Space Invaders",
-        "aliases": [],
-        "hints": {
-          "easy": "Aliens",
-          "normal": "Formation",
-          "hard": "Bunkers"
         }
       }
     }
@@ -297,17 +202,6 @@
           "normal": "Husbygge",
           "hard": "Romb"
         }
-      },
-      "en": {
-        "word": "The Sims 4",
-        "aliases": [
-          "Sims 4"
-        ],
-        "hints": {
-          "easy": "Families",
-          "normal": "Housing",
-          "hard": "Diamond"
-        }
       }
     }
   },
@@ -326,15 +220,6 @@
           "easy": "Öppningar",
           "normal": "Gel",
           "hard": "Samarbete"
-        }
-      },
-      "en": {
-        "word": "Portal 2",
-        "aliases": [],
-        "hints": {
-          "easy": "Openings",
-          "normal": "Gels",
-          "hard": "Cooperation"
         }
       }
     }
@@ -358,18 +243,6 @@
           "normal": "Rekvisita",
           "hard": "Combine"
         }
-      },
-      "en": {
-        "word": "Half-Life 2",
-        "aliases": [
-          "Half Life 2",
-          "HL2"
-        ],
-        "hints": {
-          "easy": "Physicist",
-          "normal": "Props",
-          "hard": "Combine"
-        }
       }
     }
   },
@@ -387,15 +260,6 @@
         "hints": {
           "easy": "Buss",
           "normal": "Material",
-          "hard": "Storm"
-        }
-      },
-      "en": {
-        "word": "Fortnite",
-        "aliases": [],
-        "hints": {
-          "easy": "Bus",
-          "normal": "Materials",
           "hard": "Storm"
         }
       }
@@ -420,18 +284,6 @@
           "normal": "Kycklingmiddag",
           "hard": "Spelzon"
         }
-      },
-      "en": {
-        "word": "PUBG: Battlegrounds",
-        "aliases": [
-          "PUBG",
-          "PlayerUnknown's Battlegrounds"
-        ],
-        "hints": {
-          "easy": "Parachute",
-          "normal": "Chicken",
-          "hard": "Zone"
-        }
       }
     }
   },
@@ -450,15 +302,6 @@
           "easy": "Sabotage",
           "normal": "Misstankar",
           "hard": "Ventilation"
-        }
-      },
-      "en": {
-        "word": "Among Us",
-        "aliases": [],
-        "hints": {
-          "easy": "Sabotage",
-          "normal": "Suspects",
-          "hard": "Vents"
         }
       }
     }
@@ -479,15 +322,6 @@
           "normal": "Arena",
           "hard": "Luftspel"
         }
-      },
-      "en": {
-        "word": "Rocket League",
-        "aliases": [],
-        "hints": {
-          "easy": "Soccer",
-          "normal": "Arena",
-          "hard": "Aerial"
-        }
       }
     }
   },
@@ -506,15 +340,6 @@
           "easy": "Hinderbana",
           "normal": "Kvalomgång",
           "hard": "Krona"
-        }
-      },
-      "en": {
-        "word": "Fall Guys",
-        "aliases": [],
-        "hints": {
-          "easy": "Obstacles",
-          "normal": "Qualifying",
-          "hard": "Crown"
         }
       }
     }
@@ -537,17 +362,6 @@
           "normal": "Ingredienser",
           "hard": "Köksgolv"
         }
-      },
-      "en": {
-        "word": "Overcooked! 2",
-        "aliases": [
-          "Overcooked 2"
-        ],
-        "hints": {
-          "easy": "Chefs",
-          "normal": "Ingredients",
-          "hard": "Floor"
-        }
       }
     }
   },
@@ -566,15 +380,6 @@
           "easy": "Dockor",
           "normal": "Samarbete",
           "hard": "Självhjälpsbok"
-        }
-      },
-      "en": {
-        "word": "It Takes Two",
-        "aliases": [],
-        "hints": {
-          "easy": "Dolls",
-          "normal": "Cooperation",
-          "hard": "Relationship"
         }
       }
     }
@@ -595,15 +400,6 @@
           "normal": "Fantasy",
           "hard": "Maskin"
         }
-      },
-      "en": {
-        "word": "Split Fiction",
-        "aliases": [],
-        "hints": {
-          "easy": "Writers",
-          "normal": "Fantasy",
-          "hard": "Machine"
-        }
       }
     }
   },
@@ -622,15 +418,6 @@
           "easy": "Underjordiskt",
           "normal": "Cornifer",
           "hard": "Mörkret"
-        }
-      },
-      "en": {
-        "word": "Hollow Knight",
-        "aliases": [],
-        "hints": {
-          "easy": "Underground",
-          "normal": "Cornifer",
-          "hard": "Bench"
         }
       }
     }
@@ -652,17 +439,6 @@
           "easy": "Nibel",
           "normal": "Ande",
           "hard": "Träd"
-        }
-      },
-      "en": {
-        "word": "Ori and the Blind Forest",
-        "aliases": [
-          "Ori and the Blind Forest: Definitive Edition"
-        ],
-        "hints": {
-          "easy": "Nibel",
-          "normal": "Spirit",
-          "hard": "Tree"
         }
       }
     }
@@ -686,18 +462,6 @@
           "normal": "Skatter",
           "hard": "Riddarorden"
         }
-      },
-      "en": {
-        "word": "Shovel Knight: Shovel of Hope",
-        "aliases": [
-          "Shovel Knight",
-          "Shovel of Hope"
-        ],
-        "hints": {
-          "easy": "Digging",
-          "normal": "Treasure",
-          "hard": "Order"
-        }
       }
     }
   },
@@ -716,15 +480,6 @@
           "easy": "Underjorden",
           "normal": "Olympen",
           "hard": "Nederlag"
-        }
-      },
-      "en": {
-        "word": "Hades",
-        "aliases": [],
-        "hints": {
-          "easy": "Underworld",
-          "normal": "Olympus",
-          "hard": "Defeat"
         }
       }
     }
@@ -745,15 +500,6 @@
           "normal": "Slott",
           "hard": "Runor"
         }
-      },
-      "en": {
-        "word": "Dead Cells",
-        "aliases": [],
-        "hints": {
-          "easy": "Headless",
-          "normal": "Castle",
-          "hard": "Runes"
-        }
       }
     }
   },
@@ -772,15 +518,6 @@
           "easy": "Monster",
           "normal": "Projektiler",
           "hard": "Barmhärtighet"
-        }
-      },
-      "en": {
-        "word": "Undertale",
-        "aliases": [],
-        "hints": {
-          "easy": "Monsters",
-          "normal": "Projectiles",
-          "hard": "Mercy"
         }
       }
     }
@@ -801,15 +538,6 @@
           "normal": "Offra",
           "hard": "Vågskålen"
         }
-      },
-      "en": {
-        "word": "Inscryption",
-        "aliases": [],
-        "hints": {
-          "easy": "Duels",
-          "normal": "Sacrifice",
-          "hard": "Scales"
-        }
       }
     }
   },
@@ -829,15 +557,6 @@
           "normal": "Lägerelden",
           "hard": "Elitfiende"
         }
-      },
-      "en": {
-        "word": "Slay the Spire",
-        "aliases": [],
-        "hints": {
-          "easy": "Deck",
-          "normal": "Campfire",
-          "hard": "Elite"
-        }
       }
     }
   },
@@ -856,15 +575,6 @@
           "easy": "Besättning",
           "normal": "Dödsögonblick",
           "hard": "Passagerare"
-        }
-      },
-      "en": {
-        "word": "Return of the Obra Dinn",
-        "aliases": [],
-        "hints": {
-          "easy": "Crew",
-          "normal": "Deaths",
-          "hard": "Passengers"
         }
       }
     }
@@ -886,17 +596,6 @@
           "easy": "Gränskontroll",
           "normal": "Stämpel",
           "hard": "Lön"
-        }
-      },
-      "en": {
-        "word": "Papers, Please",
-        "aliases": [
-          "Papers Please"
-        ],
-        "hints": {
-          "easy": "Border",
-          "normal": "Stamp",
-          "hard": "Wages"
         }
       }
     }
@@ -920,18 +619,6 @@
           "normal": "Oljor",
           "hard": "Kortspel"
         }
-      },
-      "en": {
-        "word": "The Witcher 3: Wild Hunt",
-        "aliases": [
-          "The Witcher 3",
-          "Witcher 3"
-        ],
-        "hints": {
-          "easy": "Monsters",
-          "normal": "Oils",
-          "hard": "Taverns"
-        }
       }
     }
   },
@@ -954,18 +641,6 @@
           "normal": "Maktord",
           "hard": "Klippkanter"
         }
-      },
-      "en": {
-        "word": "The Elder Scrolls V: Skyrim",
-        "aliases": [
-          "Skyrim",
-          "TES V"
-        ],
-        "hints": {
-          "easy": "Dragons",
-          "normal": "Shouts",
-          "hard": "Cliffs"
-        }
       }
     }
   },
@@ -984,15 +659,6 @@
           "easy": "Mellanlandet",
           "normal": "Viloplatser",
           "hard": "Guld"
-        }
-      },
-      "en": {
-        "word": "Elden Ring",
-        "aliases": [],
-        "hints": {
-          "easy": "Lands",
-          "normal": "Grace",
-          "hard": "Gold"
         }
       }
     }
@@ -1013,15 +679,6 @@
           "normal": "Vandrare",
           "hard": "Hiss"
         }
-      },
-      "en": {
-        "word": "Dark Souls",
-        "aliases": [],
-        "hints": {
-          "easy": "Lordran",
-          "normal": "Wanderers",
-          "hard": "Elevator"
-        }
       }
     }
   },
@@ -1040,15 +697,6 @@
           "easy": "Yharnam",
           "normal": "Jägare",
           "hard": "Docka"
-        }
-      },
-      "en": {
-        "word": "Bloodborne",
-        "aliases": [],
-        "hints": {
-          "easy": "Yharnam",
-          "normal": "Hunters",
-          "hard": "Doll"
         }
       }
     }
@@ -1071,17 +719,6 @@
           "normal": "Parering",
           "hard": "Armprotes"
         }
-      },
-      "en": {
-        "word": "Sekiro: Shadows Die Twice",
-        "aliases": [
-          "Sekiro"
-        ],
-        "hints": {
-          "easy": "Shinobi",
-          "normal": "Deflections",
-          "hard": "Prosthesis"
-        }
       }
     }
   },
@@ -1101,15 +738,6 @@
           "normal": "Skanning",
           "hard": "Förhistoria"
         }
-      },
-      "en": {
-        "word": "Horizon Zero Dawn",
-        "aliases": [],
-        "hints": {
-          "easy": "Robots",
-          "normal": "Scanning",
-          "hard": "Prehistory"
-        }
       }
     }
   },
@@ -1128,15 +756,6 @@
           "easy": "Samuraj",
           "normal": "Invasion",
           "hard": "Helgedomar"
-        }
-      },
-      "en": {
-        "word": "Ghost of Tsushima",
-        "aliases": [],
-        "hints": {
-          "easy": "Samurai",
-          "normal": "Invasion",
-          "hard": "Shrines"
         }
       }
     }
@@ -1159,17 +778,6 @@
           "normal": "Libertalia",
           "hard": "Skatt"
         }
-      },
-      "en": {
-        "word": "Uncharted 4: A Thief's End",
-        "aliases": [
-          "Uncharted 4"
-        ],
-        "hints": {
-          "easy": "Brothers",
-          "normal": "Libertalia",
-          "hard": "Treasure"
-        }
       }
     }
   },
@@ -1191,18 +799,6 @@
           "easy": "Revolvermän",
           "normal": "Dutch",
           "hard": "Dagbok"
-        }
-      },
-      "en": {
-        "word": "Red Dead Redemption 2",
-        "aliases": [
-          "Red Dead 2",
-          "RDR2"
-        ],
-        "hints": {
-          "easy": "Outlaws",
-          "normal": "Dutch",
-          "hard": "Journal"
         }
       }
     }
@@ -1227,19 +823,6 @@
           "normal": "Santos",
           "hard": "Chiliad"
         }
-      },
-      "en": {
-        "word": "Grand Theft Auto V",
-        "aliases": [
-          "GTA V",
-          "GTA 5",
-          "Grand Theft Auto 5"
-        ],
-        "hints": {
-          "easy": "Heists",
-          "normal": "Santos",
-          "hard": "Chiliad"
-        }
       }
     }
   },
@@ -1261,17 +844,6 @@
           "normal": "Förolämpningar",
           "hard": "Mugg"
         }
-      },
-      "en": {
-        "word": "The Secret of Monkey Island",
-        "aliases": [
-          "Monkey Island 1"
-        ],
-        "hints": {
-          "easy": "Guybrush",
-          "normal": "Insults",
-          "hard": "Mug"
-        }
       }
     }
   },
@@ -1290,15 +862,6 @@
           "easy": "Skelett",
           "normal": "Resebyrå",
           "hard": "Blommor"
-        }
-      },
-      "en": {
-        "word": "Grim Fandango",
-        "aliases": [],
-        "hints": {
-          "easy": "Skeleton",
-          "normal": "Tickets",
-          "hard": "Flowers"
         }
       }
     }
@@ -1319,15 +882,6 @@
           "normal": "Färdigheter",
           "hard": "Partner"
         }
-      },
-      "en": {
-        "word": "Disco Elysium",
-        "aliases": [],
-        "hints": {
-          "easy": "Amnesia",
-          "normal": "Skills",
-          "hard": "Partner"
-        }
       }
     }
   },
@@ -1344,15 +898,6 @@
         "aliases": [],
         "hints": {
           "easy": "Solsystem",
-          "normal": "Nomai",
-          "hard": "Sand"
-        }
-      },
-      "en": {
-        "word": "Outer Wilds",
-        "aliases": [],
-        "hints": {
-          "easy": "Planets",
           "normal": "Nomai",
           "hard": "Sand"
         }
@@ -1375,15 +920,6 @@
           "normal": "Syre",
           "hard": "Havsmonster"
         }
-      },
-      "en": {
-        "word": "Subnautica",
-        "aliases": [],
-        "hints": {
-          "easy": "Shipwreck",
-          "normal": "Oxygen",
-          "hard": "Leviathans"
-        }
       }
     }
   },
@@ -1403,15 +939,6 @@
           "normal": "Byggande",
           "hard": "Inflyttare"
         }
-      },
-      "en": {
-        "word": "Terraria",
-        "aliases": [],
-        "hints": {
-          "easy": "Mining",
-          "normal": "Building",
-          "hard": "Residents"
-        }
       }
     }
   },
@@ -1430,15 +957,6 @@
           "easy": "Automation",
           "normal": "Transportband",
           "hard": "Järnväg"
-        }
-      },
-      "en": {
-        "word": "Factorio",
-        "aliases": [],
-        "hints": {
-          "easy": "Factory",
-          "normal": "Conveyors",
-          "hard": "Railway"
         }
       }
     }
@@ -1464,20 +982,6 @@
           "normal": "Stadsdistrikt",
           "hard": "Politik"
         }
-      },
-      "en": {
-        "word": "Sid Meier's Civilization VI",
-        "aliases": [
-          "Civilization VI",
-          "Civilization 6",
-          "Civ VI",
-          "Civ 6"
-        ],
-        "hints": {
-          "easy": "Empires",
-          "normal": "Districts",
-          "hard": "Policies"
-        }
       }
     }
   },
@@ -1501,19 +1005,6 @@
           "normal": "Vildsvin",
           "hard": "Tidsåldrar"
         }
-      },
-      "en": {
-        "word": "Age of Empires II",
-        "aliases": [
-          "Age of Empires 2",
-          "AoE II",
-          "AoE 2"
-        ],
-        "hints": {
-          "easy": "Medieval",
-          "normal": "Boar",
-          "hard": "Ages"
-        }
       }
     }
   },
@@ -1536,18 +1027,6 @@
           "normal": "Spaning",
           "hard": "Gas"
         }
-      },
-      "en": {
-        "word": "StarCraft II",
-        "aliases": [
-          "StarCraft 2",
-          "SC2"
-        ],
-        "hints": {
-          "easy": "Protoss",
-          "normal": "Scouting",
-          "hard": "Gas"
-        }
       }
     }
   },
@@ -1566,15 +1045,6 @@
           "easy": "Motståndsrörelse",
           "normal": "Soldater",
           "hard": "Träffchans"
-        }
-      },
-      "en": {
-        "word": "XCOM 2",
-        "aliases": [],
-        "hints": {
-          "easy": "Resistance",
-          "normal": "Soldiers",
-          "hard": "Accuracy"
         }
       }
     }
@@ -1598,18 +1068,6 @@
           "normal": "Kombinationer",
           "hard": "Bonusbana"
         }
-      },
-      "en": {
-        "word": "Street Fighter II",
-        "aliases": [
-          "Street Fighter 2",
-          "SF2"
-        ],
-        "hints": {
-          "easy": "Arcade",
-          "normal": "Combos",
-          "hard": "Bonus"
-        }
       }
     }
   },
@@ -1628,15 +1086,6 @@
           "easy": "Mishima",
           "normal": "Knappar",
           "hard": "Sidosteg"
-        }
-      },
-      "en": {
-        "word": "Tekken 3",
-        "aliases": [],
-        "hints": {
-          "easy": "Mishima",
-          "normal": "Buttons",
-          "hard": "Sidestep"
         }
       }
     }
@@ -1660,18 +1109,6 @@
           "normal": "Procent",
           "hard": "Återhämtning"
         }
-      },
-      "en": {
-        "word": "Super Smash Bros. Ultimate",
-        "aliases": [
-          "Smash Ultimate",
-          "SSBU"
-        ],
-        "hints": {
-          "easy": "Nintendo",
-          "normal": "Percentages",
-          "hard": "Recovery"
-        }
       }
     }
   },
@@ -1694,18 +1131,6 @@
           "normal": "Bandknappar",
           "hard": "Solo"
         }
-      },
-      "en": {
-        "word": "Guitar Hero III: Legends of Rock",
-        "aliases": [
-          "Guitar Hero III",
-          "Guitar Hero 3"
-        ],
-        "hints": {
-          "easy": "Plastic",
-          "normal": "Frets",
-          "hard": "Solo"
-        }
       }
     }
   },
@@ -1724,15 +1149,6 @@
           "easy": "VR",
           "normal": "Rytm",
           "hard": "Ducka"
-        }
-      },
-      "en": {
-        "word": "Beat Saber",
-        "aliases": [],
-        "hints": {
-          "easy": "VR",
-          "normal": "Rhythm",
-          "hard": "Duck"
         }
       }
     }
@@ -1753,15 +1169,6 @@
           "normal": "Kraftmånar",
           "hard": "Skyskrapor"
         }
-      },
-      "en": {
-        "word": "Super Mario Odyssey",
-        "aliases": [],
-        "hints": {
-          "easy": "Cap",
-          "normal": "Moons",
-          "hard": "Skyscrapers"
-        }
       }
     }
   },
@@ -1780,15 +1187,6 @@
           "easy": "ZDR",
           "normal": "Områden",
           "hard": "Magneter"
-        }
-      },
-      "en": {
-        "word": "Metroid Dread",
-        "aliases": [],
-        "hints": {
-          "easy": "ZDR",
-          "normal": "Zones",
-          "hard": "Magnets"
         }
       }
     }
@@ -1809,15 +1207,6 @@
           "normal": "Tecknat",
           "hard": "Djävul"
         }
-      },
-      "en": {
-        "word": "Cuphead",
-        "aliases": [],
-        "hints": {
-          "easy": "Animation",
-          "normal": "Meter",
-          "hard": "Devil"
-        }
       }
     }
   },
@@ -1836,15 +1225,6 @@
           "easy": "Ordbrickor",
           "normal": "Ordbyte",
           "hard": "Villkor"
-        }
-      },
-      "en": {
-        "word": "Baba Is You",
-        "aliases": [],
-        "hints": {
-          "easy": "Tiles",
-          "normal": "Swapping",
-          "hard": "Rules"
         }
       }
     }
@@ -1867,17 +1247,6 @@
           "normal": "Generatorer",
           "hard": "Räddning"
         }
-      },
-      "en": {
-        "word": "Dead by Daylight",
-        "aliases": [
-          "DBD"
-        ],
-        "hints": {
-          "easy": "Survivors",
-          "normal": "Generators",
-          "hard": "Rescue"
-        }
       }
     }
   },
@@ -1896,15 +1265,6 @@
           "easy": "Spökjakt",
           "normal": "EMF",
           "hard": "Lastbil"
-        }
-      },
-      "en": {
-        "word": "Phasmophobia",
-        "aliases": [],
-        "hints": {
-          "easy": "Ghosts",
-          "normal": "EMF",
-          "hard": "Truck"
         }
       }
     }
@@ -1925,15 +1285,6 @@
           "normal": "Jokrar",
           "hard": "Poängmål"
         }
-      },
-      "en": {
-        "word": "Balatro",
-        "aliases": [],
-        "hints": {
-          "easy": "Poker",
-          "normal": "Jokers",
-          "hard": "Blind"
-        }
       }
     }
   },
@@ -1952,15 +1303,6 @@
           "easy": "Rörmokare",
           "normal": "Röd",
           "hard": "Svampar"
-        }
-      },
-      "en": {
-        "word": "Mario",
-        "aliases": [],
-        "hints": {
-          "easy": "Plumber",
-          "normal": "Red",
-          "hard": "Mushrooms"
         }
       }
     }
@@ -1981,15 +1323,6 @@
           "normal": "Spöken",
           "hard": "Dammsugare"
         }
-      },
-      "en": {
-        "word": "Luigi",
-        "aliases": [],
-        "hints": {
-          "easy": "Green",
-          "normal": "Ghosts",
-          "hard": "Vacuum"
-        }
       }
     }
   },
@@ -2008,15 +1341,6 @@
           "easy": "Svampriket",
           "normal": "Krona",
           "hard": "Sväva"
-        }
-      },
-      "en": {
-        "word": "Princess Peach",
-        "aliases": [],
-        "hints": {
-          "easy": "Kingdom",
-          "normal": "Crown",
-          "hard": "Float"
         }
       }
     }
@@ -2039,17 +1363,6 @@
           "normal": "Taggar",
           "hard": "Vindbrygga"
         }
-      },
-      "en": {
-        "word": "Bowser",
-        "aliases": [
-          "King Koopa"
-        ],
-        "hints": {
-          "easy": "Turtle",
-          "normal": "Spikes",
-          "hard": "Drawbridge"
-        }
       }
     }
   },
@@ -2069,15 +1382,6 @@
           "normal": "Tunga",
           "hard": "Ägg"
         }
-      },
-      "en": {
-        "word": "Yoshi",
-        "aliases": [],
-        "hints": {
-          "easy": "Dinosaur",
-          "normal": "Tongue",
-          "hard": "Eggs"
-        }
       }
     }
   },
@@ -2096,15 +1400,6 @@
           "easy": "Rosa",
           "normal": "Inandning",
           "hard": "Kopiering"
-        }
-      },
-      "en": {
-        "word": "Kirby",
-        "aliases": [],
-        "hints": {
-          "easy": "Pink",
-          "normal": "Inhaling",
-          "hard": "Copying"
         }
       }
     }
@@ -2127,17 +1422,6 @@
           "normal": "Bananer",
           "hard": "Tunnor"
         }
-      },
-      "en": {
-        "word": "Donkey Kong",
-        "aliases": [
-          "DK"
-        ],
-        "hints": {
-          "easy": "Gorilla",
-          "normal": "Bananas",
-          "hard": "Barrels"
-        }
       }
     }
   },
@@ -2156,15 +1440,6 @@
           "easy": "Hyrule",
           "normal": "Svärd",
           "hard": "Fe"
-        }
-      },
-      "en": {
-        "word": "Link",
-        "aliases": [],
-        "hints": {
-          "easy": "Hyrule",
-          "normal": "Sword",
-          "hard": "Fairy"
         }
       }
     }
@@ -2187,17 +1462,6 @@
           "normal": "Sheik",
           "hard": "Visdom"
         }
-      },
-      "en": {
-        "word": "Princess Zelda",
-        "aliases": [
-          "Zelda"
-        ],
-        "hints": {
-          "easy": "Hyrule",
-          "normal": "Sheik",
-          "hard": "Wisdom"
-        }
       }
     }
   },
@@ -2218,17 +1482,6 @@
           "easy": "Gerudo",
           "normal": "Vildsvin",
           "hard": "Kraft"
-        }
-      },
-      "en": {
-        "word": "Ganondorf",
-        "aliases": [
-          "Ganon"
-        ],
-        "hints": {
-          "easy": "Gerudo",
-          "normal": "Boar",
-          "hard": "Power"
         }
       }
     }
@@ -2251,17 +1504,6 @@
           "normal": "Rustning",
           "hard": "Zebes"
         }
-      },
-      "en": {
-        "word": "Samus Aran",
-        "aliases": [
-          "Samus"
-        ],
-        "hints": {
-          "easy": "Bounty",
-          "normal": "Armour",
-          "hard": "Zebes"
-        }
       }
     }
   },
@@ -2280,15 +1522,6 @@
           "easy": "Elektricitet",
           "normal": "Svans",
           "hard": "Åsksten"
-        }
-      },
-      "en": {
-        "word": "Pikachu",
-        "aliases": [],
-        "hints": {
-          "easy": "Electricity",
-          "normal": "Tail",
-          "hard": "Thunderstone"
         }
       }
     }
@@ -2309,15 +1542,6 @@
           "normal": "Utveckling",
           "hard": "Krage"
         }
-      },
-      "en": {
-        "word": "Eevee",
-        "aliases": [],
-        "hints": {
-          "easy": "Pokémon",
-          "normal": "Evolution",
-          "hard": "Ruff"
-        }
       }
     }
   },
@@ -2336,15 +1560,6 @@
           "easy": "Pokémon",
           "normal": "Klon",
           "hard": "Laboratorium"
-        }
-      },
-      "en": {
-        "word": "Mewtwo",
-        "aliases": [],
-        "hints": {
-          "easy": "Pokémon",
-          "normal": "Clone",
-          "hard": "Laboratory"
         }
       }
     }
@@ -2366,17 +1581,6 @@
           "easy": "Igelkott",
           "normal": "Ringar",
           "hard": "Robotar"
-        }
-      },
-      "en": {
-        "word": "Sonic",
-        "aliases": [
-          "Sonic the Hedgehog"
-        ],
-        "hints": {
-          "easy": "Hedgehog",
-          "normal": "Rings",
-          "hard": "Robots"
         }
       }
     }
@@ -2401,19 +1605,6 @@
           "normal": "Farkoster",
           "hard": "Robotar"
         }
-      },
-      "en": {
-        "word": "Dr. Eggman",
-        "aliases": [
-          "Doctor Eggman",
-          "Dr. Robotnik",
-          "Doctor Robotnik"
-        ],
-        "hints": {
-          "easy": "Moustache",
-          "normal": "Vehicles",
-          "hard": "Robots"
-        }
       }
     }
   },
@@ -2433,15 +1624,6 @@
           "normal": "Pistoler",
           "hard": "Herrgård"
         }
-      },
-      "en": {
-        "word": "Lara Croft",
-        "aliases": [],
-        "hints": {
-          "easy": "Archaeologist",
-          "normal": "Pistols",
-          "hard": "Manor"
-        }
       }
     }
   },
@@ -2460,17 +1642,6 @@
         ],
         "hints": {
           "easy": "Skattjägare",
-          "normal": "Sully",
-          "hard": "Dorado"
-        }
-      },
-      "en": {
-        "word": "Nathan Drake",
-        "aliases": [
-          "Nate Drake"
-        ],
-        "hints": {
-          "easy": "Treasure",
           "normal": "Sully",
           "hard": "Dorado"
         }
@@ -2495,17 +1666,6 @@
           "normal": "Cortana",
           "hard": "Spartan"
         }
-      },
-      "en": {
-        "word": "Master Chief",
-        "aliases": [
-          "John-117"
-        ],
-        "hints": {
-          "easy": "Armour",
-          "normal": "Cortana",
-          "hard": "Spartan"
-        }
       }
     }
   },
@@ -2527,17 +1687,6 @@
           "normal": "Skyddsdräkt",
           "hard": "Kofot"
         }
-      },
-      "en": {
-        "word": "Gordon Freeman",
-        "aliases": [
-          "Freeman"
-        ],
-        "hints": {
-          "easy": "Physicist",
-          "normal": "Hazmat",
-          "hard": "Crowbar"
-        }
       }
     }
   },
@@ -2556,15 +1705,6 @@
           "easy": "AI",
           "normal": "Potatis",
           "hard": "Tårta"
-        }
-      },
-      "en": {
-        "word": "GLaDOS",
-        "aliases": [],
-        "hints": {
-          "easy": "AI",
-          "normal": "Potato",
-          "hard": "Cake"
         }
       }
     }
@@ -2585,15 +1725,6 @@
           "normal": "Stövlar",
           "hard": "Fångdräkt"
         }
-      },
-      "en": {
-        "word": "Chell",
-        "aliases": [],
-        "hints": {
-          "easy": "Subject",
-          "normal": "Boots",
-          "hard": "Jumpsuit"
-        }
       }
     }
   },
@@ -2612,15 +1743,6 @@
           "easy": "Krigare",
           "normal": "Atreus",
           "hard": "Kedjor"
-        }
-      },
-      "en": {
-        "word": "Kratos",
-        "aliases": [],
-        "hints": {
-          "easy": "Warrior",
-          "normal": "Atreus",
-          "hard": "Chains"
         }
       }
     }
@@ -2641,15 +1763,6 @@
           "normal": "Nora",
           "hard": "Tinning"
         }
-      },
-      "en": {
-        "word": "Aloy",
-        "aliases": [],
-        "hints": {
-          "easy": "Huntress",
-          "normal": "Nora",
-          "hard": "Temple"
-        }
       }
     }
   },
@@ -2667,15 +1780,6 @@
         "hints": {
           "easy": "Samuraj",
           "normal": "Hederskod",
-          "hard": "Haiku"
-        }
-      },
-      "en": {
-        "word": "Jin Sakai",
-        "aliases": [],
-        "hints": {
-          "easy": "Samurai",
-          "normal": "Honour",
           "hard": "Haiku"
         }
       }
@@ -2697,15 +1801,6 @@
           "normal": "Öprojekt",
           "hard": "Tanuki"
         }
-      },
-      "en": {
-        "word": "Tom Nook",
-        "aliases": [],
-        "hints": {
-          "easy": "Loans",
-          "normal": "Island",
-          "hard": "Tanuki"
-        }
       }
     }
   },
@@ -2724,15 +1819,6 @@
           "easy": "Administration",
           "normal": "Nyheter",
           "hard": "Bjällror"
-        }
-      },
-      "en": {
-        "word": "Isabelle",
-        "aliases": [],
-        "hints": {
-          "easy": "Administration",
-          "normal": "Announcements",
-          "hard": "Bells"
         }
       }
     }
@@ -2755,17 +1841,6 @@
           "normal": "Klänning",
           "hard": "Interpol"
         }
-      },
-      "en": {
-        "word": "Chun-Li",
-        "aliases": [
-          "Chun Li"
-        ],
-        "hints": {
-          "easy": "Kicks",
-          "normal": "Dress",
-          "hard": "Interpol"
-        }
       }
     }
   },
@@ -2784,15 +1859,6 @@
           "easy": "Pannband",
           "normal": "Energiklot",
           "hard": "Vandrare"
-        }
-      },
-      "en": {
-        "word": "Ryu",
-        "aliases": [],
-        "hints": {
-          "easy": "Headband",
-          "normal": "Fireball",
-          "hard": "Wanderer"
         }
       }
     }
@@ -2815,17 +1881,6 @@
           "normal": "Ryu",
           "hard": "Uppercut"
         }
-      },
-      "en": {
-        "word": "Ken Masters",
-        "aliases": [
-          "Ken"
-        ],
-        "hints": {
-          "easy": "Red",
-          "normal": "Ryu",
-          "hard": "Uppercut"
-        }
       }
     }
   },
@@ -2844,15 +1899,6 @@
           "easy": "Revolverman",
           "normal": "Dutch",
           "hard": "Dagbok"
-        }
-      },
-      "en": {
-        "word": "Arthur Morgan",
-        "aliases": [],
-        "hints": {
-          "easy": "Outlaw",
-          "normal": "Dutch",
-          "hard": "Journal"
         }
       }
     }
@@ -2873,15 +1919,6 @@
           "normal": "Prickar",
           "hard": "Tillväxt"
         }
-      },
-      "en": {
-        "word": "Super Mushroom",
-        "aliases": [],
-        "hints": {
-          "easy": "Mario",
-          "normal": "Spots",
-          "hard": "Growth"
-        }
       }
     }
   },
@@ -2900,15 +1937,6 @@
           "easy": "Mario",
           "normal": "Projektiler",
           "hard": "Rörmokare"
-        }
-      },
-      "en": {
-        "word": "Fire Flower",
-        "aliases": [],
-        "hints": {
-          "easy": "Mario",
-          "normal": "Projectiles",
-          "hard": "Plumber"
         }
       }
     }
@@ -2932,17 +1960,6 @@
           "normal": "Ledare",
           "hard": "Smäll"
         }
-      },
-      "en": {
-        "word": "Spiny Shell",
-        "aliases": [
-          "Blue Shell"
-        ],
-        "hints": {
-          "easy": "Kart",
-          "normal": "Leader",
-          "hard": "Explosion"
-        }
       }
     }
   },
@@ -2961,15 +1978,6 @@
           "easy": "Peach",
           "normal": "Slott",
           "hard": "Tavlor"
-        }
-      },
-      "en": {
-        "word": "Power Star",
-        "aliases": [],
-        "hints": {
-          "easy": "Peach",
-          "normal": "Castle",
-          "hard": "Paintings"
         }
       }
     }
@@ -2990,15 +1998,6 @@
           "normal": "Visdom",
           "hard": "Mod"
         }
-      },
-      "en": {
-        "word": "Triforce",
-        "aliases": [],
-        "hints": {
-          "easy": "Hyrule",
-          "normal": "Wisdom",
-          "hard": "Courage"
-        }
       }
     }
   },
@@ -3017,15 +2016,6 @@
           "easy": "Hyrule",
           "normal": "Sockel",
           "hard": "Skog"
-        }
-      },
-      "en": {
-        "word": "Master Sword",
-        "aliases": [],
-        "hints": {
-          "easy": "Hyrule",
-          "normal": "Pedestal",
-          "hard": "Forest"
         }
       }
     }
@@ -3046,15 +2036,6 @@
           "normal": "Triangel",
           "hard": "Vapen"
         }
-      },
-      "en": {
-        "word": "Hylian Shield",
-        "aliases": [],
-        "hints": {
-          "easy": "Link",
-          "normal": "Triangle",
-          "hard": "Emblem"
-        }
       }
     }
   },
@@ -3074,15 +2055,6 @@
           "normal": "Hake",
           "hard": "Avstånd"
         }
-      },
-      "en": {
-        "word": "Hookshot",
-        "aliases": [],
-        "hints": {
-          "easy": "Link",
-          "normal": "Grapple",
-          "hard": "Distance"
-        }
       }
     }
   },
@@ -3101,15 +2073,6 @@
           "easy": "Runor",
           "normal": "Magnesis",
           "hard": "Kamera"
-        }
-      },
-      "en": {
-        "word": "Sheikah Slate",
-        "aliases": [],
-        "hints": {
-          "easy": "Runes",
-          "normal": "Magnesis",
-          "hard": "Camera"
         }
       }
     }
@@ -3134,19 +2097,6 @@
           "normal": "Knapp",
           "hard": "Skakningar"
         }
-      },
-      "en": {
-        "word": "Poké Ball",
-        "aliases": [
-          "Pokeball",
-          "Pokéball",
-          "Poke Ball"
-        ],
-        "hints": {
-          "easy": "Pokémon",
-          "normal": "Button",
-          "hard": "Shakes"
-        }
       }
     }
   },
@@ -3165,15 +2115,6 @@
           "easy": "Fångst",
           "normal": "Bokstav",
           "hard": "Legendarer"
-        }
-      },
-      "en": {
-        "word": "Master Ball",
-        "aliases": [],
-        "hints": {
-          "easy": "Capture",
-          "normal": "Letter",
-          "hard": "Legendaries"
         }
       }
     }
@@ -3194,17 +2135,6 @@
         "hints": {
           "easy": "Pokémon",
           "normal": "Arter",
-          "hard": "Professor"
-        }
-      },
-      "en": {
-        "word": "Pokédex",
-        "aliases": [
-          "Pokedex"
-        ],
-        "hints": {
-          "easy": "Pokémon",
-          "normal": "Species",
           "hard": "Professor"
         }
       }
@@ -3228,17 +2158,6 @@
           "normal": "Fysik",
           "hard": "Orange"
         }
-      },
-      "en": {
-        "word": "Portal Gun",
-        "aliases": [
-          "Aperture Science Handheld Portal Device"
-        ],
-        "hints": {
-          "easy": "Openings",
-          "normal": "Physics",
-          "hard": "Orange"
-        }
       }
     }
   },
@@ -3257,17 +2176,6 @@
         ],
         "hints": {
           "easy": "Föremål",
-          "normal": "Ravenholm",
-          "hard": "Ammunition"
-        }
-      },
-      "en": {
-        "word": "Gravity Gun",
-        "aliases": [
-          "Zero Point Energy Field Manipulator"
-        ],
-        "hints": {
-          "easy": "Objects",
           "normal": "Ravenholm",
           "hard": "Ammunition"
         }
@@ -3290,15 +2198,6 @@
           "normal": "Återkallning",
           "hard": "Dvärgbröder"
         }
-      },
-      "en": {
-        "word": "Leviathan Axe",
-        "aliases": [],
-        "hints": {
-          "easy": "Throwing",
-          "normal": "Recall",
-          "hard": "Dwarves"
-        }
       }
     }
   },
@@ -3318,15 +2217,6 @@
           "normal": "Träff",
           "hard": "Hinder"
         }
-      },
-      "en": {
-        "word": "Blades of Chaos",
-        "aliases": [],
-        "hints": {
-          "easy": "Chains",
-          "normal": "Reach",
-          "hard": "Obstacles"
-        }
       }
     }
   },
@@ -3344,15 +2234,6 @@
         "hints": {
           "easy": "Dräkt",
           "normal": "Bomber",
-          "hard": "Dread"
-        }
-      },
-      "en": {
-        "word": "Morph Ball",
-        "aliases": [],
-        "hints": {
-          "easy": "Samus",
-          "normal": "Bombs",
           "hard": "Dread"
         }
       }
@@ -3374,15 +2255,6 @@
           "normal": "Kristaller",
           "hard": "Kedjereaktion"
         }
-      },
-      "en": {
-        "word": "Needler",
-        "aliases": [],
-        "hints": {
-          "easy": "Halo",
-          "normal": "Crystals",
-          "hard": "Detonation"
-        }
       }
     }
   },
@@ -3401,15 +2273,6 @@
           "easy": "Rekordtid",
           "normal": "Mellantider",
           "hard": "Kategorier"
-        }
-      },
-      "en": {
-        "word": "Speedrun",
-        "aliases": [],
-        "hints": {
-          "easy": "Record",
-          "normal": "Splits",
-          "hard": "Categories"
         }
       }
     }
@@ -3432,17 +2295,6 @@
           "normal": "Spöke",
           "hard": "Kurva"
         }
-      },
-      "en": {
-        "word": "Time Trial",
-        "aliases": [
-          "Time Attack"
-        ],
-        "hints": {
-          "easy": "Clock",
-          "normal": "Ghost",
-          "hard": "Corner"
-        }
       }
     }
   },
@@ -3463,17 +2315,6 @@
           "easy": "Attackmönster",
           "normal": "Hälsomätare",
           "hard": "Faser"
-        }
-      },
-      "en": {
-        "word": "Boss Fight",
-        "aliases": [
-          "Boss Battle"
-        ],
-        "hints": {
-          "easy": "Patterns",
-          "normal": "Health",
-          "hard": "Phases"
         }
       }
     }
@@ -3497,18 +2338,6 @@
           "normal": "Utrustning",
           "hard": "Kampanj"
         }
-      },
-      "en": {
-        "word": "New Game Plus",
-        "aliases": [
-          "New Game+",
-          "NG+"
-        ],
-        "hints": {
-          "easy": "Replay",
-          "normal": "Equipment",
-          "hard": "Campaign"
-        }
       }
     }
   },
@@ -3530,17 +2359,6 @@
           "normal": "Utrustning",
           "hard": "Konsekvenser"
         }
-      },
-      "en": {
-        "word": "Permadeath",
-        "aliases": [
-          "Perma Death"
-        ],
-        "hints": {
-          "easy": "Character",
-          "normal": "Equipment",
-          "hard": "Consequences"
-        }
       }
     }
   },
@@ -3560,15 +2378,6 @@
           "normal": "Lag",
           "hard": "Startplats"
         }
-      },
-      "en": {
-        "word": "Respawn",
-        "aliases": [],
-        "hints": {
-          "easy": "Comeback",
-          "normal": "Teammates",
-          "hard": "Starting"
-        }
       }
     }
   },
@@ -3587,15 +2396,6 @@
           "easy": "Sparpunkt",
           "normal": "Bakslag",
           "hard": "Omstart"
-        }
-      },
-      "en": {
-        "word": "Checkpoint",
-        "aliases": [],
-        "hints": {
-          "easy": "Saving",
-          "normal": "Setback",
-          "hard": "Retry"
         }
       }
     }
@@ -3619,18 +2419,6 @@
           "normal": "Filmsekvens",
           "hard": "Tidsmätare"
         }
-      },
-      "en": {
-        "word": "Quick Time Event",
-        "aliases": [
-          "QTE",
-          "Quick-Time Event"
-        ],
-        "hints": {
-          "easy": "Button",
-          "normal": "Cutscene",
-          "hard": "Timer"
-        }
       }
     }
   },
@@ -3653,18 +2441,6 @@
           "normal": "Soffa",
           "hard": "Skärmyta"
         }
-      },
-      "en": {
-        "word": "Split-screen",
-        "aliases": [
-          "Splitscreen",
-          "Split Screen"
-        ],
-        "hints": {
-          "easy": "Multiplayer",
-          "normal": "Couch",
-          "hard": "Corner"
-        }
       }
     }
   },
@@ -3683,15 +2459,6 @@
           "easy": "Kösystem",
           "normal": "Skicklighet",
           "hard": "Matchning"
-        }
-      },
-      "en": {
-        "word": "Matchmaking",
-        "aliases": [],
-        "hints": {
-          "easy": "Queue",
-          "normal": "Skill",
-          "hard": "Pairing"
         }
       }
     }
@@ -3712,15 +2479,6 @@
           "normal": "Spelzon",
           "hard": "Utrustning"
         }
-      },
-      "en": {
-        "word": "Battle Royale",
-        "aliases": [],
-        "hints": {
-          "easy": "Survival",
-          "normal": "Zone",
-          "hard": "Loot"
-        }
       }
     }
   },
@@ -3739,17 +2497,6 @@
           "easy": "Sidoberättelse",
           "normal": "Bybo",
           "hard": "Belöning"
-        }
-      },
-      "en": {
-        "word": "Side Quest",
-        "aliases": [
-          "Secondary Quest"
-        ],
-        "hints": {
-          "easy": "Optional",
-          "normal": "Villager",
-          "hard": "Reward"
         }
       }
     }
@@ -3770,15 +2517,6 @@
           "normal": "Station",
           "hard": "Återbesök"
         }
-      },
-      "en": {
-        "word": "Fast Travel",
-        "aliases": [],
-        "hints": {
-          "easy": "Teleportation",
-          "normal": "Station",
-          "hard": "Backtracking"
-        }
       }
     }
   },
@@ -3798,15 +2536,6 @@
           "normal": "Återvändo",
           "hard": "Avsats"
         }
-      },
-      "en": {
-        "word": "Metroidvania",
-        "aliases": [],
-        "hints": {
-          "easy": "Abilities",
-          "normal": "Backtracking",
-          "hard": "Ledge"
-        }
       }
     }
   },
@@ -3825,15 +2554,6 @@
           "easy": "Nederlag",
           "normal": "Slumpvärld",
           "hard": "Omspelning"
-        }
-      },
-      "en": {
-        "word": "Roguelike",
-        "aliases": [],
-        "hints": {
-          "easy": "Defeat",
-          "normal": "Randomness",
-          "hard": "Replay"
         }
       }
     }

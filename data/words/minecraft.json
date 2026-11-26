@@ -20,17 +20,6 @@
           "normal": "Randigt",
           "hard": "Guld"
         }
-      },
-      "en": {
-        "word": "Badlands",
-        "aliases": [
-          "Mesa"
-        ],
-        "hints": {
-          "easy": "Terracotta",
-          "normal": "Striped",
-          "hard": "Gold"
-        }
       }
     }
   },
@@ -53,15 +42,6 @@
           "easy": "Tropisk",
           "normal": "Pandor",
           "hard": "Byggställningar"
-        }
-      },
-      "en": {
-        "word": "Bamboo Jungle",
-        "aliases": [],
-        "hints": {
-          "easy": "Tropical",
-          "normal": "Pandas",
-          "hard": "Scaffolding"
         }
       }
     }
@@ -86,15 +66,6 @@
           "normal": "Aska",
           "hard": "Hopp"
         }
-      },
-      "en": {
-        "word": "Basalt Deltas",
-        "aliases": [],
-        "hints": {
-          "easy": "Lava",
-          "normal": "Ash",
-          "hard": "Jump"
-        }
       }
     }
   },
@@ -117,15 +88,6 @@
           "easy": "Rosa",
           "normal": "Kronblad",
           "hard": "Brädor"
-        }
-      },
-      "en": {
-        "word": "Cherry Grove",
-        "aliases": [],
-        "hints": {
-          "easy": "Pink",
-          "normal": "Petals",
-          "hard": "Planks"
         }
       }
     }
@@ -150,15 +112,6 @@
           "normal": "Svampar",
           "hard": "Rankor"
         }
-      },
-      "en": {
-        "word": "Crimson Forest",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Fungi",
-          "hard": "Vines"
-        }
       }
     }
   },
@@ -181,15 +134,6 @@
           "easy": "Jättesvampar",
           "normal": "Trädkronor",
           "hard": "Herrgård"
-        }
-      },
-      "en": {
-        "word": "Dark Forest",
-        "aliases": [],
-        "hints": {
-          "easy": "Mushrooms",
-          "normal": "Canopy",
-          "hard": "Mansion"
         }
       }
     }
@@ -214,15 +158,6 @@
           "normal": "Fotsteg",
           "hard": "Vibrationer"
         }
-      },
-      "en": {
-        "word": "Deep Dark",
-        "aliases": [],
-        "hints": {
-          "easy": "Underground",
-          "normal": "Footsteps",
-          "hard": "Vibrations"
-        }
       }
     }
   },
@@ -245,15 +180,6 @@
           "easy": "Kaktusar",
           "normal": "Sandsten",
           "hard": "Dagsljus"
-        }
-      },
-      "en": {
-        "word": "Desert",
-        "aliases": [],
-        "hints": {
-          "easy": "Cacti",
-          "normal": "Sandstone",
-          "hard": "Sunlight"
         }
       }
     }
@@ -278,15 +204,6 @@
           "normal": "Koppar",
           "hard": "Droppar"
         }
-      },
-      "en": {
-        "word": "Dripstone Caves",
-        "aliases": [],
-        "hints": {
-          "easy": "Stalactites",
-          "normal": "Copper",
-          "hard": "Droplets"
-        }
       }
     }
   },
@@ -309,15 +226,6 @@
           "easy": "Packis",
           "normal": "Isbjörnar",
           "hard": "Rännor"
-        }
-      },
-      "en": {
-        "word": "Frozen Ocean",
-        "aliases": [],
-        "hints": {
-          "easy": "Icebergs",
-          "normal": "Bears",
-          "hard": "Channels"
         }
       }
     }
@@ -342,15 +250,6 @@
           "normal": "Siluett",
           "hard": "Pelarna"
         }
-      },
-      "en": {
-        "word": "Ice Spikes",
-        "aliases": [],
-        "hints": {
-          "easy": "Towers",
-          "normal": "Silhouette",
-          "hard": "Silk"
-        }
       }
     }
   },
@@ -373,15 +272,6 @@
           "easy": "Lianer",
           "normal": "Stammarna",
           "hard": "Växtligheten"
-        }
-      },
-      "en": {
-        "word": "Jungle",
-        "aliases": [],
-        "hints": {
-          "easy": "Biome",
-          "normal": "Parrots",
-          "hard": "Foliage"
         }
       }
     }
@@ -406,15 +296,6 @@
           "normal": "Azalea",
           "hard": "Sporer"
         }
-      },
-      "en": {
-        "word": "Lush Caves",
-        "aliases": [],
-        "hints": {
-          "easy": "Axolotls",
-          "normal": "Azalea",
-          "hard": "Spores"
-        }
       }
     }
   },
@@ -438,15 +319,6 @@
           "normal": "Lera",
           "hard": "Groddplantor"
         }
-      },
-      "en": {
-        "word": "Mangrove Swamp",
-        "aliases": [],
-        "hints": {
-          "easy": "Roots",
-          "normal": "Mud",
-          "hard": "Propagules"
-        }
       }
     }
   },
@@ -469,15 +341,6 @@
           "easy": "Blommor",
           "normal": "Berg",
           "hard": "Bin"
-        }
-      },
-      "en": {
-        "word": "Meadow",
-        "aliases": [],
-        "hints": {
-          "easy": "Flowers",
-          "normal": "Mountains",
-          "hard": "Bees"
         }
       }
     }
@@ -503,17 +366,6 @@
           "normal": "Mycel",
           "hard": "Frid"
         }
-      },
-      "en": {
-        "word": "Mushroom Fields",
-        "aliases": [
-          "Mushroom Island"
-        ],
-        "hints": {
-          "easy": "Cows",
-          "normal": "Mycelium",
-          "hard": "Peace"
-        }
       }
     }
   },
@@ -536,15 +388,6 @@
           "easy": "Elddimensionen",
           "normal": "Glödsten",
           "hard": "Kvartsfläckar"
-        }
-      },
-      "en": {
-        "word": "Nether Wastes",
-        "aliases": [],
-        "hints": {
-          "easy": "Rocky",
-          "normal": "Glowstone",
-          "hard": "Patches"
         }
       }
     }
@@ -569,15 +412,6 @@
           "normal": "Skymning",
           "hard": "Harts"
         }
-      },
-      "en": {
-        "word": "Pale Garden",
-        "aliases": [],
-        "hints": {
-          "easy": "Pale",
-          "normal": "Dusk",
-          "hard": "Resin"
-        }
       }
     }
   },
@@ -600,15 +434,6 @@
           "easy": "Hästar",
           "normal": "Gräs",
           "hard": "Byggplats"
-        }
-      },
-      "en": {
-        "word": "Plains",
-        "aliases": [],
-        "hints": {
-          "easy": "Horses",
-          "normal": "Grass",
-          "hard": "Space"
         }
       }
     }
@@ -633,15 +458,6 @@
           "normal": "Gräs",
           "hard": "Bältdjur"
         }
-      },
-      "en": {
-        "word": "Savanna",
-        "aliases": [],
-        "hints": {
-          "easy": "Acacias",
-          "normal": "Grass",
-          "hard": "Armadillo"
-        }
       }
     }
   },
@@ -664,15 +480,6 @@
           "easy": "Berg",
           "normal": "Get",
           "hard": "Läderstövlar"
-        }
-      },
-      "en": {
-        "word": "Snowy Slopes",
-        "aliases": [],
-        "hints": {
-          "easy": "Mountains",
-          "normal": "Goats",
-          "hard": "Leather"
         }
       }
     }
@@ -697,15 +504,6 @@
           "normal": "Eld",
           "hard": "Benbågar"
         }
-      },
-      "en": {
-        "word": "Soul Sand Valley",
-        "aliases": [],
-        "hints": {
-          "easy": "Fossils",
-          "normal": "Flames",
-          "hard": "Arches"
-        }
       }
     }
   },
@@ -728,15 +526,6 @@
           "easy": "Näckrosblad",
           "normal": "Slemkuber",
           "hard": "Vattenbrynet"
-        }
-      },
-      "en": {
-        "word": "Swamp",
-        "aliases": [],
-        "hints": {
-          "easy": "Water",
-          "normal": "Slimes",
-          "hard": "Orchid"
         }
       }
     }
@@ -761,15 +550,6 @@
           "normal": "Barrträden",
           "hard": "Bärbuskarna"
         }
-      },
-      "en": {
-        "word": "Taiga",
-        "aliases": [],
-        "hints": {
-          "easy": "Spruce",
-          "normal": "Conifers",
-          "hard": "Bushes"
-        }
       }
     }
   },
@@ -792,15 +572,6 @@
           "easy": "Korallrev",
           "normal": "Fisk",
           "hard": "Sjögurka"
-        }
-      },
-      "en": {
-        "word": "Warm Ocean",
-        "aliases": [],
-        "hints": {
-          "easy": "Coral",
-          "normal": "Fish",
-          "hard": "Pickle"
         }
       }
     }
@@ -825,15 +596,6 @@
           "normal": "Teleportörer",
           "hard": "Rankorna"
         }
-      },
-      "en": {
-        "word": "Warped Forest",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Teleporters",
-          "hard": "Upward"
-        }
       }
     }
   },
@@ -854,15 +616,6 @@
           "easy": "Kristaller",
           "normal": "Geoder",
           "hard": "Klang"
-        }
-      },
-      "en": {
-        "word": "Amethyst Cluster",
-        "aliases": [],
-        "hints": {
-          "easy": "Crystals",
-          "normal": "Geodes",
-          "hard": "Chimes"
         }
       }
     }
@@ -885,15 +638,6 @@
           "normal": "Förtrollning",
           "hard": "Järnklump"
         }
-      },
-      "en": {
-        "word": "Anvil",
-        "aliases": [],
-        "hints": {
-          "easy": "Repairs",
-          "normal": "Enchantments",
-          "hard": "Iron"
-        }
       }
     }
   },
@@ -914,15 +658,6 @@
           "easy": "Ljusstråle",
           "normal": "Mineralpyramid",
           "hard": "Netherstjärna"
-        }
-      },
-      "en": {
-        "word": "Beacon",
-        "aliases": [],
-        "hints": {
-          "easy": "Beam",
-          "normal": "Pyramid",
-          "hard": "Wither"
         }
       }
     }
@@ -945,15 +680,6 @@
           "normal": "Nether",
           "hard": "Gruva"
         }
-      },
-      "en": {
-        "word": "Bedrock",
-        "aliases": [],
-        "hints": {
-          "easy": "Bottom",
-          "normal": "Nether",
-          "hard": "Mining"
-        }
       }
     }
   },
@@ -974,15 +700,6 @@
           "easy": "Byborna",
           "normal": "Pil",
           "hard": "Mötesplats"
-        }
-      },
-      "en": {
-        "word": "Bell",
-        "aliases": [],
-        "hints": {
-          "easy": "Villagers",
-          "normal": "Arrow",
-          "hard": "Gathering"
         }
       }
     }
@@ -1005,15 +722,6 @@
           "normal": "Rustningssmed",
           "hard": "Middag"
         }
-      },
-      "en": {
-        "word": "Blast Furnace",
-        "aliases": [],
-        "hints": {
-          "easy": "Ore",
-          "normal": "Armorer",
-          "hard": "Dinner"
-        }
       }
     }
   },
@@ -1033,15 +741,6 @@
         "hints": {
           "easy": "Båtar",
           "normal": "Halka",
-          "hard": "Nether"
-        }
-      },
-      "en": {
-        "word": "Blue Ice",
-        "aliases": [],
-        "hints": {
-          "easy": "Boats",
-          "normal": "Sliding",
           "hard": "Nether"
         }
       }
@@ -1065,15 +764,6 @@
           "normal": "Blazepulver",
           "hard": "Präst"
         }
-      },
-      "en": {
-        "word": "Brewing Stand",
-        "aliases": [],
-        "hints": {
-          "easy": "Potions",
-          "normal": "Blaze",
-          "hard": "Cleric"
-        }
       }
     }
   },
@@ -1096,15 +786,6 @@
           "normal": "Glasruta",
           "hard": "Plankor"
         }
-      },
-      "en": {
-        "word": "Cartography Table",
-        "aliases": [],
-        "hints": {
-          "easy": "Maps",
-          "normal": "Glass",
-          "hard": "Planks"
-        }
       }
     }
   },
@@ -1125,15 +806,6 @@
           "easy": "Vattenandning",
           "normal": "Nautilus",
           "hard": "Prismarin"
-        }
-      },
-      "en": {
-        "word": "Conduit",
-        "aliases": [],
-        "hints": {
-          "easy": "Breathing",
-          "normal": "Nautilus",
-          "hard": "Prismarine"
         }
       }
     }
@@ -1156,15 +828,6 @@
           "normal": "Oxidation",
           "hard": "Minne"
         }
-      },
-      "en": {
-        "word": "Copper Bulb",
-        "aliases": [],
-        "hints": {
-          "easy": "Pulse",
-          "normal": "Oxidation",
-          "hard": "Memory"
-        }
       }
     }
   },
@@ -1185,15 +848,6 @@
           "easy": "Redstonepuls",
           "normal": "Receptrutor",
           "hard": "Bonde"
-        }
-      },
-      "en": {
-        "word": "Crafter",
-        "aliases": [],
-        "hints": {
-          "easy": "Automation",
-          "normal": "Slots",
-          "hard": "Farming"
         }
       }
     }
@@ -1216,17 +870,6 @@
           "normal": "Plankor",
           "hard": "Rutnät"
         }
-      },
-      "en": {
-        "word": "Crafting Table",
-        "aliases": [
-          "Workbench"
-        ],
-        "hints": {
-          "easy": "Recipes",
-          "normal": "Planks",
-          "hard": "Grid"
-        }
       }
     }
   },
@@ -1247,15 +890,6 @@
           "easy": "Partiklar",
           "normal": "Återuppståndelseankare",
           "hard": "Ruinbiten"
-        }
-      },
-      "en": {
-        "word": "Crying Obsidian",
-        "aliases": [],
-        "hints": {
-          "easy": "Seep",
-          "normal": "Nether",
-          "hard": "Shiny"
         }
       }
     }
@@ -1279,15 +913,6 @@
           "normal": "Redstone",
           "hard": "Gatljus"
         }
-      },
-      "en": {
-        "word": "Daylight Detector",
-        "aliases": [],
-        "hints": {
-          "easy": "Sunlight",
-          "normal": "Redstone",
-          "hard": "Streetlights"
-        }
       }
     }
   },
@@ -1309,15 +934,6 @@
           "normal": "Hink",
           "hard": "Gömmer"
         }
-      },
-      "en": {
-        "word": "Dispenser",
-        "aliases": [],
-        "hints": {
-          "easy": "Arrows",
-          "normal": "Water",
-          "hard": "Recipe"
-        }
       }
     }
   },
@@ -1337,15 +953,6 @@
         "hints": {
           "easy": "Utkast",
           "normal": "Behållare",
-          "hard": "Signal"
-        }
-      },
-      "en": {
-        "word": "Dropper",
-        "aliases": [],
-        "hints": {
-          "easy": "Ejection",
-          "normal": "Container",
           "hard": "Signal"
         }
       }
@@ -1369,15 +976,6 @@
           "normal": "Bokhyllor",
           "hard": "Svävande"
         }
-      },
-      "en": {
-        "word": "Enchanting Table",
-        "aliases": [],
-        "hints": {
-          "easy": "Lapis",
-          "normal": "Bookshelves",
-          "hard": "Floating"
-        }
       }
     }
   },
@@ -1397,15 +995,6 @@
         "hints": {
           "easy": "Förvaring",
           "normal": "Dimensioner",
-          "hard": "Obsidian"
-        }
-      },
-      "en": {
-        "word": "Ender Chest",
-        "aliases": [],
-        "hints": {
-          "easy": "Storage",
-          "normal": "Dimensions",
           "hard": "Obsidian"
         }
       }
@@ -1429,15 +1018,6 @@
           "normal": "Återuppståndelse",
           "hard": "Ljusgult"
         }
-      },
-      "en": {
-        "word": "Glowstone",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Respawn",
-          "hard": "Crumble"
-        }
       }
     }
   },
@@ -1458,15 +1038,6 @@
           "easy": "Förtrollningar",
           "normal": "Vapensmed",
           "hard": "Förbannelserna"
-        }
-      },
-      "en": {
-        "word": "Grindstone",
-        "aliases": [],
-        "hints": {
-          "easy": "Equipment",
-          "normal": "Workstation",
-          "hard": "Cleanup"
         }
       }
     }
@@ -1489,15 +1060,6 @@
           "normal": "Kolv",
           "hard": "Fyrkant"
         }
-      },
-      "en": {
-        "word": "Honey Block",
-        "aliases": [],
-        "hints": {
-          "easy": "Sticky",
-          "normal": "Neighboring",
-          "hard": "Amber"
-        }
       }
     }
   },
@@ -1517,15 +1079,6 @@
         "hints": {
           "easy": "Insamling",
           "normal": "Förvaring",
-          "hard": "Redstone"
-        }
-      },
-      "en": {
-        "word": "Hopper",
-        "aliases": [],
-        "hints": {
-          "easy": "Funnel",
-          "normal": "Storage",
           "hard": "Redstone"
         }
       }
@@ -1549,15 +1102,6 @@
           "normal": "Bibliotekarie",
           "hard": "Sidbyte"
         }
-      },
-      "en": {
-        "word": "Lectern",
-        "aliases": [],
-        "hints": {
-          "easy": "Book",
-          "normal": "Librarian",
-          "hard": "Circuit"
-        }
       }
     }
   },
@@ -1578,15 +1122,6 @@
           "easy": "Kompass",
           "normal": "Nether",
           "hard": "Nordpol"
-        }
-      },
-      "en": {
-        "word": "Lodestone",
-        "aliases": [],
-        "hints": {
-          "easy": "Compass",
-          "normal": "Nether",
-          "hard": "Personal"
         }
       }
     }
@@ -1609,15 +1144,6 @@
           "normal": "Herde",
           "hard": "Tråd"
         }
-      },
-      "en": {
-        "word": "Loom",
-        "aliases": [],
-        "hints": {
-          "easy": "Banner",
-          "normal": "Shepherd",
-          "hard": "String"
-        }
       }
     }
   },
@@ -1638,15 +1164,6 @@
           "easy": "Bubblor",
           "normal": "Värme",
           "hard": "Sprickor"
-        }
-      },
-      "en": {
-        "word": "Magma Block",
-        "aliases": [],
-        "hints": {
-          "easy": "Bubbles",
-          "normal": "Heat",
-          "hard": "Cracks"
         }
       }
     }
@@ -1669,15 +1186,6 @@
           "normal": "Instrument",
           "hard": "Redstonepuls"
         }
-      },
-      "en": {
-        "word": "Note Block",
-        "aliases": [],
-        "hints": {
-          "easy": "Pitch",
-          "normal": "Instrument",
-          "hard": "Concert"
-        }
       }
     }
   },
@@ -1699,15 +1207,6 @@
           "normal": "Puls",
           "hard": "Stenansikte"
         }
-      },
-      "en": {
-        "word": "Observer",
-        "aliases": [],
-        "hints": {
-          "easy": "Changes",
-          "normal": "Pulse",
-          "hard": "Faces"
-        }
       }
     }
   },
@@ -1726,15 +1225,6 @@
           "easy": "Netherportalen",
           "normal": "Stilla",
           "hard": "Diamantspets"
-        }
-      },
-      "en": {
-        "word": "Obsidian",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Water",
-          "hard": "Patience"
         }
       }
     }
@@ -1757,15 +1247,6 @@
           "normal": "Block",
           "hard": "Mekanik"
         }
-      },
-      "en": {
-        "word": "Piston",
-        "aliases": [],
-        "hints": {
-          "easy": "Redstone",
-          "normal": "Blocks",
-          "hard": "Clunk"
-        }
       }
     }
   },
@@ -1786,15 +1267,6 @@
           "easy": "Farliga",
           "normal": "Droppa",
           "hard": "Dubbelriktad"
-        }
-      },
-      "en": {
-        "word": "Pointed Dripstone",
-        "aliases": [],
-        "hints": {
-          "easy": "Formations",
-          "normal": "Cauldron",
-          "hard": "Decor"
         }
       }
     }
@@ -1817,15 +1289,6 @@
           "normal": "Subtrahera",
           "hard": "Kvartskristall"
         }
-      },
-      "en": {
-        "word": "Redstone Comparator",
-        "aliases": [],
-        "hints": {
-          "easy": "Container",
-          "normal": "Subtract",
-          "hard": "Torches"
-        }
       }
     }
   },
@@ -1846,15 +1309,6 @@
           "easy": "Krets",
           "normal": "Glödsten",
           "hard": "Sken"
-        }
-      },
-      "en": {
-        "word": "Redstone Lamp",
-        "aliases": [],
-        "hints": {
-          "easy": "Powered",
-          "normal": "Glowstone",
-          "hard": "Provides"
         }
       }
     }
@@ -1877,15 +1331,6 @@
           "normal": "Fördröjning",
           "hard": "Facklor"
         }
-      },
-      "en": {
-        "word": "Redstone Repeater",
-        "aliases": [],
-        "hints": {
-          "easy": "Signal",
-          "normal": "Delay",
-          "hard": "Torches"
-        }
       }
     }
   },
@@ -1907,15 +1352,6 @@
           "normal": "Glödsten",
           "hard": "Sovplats"
         }
-      },
-      "en": {
-        "word": "Respawn Anchor",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Luminous",
-          "hard": "Inverse"
-        }
       }
     }
   },
@@ -1935,17 +1371,6 @@
         "hints": {
           "easy": "Vibrationer",
           "normal": "Fotsteg",
-          "hard": "Redstone"
-        }
-      },
-      "en": {
-        "word": "Sculk Sensor",
-        "aliases": [
-          "Skulk Sensor"
-        ],
-        "hints": {
-          "easy": "Vibrations",
-          "normal": "Footsteps",
           "hard": "Redstone"
         }
       }
@@ -1969,17 +1394,6 @@
           "normal": "Mörker",
           "hard": "Varningar"
         }
-      },
-      "en": {
-        "word": "Sculk Shrieker",
-        "aliases": [
-          "Skulk Shrieker"
-        ],
-        "hints": {
-          "easy": "Screams",
-          "normal": "Darkness",
-          "hard": "Warnings"
-        }
       }
     }
   },
@@ -2001,15 +1415,6 @@
           "normal": "Prismarin",
           "hard": "Lyser"
         }
-      },
-      "en": {
-        "word": "Sea Lantern",
-        "aliases": [],
-        "hints": {
-          "easy": "Ocean",
-          "normal": "Prismarine",
-          "hard": "Lighting"
-        }
       }
     }
   },
@@ -2029,15 +1434,6 @@
         "hints": {
           "easy": "Förvaring",
           "normal": "Skal",
-          "hard": "Expedition"
-        }
-      },
-      "en": {
-        "word": "Shulker Box",
-        "aliases": [],
-        "hints": {
-          "easy": "Storage",
-          "normal": "Shells",
           "hard": "Expedition"
         }
       }
@@ -2061,15 +1457,6 @@
           "normal": "Slembollar",
           "hard": "Trampolin"
         }
-      },
-      "en": {
-        "word": "Slime Block",
-        "aliases": [],
-        "hints": {
-          "easy": "Landing",
-          "normal": "Gooey",
-          "hard": "Trampoline"
-        }
       }
     }
   },
@@ -2091,15 +1478,6 @@
           "normal": "Rustningsdekorationer",
           "hard": "Verktygssmedens"
         }
-      },
-      "en": {
-        "word": "Smithing Table",
-        "aliases": [],
-        "hints": {
-          "easy": "Netherite",
-          "normal": "Armor",
-          "hard": "Toolsmith"
-        }
       }
     }
   },
@@ -2120,15 +1498,6 @@
           "easy": "Mat",
           "normal": "Slaktare",
           "hard": "Stockar"
-        }
-      },
-      "en": {
-        "word": "Smoker",
-        "aliases": [],
-        "hints": {
-          "easy": "Food",
-          "normal": "Butcher",
-          "hard": "Logs"
         }
       }
     }
@@ -2152,15 +1521,6 @@
           "normal": "Långsammare",
           "hard": "Ansiktena"
         }
-      },
-      "en": {
-        "word": "Soul Sand",
-        "aliases": [],
-        "hints": {
-          "easy": "Water",
-          "normal": "Footsteps",
-          "hard": "Gloomy"
-        }
       }
     }
   },
@@ -2181,15 +1541,6 @@
           "easy": "Vatten",
           "normal": "Torkning",
           "hard": "Havsmonument"
-        }
-      },
-      "en": {
-        "word": "Sponge",
-        "aliases": [],
-        "hints": {
-          "easy": "Water",
-          "normal": "Drying",
-          "hard": "Monument"
         }
       }
     }
@@ -2213,15 +1564,6 @@
           "normal": "Stenhuggare",
           "hard": "Blad"
         }
-      },
-      "en": {
-        "word": "Stonecutter",
-        "aliases": [],
-        "hints": {
-          "easy": "Stairs",
-          "normal": "Mason",
-          "hard": "Blade"
-        }
       }
     }
   },
@@ -2242,15 +1584,6 @@
           "easy": "Provkammaren",
           "normal": "Belöning",
           "hard": "Deltagare"
-        }
-      },
-      "en": {
-        "word": "Trial Spawner",
-        "aliases": [],
-        "hints": {
-          "easy": "Waves",
-          "normal": "Ejects",
-          "hard": "Bringing"
         }
       }
     }
@@ -2274,15 +1607,6 @@
           "normal": "Utdelning",
           "hard": "Glimtar"
         }
-      },
-      "en": {
-        "word": "Vault",
-        "aliases": [],
-        "hints": {
-          "easy": "Trial",
-          "normal": "Chance",
-          "hard": "Prizes"
-        }
       }
     }
   },
@@ -2303,15 +1627,6 @@
           "easy": "Kristallkluster",
           "normal": "Kikaren",
           "hard": "Spetsar"
-        }
-      },
-      "en": {
-        "word": "Amethyst Shard",
-        "aliases": [],
-        "hints": {
-          "easy": "Cluster",
-          "normal": "Spyglass",
-          "hard": "Pointed"
         }
       }
     }
@@ -2334,15 +1649,6 @@
           "normal": "Grävning",
           "hard": "Ådrorna"
         }
-      },
-      "en": {
-        "word": "Ancient Debris",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Blasts",
-          "hard": "Spirals"
-        }
       }
     }
   },
@@ -2363,15 +1669,6 @@
           "easy": "Eldmonster",
           "normal": "Bryggning",
           "hard": "Netherfästning"
-        }
-      },
-      "en": {
-        "word": "Blaze Rod",
-        "aliases": [],
-        "hints": {
-          "easy": "Flying",
-          "normal": "Brewing",
-          "hard": "Nether"
         }
       }
     }
@@ -2395,15 +1692,6 @@
           "normal": "Fjäder",
           "hard": "Gräva"
         }
-      },
-      "en": {
-        "word": "Brush",
-        "aliases": [],
-        "hints": {
-          "easy": "Sand",
-          "normal": "Feather",
-          "hard": "Patience"
-        }
       }
     }
   },
@@ -2426,15 +1714,6 @@
           "normal": "End",
           "hard": "Mellanmål"
         }
-      },
-      "en": {
-        "word": "Chorus Fruit",
-        "aliases": [],
-        "hints": {
-          "easy": "Teleportation",
-          "normal": "Harvest",
-          "hard": "Snack"
-        }
       }
     }
   },
@@ -2454,15 +1733,6 @@
         "hints": {
           "easy": "Fyrverkerier",
           "normal": "Plundrarna",
-          "hard": "Multishot"
-        }
-      },
-      "en": {
-        "word": "Crossbow",
-        "aliases": [],
-        "hints": {
-          "easy": "Loaded",
-          "normal": "Pillagers",
           "hard": "Multishot"
         }
       }
@@ -2486,15 +1756,6 @@
           "normal": "Obsidian",
           "hard": "Ädelstenar"
         }
-      },
-      "en": {
-        "word": "Diamond Pickaxe",
-        "aliases": [],
-        "hints": {
-          "easy": "Mining",
-          "normal": "Obsidian",
-          "hard": "Gems"
-        }
       }
     }
   },
@@ -2517,15 +1778,6 @@
           "normal": "Kastdrycker",
           "hard": "Slutstrid"
         }
-      },
-      "en": {
-        "word": "Dragon's Breath",
-        "aliases": [],
-        "hints": {
-          "easy": "Cloud",
-          "normal": "Potions",
-          "hard": "Bottles"
-        }
       }
     }
   },
@@ -2547,15 +1799,6 @@
           "normal": "Kompass",
           "hard": "Skatt"
         }
-      },
-      "en": {
-        "word": "Echo Shard",
-        "aliases": [],
-        "hints": {
-          "easy": "Darkness",
-          "normal": "Compass",
-          "hard": "Treasure"
-        }
       }
     }
   },
@@ -2574,15 +1817,6 @@
           "easy": "Bröstfacket",
           "normal": "End",
           "hard": "Förlänger"
-        }
-      },
-      "en": {
-        "word": "Elytra",
-        "aliases": [],
-        "hints": {
-          "easy": "Equipment",
-          "normal": "Aboard",
-          "hard": "Firework"
         }
       }
     }
@@ -2605,15 +1839,6 @@
           "normal": "Bergsområden",
           "hard": "Bonde"
         }
-      },
-      "en": {
-        "word": "Emerald",
-        "aliases": [],
-        "hints": {
-          "easy": "Villagers",
-          "normal": "Biomes",
-          "hard": "Farmer"
-        }
       }
     }
   },
@@ -2635,18 +1860,6 @@
           "normal": "Skatt",
           "hard": "Glimmer"
         }
-      },
-      "en": {
-        "word": "Enchanted Golden Apple",
-        "aliases": [
-          "Notch Apple",
-          "God Apple"
-        ],
-        "hints": {
-          "easy": "Defense",
-          "normal": "Treasure",
-          "hard": "Glint"
-        }
       }
     }
   },
@@ -2667,15 +1880,6 @@
           "easy": "Teleportera",
           "normal": "Landningen",
           "hard": "Mörkt"
-        }
-      },
-      "en": {
-        "word": "Ender Pearl",
-        "aliases": [],
-        "hints": {
-          "easy": "Teleport",
-          "normal": "Health",
-          "hard": "Thief"
         }
       }
     }
@@ -2699,18 +1903,6 @@
           "normal": "Sälja",
           "hard": "Nivåer"
         }
-      },
-      "en": {
-        "word": "Bottle o' Enchanting",
-        "aliases": [
-          "Bottle of Enchanting",
-          "XP Bottle"
-        ],
-        "hints": {
-          "easy": "Experience",
-          "normal": "Cleric",
-          "hard": "Progress"
-        }
       }
     }
   },
@@ -2731,15 +1923,6 @@
           "easy": "Fäste",
           "normal": "Slutportalen",
           "hard": "Tillskott"
-        }
-      },
-      "en": {
-        "word": "Eye of Ender",
-        "aliases": [],
-        "hints": {
-          "easy": "Stronghold",
-          "normal": "Sockets",
-          "hard": "Transforms"
         }
       }
     }
@@ -2762,15 +1945,6 @@
           "normal": "Netherportal",
           "hard": "Engångsalternativ"
         }
-      },
-      "en": {
-        "word": "Fire Charge",
-        "aliases": [],
-        "hints": {
-          "easy": "Dispenser",
-          "normal": "Nether",
-          "hard": "Substitute"
-        }
       }
     }
   },
@@ -2792,15 +1966,6 @@
           "normal": "Krut",
           "hard": "Ammunition"
         }
-      },
-      "en": {
-        "word": "Firework Rocket",
-        "aliases": [],
-        "hints": {
-          "easy": "Boosts",
-          "normal": "Gunpowder",
-          "hard": "Crossbow"
-        }
       }
     }
   },
@@ -2821,17 +1986,6 @@
           "easy": "Portaler",
           "normal": "Järntacka",
           "hard": "Handverktyget"
-        }
-      },
-      "en": {
-        "word": "Flint and Steel",
-        "aliases": [
-          "Flint & Steel"
-        ],
-        "hints": {
-          "easy": "TNT",
-          "normal": "Ingot",
-          "hard": "Portal"
         }
       }
     }
@@ -2855,15 +2009,6 @@
           "normal": "Regenerering",
           "hard": "Brygd"
         }
-      },
-      "en": {
-        "word": "Ghast Tear",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Regeneration",
-          "hard": "Potion"
-        }
       }
     }
   },
@@ -2885,15 +2030,6 @@
           "normal": "Nautilusskal",
           "hard": "Kartan"
         }
-      },
-      "en": {
-        "word": "Heart of the Sea",
-        "aliases": [],
-        "hints": {
-          "easy": "Prize",
-          "normal": "Nautilus",
-          "hard": "Underwater"
-        }
       }
     }
   },
@@ -2912,15 +2048,6 @@
           "easy": "Förtrollning",
           "normal": "Färgämne",
           "hard": "Blått"
-        }
-      },
-      "en": {
-        "word": "Lapis Lazuli",
-        "aliases": [],
-        "hints": {
-          "easy": "Enchantment",
-          "normal": "Dye",
-          "hard": "Blue"
         }
       }
     }
@@ -2943,15 +2070,6 @@
           "normal": "Avstånd",
           "hard": "Handlare"
         }
-      },
-      "en": {
-        "word": "Lead",
-        "aliases": [],
-        "hints": {
-          "easy": "Leash",
-          "normal": "Distance",
-          "hard": "Trader"
-        }
       }
     }
   },
@@ -2972,15 +2090,6 @@
           "easy": "Slag",
           "normal": "Vindstav",
           "hard": "Fallhöjd"
-        }
-      },
-      "en": {
-        "word": "Mace",
-        "aliases": [],
-        "hints": {
-          "easy": "Impact",
-          "normal": "Wind",
-          "hard": "Falling"
         }
       }
     }
@@ -3004,15 +2113,6 @@
           "normal": "Blazepulver",
           "hard": "Kuber"
         }
-      },
-      "en": {
-        "word": "Magma Cream",
-        "aliases": [],
-        "hints": {
-          "easy": "Resistance",
-          "normal": "Slimeball",
-          "hard": "Bouncing"
-        }
       }
     }
   },
@@ -3035,15 +2135,6 @@
           "normal": "Bibliotekarie",
           "hard": "Livslängd"
         }
-      },
-      "en": {
-        "word": "Mending",
-        "aliases": [],
-        "hints": {
-          "easy": "Enchantment",
-          "normal": "Librarian",
-          "hard": "Extend"
-        }
       }
     }
   },
@@ -3064,15 +2155,6 @@
           "easy": "Fragment",
           "normal": "Grammofon",
           "hard": "Sekvenser"
-        }
-      },
-      "en": {
-        "word": "Music Disc 5",
-        "aliases": [],
-        "hints": {
-          "easy": "Assembled",
-          "normal": "Unsettling",
-          "hard": "Soundscape"
         }
       }
     }
@@ -3096,15 +2178,6 @@
           "normal": "Fiskar",
           "hard": "Dinnerbone"
         }
-      },
-      "en": {
-        "word": "Name Tag",
-        "aliases": [],
-        "hints": {
-          "easy": "Anvil",
-          "normal": "Fishing",
-          "hard": "Dinnerbone"
-        }
       }
     }
   },
@@ -3125,15 +2198,6 @@
           "easy": "Skattfiske",
           "normal": "Metspö",
           "hard": "Drunknad"
-        }
-      },
-      "en": {
-        "word": "Nautilus Shell",
-        "aliases": [],
-        "hints": {
-          "easy": "Treasure",
-          "normal": "Fishing",
-          "hard": "Drowned"
         }
       }
     }
@@ -3157,15 +2221,6 @@
           "normal": "Obsidian",
           "hard": "Triumfen"
         }
-      },
-      "en": {
-        "word": "Nether Star",
-        "aliases": [],
-        "hints": {
-          "easy": "Wither",
-          "normal": "Crafting",
-          "hard": "Victory"
-        }
       }
     }
   },
@@ -3186,15 +2241,6 @@
           "easy": "Dryckesrecept",
           "normal": "Själssand",
           "hard": "Fästningstrappa"
-        }
-      },
-      "en": {
-        "word": "Nether Wart",
-        "aliases": [],
-        "hints": {
-          "easy": "Recipes",
-          "normal": "Sand",
-          "hard": "Stairs"
         }
       }
     }
@@ -3217,15 +2263,6 @@
           "normal": "Nether",
           "hard": "Tackan"
         }
-      },
-      "en": {
-        "word": "Netherite Ingot",
-        "aliases": [],
-        "hints": {
-          "easy": "Smithing",
-          "normal": "Nether",
-          "hard": "Bar"
-        }
       }
     }
   },
@@ -3247,15 +2284,6 @@
           "normal": "Brygder",
           "hard": "Sömnlöshet"
         }
-      },
-      "en": {
-        "word": "Phantom Membrane",
-        "aliases": [],
-        "hints": {
-          "easy": "Elytra",
-          "normal": "Potions",
-          "hard": "Insomnia"
-        }
       }
     }
   },
@@ -3276,15 +2304,6 @@
           "easy": "Arkeologi",
           "normal": "Sand",
           "hard": "Motiv"
-        }
-      },
-      "en": {
-        "word": "Pottery Sherd",
-        "aliases": [],
-        "hints": {
-          "easy": "Archaeology",
-          "normal": "Sand",
-          "hard": "Patterns"
         }
       }
     }
@@ -3308,15 +2327,6 @@
           "normal": "Jakt",
           "hard": "Bryggning"
         }
-      },
-      "en": {
-        "word": "Rabbit's Foot",
-        "aliases": [],
-        "hints": {
-          "easy": "Jumping",
-          "normal": "Hunting",
-          "hard": "Brewing"
-        }
       }
     }
   },
@@ -3337,15 +2347,6 @@
         "hints": {
           "easy": "Dödsplats",
           "normal": "Ekoskärvor",
-          "hard": "Dimension"
-        }
-      },
-      "en": {
-        "word": "Recovery Compass",
-        "aliases": [],
-        "hints": {
-          "easy": "Death",
-          "normal": "Echo",
           "hard": "Dimension"
         }
       }
@@ -3372,15 +2373,6 @@
           "normal": "Övervärlden",
           "hard": "Ledning"
         }
-      },
-      "en": {
-        "word": "Redstone Dust",
-        "aliases": [],
-        "hints": {
-          "easy": "Powder",
-          "normal": "Overworld",
-          "hard": "Switch"
-        }
       }
     }
   },
@@ -3401,15 +2393,6 @@
           "easy": "Utrustning",
           "normal": "Gris",
           "hard": "Hästens"
-        }
-      },
-      "en": {
-        "word": "Saddle",
-        "aliases": [],
-        "hints": {
-          "easy": "Horse",
-          "normal": "Wear",
-          "hard": "Fitting"
         }
       }
     }
@@ -3433,15 +2416,6 @@
           "normal": "Bevarande",
           "hard": "Gruvarbete"
         }
-      },
-      "en": {
-        "word": "Silk Touch",
-        "aliases": [],
-        "hints": {
-          "easy": "Enchantment",
-          "normal": "Preservation",
-          "hard": "Mining"
-        }
       }
     }
   },
@@ -3462,15 +2436,6 @@
           "easy": "Zoomar",
           "normal": "Koppar",
           "hard": "Fyrkantigt"
-        }
-      },
-      "en": {
-        "word": "Spyglass",
-        "aliases": [],
-        "hints": {
-          "easy": "Zooms",
-          "normal": "Amethyst",
-          "hard": "Landscape"
         }
       }
     }
@@ -3494,15 +2459,6 @@
           "normal": "Byxor",
           "hard": "Djupmörker"
         }
-      },
-      "en": {
-        "word": "Swift Sneak",
-        "aliases": [],
-        "hints": {
-          "easy": "Enchantment",
-          "normal": "Leggings",
-          "hard": "Cities"
-        }
       }
     }
   },
@@ -3523,15 +2479,6 @@
           "easy": "Återuppståndelse",
           "normal": "Frammanare",
           "hard": "Vänsterhand"
-        }
-      },
-      "en": {
-        "word": "Totem of Undying",
-        "aliases": [],
-        "hints": {
-          "easy": "Revival",
-          "normal": "Evoker",
-          "hard": "Figure"
         }
       }
     }
@@ -3554,15 +2501,6 @@
           "normal": "Lojalitet",
           "hard": "Kanalisering"
         }
-      },
-      "en": {
-        "word": "Trident",
-        "aliases": [],
-        "hints": {
-          "easy": "Dropped",
-          "normal": "Loyalty",
-          "hard": "Channeling"
-        }
       }
     }
   },
@@ -3584,15 +2522,6 @@
           "easy": "Knuff",
           "normal": "Breeze",
           "hard": "Hopp"
-        }
-      },
-      "en": {
-        "word": "Wind Charge",
-        "aliases": [],
-        "hints": {
-          "easy": "Knockback",
-          "normal": "Breeze",
-          "hard": "Jumping"
         }
       }
     }
@@ -3617,15 +2546,6 @@
           "normal": "Föremål",
           "hard": "Leverans"
         }
-      },
-      "en": {
-        "word": "Allay",
-        "aliases": [],
-        "hints": {
-          "easy": "Helper",
-          "normal": "Items",
-          "hard": "Delivery"
-        }
       }
     }
   },
@@ -3649,15 +2569,6 @@
           "normal": "Stavar",
           "hard": "Eld"
         }
-      },
-      "en": {
-        "word": "Blaze",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Rods",
-          "hard": "Fire"
-        }
       }
     }
   },
@@ -3679,15 +2590,6 @@
         "hints": {
           "easy": "Luftstötar",
           "normal": "Hopp",
-          "hard": "Redstone"
-        }
-      },
-      "en": {
-        "word": "Breeze",
-        "aliases": [],
-        "hints": {
-          "easy": "Gusts",
-          "normal": "Leaping",
           "hard": "Redstone"
         }
       }
@@ -3713,15 +2615,6 @@
           "normal": "Blågrön",
           "hard": "Rälsen"
         }
-      },
-      "en": {
-        "word": "Cave Spider",
-        "aliases": [],
-        "hints": {
-          "easy": "Mineshafts",
-          "normal": "Webs",
-          "hard": "Milk"
-        }
       }
     }
   },
@@ -3745,15 +2638,6 @@
           "normal": "Partiklar",
           "hard": "Ekar"
         }
-      },
-      "en": {
-        "word": "Creaking",
-        "aliases": [],
-        "hints": {
-          "easy": "Wood",
-          "normal": "Particles",
-          "hard": "Oaks"
-        }
       }
     }
   },
@@ -3774,15 +2658,6 @@
           "easy": "Exploderar",
           "normal": "Väsning",
           "hard": "Katter"
-        }
-      },
-      "en": {
-        "word": "Creeper",
-        "aliases": [],
-        "hints": {
-          "easy": "Explodes",
-          "normal": "Hiss",
-          "hard": "Cats"
         }
       }
     }
@@ -3806,15 +2681,6 @@
           "easy": "Simmare",
           "normal": "Turkos",
           "hard": "Treudd"
-        }
-      },
-      "en": {
-        "word": "Drowned",
-        "aliases": [],
-        "hints": {
-          "easy": "Swimmer",
-          "normal": "Turquoise",
-          "hard": "Trident"
         }
       }
     }
@@ -3840,15 +2706,6 @@
           "normal": "Spökbild",
           "hard": "Gruvtrötthet"
         }
-      },
-      "en": {
-        "word": "Elder Guardian",
-        "aliases": [],
-        "hints": {
-          "easy": "Monument",
-          "normal": "Apparition",
-          "hard": "Fatigue"
-        }
       }
     }
   },
@@ -3872,15 +2729,6 @@
           "normal": "Kristaller",
           "hard": "Utgång"
         }
-      },
-      "en": {
-        "word": "Ender Dragon",
-        "aliases": [],
-        "hints": {
-          "easy": "Pillars",
-          "normal": "Crystals",
-          "hard": "Exit"
-        }
       }
     }
   },
@@ -3902,15 +2750,6 @@
           "normal": "Ögonkontakt",
           "hard": "Jordblock"
         }
-      },
-      "en": {
-        "word": "Enderman",
-        "aliases": [],
-        "hints": {
-          "easy": "Teleports",
-          "normal": "Contact",
-          "hard": "Dirt"
-        }
       }
     }
   },
@@ -3931,15 +2770,6 @@
           "easy": "Pärlor",
           "normal": "Teleportering",
           "hard": "Fiendskap"
-        }
-      },
-      "en": {
-        "word": "Endermite",
-        "aliases": [],
-        "hints": {
-          "easy": "Pearls",
-          "normal": "Teleportation",
-          "hard": "Hostility"
         }
       }
     }
@@ -3964,15 +2794,6 @@
           "normal": "Hjälpredor",
           "hard": "Totem"
         }
-      },
-      "en": {
-        "word": "Evoker",
-        "aliases": [],
-        "hints": {
-          "easy": "Spellcaster",
-          "normal": "Helpers",
-          "hard": "Totem"
-        }
       }
     }
   },
@@ -3993,15 +2814,6 @@
           "easy": "Eldklot",
           "normal": "Gråtläte",
           "hard": "Projektil"
-        }
-      },
-      "en": {
-        "word": "Ghast",
-        "aliases": [],
-        "hints": {
-          "easy": "Fireballs",
-          "normal": "Wail",
-          "hard": "Projectile"
         }
       }
     }
@@ -4024,15 +2836,6 @@
           "normal": "Prismarinbyggnaden",
           "hard": "Taggarna"
         }
-      },
-      "en": {
-        "word": "Guardian",
-        "aliases": [],
-        "hints": {
-          "easy": "Swimmer",
-          "normal": "Prismarine",
-          "hard": "Striking"
-        }
       }
     }
   },
@@ -4053,15 +2856,6 @@
           "easy": "Nether",
           "normal": "Betar",
           "hard": "Svampar"
-        }
-      },
-      "en": {
-        "word": "Hoglin",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Tusks",
-          "hard": "Fungi"
         }
       }
     }
@@ -4086,15 +2880,6 @@
           "normal": "Sandfärgade",
           "hard": "Hungrig"
         }
-      },
-      "en": {
-        "word": "Husk",
-        "aliases": [],
-        "hints": {
-          "easy": "Desert",
-          "normal": "Clothing",
-          "hard": "Hungry"
-        }
       }
     }
   },
@@ -4117,15 +2902,6 @@
           "easy": "Metallblock",
           "normal": "Korsform",
           "hard": "Vallmo"
-        }
-      },
-      "en": {
-        "word": "Iron Golem",
-        "aliases": [],
-        "hints": {
-          "easy": "Village",
-          "normal": "Pumpkin",
-          "hard": "Poppy"
         }
       }
     }
@@ -4150,15 +2926,6 @@
           "normal": "Studs",
           "hard": "Eldtålighet"
         }
-      },
-      "en": {
-        "word": "Magma Cube",
-        "aliases": [],
-        "hints": {
-          "easy": "Nether",
-          "normal": "Bouncing",
-          "hard": "Fireproof"
-        }
       }
     }
   },
@@ -4181,15 +2948,6 @@
           "easy": "Boskap",
           "normal": "Skål",
           "hard": "Svamp"
-        }
-      },
-      "en": {
-        "word": "Mooshroom",
-        "aliases": [],
-        "hints": {
-          "easy": "Cattle",
-          "normal": "Bowl",
-          "hard": "Fungi"
         }
       }
     }
@@ -4214,15 +2972,6 @@
           "normal": "Cirklar",
           "hard": "Vingar"
         }
-      },
-      "en": {
-        "word": "Phantom",
-        "aliases": [],
-        "hints": {
-          "easy": "Insomnia",
-          "normal": "Circling",
-          "hard": "Wings"
-        }
       }
     }
   },
@@ -4243,15 +2992,6 @@
           "easy": "Guldtackor",
           "normal": "Byteshandel",
           "hard": "Kista"
-        }
-      },
-      "en": {
-        "word": "Piglin",
-        "aliases": [],
-        "hints": {
-          "easy": "Ingots",
-          "normal": "Bartering",
-          "hard": "Chest"
         }
       }
     }
@@ -4276,15 +3016,6 @@
           "normal": "Baner",
           "hard": "Vakttorn"
         }
-      },
-      "en": {
-        "word": "Pillager",
-        "aliases": [],
-        "hints": {
-          "easy": "Attacker",
-          "normal": "Banner",
-          "hard": "Watchtower"
-        }
       }
     }
   },
@@ -4308,15 +3039,6 @@
           "normal": "Ryttare",
           "hard": "Sköld"
         }
-      },
-      "en": {
-        "word": "Ravager",
-        "aliases": [],
-        "hints": {
-          "easy": "Horns",
-          "normal": "Rider",
-          "hard": "Shield"
-        }
       }
     }
   },
@@ -4337,15 +3059,6 @@
           "easy": "Skalförsedd",
           "normal": "Väggen",
           "hard": "Bärbar"
-        }
-      },
-      "en": {
-        "word": "Shulker",
-        "aliases": [],
-        "hints": {
-          "easy": "Shelled",
-          "normal": "Block",
-          "hard": "Shells"
         }
       }
     }
@@ -4370,15 +3083,6 @@
           "normal": "Gruva",
           "hard": "Murverk"
         }
-      },
-      "en": {
-        "word": "Silverfish",
-        "aliases": [],
-        "hints": {
-          "easy": "Ambush",
-          "normal": "Mining",
-          "hard": "Masonry"
-        }
       }
     }
   },
@@ -4401,15 +3105,6 @@
           "easy": "Bågskytt",
           "normal": "Glänta",
           "hard": "Natt"
-        }
-      },
-      "en": {
-        "word": "Skeleton",
-        "aliases": [],
-        "hints": {
-          "easy": "Archer",
-          "normal": "Clearing",
-          "hard": "Night"
         }
       }
     }
@@ -4434,15 +3129,6 @@
           "normal": "Fullmåne",
           "hard": "Kolven"
         }
-      },
-      "en": {
-        "word": "Slime",
-        "aliases": [],
-        "hints": {
-          "easy": "Bouncing",
-          "normal": "Swamp",
-          "hard": "Ingredient"
-        }
       }
     }
   },
@@ -4465,15 +3151,6 @@
           "easy": "Urtidsvarelse",
           "normal": "Arkeologi",
           "hard": "Fackellilja"
-        }
-      },
-      "en": {
-        "word": "Sniffer",
-        "aliases": [],
-        "hints": {
-          "easy": "Prehistory",
-          "normal": "Archaeology",
-          "hard": "Torchflower"
         }
       }
     }
@@ -4498,15 +3175,6 @@
           "normal": "Projektiler",
           "hard": "Ansiktet"
         }
-      },
-      "en": {
-        "word": "Snow Golem",
-        "aliases": [],
-        "hints": {
-          "easy": "Pumpkin",
-          "normal": "Projectiles",
-          "hard": "Shears"
-        }
       }
     }
   },
@@ -4529,15 +3197,6 @@
           "easy": "Långsamhetspilar",
           "normal": "Trasor",
           "hard": "Natt"
-        }
-      },
-      "en": {
-        "word": "Stray",
-        "aliases": [],
-        "hints": {
-          "easy": "Slowing",
-          "normal": "Rags",
-          "hard": "Night"
         }
       }
     }
@@ -4562,15 +3221,6 @@
           "normal": "Spö",
           "hard": "Värme"
         }
-      },
-      "en": {
-        "word": "Strider",
-        "aliases": [],
-        "hints": {
-          "easy": "Lava",
-          "normal": "Rod",
-          "hard": "Warmth"
-        }
       }
     }
   },
@@ -4593,15 +3243,6 @@
           "easy": "Svärdsfiende",
           "normal": "Besvärjelse",
           "hard": "Markeringar"
-        }
-      },
-      "en": {
-        "word": "Vex",
-        "aliases": [],
-        "hints": {
-          "easy": "Swordsman",
-          "normal": "Spellcaster",
-          "hard": "Markings"
         }
       }
     }
@@ -4626,15 +3267,6 @@
           "normal": "Hummanden",
           "hard": "Arbetsstation"
         }
-      },
-      "en": {
-        "word": "Villager",
-        "aliases": [],
-        "hints": {
-          "easy": "Emeralds",
-          "normal": "Hum",
-          "hard": "Profession"
-        }
       }
     }
   },
@@ -4656,15 +3288,6 @@
         "hints": {
           "easy": "Angripare",
           "normal": "Rusning",
-          "hard": "Johnny"
-        }
-      },
-      "en": {
-        "word": "Vindicator",
-        "aliases": [],
-        "hints": {
-          "easy": "Attacker",
-          "normal": "Mansion",
           "hard": "Johnny"
         }
       }
@@ -4691,15 +3314,6 @@
           "normal": "Lamor",
           "hard": "Varor"
         }
-      },
-      "en": {
-        "word": "Wandering Trader",
-        "aliases": [],
-        "hints": {
-          "easy": "Seller",
-          "normal": "Llamas",
-          "hard": "Goods"
-        }
       }
     }
   },
@@ -4720,15 +3334,6 @@
           "easy": "Vibrationer",
           "normal": "Blocket",
           "hard": "Dån"
-        }
-      },
-      "en": {
-        "word": "Warden",
-        "aliases": [],
-        "hints": {
-          "easy": "Vibrations",
-          "normal": "Shrieking",
-          "hard": "Boom"
         }
       }
     }
@@ -4753,15 +3358,6 @@
           "normal": "Träsk",
           "hard": "Kittel"
         }
-      },
-      "en": {
-        "word": "Witch",
-        "aliases": [],
-        "hints": {
-          "easy": "Poison",
-          "normal": "Swamp",
-          "hard": "Cauldron"
-        }
       }
     }
   },
@@ -4783,15 +3379,6 @@
           "normal": "Själssand",
           "hard": "Stjärna"
         }
-      },
-      "en": {
-        "word": "Wither",
-        "aliases": [],
-        "hints": {
-          "easy": "Heads",
-          "normal": "Sand",
-          "hard": "Star"
-        }
       }
     }
   },
@@ -4812,15 +3399,6 @@
           "easy": "Odöd",
           "normal": "Stön",
           "hard": "Ruttet"
-        }
-      },
-      "en": {
-        "word": "Zombie",
-        "aliases": [],
-        "hints": {
-          "easy": "Undead",
-          "normal": "Groans",
-          "hard": "Rotten"
         }
       }
     }
@@ -4845,15 +3423,6 @@
           "normal": "Kistjakt",
           "hard": "Skärva"
         }
-      },
-      "en": {
-        "word": "Ancient City",
-        "aliases": [],
-        "hints": {
-          "easy": "Sprawling",
-          "normal": "Hunting",
-          "hard": "Shard"
-        }
       }
     }
   },
@@ -4877,17 +3446,6 @@
           "normal": "Guldrustning",
           "hard": "Kistorna"
         }
-      },
-      "en": {
-        "word": "Bastion Remnant",
-        "aliases": [
-          "Bastion"
-        ],
-        "hints": {
-          "easy": "Blackstone",
-          "normal": "Gold",
-          "hard": "Pigstep"
-        }
       }
     }
   },
@@ -4910,15 +3468,6 @@
           "easy": "Kista",
           "normal": "Kryss",
           "hard": "Karta"
-        }
-      },
-      "en": {
-        "word": "Buried Treasure",
-        "aliases": [],
-        "hints": {
-          "easy": "Chest",
-          "normal": "Cross",
-          "hard": "Map"
         }
       }
     }
@@ -4945,17 +3494,6 @@
           "normal": "Tryckplatta",
           "hard": "Golvfiguren"
         }
-      },
-      "en": {
-        "word": "Desert Pyramid",
-        "aliases": [
-          "Desert Temple"
-        ],
-        "hints": {
-          "easy": "Sandstone",
-          "normal": "Chests",
-          "hard": "Digging"
-        }
       }
     }
   },
@@ -4980,15 +3518,6 @@
           "normal": "Shulker",
           "hard": "Skepp"
         }
-      },
-      "en": {
-        "word": "End City",
-        "aliases": [],
-        "hints": {
-          "easy": "Purpur",
-          "normal": "Shulker",
-          "hard": "Floats"
-        }
       }
     }
   },
@@ -5009,15 +3538,6 @@
           "easy": "Källare",
           "normal": "Mattan",
           "hard": "Experimentet"
-        }
-      },
-      "en": {
-        "word": "Igloo",
-        "aliases": [],
-        "hints": {
-          "easy": "Basement",
-          "normal": "Trapdoor",
-          "hard": "Experiment"
         }
       }
     }
@@ -5044,17 +3564,6 @@
           "normal": "Spakar",
           "hard": "Fälla"
         }
-      },
-      "en": {
-        "word": "Jungle Temple",
-        "aliases": [
-          "Jungle Pyramid"
-        ],
-        "hints": {
-          "easy": "Stone",
-          "normal": "Levers",
-          "hard": "Arrows"
-        }
       }
     }
   },
@@ -5078,17 +3587,6 @@
           "easy": "Spindelnät",
           "normal": "Kistvagn",
           "hard": "Hemvägen"
-        }
-      },
-      "en": {
-        "word": "Abandoned Mineshaft",
-        "aliases": [
-          "Mineshaft"
-        ],
-        "hints": {
-          "easy": "Cobwebs",
-          "normal": "Cart",
-          "hard": "Torch"
         }
       }
     }
@@ -5114,15 +3612,6 @@
           "normal": "Lava",
           "hard": "Brygder"
         }
-      },
-      "en": {
-        "word": "Nether Fortress",
-        "aliases": [],
-        "hints": {
-          "easy": "Bridges",
-          "normal": "Lava",
-          "hard": "Brewing"
-        }
       }
     }
   },
@@ -5145,15 +3634,6 @@
           "easy": "Prismarin",
           "normal": "Svampar",
           "hard": "Gruvtrötthet"
-        }
-      },
-      "en": {
-        "word": "Ocean Monument",
-        "aliases": [],
-        "hints": {
-          "easy": "Prismarine",
-          "normal": "Sponges",
-          "hard": "Fatigue"
         }
       }
     }
@@ -5178,17 +3658,6 @@
           "normal": "Arkeologi",
           "hard": "Skatt"
         }
-      },
-      "en": {
-        "word": "Ocean Ruins",
-        "aliases": [
-          "Underwater Ruins"
-        ],
-        "hints": {
-          "easy": "Stone",
-          "normal": "Archaeology",
-          "hard": "Treasure"
-        }
       }
     }
   },
@@ -5211,15 +3680,6 @@
           "easy": "Armborst",
           "normal": "Galler",
           "hard": "Proviant"
-        }
-      },
-      "en": {
-        "word": "Pillager Outpost",
-        "aliases": [],
-        "hints": {
-          "easy": "Crossbows",
-          "normal": "Cages",
-          "hard": "Supplies"
         }
       }
     }
@@ -5244,15 +3704,6 @@
           "normal": "Nether",
           "hard": "Kista"
         }
-      },
-      "en": {
-        "word": "Ruined Portal",
-        "aliases": [],
-        "hints": {
-          "easy": "Obsidian",
-          "normal": "Nether",
-          "hard": "Chest"
-        }
       }
     }
   },
@@ -5276,15 +3727,6 @@
           "normal": "Hytt",
           "hard": "Skrov"
         }
-      },
-      "en": {
-        "word": "Shipwreck",
-        "aliases": [],
-        "hints": {
-          "easy": "Deck",
-          "normal": "Cabin",
-          "hard": "Hull"
-        }
       }
     }
   },
@@ -5307,15 +3749,6 @@
           "easy": "Tunnlar",
           "normal": "Ögon",
           "hard": "Bokhyllor"
-        }
-      },
-      "en": {
-        "word": "Stronghold",
-        "aliases": [],
-        "hints": {
-          "easy": "Tunnels",
-          "normal": "Eyes",
-          "hard": "Bookshelves"
         }
       }
     }
@@ -5342,17 +3775,6 @@
           "normal": "Kittel",
           "hard": "Häxa"
         }
-      },
-      "en": {
-        "word": "Swamp Hut",
-        "aliases": [
-          "Witch Hut"
-        ],
-        "hints": {
-          "easy": "Stilts",
-          "normal": "Cauldron",
-          "hard": "Witch"
-        }
       }
     }
   },
@@ -5375,15 +3797,6 @@
           "easy": "Lera",
           "normal": "Misstänkt",
           "hard": "Färgat"
-        }
-      },
-      "en": {
-        "word": "Trail Ruins",
-        "aliases": [],
-        "hints": {
-          "easy": "Mud",
-          "normal": "Gravel",
-          "hard": "Colored"
         }
       }
     }
@@ -5408,15 +3821,6 @@
           "normal": "Valv",
           "hard": "Vågor"
         }
-      },
-      "en": {
-        "word": "Trial Chambers",
-        "aliases": [],
-        "hints": {
-          "easy": "Rewards",
-          "normal": "Vault",
-          "hard": "Waves"
-        }
       }
     }
   },
@@ -5440,15 +3844,6 @@
           "normal": "Klockan",
           "hard": "Gården"
         }
-      },
-      "en": {
-        "word": "Village",
-        "aliases": [],
-        "hints": {
-          "easy": "Settlement",
-          "normal": "Bell",
-          "hard": "Replant"
-        }
       }
     }
   },
@@ -5471,15 +3866,6 @@
           "easy": "Herrgård",
           "normal": "Frammanare",
           "hard": "Fasad"
-        }
-      },
-      "en": {
-        "word": "Woodland Mansion",
-        "aliases": [],
-        "hints": {
-          "easy": "Estate",
-          "normal": "Evoker",
-          "hard": "Facade"
         }
       }
     }

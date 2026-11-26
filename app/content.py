@@ -10,7 +10,7 @@ import re
 import unicodedata
 
 
-LANGUAGES = ("sv", "en")
+LANGUAGES = ("sv",)
 LEVELS = ("familiar", "intermediate", "expert")
 HINTS = ("easy", "normal", "hard")
 REVIEWS = ("editorial", "needs_review")
@@ -460,7 +460,6 @@ class ContentCatalog:
 
     def select(self, settings, custom=None):
         own = self.validate_custom(custom) if custom is not None else {"words": [], "pairs": []}
-        language = settings.get("language", "sv")
         categories = settings.get("categories")
         subcategories = settings.get("subcategories")
         levels = settings.get("levels", ("familiar",))
@@ -471,7 +470,7 @@ class ContentCatalog:
                 continue
             if subcategories and word["subcategory"] not in subcategories:
                 continue
-            if word["level"] not in levels or language not in word["languages"]:
+            if word["level"] not in levels:
                 continue
             if terms.overlap(word):
                 continue

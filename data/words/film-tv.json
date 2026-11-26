@@ -11,11 +11,6 @@
         "word": "Hajen",
         "aliases": [],
         "hints": {"easy": "Havsrovdjur", "normal": "Amity", "hard": "Toner"}
-      },
-      "en": {
-        "word": "Jaws",
-        "aliases": [],
-        "hints": {"easy": "Shark", "normal": "Amity", "hard": "Notes"}
       }
     }
   },
@@ -31,11 +26,6 @@
         "word": "Jurassic Park",
         "aliases": [],
         "hints": {"easy": "Dinosaurier", "normal": "Nublar", "hard": "Krusningar"}
-      },
-      "en": {
-        "word": "Jurassic Park",
-        "aliases": [],
-        "hints": {"easy": "Dinosaurs", "normal": "Nublar", "hard": "Ripples"}
       }
     }
   },
@@ -51,11 +41,6 @@
         "word": "Alien",
         "aliases": [],
         "hints": {"easy": "Rymdskräck", "normal": "Nostromo", "hard": "Varningssignal"}
-      },
-      "en": {
-        "word": "Alien",
-        "aliases": [],
-        "hints": {"easy": "Spaceship", "normal": "Nostromo", "hard": "Distress"}
       }
     }
   },
@@ -71,11 +56,6 @@
         "word": "Rovdjuret",
         "aliases": [],
         "hints": {"easy": "Djungel", "normal": "Kamouflage", "hard": "Lera"}
-      },
-      "en": {
-        "word": "Predator",
-        "aliases": [],
-        "hints": {"easy": "Jungle", "normal": "Camouflage", "hard": "Mud"}
       }
     }
   },
@@ -91,11 +71,6 @@
         "word": "Toy Story",
         "aliases": [],
         "hints": {"easy": "Leksaker", "normal": "Sheriff", "hard": "Stövelsula"}
-      },
-      "en": {
-        "word": "Toy Story",
-        "aliases": [],
-        "hints": {"easy": "Toys", "normal": "Sheriff", "hard": "Boot"}
       }
     }
   },
@@ -111,11 +86,6 @@
         "word": "Monsters, Inc.",
         "aliases": ["Monsters Inc"],
         "hints": {"easy": "Barnskrik", "normal": "Garderobsdörrar", "hard": "Fabrik"}
-      },
-      "en": {
-        "word": "Monsters, Inc.",
-        "aliases": ["Monsters Inc"],
-        "hints": {"easy": "Screams", "normal": "Doors", "hard": "Factory"}
       }
     }
   },
@@ -131,11 +101,6 @@
         "word": "Hitta Nemo",
         "aliases": [],
         "hints": {"easy": "Clownfisk", "normal": "Tandläkare", "hard": "Dykarmask"}
-      },
-      "en": {
-        "word": "Finding Nemo",
-        "aliases": [],
-        "hints": {"easy": "Clownfish", "normal": "Dentist", "hard": "Diving"}
       }
     }
   },
@@ -151,11 +116,6 @@
         "word": "Lejonkungen",
         "aliases": [],
         "hints": {"easy": "Lejonunge", "normal": "Savann", "hard": "Vårtsvin"}
-      },
-      "en": {
-        "word": "The Lion King",
-        "aliases": [],
-        "hints": {"easy": "Cub", "normal": "Savanna", "hard": "Warthog"}
       }
     }
   },
@@ -171,11 +131,6 @@
         "word": "Frost",
         "aliases": [],
         "hints": {"easy": "Is", "normal": "Arendal", "hard": "Ren"}
-      },
-      "en": {
-        "word": "Frozen",
-        "aliases": [],
-        "hints": {"easy": "Ice", "normal": "Arendelle", "hard": "Reindeer"}
       }
     }
   },
@@ -191,11 +146,6 @@
         "word": "Trassel",
         "aliases": [],
         "hints": {"easy": "Hår", "normal": "Torn", "hard": "Lyktor"}
-      },
-      "en": {
-        "word": "Tangled",
-        "aliases": [],
-        "hints": {"easy": "Hair", "normal": "Tower", "hard": "Lanterns"}
       }
     }
   },
@@ -211,11 +161,6 @@
         "word": "Spirited Away",
         "aliases": [],
         "hints": {"easy": "Badhus", "normal": "Föräldrar", "hard": "Tåg"}
-      },
-      "en": {
-        "word": "Spirited Away",
-        "aliases": [],
-        "hints": {"easy": "Bathhouse", "normal": "Parents", "hard": "Train"}
       }
     }
   },
@@ -231,11 +176,6 @@
         "word": "Min granne Totoro",
         "aliases": [],
         "hints": {"easy": "Systrar", "normal": "Skog", "hard": "Kattbuss"}
-      },
-      "en": {
-        "word": "My Neighbor Totoro",
-        "aliases": [],
-        "hints": {"easy": "Sisters", "normal": "Forest", "hard": "Catbus"}
       }
     }
   },
@@ -251,11 +191,6 @@
         "word": "Matrix",
         "aliases": ["The Matrix"],
         "hints": {"easy": "Simulering", "normal": "Piller", "hard": "Kanin"}
-      },
-      "en": {
-        "word": "The Matrix",
-        "aliases": ["Matrix"],
-        "hints": {"easy": "Simulation", "normal": "Pills", "hard": "Rabbit"}
       }
     }
   },
@@ -271,11 +206,6 @@
         "word": "Inception",
         "aliases": [],
         "hints": {"easy": "Drömmar", "normal": "Totem", "hard": "Hotell"}
-      },
-      "en": {
-        "word": "Inception",
-        "aliases": [],
-        "hints": {"easy": "Dreams", "normal": "Totem", "hard": "Hotel"}
       }
     }
   },
@@ -291,11 +221,6 @@
         "word": "När Harry träffade Sally...",
         "aliases": ["När Harry träffade Sally","När Harry mötte Sally"],
         "hints": {"easy": "Relation", "normal": "Manhattan", "hard": "Beställning"}
-      },
-      "en": {
-        "word": "When Harry Met Sally...",
-        "aliases": ["When Harry Met Sally"],
-        "hints": {"easy": "Romance", "normal": "Manhattan", "hard": "Diner"}
       }
     }
   },
@@ -311,11 +236,6 @@
         "word": "Ensam hemma",
         "aliases": [],
         "hints": {"easy": "Inbrottstjuvar", "normal": "Jul", "hard": "Färgpytsar"}
-      },
-      "en": {
-        "word": "Home Alone",
-        "aliases": [],
-        "hints": {"easy": "Burglars", "normal": "Christmas", "hard": "Paint"}
       }
     }
   },
@@ -331,11 +251,6 @@
         "word": "Måndag hela veckan",
         "aliases": [],
         "hints": {"easy": "Tidsloop", "normal": "Murmeldjur", "hard": "Väckarklocka"}
-      },
-      "en": {
-        "word": "Groundhog Day",
-        "aliases": [],
-        "hints": {"easy": "Loop", "normal": "Woodchuck", "hard": "Alarm"}
       }
     }
   },
@@ -351,11 +266,6 @@
         "word": "Tillbaka till framtiden",
         "aliases": [],
         "hints": {"easy": "Tidsresa", "normal": "DeLorean", "hard": "Klocktorn"}
-      },
-      "en": {
-        "word": "Back to the Future",
-        "aliases": [],
-        "hints": {"easy": "Travel", "normal": "DeLorean", "hard": "Lightning"}
       }
     }
   },
@@ -371,11 +281,6 @@
         "word": "The Truman Show",
         "aliases": [],
         "hints": {"easy": "Tv", "normal": "Småstad", "hard": "Segelbåt"}
-      },
-      "en": {
-        "word": "The Truman Show",
-        "aliases": [],
-        "hints": {"easy": "Television", "normal": "Seaside", "hard": "Sailboat"}
       }
     }
   },
@@ -391,11 +296,6 @@
         "word": "E.T. the Extra-Terrestrial",
         "aliases": ["E.T.","ET"],
         "hints": {"easy": "Utomjording", "normal": "Cykel", "hard": "Fullmåne"}
-      },
-      "en": {
-        "word": "E.T. the Extra-Terrestrial",
-        "aliases": ["E.T.","ET"],
-        "hints": {"easy": "Visitor", "normal": "Bicycle", "hard": "Moonlight"}
       }
     }
   },
@@ -411,11 +311,6 @@
         "word": "Nyckeln till frihet",
         "aliases": [],
         "hints": {"easy": "Fängelse", "normal": "Bankman", "hard": "Affisch"}
-      },
-      "en": {
-        "word": "The Shawshank Redemption",
-        "aliases": [],
-        "hints": {"easy": "Prison", "normal": "Banker", "hard": "Poster"}
       }
     }
   },
@@ -431,11 +326,6 @@
         "word": "Den gröna milen",
         "aliases": [],
         "hints": {"easy": "Dödsdömd", "normal": "Fängelse", "hard": "Mus"}
-      },
-      "en": {
-        "word": "The Green Mile",
-        "aliases": [],
-        "hints": {"easy": "Prisoner", "normal": "Execution", "hard": "Mouse"}
       }
     }
   },
@@ -451,11 +341,6 @@
         "word": "Gudfadern",
         "aliases": [],
         "hints": {"easy": "Maffia", "normal": "Corleone", "hard": "Sicilien"}
-      },
-      "en": {
-        "word": "The Godfather",
-        "aliases": [],
-        "hints": {"easy": "Mafia", "normal": "Corleone", "hard": "Sicily"}
       }
     }
   },
@@ -471,11 +356,6 @@
         "word": "Maffiabröder",
         "aliases": [],
         "hints": {"easy": "Gangster", "normal": "Lufthansa", "hard": "Nattklubb"}
-      },
-      "en": {
-        "word": "Goodfellas",
-        "aliases": [],
-        "hints": {"easy": "Gangster", "normal": "Lufthansa", "hard": "Nightclub"}
       }
     }
   },
@@ -491,11 +371,6 @@
         "word": "Sound of Music",
         "aliases": [],
         "hints": {"easy": "Guvernant", "normal": "Trapp", "hard": "Gardiner"}
-      },
-      "en": {
-        "word": "The Sound of Music",
-        "aliases": [],
-        "hints": {"easy": "Governess", "normal": "Trapp", "hard": "Curtains"}
       }
     }
   },
@@ -511,11 +386,6 @@
         "word": "Singin' in the Rain",
         "aliases": ["Singin’ in the Rain"],
         "hints": {"easy": "Hollywood", "normal": "Paraply", "hard": "Dubbning"}
-      },
-      "en": {
-        "word": "Singin' in the Rain",
-        "aliases": ["Singin’ in the Rain"],
-        "hints": {"easy": "Hollywood", "normal": "Umbrella", "hard": "Dubbing"}
       }
     }
   },
@@ -531,11 +401,6 @@
         "word": "I hetaste laget",
         "aliases": [],
         "hints": {"easy": "Gangstrar", "normal": "Florida", "hard": "Damorkester"}
-      },
-      "en": {
-        "word": "Some Like It Hot",
-        "aliases": [],
-        "hints": {"easy": "Gangsters", "normal": "Florida", "hard": "Disguise"}
       }
     }
   },
@@ -551,11 +416,6 @@
         "word": "Porträtt av en kvinna i brand",
         "aliases": [],
         "hints": {"easy": "Målare", "normal": "Bretagne", "hard": "Bok"}
-      },
-      "en": {
-        "word": "Portrait of a Lady on Fire",
-        "aliases": [],
-        "hints": {"easy": "Painter", "normal": "Brittany", "hard": "Book"}
       }
     }
   },
@@ -571,11 +431,6 @@
         "word": "Fönstret åt gården",
         "aliases": [],
         "hints": {"easy": "Fotograf", "normal": "Innergård", "hard": "Inkräktare"}
-      },
-      "en": {
-        "word": "Rear Window",
-        "aliases": [],
-        "hints": {"easy": "Photographer", "normal": "Courtyard", "hard": "Intruder"}
       }
     }
   },
@@ -591,11 +446,6 @@
         "word": "12 edsvurna män",
         "aliases": [],
         "hints": {"easy": "Jurymedlem", "normal": "Juryrum", "hard": "Kniv"}
-      },
-      "en": {
-        "word": "12 Angry Men",
-        "aliases": [],
-        "hints": {"easy": "Juror", "normal": "Verdict", "hard": "Knife"}
       }
     }
   },
@@ -611,11 +461,6 @@
         "word": "Det sjunde inseglet",
         "aliases": [],
         "hints": {"easy": "Riddare", "normal": "Schack", "hard": "Dödsdans"}
-      },
-      "en": {
-        "word": "The Seventh Seal",
-        "aliases": [],
-        "hints": {"easy": "Knight", "normal": "Chess", "hard": "Dance"}
       }
     }
   },
@@ -631,11 +476,6 @@
         "word": "Smultronstället",
         "aliases": [],
         "hints": {"easy": "Professor", "normal": "Bilresa", "hard": "Mardröm"}
-      },
-      "en": {
-        "word": "Wild Strawberries",
-        "aliases": [],
-        "hints": {"easy": "Professor", "normal": "Journey", "hard": "Nightmare"}
       }
     }
   },
@@ -651,11 +491,6 @@
         "word": "Låt den rätte komma in",
         "aliases": [],
         "hints": {"easy": "Vampyr", "normal": "Blackeberg", "hard": "Morsesignaler"}
-      },
-      "en": {
-        "word": "Let the Right One In",
-        "aliases": [],
-        "hints": {"easy": "Vampire", "normal": "Blackeberg", "hard": "Morse"}
       }
     }
   },
@@ -671,11 +506,6 @@
         "word": "The Shining",
         "aliases": [],
         "hints": {"easy": "Hotell", "normal": "Snö", "hard": "Labyrint"}
-      },
-      "en": {
-        "word": "The Shining",
-        "aliases": [],
-        "hints": {"easy": "Hotel", "normal": "Snow", "hard": "Labyrinth"}
       }
     }
   },
@@ -691,11 +521,6 @@
         "word": "Psycho",
         "aliases": [],
         "hints": {"easy": "Motell", "normal": "Dusch", "hard": "Uppstoppning"}
-      },
-      "en": {
-        "word": "Psycho",
-        "aliases": [],
-        "hints": {"easy": "Motel", "normal": "Shower", "hard": "Taxidermy"}
       }
     }
   },
@@ -711,11 +536,6 @@
         "word": "Moonlight",
         "aliases": [],
         "hints": {"easy": "Miami", "normal": "Chiron", "hard": "Simning"}
-      },
-      "en": {
-        "word": "Moonlight",
-        "aliases": [],
-        "hints": {"easy": "Miami", "normal": "Chiron", "hard": "Swimming"}
       }
     }
   },
@@ -731,11 +551,6 @@
         "word": "Her",
         "aliases": [],
         "hints": {"easy": "Digitalröst", "normal": "Samantha", "hard": "Ensamhet"}
-      },
-      "en": {
-        "word": "Her",
-        "aliases": [],
-        "hints": {"easy": "Voice", "normal": "Samantha", "hard": "Loneliness"}
       }
     }
   },
@@ -751,11 +566,6 @@
         "word": "Parasit",
         "aliases": [],
         "hints": {"easy": "Klasskillnad", "normal": "Källare", "hard": "Översvämning"}
-      },
-      "en": {
-        "word": "Parasite",
-        "aliases": [],
-        "hints": {"easy": "Class", "normal": "Basement", "hard": "Flood"}
       }
     }
   },
@@ -771,11 +581,6 @@
         "word": "Honungslandet",
         "aliases": [],
         "hints": {"easy": "Biodling", "normal": "Makedonien", "hard": "Grannar"}
-      },
-      "en": {
-        "word": "Honeyland",
-        "aliases": [],
-        "hints": {"easy": "Beekeeping", "normal": "Macedonia", "hard": "Neighbours"}
       }
     }
   },
@@ -791,11 +596,6 @@
         "word": "Bränd",
         "aliases": [],
         "hints": {"easy": "Växthus", "normal": "Katt", "hard": "Förmögenhet"}
-      },
-      "en": {
-        "word": "Burning",
-        "aliases": [],
-        "hints": {"easy": "Greenhouse", "normal": "Cat", "hard": "Wealth"}
       }
     }
   },
@@ -811,11 +611,6 @@
         "word": "Den skyldige",
         "aliases": [],
         "hints": {"easy": "Larmoperatör", "normal": "Telefon", "hard": "Ljud"}
-      },
-      "en": {
-        "word": "The Guilty",
-        "aliases": [],
-        "hints": {"easy": "Dispatcher", "normal": "Telephone", "hard": "Audio"}
       }
     }
   },
@@ -831,11 +626,6 @@
         "word": "Vänner",
         "aliases": ["Friends"],
         "hints": {"easy": "Manhattan", "normal": "Kafé", "hard": "Förhållanden"}
-      },
-      "en": {
-        "word": "Friends",
-        "aliases": [],
-        "hints": {"easy": "Manhattan", "normal": "Coffee", "hard": "Relationships"}
       }
     }
   },
@@ -851,11 +641,6 @@
         "word": "Seinfeld",
         "aliases": [],
         "hints": {"easy": "Ståuppkomiker", "normal": "Manhattan", "hard": "Soppförsäljare"}
-      },
-      "en": {
-        "word": "Seinfeld",
-        "aliases": [],
-        "hints": {"easy": "Comedian", "normal": "Manhattan", "hard": "Soup"}
       }
     }
   },
@@ -871,11 +656,6 @@
         "word": "The Office",
         "aliases": ["The Office US"],
         "hints": {"easy": "Dokumentärlik", "normal": "Mifflin", "hard": "Häftapparat"}
-      },
-      "en": {
-        "word": "The Office",
-        "aliases": ["The Office US"],
-        "hints": {"easy": "Mockumentary", "normal": "Scranton", "hard": "Stapler"}
       }
     }
   },
@@ -891,11 +671,6 @@
         "word": "Parks and Recreation",
         "aliases": [],
         "hints": {"easy": "Kommunhus", "normal": "Indiana", "hard": "Våfflor"}
-      },
-      "en": {
-        "word": "Parks and Recreation",
-        "aliases": [],
-        "hints": {"easy": "Municipality", "normal": "Indiana", "hard": "Waffles"}
       }
     }
   },
@@ -911,11 +686,6 @@
         "word": "Brooklyn Nine-Nine",
         "aliases": [],
         "hints": {"easy": "Polis", "normal": "Holt", "hard": "Halloween"}
-      },
-      "en": {
-        "word": "Brooklyn Nine-Nine",
-        "aliases": [],
-        "hints": {"easy": "Police", "normal": "Holt", "hard": "Halloween"}
       }
     }
   },
@@ -931,11 +701,6 @@
         "word": "Modern Family",
         "aliases": [],
         "hints": {"easy": "Släktgrenar", "normal": "Pritchett", "hard": "Familjekamera"}
-      },
-      "en": {
-        "word": "Modern Family",
-        "aliases": [],
-        "hints": {"easy": "Mockumentary", "normal": "Pritchett", "hard": "Interview"}
       }
     }
   },
@@ -951,11 +716,6 @@
         "word": "Simpsons",
         "aliases": ["The Simpsons"],
         "hints": {"easy": "Springfield", "normal": "Kärnkraftverk", "hard": "Skoltavla"}
-      },
-      "en": {
-        "word": "The Simpsons",
-        "aliases": ["Simpsons"],
-        "hints": {"easy": "Springfield", "normal": "Nuclear", "hard": "Chalkboard"}
       }
     }
   },
@@ -971,11 +731,6 @@
         "word": "Bob's Burgers",
         "aliases": ["Bob’s Burgers"],
         "hints": {"easy": "Hamburgerrestaurang", "normal": "Belcher", "hard": "Kaninöron"}
-      },
-      "en": {
-        "word": "Bob's Burgers",
-        "aliases": ["Bob’s Burgers"],
-        "hints": {"easy": "Burgers", "normal": "Belcher", "hard": "Rabbit"}
       }
     }
   },
@@ -991,11 +746,6 @@
         "word": "Breaking Bad",
         "aliases": [],
         "hints": {"easy": "Kemilärare", "normal": "Albuquerque", "hard": "Husbil"}
-      },
-      "en": {
-        "word": "Breaking Bad",
-        "aliases": [],
-        "hints": {"easy": "Chemistry", "normal": "Albuquerque", "hard": "Winnebago"}
       }
     }
   },
@@ -1011,11 +761,6 @@
         "word": "Ozark",
         "aliases": [],
         "hints": {"easy": "Kartellpengar", "normal": "Missouri", "hard": "Begravningsbyrå"}
-      },
-      "en": {
-        "word": "Ozark",
-        "aliases": [],
-        "hints": {"easy": "Adviser", "normal": "Missouri", "hard": "Funeral"}
       }
     }
   },
@@ -1031,11 +776,6 @@
         "word": "Stranger Things",
         "aliases": [],
         "hints": {"easy": "Försvunnen", "normal": "Hawkins", "hard": "Julgransbelysning"}
-      },
-      "en": {
-        "word": "Stranger Things",
-        "aliases": [],
-        "hints": {"easy": "Searching", "normal": "Hawkins", "hard": "Christmas"}
       }
     }
   },
@@ -1051,11 +791,6 @@
         "word": "Dark",
         "aliases": [],
         "hints": {"easy": "Tidsresor", "normal": "Winden", "hard": "Grotta"}
-      },
-      "en": {
-        "word": "Dark",
-        "aliases": [],
-        "hints": {"easy": "Timewarp", "normal": "Winden", "hard": "Cave"}
       }
     }
   },
@@ -1071,11 +806,6 @@
         "word": "The Crown",
         "aliases": [],
         "hints": {"easy": "Elisabet", "normal": "Premiärminister", "hard": "Skådespelarbyte"}
-      },
-      "en": {
-        "word": "The Crown",
-        "aliases": [],
-        "hints": {"easy": "Elizabeth", "normal": "Minister", "hard": "Recasting"}
       }
     }
   },
@@ -1091,11 +821,6 @@
         "word": "Downton Abbey",
         "aliases": [],
         "hints": {"easy": "Aristokratfamilj", "normal": "Crawley", "hard": "Arvsordningen"}
-      },
-      "en": {
-        "word": "Downton Abbey",
-        "aliases": [],
-        "hints": {"easy": "Aristocrats", "normal": "Crawleys", "hard": "Inheritance"}
       }
     }
   },
@@ -1111,11 +836,6 @@
         "word": "Cityakuten",
         "aliases": ["ER"],
         "hints": {"easy": "Akutmottagning", "normal": "Chicago", "hard": "Ambulans"}
-      },
-      "en": {
-        "word": "ER",
-        "aliases": [],
-        "hints": {"easy": "Emergency", "normal": "Chicago", "hard": "Ambulance"}
       }
     }
   },
@@ -1131,11 +851,6 @@
         "word": "Grey's Anatomy",
         "aliases": ["Grey’s Anatomy"],
         "hints": {"easy": "Kirurger", "normal": "Seattle", "hard": "Smeknamn"}
-      },
-      "en": {
-        "word": "Grey's Anatomy",
-        "aliases": ["Grey’s Anatomy"],
-        "hints": {"easy": "Surgeons", "normal": "Seattle", "hard": "Nicknames"}
       }
     }
   },
@@ -1151,11 +866,6 @@
         "word": "Succession",
         "aliases": [],
         "hints": {"easy": "Medieimperium", "normal": "Roy", "hard": "Arv"}
-      },
-      "en": {
-        "word": "Succession",
-        "aliases": [],
-        "hints": {"easy": "Media", "normal": "Roy", "hard": "Inheritance"}
       }
     }
   },
@@ -1171,11 +881,6 @@
         "word": "Better Call Saul",
         "aliases": [],
         "hints": {"easy": "Advokat", "normal": "Albuquerque", "hard": "Broder"}
-      },
-      "en": {
-        "word": "Better Call Saul",
-        "aliases": [],
-        "hints": {"easy": "Lawyer", "normal": "Albuquerque", "hard": "Brother"}
       }
     }
   },
@@ -1191,11 +896,6 @@
         "word": "The Bear",
         "aliases": [],
         "hints": {"easy": "Restaurang", "normal": "Chicago", "hard": "Tomatburkar"}
-      },
-      "en": {
-        "word": "The Bear",
-        "aliases": [],
-        "hints": {"easy": "Restaurant", "normal": "Chicago", "hard": "Tomatoes"}
       }
     }
   },
@@ -1211,11 +911,6 @@
         "word": "Severance",
         "aliases": [],
         "hints": {"easy": "Minnen", "normal": "Lumon", "hard": "Belöning"}
-      },
-      "en": {
-        "word": "Severance",
-        "aliases": [],
-        "hints": {"easy": "Memories", "normal": "Lumon", "hard": "Incentives"}
       }
     }
   },
@@ -1231,11 +926,6 @@
         "word": "Arkiv X",
         "aliases": [],
         "hints": {"easy": "FBI", "normal": "Scully", "hard": "Solrosfröätare"}
-      },
-      "en": {
-        "word": "The X-Files",
-        "aliases": [],
-        "hints": {"easy": "FBI", "normal": "Scully", "hard": "Sunflower"}
       }
     }
   },
@@ -1251,11 +941,6 @@
         "word": "Lost",
         "aliases": [],
         "hints": {"easy": "Överlevare", "normal": "Ö", "hard": "Sifferföljd"}
-      },
-      "en": {
-        "word": "Lost",
-        "aliases": [],
-        "hints": {"easy": "Survivors", "normal": "Island", "hard": "Numbers"}
       }
     }
   },
@@ -1271,11 +956,6 @@
         "word": "Twin Peaks",
         "aliases": [],
         "hints": {"easy": "FBI", "normal": "Körsbärspaj", "hard": "Sicksackgolvet"}
-      },
-      "en": {
-        "word": "Twin Peaks",
-        "aliases": [],
-        "hints": {"easy": "FBI", "normal": "Logging", "hard": "Zigzag"}
       }
     }
   },
@@ -1291,11 +971,6 @@
         "word": "The Wire",
         "aliases": [],
         "hints": {"easy": "Baltimore", "normal": "Spaning", "hard": "Schack"}
-      },
-      "en": {
-        "word": "The Wire",
-        "aliases": [],
-        "hints": {"easy": "Baltimore", "normal": "Surveillance", "hard": "Chess"}
       }
     }
   },
@@ -1311,11 +986,6 @@
         "word": "Sopranos",
         "aliases": ["The Sopranos"],
         "hints": {"easy": "Maffia", "normal": "Jersey", "hard": "Panikattack"}
-      },
-      "en": {
-        "word": "The Sopranos",
-        "aliases": ["Sopranos"],
-        "hints": {"easy": "Mafia", "normal": "Jersey", "hard": "Panic"}
       }
     }
   },
@@ -1331,11 +1001,6 @@
         "word": "Bron",
         "aliases": [],
         "hints": {"easy": "Polis", "normal": "Norén", "hard": "Gräns"}
-      },
-      "en": {
-        "word": "The Bridge",
-        "aliases": [],
-        "hints": {"easy": "Police", "normal": "Norén", "hard": "Border"}
       }
     }
   },
@@ -1351,11 +1016,6 @@
         "word": "Young Royals",
         "aliases": [],
         "hints": {"easy": "Internatskola", "normal": "Hillerska", "hard": "Video"}
-      },
-      "en": {
-        "word": "Young Royals",
-        "aliases": [],
-        "hints": {"easy": "Boarding", "normal": "Hillerska", "hard": "Video"}
       }
     }
   },
@@ -1371,11 +1031,6 @@
         "word": "Bonusfamiljen",
         "aliases": [],
         "hints": {"easy": "Föräldrar", "normal": "Patrik", "hard": "Familjeterapi"}
-      },
-      "en": {
-        "word": "Bonus Family",
-        "aliases": [],
-        "hints": {"easy": "Partners", "normal": "Patrik", "hard": "Conflicts"}
       }
     }
   },
@@ -1391,11 +1046,6 @@
         "word": "Squid Game",
         "aliases": [],
         "hints": {"easy": "Deltagare", "normal": "Träningsoveraller", "hard": "Glas"}
-      },
-      "en": {
-        "word": "Squid Game",
-        "aliases": [],
-        "hints": {"easy": "Contestants", "normal": "Tracksuits", "hard": "Glass"}
       }
     }
   },
@@ -1411,11 +1061,6 @@
         "word": "Frasier",
         "aliases": [],
         "hints": {"easy": "Seattle", "normal": "Crane", "hard": "Inredning"}
-      },
-      "en": {
-        "word": "Frasier",
-        "aliases": [],
-        "hints": {"easy": "Seattle", "normal": "Brothers", "hard": "Armchair"}
       }
     }
   },
@@ -1431,11 +1076,6 @@
         "word": "Pang i bygget",
         "aliases": [],
         "hints": {"easy": "Hotell", "normal": "Barcelona", "hard": "Kyparen"}
-      },
-      "en": {
-        "word": "Fawlty Towers",
-        "aliases": [],
-        "hints": {"easy": "Hotel", "normal": "Barcelona", "hard": "Waiter"}
       }
     }
   },
@@ -1451,11 +1091,6 @@
         "word": "Freaks and Geeks",
         "aliases": [],
         "hints": {"easy": "Syskon", "normal": "Skola", "hard": "Militärjacka"}
-      },
-      "en": {
-        "word": "Freaks and Geeks",
-        "aliases": [],
-        "hints": {"easy": "Siblings", "normal": "School", "hard": "Army"}
       }
     }
   },
@@ -1471,11 +1106,6 @@
         "word": "Jag, Claudius",
         "aliases": [],
         "hints": {"easy": "Kejsare", "normal": "Augustus", "hard": "Stamning"}
-      },
-      "en": {
-        "word": "I, Claudius",
-        "aliases": [],
-        "hints": {"easy": "Emperor", "normal": "Augustus", "hard": "Stammer"}
       }
     }
   },
@@ -1491,11 +1121,6 @@
         "word": "Leia Organa",
         "aliases": [],
         "hints": {"easy": "Prinsessa", "normal": "Hårknutar", "hard": "Hologram"}
-      },
-      "en": {
-        "word": "Leia Organa",
-        "aliases": [],
-        "hints": {"easy": "Princess", "normal": "Hairstyle", "hard": "Hologram"}
       }
     }
   },
@@ -1511,11 +1136,6 @@
         "word": "Luke Skywalker",
         "aliases": [],
         "hints": {"easy": "Jediriddare", "normal": "Tatooine", "hard": "Barndomshemmet"}
-      },
-      "en": {
-        "word": "Luke Skywalker",
-        "aliases": [],
-        "hints": {"easy": "Jedi", "normal": "Tatooine", "hard": "Childhood"}
       }
     }
   },
@@ -1531,11 +1151,6 @@
         "word": "Gollum",
         "aliases": [],
         "hints": {"easy": "Ring", "normal": "Fisk", "hard": "Grotta"}
-      },
-      "en": {
-        "word": "Gollum",
-        "aliases": [],
-        "hints": {"easy": "Ring", "normal": "Fish", "hard": "Cave"}
       }
     }
   },
@@ -1551,11 +1166,6 @@
         "word": "Dobby",
         "aliases": [],
         "hints": {"easy": "Husalf", "normal": "Strumpa", "hard": "Örngott"}
-      },
-      "en": {
-        "word": "Dobby",
-        "aliases": [],
-        "hints": {"easy": "Elf", "normal": "Sock", "hard": "Pillowcase"}
       }
     }
   },
@@ -1571,11 +1181,6 @@
         "word": "Sarah Connor",
         "aliases": [],
         "hints": {"easy": "Servitris", "normal": "Motståndsrörelse", "hard": "Sjukhus"}
-      },
-      "en": {
-        "word": "Sarah Connor",
-        "aliases": [],
-        "hints": {"easy": "Waitress", "normal": "Resistance", "hard": "Hospital"}
       }
     }
   },
@@ -1591,11 +1196,6 @@
         "word": "Ellen Ripley",
         "aliases": ["Ripley"],
         "hints": {"easy": "Rymdskepp", "normal": "Jones", "hard": "Lastrobot"}
-      },
-      "en": {
-        "word": "Ellen Ripley",
-        "aliases": ["Ripley"],
-        "hints": {"easy": "Spaceship", "normal": "Jones", "hard": "Loader"}
       }
     }
   },
@@ -1611,11 +1211,6 @@
         "word": "Rocky Balboa",
         "aliases": [],
         "hints": {"easy": "Boxare", "normal": "Philadelphia", "hard": "Slaktkropp"}
-      },
-      "en": {
-        "word": "Rocky Balboa",
-        "aliases": [],
-        "hints": {"easy": "Boxer", "normal": "Philadelphia", "hard": "Meat"}
       }
     }
   },
@@ -1631,11 +1226,6 @@
         "word": "Daniel LaRusso",
         "aliases": [],
         "hints": {"easy": "Karate", "normal": "Bilvaxning", "hard": "Trana"}
-      },
-      "en": {
-        "word": "Daniel LaRusso",
-        "aliases": [],
-        "hints": {"easy": "Karate", "normal": "Wax", "hard": "Crane"}
       }
     }
   },
@@ -1651,11 +1241,6 @@
         "word": "Forrest Gump",
         "aliases": [],
         "hints": {"easy": "Alabama", "normal": "Bordtennis", "hard": "Chokladask"}
-      },
-      "en": {
-        "word": "Forrest Gump",
-        "aliases": [],
-        "hints": {"easy": "Alabama", "normal": "Paddles", "hard": "Chocolates"}
       }
     }
   },
@@ -1671,11 +1256,6 @@
         "word": "Edward Scissorhands",
         "aliases": [],
         "hints": {"easy": "Klippning", "normal": "Förort", "hard": "Isskulptur"}
-      },
-      "en": {
-        "word": "Edward Scissorhands",
-        "aliases": [],
-        "hints": {"easy": "Trimming", "normal": "Suburb", "hard": "Sculpture"}
       }
     }
   },
@@ -1691,11 +1271,6 @@
         "word": "Wednesday Addams",
         "aliases": [],
         "hints": {"easy": "Svartklädd", "normal": "Flätor", "hard": "Cello"}
-      },
-      "en": {
-        "word": "Wednesday Addams",
-        "aliases": [],
-        "hints": {"easy": "Gothic", "normal": "Braids", "hard": "Cello"}
       }
     }
   },
@@ -1711,11 +1286,6 @@
         "word": "Morticia Addams",
         "aliases": [],
         "hints": {"easy": "Matriark", "normal": "Rosor", "hard": "Stjälkar"}
-      },
-      "en": {
-        "word": "Morticia Addams",
-        "aliases": [],
-        "hints": {"easy": "Matriarch", "normal": "Roses", "hard": "Stems"}
       }
     }
   },
@@ -1731,11 +1301,6 @@
         "word": "Pippi Långstrump",
         "aliases": ["Pippi"],
         "hints": {"easy": "Fräknar", "normal": "Villekulla", "hard": "Apa"}
-      },
-      "en": {
-        "word": "Pippi Longstocking",
-        "aliases": ["Pippi"],
-        "hints": {"easy": "Freckles", "normal": "Villekulla", "hard": "Monkey"}
       }
     }
   },
@@ -1751,11 +1316,6 @@
         "word": "Emil i Lönneberga",
         "aliases": ["Emil Svensson"],
         "hints": {"easy": "Trägubbar", "normal": "Soppskål", "hard": "Flaggstång"}
-      },
-      "en": {
-        "word": "Emil in Lönneberga",
-        "aliases": ["Emil of Lönneberga","Emil Svensson"],
-        "hints": {"easy": "Carvings", "normal": "Tureen", "hard": "Flagpole"}
       }
     }
   },
@@ -1771,11 +1331,6 @@
         "word": "Ronja Rövardotter",
         "aliases": ["Ronja"],
         "hints": {"easy": "Skog", "normal": "Mattisborgen", "hard": "Vänskap"}
-      },
-      "en": {
-        "word": "Ronja, the Robber's Daughter",
-        "aliases": ["Ronja","Ronja, the Robber’s Daughter"],
-        "hints": {"easy": "Forest", "normal": "Castle", "hard": "Friendship"}
       }
     }
   },
@@ -1791,11 +1346,6 @@
         "word": "Mary Poppins",
         "aliases": [],
         "hints": {"easy": "Barnflicka", "normal": "Paraply", "hard": "Kritmålning"}
-      },
-      "en": {
-        "word": "Mary Poppins",
-        "aliases": [],
-        "hints": {"easy": "Nanny", "normal": "Umbrella", "hard": "Chalk"}
       }
     }
   },
@@ -1811,11 +1361,6 @@
         "word": "Matilda Wormwood",
         "aliases": [],
         "hints": {"easy": "Bokslukare", "normal": "Telekinesi", "hard": "Krita"}
-      },
-      "en": {
-        "word": "Matilda Wormwood",
-        "aliases": [],
-        "hints": {"easy": "Bookworm", "normal": "Telekinesis", "hard": "Chalk"}
       }
     }
   },
@@ -1831,11 +1376,6 @@
         "word": "Clarice Starling",
         "aliases": [],
         "hints": {"easy": "FBI", "normal": "Försvinnanden", "hard": "Minnen"}
-      },
-      "en": {
-        "word": "Clarice Starling",
-        "aliases": [],
-        "hints": {"easy": "FBI", "normal": "Disappearances", "hard": "Memories"}
       }
     }
   },
@@ -1851,11 +1391,6 @@
         "word": "Hannibal Lecter",
         "aliases": [],
         "hints": {"easy": "Kannibal", "normal": "Psykiater", "hard": "Bönor"}
-      },
-      "en": {
-        "word": "Hannibal Lecter",
-        "aliases": [],
-        "hints": {"easy": "Cannibal", "normal": "Psychiatrist", "hard": "Beans"}
       }
     }
   },
@@ -1871,11 +1406,6 @@
         "word": "Holly Golightly",
         "aliases": [],
         "hints": {"easy": "Juvelbutik", "normal": "Manhattan", "hard": "Katt"}
-      },
-      "en": {
-        "word": "Holly Golightly",
-        "aliases": [],
-        "hints": {"easy": "Jeweller", "normal": "Manhattan", "hard": "Cat"}
       }
     }
   },
@@ -1891,11 +1421,6 @@
         "word": "Amélie Poulain",
         "aliases": ["Amelie Poulain"],
         "hints": {"easy": "Parisisk", "normal": "Plåtask", "hard": "Trädgårdstomte"}
-      },
-      "en": {
-        "word": "Amélie Poulain",
-        "aliases": ["Amelie Poulain"],
-        "hints": {"easy": "Parisian", "normal": "Tile", "hard": "Photos"}
       }
     }
   },
@@ -1911,11 +1436,6 @@
         "word": "Dana Scully",
         "aliases": [],
         "hints": {"easy": "FBI", "normal": "Obduktion", "hard": "Kors"}
-      },
-      "en": {
-        "word": "Dana Scully",
-        "aliases": [],
-        "hints": {"easy": "FBI", "normal": "Autopsy", "hard": "Cross"}
       }
     }
   },
@@ -1931,11 +1451,6 @@
         "word": "Fox Mulder",
         "aliases": [],
         "hints": {"easy": "FBI", "normal": "UFO", "hard": "Solrosfröna"}
-      },
-      "en": {
-        "word": "Fox Mulder",
-        "aliases": [],
-        "hints": {"easy": "FBI", "normal": "UFO", "hard": "Sunflower"}
       }
     }
   },
@@ -1951,11 +1466,6 @@
         "word": "Michael Scott",
         "aliases": [],
         "hints": {"easy": "Pappersbolag", "normal": "Chef", "hard": "Medarbetare"}
-      },
-      "en": {
-        "word": "Michael Scott",
-        "aliases": [],
-        "hints": {"easy": "Paper", "normal": "Manager", "hard": "Employees"}
       }
     }
   },
@@ -1971,11 +1481,6 @@
         "word": "Leslie Knope",
         "aliases": [],
         "hints": {"easy": "Pawnee", "normal": "Högtider", "hard": "Organiserar"}
-      },
-      "en": {
-        "word": "Leslie Knope",
-        "aliases": [],
-        "hints": {"easy": "Pawnee", "normal": "Celebrations", "hard": "Parties"}
       }
     }
   },
@@ -1991,11 +1496,6 @@
         "word": "Sherlock Holmes",
         "aliases": ["Sherlock"],
         "hints": {"easy": "Deduktion", "normal": "Baker", "hard": "Fiol"}
-      },
-      "en": {
-        "word": "Sherlock Holmes",
-        "aliases": ["Sherlock"],
-        "hints": {"easy": "Deduction", "normal": "Baker", "hard": "Violin"}
       }
     }
   },
@@ -2011,11 +1511,6 @@
         "word": "Hercule Poirot",
         "aliases": ["Poirot"],
         "hints": {"easy": "Detektiv", "normal": "Mustasch", "hard": "Symmetri"}
-      },
-      "en": {
-        "word": "Hercule Poirot",
-        "aliases": ["Poirot"],
-        "hints": {"easy": "Detective", "normal": "Moustache", "hard": "Symmetry"}
       }
     }
   },
@@ -2031,11 +1526,6 @@
         "word": "Grogu",
         "aliases": [],
         "hints": {"easy": "Grön", "normal": "Vagga", "hard": "Kraften"}
-      },
-      "en": {
-        "word": "Grogu",
-        "aliases": [],
-        "hints": {"easy": "Green", "normal": "Cradle", "hard": "Force"}
       }
     }
   },
@@ -2051,11 +1541,6 @@
         "word": "Filmklappa",
         "aliases": [],
         "hints": {"easy": "Tagning", "normal": "Inspelning", "hard": "Ljudspåret"}
-      },
-      "en": {
-        "word": "Clapperboard",
-        "aliases": [],
-        "hints": {"easy": "Slate", "normal": "Numbers", "hard": "Synchronization"}
       }
     }
   },
@@ -2071,11 +1556,6 @@
         "word": "Grön skärm",
         "aliases": ["Greenscreen"],
         "hints": {"easy": "Enfärgad", "normal": "Programledare", "hard": "Kulör"}
-      },
-      "en": {
-        "word": "Green screen",
-        "aliases": ["Greenscreen"],
-        "hints": {"easy": "Backdrop", "normal": "Presenter", "hard": "Clothing"}
       }
     }
   },
@@ -2091,11 +1571,6 @@
         "word": "Rörelsefångst",
         "aliases": ["Motion capture","Mocap"],
         "hints": {"easy": "Skådespelare", "normal": "Dräkt", "hard": "Markörer"}
-      },
-      "en": {
-        "word": "Motion capture",
-        "aliases": ["Mocap"],
-        "hints": {"easy": "Actor", "normal": "Suit", "hard": "Markers"}
       }
     }
   },
@@ -2111,11 +1586,6 @@
         "word": "Stop motion",
         "aliases": ["Stop-motion"],
         "hints": {"easy": "Bildruta", "normal": "Docka", "hard": "Fingeravtryck"}
-      },
-      "en": {
-        "word": "Stop motion",
-        "aliases": ["Stop-motion"],
-        "hints": {"easy": "Frames", "normal": "Puppets", "hard": "Fingerprints"}
       }
     }
   },
@@ -2131,11 +1601,6 @@
         "word": "Närbild",
         "aliases": [],
         "hints": {"easy": "Ansikte", "normal": "Reaktion", "hard": "Detalj"}
-      },
-      "en": {
-        "word": "Close-up",
-        "aliases": [],
-        "hints": {"easy": "Face", "normal": "Reaction", "hard": "Detail"}
       }
     }
   },
@@ -2151,11 +1616,6 @@
         "word": "Vidbild",
         "aliases": [],
         "hints": {"easy": "Omgivning", "normal": "Landskap", "hard": "Statister"}
-      },
-      "en": {
-        "word": "Wide shot",
-        "aliases": ["Long shot"],
-        "hints": {"easy": "Setting", "normal": "Landscape", "hard": "Extras"}
       }
     }
   },
@@ -2171,11 +1631,6 @@
         "word": "Fågelperspektiv",
         "aliases": [],
         "hints": {"easy": "Ovanifrån", "normal": "Paraply", "hard": "Golv"}
-      },
-      "en": {
-        "word": "Bird's-eye view",
-        "aliases": ["Bird’s-eye view"],
-        "hints": {"easy": "Overhead", "normal": "Umbrella", "hard": "Floor"}
       }
     }
   },
@@ -2191,11 +1646,6 @@
         "word": "Grodperspektiv",
         "aliases": [],
         "hints": {"easy": "Underifrån", "normal": "Makt", "hard": "Tak"}
-      },
-      "en": {
-        "word": "Low-angle shot",
-        "aliases": [],
-        "hints": {"easy": "Upwards", "normal": "Power", "hard": "Ceiling"}
       }
     }
   },
@@ -2211,11 +1661,6 @@
         "word": "Dollyzoom",
         "aliases": ["Dollyzoomning","Vertigoeffekt"],
         "hints": {"easy": "Perspektiv", "normal": "Bakgrund", "hard": "Korridor"}
-      },
-      "en": {
-        "word": "Dolly zoom",
-        "aliases": ["Vertigo effect"],
-        "hints": {"easy": "Perspective", "normal": "Background", "hard": "Hallway"}
       }
     }
   },
@@ -2231,11 +1676,6 @@
         "word": "Skärpeförflyttning",
         "aliases": [],
         "hints": {"easy": "Skärpan", "normal": "Förgrunden", "hard": "Blicken"}
-      },
-      "en": {
-        "word": "Rack focus",
-        "aliases": [],
-        "hints": {"easy": "Sharpness", "normal": "Foreground", "hard": "Attention"}
       }
     }
   },
@@ -2251,11 +1691,6 @@
         "word": "Match cut",
         "aliases": [],
         "hints": {"easy": "Likhet", "normal": "Ben", "hard": "Rymdskepp"}
-      },
-      "en": {
-        "word": "Match cut",
-        "aliases": [],
-        "hints": {"easy": "Similarity", "normal": "Bone", "hard": "Spacecraft"}
       }
     }
   },
@@ -2271,11 +1706,6 @@
         "word": "Hoppklipp",
         "aliases": [],
         "hints": {"easy": "Tidshopp", "normal": "Bildvinkel", "hard": "Cigarett"}
-      },
-      "en": {
-        "word": "Jump cut",
-        "aliases": [],
-        "hints": {"easy": "Interruption", "normal": "Angle", "hard": "Cigarette"}
       }
     }
   },
@@ -2291,11 +1721,6 @@
         "word": "Montage",
         "aliases": [],
         "hints": {"easy": "Sammandrag", "normal": "Träning", "hard": "Frukost"}
-      },
-      "en": {
-        "word": "Montage",
-        "aliases": [],
-        "hints": {"easy": "Condensation", "normal": "Training", "hard": "Breakfast"}
       }
     }
   },
@@ -2311,11 +1736,6 @@
         "word": "Långtagning",
         "aliases": [],
         "hints": {"easy": "Oavbrutet", "normal": "Skådespelare", "hard": "Korridor"}
-      },
-      "en": {
-        "word": "Long take",
-        "aliases": [],
-        "hints": {"easy": "Continuous", "normal": "Actors", "hard": "Corridor"}
       }
     }
   },
@@ -2331,11 +1751,6 @@
         "word": "Slow motion",
         "aliases": [],
         "hints": {"easy": "Långsamt", "normal": "Plask", "hard": "Bildfrekvens"}
-      },
-      "en": {
-        "word": "Slow motion",
-        "aliases": [],
-        "hints": {"easy": "Slowdown", "normal": "Splash", "hard": "Framerate"}
       }
     }
   },
@@ -2351,11 +1766,6 @@
         "word": "Intervallfilmning",
         "aliases": ["Time-lapse"],
         "hints": {"easy": "Förändring", "normal": "Intervaller", "hard": "Blomning"}
-      },
-      "en": {
-        "word": "Time-lapse",
-        "aliases": ["Timelapse"],
-        "hints": {"easy": "Change", "normal": "Intervals", "hard": "Flowering"}
       }
     }
   },
@@ -2371,11 +1781,6 @@
         "word": "Undertexter",
         "aliases": [],
         "hints": {"easy": "Dialog", "normal": "Språk", "hard": "Läsning"}
-      },
-      "en": {
-        "word": "Subtitles",
-        "aliases": [],
-        "hints": {"easy": "Dialogue", "normal": "Language", "hard": "Reading"}
       }
     }
   },
@@ -2391,11 +1796,6 @@
         "word": "Dubbning",
         "aliases": [],
         "hints": {"easy": "Röster", "normal": "Original", "hard": "Läpprörelser"}
-      },
-      "en": {
-        "word": "Dubbing",
-        "aliases": [],
-        "hints": {"easy": "Voices", "normal": "Original", "hard": "Lips"}
       }
     }
   },
@@ -2411,11 +1811,6 @@
         "word": "Trampljud",
         "aliases": ["Foley"],
         "hints": {"easy": "Ljudeffekter", "normal": "Studio", "hard": "Nyckelknippa"}
-      },
-      "en": {
-        "word": "Foley",
-        "aliases": [],
-        "hints": {"easy": "Sound", "normal": "Studio", "hard": "Keys"}
       }
     }
   },
@@ -2431,11 +1826,6 @@
         "word": "Bildmanus",
         "aliases": ["Storyboard"],
         "hints": {"easy": "Skisser", "normal": "Inspelning", "hard": "Bildrutor"}
-      },
-      "en": {
-        "word": "Storyboard",
-        "aliases": [],
-        "hints": {"easy": "Sketches", "normal": "Camera", "hard": "Sequence"}
       }
     }
   },
@@ -2451,11 +1841,6 @@
         "word": "Filmmanus",
         "aliases": [],
         "hints": {"easy": "Dialog", "normal": "Scenrubriker", "hard": "Rollnamn"}
-      },
-      "en": {
-        "word": "Screenplay",
-        "aliases": [],
-        "hints": {"easy": "Dialogue", "normal": "Headings", "hard": "Characters"}
       }
     }
   },
@@ -2471,11 +1856,6 @@
         "word": "Inspelningsmiss",
         "aliases": ["Blooper"],
         "hints": {"easy": "Tabbe", "normal": "Skratt", "hard": "Omtagning"}
-      },
-      "en": {
-        "word": "Blooper",
-        "aliases": [],
-        "hints": {"easy": "Outtake", "normal": "Laughter", "hard": "Retake"}
       }
     }
   },
@@ -2491,11 +1871,6 @@
         "word": "Eftertexter",
         "aliases": [],
         "hints": {"easy": "Medverkande", "normal": "Arbetslag", "hard": "Publik"}
-      },
-      "en": {
-        "word": "End credits",
-        "aliases": [],
-        "hints": {"easy": "Contributors", "normal": "Production", "hard": "Audience"}
       }
     }
   },
@@ -2511,11 +1886,6 @@
         "word": "Förtexter",
         "aliases": [],
         "hints": {"easy": "Medverkande", "normal": "Skådespelare", "hard": "Typografi"}
-      },
-      "en": {
-        "word": "Opening credits",
-        "aliases": [],
-        "hints": {"easy": "Contributors", "normal": "Actors", "hard": "Lettering"}
       }
     }
   },
@@ -2531,11 +1901,6 @@
         "word": "Filmtrailer",
         "aliases": ["Trailer"],
         "hints": {"easy": "Smakprov", "normal": "Premiär", "hard": "Klipp"}
-      },
-      "en": {
-        "word": "Movie trailer",
-        "aliases": ["Trailer"],
-        "hints": {"easy": "Preview", "normal": "Premiere", "hard": "Editing"}
       }
     }
   },
@@ -2551,11 +1916,6 @@
         "word": "Scen efter eftertexterna",
         "aliases": [],
         "hints": {"easy": "Bonusscen", "normal": "Salong", "hard": "Överraskning"}
-      },
-      "en": {
-        "word": "Post-credits scene",
-        "aliases": [],
-        "hints": {"easy": "Bonus", "normal": "Audience", "hard": "Surprise"}
       }
     }
   }

@@ -1,65 +1,56 @@
 {
   "id": "food",
   "names": {
-    "sv": "Mat och dryck",
-    "en": "Food and drink"
+    "sv": "Mat och dryck"
   },
   "icon": "🍕",
   "subcategories": [
     {
       "id": "food-dishes",
       "names": {
-        "sv": "Maträtter",
-        "en": "Main dishes"
+        "sv": "Maträtter"
       }
     },
     {
       "id": "food-fruit",
       "names": {
-        "sv": "Frukt",
-        "en": "Fruit"
+        "sv": "Frukt"
       }
     },
     {
       "id": "food-vegetables",
       "names": {
-        "sv": "Grönsaker",
-        "en": "Vegetables"
+        "sv": "Grönsaker"
       }
     },
     {
       "id": "food-ingredients",
       "names": {
-        "sv": "Ingredienser och smaksättning",
-        "en": "Ingredients and condiments"
+        "sv": "Ingredienser och smaksättning"
       }
     },
     {
       "id": "food-baked-goods",
       "names": {
-        "sv": "Bakverk och bröd",
-        "en": "Baked goods and bread"
+        "sv": "Bakverk och bröd"
       }
     },
     {
       "id": "food-desserts",
       "names": {
-        "sv": "Efterrätter",
-        "en": "Desserts"
+        "sv": "Efterrätter"
       }
     },
     {
       "id": "food-snacks",
       "names": {
-        "sv": "Snacks och godis",
-        "en": "Snacks and candy"
+        "sv": "Snacks och godis"
       }
     },
     {
       "id": "food-drinks",
       "names": {
-        "sv": "Drycker",
-        "en": "Drinks"
+        "sv": "Drycker"
       }
     }
   ]

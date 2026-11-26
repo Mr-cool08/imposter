@@ -64,7 +64,7 @@ function readModifiers(settings, count, fallback = profileDefaults) {
     return modifiers;
 }
 
-function readSettings(settings, language, count) {
+function readSettings(settings, count) {
     const modifiers = readModifiers(settings, count);
     const mode = choose(readMode(settings.mode), modes, DEFAULT_SETTINGS.mode);
     const profiles = Array.isArray(settings.chaos)
@@ -74,7 +74,7 @@ function readSettings(settings, language, count) {
         freePlay: true,
         mode,
         ...modifiers,
-        language: choose(settings.language, ["sv", "en"], language),
+        language: DEFAULT_SETTINGS.language,
         hint: choose(settings.hint, ["easy", "normal", "hard"], DEFAULT_SETTINGS.hint),
         subcategories: chosenIds(settings.subcategories, []),
         levels: chosenIds(settings.levels, DEFAULT_SETTINGS.levels).filter((level) => levels.includes(level)),
@@ -128,9 +128,11 @@ export function mountSettings(ctx, {
     const modeDescription = el("p", { class: "settings-mode__description muted" });
     const modeRange = el("div", { class: "stack" });
     const modeAdvanced = el("div", { class: "settings-mode-advanced stack" });
+    const advanced = el("details", { class: "settings-advanced" },
+        el("summary", {}, t("settings.advanced")), modeAdvanced);
     const pool = el("section", { class: "chaos-pool stack", "aria-label": t("settings.chaos_pool") });
     const buttonAttrs = { variant: "ghost" };
-    let value = readSettings(settings === DEFAULT_SETTINGS ? {} : settings, ctx.lang, playerCount);
+    let value = readSettings(settings === DEFAULT_SETTINGS ? {} : settings, playerCount);
     let chaosInitialized = value.mode === "chaos" || value.chaos.length > 0;
     let selection = { words: [], pairs: [], categories: [], issues: [], loading: true, error: null };
     let revision = 0;
@@ -345,7 +347,7 @@ export function mountSettings(ctx, {
         modeRange.hidden = !range;
         const controls = modifiers(value, value.mode, (key, item) => changeField(key, item));
         modeAdvanced.replaceChildren(...(controls ? [controls] : []));
-        modeAdvanced.hidden = !controls;
+        advanced.hidden = !controls;
         renderPool();
     }
 
@@ -503,10 +505,6 @@ export function mountSettings(ctx, {
         el("fieldset", { class: "stack" }, el("legend", {}, t("settings.levels")),
             el("div", { class: "cluster" }, ...levels.map((level) => checkbox(t(`settings.level.${level}`), value.levels.includes(level),
                 (checked) => toggleMembership("levels", level, checked))))), counts);
-    const wordLanguage = select("language", value.language, [["sv", "Svenska"], ["en", "English"]],
-        (item) => changeField("language", item, { filtering: true }));
-    const advanced = el("details", { class: "settings-advanced" },
-        el("summary", {}, t("settings.advanced")), el("div", { class: "stack" }, wordLanguage, modeAdvanced));
     editor.append(basic, modeRange, catalog, advanced, pool, issuesList);
     root.replaceChildren(editor);
     renderMode();

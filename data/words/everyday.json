@@ -19,17 +19,6 @@
           "normal": "nycklar",
           "hard": "smalt"
         }
-      },
-      "en": {
-        "word": "Console table",
-        "aliases": [
-          "Hall table"
-        ],
-        "hints": {
-          "easy": "hallway",
-          "normal": "keys",
-          "hard": "shallow"
-        }
       }
     }
   },
@@ -52,15 +41,6 @@
           "easy": "sittbräda",
           "normal": "park",
           "hard": "picknick"
-        }
-      },
-      "en": {
-        "word": "Bench",
-        "aliases": [],
-        "hints": {
-          "easy": "seat",
-          "normal": "park",
-          "hard": "picnic"
         }
       }
     }
@@ -85,17 +65,6 @@
           "normal": "bricka",
           "hard": "sele"
         }
-      },
-      "en": {
-        "word": "High chair",
-        "aliases": [
-          "Highchair"
-        ],
-        "hints": {
-          "easy": "toddler",
-          "normal": "tray",
-          "hard": "straps"
-        }
       }
     }
   },
@@ -117,17 +86,6 @@
           "normal": "fotstöd",
           "hard": "upphöjd"
         }
-      },
-      "en": {
-        "word": "Bar stool",
-        "aliases": [
-          "Barstool"
-        ],
-        "hints": {
-          "easy": "counter",
-          "normal": "footrest",
-          "hard": "elevated"
-        }
       }
     }
   },
@@ -148,17 +106,6 @@
           "easy": "böcker",
           "normal": "hyllplan",
           "hard": "litteratur"
-        }
-      },
-      "en": {
-        "word": "Bookcase",
-        "aliases": [
-          "Bookshelf"
-        ],
-        "hints": {
-          "easy": "books",
-          "normal": "shelves",
-          "hard": "literature"
         }
       }
     }
@@ -183,17 +130,6 @@
           "normal": "kläder",
           "hard": "knoppar"
         }
-      },
-      "en": {
-        "word": "Chest of drawers",
-        "aliases": [
-          "Dresser"
-        ],
-        "hints": {
-          "easy": "drawers",
-          "normal": "clothes",
-          "hard": "knobs"
-        }
       }
     }
   },
@@ -214,15 +150,6 @@
           "easy": "armstöd",
           "normal": "klädsel",
           "hard": "läshörna"
-        }
-      },
-      "en": {
-        "word": "Armchair",
-        "aliases": [],
-        "hints": {
-          "easy": "armrests",
-          "normal": "upholstery",
-          "hard": "reading"
         }
       }
     }
@@ -245,18 +172,6 @@
           "normal": "vilostund",
           "hard": "låg"
         }
-      },
-      "en": {
-        "word": "Footstool",
-        "aliases": [
-          "Ottoman",
-          "Hassock"
-        ],
-        "hints": {
-          "easy": "feet",
-          "normal": "resting",
-          "hard": "low"
-        }
       }
     }
   },
@@ -277,17 +192,6 @@
           "easy": "vagga",
           "normal": "medar",
           "hard": "rörelse"
-        }
-      },
-      "en": {
-        "word": "Rocking chair",
-        "aliases": [
-          "Rocker"
-        ],
-        "hints": {
-          "easy": "rocking",
-          "normal": "runners",
-          "hard": "motion"
         }
       }
     }
@@ -312,17 +216,6 @@
           "normal": "platsbesparing",
           "hard": "gångjärn"
         }
-      },
-      "en": {
-        "word": "Drop-leaf table",
-        "aliases": [
-          "Drop leaf table"
-        ],
-        "hints": {
-          "easy": "leaf",
-          "normal": "compact",
-          "hard": "hinges"
-        }
       }
     }
   },
@@ -345,17 +238,6 @@
           "easy": "hopfällbar",
           "normal": "extrasits",
           "hard": "förvaring"
-        }
-      },
-      "en": {
-        "word": "Folding chair",
-        "aliases": [
-          "Collapsible chair"
-        ],
-        "hints": {
-          "easy": "folding",
-          "normal": "seating",
-          "hard": "storage"
         }
       }
     }
@@ -380,17 +262,6 @@
           "normal": "höjdjustering",
           "hard": "skrivbord"
         }
-      },
-      "en": {
-        "word": "Office chair",
-        "aliases": [
-          "Desk chair"
-        ],
-        "hints": {
-          "easy": "wheels",
-          "normal": "adjustable",
-          "hard": "workstation"
-        }
       }
     }
   },
@@ -413,17 +284,6 @@
           "easy": "skiss",
           "normal": "lutning",
           "hard": "linjal"
-        }
-      },
-      "en": {
-        "word": "Drafting table",
-        "aliases": [
-          "Drawing table"
-        ],
-        "hints": {
-          "easy": "sketching",
-          "normal": "tilt",
-          "hard": "ruler"
         }
       }
     }
@@ -448,17 +308,6 @@
           "normal": "väckarklocka",
           "hard": "sängkant"
         }
-      },
-      "en": {
-        "word": "Bedside table",
-        "aliases": [
-          "Nightstand"
-        ],
-        "hints": {
-          "easy": "lamp",
-          "normal": "alarm",
-          "hard": "bedside"
-        }
       }
     }
   },
@@ -481,17 +330,6 @@
           "easy": "servering",
           "normal": "skänk",
           "hard": "förvaring"
-        }
-      },
-      "en": {
-        "word": "Sideboard",
-        "aliases": [
-          "Buffet cabinet"
-        ],
-        "hints": {
-          "easy": "serving",
-          "normal": "crockery",
-          "hard": "cabinet"
         }
       }
     }
@@ -516,18 +354,6 @@
           "normal": "mjuk",
           "hard": "formar"
         }
-      },
-      "en": {
-        "word": "Beanbag chair",
-        "aliases": [
-          "Bean bag",
-          "Beanbag"
-        ],
-        "hints": {
-          "easy": "beans",
-          "normal": "soft",
-          "hard": "mouldable"
-        }
       }
     }
   },
@@ -548,17 +374,6 @@
           "easy": "arbete",
           "normal": "dator",
           "hard": "kontor"
-        }
-      },
-      "en": {
-        "word": "Desk",
-        "aliases": [
-          "Writing desk"
-        ],
-        "hints": {
-          "easy": "work",
-          "normal": "computer",
-          "hard": "office"
         }
       }
     }
@@ -581,18 +396,6 @@
           "normal": "vardagsrum",
           "hard": "vila"
         }
-      },
-      "en": {
-        "word": "Sofa",
-        "aliases": [
-          "Couch",
-          "Settee"
-        ],
-        "hints": {
-          "easy": "cushions",
-          "normal": "lounge",
-          "hard": "lounging"
-        }
       }
     }
   },
@@ -614,17 +417,6 @@
           "normal": "vardagsrum",
           "hard": "lågt"
         }
-      },
-      "en": {
-        "word": "Coffee table",
-        "aliases": [
-          "Cocktail table"
-        ],
-        "hints": {
-          "easy": "remote",
-          "normal": "lounge",
-          "hard": "low"
-        }
       }
     }
   },
@@ -645,17 +437,6 @@
           "easy": "stege",
           "normal": "dubbeldäck",
           "hard": "syskon"
-        }
-      },
-      "en": {
-        "word": "Bunk bed",
-        "aliases": [
-          "Bunk beds"
-        ],
-        "hints": {
-          "easy": "ladder",
-          "normal": "stacked",
-          "hard": "siblings"
         }
       }
     }
@@ -680,18 +461,6 @@
           "normal": "gångjärn",
           "hard": "integritet"
         }
-      },
-      "en": {
-        "word": "Folding screen",
-        "aliases": [
-          "Room divider",
-          "Privacy screen"
-        ],
-        "hints": {
-          "easy": "divider",
-          "normal": "hinges",
-          "hard": "privacy"
-        }
       }
     }
   },
@@ -714,17 +483,6 @@
           "easy": "glasdörr",
           "normal": "porslin",
           "hard": "beskåda"
-        }
-      },
-      "en": {
-        "word": "Display cabinet",
-        "aliases": [
-          "Curio cabinet"
-        ],
-        "hints": {
-          "easy": "glassware",
-          "normal": "display",
-          "hard": "porcelain"
         }
       }
     }
@@ -749,17 +507,6 @@
           "normal": "jord",
           "hard": "tänder"
         }
-      },
-      "en": {
-        "word": "Bow rake",
-        "aliases": [
-          "garden rake"
-        ],
-        "hints": {
-          "easy": "tines",
-          "normal": "soil",
-          "hard": "levelling"
-        }
       }
     }
   },
@@ -781,17 +528,6 @@
           "normal": "spridning",
           "hard": "gräsmatta"
         }
-      },
-      "en": {
-        "word": "Broadcast spreader",
-        "aliases": [
-          "rotary spreader"
-        ],
-        "hints": {
-          "easy": "fertiliser",
-          "normal": "granules",
-          "hard": "lawn"
-        }
       }
     }
   },
@@ -812,17 +548,6 @@
           "easy": "sly",
           "normal": "klinga",
           "hard": "sele"
-        }
-      },
-      "en": {
-        "word": "Brush cutter",
-        "aliases": [
-          "brushcutter"
-        ],
-        "hints": {
-          "easy": "brambles",
-          "normal": "blade",
-          "hard": "harness"
         }
       }
     }
@@ -847,15 +572,6 @@
           "normal": "hål",
           "hard": "djup"
         }
-      },
-      "en": {
-        "word": "Bulb planter",
-        "aliases": [],
-        "hints": {
-          "easy": "planting",
-          "normal": "holes",
-          "hard": "depth"
-        }
       }
     }
   },
@@ -876,15 +592,6 @@
           "easy": "plantor",
           "normal": "odlingslåda",
           "hard": "lock"
-        }
-      },
-      "en": {
-        "word": "Cold frame",
-        "aliases": [],
-        "hints": {
-          "easy": "seedlings",
-          "normal": "cover",
-          "hard": "protect"
         }
       }
     }
@@ -909,15 +616,6 @@
           "normal": "förmultning",
           "hard": "jord"
         }
-      },
-      "en": {
-        "word": "Compost bin",
-        "aliases": [],
-        "hints": {
-          "easy": "scraps",
-          "normal": "decomposition",
-          "hard": "soil"
-        }
       }
     }
   },
@@ -938,17 +636,6 @@
           "easy": "såhål",
           "normal": "spets",
           "hard": "plantering"
-        }
-      },
-      "en": {
-        "word": "Dibber",
-        "aliases": [
-          "dibble"
-        ],
-        "hints": {
-          "easy": "holes",
-          "normal": "spike",
-          "hard": "seedlings"
         }
       }
     }
@@ -973,17 +660,6 @@
           "normal": "slang",
           "hard": "rotzon"
         }
-      },
-      "en": {
-        "word": "Drip line",
-        "aliases": [
-          "drip irrigation line"
-        ],
-        "hints": {
-          "easy": "irrigation",
-          "normal": "tubing",
-          "hard": "roots"
-        }
       }
     }
   },
@@ -1005,17 +681,6 @@
           "normal": "bär",
           "hard": "maskor"
         }
-      },
-      "en": {
-        "word": "Fruit netting",
-        "aliases": [
-          "bird netting"
-        ],
-        "hints": {
-          "easy": "birds",
-          "normal": "berries",
-          "hard": "mesh"
-        }
       }
     }
   },
@@ -1036,17 +701,6 @@
           "easy": "transport",
           "normal": "hjul",
           "hard": "last"
-        }
-      },
-      "en": {
-        "word": "Garden cart",
-        "aliases": [
-          "garden wagon"
-        ],
-        "hints": {
-          "easy": "hauling",
-          "normal": "wheels",
-          "hard": "cargo"
         }
       }
     }
@@ -1071,17 +725,6 @@
           "normal": "luckra",
           "hard": "tänder"
         }
-      },
-      "en": {
-        "word": "Garden fork",
-        "aliases": [
-          "digging fork"
-        ],
-        "hints": {
-          "easy": "soil",
-          "normal": "loosening",
-          "hard": "tines"
-        }
       }
     }
   },
@@ -1104,17 +747,6 @@
           "easy": "ogräs",
           "normal": "jord",
           "hard": "drag"
-        }
-      },
-      "en": {
-        "word": "Garden hoe",
-        "aliases": [
-          "hoe"
-        ],
-        "hints": {
-          "easy": "weeding",
-          "normal": "soil",
-          "hard": "scraping"
         }
       }
     }
@@ -1139,17 +771,6 @@
           "normal": "munstycke",
           "hard": "rulle"
         }
-      },
-      "en": {
-        "word": "Garden hose",
-        "aliases": [
-          "hosepipe"
-        ],
-        "hints": {
-          "easy": "water",
-          "normal": "nozzle",
-          "hard": "reel"
-        }
       }
     }
   },
@@ -1172,15 +793,6 @@
           "easy": "grenar",
           "normal": "flis",
           "hard": "nedbrytning"
-        }
-      },
-      "en": {
-        "word": "Garden shredder",
-        "aliases": [],
-        "hints": {
-          "easy": "branches",
-          "normal": "chips",
-          "hard": "mulching"
         }
       }
     }
@@ -1205,17 +817,6 @@
           "normal": "jordkant",
           "hard": "spadtag"
         }
-      },
-      "en": {
-        "word": "Garden spade",
-        "aliases": [
-          "spade"
-        ],
-        "hints": {
-          "easy": "digging",
-          "normal": "edging",
-          "hard": "blade"
-        }
       }
     }
   },
@@ -1238,17 +839,6 @@
           "easy": "plantering",
           "normal": "kruka",
           "hard": "handtag"
-        }
-      },
-      "en": {
-        "word": "Garden trowel",
-        "aliases": [
-          "hand trowel"
-        ],
-        "hints": {
-          "easy": "planting",
-          "normal": "pots",
-          "hard": "handle"
         }
       }
     }
@@ -1273,15 +863,6 @@
           "normal": "fiber",
           "hard": "tomater"
         }
-      },
-      "en": {
-        "word": "Garden twine",
-        "aliases": [],
-        "hints": {
-          "easy": "tying",
-          "normal": "fibre",
-          "hard": "tomatoes"
-        }
       }
     }
   },
@@ -1305,17 +886,6 @@
           "normal": "grenar",
           "hard": "bärhandtag"
         }
-      },
-      "en": {
-        "word": "Garden waste bag",
-        "aliases": [
-          "yard waste bag"
-        ],
-        "hints": {
-          "easy": "leaves",
-          "normal": "branches",
-          "hard": "handles"
-        }
       }
     }
   },
@@ -1336,17 +906,6 @@
           "easy": "odling",
           "normal": "glas",
           "hard": "värme"
-        }
-      },
-      "en": {
-        "word": "Greenhouse",
-        "aliases": [
-          "glasshouse"
-        ],
-        "hints": {
-          "easy": "growing",
-          "normal": "glass",
-          "hard": "warmth"
         }
       }
     }
@@ -1371,15 +930,6 @@
           "normal": "jord",
           "hard": "tomater"
         }
-      },
-      "en": {
-        "word": "Grow bag",
-        "aliases": [],
-        "hints": {
-          "easy": "container",
-          "normal": "compost",
-          "hard": "tomatoes"
-        }
       }
     }
   },
@@ -1403,15 +953,6 @@
           "normal": "luckring",
           "hard": "jord"
         }
-      },
-      "en": {
-        "word": "Hand cultivator",
-        "aliases": [],
-        "hints": {
-          "easy": "claws",
-          "normal": "loosening",
-          "hard": "soil"
-        }
       }
     }
   },
@@ -1432,17 +973,6 @@
           "easy": "häck",
           "normal": "formning",
           "hard": "tänder"
-        }
-      },
-      "en": {
-        "word": "Hedge trimmer",
-        "aliases": [
-          "hedge clippers"
-        ],
-        "hints": {
-          "easy": "pruning",
-          "normal": "shaping",
-          "hard": "blades"
         }
       }
     }
@@ -1467,17 +997,6 @@
           "normal": "täckduk",
           "hard": "lätt"
         }
-      },
-      "en": {
-        "word": "Horticultural fleece",
-        "aliases": [
-          "garden fleece"
-        ],
-        "hints": {
-          "easy": "frost",
-          "normal": "cover",
-          "hard": "lightweight"
-        }
       }
     }
   },
@@ -1498,17 +1017,6 @@
           "easy": "gräsmatta",
           "normal": "hål",
           "hard": "syre"
-        }
-      },
-      "en": {
-        "word": "Lawn aerator",
-        "aliases": [
-          "turf aerator"
-        ],
-        "hints": {
-          "easy": "grass",
-          "normal": "holes",
-          "hard": "oxygen"
         }
       }
     }
@@ -1533,17 +1041,6 @@
           "normal": "gång",
           "hard": "rak"
         }
-      },
-      "en": {
-        "word": "Lawn edger",
-        "aliases": [
-          "grass edger"
-        ],
-        "hints": {
-          "easy": "grass",
-          "normal": "borders",
-          "hard": "neatness"
-        }
       }
     }
   },
@@ -1566,17 +1063,6 @@
           "easy": "utjämning",
           "normal": "tyngd",
           "hard": "matta"
-        }
-      },
-      "en": {
-        "word": "Lawn roller",
-        "aliases": [
-          "garden roller"
-        ],
-        "hints": {
-          "easy": "levelling",
-          "normal": "weight",
-          "hard": "turf"
         }
       }
     }
@@ -1601,17 +1087,6 @@
           "normal": "dusch",
           "hard": "gräs"
         }
-      },
-      "en": {
-        "word": "Lawn sprinkler",
-        "aliases": [
-          "garden sprinkler"
-        ],
-        "hints": {
-          "easy": "watering",
-          "normal": "spray",
-          "hard": "grass"
-        }
       }
     }
   },
@@ -1632,17 +1107,6 @@
           "easy": "klippa",
           "normal": "gräsmatta",
           "hard": "gräsrester"
-        }
-      },
-      "en": {
-        "word": "Lawn mower",
-        "aliases": [
-          "lawnmower"
-        ],
-        "hints": {
-          "easy": "mowing",
-          "normal": "grass",
-          "hard": "clippings"
         }
       }
     }
@@ -1667,15 +1131,6 @@
           "normal": "blåst",
           "hard": "trädgård"
         }
-      },
-      "en": {
-        "word": "Leaf blower",
-        "aliases": [],
-        "hints": {
-          "easy": "foliage",
-          "normal": "gust",
-          "hard": "gardening"
-        }
       }
     }
   },
@@ -1699,17 +1154,6 @@
           "normal": "räfsa",
           "hard": "solfjäder"
         }
-      },
-      "en": {
-        "word": "Leaf rake",
-        "aliases": [
-          "lawn rake"
-        ],
-        "hints": {
-          "easy": "leaves",
-          "normal": "raking",
-          "hard": "fan"
-        }
       }
     }
   },
@@ -1731,17 +1175,6 @@
           "normal": "långskaft",
           "hard": "hävstång"
         }
-      },
-      "en": {
-        "word": "Loppers",
-        "aliases": [
-          "branch loppers"
-        ],
-        "hints": {
-          "easy": "branches",
-          "normal": "handles",
-          "hard": "leverage"
-        }
       }
     }
   },
@@ -1762,17 +1195,6 @@
           "easy": "odling",
           "normal": "bågar",
           "hard": "plast"
-        }
-      },
-      "en": {
-        "word": "Low tunnel",
-        "aliases": [
-          "garden tunnel"
-        ],
-        "hints": {
-          "easy": "growing",
-          "normal": "hoops",
-          "hard": "polythene"
         }
       }
     }
@@ -1797,17 +1219,6 @@
           "normal": "sticka",
           "hard": "sort"
         }
-      },
-      "en": {
-        "word": "Plant label",
-        "aliases": [
-          "plant marker"
-        ],
-        "hints": {
-          "easy": "name",
-          "normal": "stake",
-          "hard": "variety"
-        }
       }
     }
   },
@@ -1830,17 +1241,6 @@
           "easy": "kruka",
           "normal": "avrinningsvatten",
           "hard": "underlägg"
-        }
-      },
-      "en": {
-        "word": "Plant saucer",
-        "aliases": [
-          "pot saucer"
-        ],
-        "hints": {
-          "easy": "pot",
-          "normal": "drainage",
-          "hard": "coaster"
         }
       }
     }
@@ -1865,15 +1265,6 @@
           "normal": "grenar",
           "hard": "teleskop"
         }
-      },
-      "en": {
-        "word": "Pole pruner",
-        "aliases": [],
-        "hints": {
-          "easy": "height",
-          "normal": "branches",
-          "hard": "telescopic"
-        }
       }
     }
   },
@@ -1896,17 +1287,6 @@
           "easy": "beskärning",
           "normal": "kvist",
           "hard": "knopp"
-        }
-      },
-      "en": {
-        "word": "Pruning shears",
-        "aliases": [
-          "secateurs"
-        ],
-        "hints": {
-          "easy": "trimming",
-          "normal": "stems",
-          "hard": "buds"
         }
       }
     }
@@ -1931,15 +1311,6 @@
           "normal": "tänder",
           "hard": "beskärning"
         }
-      },
-      "en": {
-        "word": "Pruning saw",
-        "aliases": [],
-        "hints": {
-          "easy": "branches",
-          "normal": "teeth",
-          "hard": "orchard"
-        }
       }
     }
   },
@@ -1963,17 +1334,6 @@
           "normal": "stuprör",
           "hard": "tappkran"
         }
-      },
-      "en": {
-        "word": "Rain barrel",
-        "aliases": [
-          "water butt"
-        ],
-        "hints": {
-          "easy": "rainwater",
-          "normal": "downspout",
-          "hard": "tap"
-        }
       }
     }
   },
@@ -1995,17 +1355,6 @@
           "normal": "jord",
           "hard": "kant"
         }
-      },
-      "en": {
-        "word": "Raised bed",
-        "aliases": [
-          "raised garden bed"
-        ],
-        "hints": {
-          "easy": "planter",
-          "normal": "soil",
-          "hard": "edging"
-        }
       }
     }
   },
@@ -2026,17 +1375,6 @@
           "easy": "mossa",
           "normal": "gräsmatta",
           "hard": "räfsar"
-        }
-      },
-      "en": {
-        "word": "Lawn scarifier",
-        "aliases": [
-          "dethatcher"
-        ],
-        "hints": {
-          "easy": "moss",
-          "normal": "lawn",
-          "hard": "raking"
         }
       }
     }
@@ -2061,17 +1399,6 @@
           "normal": "celler",
           "hard": "förodling"
         }
-      },
-      "en": {
-        "word": "Seed tray",
-        "aliases": [
-          "seed starting tray"
-        ],
-        "hints": {
-          "easy": "sowing",
-          "normal": "cells",
-          "hard": "germination"
-        }
       }
     }
   },
@@ -2094,17 +1421,6 @@
           "easy": "maskros",
           "normal": "grepp",
           "hard": "stående"
-        }
-      },
-      "en": {
-        "word": "Stand-up weeder",
-        "aliases": [
-          "dandelion puller"
-        ],
-        "hints": {
-          "easy": "dandelion",
-          "normal": "grip",
-          "hard": "upright"
         }
       }
     }
@@ -2129,17 +1445,6 @@
           "normal": "gräs",
           "hard": "kant"
         }
-      },
-      "en": {
-        "word": "String trimmer",
-        "aliases": [
-          "weed trimmer"
-        ],
-        "hints": {
-          "easy": "nylon",
-          "normal": "grass",
-          "hard": "edging"
-        }
       }
     }
   },
@@ -2162,17 +1467,6 @@
           "easy": "klätterväxt",
           "normal": "rutnät",
           "hard": "rankor"
-        }
-      },
-      "en": {
-        "word": "Trellis",
-        "aliases": [
-          "garden trellis"
-        ],
-        "hints": {
-          "easy": "climber",
-          "normal": "lattice",
-          "hard": "vines"
         }
       }
     }
@@ -2197,15 +1491,6 @@
           "normal": "stril",
           "hard": "krukväxt"
         }
-      },
-      "en": {
-        "word": "Watering can",
-        "aliases": [],
-        "hints": {
-          "easy": "water",
-          "normal": "spout",
-          "hard": "houseplants"
-        }
       }
     }
   },
@@ -2226,15 +1511,6 @@
           "easy": "hjul",
           "normal": "jord",
           "hard": "tipp"
-        }
-      },
-      "en": {
-        "word": "Wheelbarrow",
-        "aliases": [],
-        "hints": {
-          "easy": "wheel",
-          "normal": "soil",
-          "hard": "tipping"
         }
       }
     }
@@ -2259,15 +1535,6 @@
           "normal": "pommes",
           "hard": "korg"
         }
-      },
-      "en": {
-        "word": "Air fryer",
-        "aliases": [],
-        "hints": {
-          "easy": "convection",
-          "normal": "chips",
-          "hard": "basket"
-        }
       }
     }
   },
@@ -2290,17 +1557,6 @@
           "easy": "tillagning",
           "normal": "gratäng",
           "hard": "keramik"
-        }
-      },
-      "en": {
-        "word": "Baking dish",
-        "aliases": [
-          "oven dish"
-        ],
-        "hints": {
-          "easy": "oven",
-          "normal": "gratin",
-          "hard": "ceramic"
         }
       }
     }
@@ -2325,17 +1581,6 @@
           "normal": "kakor",
           "hard": "ugn"
         }
-      },
-      "en": {
-        "word": "Baking sheet",
-        "aliases": [
-          "baking tray"
-        ],
-        "hints": {
-          "easy": "tray",
-          "normal": "cookies",
-          "hard": "oven"
-        }
       }
     }
   },
@@ -2359,17 +1604,6 @@
           "normal": "kanna",
           "hard": "knivar"
         }
-      },
-      "en": {
-        "word": "Blender",
-        "aliases": [
-          "jug blender"
-        ],
-        "hints": {
-          "easy": "smoothie",
-          "normal": "jug",
-          "hard": "blades"
-        }
       }
     }
   },
@@ -2391,15 +1625,6 @@
           "normal": "flaskhals",
           "hard": "hävstång"
         }
-      },
-      "en": {
-        "word": "Bottle opener",
-        "aliases": [],
-        "hints": {
-          "easy": "cap",
-          "normal": "drinks",
-          "hard": "leverage"
-        }
       }
     }
   },
@@ -2420,17 +1645,6 @@
           "easy": "riva",
           "normal": "ost",
           "hard": "grovlek"
-        }
-      },
-      "en": {
-        "word": "Box grater",
-        "aliases": [
-          "grater"
-        ],
-        "hints": {
-          "easy": "shredding",
-          "normal": "cheese",
-          "hard": "coarseness"
         }
       }
     }
@@ -2455,17 +1669,6 @@
           "normal": "smulor",
           "hard": "förvaring"
         }
-      },
-      "en": {
-        "word": "Bread box",
-        "aliases": [
-          "bread bin"
-        ],
-        "hints": {
-          "easy": "loaf",
-          "normal": "crumbs",
-          "hard": "storage"
-        }
       }
     }
   },
@@ -2486,15 +1689,6 @@
           "easy": "sågtandat",
           "normal": "limpa",
           "hard": "skorpa"
-        }
-      },
-      "en": {
-        "word": "Bread knife",
-        "aliases": [],
-        "hints": {
-          "easy": "serrated",
-          "normal": "loaf",
-          "hard": "crust"
         }
       }
     }
@@ -2519,17 +1713,6 @@
           "normal": "lock",
           "hard": "skärhjul"
         }
-      },
-      "en": {
-        "word": "Can opener",
-        "aliases": [
-          "tin opener"
-        ],
-        "hints": {
-          "easy": "tin",
-          "normal": "lid",
-          "hard": "cutting"
-        }
       }
     }
   },
@@ -2550,17 +1733,6 @@
           "easy": "ostskiva",
           "normal": "hyvel",
           "hard": "frukost"
-        }
-      },
-      "en": {
-        "word": "Cheese slicer",
-        "aliases": [
-          "cheese plane"
-        ],
-        "hints": {
-          "easy": "cheddar",
-          "normal": "shaving",
-          "hard": "breakfast"
         }
       }
     }
@@ -2583,17 +1755,6 @@
           "normal": "köksproffs",
           "hard": "brett"
         }
-      },
-      "en": {
-        "word": "Chef’s knife",
-        "aliases": [
-          "cook’s knife"
-        ],
-        "hints": {
-          "easy": "chopping",
-          "normal": "kitchen",
-          "hard": "broad"
-        }
       }
     }
   },
@@ -2615,15 +1776,6 @@
           "normal": "citron",
           "hard": "fruktkött"
         }
-      },
-      "en": {
-        "word": "Citrus juicer",
-        "aliases": [],
-        "hints": {
-          "easy": "squeezing",
-          "normal": "lemon",
-          "hard": "pulp"
-        }
       }
     }
   },
@@ -2644,15 +1796,6 @@
           "easy": "bönor",
           "normal": "malning",
           "hard": "arom"
-        }
-      },
-      "en": {
-        "word": "Coffee grinder",
-        "aliases": [],
-        "hints": {
-          "easy": "beans",
-          "normal": "grounds",
-          "hard": "aroma"
         }
       }
     }
@@ -2677,17 +1820,6 @@
           "normal": "filter",
           "hard": "kanna"
         }
-      },
-      "en": {
-        "word": "Drip coffee maker",
-        "aliases": [
-          "filter coffee maker"
-        ],
-        "hints": {
-          "easy": "brewing",
-          "normal": "filter",
-          "hard": "carafe"
-        }
       }
     }
   },
@@ -2708,15 +1840,6 @@
           "easy": "sila",
           "normal": "pasta",
           "hard": "avrinning"
-        }
-      },
-      "en": {
-        "word": "Colander",
-        "aliases": [],
-        "hints": {
-          "easy": "pasta",
-          "normal": "drainage",
-          "hard": "straining"
         }
       }
     }
@@ -2741,17 +1864,6 @@
           "normal": "deg",
           "hard": "figur"
         }
-      },
-      "en": {
-        "word": "Cookie cutter",
-        "aliases": [
-          "biscuit cutter"
-        ],
-        "hints": {
-          "easy": "biscuits",
-          "normal": "dough",
-          "hard": "shape"
-        }
       }
     }
   },
@@ -2775,15 +1887,6 @@
           "normal": "kork",
           "hard": "spiral"
         }
-      },
-      "en": {
-        "word": "Corkscrew",
-        "aliases": [],
-        "hints": {
-          "easy": "wine",
-          "normal": "stopper",
-          "hard": "spiral"
-        }
       }
     }
   },
@@ -2805,17 +1908,6 @@
           "normal": "underlag",
           "hard": "skåror"
         }
-      },
-      "en": {
-        "word": "Cutting board",
-        "aliases": [
-          "chopping board"
-        ],
-        "hints": {
-          "easy": "chopping",
-          "normal": "surface",
-          "hard": "grooves"
-        }
       }
     }
   },
@@ -2835,17 +1927,6 @@
         "hints": {
           "easy": "koktid",
           "normal": "tickar",
-          "hard": "alarm"
-        }
-      },
-      "en": {
-        "word": "Egg timer",
-        "aliases": [
-          "kitchen timer"
-        ],
-        "hints": {
-          "easy": "boiling",
-          "normal": "ticking",
           "hard": "alarm"
         }
       }
@@ -2869,15 +1950,6 @@
           "normal": "maskin",
           "hard": "skålfäste"
         }
-      },
-      "en": {
-        "word": "Food processor",
-        "aliases": [],
-        "hints": {
-          "easy": "chopping",
-          "normal": "machine",
-          "hard": "attachments"
-        }
       }
     }
   },
@@ -2898,17 +1970,6 @@
           "easy": "steka",
           "normal": "yta",
           "hard": "handtag"
-        }
-      },
-      "en": {
-        "word": "Frying pan",
-        "aliases": [
-          "skillet"
-        ],
-        "hints": {
-          "easy": "searing",
-          "normal": "surface",
-          "hard": "handle"
         }
       }
     }
@@ -2931,15 +1992,6 @@
           "normal": "kon",
           "hard": "spill"
         }
-      },
-      "en": {
-        "word": "Funnel",
-        "aliases": [],
-        "hints": {
-          "easy": "pouring",
-          "normal": "cone",
-          "hard": "spillage"
-        }
       }
     }
   },
@@ -2961,15 +2013,6 @@
           "normal": "mos",
           "hard": "hävstång"
         }
-      },
-      "en": {
-        "word": "Garlic press",
-        "aliases": [],
-        "hints": {
-          "easy": "clove",
-          "normal": "crushing",
-          "hard": "leverage"
-        }
       }
     }
   },
@@ -2990,17 +2033,6 @@
           "easy": "vispar",
           "normal": "smet",
           "hard": "hastighet"
-        }
-      },
-      "en": {
-        "word": "Hand mixer",
-        "aliases": [
-          "electric hand mixer"
-        ],
-        "hints": {
-          "easy": "beaters",
-          "normal": "batter",
-          "hard": "speeds"
         }
       }
     }
@@ -3025,17 +2057,6 @@
           "normal": "frys",
           "hard": "fack"
         }
-      },
-      "en": {
-        "word": "Ice cube tray",
-        "aliases": [
-          "ice tray"
-        ],
-        "hints": {
-          "easy": "freezer",
-          "normal": "mould",
-          "hard": "compartments"
-        }
       }
     }
   },
@@ -3058,17 +2079,6 @@
           "easy": "stav",
           "normal": "soppa",
           "hard": "puré"
-        }
-      },
-      "en": {
-        "word": "Immersion blender",
-        "aliases": [
-          "stick blender"
-        ],
-        "hints": {
-          "easy": "stick",
-          "normal": "soup",
-          "hard": "purée"
         }
       }
     }
@@ -3093,15 +2103,6 @@
           "normal": "tekopp",
           "hard": "avstängning"
         }
-      },
-      "en": {
-        "word": "Electric kettle",
-        "aliases": [],
-        "hints": {
-          "easy": "boiling",
-          "normal": "tea",
-          "hard": "shutoff"
-        }
       }
     }
   },
@@ -3125,17 +2126,6 @@
           "normal": "gram",
           "hard": "nollställning"
         }
-      },
-      "en": {
-        "word": "Kitchen scale",
-        "aliases": [
-          "food scale"
-        ],
-        "hints": {
-          "easy": "weighing",
-          "normal": "grams",
-          "hard": "tare"
-        }
       }
     }
   },
@@ -3156,17 +2146,6 @@
           "easy": "sax",
           "normal": "örter",
           "hard": "fjäderfä"
-        }
-      },
-      "en": {
-        "word": "Kitchen shears",
-        "aliases": [
-          "kitchen scissors"
-        ],
-        "hints": {
-          "easy": "scissors",
-          "normal": "herbs",
-          "hard": "poultry"
         }
       }
     }
@@ -3191,17 +2170,6 @@
           "normal": "kött",
           "hard": "instick"
         }
-      },
-      "en": {
-        "word": "Meat thermometer",
-        "aliases": [
-          "cooking thermometer"
-        ],
-        "hints": {
-          "easy": "temperature",
-          "normal": "meat",
-          "hard": "probe"
-        }
       }
     }
   },
@@ -3224,17 +2192,6 @@
           "easy": "greppa",
           "normal": "vända",
           "hard": "fjäder"
-        }
-      },
-      "en": {
-        "word": "Kitchen tongs",
-        "aliases": [
-          "cooking tongs"
-        ],
-        "hints": {
-          "easy": "gripping",
-          "normal": "turning",
-          "hard": "spring"
         }
       }
     }
@@ -3259,15 +2216,6 @@
           "normal": "ösa",
           "hard": "djup"
         }
-      },
-      "en": {
-        "word": "Ladle",
-        "aliases": [],
-        "hints": {
-          "easy": "soup",
-          "normal": "scooping",
-          "hard": "deep"
-        }
       }
     }
   },
@@ -3288,17 +2236,6 @@
           "easy": "bröd",
           "normal": "rektangel",
           "hard": "bakning"
-        }
-      },
-      "en": {
-        "word": "Loaf pan",
-        "aliases": [
-          "loaf tin"
-        ],
-        "hints": {
-          "easy": "bread",
-          "normal": "rectangle",
-          "hard": "baking"
         }
       }
     }
@@ -3323,17 +2260,6 @@
           "normal": "grönsaker",
           "hard": "fingerskydd"
         }
-      },
-      "en": {
-        "word": "Mandoline",
-        "aliases": [
-          "mandoline slicer"
-        ],
-        "hints": {
-          "easy": "slicing",
-          "normal": "vegetables",
-          "hard": "guard"
-        }
       }
     }
   },
@@ -3356,17 +2282,6 @@
           "easy": "deciliter",
           "normal": "volym",
           "hard": "gradering"
-        }
-      },
-      "en": {
-        "word": "Measuring jug",
-        "aliases": [
-          "measuring pitcher"
-        ],
-        "hints": {
-          "easy": "volume",
-          "normal": "markings",
-          "hard": "pouring"
         }
       }
     }
@@ -3391,15 +2306,6 @@
           "normal": "skål",
           "hard": "vispa"
         }
-      },
-      "en": {
-        "word": "Mixing bowl",
-        "aliases": [],
-        "hints": {
-          "easy": "batter",
-          "normal": "whisking",
-          "hard": "rounded"
-        }
       }
     }
   },
@@ -3422,15 +2328,6 @@
           "easy": "stöta",
           "normal": "kryddor",
           "hard": "malskål"
-        }
-      },
-      "en": {
-        "word": "Mortar and pestle",
-        "aliases": [],
-        "hints": {
-          "easy": "crushing",
-          "normal": "spices",
-          "hard": "grinding"
         }
       }
     }
@@ -3455,17 +2352,6 @@
           "normal": "ägg",
           "hard": "smör"
         }
-      },
-      "en": {
-        "word": "Pastry brush",
-        "aliases": [
-          "basting brush"
-        ],
-        "hints": {
-          "easy": "glazing",
-          "normal": "egg",
-          "hard": "butter"
-        }
       }
     }
   },
@@ -3488,17 +2374,6 @@
           "easy": "skal",
           "normal": "potatis",
           "hard": "tunna"
-        }
-      },
-      "en": {
-        "word": "Vegetable peeler",
-        "aliases": [
-          "potato peeler"
-        ],
-        "hints": {
-          "easy": "skins",
-          "normal": "potatoes",
-          "hard": "thin"
         }
       }
     }
@@ -3523,17 +2398,6 @@
           "normal": "trekant",
           "hard": "skär"
         }
-      },
-      "en": {
-        "word": "Pizza cutter",
-        "aliases": [
-          "pizza wheel"
-        ],
-        "hints": {
-          "easy": "wheel",
-          "normal": "slices",
-          "hard": "rolling"
-        }
       }
     }
   },
@@ -3554,15 +2418,6 @@
           "easy": "tryck",
           "normal": "ånga",
           "hard": "ventil"
-        }
-      },
-      "en": {
-        "word": "Pressure cooker",
-        "aliases": [],
-        "hints": {
-          "easy": "steam",
-          "normal": "valve",
-          "hard": "sealed"
         }
       }
     }
@@ -3585,15 +2440,6 @@
           "normal": "deg",
           "hard": "mjöl"
         }
-      },
-      "en": {
-        "word": "Rolling pin",
-        "aliases": [],
-        "hints": {
-          "easy": "dough",
-          "normal": "flattening",
-          "hard": "flour"
-        }
       }
     }
   },
@@ -3614,17 +2460,6 @@
           "easy": "skrapa",
           "normal": "bunke",
           "hard": "rester"
-        }
-      },
-      "en": {
-        "word": "Rubber spatula",
-        "aliases": [
-          "silicone spatula"
-        ],
-        "hints": {
-          "easy": "scraping",
-          "normal": "bowl",
-          "hard": "flexible"
         }
       }
     }
@@ -3647,15 +2482,6 @@
           "normal": "centrifug",
           "hard": "vatten"
         }
-      },
-      "en": {
-        "word": "Salad spinner",
-        "aliases": [],
-        "hints": {
-          "easy": "greens",
-          "normal": "centrifuge",
-          "hard": "water"
-        }
       }
     }
   },
@@ -3676,15 +2502,6 @@
           "easy": "sås",
           "normal": "sjuda",
           "hard": "lock"
-        }
-      },
-      "en": {
-        "word": "Saucepan",
-        "aliases": [],
-        "hints": {
-          "easy": "simmering",
-          "normal": "lid",
-          "hard": "handle"
         }
       }
     }
@@ -3709,17 +2526,6 @@
           "normal": "mjöl",
           "hard": "maskor"
         }
-      },
-      "en": {
-        "word": "Kitchen sieve",
-        "aliases": [
-          "sieve"
-        ],
-        "hints": {
-          "easy": "sifting",
-          "normal": "flour",
-          "hard": "mesh"
-        }
       }
     }
   },
@@ -3743,15 +2549,6 @@
           "normal": "avrinning",
           "hard": "plocka"
         }
-      },
-      "en": {
-        "word": "Slotted spoon",
-        "aliases": [],
-        "hints": {
-          "easy": "holes",
-          "normal": "draining",
-          "hard": "lifting"
-        }
       }
     }
   },
@@ -3772,17 +2569,6 @@
           "easy": "löstagbar",
           "normal": "cheesecake",
           "hard": "spänne"
-        }
-      },
-      "en": {
-        "word": "Springform pan",
-        "aliases": [
-          "springform tin"
-        ],
-        "hints": {
-          "easy": "removable",
-          "normal": "cheesecake",
-          "hard": "clasp"
         }
       }
     }
@@ -3805,15 +2591,6 @@
           "normal": "soppa",
           "hard": "volym"
         }
-      },
-      "en": {
-        "word": "Stockpot",
-        "aliases": [],
-        "hints": {
-          "easy": "broth",
-          "normal": "soup",
-          "hard": "capacity"
-        }
       }
     }
   },
@@ -3835,15 +2612,6 @@
           "normal": "springa",
           "hard": "smulor"
         }
-      },
-      "en": {
-        "word": "Toaster",
-        "aliases": [],
-        "hints": {
-          "easy": "toast",
-          "normal": "slots",
-          "hard": "crumbs"
-        }
       }
     }
   },
@@ -3864,17 +2632,6 @@
           "easy": "vända",
           "normal": "stekpanna",
           "hard": "platt"
-        }
-      },
-      "en": {
-        "word": "Turner",
-        "aliases": [
-          "spatula"
-        ],
-        "hints": {
-          "easy": "flipping",
-          "normal": "skillet",
-          "hard": "flat"
         }
       }
     }
@@ -3899,17 +2656,6 @@
           "normal": "våffelsmet",
           "hard": "fras"
         }
-      },
-      "en": {
-        "word": "Waffle iron",
-        "aliases": [
-          "waffle maker"
-        ],
-        "hints": {
-          "easy": "waffles",
-          "normal": "grid",
-          "hard": "batter"
-        }
       }
     }
   },
@@ -3932,17 +2678,6 @@
           "easy": "blanda",
           "normal": "ägg",
           "hard": "tråd"
-        }
-      },
-      "en": {
-        "word": "Whisk",
-        "aliases": [
-          "balloon whisk"
-        ],
-        "hints": {
-          "easy": "beating",
-          "normal": "eggs",
-          "hard": "wires"
         }
       }
     }
@@ -3967,15 +2702,6 @@
           "normal": "högvärme",
           "hard": "omrörning"
         }
-      },
-      "en": {
-        "word": "Wok",
-        "aliases": [],
-        "hints": {
-          "easy": "searing",
-          "normal": "flame",
-          "hard": "curved"
-        }
       }
     }
   },
@@ -3998,18 +2724,6 @@
           "easy": "handlingar",
           "normal": "kartong",
           "hard": "ryggetikett"
-        }
-      },
-      "en": {
-        "word": "Archive box",
-        "aliases": [
-          "Records box",
-          "Archive carton"
-        ],
-        "hints": {
-          "easy": "records",
-          "normal": "cardboard",
-          "hard": "label"
         }
       }
     }
@@ -4034,17 +2748,6 @@
           "normal": "lådor",
           "hard": "dokument"
         }
-      },
-      "en": {
-        "word": "Filing cabinet",
-        "aliases": [
-          "File cabinet"
-        ],
-        "hints": {
-          "easy": "folders",
-          "normal": "drawers",
-          "hard": "records"
-        }
       }
     }
   },
@@ -4067,17 +2770,6 @@
           "easy": "kuvert",
           "normal": "öppna",
           "hard": "slits"
-        }
-      },
-      "en": {
-        "word": "Letter opener",
-        "aliases": [
-          "Envelope opener"
-        ],
-        "hints": {
-          "easy": "envelopes",
-          "normal": "slit",
-          "hard": "opener"
         }
       }
     }
@@ -4102,18 +2794,6 @@
           "normal": "post",
           "hard": "skrivbord"
         }
-      },
-      "en": {
-        "word": "Document tray",
-        "aliases": [
-          "Letter tray",
-          "In tray"
-        ],
-        "hints": {
-          "easy": "incoming",
-          "normal": "mail",
-          "hard": "desk"
-        }
       }
     }
   },
@@ -4136,17 +2816,6 @@
           "easy": "kuvert",
           "normal": "ställ",
           "hard": "sortering"
-        }
-      },
-      "en": {
-        "word": "Letter rack",
-        "aliases": [
-          "Mail sorter"
-        ],
-        "hints": {
-          "easy": "envelopes",
-          "normal": "upright",
-          "hard": "sorting"
         }
       }
     }
@@ -4171,17 +2840,6 @@
           "normal": "gram",
           "hard": "kuvert"
         }
-      },
-      "en": {
-        "word": "Postal scale",
-        "aliases": [
-          "Letter scale"
-        ],
-        "hints": {
-          "easy": "postage",
-          "normal": "grams",
-          "hard": "envelope"
-        }
       }
     }
   },
@@ -4202,17 +2860,6 @@
           "easy": "datum",
           "normal": "bläck",
           "hard": "stämpeldyna"
-        }
-      },
-      "en": {
-        "word": "Date stamp",
-        "aliases": [
-          "Dater stamp"
-        ],
-        "hints": {
-          "easy": "date",
-          "normal": "ink",
-          "hard": "marking"
         }
       }
     }
@@ -4237,17 +2884,6 @@
           "normal": "remsor",
           "hard": "papper"
         }
-      },
-      "en": {
-        "word": "Paper shredder",
-        "aliases": [
-          "Shredder"
-        ],
-        "hints": {
-          "easy": "privacy",
-          "normal": "strips",
-          "hard": "paper"
-        }
       }
     }
   },
@@ -4271,17 +2907,6 @@
           "normal": "avdrag",
           "hard": "märkning"
         }
-      },
-      "en": {
-        "word": "Label dispenser",
-        "aliases": [
-          "Label peeler"
-        ],
-        "hints": {
-          "easy": "stickers",
-          "normal": "roll",
-          "hard": "peeling"
-        }
       }
     }
   },
@@ -4303,17 +2928,6 @@
           "normal": "kuvert",
           "hard": "stämpling"
         }
-      },
-      "en": {
-        "word": "Postage meter",
-        "aliases": [
-          "Franking machine"
-        ],
-        "hints": {
-          "easy": "postage",
-          "normal": "envelopes",
-          "hard": "printing"
-        }
       }
     }
   },
@@ -4334,18 +2948,6 @@
           "easy": "arkiv",
           "normal": "gavlar",
           "hard": "etikett"
-        }
-      },
-      "en": {
-        "word": "Hanging file folder",
-        "aliases": [
-          "Suspension file",
-          "Hanging folder"
-        ],
-        "hints": {
-          "easy": "filing",
-          "normal": "rails",
-          "hard": "tab"
         }
       }
     }
@@ -4370,15 +2972,6 @@
           "normal": "tryck",
           "hard": "genomslag"
         }
-      },
-      "en": {
-        "word": "Carbon paper",
-        "aliases": [],
-        "hints": {
-          "easy": "copy",
-          "normal": "transfer",
-          "hard": "pressure"
-        }
       }
     }
   },
@@ -4401,17 +2994,6 @@
           "easy": "kontanter",
           "normal": "lås",
           "hard": "mynt"
-        }
-      },
-      "en": {
-        "word": "Cash box",
-        "aliases": [
-          "Petty cash box"
-        ],
-        "hints": {
-          "easy": "money",
-          "normal": "lock",
-          "hard": "coins"
         }
       }
     }
@@ -4436,18 +3018,6 @@
           "normal": "alfabet",
           "hard": "flikar"
         }
-      },
-      "en": {
-        "word": "Card file",
-        "aliases": [
-          "Card index",
-          "Card catalogue"
-        ],
-        "hints": {
-          "easy": "index",
-          "normal": "alphabet",
-          "hard": "tabs"
-        }
       }
     }
   },
@@ -4470,17 +3040,6 @@
           "easy": "betalning",
           "normal": "verifikation",
           "hard": "kopior"
-        }
-      },
-      "en": {
-        "word": "Receipt book",
-        "aliases": [
-          "Receipt pad"
-        ],
-        "hints": {
-          "easy": "payment",
-          "normal": "proof",
-          "hard": "copies"
         }
       }
     }
@@ -4505,17 +3064,6 @@
           "normal": "värme",
           "hard": "dokument"
         }
-      },
-      "en": {
-        "word": "Laminator",
-        "aliases": [
-          "Laminating machine"
-        ],
-        "hints": {
-          "easy": "plastic",
-          "normal": "heating",
-          "hard": "documents"
-        }
       }
     }
   },
@@ -4538,18 +3086,6 @@
           "easy": "rakskärning",
           "normal": "ark",
           "hard": "klinga"
-        }
-      },
-      "en": {
-        "word": "Guillotine paper cutter",
-        "aliases": [
-          "Paper guillotine",
-          "Guillotine cutter"
-        ],
-        "hints": {
-          "easy": "trimming",
-          "normal": "sheets",
-          "hard": "blade"
         }
       }
     }
@@ -4574,18 +3110,6 @@
           "normal": "avtryck",
           "hard": "sigill"
         }
-      },
-      "en": {
-        "word": "Embossing seal",
-        "aliases": [
-          "Embosser",
-          "Seal press"
-        ],
-        "hints": {
-          "easy": "relief",
-          "normal": "impression",
-          "hard": "seal"
-        }
       }
     }
   },
@@ -4608,17 +3132,6 @@
           "easy": "underskrift",
           "normal": "dokument",
           "hard": "flikar"
-        }
-      },
-      "en": {
-        "word": "Signature folder",
-        "aliases": [
-          "Signing folder"
-        ],
-        "hints": {
-          "easy": "signatures",
-          "normal": "documents",
-          "hard": "tabs"
         }
       }
     }
@@ -4643,18 +3156,6 @@
           "normal": "skydd",
           "hard": "pennor"
         }
-      },
-      "en": {
-        "word": "Desk pad",
-        "aliases": [
-          "Desk blotter",
-          "Desk mat"
-        ],
-        "hints": {
-          "easy": "surface",
-          "normal": "protection",
-          "hard": "writing"
-        }
       }
     }
   },
@@ -4677,17 +3178,6 @@
           "easy": "hålning",
           "normal": "ryggrad",
           "hard": "rapport"
-        }
-      },
-      "en": {
-        "word": "Comb binding machine",
-        "aliases": [
-          "Comb binder"
-        ],
-        "hints": {
-          "easy": "punching",
-          "normal": "coils",
-          "hard": "reports"
         }
       }
     }
@@ -4712,17 +3202,6 @@
           "normal": "vägg",
           "hard": "överblick"
         }
-      },
-      "en": {
-        "word": "Wall planner",
-        "aliases": [
-          "Wall calendar planner"
-        ],
-        "hints": {
-          "easy": "calendar",
-          "normal": "scheduling",
-          "hard": "overview"
-        }
       }
     }
   },
@@ -4743,17 +3222,6 @@
           "easy": "kontaktkort",
           "normal": "presentation",
           "hard": "bord"
-        }
-      },
-      "en": {
-        "word": "Business card holder",
-        "aliases": [
-          "Business card stand"
-        ],
-        "hints": {
-          "easy": "contacts",
-          "normal": "display",
-          "hard": "desk"
         }
       }
     }
@@ -4776,17 +3244,6 @@
           "normal": "kurvor",
           "hard": "styrhjul"
         }
-      },
-      "en": {
-        "word": "Band saw",
-        "aliases": [
-          "Bandsaw"
-        ],
-        "hints": {
-          "easy": "blade",
-          "normal": "curves",
-          "hard": "wheels"
-        }
       }
     }
   },
@@ -4807,15 +3264,6 @@
           "easy": "slipband",
           "normal": "yta",
           "hard": "damm"
-        }
-      },
-      "en": {
-        "word": "Belt sander",
-        "aliases": [],
-        "hints": {
-          "easy": "abrasive",
-          "normal": "surface",
-          "hard": "dust"
         }
       }
     }
@@ -4840,17 +3288,6 @@
           "normal": "ring",
           "hard": "käft"
         }
-      },
-      "en": {
-        "word": "Combination wrench",
-        "aliases": [
-          "Combination spanner"
-        ],
-        "hints": {
-          "easy": "nut",
-          "normal": "ring",
-          "hard": "jaw"
-        }
       }
     }
   },
@@ -4871,15 +3308,6 @@
           "easy": "betong",
           "normal": "slag",
           "hard": "borrning"
-        }
-      },
-      "en": {
-        "word": "Rotary hammer",
-        "aliases": [],
-        "hints": {
-          "easy": "concrete",
-          "normal": "impact",
-          "hard": "drilling"
         }
       }
     }
@@ -4902,17 +3330,6 @@
           "normal": "chuck",
           "hard": "varvtal"
         }
-      },
-      "en": {
-        "word": "Power drill",
-        "aliases": [
-          "Electric drill"
-        ],
-        "hints": {
-          "easy": "holes",
-          "normal": "chuck",
-          "hard": "rotation"
-        }
       }
     }
   },
@@ -4934,17 +3351,6 @@
           "normal": "kraft",
           "hard": "långa"
         }
-      },
-      "en": {
-        "word": "Bolt cutters",
-        "aliases": [
-          "Bolt cropper"
-        ],
-        "hints": {
-          "easy": "chain",
-          "normal": "leverage",
-          "hard": "handles"
-        }
       }
     }
   },
@@ -4964,15 +3370,6 @@
         "hints": {
           "easy": "klinga",
           "normal": "raka",
-          "hard": "plywood"
-        }
-      },
-      "en": {
-        "word": "Circular saw",
-        "aliases": [],
-        "hints": {
-          "easy": "blade",
-          "normal": "straight",
           "hard": "plywood"
         }
       }
@@ -4996,17 +3393,6 @@
           "normal": "finish",
           "hard": "slipdamm"
         }
-      },
-      "en": {
-        "word": "Random orbital sander",
-        "aliases": [
-          "Random orbit sander"
-        ],
-        "hints": {
-          "easy": "oscillation",
-          "normal": "finish",
-          "hard": "dust"
-        }
       }
     }
   },
@@ -5027,15 +3413,6 @@
           "easy": "färg",
           "normal": "flagor",
           "hard": "blad"
-        }
-      },
-      "en": {
-        "word": "Paint scraper",
-        "aliases": [],
-        "hints": {
-          "easy": "paint",
-          "normal": "flakes",
-          "hard": "blade"
         }
       }
     }
@@ -5060,15 +3437,6 @@
           "normal": "nippel",
           "hard": "pump"
         }
-      },
-      "en": {
-        "word": "Grease gun",
-        "aliases": [],
-        "hints": {
-          "easy": "lubrication",
-          "normal": "nipple",
-          "hard": "pumping"
-        }
       }
     }
   },
@@ -5091,18 +3459,6 @@
           "easy": "fogmassa",
           "normal": "patron",
           "hard": "tätning"
-        }
-      },
-      "en": {
-        "word": "Caulking gun",
-        "aliases": [
-          "Caulk gun",
-          "Sealant gun"
-        ],
-        "hints": {
-          "easy": "sealant",
-          "normal": "cartridge",
-          "hard": "sealing"
         }
       }
     }
@@ -5127,18 +3483,6 @@
           "normal": "låsning",
           "hard": "rundning"
         }
-      },
-      "en": {
-        "word": "Locking pliers",
-        "aliases": [
-          "Vise-Grips",
-          "Mole grips"
-        ],
-        "hints": {
-          "easy": "gripping",
-          "normal": "locking",
-          "hard": "rounded"
-        }
       }
     }
   },
@@ -5159,17 +3503,6 @@
           "easy": "skonsam",
           "normal": "slag",
           "hard": "plattläggning"
-        }
-      },
-      "en": {
-        "word": "Rubber mallet",
-        "aliases": [
-          "Mallet"
-        ],
-        "hints": {
-          "easy": "gentle",
-          "normal": "impact",
-          "hard": "paving"
         }
       }
     }
@@ -5194,17 +3527,6 @@
           "normal": "tyg",
           "hard": "fjäder"
         }
-      },
-      "en": {
-        "word": "Staple gun",
-        "aliases": [
-          "Staple tacker"
-        ],
-        "hints": {
-          "easy": "staples",
-          "normal": "fabric",
-          "hard": "spring"
-        }
       }
     }
   },
@@ -5225,15 +3547,6 @@
           "easy": "spik",
           "normal": "klo",
           "hard": "skaft"
-        }
-      },
-      "en": {
-        "word": "Hammer",
-        "aliases": [],
-        "hints": {
-          "easy": "nails",
-          "normal": "claw",
-          "hard": "handle"
         }
       }
     }
@@ -5258,17 +3571,6 @@
           "normal": "justering",
           "hard": "egg"
         }
-      },
-      "en": {
-        "word": "Hand plane",
-        "aliases": [
-          "Wood plane"
-        ],
-        "hints": {
-          "easy": "shavings",
-          "normal": "adjustment",
-          "hard": "edge"
-        }
       }
     }
   },
@@ -5291,18 +3593,6 @@
           "easy": "sågtänder",
           "normal": "trä",
           "hard": "drag"
-        }
-      },
-      "en": {
-        "word": "Panel saw",
-        "aliases": [
-          "Hand saw",
-          "Handsaw"
-        ],
-        "hints": {
-          "easy": "teeth",
-          "normal": "wood",
-          "hard": "stroke"
         }
       }
     }
@@ -5327,18 +3617,6 @@
           "normal": "möbel",
           "hard": "vinkel"
         }
-      },
-      "en": {
-        "word": "Allen key",
-        "aliases": [
-          "Hex key",
-          "Allen wrench"
-        ],
-        "hints": {
-          "easy": "hexagon",
-          "normal": "furniture",
-          "hard": "angle"
-        }
       }
     }
   },
@@ -5361,18 +3639,6 @@
           "easy": "gering",
           "normal": "vinkel",
           "hard": "list"
-        }
-      },
-      "en": {
-        "word": "Mitre saw",
-        "aliases": [
-          "Miter saw",
-          "Compound mitre saw"
-        ],
-        "hints": {
-          "easy": "mitre",
-          "normal": "angles",
-          "hard": "trim"
         }
       }
     }
@@ -5398,17 +3664,6 @@
           "normal": "skruv",
           "hard": "spets"
         }
-      },
-      "en": {
-        "word": "Crosshead screwdriver",
-        "aliases": [
-          "Cross-head screwdriver"
-        ],
-        "hints": {
-          "easy": "crosshead",
-          "normal": "screws",
-          "hard": "tip"
-        }
       }
     }
   },
@@ -5431,17 +3686,6 @@
           "easy": "lodlinje",
           "normal": "snöre",
           "hard": "tyngd"
-        }
-      },
-      "en": {
-        "word": "Plumb bob",
-        "aliases": [
-          "Plumb weight"
-        ],
-        "hints": {
-          "easy": "vertical",
-          "normal": "string",
-          "hard": "weight"
         }
       }
     }
@@ -5466,17 +3710,6 @@
           "normal": "rulle",
           "hard": "längd"
         }
-      },
-      "en": {
-        "word": "Tape measure",
-        "aliases": [
-          "Measuring tape"
-        ],
-        "hints": {
-          "easy": "centimetres",
-          "normal": "reel",
-          "hard": "length"
-        }
       }
     }
   },
@@ -5499,17 +3732,6 @@
           "easy": "gradning",
           "normal": "yta",
           "hard": "räfflor"
-        }
-      },
-      "en": {
-        "word": "Metal file",
-        "aliases": [
-          "File"
-        ],
-        "hints": {
-          "easy": "deburring",
-          "normal": "surface",
-          "hard": "ridges"
         }
       }
     }
@@ -5534,15 +3756,6 @@
           "normal": "kapning",
           "hard": "tänder"
         }
-      },
-      "en": {
-        "word": "Hacksaw",
-        "aliases": [],
-        "hints": {
-          "easy": "steel",
-          "normal": "cutting",
-          "hard": "teeth"
-        }
       }
     }
   },
@@ -5563,15 +3776,6 @@
           "easy": "åtdragning",
           "normal": "vridkraft",
           "hard": "klick"
-        }
-      },
-      "en": {
-        "word": "Torque wrench",
-        "aliases": [],
-        "hints": {
-          "easy": "tightening",
-          "normal": "torque",
-          "hard": "click"
         }
       }
     }
@@ -5597,18 +3801,6 @@
           "normal": "plåt",
           "hard": "dragning"
         }
-      },
-      "en": {
-        "word": "Pop rivet gun",
-        "aliases": [
-          "Rivet gun",
-          "Blind riveter"
-        ],
-        "hints": {
-          "easy": "rivets",
-          "normal": "sheet",
-          "hard": "pulling"
-        }
       }
     }
   },
@@ -5631,17 +3823,6 @@
           "easy": "trä",
           "normal": "grov",
           "hard": "formning"
-        }
-      },
-      "en": {
-        "word": "Rasp",
-        "aliases": [
-          "Wood rasp"
-        ],
-        "hints": {
-          "easy": "wood",
-          "normal": "coarse",
-          "hard": "shaping"
         }
       }
     }
@@ -5667,18 +3848,6 @@
           "normal": "kapning",
           "hard": "hjul"
         }
-      },
-      "en": {
-        "word": "Pipe cutter",
-        "aliases": [
-          "Tube cutter",
-          "Tubing cutter"
-        ],
-        "hints": {
-          "easy": "pipes",
-          "normal": "cutting",
-          "hard": "wheel"
-        }
       }
     }
   },
@@ -5699,17 +3868,6 @@
           "easy": "rör",
           "normal": "grepp",
           "hard": "ställbar"
-        }
-      },
-      "en": {
-        "word": "Pipe wrench",
-        "aliases": [
-          "Stillson wrench"
-        ],
-        "hints": {
-          "easy": "pipes",
-          "normal": "grip",
-          "hard": "adjustable"
         }
       }
     }
@@ -5734,18 +3892,6 @@
           "normal": "avklippning",
           "hard": "käftar"
         }
-      },
-      "en": {
-        "word": "Diagonal cutters",
-        "aliases": [
-          "Side cutters",
-          "Diagonal pliers"
-        ],
-        "hints": {
-          "easy": "wire",
-          "normal": "snipping",
-          "hard": "jaws"
-        }
       }
     }
   },
@@ -5767,17 +3913,6 @@
           "normal": "mutter",
           "hard": "käft"
         }
-      },
-      "en": {
-        "word": "Adjustable wrench",
-        "aliases": [
-          "Adjustable spanner"
-        ],
-        "hints": {
-          "easy": "adjustable",
-          "normal": "nut",
-          "hard": "jaw"
-        }
       }
     }
   },
@@ -5798,19 +3933,6 @@
           "easy": "fasthållning",
           "normal": "käftar",
           "hard": "bänk"
-        }
-      },
-      "en": {
-        "word": "Bench vise",
-        "aliases": [
-          "Vise",
-          "Bench vice",
-          "Vice"
-        ],
-        "hints": {
-          "easy": "clamping",
-          "normal": "jaws",
-          "hard": "bench"
         }
       }
     }
@@ -5835,17 +3957,6 @@
           "normal": "tryck",
           "hard": "stycke"
         }
-      },
-      "en": {
-        "word": "F-clamp",
-        "aliases": [
-          "Bar clamp"
-        ],
-        "hints": {
-          "easy": "gluing",
-          "normal": "pressure",
-          "hard": "holding"
-        }
       }
     }
   },
@@ -5866,15 +3977,6 @@
           "easy": "skruv",
           "normal": "pulsslag",
           "hard": "bygg"
-        }
-      },
-      "en": {
-        "word": "Impact driver",
-        "aliases": [],
-        "hints": {
-          "easy": "screws",
-          "normal": "pulses",
-          "hard": "construction"
         }
       }
     }
@@ -5899,17 +4001,6 @@
           "normal": "linje",
           "hard": "markering"
         }
-      },
-      "en": {
-        "word": "Chalk line",
-        "aliases": [
-          "Chalk reel"
-        ],
-        "hints": {
-          "easy": "chalk",
-          "normal": "line",
-          "hard": "marking"
-        }
       }
     }
   },
@@ -5930,17 +4021,6 @@
           "easy": "hylsa",
           "normal": "spärr",
           "hard": "klick"
-        }
-      },
-      "en": {
-        "word": "Ratchet wrench",
-        "aliases": [
-          "Socket ratchet"
-        ],
-        "hints": {
-          "easy": "socket",
-          "normal": "ratcheting",
-          "hard": "clicks"
         }
       }
     }
@@ -5966,18 +4046,6 @@
           "normal": "spets",
           "hard": "skruv"
         }
-      },
-      "en": {
-        "word": "Flathead screwdriver",
-        "aliases": [
-          "Flat screwdriver",
-          "Slotted screwdriver"
-        ],
-        "hints": {
-          "easy": "slot",
-          "normal": "tip",
-          "hard": "screw"
-        }
       }
     }
   },
@@ -6000,17 +4068,6 @@
           "easy": "smal",
           "normal": "grepp",
           "hard": "tråd"
-        }
-      },
-      "en": {
-        "word": "Needle-nose pliers",
-        "aliases": [
-          "Long-nose pliers"
-        ],
-        "hints": {
-          "easy": "narrow",
-          "normal": "gripping",
-          "hard": "wire"
         }
       }
     }
@@ -6036,17 +4093,6 @@
           "normal": "försänkning",
           "hard": "slag"
         }
-      },
-      "en": {
-        "word": "Nail set",
-        "aliases": [
-          "Nail punch"
-        ],
-        "hints": {
-          "easy": "nails",
-          "normal": "countersinking",
-          "hard": "impact"
-        }
       }
     }
   },
@@ -6067,17 +4113,6 @@
           "easy": "trä",
           "normal": "urtag",
           "hard": "egg"
-        }
-      },
-      "en": {
-        "word": "Wood chisel",
-        "aliases": [
-          "Chisel"
-        ],
-        "hints": {
-          "easy": "wood",
-          "normal": "mortise",
-          "hard": "edge"
         }
       }
     }
@@ -6100,15 +4135,6 @@
           "normal": "sågblad",
           "hard": "urtag"
         }
-      },
-      "en": {
-        "word": "Jigsaw",
-        "aliases": [],
-        "hints": {
-          "easy": "curves",
-          "normal": "blade",
-          "hard": "cutouts"
-        }
       }
     }
   },
@@ -6129,15 +4155,6 @@
           "easy": "rivning",
           "normal": "blad",
           "hard": "motorrörelse"
-        }
-      },
-      "en": {
-        "word": "Reciprocating saw",
-        "aliases": [],
-        "hints": {
-          "easy": "demolition",
-          "normal": "blade",
-          "hard": "reciprocation"
         }
       }
     }
@@ -6160,17 +4177,6 @@
           "normal": "längd",
           "hard": "mått"
         }
-      },
-      "en": {
-        "word": "Folding rule",
-        "aliases": [
-          "Folding ruler"
-        ],
-        "hints": {
-          "easy": "folding",
-          "normal": "length",
-          "hard": "measuring"
-        }
       }
     }
   },
@@ -6191,17 +4197,6 @@
           "easy": "bubbla",
           "normal": "vågrät",
           "hard": "vinkel"
-        }
-      },
-      "en": {
-        "word": "Spirit level",
-        "aliases": [
-          "Bubble level"
-        ],
-        "hints": {
-          "easy": "bubble",
-          "normal": "horizontal",
-          "hard": "alignment"
         }
       }
     }
@@ -6224,17 +4219,6 @@
           "normal": "markering",
           "hard": "snickeri"
         }
-      },
-      "en": {
-        "word": "Try square",
-        "aliases": [
-          "Carpenter's square"
-        ],
-        "hints": {
-          "easy": "perpendicular",
-          "normal": "marking",
-          "hard": "woodworking"
-        }
       }
     }
   },
@@ -6255,15 +4239,6 @@
           "easy": "kapskiva",
           "normal": "gnistor",
           "hard": "metall"
-        }
-      },
-      "en": {
-        "word": "Angle grinder",
-        "aliases": [],
-        "hints": {
-          "easy": "disc",
-          "normal": "sparks",
-          "hard": "metal"
         }
       }
     }

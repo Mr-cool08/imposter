@@ -13,7 +13,6 @@ const closeWords = byId("close-word-tools");
 const notice = byId("app-notice");
 const preferencesMenu = byId("preferences-menu");
 const themeColor = document.querySelector('meta[name="theme-color"]');
-const languageInput = byId("app-language");
 const themeInput = byId("app-theme");
 const soundInput = byId("app-sound");
 const vibrationInput = byId("app-vibration");
@@ -21,19 +20,17 @@ const rememberInput = byId("app-remember-names");
 const resetPreferences = byId("app-reset-preferences");
 const slogan = byId("app-slogan");
 const appName = document.body.dataset.appName;
-const defaultPreferences = { language: "sv", theme: "dark", sound: false, vibration: false, rememberNames: true };
+const defaultPreferences = { theme: "dark", sound: false, vibration: false, rememberNames: true };
 const guideHash = "#regler";
 
-const translations = new Map();
 const unsaved = new Map();
 let prefs = { ...defaultPreferences };
 let messages = {};
 let storageUnavailable = false;
 let activeRound = false;
-let languageChange = 0;
 let localView;
 let wordsView;
-let guideLanguage;
+let guideMounted = false;
 let rulesPromise;
 let audio;
 
@@ -171,7 +168,7 @@ function feedback(kind) {
 function context(root, view) {
   return {
     root, signal: view?.abort.signal,
-    get lang() { return prefs.language; },
+    lang: "sv",
     t, el, button, notify, storage, rules, feedback,
     modeName: id => t("ui.mode." + id),
     roleName: id => t("rules.roleName." + id),
@@ -206,17 +203,16 @@ async function mountLocalView() {
 }
 
 async function mountGuideView() {
-  const language = prefs.language;
-  if (guideLanguage === language) return;
+  if (guideMounted) return;
   guideRoot.replaceChildren(el("p", { class: "muted", role: "status" }, t("ui.loading")));
   try {
     const { mountGuide } = await import("./guide.mjs");
-    if (guideView.hidden || prefs.language !== language) return;
+    if (guideView.hidden || guideMounted) return;
     guideRoot.replaceChildren();
     mountGuide(context(guideRoot));
-    guideLanguage = language;
+    guideMounted = true;
   } catch {
-    if (!guideView.hidden && prefs.language === language) loadError(guideRoot, mountGuideView);
+    if (!guideView.hidden) loadError(guideRoot, mountGuideView);
   }
 }
 
@@ -286,27 +282,20 @@ function closeWordTools() {
   main.focus();
 }
 
-async function getMessages(language) {
-  if (translations.has(language)) return translations.get(language);
-  const response = await fetch("/api/i18n/" + language + ".json");
+async function getMessages() {
+  const response = await fetch("/api/i18n/sv.json");
   if (!response.ok) throw new Error("Translation unavailable");
-  const dictionary = await response.json();
-  translations.set(language, dictionary);
-  return dictionary;
+  return response.json();
 }
 
 function useMessages(dictionary) {
   messages = dictionary;
-  document.documentElement.lang = prefs.language;
-  slogan.textContent = prefs.language === "en" ? document.body.dataset.sloganEn : document.body.dataset.sloganSv;
   document.querySelectorAll("[data-i18n]").forEach(node => {
     node.textContent = t(node.dataset.i18n);
   });
   document.querySelectorAll("[data-i18n-label]").forEach(node => {
     node.setAttribute("aria-label", t(node.dataset.i18nLabel));
   });
-  updatePageTitle();
-  if (!guideView.hidden) void mountGuideView();
   if (storageUnavailable) showStorageWarning();
 }
 
@@ -318,27 +307,9 @@ function updateTheme() {
 
 function updateInputs() {
   updateTheme();
-  languageInput.value = prefs.language;
   soundInput.checked = prefs.sound;
   vibrationInput.checked = prefs.vibration;
   rememberInput.checked = prefs.rememberNames;
-}
-
-async function changeLanguage(language) {
-  const request = ++languageChange;
-  try {
-    if (activeRound || language === prefs.language) return;
-    const dictionary = await getMessages(language);
-    if (request !== languageChange || activeRound) return;
-    prefs.language = language;
-    storage.set("preferences", prefs);
-    useMessages(dictionary);
-    window.dispatchEvent(new CustomEvent("imposter:language", { detail: { language } }));
-  } catch {
-    if (request === languageChange) notify(t("ui.languageError"), { error: true });
-  } finally {
-    if (request === languageChange) languageInput.value = prefs.language;
-  }
 }
 
 function wireControls() {
@@ -361,7 +332,6 @@ function wireControls() {
   });
   openWords.addEventListener("click", showWordTools);
   closeWords.addEventListener("click", closeWordTools);
-  languageInput.addEventListener("change", () => changeLanguage(languageInput.value));
   themeInput.addEventListener("change", () => {
     prefs.theme = themeInput.value;
     storage.set("preferences", prefs);
@@ -379,9 +349,7 @@ function wireControls() {
     if (activeRound || !window.confirm(t("ui.confirmReset"))) return;
     resetPreferences.disabled = true;
     try {
-      await changeLanguage(defaultPreferences.language);
-      if (activeRound) return;
-      prefs = { ...defaultPreferences, language: prefs.language };
+      prefs = { ...defaultPreferences };
       storage.remove("localSettings");
       storage.remove("localPlayers");
       storage.set("preferences", prefs);
@@ -397,7 +365,6 @@ function wireControls() {
 async function boot() {
   const saved = storage.get("preferences", {});
   prefs = {
-    language: saved?.language === "en" ? "en" : "sv",
     theme: saved?.theme === "light" ? "light" : "dark",
     sound: saved?.sound === true,
     vibration: saved?.vibration === true,
@@ -405,22 +372,11 @@ async function boot() {
   };
   updateInputs();
   try {
-    let dictionary;
-    try {
-      dictionary = await getMessages(prefs.language);
-    } catch (error) {
-      if (prefs.language === "sv") throw error;
-      dictionary = await getMessages("sv");
-      prefs.language = "sv";
-      updateInputs();
-    }
-    useMessages(dictionary);
+    useMessages(await getMessages());
   } catch {
     localRoot.replaceChildren(el("section", { class: "panel stack" },
-      el("p", { class: "error", role: "alert" }, prefs.language === "en"
-        ? "The game could not load. Reconnect and try again."
-        : "Spelet kunde inte laddas. Anslut och försök igen."),
-      button(prefs.language === "en" ? "Try again" : "Försök igen", () => location.reload())));
+      el("p", { class: "error", role: "alert" }, "Spelet kunde inte laddas. Anslut och försök igen."),
+      button("Försök igen", () => location.reload())));
     return;
   }
   wireControls();

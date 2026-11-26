@@ -5,25 +5,17 @@ from pathlib import Path
 
 from flask import abort, jsonify, render_template, send_file
 
-KNOWN_LANGUAGES = ("sv", "en")
-
-
 def read_translations(data_dir: Path) -> dict:
-    translations = {}
-    for language in KNOWN_LANGUAGES:
-        messages = {}
-        for source in sorted((data_dir / "i18n").glob(f"*.{language}.json")):
-            fragment = json.loads(source.read_text(encoding="utf-8"))
-            if not isinstance(fragment, dict) or any(not isinstance(value, str) for value in fragment.values()):
-                raise ValueError(f"Translation fragment {source.name} must map keys to strings")
-            duplicate = messages.keys() & fragment.keys()
-            if duplicate:
-                raise ValueError(f"Repeated translation keys in {source.name}: {', '.join(sorted(duplicate))}")
-            messages.update(fragment)
-        translations[language] = messages
-    if translations["sv"].keys() != translations["en"].keys():
-        raise ValueError("Swedish and English translation keys differ")
-    return translations
+    messages = {}
+    for source in sorted((data_dir / "i18n").glob("*.sv.json")):
+        fragment = json.loads(source.read_text(encoding="utf-8"))
+        if not isinstance(fragment, dict) or any(not isinstance(value, str) for value in fragment.values()):
+            raise ValueError(f"Translation fragment {source.name} must map keys to strings")
+        duplicate = messages.keys() & fragment.keys()
+        if duplicate:
+            raise ValueError(f"Repeated translation keys in {source.name}: {', '.join(sorted(duplicate))}")
+        messages.update(fragment)
+    return messages
 
 
 def register_routes(app, data_dir: Path) -> None:
@@ -42,7 +34,6 @@ def register_routes(app, data_dir: Path) -> None:
         return render_template(
             "index.html",
             app_name=app.config["APP_NAME"],
-            slogans=app.config["SLOGANS"],
             slogan=app.config["SLOGANS"]["sv"],
         )
 
@@ -68,11 +59,9 @@ def register_routes(app, data_dir: Path) -> None:
     def content_rules():
         return jsonify(app.extensions["game_rules"])
 
-    @app.get("/api/i18n/<language>.json")
-    def i18n(language):
-        if language not in translations:
-            abort(404)
-        return jsonify(translations[language])
+    @app.get("/api/i18n/sv.json")
+    def i18n():
+        return jsonify(translations)
 
     @app.get("/sw.js")
     def retire_worker():

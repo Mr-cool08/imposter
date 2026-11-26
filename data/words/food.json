@@ -17,15 +17,6 @@
           "normal": "trianglar",
           "hard": "kartong"
         }
-      },
-      "en": {
-        "word": "Pizza",
-        "aliases": [],
-        "hints": {
-          "easy": "toppings",
-          "normal": "triangles",
-          "hard": "cardboard"
-        }
       }
     }
   },
@@ -47,17 +38,6 @@
           "normal": "lager",
           "hard": "hörn"
         }
-      },
-      "en": {
-        "word": "Lasagna",
-        "aliases": [
-          "Lasagne"
-        ],
-        "hints": {
-          "easy": "layers",
-          "normal": "squares",
-          "hard": "corners"
-        }
       }
     }
   },
@@ -78,17 +58,6 @@
           "easy": "köttfärs",
           "normal": "gaffel",
           "hard": "stänk"
-        }
-      },
-      "en": {
-        "word": "Spaghetti Bolognese",
-        "aliases": [
-          "Spaghetti with meat sauce"
-        ],
-        "hints": {
-          "easy": "tomatoes",
-          "normal": "twirling",
-          "hard": "splashes"
         }
       }
     }
@@ -113,17 +82,6 @@
           "normal": "svartpeppar",
           "hard": "eftervärme"
         }
-      },
-      "en": {
-        "word": "Carbonara",
-        "aliases": [
-          "Pasta carbonara"
-        ],
-        "hints": {
-          "easy": "egg",
-          "normal": "pepper",
-          "hard": "residual"
-        }
       }
     }
   },
@@ -147,17 +105,6 @@
           "normal": "gratäng",
           "hard": "smulor"
         }
-      },
-      "en": {
-        "word": "Mac and cheese",
-        "aliases": [
-          "Macaroni and cheese"
-        ],
-        "hints": {
-          "easy": "cheddar",
-          "normal": "baked",
-          "hard": "crumbs"
-        }
       }
     }
   },
@@ -178,15 +125,6 @@
           "easy": "runda",
           "normal": "stekpanna",
           "hard": "lingon"
-        }
-      },
-      "en": {
-        "word": "Meatballs",
-        "aliases": [],
-        "hints": {
-          "easy": "round",
-          "normal": "frying",
-          "hard": "lingonberries"
         }
       }
     }
@@ -209,15 +147,6 @@
           "normal": "bröd",
           "hard": "sesam"
         }
-      },
-      "en": {
-        "word": "Hamburger",
-        "aliases": [],
-        "hints": {
-          "easy": "patty",
-          "normal": "bun",
-          "hard": "sesame"
-        }
       }
     }
   },
@@ -238,15 +167,6 @@
           "easy": "korv",
           "normal": "senap",
           "hard": "kiosken"
-        }
-      },
-      "en": {
-        "word": "Hot dog",
-        "aliases": [],
-        "hints": {
-          "easy": "sausage",
-          "normal": "mustard",
-          "hard": "kiosk"
         }
       }
     }
@@ -269,15 +189,6 @@
           "normal": "fyllning",
           "hard": "fredag"
         }
-      },
-      "en": {
-        "word": "Tacos",
-        "aliases": [],
-        "hints": {
-          "easy": "tortilla",
-          "normal": "fillings",
-          "hard": "crunchy"
-        }
       }
     }
   },
@@ -298,15 +209,6 @@
           "easy": "rulle",
           "normal": "bönor",
           "hard": "folie"
-        }
-      },
-      "en": {
-        "word": "Burrito",
-        "aliases": [],
-        "hints": {
-          "easy": "wrapped",
-          "normal": "beans",
-          "hard": "foil"
         }
       }
     }
@@ -329,15 +231,6 @@
           "normal": "tortilla",
           "hard": "stekpanna"
         }
-      },
-      "en": {
-        "word": "Quesadilla",
-        "aliases": [],
-        "hints": {
-          "easy": "cheese",
-          "normal": "tortilla",
-          "hard": "griddle"
-        }
       }
     }
   },
@@ -358,15 +251,6 @@
           "easy": "tortilla",
           "normal": "sås",
           "hard": "ugn"
-        }
-      },
-      "en": {
-        "word": "Enchiladas",
-        "aliases": [],
-        "hints": {
-          "easy": "tortilla",
-          "normal": "sauce",
-          "hard": "baked"
         }
       }
     }
@@ -389,15 +273,6 @@
           "normal": "friterat",
           "hard": "pitabröd"
         }
-      },
-      "en": {
-        "word": "Falafel",
-        "aliases": [],
-        "hints": {
-          "easy": "chickpeas",
-          "normal": "fried",
-          "hard": "pita"
-        }
       }
     }
   },
@@ -417,15 +292,6 @@
         "hints": {
           "easy": "spett",
           "normal": "pitabröd",
-          "hard": "tzatziki"
-        }
-      },
-      "en": {
-        "word": "Gyros",
-        "aliases": [],
-        "hints": {
-          "easy": "rotisserie",
-          "normal": "pita",
           "hard": "tzatziki"
         }
       }
@@ -449,15 +315,6 @@
           "normal": "citron",
           "hard": "Grekland"
         }
-      },
-      "en": {
-        "word": "Souvlaki",
-        "aliases": [],
-        "hints": {
-          "easy": "skewers",
-          "normal": "lemon",
-          "hard": "Greece"
-        }
       }
     }
   },
@@ -477,15 +334,6 @@
         "hints": {
           "easy": "aubergine",
           "normal": "lager",
-          "hard": "bechamel"
-        }
-      },
-      "en": {
-        "word": "Moussaka",
-        "aliases": [],
-        "hints": {
-          "easy": "aubergine",
-          "normal": "layers",
           "hard": "bechamel"
         }
       }
@@ -509,15 +357,6 @@
           "normal": "saffran",
           "hard": "panna"
         }
-      },
-      "en": {
-        "word": "Paella",
-        "aliases": [],
-        "hints": {
-          "easy": "rice",
-          "normal": "saffron",
-          "hard": "skillet"
-        }
       }
     }
   },
@@ -538,15 +377,6 @@
           "easy": "krämigt",
           "normal": "buljong",
           "hard": "omrörning"
-        }
-      },
-      "en": {
-        "word": "Risotto",
-        "aliases": [],
-        "hints": {
-          "easy": "creamy",
-          "normal": "broth",
-          "hard": "stirring"
         }
       }
     }
@@ -571,17 +401,6 @@
           "normal": "friterade",
           "hard": "Sicilien"
         }
-      },
-      "en": {
-        "word": "Arancini",
-        "aliases": [
-          "Italian rice balls"
-        ],
-        "hints": {
-          "easy": "risotto",
-          "normal": "fried",
-          "hard": "Sicily"
-        }
       }
     }
   },
@@ -602,15 +421,6 @@
           "easy": "nudlar",
           "normal": "buljong",
           "hard": "ägghalva"
-        }
-      },
-      "en": {
-        "word": "Ramen",
-        "aliases": [],
-        "hints": {
-          "easy": "noodles",
-          "normal": "broth",
-          "hard": "egg"
         }
       }
     }
@@ -635,17 +445,6 @@
           "normal": "buljong",
           "hard": "stjärnanis"
         }
-      },
-      "en": {
-        "word": "Pho",
-        "aliases": [
-          "Phở"
-        ],
-        "hints": {
-          "easy": "noodles",
-          "normal": "broth",
-          "hard": "anise"
-        }
       }
     }
   },
@@ -667,15 +466,6 @@
           "normal": "nori",
           "hard": "soja"
         }
-      },
-      "en": {
-        "word": "Sushi",
-        "aliases": [],
-        "hints": {
-          "easy": "rice",
-          "normal": "nori",
-          "hard": "soy"
-        }
       }
     }
   },
@@ -695,15 +485,6 @@
         "hints": {
           "easy": "råfisk",
           "normal": "skivor",
-          "hard": "wasabi"
-        }
-      },
-      "en": {
-        "word": "Sashimi",
-        "aliases": [],
-        "hints": {
-          "easy": "raw",
-          "normal": "slices",
           "hard": "wasabi"
         }
       }
@@ -727,15 +508,6 @@
           "normal": "jordnötter",
           "hard": "tamarind"
         }
-      },
-      "en": {
-        "word": "Pad Thai",
-        "aliases": [],
-        "hints": {
-          "easy": "noodles",
-          "normal": "peanuts",
-          "hard": "tamarind"
-        }
       }
     }
   },
@@ -755,15 +527,6 @@
         "hints": {
           "easy": "risskål",
           "normal": "koreanskt",
-          "hard": "gochujang"
-        }
-      },
-      "en": {
-        "word": "Bibimbap",
-        "aliases": [],
-        "hints": {
-          "easy": "rice",
-          "normal": "Korean",
           "hard": "gochujang"
         }
       }
@@ -787,15 +550,6 @@
           "normal": "rester",
           "hard": "ärtor"
         }
-      },
-      "en": {
-        "word": "Fried rice",
-        "aliases": [],
-        "hints": {
-          "easy": "wok",
-          "normal": "leftovers",
-          "hard": "peas"
-        }
       }
     }
   },
@@ -816,15 +570,6 @@
           "easy": "pommes",
           "normal": "frityrsmet",
           "hard": "vinäger"
-        }
-      },
-      "en": {
-        "word": "Fish and chips",
-        "aliases": [],
-        "hints": {
-          "easy": "battered",
-          "normal": "vinegar",
-          "hard": "seaside"
         }
       }
     }
@@ -847,17 +592,6 @@
           "normal": "frys",
           "hard": "remoulad"
         }
-      },
-      "en": {
-        "word": "Fish sticks",
-        "aliases": [
-          "Fish fingers"
-        ],
-        "hints": {
-          "easy": "breaded",
-          "normal": "frozen",
-          "hard": "tartare"
-        }
       }
     }
   },
@@ -878,15 +612,6 @@
           "easy": "buljong",
           "normal": "räkor",
           "hard": "aioli"
-        }
-      },
-      "en": {
-        "word": "Fish soup",
-        "aliases": [],
-        "hints": {
-          "easy": "broth",
-          "normal": "prawns",
-          "hard": "rouille"
         }
       }
     }
@@ -909,15 +634,6 @@
           "normal": "torsdag",
           "hard": "pannkakor"
         }
-      },
-      "en": {
-        "word": "Pea soup",
-        "aliases": [],
-        "hints": {
-          "easy": "mustard",
-          "normal": "Thursday",
-          "hard": "pancakes"
-        }
       }
     }
   },
@@ -939,15 +655,6 @@
           "normal": "pasta",
           "hard": "bönor"
         }
-      },
-      "en": {
-        "word": "Minestrone",
-        "aliases": [],
-        "hints": {
-          "easy": "vegetables",
-          "normal": "pasta",
-          "hard": "beans"
-        }
       }
     }
   },
@@ -968,15 +675,6 @@
           "easy": "kall",
           "normal": "tomat",
           "hard": "Andalusien"
-        }
-      },
-      "en": {
-        "word": "Gazpacho",
-        "aliases": [],
-        "hints": {
-          "easy": "chilled",
-          "normal": "tomato",
-          "hard": "Andalusia"
         }
       }
     }
@@ -1001,17 +699,6 @@
           "normal": "syrligt",
           "hard": "smetana"
         }
-      },
-      "en": {
-        "word": "Borscht",
-        "aliases": [
-          "Beetroot soup"
-        ],
-        "hints": {
-          "easy": "beetroot",
-          "normal": "sour",
-          "hard": "cream"
-        }
       }
     }
   },
@@ -1033,15 +720,6 @@
           "normal": "gryta",
           "hard": "hetta"
         }
-      },
-      "en": {
-        "word": "Chili con carne",
-        "aliases": [],
-        "hints": {
-          "easy": "beans",
-          "normal": "stew",
-          "hard": "heat"
-        }
       }
     }
   },
@@ -1062,15 +740,6 @@
           "easy": "paprika",
           "normal": "gryta",
           "hard": "Ungern"
-        }
-      },
-      "en": {
-        "word": "Goulash",
-        "aliases": [],
-        "hints": {
-          "easy": "paprika",
-          "normal": "stew",
-          "hard": "Hungary"
         }
       }
     }
@@ -1095,17 +764,6 @@
           "normal": "gryta",
           "hard": "champinjoner"
         }
-      },
-      "en": {
-        "word": "Beef bourguignon",
-        "aliases": [
-          "Boeuf bourguignon"
-        ],
-        "hints": {
-          "easy": "wine",
-          "normal": "stew",
-          "hard": "mushrooms"
-        }
       }
     }
   },
@@ -1127,15 +785,6 @@
           "normal": "rödvin",
           "hard": "stekgryta"
         }
-      },
-      "en": {
-        "word": "Coq au vin",
-        "aliases": [],
-        "hints": {
-          "easy": "poultry",
-          "normal": "wine",
-          "hard": "casserole"
-        }
       }
     }
   },
@@ -1154,15 +803,6 @@
         "aliases": [],
         "hints": {
           "easy": "grönsaksgryta",
-          "normal": "aubergine",
-          "hard": "Provence"
-        }
-      },
-      "en": {
-        "word": "Ratatouille",
-        "aliases": [],
-        "hints": {
-          "easy": "vegetables",
           "normal": "aubergine",
           "hard": "Provence"
         }
@@ -1189,17 +829,6 @@
           "normal": "gräddigt",
           "hard": "tandoor"
         }
-      },
-      "en": {
-        "word": "Butter chicken",
-        "aliases": [
-          "Murgh makhani"
-        ],
-        "hints": {
-          "easy": "tomatoes",
-          "normal": "creamy",
-          "hard": "tandoor"
-        }
       }
     }
   },
@@ -1221,15 +850,6 @@
           "normal": "gräddig",
           "hard": "tomat"
         }
-      },
-      "en": {
-        "word": "Chicken tikka masala",
-        "aliases": [],
-        "hints": {
-          "easy": "tandoor",
-          "normal": "creamy",
-          "hard": "tomato"
-        }
       }
     }
   },
@@ -1250,15 +870,6 @@
           "easy": "ris",
           "normal": "kryddor",
           "hard": "skikt"
-        }
-      },
-      "en": {
-        "word": "Biryani",
-        "aliases": [],
-        "hints": {
-          "easy": "rice",
-          "normal": "spices",
-          "hard": "layers"
         }
       }
     }
@@ -1283,18 +894,6 @@
           "normal": "kryddor",
           "hard": "gryta"
         }
-      },
-      "en": {
-        "word": "Dal",
-        "aliases": [
-          "Dahl",
-          "Daal"
-        ],
-        "hints": {
-          "easy": "lentils",
-          "normal": "spices",
-          "hard": "stew"
-        }
       }
     }
   },
@@ -1315,15 +914,6 @@
           "easy": "triangel",
           "normal": "frityr",
           "hard": "potatisfyllning"
-        }
-      },
-      "en": {
-        "word": "Samosa",
-        "aliases": [],
-        "hints": {
-          "easy": "triangle",
-          "normal": "fried",
-          "hard": "potatoes"
         }
       }
     }
@@ -1346,15 +936,6 @@
           "normal": "fyllning",
           "hard": "dippsås"
         }
-      },
-      "en": {
-        "word": "Spring roll",
-        "aliases": [],
-        "hints": {
-          "easy": "crispy",
-          "normal": "filling",
-          "hard": "dipping"
-        }
       }
     }
   },
@@ -1376,15 +957,6 @@
           "normal": "gula",
           "hard": "franskant"
         }
-      },
-      "en": {
-        "word": "Fried egg",
-        "aliases": [],
-        "hints": {
-          "easy": "skillet",
-          "normal": "yolk",
-          "hard": "frills"
-        }
       }
     }
   },
@@ -1405,15 +977,6 @@
           "easy": "krämigt",
           "normal": "frukost",
           "hard": "omrörning"
-        }
-      },
-      "en": {
-        "word": "Scrambled eggs",
-        "aliases": [],
-        "hints": {
-          "easy": "creamy",
-          "normal": "breakfast",
-          "hard": "stirring"
         }
       }
     }
@@ -1438,17 +1001,6 @@
           "normal": "fyllning",
           "hard": "vikning"
         }
-      },
-      "en": {
-        "word": "Omelette",
-        "aliases": [
-          "Omelet"
-        ],
-        "hints": {
-          "easy": "eggs",
-          "normal": "filling",
-          "hard": "folding"
-        }
       }
     }
   },
@@ -1469,15 +1021,6 @@
           "easy": "sylt",
           "normal": "smet",
           "hard": "vändning"
-        }
-      },
-      "en": {
-        "word": "Pancakes",
-        "aliases": [],
-        "hints": {
-          "easy": "batter",
-          "normal": "syrup",
-          "hard": "flipping"
         }
       }
     }
@@ -1500,15 +1043,6 @@
           "normal": "järn",
           "hard": "frasigt"
         }
-      },
-      "en": {
-        "word": "Waffles",
-        "aliases": [],
-        "hints": {
-          "easy": "grid",
-          "normal": "iron",
-          "hard": "crispy"
-        }
       }
     }
   },
@@ -1530,17 +1064,6 @@
           "normal": "fläsk",
           "hard": "lingon"
         }
-      },
-      "en": {
-        "word": "Swedish potato pancake",
-        "aliases": [
-          "Raggmunk"
-        ],
-        "hints": {
-          "easy": "grated",
-          "normal": "pork",
-          "hard": "lingonberries"
-        }
       }
     }
   },
@@ -1561,17 +1084,6 @@
           "easy": "kokas",
           "normal": "fläsk",
           "hard": "lingon"
-        }
-      },
-      "en": {
-        "word": "Swedish potato dumplings",
-        "aliases": [
-          "Kroppkakor"
-        ],
-        "hints": {
-          "easy": "boiled",
-          "normal": "pork",
-          "hard": "lingonberries"
         }
       }
     }
@@ -1596,18 +1108,6 @@
           "normal": "stekt",
           "hard": "rödbetor"
         }
-      },
-      "en": {
-        "word": "Potato and meat hash",
-        "aliases": [
-          "Swedish hash",
-          "Pyttipanna"
-        ],
-        "hints": {
-          "easy": "diced",
-          "normal": "skillet",
-          "hard": "beetroot"
-        }
       }
     }
   },
@@ -1628,17 +1128,6 @@
           "easy": "paket",
           "normal": "köttfärs",
           "hard": "sirap"
-        }
-      },
-      "en": {
-        "word": "Stuffed cabbage rolls",
-        "aliases": [
-          "Cabbage rolls"
-        ],
-        "hints": {
-          "easy": "parcels",
-          "normal": "mince",
-          "hard": "syrup"
         }
       }
     }
@@ -1661,17 +1150,6 @@
           "normal": "buljong",
           "hard": "krutong"
         }
-      },
-      "en": {
-        "word": "French onion soup",
-        "aliases": [
-          "Onion soup"
-        ],
-        "hints": {
-          "easy": "gratin",
-          "normal": "broth",
-          "hard": "crouton"
-        }
       }
     }
   },
@@ -1692,15 +1170,6 @@
           "easy": "skivor",
           "normal": "grädde",
           "hard": "brynt"
-        }
-      },
-      "en": {
-        "word": "Potato gratin",
-        "aliases": [],
-        "hints": {
-          "easy": "sliced",
-          "normal": "cream",
-          "hard": "browned"
         }
       }
     }
@@ -1723,17 +1192,6 @@
           "normal": "pärlsocker",
           "hard": "fika"
         }
-      },
-      "en": {
-        "word": "Cinnamon roll",
-        "aliases": [
-          "Cinnamon bun"
-        ],
-        "hints": {
-          "easy": "swirl",
-          "normal": "sugar",
-          "hard": "fika"
-        }
       }
     }
   },
@@ -1754,15 +1212,6 @@
           "easy": "halvmåne",
           "normal": "smör",
           "hard": "smulor"
-        }
-      },
-      "en": {
-        "word": "Croissant",
-        "aliases": [],
-        "hints": {
-          "easy": "crescent",
-          "normal": "butter",
-          "hard": "flakes"
         }
       }
     }
@@ -1787,17 +1236,6 @@
           "normal": "chokladstänger",
           "hard": "bageri"
         }
-      },
-      "en": {
-        "word": "Pain au chocolat",
-        "aliases": [
-          "Chocolate croissant"
-        ],
-        "hints": {
-          "easy": "pastry",
-          "normal": "chocolate",
-          "hard": "bakery"
-        }
       }
     }
   },
@@ -1817,15 +1255,6 @@
         "hints": {
           "easy": "långsmal",
           "normal": "skorpa",
-          "hard": "Paris"
-        }
-      },
-      "en": {
-        "word": "Baguette",
-        "aliases": [],
-        "hints": {
-          "easy": "elongated",
-          "normal": "crust",
           "hard": "Paris"
         }
       }
@@ -1849,15 +1278,6 @@
           "normal": "jäsning",
           "hard": "luftbubblor"
         }
-      },
-      "en": {
-        "word": "Sourdough bread",
-        "aliases": [],
-        "hints": {
-          "easy": "starter",
-          "normal": "fermentation",
-          "hard": "holes"
-        }
       }
     }
   },
@@ -1878,15 +1298,6 @@
           "easy": "ring",
           "normal": "kokas",
           "hard": "sesam"
-        }
-      },
-      "en": {
-        "word": "Bagel",
-        "aliases": [],
-        "hints": {
-          "easy": "ring",
-          "normal": "boiled",
-          "hard": "sesame"
         }
       }
     }
@@ -1909,15 +1320,6 @@
           "normal": "salt",
           "hard": "knut"
         }
-      },
-      "en": {
-        "word": "Soft pretzel",
-        "aliases": [],
-        "hints": {
-          "easy": "knotted",
-          "normal": "salt",
-          "hard": "alkaline"
-        }
       }
     }
   },
@@ -1939,17 +1341,6 @@
           "normal": "bakpulver",
           "hard": "smulig"
         }
-      },
-      "en": {
-        "word": "Scone",
-        "aliases": [
-          "Scones"
-        ],
-        "hints": {
-          "easy": "teatime",
-          "normal": "leavening",
-          "hard": "crumbly"
-        }
       }
     }
   },
@@ -1970,17 +1361,6 @@
           "easy": "bakform",
           "normal": "topp",
           "hard": "blåbär"
-        }
-      },
-      "en": {
-        "word": "Muffin",
-        "aliases": [
-          "Muffins"
-        ],
-        "hints": {
-          "easy": "cup",
-          "normal": "domed",
-          "hard": "blueberries"
         }
       }
     }
@@ -2005,17 +1385,6 @@
           "normal": "portionsform",
           "hard": "kalas"
         }
-      },
-      "en": {
-        "word": "Cupcake",
-        "aliases": [
-          "Cupcakes"
-        ],
-        "hints": {
-          "easy": "frosting",
-          "normal": "miniature",
-          "hard": "party"
-        }
       }
     }
   },
@@ -2038,17 +1407,6 @@
           "easy": "jul",
           "normal": "kryddor",
           "hard": "pepparkaksform"
-        }
-      },
-      "en": {
-        "word": "Gingerbread cookie",
-        "aliases": [
-          "Gingerbread cookies"
-        ],
-        "hints": {
-          "easy": "Christmas",
-          "normal": "spices",
-          "hard": "cutter"
         }
       }
     }
@@ -2073,15 +1431,6 @@
           "normal": "smular",
           "hard": "Skottland"
         }
-      },
-      "en": {
-        "word": "Shortbread",
-        "aliases": [],
-        "hints": {
-          "easy": "buttery",
-          "normal": "crumbly",
-          "hard": "Scotland"
-        }
       }
     }
   },
@@ -2105,17 +1454,6 @@
           "normal": "seg",
           "hard": "bakplåt"
         }
-      },
-      "en": {
-        "word": "Chocolate chip cookie",
-        "aliases": [
-          "Chocolate chip cookies"
-        ],
-        "hints": {
-          "easy": "chunks",
-          "normal": "chewy",
-          "hard": "tray"
-        }
       }
     }
   },
@@ -2136,15 +1474,6 @@
           "easy": "choklad",
           "normal": "fyrkant",
           "hard": "kladdig"
-        }
-      },
-      "en": {
-        "word": "Brownie",
-        "aliases": [],
-        "hints": {
-          "easy": "chocolate",
-          "normal": "square",
-          "hard": "gooey"
         }
       }
     }
@@ -2169,15 +1498,6 @@
           "normal": "ägg",
           "hard": "sabbat"
         }
-      },
-      "en": {
-        "word": "Challah",
-        "aliases": [],
-        "hints": {
-          "easy": "braid",
-          "normal": "eggs",
-          "hard": "Sabbath"
-        }
       }
     }
   },
@@ -2198,15 +1518,6 @@
           "easy": "olivolja",
           "normal": "gropar",
           "hard": "rosmarin"
-        }
-      },
-      "en": {
-        "word": "Focaccia",
-        "aliases": [],
-        "hints": {
-          "easy": "olive",
-          "normal": "dimples",
-          "hard": "rosemary"
         }
       }
     }
@@ -2231,17 +1542,6 @@
           "normal": "tandoor",
           "hard": "uppblåst"
         }
-      },
-      "en": {
-        "word": "Naan",
-        "aliases": [
-          "Naan bread"
-        ],
-        "hints": {
-          "easy": "Indian",
-          "normal": "tandoor",
-          "hard": "puffed"
-        }
       }
     }
   },
@@ -2265,17 +1565,6 @@
           "normal": "platt",
           "hard": "fyllning"
         }
-      },
-      "en": {
-        "word": "Pita",
-        "aliases": [
-          "Pita bread"
-        ],
-        "hints": {
-          "easy": "pocket",
-          "normal": "flat",
-          "hard": "filling"
-        }
       }
     }
   },
@@ -2296,15 +1585,6 @@
           "easy": "italiensk",
           "normal": "porer",
           "hard": "skorpa"
-        }
-      },
-      "en": {
-        "word": "Ciabatta",
-        "aliases": [],
-        "hints": {
-          "easy": "Italian",
-          "normal": "holes",
-          "hard": "crust"
         }
       }
     }
@@ -2327,15 +1607,6 @@
           "normal": "sirap",
           "hard": "grynig"
         }
-      },
-      "en": {
-        "word": "Basbousa",
-        "aliases": [],
-        "hints": {
-          "easy": "syrup",
-          "normal": "granular",
-          "hard": "Levant"
-        }
       }
     }
   },
@@ -2356,15 +1627,6 @@
           "easy": "kanel",
           "normal": "deg",
           "hard": "vaniljsås"
-        }
-      },
-      "en": {
-        "word": "Apple pie",
-        "aliases": [],
-        "hints": {
-          "easy": "cinnamon",
-          "normal": "pastry",
-          "hard": "custard"
         }
       }
     }
@@ -2389,15 +1651,6 @@
           "normal": "kexbotten",
           "hard": "Florida"
         }
-      },
-      "en": {
-        "word": "Key lime pie",
-        "aliases": [],
-        "hints": {
-          "easy": "tart",
-          "normal": "biscuit",
-          "hard": "Florida"
-        }
       }
     }
   },
@@ -2418,15 +1671,6 @@
           "easy": "kaffe",
           "normal": "mascarpone",
           "hard": "kakao"
-        }
-      },
-      "en": {
-        "word": "Tiramisu",
-        "aliases": [],
-        "hints": {
-          "easy": "coffee",
-          "normal": "mascarpone",
-          "hard": "cocoa"
         }
       }
     }
@@ -2451,17 +1695,6 @@
           "normal": "brännare",
           "hard": "vanilj"
         }
-      },
-      "en": {
-        "word": "Crème brûlée",
-        "aliases": [
-          "Creme brulee"
-        ],
-        "hints": {
-          "easy": "crust",
-          "normal": "torch",
-          "hard": "vanilla"
-        }
       }
     }
   },
@@ -2484,15 +1717,6 @@
           "easy": "grädde",
           "normal": "gelé",
           "hard": "bärsås"
-        }
-      },
-      "en": {
-        "word": "Panna cotta",
-        "aliases": [],
-        "hints": {
-          "easy": "cream",
-          "normal": "gelatin",
-          "hard": "berry"
         }
       }
     }
@@ -2517,18 +1741,6 @@
           "normal": "stjälps",
           "hard": "pudding"
         }
-      },
-      "en": {
-        "word": "Crème caramel",
-        "aliases": [
-          "Creme caramel",
-          "Caramel custard"
-        ],
-        "hints": {
-          "easy": "syrup",
-          "normal": "inverted",
-          "hard": "custard"
-        }
       }
     }
   },
@@ -2552,15 +1764,6 @@
           "normal": "kexbotten",
           "hard": "kyls"
         }
-      },
-      "en": {
-        "word": "Cheesecake",
-        "aliases": [],
-        "hints": {
-          "easy": "creaminess",
-          "normal": "biscuit",
-          "hard": "chilled"
-        }
       }
     }
   },
@@ -2581,15 +1784,6 @@
           "easy": "luftig",
           "normal": "vispad",
           "hard": "efterrätt"
-        }
-      },
-      "en": {
-        "word": "Chocolate mousse",
-        "aliases": [],
-        "hints": {
-          "easy": "airy",
-          "normal": "whipped",
-          "hard": "dessert"
         }
       }
     }
@@ -2614,15 +1808,6 @@
           "normal": "mjölk",
           "hard": "kanel"
         }
-      },
-      "en": {
-        "word": "Rice pudding",
-        "aliases": [],
-        "hints": {
-          "easy": "grains",
-          "normal": "milk",
-          "hard": "cinnamon"
-        }
       }
     }
   },
@@ -2643,15 +1828,6 @@
           "easy": "glass",
           "normal": "halvor",
           "hard": "chokladsås"
-        }
-      },
-      "en": {
-        "word": "Banana split",
-        "aliases": [],
-        "hints": {
-          "easy": "sundae",
-          "normal": "halves",
-          "hard": "syrup"
         }
       }
     }
@@ -2674,15 +1850,6 @@
           "normal": "mjölkfri",
           "hard": "skopa"
         }
-      },
-      "en": {
-        "word": "Sorbet",
-        "aliases": [],
-        "hints": {
-          "easy": "fruit",
-          "normal": "lactose",
-          "hard": "scoop"
-        }
       }
     }
   },
@@ -2704,15 +1871,6 @@
           "normal": "blandat",
           "hard": "skål"
         }
-      },
-      "en": {
-        "word": "Fruit salad",
-        "aliases": [],
-        "hints": {
-          "easy": "chopped",
-          "normal": "mixed",
-          "hard": "bowl"
-        }
       }
     }
   },
@@ -2733,15 +1891,6 @@
           "easy": "lager",
           "normal": "sockerkaka",
           "hard": "glasskål"
-        }
-      },
-      "en": {
-        "word": "Trifle",
-        "aliases": [],
-        "hints": {
-          "easy": "layers",
-          "normal": "sponge",
-          "hard": "glass"
         }
       }
     }
@@ -2766,15 +1915,6 @@
           "normal": "luftiga",
           "hard": "fyllning"
         }
-      },
-      "en": {
-        "word": "Profiteroles",
-        "aliases": [],
-        "hints": {
-          "easy": "choux",
-          "normal": "airy",
-          "hard": "filling"
-        }
       }
     }
   },
@@ -2795,15 +1935,6 @@
           "easy": "maräng",
           "normal": "krispig",
           "hard": "bär"
-        }
-      },
-      "en": {
-        "word": "Pavlova",
-        "aliases": [],
-        "hints": {
-          "easy": "meringue",
-          "normal": "crisp",
-          "hard": "berries"
         }
       }
     }
@@ -2828,15 +1959,6 @@
           "normal": "kolasås",
           "hard": "varm"
         }
-      },
-      "en": {
-        "word": "Sticky toffee pudding",
-        "aliases": [],
-        "hints": {
-          "easy": "dates",
-          "normal": "caramel",
-          "hard": "warm"
-        }
       }
     }
   },
@@ -2857,18 +1979,6 @@
           "easy": "rinnande",
           "normal": "choklad",
           "hard": "ugnstid"
-        }
-      },
-      "en": {
-        "word": "Chocolate lava cake",
-        "aliases": [
-          "Chocolate fondant",
-          "Molten chocolate cake"
-        ],
-        "hints": {
-          "easy": "molten",
-          "normal": "centre",
-          "hard": "timing"
         }
       }
     }
@@ -2891,15 +2001,6 @@
           "normal": "nötter",
           "hard": "sirap"
         }
-      },
-      "en": {
-        "word": "Baklava",
-        "aliases": [],
-        "hints": {
-          "easy": "filo",
-          "normal": "nuts",
-          "hard": "syrup"
-        }
       }
     }
   },
@@ -2920,15 +2021,6 @@
           "easy": "äppelskrutt",
           "normal": "kärnhus",
           "hard": "fruktträd"
-        }
-      },
-      "en": {
-        "word": "Apple",
-        "aliases": [],
-        "hints": {
-          "easy": "core",
-          "normal": "seeds",
-          "hard": "orchard"
         }
       }
     }
@@ -2951,15 +2043,6 @@
           "normal": "saftig",
           "hard": "avsmalnande"
         }
-      },
-      "en": {
-        "word": "Pear",
-        "aliases": [],
-        "hints": {
-          "easy": "tapered",
-          "normal": "juicy",
-          "hard": "orchard"
-        }
       }
     }
   },
@@ -2980,15 +2063,6 @@
           "easy": "gul",
           "normal": "skal",
           "hard": "klase"
-        }
-      },
-      "en": {
-        "word": "Banana",
-        "aliases": [],
-        "hints": {
-          "easy": "yellow",
-          "normal": "peel",
-          "hard": "bunch"
         }
       }
     }
@@ -3011,15 +2085,6 @@
           "normal": "klyfta",
           "hard": "frukostjuice"
         }
-      },
-      "en": {
-        "word": "Orange",
-        "aliases": [],
-        "hints": {
-          "easy": "citrus",
-          "normal": "segment",
-          "hard": "zest"
-        }
       }
     }
   },
@@ -3041,17 +2106,6 @@
           "normal": "småklyftor",
           "hard": "jul"
         }
-      },
-      "en": {
-        "word": "Mandarin",
-        "aliases": [
-          "Mandarin orange"
-        ],
-        "hints": {
-          "easy": "citrus",
-          "normal": "segments",
-          "hard": "Christmas"
-        }
       }
     }
   },
@@ -3071,15 +2125,6 @@
         "hints": {
           "easy": "syrlig",
           "normal": "gul",
-          "hard": "zest"
-        }
-      },
-      "en": {
-        "word": "Lemon",
-        "aliases": [],
-        "hints": {
-          "easy": "sour",
-          "normal": "yellow",
           "hard": "zest"
         }
       }
@@ -3103,15 +2148,6 @@
           "normal": "syrlig",
           "hard": "drink"
         }
-      },
-      "en": {
-        "word": "Lime",
-        "aliases": [],
-        "hints": {
-          "easy": "green",
-          "normal": "acidic",
-          "hard": "cocktail"
-        }
       }
     }
   },
@@ -3133,15 +2169,6 @@
           "normal": "krona",
           "hard": "ringar"
         }
-      },
-      "en": {
-        "word": "Pineapple",
-        "aliases": [],
-        "hints": {
-          "easy": "spiky",
-          "normal": "crown",
-          "hard": "rings"
-        }
       }
     }
   },
@@ -3161,15 +2188,6 @@
         "hints": {
           "easy": "tropisk",
           "normal": "kärna",
-          "hard": "chutney"
-        }
-      },
-      "en": {
-        "word": "Mango",
-        "aliases": [],
-        "hints": {
-          "easy": "tropical",
-          "normal": "stone",
           "hard": "chutney"
         }
       }
@@ -3193,15 +2211,6 @@
           "normal": "stenfrukt",
           "hard": "rodnad"
         }
-      },
-      "en": {
-        "word": "Peach",
-        "aliases": [],
-        "hints": {
-          "easy": "fuzzy",
-          "normal": "stone",
-          "hard": "blush"
-        }
       }
     }
   },
@@ -3222,15 +2231,6 @@
           "easy": "slätt",
           "normal": "stenfrukt",
           "hard": "saftig"
-        }
-      },
-      "en": {
-        "word": "Nectarine",
-        "aliases": [],
-        "hints": {
-          "easy": "smooth",
-          "normal": "stone",
-          "hard": "juicy"
         }
       }
     }
@@ -3253,15 +2253,6 @@
           "normal": "kärna",
           "hard": "torkad"
         }
-      },
-      "en": {
-        "word": "Plum",
-        "aliases": [],
-        "hints": {
-          "easy": "purple",
-          "normal": "stone",
-          "hard": "prunes"
-        }
       }
     }
   },
@@ -3282,15 +2273,6 @@
           "easy": "par",
           "normal": "stjälk",
           "hard": "kärna"
-        }
-      },
-      "en": {
-        "word": "Cherry",
-        "aliases": [],
-        "hints": {
-          "easy": "pairs",
-          "normal": "stem",
-          "hard": "stone"
         }
       }
     }
@@ -3313,15 +2295,6 @@
           "normal": "russin",
           "hard": "vin"
         }
-      },
-      "en": {
-        "word": "Grape",
-        "aliases": [],
-        "hints": {
-          "easy": "bunch",
-          "normal": "raisins",
-          "hard": "wine"
-        }
       }
     }
   },
@@ -3342,15 +2315,6 @@
           "easy": "randig",
           "normal": "saftig",
           "hard": "picknick"
-        }
-      },
-      "en": {
-        "word": "Watermelon",
-        "aliases": [],
-        "hints": {
-          "easy": "striped",
-          "normal": "juicy",
-          "hard": "picnic"
         }
       }
     }
@@ -3373,15 +2337,6 @@
           "normal": "melon",
           "hard": "apelsinfärgad"
         }
-      },
-      "en": {
-        "word": "Cantaloupe",
-        "aliases": [],
-        "hints": {
-          "easy": "netted",
-          "normal": "melon",
-          "hard": "orange"
-        }
       }
     }
   },
@@ -3403,15 +2358,6 @@
           "normal": "kärnor",
           "hard": "granat"
         }
-      },
-      "en": {
-        "word": "Pomegranate",
-        "aliases": [],
-        "hints": {
-          "easy": "ruby",
-          "normal": "seeds",
-          "hard": "arils"
-        }
       }
     }
   },
@@ -3432,15 +2378,6 @@
           "easy": "rynklig",
           "normal": "kärnor",
           "hard": "syrlig"
-        }
-      },
-      "en": {
-        "word": "Passion fruit",
-        "aliases": [],
-        "hints": {
-          "easy": "wrinkled",
-          "normal": "seeds",
-          "hard": "tart"
         }
       }
     }
@@ -3465,17 +2402,6 @@
           "normal": "sked",
           "hard": "grön"
         }
-      },
-      "en": {
-        "word": "Kiwi fruit",
-        "aliases": [
-          "Kiwi"
-        ],
-        "hints": {
-          "easy": "fuzzy",
-          "normal": "spoon",
-          "hard": "green"
-        }
       }
     }
   },
@@ -3496,15 +2422,6 @@
           "easy": "orange",
           "normal": "rot",
           "hard": "blast"
-        }
-      },
-      "en": {
-        "word": "Carrot",
-        "aliases": [],
-        "hints": {
-          "easy": "orange",
-          "normal": "root",
-          "hard": "crunchy"
         }
       }
     }
@@ -3527,15 +2444,6 @@
           "normal": "rot",
           "hard": "sötaktig"
         }
-      },
-      "en": {
-        "word": "Parsnip",
-        "aliases": [],
-        "hints": {
-          "easy": "pale",
-          "normal": "root",
-          "hard": "sweetish"
-        }
       }
     }
   },
@@ -3556,15 +2464,6 @@
           "easy": "knöl",
           "normal": "mos",
           "hard": "jord"
-        }
-      },
-      "en": {
-        "word": "Potato",
-        "aliases": [],
-        "hints": {
-          "easy": "tuber",
-          "normal": "mash",
-          "hard": "soil"
         }
       }
     }
@@ -3587,15 +2486,6 @@
           "normal": "rostad",
           "hard": "stärkelserik"
         }
-      },
-      "en": {
-        "word": "Sweet potato",
-        "aliases": [],
-        "hints": {
-          "easy": "orange",
-          "normal": "roasted",
-          "hard": "starchy"
-        }
       }
     }
   },
@@ -3616,15 +2506,6 @@
           "easy": "tårar",
           "normal": "skal",
           "hard": "grytbas"
-        }
-      },
-      "en": {
-        "word": "Yellow onion",
-        "aliases": [],
-        "hints": {
-          "easy": "tears",
-          "normal": "papery",
-          "hard": "base"
         }
       }
     }
@@ -3647,15 +2528,6 @@
           "normal": "ringar",
           "hard": "picklad"
         }
-      },
-      "en": {
-        "word": "Red onion",
-        "aliases": [],
-        "hints": {
-          "easy": "purple",
-          "normal": "rings",
-          "hard": "pickled"
-        }
       }
     }
   },
@@ -3676,15 +2548,6 @@
           "easy": "blad",
           "normal": "sand",
           "hard": "soppa"
-        }
-      },
-      "en": {
-        "word": "Leek",
-        "aliases": [],
-        "hints": {
-          "easy": "leaves",
-          "normal": "grit",
-          "hard": "soup"
         }
       }
     }
@@ -3707,15 +2570,6 @@
           "normal": "press",
           "hard": "doft"
         }
-      },
-      "en": {
-        "word": "Garlic",
-        "aliases": [],
-        "hints": {
-          "easy": "clove",
-          "normal": "press",
-          "hard": "aroma"
-        }
       }
     }
   },
@@ -3737,15 +2591,6 @@
           "normal": "vatten",
           "hard": "växthus"
         }
-      },
-      "en": {
-        "word": "Cucumber",
-        "aliases": [],
-        "hints": {
-          "easy": "watery",
-          "normal": "salad",
-          "hard": "greenhouse"
-        }
       }
     }
   },
@@ -3765,17 +2610,6 @@
         "hints": {
           "easy": "squash",
           "normal": "grön",
-          "hard": "ratatouille"
-        }
-      },
-      "en": {
-        "word": "Zucchini",
-        "aliases": [
-          "Courgette"
-        ],
-        "hints": {
-          "easy": "squash",
-          "normal": "green",
           "hard": "ratatouille"
         }
       }
@@ -3799,15 +2633,6 @@
           "normal": "saftig",
           "hard": "lycopen"
         }
-      },
-      "en": {
-        "word": "Tomato",
-        "aliases": [],
-        "hints": {
-          "easy": "red",
-          "normal": "juicy",
-          "hard": "lycopene"
-        }
       }
     }
   },
@@ -3827,17 +2652,6 @@
         "hints": {
           "easy": "svampig",
           "normal": "lila",
-          "hard": "moussaka"
-        }
-      },
-      "en": {
-        "word": "Eggplant",
-        "aliases": [
-          "Aubergine"
-        ],
-        "hints": {
-          "easy": "purple",
-          "normal": "spongy",
           "hard": "moussaka"
         }
       }
@@ -3861,15 +2675,6 @@
           "normal": "grön",
           "hard": "ånga"
         }
-      },
-      "en": {
-        "word": "Broccoli",
-        "aliases": [],
-        "hints": {
-          "easy": "florets",
-          "normal": "green",
-          "hard": "steamed"
-        }
       }
     }
   },
@@ -3890,15 +2695,6 @@
           "easy": "buketter",
           "normal": "vit",
           "hard": "gratäng"
-        }
-      },
-      "en": {
-        "word": "Cauliflower",
-        "aliases": [],
-        "hints": {
-          "easy": "florets",
-          "normal": "white",
-          "hard": "gratin"
         }
       }
     }
@@ -3921,17 +2717,6 @@
           "normal": "jul",
           "hard": "stjälk"
         }
-      },
-      "en": {
-        "word": "Brussels sprouts",
-        "aliases": [
-          "Brussel sprouts"
-        ],
-        "hints": {
-          "easy": "cabbages",
-          "normal": "Christmas",
-          "hard": "stalk"
-        }
       }
     }
   },
@@ -3952,15 +2737,6 @@
           "easy": "blad",
           "normal": "järn",
           "hard": "förväller"
-        }
-      },
-      "en": {
-        "word": "Spinach",
-        "aliases": [],
-        "hints": {
-          "easy": "leaves",
-          "normal": "iron",
-          "hard": "wilting"
         }
       }
     }
@@ -3985,17 +2761,6 @@
           "normal": "sallad",
           "hard": "flikig"
         }
-      },
-      "en": {
-        "word": "Arugula",
-        "aliases": [
-          "Salad rocket"
-        ],
-        "hints": {
-          "easy": "peppery",
-          "normal": "salad",
-          "hard": "lobed"
-        }
       }
     }
   },
@@ -4016,15 +2781,6 @@
           "easy": "krispig",
           "normal": "huvud",
           "hard": "salladsbar"
-        }
-      },
-      "en": {
-        "word": "Iceberg lettuce",
-        "aliases": [],
-        "hints": {
-          "easy": "crunchy",
-          "normal": "head",
-          "hard": "wedge"
         }
       }
     }
@@ -4047,15 +2803,6 @@
           "normal": "vår",
           "hard": "topp"
         }
-      },
-      "en": {
-        "word": "Asparagus",
-        "aliases": [],
-        "hints": {
-          "easy": "spears",
-          "normal": "spring",
-          "hard": "tips"
-        }
       }
     }
   },
@@ -4076,17 +2823,6 @@
           "easy": "hjärta",
           "normal": "blad",
           "hard": "tistel"
-        }
-      },
-      "en": {
-        "word": "Globe artichoke",
-        "aliases": [
-          "Artichoke"
-        ],
-        "hints": {
-          "easy": "heart",
-          "normal": "leaves",
-          "hard": "thistle"
         }
       }
     }
@@ -4109,17 +2845,6 @@
           "normal": "urkärnad",
           "hard": "krispig"
         }
-      },
-      "en": {
-        "word": "Bell pepper",
-        "aliases": [
-          "Capsicum"
-        ],
-        "hints": {
-          "easy": "colourful",
-          "normal": "hollow",
-          "hard": "crunchy"
-        }
       }
     }
   },
@@ -4141,15 +2866,6 @@
           "normal": "röd",
           "hard": "rot"
         }
-      },
-      "en": {
-        "word": "Radish",
-        "aliases": [],
-        "hints": {
-          "easy": "peppery",
-          "normal": "red",
-          "hard": "root"
-        }
       }
     }
   },
@@ -4167,15 +2883,6 @@
         "hints": {
           "easy": "baljväxt",
           "normal": "soppa",
-          "hard": "dal"
-        }
-      },
-      "en": {
-        "word": "Lentils",
-        "aliases": [],
-        "hints": {
-          "easy": "legumes",
-          "normal": "soup",
           "hard": "dal"
         }
       }
@@ -4199,17 +2906,6 @@
           "normal": "baljväxt",
           "hard": "kikärtsvatten"
         }
-      },
-      "en": {
-        "word": "Chickpeas",
-        "aliases": [
-          "Garbanzo beans"
-        ],
-        "hints": {
-          "easy": "hummus",
-          "normal": "legume",
-          "hard": "aquafaba"
-        }
       }
     }
   },
@@ -4228,15 +2924,6 @@
           "easy": "baljväxt",
           "normal": "burrito",
           "hard": "gryta"
-        }
-      },
-      "en": {
-        "word": "Black beans",
-        "aliases": [],
-        "hints": {
-          "easy": "legumes",
-          "normal": "burrito",
-          "hard": "stew"
         }
       }
     }
@@ -4257,17 +2944,6 @@
           "normal": "tabbouleh",
           "hard": "gryn"
         }
-      },
-      "en": {
-        "word": "Bulgur wheat",
-        "aliases": [
-          "Bulgur"
-        ],
-        "hints": {
-          "easy": "wheat",
-          "normal": "tabbouleh",
-          "hard": "cracked"
-        }
       }
     }
   },
@@ -4287,15 +2963,6 @@
           "normal": "småkorn",
           "hard": "ångas"
         }
-      },
-      "en": {
-        "word": "Couscous",
-        "aliases": [],
-        "hints": {
-          "easy": "semolina",
-          "normal": "grains",
-          "hard": "steamed"
-        }
       }
     }
   },
@@ -4313,15 +2980,6 @@
         "hints": {
           "easy": "frö",
           "normal": "Anderna",
-          "hard": "protein"
-        }
-      },
-      "en": {
-        "word": "Quinoa",
-        "aliases": [],
-        "hints": {
-          "easy": "seed",
-          "normal": "Andes",
           "hard": "protein"
         }
       }
@@ -4343,17 +3001,6 @@
           "normal": "flingor",
           "hard": "müsli"
         }
-      },
-      "en": {
-        "word": "Rolled oats",
-        "aliases": [
-          "Oat flakes"
-        ],
-        "hints": {
-          "easy": "porridge",
-          "normal": "flakes",
-          "hard": "muesli"
-        }
       }
     }
   },
@@ -4372,15 +3019,6 @@
           "easy": "vetebak",
           "normal": "gluten",
           "hard": "pudrar"
-        }
-      },
-      "en": {
-        "word": "Wheat flour",
-        "aliases": [],
-        "hints": {
-          "easy": "baking",
-          "normal": "gluten",
-          "hard": "white"
         }
       }
     }
@@ -4401,15 +3039,6 @@
           "normal": "pulver",
           "hard": "deg"
         }
-      },
-      "en": {
-        "word": "Dry yeast",
-        "aliases": [],
-        "hints": {
-          "easy": "leavening",
-          "normal": "granules",
-          "hard": "dough"
-        }
       }
     }
   },
@@ -4428,15 +3057,6 @@
           "easy": "jäsmedel",
           "normal": "koldioxid",
           "hard": "sockerkaka"
-        }
-      },
-      "en": {
-        "word": "Baking powder",
-        "aliases": [],
-        "hints": {
-          "easy": "leavening",
-          "normal": "bubbles",
-          "hard": "cakes"
         }
       }
     }
@@ -4457,15 +3077,6 @@
           "normal": "vit",
           "hard": "blank"
         }
-      },
-      "en": {
-        "word": "Cornstarch",
-        "aliases": [],
-        "hints": {
-          "easy": "thickening",
-          "normal": "white",
-          "hard": "glossy"
-        }
       }
     }
   },
@@ -4484,15 +3095,6 @@
           "easy": "bredbart",
           "normal": "kärnat",
           "hard": "saltat"
-        }
-      },
-      "en": {
-        "word": "Butter",
-        "aliases": [],
-        "hints": {
-          "easy": "spread",
-          "normal": "churned",
-          "hard": "salted"
         }
       }
     }
@@ -4513,15 +3115,6 @@
           "normal": "toppar",
           "hard": "fet"
         }
-      },
-      "en": {
-        "word": "Whipping cream",
-        "aliases": [],
-        "hints": {
-          "easy": "whipped",
-          "normal": "peaks",
-          "hard": "rich"
-        }
       }
     }
   },
@@ -4539,15 +3132,6 @@
         "hints": {
           "easy": "syrlighet",
           "normal": "klick",
-          "hard": "taco"
-        }
-      },
-      "en": {
-        "word": "Sour cream",
-        "aliases": [],
-        "hints": {
-          "easy": "tang",
-          "normal": "dollop",
           "hard": "taco"
         }
       }
@@ -4571,15 +3155,6 @@
           "normal": "grynig",
           "hard": "protein"
         }
-      },
-      "en": {
-        "word": "Cottage cheese",
-        "aliases": [],
-        "hints": {
-          "easy": "curds",
-          "normal": "lumpy",
-          "hard": "protein"
-        }
       }
     }
   },
@@ -4598,15 +3173,6 @@
           "easy": "grillost",
           "normal": "gnisslar",
           "hard": "salt"
-        }
-      },
-      "en": {
-        "word": "Halloumi",
-        "aliases": [],
-        "hints": {
-          "easy": "grilled",
-          "normal": "squeaky",
-          "hard": "salty"
         }
       }
     }
@@ -4629,17 +3195,6 @@
           "normal": "saltlake",
           "hard": "Grekland"
         }
-      },
-      "en": {
-        "word": "Feta",
-        "aliases": [
-          "Feta cheese"
-        ],
-        "hints": {
-          "easy": "crumbly",
-          "normal": "brine",
-          "hard": "Greece"
-        }
       }
     }
   },
@@ -4658,15 +3213,6 @@
           "easy": "pizza",
           "normal": "smälter",
           "hard": "buffelmjölk"
-        }
-      },
-      "en": {
-        "word": "Mozzarella",
-        "aliases": [],
-        "hints": {
-          "easy": "pizza",
-          "normal": "melty",
-          "hard": "buffalo"
         }
       }
     }
@@ -4689,17 +3235,6 @@
           "normal": "lagrad",
           "hard": "umami"
         }
-      },
-      "en": {
-        "word": "Parmesan",
-        "aliases": [
-          "Parmigiano Reggiano"
-        ],
-        "hints": {
-          "easy": "grated",
-          "normal": "aged",
-          "hard": "umami"
-        }
       }
     }
   },
@@ -4718,15 +3253,6 @@
           "easy": "blåmögel",
           "normal": "italiensk",
           "hard": "ådrig"
-        }
-      },
-      "en": {
-        "word": "Gorgonzola",
-        "aliases": [],
-        "hints": {
-          "easy": "blue",
-          "normal": "Italian",
-          "hard": "veined"
         }
       }
     }
@@ -4747,15 +3273,6 @@
           "normal": "pressad",
           "hard": "dressing"
         }
-      },
-      "en": {
-        "word": "Olive oil",
-        "aliases": [],
-        "hints": {
-          "easy": "pressed",
-          "normal": "dressing",
-          "hard": "Mediterranean"
-        }
       }
     }
   },
@@ -4774,15 +3291,6 @@
           "easy": "kokos",
           "normal": "gräddigt",
           "hard": "curryrätt"
-        }
-      },
-      "en": {
-        "word": "Coconut milk",
-        "aliases": [],
-        "hints": {
-          "easy": "creamy",
-          "normal": "curries",
-          "hard": "tropical"
         }
       }
     }
@@ -4803,15 +3311,6 @@
           "normal": "umami",
           "hard": "fermenterad"
         }
-      },
-      "en": {
-        "word": "Soy sauce",
-        "aliases": [],
-        "hints": {
-          "easy": "salty",
-          "normal": "umami",
-          "hard": "fermented"
-        }
       }
     }
   },
@@ -4830,15 +3329,6 @@
           "easy": "ansjovis",
           "normal": "umami",
           "hard": "fermenterad"
-        }
-      },
-      "en": {
-        "word": "Fish sauce",
-        "aliases": [],
-        "hints": {
-          "easy": "anchovies",
-          "normal": "umami",
-          "hard": "fermented"
         }
       }
     }
@@ -4861,17 +3351,6 @@
           "normal": "korv",
           "hard": "stark"
         }
-      },
-      "en": {
-        "word": "Prepared mustard",
-        "aliases": [
-          "Mustard"
-        ],
-        "hints": {
-          "easy": "seeds",
-          "normal": "sausage",
-          "hard": "pungent"
-        }
       }
     }
   },
@@ -4890,15 +3369,6 @@
           "easy": "tomat",
           "normal": "pommes",
           "hard": "flaska"
-        }
-      },
-      "en": {
-        "word": "Ketchup",
-        "aliases": [],
-        "hints": {
-          "easy": "tomato",
-          "normal": "fries",
-          "hard": "bottle"
         }
       }
     }
@@ -4921,17 +3391,6 @@
           "normal": "hummus",
           "hard": "pasta"
         }
-      },
-      "en": {
-        "word": "Tahini",
-        "aliases": [
-          "Sesame paste"
-        ],
-        "hints": {
-          "easy": "sesame",
-          "normal": "hummus",
-          "hard": "paste"
-        }
       }
     }
   },
@@ -4950,15 +3409,6 @@
           "easy": "lussekatt",
           "normal": "krokus",
           "hard": "dyr"
-        }
-      },
-      "en": {
-        "word": "Saffron",
-        "aliases": [],
-        "hints": {
-          "easy": "crocus",
-          "normal": "threads",
-          "hard": "expensive"
         }
       }
     }
@@ -4979,15 +3429,6 @@
           "normal": "röd",
           "hard": "Spanien"
         }
-      },
-      "en": {
-        "word": "Smoked paprika",
-        "aliases": [],
-        "hints": {
-          "easy": "smoky",
-          "normal": "red",
-          "hard": "Spain"
-        }
       }
     }
   },
@@ -5006,15 +3447,6 @@
           "easy": "kryddkapsel",
           "normal": "bullar",
           "hard": "arom"
-        }
-      },
-      "en": {
-        "word": "Cardamom",
-        "aliases": [],
-        "hints": {
-          "easy": "pods",
-          "normal": "buns",
-          "hard": "aroma"
         }
       }
     }
@@ -5037,17 +3469,6 @@
           "normal": "Modena",
           "hard": "druvmust"
         }
-      },
-      "en": {
-        "word": "Balsamic vinegar",
-        "aliases": [
-          "Balsamic"
-        ],
-        "hints": {
-          "easy": "dressing",
-          "normal": "Modena",
-          "hard": "grape"
-        }
       }
     }
   },
@@ -5067,15 +3488,6 @@
           "normal": "saltlake",
           "hard": "pikant"
         }
-      },
-      "en": {
-        "word": "Capers",
-        "aliases": [],
-        "hints": {
-          "easy": "buds",
-          "normal": "brine",
-          "hard": "piquant"
-        }
       }
     }
   },
@@ -5094,15 +3506,6 @@
           "easy": "pannkakor",
           "normal": "sav",
           "hard": "Kanada"
-        }
-      },
-      "en": {
-        "word": "Maple syrup",
-        "aliases": [],
-        "hints": {
-          "easy": "pancakes",
-          "normal": "sap",
-          "hard": "Canada"
         }
       }
     }
@@ -5125,17 +3528,6 @@
           "normal": "mineral",
           "hard": "kolsyra"
         }
-      },
-      "en": {
-        "word": "Sparkling water",
-        "aliases": [
-          "Bubbly water"
-        ],
-        "hints": {
-          "easy": "bubbles",
-          "normal": "mineral",
-          "hard": "carbonation"
-        }
       }
     }
   },
@@ -5154,15 +3546,6 @@
           "easy": "frukost",
           "normal": "pressad",
           "hard": "fruktkött"
-        }
-      },
-      "en": {
-        "word": "Orange juice",
-        "aliases": [],
-        "hints": {
-          "easy": "breakfast",
-          "normal": "squeezed",
-          "hard": "pulp"
         }
       }
     }
@@ -5183,15 +3566,6 @@
           "normal": "frukost",
           "hard": "äppelmust"
         }
-      },
-      "en": {
-        "word": "Apple juice",
-        "aliases": [],
-        "hints": {
-          "easy": "press",
-          "normal": "breakfast",
-          "hard": "orchard"
-        }
       }
     }
   },
@@ -5210,15 +3584,6 @@
           "easy": "ingefärssmak",
           "normal": "bubblor",
           "hard": "drinkmix"
-        }
-      },
-      "en": {
-        "word": "Ginger ale",
-        "aliases": [],
-        "hints": {
-          "easy": "spicy",
-          "normal": "fizzy",
-          "hard": "mixer"
         }
       }
     }
@@ -5241,15 +3606,6 @@
           "normal": "brun",
           "hard": "koffein"
         }
-      },
-      "en": {
-        "word": "Cola",
-        "aliases": [],
-        "hints": {
-          "easy": "fizzy",
-          "normal": "brown",
-          "hard": "caffeine"
-        }
       }
     }
   },
@@ -5270,15 +3626,6 @@
           "easy": "citrus",
           "normal": "svalka",
           "hard": "socker"
-        }
-      },
-      "en": {
-        "word": "Lemonade",
-        "aliases": [],
-        "hints": {
-          "easy": "citrus",
-          "normal": "refreshing",
-          "hard": "sugar"
         }
       }
     }
@@ -5301,17 +3648,6 @@
           "normal": "bitter",
           "hard": "gin"
         }
-      },
-      "en": {
-        "word": "Tonic water",
-        "aliases": [
-          "Tonic"
-        ],
-        "hints": {
-          "easy": "quinine",
-          "normal": "bitter",
-          "hard": "gin"
-        }
       }
     }
   },
@@ -5330,17 +3666,6 @@
           "easy": "kakao",
           "normal": "kopp",
           "hard": "vinter"
-        }
-      },
-      "en": {
-        "word": "Hot chocolate",
-        "aliases": [
-          "Hot cocoa"
-        ],
-        "hints": {
-          "easy": "cocoa",
-          "normal": "mug",
-          "hard": "winter"
         }
       }
     }
@@ -5363,15 +3688,6 @@
           "normal": "sugrör",
           "hard": "skummig"
         }
-      },
-      "en": {
-        "word": "Milkshake",
-        "aliases": [],
-        "hints": {
-          "easy": "vanilla",
-          "normal": "straw",
-          "hard": "frothy"
-        }
       }
     }
   },
@@ -5390,15 +3706,6 @@
           "easy": "fermenterad",
           "normal": "kultur",
           "hard": "syrlig"
-        }
-      },
-      "en": {
-        "word": "Kefir",
-        "aliases": [],
-        "hints": {
-          "easy": "fermented",
-          "normal": "cultures",
-          "hard": "tangy"
         }
       }
     }
@@ -5419,15 +3726,6 @@
           "normal": "fermenterad",
           "hard": "bakteriekultur"
         }
-      },
-      "en": {
-        "word": "Kombucha",
-        "aliases": [],
-        "hints": {
-          "easy": "tea",
-          "normal": "fermented",
-          "hard": "culture"
-        }
       }
     }
   },
@@ -5445,15 +3743,6 @@
         "hints": {
           "easy": "koncentrerat",
           "normal": "kopp",
-          "hard": "crema"
-        }
-      },
-      "en": {
-        "word": "Espresso",
-        "aliases": [],
-        "hints": {
-          "easy": "concentrated",
-          "normal": "shot",
           "hard": "crema"
         }
       }
@@ -5474,17 +3763,6 @@
           "easy": "brygga",
           "normal": "kanna",
           "hard": "droppar"
-        }
-      },
-      "en": {
-        "word": "Filter coffee",
-        "aliases": [
-          "Drip coffee"
-        ],
-        "hints": {
-          "easy": "brew",
-          "normal": "carafe",
-          "hard": "drip"
         }
       }
     }
@@ -5508,18 +3786,6 @@
           "normal": "espresso",
           "hard": "skikt"
         }
-      },
-      "en": {
-        "word": "Caffè latte",
-        "aliases": [
-          "Cafe latte",
-          "Latte"
-        ],
-        "hints": {
-          "easy": "milk",
-          "normal": "espresso",
-          "hard": "layered"
-        }
       }
     }
   },
@@ -5538,15 +3804,6 @@
           "easy": "mjölkskum",
           "normal": "espresso",
           "hard": "kopp"
-        }
-      },
-      "en": {
-        "word": "Cappuccino",
-        "aliases": [],
-        "hints": {
-          "easy": "foam",
-          "normal": "espresso",
-          "hard": "cup"
         }
       }
     }
@@ -5569,17 +3826,6 @@
           "normal": "vispa",
           "hard": "Japan"
         }
-      },
-      "en": {
-        "word": "Matcha tea",
-        "aliases": [
-          "Matcha"
-        ],
-        "hints": {
-          "easy": "green",
-          "normal": "whisk",
-          "hard": "Japanese"
-        }
       }
     }
   },
@@ -5598,15 +3844,6 @@
           "easy": "blommor",
           "normal": "ört",
           "hard": "kväll"
-        }
-      },
-      "en": {
-        "word": "Chamomile tea",
-        "aliases": [],
-        "hints": {
-          "easy": "flowers",
-          "normal": "herbal",
-          "hard": "evening"
         }
       }
     }
@@ -5630,18 +3867,6 @@
           "normal": "sugrör",
           "hard": "pärlor"
         }
-      },
-      "en": {
-        "word": "Bubble tea",
-        "aliases": [
-          "Boba tea",
-          "Boba"
-        ],
-        "hints": {
-          "easy": "tapioca",
-          "normal": "straw",
-          "hard": "pearls"
-        }
       }
     }
   },
@@ -5660,18 +3885,6 @@
           "easy": "jul",
           "normal": "kryddor",
           "hard": "russin"
-        }
-      },
-      "en": {
-        "word": "Swedish mulled wine",
-        "aliases": [
-          "Glögg",
-          "Glogg"
-        ],
-        "hints": {
-          "easy": "Christmas",
-          "normal": "spices",
-          "hard": "raisins"
         }
       }
     }
@@ -5692,15 +3905,6 @@
           "normal": "lime",
           "hard": "rom"
         }
-      },
-      "en": {
-        "word": "Mojito",
-        "aliases": [],
-        "hints": {
-          "easy": "mint",
-          "normal": "lime",
-          "hard": "rum"
-        }
       }
     }
   },
@@ -5720,15 +3924,6 @@
           "normal": "lime",
           "hard": "saltkant"
         }
-      },
-      "en": {
-        "word": "Margarita",
-        "aliases": [],
-        "hints": {
-          "easy": "tequila",
-          "normal": "lime",
-          "hard": "rim"
-        }
       }
     }
   },
@@ -5747,15 +3942,6 @@
           "easy": "majs",
           "normal": "bio",
           "hard": "puff"
-        }
-      },
-      "en": {
-        "word": "Popcorn",
-        "aliases": [],
-        "hints": {
-          "easy": "corn",
-          "normal": "cinema",
-          "hard": "bursting"
         }
       }
     }
@@ -5778,17 +3964,6 @@
           "normal": "krisp",
           "hard": "fredagsmys"
         }
-      },
-      "en": {
-        "word": "Potato chips",
-        "aliases": [
-          "Crisps"
-        ],
-        "hints": {
-          "easy": "salty",
-          "normal": "crunchy",
-          "hard": "snacking"
-        }
       }
     }
   },
@@ -5808,17 +3983,6 @@
         "hints": {
           "easy": "trianglar",
           "normal": "majs",
-          "hard": "salsa"
-        }
-      },
-      "en": {
-        "word": "Tortilla chips",
-        "aliases": [
-          "Nacho chips"
-        ],
-        "hints": {
-          "easy": "triangles",
-          "normal": "corn",
           "hard": "salsa"
         }
       }
@@ -5842,17 +4006,6 @@
           "normal": "bågar",
           "hard": "fingrar"
         }
-      },
-      "en": {
-        "word": "Cheese puffs",
-        "aliases": [
-          "Cheese curls"
-        ],
-        "hints": {
-          "easy": "orange",
-          "normal": "curls",
-          "hard": "fingertips"
-        }
       }
     }
   },
@@ -5874,17 +4027,6 @@
           "normal": "krisp",
           "hard": "umami"
         }
-      },
-      "en": {
-        "word": "Roasted seaweed snacks",
-        "aliases": [
-          "Seaweed crisps"
-        ],
-        "hints": {
-          "easy": "nori",
-          "normal": "crisp",
-          "hard": "umami"
-        }
       }
     }
   },
@@ -5904,15 +4046,6 @@
           "normal": "riskorn",
           "hard": "rund"
         }
-      },
-      "en": {
-        "word": "Puffed rice cakes",
-        "aliases": [],
-        "hints": {
-          "easy": "puffed",
-          "normal": "grains",
-          "hard": "round"
-        }
       }
     }
   },
@@ -5931,15 +4064,6 @@
           "easy": "saltat",
           "normal": "baljväxt",
           "hard": "tilltugg"
-        }
-      },
-      "en": {
-        "word": "Roasted peanuts",
-        "aliases": [],
-        "hints": {
-          "easy": "salted",
-          "normal": "legumes",
-          "hard": "snack"
         }
       }
     }
@@ -5962,15 +4086,6 @@
           "normal": "skal",
           "hard": "glass"
         }
-      },
-      "en": {
-        "word": "Pistachios",
-        "aliases": [],
-        "hints": {
-          "easy": "green",
-          "normal": "shells",
-          "hard": "gelato"
-        }
       }
     }
   },
@@ -5991,15 +4106,6 @@
           "easy": "nötter",
           "normal": "russin",
           "hard": "vandring"
-        }
-      },
-      "en": {
-        "word": "Trail mix",
-        "aliases": [],
-        "hints": {
-          "easy": "nuts",
-          "normal": "raisins",
-          "hard": "hiking"
         }
       }
     }
@@ -6022,17 +4128,6 @@
           "normal": "mellanmål",
           "hard": "omslag"
         }
-      },
-      "en": {
-        "word": "Granola bar",
-        "aliases": [
-          "Muesli bar"
-        ],
-        "hints": {
-          "easy": "oats",
-          "normal": "snack",
-          "hard": "wrapper"
-        }
       }
     }
   },
@@ -6052,15 +4147,6 @@
         "hints": {
           "easy": "torkat",
           "normal": "segt",
-          "hard": "protein"
-        }
-      },
-      "en": {
-        "word": "Beef jerky",
-        "aliases": [],
-        "hints": {
-          "easy": "dried",
-          "normal": "chewy",
           "hard": "protein"
         }
       }
@@ -6084,15 +4170,6 @@
           "normal": "figurer",
           "hard": "godispåse"
         }
-      },
-      "en": {
-        "word": "Gummy bears",
-        "aliases": [],
-        "hints": {
-          "easy": "gelatin",
-          "normal": "shapes",
-          "hard": "sweets"
-        }
       }
     }
   },
@@ -6114,18 +4191,6 @@
           "normal": "svart",
           "hard": "godis"
         }
-      },
-      "en": {
-        "word": "Salty liquorice",
-        "aliases": [
-          "Salty licorice",
-          "Salmiak candy"
-        ],
-        "hints": {
-          "easy": "ammonium",
-          "normal": "black",
-          "hard": "sweets"
-        }
       }
     }
   },
@@ -6144,15 +4209,6 @@
           "easy": "karamell",
           "normal": "knäckig",
           "hard": "nötter"
-        }
-      },
-      "en": {
-        "word": "Peanut brittle",
-        "aliases": [],
-        "hints": {
-          "easy": "caramel",
-          "normal": "crunchy",
-          "hard": "nuts"
         }
       }
     }
@@ -6175,15 +4231,6 @@
           "normal": "segt",
           "hard": "socker"
         }
-      },
-      "en": {
-        "word": "Toffee",
-        "aliases": [],
-        "hints": {
-          "easy": "caramel",
-          "normal": "chewy",
-          "hard": "sugar"
-        }
       }
     }
   },
@@ -6204,17 +4251,6 @@
           "easy": "sockerfluff",
           "normal": "grillspett",
           "hard": "kladd"
-        }
-      },
-      "en": {
-        "word": "Marshmallows",
-        "aliases": [
-          "Marshmallow"
-        ],
-        "hints": {
-          "easy": "fluffy",
-          "normal": "roasting",
-          "hard": "sticky"
         }
       }
     }
@@ -6238,17 +4274,6 @@
           "easy": "fläta",
           "normal": "chokladsnurra",
           "hard": "jästdeg"
-        }
-      },
-      "en": {
-        "word": "Chocolate babka",
-        "aliases": [
-          "Babka"
-        ],
-        "hints": {
-          "easy": "braid",
-          "normal": "swirls",
-          "hard": "yeast"
         }
       }
     }

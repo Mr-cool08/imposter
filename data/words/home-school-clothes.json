@@ -17,15 +17,6 @@
           "normal": "läroböcker",
           "hard": "packning"
         }
-      },
-      "en": {
-        "word": "School backpack",
-        "aliases": [],
-        "hints": {
-          "easy": "straps",
-          "normal": "textbooks",
-          "hard": "packing"
-        }
       }
     }
   },
@@ -46,15 +37,6 @@
           "easy": "pennor",
           "normal": "dragkedja",
           "hard": "ordning"
-        }
-      },
-      "en": {
-        "word": "Pencil case",
-        "aliases": [],
-        "hints": {
-          "easy": "pencils",
-          "normal": "zipper",
-          "hard": "organization"
         }
       }
     }
@@ -77,17 +59,6 @@
           "normal": "smulor",
           "hard": "omtag"
         }
-      },
-      "en": {
-        "word": "Eraser",
-        "aliases": [
-          "Pencil eraser"
-        ],
-        "hints": {
-          "easy": "graphite",
-          "normal": "crumbs",
-          "hard": "correction"
-        }
       }
     }
   },
@@ -108,15 +79,6 @@
           "easy": "blyerts",
           "normal": "spån",
           "hard": "spets"
-        }
-      },
-      "en": {
-        "word": "Pencil sharpener",
-        "aliases": [],
-        "hints": {
-          "easy": "graphite",
-          "normal": "shavings",
-          "hard": "point"
         }
       }
     }
@@ -139,15 +101,6 @@
           "normal": "tavla",
           "hard": "knarr"
         }
-      },
-      "en": {
-        "word": "Blackboard chalk",
-        "aliases": [],
-        "hints": {
-          "easy": "dust",
-          "normal": "board",
-          "hard": "squeak"
-        }
       }
     }
   },
@@ -167,15 +120,6 @@
         "hints": {
           "easy": "tusch",
           "normal": "avtorkning",
-          "hard": "magnet"
-        }
-      },
-      "en": {
-        "word": "Whiteboard",
-        "aliases": [],
-        "hints": {
-          "easy": "marker",
-          "normal": "wiping",
           "hard": "magnet"
         }
       }
@@ -199,15 +143,6 @@
           "normal": "sudd",
           "hard": "damm"
         }
-      },
-      "en": {
-        "word": "Blackboard",
-        "aliases": [],
-        "hints": {
-          "easy": "chalk",
-          "normal": "wiping",
-          "hard": "dust"
-        }
       }
     }
   },
@@ -228,15 +163,6 @@
           "easy": "cirkel",
           "normal": "spets",
           "hard": "radie"
-        }
-      },
-      "en": {
-        "word": "Drawing compass",
-        "aliases": [],
-        "hints": {
-          "easy": "circle",
-          "normal": "point",
-          "hard": "radius"
         }
       }
     }
@@ -259,15 +185,6 @@
           "normal": "halvcirkel",
           "hard": "mätning"
         }
-      },
-      "en": {
-        "word": "Protractor",
-        "aliases": [],
-        "hints": {
-          "easy": "angle",
-          "normal": "semicircle",
-          "hard": "measurement"
-        }
       }
     }
   },
@@ -288,15 +205,6 @@
           "easy": "geometri",
           "normal": "rätvinklig",
           "hard": "ritning"
-        }
-      },
-      "en": {
-        "word": "Set square",
-        "aliases": [],
-        "hints": {
-          "easy": "geometry",
-          "normal": "perpendicular",
-          "hard": "drafting"
         }
       }
     }
@@ -319,15 +227,6 @@
           "normal": "rak",
           "hard": "mätning"
         }
-      },
-      "en": {
-        "word": "Ruler",
-        "aliases": [],
-        "hints": {
-          "easy": "centimeters",
-          "normal": "straight",
-          "hard": "measurement"
-        }
       }
     }
   },
@@ -347,17 +246,6 @@
         "hints": {
           "easy": "rader",
           "normal": "anteckningar",
-          "hard": "spiral"
-        }
-      },
-      "en": {
-        "word": "Exercise book",
-        "aliases": [
-          "Composition book"
-        ],
-        "hints": {
-          "easy": "lines",
-          "normal": "notes",
           "hard": "spiral"
         }
       }
@@ -381,15 +269,6 @@
           "normal": "koordinater",
           "hard": "axlar"
         }
-      },
-      "en": {
-        "word": "Graph paper",
-        "aliases": [],
-        "hints": {
-          "easy": "squares",
-          "normal": "coordinates",
-          "hard": "axes"
-        }
       }
     }
   },
@@ -410,15 +289,6 @@
           "easy": "kapitel",
           "normal": "uppslag",
           "hard": "fakta"
-        }
-      },
-      "en": {
-        "word": "Textbook",
-        "aliases": [],
-        "hints": {
-          "easy": "chapters",
-          "normal": "pages",
-          "hard": "facts"
         }
       }
     }
@@ -441,15 +311,6 @@
           "normal": "ifyllnad",
           "hard": "övning"
         }
-      },
-      "en": {
-        "word": "Workbook",
-        "aliases": [],
-        "hints": {
-          "easy": "assignments",
-          "normal": "blanks",
-          "hard": "practice"
-        }
       }
     }
   },
@@ -470,15 +331,6 @@
           "easy": "repetition",
           "normal": "vändning",
           "hard": "minne"
-        }
-      },
-      "en": {
-        "word": "Flashcard",
-        "aliases": [],
-        "hints": {
-          "easy": "revision",
-          "normal": "flipping",
-          "hard": "memory"
         }
       }
     }
@@ -501,15 +353,6 @@
           "normal": "grupper",
           "hard": "atomnummer"
         }
-      },
-      "en": {
-        "word": "Periodic table",
-        "aliases": [],
-        "hints": {
-          "easy": "elements",
-          "normal": "groups",
-          "hard": "protons"
-        }
       }
     }
   },
@@ -529,15 +372,6 @@
         "hints": {
           "easy": "jordklot",
           "normal": "kontinenter",
-          "hard": "rotation"
-        }
-      },
-      "en": {
-        "word": "Globe",
-        "aliases": [],
-        "hints": {
-          "easy": "world",
-          "normal": "continents",
           "hard": "rotation"
         }
       }
@@ -561,15 +395,6 @@
           "normal": "länder",
           "hard": "upphängning"
         }
-      },
-      "en": {
-        "word": "Wall map",
-        "aliases": [],
-        "hints": {
-          "easy": "geography",
-          "normal": "countries",
-          "hard": "hanging"
-        }
       }
     }
   },
@@ -590,15 +415,6 @@
           "easy": "ben",
           "normal": "leder",
           "hard": "anatomi"
-        }
-      },
-      "en": {
-        "word": "Model skeleton",
-        "aliases": [],
-        "hints": {
-          "easy": "bones",
-          "normal": "joints",
-          "hard": "anatomy"
         }
       }
     }
@@ -621,15 +437,6 @@
           "normal": "glas",
           "hard": "ställ"
         }
-      },
-      "en": {
-        "word": "Test tube",
-        "aliases": [],
-        "hints": {
-          "easy": "laboratory",
-          "normal": "glass",
-          "hard": "rack"
-        }
       }
     }
   },
@@ -650,15 +457,6 @@
           "easy": "vätska",
           "normal": "pip",
           "hard": "blandning"
-        }
-      },
-      "en": {
-        "word": "Beaker",
-        "aliases": [],
-        "hints": {
-          "easy": "liquid",
-          "normal": "spout",
-          "hard": "mixing"
         }
       }
     }
@@ -681,15 +479,6 @@
           "normal": "skala",
           "hard": "menisk"
         }
-      },
-      "en": {
-        "word": "Graduated cylinder",
-        "aliases": [],
-        "hints": {
-          "easy": "volume",
-          "normal": "scale",
-          "hard": "meniscus"
-        }
       }
     }
   },
@@ -710,15 +499,6 @@
           "easy": "bakterier",
           "normal": "odling",
           "hard": "inkubation"
-        }
-      },
-      "en": {
-        "word": "Petri dish",
-        "aliases": [],
-        "hints": {
-          "easy": "bacteria",
-          "normal": "culture",
-          "hard": "incubation"
         }
       }
     }
@@ -741,15 +521,6 @@
           "normal": "gas",
           "hard": "upphettning"
         }
-      },
-      "en": {
-        "word": "Bunsen burner",
-        "aliases": [],
-        "hints": {
-          "easy": "flame",
-          "normal": "gas",
-          "hard": "heating"
-        }
       }
     }
   },
@@ -770,15 +541,6 @@
           "easy": "surhet",
           "normal": "färgskala",
           "hard": "indikator"
-        }
-      },
-      "en": {
-        "word": "pH test paper",
-        "aliases": [],
-        "hints": {
-          "easy": "acidity",
-          "normal": "colors",
-          "hard": "indicator"
         }
       }
     }
@@ -801,15 +563,6 @@
           "normal": "preparat",
           "hard": "genomskinlig"
         }
-      },
-      "en": {
-        "word": "Microscope slide",
-        "aliases": [],
-        "hints": {
-          "easy": "microscope",
-          "normal": "specimen",
-          "hard": "transparent"
-        }
       }
     }
   },
@@ -830,15 +583,6 @@
           "easy": "pärlor",
           "normal": "räkning",
           "hard": "pinnar"
-        }
-      },
-      "en": {
-        "word": "Abacus",
-        "aliases": [],
-        "hints": {
-          "easy": "beads",
-          "normal": "arithmetic",
-          "hard": "rods"
         }
       }
     }
@@ -861,15 +605,6 @@
           "normal": "byggklossar",
           "hard": "grupper"
         }
-      },
-      "en": {
-        "word": "Counting cubes",
-        "aliases": [],
-        "hints": {
-          "easy": "counting",
-          "normal": "blocks",
-          "hard": "groups"
-        }
       }
     }
   },
@@ -890,15 +625,6 @@
           "easy": "delar",
           "normal": "tårtbitar",
           "hard": "helhet"
-        }
-      },
-      "en": {
-        "word": "Fraction circles",
-        "aliases": [],
-        "hints": {
-          "easy": "pieces",
-          "normal": "wedges",
-          "hard": "whole"
         }
       }
     }
@@ -921,15 +647,6 @@
           "normal": "korridor",
           "hard": "böcker"
         }
-      },
-      "en": {
-        "word": "School locker",
-        "aliases": [],
-        "hints": {
-          "easy": "lock",
-          "normal": "hallway",
-          "hard": "books"
-        }
       }
     }
   },
@@ -950,17 +667,6 @@
           "easy": "upprop",
           "normal": "namn",
           "hard": "frånvaro"
-        }
-      },
-      "en": {
-        "word": "Attendance register",
-        "aliases": [
-          "Class attendance sheet"
-        ],
-        "hints": {
-          "easy": "register",
-          "normal": "names",
-          "hard": "absence"
         }
       }
     }
@@ -983,17 +689,6 @@
           "normal": "tider",
           "hard": "veckor"
         }
-      },
-      "en": {
-        "word": "School timetable",
-        "aliases": [
-          "Class schedule"
-        ],
-        "hints": {
-          "easy": "lessons",
-          "normal": "times",
-          "hard": "weeks"
-        }
       }
     }
   },
@@ -1014,17 +709,6 @@
           "easy": "elever",
           "normal": "uppställning",
           "hard": "minne"
-        }
-      },
-      "en": {
-        "word": "Class photo",
-        "aliases": [
-          "Class picture"
-        ],
-        "hints": {
-          "easy": "pupils",
-          "normal": "posing",
-          "hard": "keepsake"
         }
       }
     }
@@ -1047,15 +731,6 @@
           "normal": "poäng",
           "hard": "skrivtid"
         }
-      },
-      "en": {
-        "word": "Exam paper",
-        "aliases": [],
-        "hints": {
-          "easy": "questions",
-          "normal": "marks",
-          "hard": "timed"
-        }
       }
     }
   },
@@ -1076,15 +751,6 @@
           "easy": "resultat",
           "normal": "termin",
           "hard": "omdöme"
-        }
-      },
-      "en": {
-        "word": "Report card",
-        "aliases": [],
-        "hints": {
-          "easy": "grades",
-          "normal": "term",
-          "hard": "evaluation"
         }
       }
     }
@@ -1107,15 +773,6 @@
           "normal": "signal",
           "hard": "korridor"
         }
-      },
-      "en": {
-        "word": "School bell",
-        "aliases": [],
-        "hints": {
-          "easy": "recess",
-          "normal": "signal",
-          "hard": "hallway"
-        }
       }
     }
   },
@@ -1136,15 +793,6 @@
           "easy": "legitimation",
           "normal": "foto",
           "hard": "passerkontroll"
-        }
-      },
-      "en": {
-        "word": "Student ID card",
-        "aliases": [],
-        "hints": {
-          "easy": "identification",
-          "normal": "photo",
-          "hard": "access"
         }
       }
     }
@@ -1167,15 +815,6 @@
           "normal": "bomull",
           "hard": "tryck"
         }
-      },
-      "en": {
-        "word": "T-shirt",
-        "aliases": [],
-        "hints": {
-          "easy": "short-sleeved",
-          "normal": "cotton",
-          "hard": "print"
-        }
       }
     }
   },
@@ -1196,17 +835,6 @@
           "easy": "knappar",
           "normal": "krage",
           "hard": "manschetter"
-        }
-      },
-      "en": {
-        "word": "Button-up shirt",
-        "aliases": [
-          "Button-front shirt"
-        ],
-        "hints": {
-          "easy": "buttons",
-          "normal": "collar",
-          "hard": "cuffs"
         }
       }
     }
@@ -1229,15 +857,6 @@
           "normal": "tyg",
           "hard": "drapering"
         }
-      },
-      "en": {
-        "word": "Blouse",
-        "aliases": [],
-        "hints": {
-          "easy": "top",
-          "normal": "fabric",
-          "hard": "drape"
-        }
       }
     }
   },
@@ -1259,15 +878,6 @@
           "normal": "träning",
           "hard": "sommar"
         }
-      },
-      "en": {
-        "word": "Tank top",
-        "aliases": [],
-        "hints": {
-          "easy": "sleeveless",
-          "normal": "exercise",
-          "hard": "summer"
-        }
       }
     }
   },
@@ -1287,15 +897,6 @@
         "hints": {
           "easy": "krage",
           "normal": "knappslå",
-          "hard": "tennis"
-        }
-      },
-      "en": {
-        "word": "Polo shirt",
-        "aliases": [],
-        "hints": {
-          "easy": "collar",
-          "normal": "buttons",
           "hard": "tennis"
         }
       }
@@ -1319,17 +920,6 @@
           "normal": "känguruficka",
           "hard": "mys"
         }
-      },
-      "en": {
-        "word": "Hoodie",
-        "aliases": [
-          "Hooded sweatshirt"
-        ],
-        "hints": {
-          "easy": "hood",
-          "normal": "pouch",
-          "hard": "cosy"
-        }
       }
     }
   },
@@ -1350,15 +940,6 @@
           "easy": "fleece",
           "normal": "ribbkant",
           "hard": "ledig"
-        }
-      },
-      "en": {
-        "word": "Sweatshirt",
-        "aliases": [],
-        "hints": {
-          "easy": "fleece",
-          "normal": "ribbing",
-          "hard": "casual"
         }
       }
     }
@@ -1381,15 +962,6 @@
           "normal": "knäppning",
           "hard": "lager"
         }
-      },
-      "en": {
-        "word": "Cardigan",
-        "aliases": [],
-        "hints": {
-          "easy": "knitted",
-          "normal": "buttons",
-          "hard": "layering"
-        }
       }
     }
   },
@@ -1410,17 +982,6 @@
           "easy": "högkrage",
           "normal": "hals",
           "hard": "vikning"
-        }
-      },
-      "en": {
-        "word": "Turtleneck",
-        "aliases": [
-          "Rollneck"
-        ],
-        "hints": {
-          "easy": "folded",
-          "normal": "neck",
-          "hard": "fold"
         }
       }
     }
@@ -1443,17 +1004,6 @@
           "normal": "sömmar",
           "hard": "metallknappar"
         }
-      },
-      "en": {
-        "word": "Denim jacket",
-        "aliases": [
-          "Jean jacket"
-        ],
-        "hints": {
-          "easy": "denim",
-          "normal": "seams",
-          "hard": "studs"
-        }
       }
     }
   },
@@ -1474,15 +1024,6 @@
           "easy": "vattentät",
           "normal": "luva",
           "hard": "skyfall"
-        }
-      },
-      "en": {
-        "word": "Raincoat",
-        "aliases": [],
-        "hints": {
-          "easy": "waterproof",
-          "normal": "hood",
-          "hard": "downpour"
         }
       }
     }
@@ -1505,15 +1046,6 @@
           "normal": "vinter",
           "hard": "isolering"
         }
-      },
-      "en": {
-        "word": "Down jacket",
-        "aliases": [],
-        "hints": {
-          "easy": "feathers",
-          "normal": "winter",
-          "hard": "insulation"
-        }
       }
     }
   },
@@ -1534,15 +1066,6 @@
           "easy": "bälte",
           "normal": "dubbelknäppt",
           "hard": "stormklaff"
-        }
-      },
-      "en": {
-        "word": "Trench coat",
-        "aliases": [],
-        "hints": {
-          "easy": "belt",
-          "normal": "double-breasted",
-          "hard": "flap"
         }
       }
     }
@@ -1565,15 +1088,6 @@
           "normal": "skräddad",
           "hard": "kontor"
         }
-      },
-      "en": {
-        "word": "Blazer",
-        "aliases": [],
-        "hints": {
-          "easy": "lapels",
-          "normal": "tailored",
-          "hard": "office"
-        }
       }
     }
   },
@@ -1595,15 +1109,6 @@
           "normal": "ärmlös",
           "hard": "knappar"
         }
-      },
-      "en": {
-        "word": "Waistcoat",
-        "aliases": [],
-        "hints": {
-          "easy": "suit",
-          "normal": "sleeveless",
-          "hard": "buttons"
-        }
       }
     }
   },
@@ -1624,15 +1129,6 @@
           "easy": "svalstjärt",
           "normal": "gala",
           "hard": "formell"
-        }
-      },
-      "en": {
-        "word": "Tailcoat",
-        "aliases": [],
-        "hints": {
-          "easy": "tails",
-          "normal": "gala",
-          "hard": "formal"
         }
       }
     }
@@ -1657,15 +1153,6 @@
           "normal": "skydd",
           "hard": "experiment"
         }
-      },
-      "en": {
-        "word": "Lab coat",
-        "aliases": [],
-        "hints": {
-          "easy": "white",
-          "normal": "protection",
-          "hard": "experiment"
-        }
       }
     }
   },
@@ -1686,17 +1173,6 @@
           "easy": "hängslen",
           "normal": "snickare",
           "hard": "bröstficka"
-        }
-      },
-      "en": {
-        "word": "Dungarees",
-        "aliases": [
-          "Bib overalls"
-        ],
-        "hints": {
-          "easy": "suspenders",
-          "normal": "carpenter",
-          "hard": "bib"
         }
       }
     }
@@ -1719,15 +1195,6 @@
           "normal": "midja",
           "hard": "dragkedja"
         }
-      },
-      "en": {
-        "word": "Jumpsuit",
-        "aliases": [],
-        "hints": {
-          "easy": "onesie",
-          "normal": "waist",
-          "hard": "zipper"
-        }
       }
     }
   },
@@ -1748,15 +1215,6 @@
           "easy": "denim",
           "normal": "nitar",
           "hard": "fickor"
-        }
-      },
-      "en": {
-        "word": "Jeans",
-        "aliases": [],
-        "hints": {
-          "easy": "denim",
-          "normal": "rivets",
-          "hard": "pockets"
         }
       }
     }
@@ -1779,15 +1237,6 @@
           "normal": "kakifärgad",
           "hard": "pressveck"
         }
-      },
-      "en": {
-        "word": "Chinos",
-        "aliases": [],
-        "hints": {
-          "easy": "cotton",
-          "normal": "khaki",
-          "hard": "creases"
-        }
       }
     }
   },
@@ -1808,15 +1257,6 @@
           "easy": "resår",
           "normal": "ledigt",
           "hard": "snörning"
-        }
-      },
-      "en": {
-        "word": "Joggers",
-        "aliases": [],
-        "hints": {
-          "easy": "elastic",
-          "normal": "loungewear",
-          "hard": "drawstring"
         }
       }
     }
@@ -1839,15 +1279,6 @@
           "normal": "stretch",
           "hard": "lager"
         }
-      },
-      "en": {
-        "word": "Leggings",
-        "aliases": [],
-        "hints": {
-          "easy": "tight",
-          "normal": "stretchy",
-          "hard": "layering"
-        }
       }
     }
   },
@@ -1868,15 +1299,6 @@
           "easy": "kortbenad",
           "normal": "sommar",
           "hard": "knän"
-        }
-      },
-      "en": {
-        "word": "Shorts",
-        "aliases": [],
-        "hints": {
-          "easy": "cropped",
-          "normal": "summer",
-          "hard": "knees"
         }
       }
     }
@@ -1899,15 +1321,6 @@
           "normal": "tartan",
           "hard": "veck"
         }
-      },
-      "en": {
-        "word": "Kilt",
-        "aliases": [],
-        "hints": {
-          "easy": "Scottish",
-          "normal": "tartan",
-          "hard": "pleats"
-        }
       }
     }
   },
@@ -1928,15 +1341,6 @@
           "easy": "veck",
           "normal": "svaj",
           "hard": "pressning"
-        }
-      },
-      "en": {
-        "word": "Pleated skirt",
-        "aliases": [],
-        "hints": {
-          "easy": "pleats",
-          "normal": "swish",
-          "hard": "pressing"
         }
       }
     }
@@ -1961,17 +1365,6 @@
           "normal": "lång",
           "hard": "fest"
         }
-      },
-      "en": {
-        "word": "Evening gown",
-        "aliases": [
-          "Evening dress"
-        ],
-        "hints": {
-          "easy": "gala",
-          "normal": "long",
-          "hard": "formal"
-        }
       }
     }
   },
@@ -1992,15 +1385,6 @@
           "easy": "ärmlös",
           "normal": "lager",
           "hard": "hängslen"
-        }
-      },
-      "en": {
-        "word": "Pinafore dress",
-        "aliases": [],
-        "hints": {
-          "easy": "sleeveless",
-          "normal": "layering",
-          "hard": "straps"
         }
       }
     }
@@ -2023,15 +1407,6 @@
           "normal": "stretch",
           "hard": "finmaskig"
         }
-      },
-      "en": {
-        "word": "Tights",
-        "aliases": [],
-        "hints": {
-          "easy": "hosiery",
-          "normal": "stretch",
-          "hard": "sheer"
-        }
       }
     }
   },
@@ -2052,15 +1427,6 @@
           "easy": "fötter",
           "normal": "par",
           "hard": "tvätt"
-        }
-      },
-      "en": {
-        "word": "Socks",
-        "aliases": [],
-        "hints": {
-          "easy": "feet",
-          "normal": "pair",
-          "hard": "laundry"
         }
       }
     }
@@ -2083,17 +1449,6 @@
           "normal": "resår",
           "hard": "lösa"
         }
-      },
-      "en": {
-        "word": "Boxer shorts",
-        "aliases": [
-          "Boxers"
-        ],
-        "hints": {
-          "easy": "underwear",
-          "normal": "elastic",
-          "hard": "loose"
-        }
       }
     }
   },
@@ -2114,15 +1469,6 @@
           "easy": "kupa",
           "normal": "stöd",
           "hard": "band"
-        }
-      },
-      "en": {
-        "word": "Bra",
-        "aliases": [],
-        "hints": {
-          "easy": "cups",
-          "normal": "support",
-          "hard": "straps"
         }
       }
     }
@@ -2145,15 +1491,6 @@
           "normal": "slätt",
           "hard": "lager"
         }
-      },
-      "en": {
-        "word": "Slip",
-        "aliases": [],
-        "hints": {
-          "easy": "sheer",
-          "normal": "smooth",
-          "hard": "layer"
-        }
       }
     }
   },
@@ -2174,17 +1511,6 @@
           "easy": "säng",
           "normal": "mys",
           "hard": "natt"
-        }
-      },
-      "en": {
-        "word": "Pyjamas",
-        "aliases": [
-          "Pajamas"
-        ],
-        "hints": {
-          "easy": "bedtime",
-          "normal": "comfort",
-          "hard": "night"
         }
       }
     }
@@ -2207,15 +1533,6 @@
           "normal": "lös",
           "hard": "natt"
         }
-      },
-      "en": {
-        "word": "Nightgown",
-        "aliases": [],
-        "hints": {
-          "easy": "sleepwear",
-          "normal": "loose",
-          "hard": "night"
-        }
       }
     }
   },
@@ -2236,17 +1553,6 @@
           "easy": "morgonrock",
           "normal": "bälte",
           "hard": "frotté"
-        }
-      },
-      "en": {
-        "word": "Bathrobe",
-        "aliases": [
-          "Bath robe"
-        ],
-        "hints": {
-          "easy": "robe",
-          "normal": "belt",
-          "hard": "terrycloth"
         }
       }
     }
@@ -2269,15 +1575,6 @@
           "normal": "hel",
           "hard": "bassäng"
         }
-      },
-      "en": {
-        "word": "One-piece swimsuit",
-        "aliases": [],
-        "hints": {
-          "easy": "swimming",
-          "normal": "coverage",
-          "hard": "pool"
-        }
       }
     }
   },
@@ -2298,15 +1595,6 @@
           "easy": "tvådelad",
           "normal": "strand",
           "hard": "sol"
-        }
-      },
-      "en": {
-        "word": "Bikini",
-        "aliases": [],
-        "hints": {
-          "easy": "two-piece",
-          "normal": "beach",
-          "hard": "sun"
         }
       }
     }
@@ -2329,17 +1617,6 @@
           "normal": "resår",
           "hard": "strand"
         }
-      },
-      "en": {
-        "word": "Swim trunks",
-        "aliases": [
-          "Swimming trunks"
-        ],
-        "hints": {
-          "easy": "swimming",
-          "normal": "elastic",
-          "hard": "beach"
-        }
       }
     }
   },
@@ -2360,17 +1637,6 @@
           "easy": "fotsid",
           "normal": "svepande",
           "hard": "ledig"
-        }
-      },
-      "en": {
-        "word": "Kaftan",
-        "aliases": [
-          "Caftan"
-        ],
-        "hints": {
-          "easy": "flowing",
-          "normal": "loose",
-          "hard": "drape"
         }
       }
     }
@@ -2393,15 +1659,6 @@
           "normal": "Indien",
           "hard": "veck"
         }
-      },
-      "en": {
-        "word": "Sari",
-        "aliases": [],
-        "hints": {
-          "easy": "draping",
-          "normal": "India",
-          "hard": "pleats"
-        }
       }
     }
   },
@@ -2422,15 +1679,6 @@
           "easy": "Japan",
           "normal": "omlott",
           "hard": "skärp"
-        }
-      },
-      "en": {
-        "word": "Kimono",
-        "aliases": [],
-        "hints": {
-          "easy": "Japan",
-          "normal": "wrap",
-          "hard": "sash"
         }
       }
     }
@@ -2453,15 +1701,6 @@
           "normal": "spill",
           "hard": "knytband"
         }
-      },
-      "en": {
-        "word": "Apron",
-        "aliases": [],
-        "hints": {
-          "easy": "cooking",
-          "normal": "spills",
-          "hard": "ties"
-        }
       }
     }
   },
@@ -2481,15 +1720,6 @@
         "hints": {
           "easy": "skärm",
           "normal": "sol",
-          "hard": "baseball"
-        }
-      },
-      "en": {
-        "word": "Baseball cap",
-        "aliases": [],
-        "hints": {
-          "easy": "brim",
-          "normal": "sunlight",
           "hard": "baseball"
         }
       }
@@ -2513,17 +1743,6 @@
           "normal": "vinter",
           "hard": "öron"
         }
-      },
-      "en": {
-        "word": "Beanie",
-        "aliases": [
-          "Knit cap"
-        ],
-        "hints": {
-          "easy": "knitted",
-          "normal": "winter",
-          "hard": "ears"
-        }
       }
     }
   },
@@ -2544,15 +1763,6 @@
           "easy": "rund",
           "normal": "platt",
           "hard": "filt"
-        }
-      },
-      "en": {
-        "word": "Beret",
-        "aliases": [],
-        "hints": {
-          "easy": "round",
-          "normal": "flat",
-          "hard": "felt"
         }
       }
     }
@@ -2575,15 +1785,6 @@
           "normal": "fisketur",
           "hard": "sol"
         }
-      },
-      "en": {
-        "word": "Bucket hat",
-        "aliases": [],
-        "hints": {
-          "easy": "brim",
-          "normal": "fishing",
-          "hard": "sun"
-        }
       }
     }
   },
@@ -2604,15 +1805,6 @@
           "easy": "panna",
           "normal": "frisyr",
           "hard": "stretch"
-        }
-      },
-      "en": {
-        "word": "Headband",
-        "aliases": [],
-        "hints": {
-          "easy": "forehead",
-          "normal": "hairstyle",
-          "hard": "elastic"
         }
       }
     }
@@ -2635,15 +1827,6 @@
           "normal": "vinter",
           "hard": "värme"
         }
-      },
-      "en": {
-        "word": "Mittens",
-        "aliases": [],
-        "hints": {
-          "easy": "thumb",
-          "normal": "winter",
-          "hard": "warmth"
-        }
       }
     }
   },
@@ -2664,15 +1847,6 @@
           "easy": "fingrar",
           "normal": "kyla",
           "hard": "handflata"
-        }
-      },
-      "en": {
-        "word": "Fingered gloves",
-        "aliases": [],
-        "hints": {
-          "easy": "fingers",
-          "normal": "cold",
-          "hard": "palms"
         }
       }
     }
@@ -2695,15 +1869,6 @@
           "normal": "vinter",
           "hard": "vind"
         }
-      },
-      "en": {
-        "word": "Scarf",
-        "aliases": [],
-        "hints": {
-          "easy": "neck",
-          "normal": "winter",
-          "hard": "wind"
-        }
       }
     }
   },
@@ -2724,17 +1889,6 @@
           "easy": "krage",
           "normal": "knut",
           "hard": "kostym"
-        }
-      },
-      "en": {
-        "word": "Necktie",
-        "aliases": [
-          "Tie"
-        ],
-        "hints": {
-          "easy": "collar",
-          "normal": "knot",
-          "hard": "suit"
         }
       }
     }
@@ -2757,15 +1911,6 @@
           "normal": "smoking",
           "hard": "fest"
         }
-      },
-      "en": {
-        "word": "Bow tie",
-        "aliases": [],
-        "hints": {
-          "easy": "bow",
-          "normal": "tuxedo",
-          "hard": "formal"
-        }
       }
     }
   },
@@ -2786,15 +1931,6 @@
           "easy": "spänne",
           "normal": "midja",
           "hard": "hål"
-        }
-      },
-      "en": {
-        "word": "Belt",
-        "aliases": [],
-        "hints": {
-          "easy": "buckle",
-          "normal": "waist",
-          "hard": "holes"
         }
       }
     }
@@ -2817,17 +1953,6 @@
           "normal": "byxor",
           "hard": "spännen"
         }
-      },
-      "en": {
-        "word": "Suspenders",
-        "aliases": [
-          "Trouser braces"
-        ],
-        "hints": {
-          "easy": "shoulders",
-          "normal": "trousers",
-          "hard": "clips"
-        }
       }
     }
   },
@@ -2848,15 +1973,6 @@
           "easy": "skjortärm",
           "normal": "manschett",
           "hard": "metall"
-        }
-      },
-      "en": {
-        "word": "Cufflinks",
-        "aliases": [],
-        "hints": {
-          "easy": "sleeve",
-          "normal": "fastening",
-          "hard": "metal"
         }
       }
     }
@@ -2879,15 +1995,6 @@
           "normal": "smycke",
           "hard": "slag"
         }
-      },
-      "en": {
-        "word": "Brooch",
-        "aliases": [],
-        "hints": {
-          "easy": "pin",
-          "normal": "jewelry",
-          "hard": "lapel"
-        }
       }
     }
   },
@@ -2908,15 +2015,6 @@
           "easy": "halssmycke",
           "normal": "kedja",
           "hard": "medaljong"
-        }
-      },
-      "en": {
-        "word": "Pendant necklace",
-        "aliases": [],
-        "hints": {
-          "easy": "jewelry",
-          "normal": "chain",
-          "hard": "locket"
         }
       }
     }
@@ -2939,15 +2037,6 @@
           "normal": "lås",
           "hard": "diskret"
         }
-      },
-      "en": {
-        "word": "Stud earrings",
-        "aliases": [],
-        "hints": {
-          "easy": "earlobe",
-          "normal": "clasp",
-          "hard": "discreet"
-        }
       }
     }
   },
@@ -2968,15 +2057,6 @@
           "easy": "handled",
           "normal": "smycke",
           "hard": "kedja"
-        }
-      },
-      "en": {
-        "word": "Bracelet",
-        "aliases": [],
-        "hints": {
-          "easy": "wrist",
-          "normal": "jewelry",
-          "hard": "chain"
         }
       }
     }
@@ -2999,15 +2079,6 @@
           "normal": "vapen",
           "hard": "gravyr"
         }
-      },
-      "en": {
-        "word": "Signet ring",
-        "aliases": [],
-        "hints": {
-          "easy": "seal",
-          "normal": "crest",
-          "hard": "engraving"
-        }
       }
     }
   },
@@ -3028,18 +2099,6 @@
           "easy": "syn",
           "normal": "bågar",
           "hard": "styrka"
-        }
-      },
-      "en": {
-        "word": "Glasses",
-        "aliases": [
-          "Eyeglasses",
-          "Spectacles"
-        ],
-        "hints": {
-          "easy": "vision",
-          "normal": "frames",
-          "hard": "prescription"
         }
       }
     }
@@ -3062,15 +2121,6 @@
           "normal": "öglor",
           "hard": "snörning"
         }
-      },
-      "en": {
-        "word": "Shoelaces",
-        "aliases": [],
-        "hints": {
-          "easy": "tying",
-          "normal": "loops",
-          "hard": "fastening"
-        }
       }
     }
   },
@@ -3091,17 +2141,6 @@
           "easy": "vattenpöl",
           "normal": "vattentät",
           "hard": "lera"
-        }
-      },
-      "en": {
-        "word": "Rain boots",
-        "aliases": [
-          "Wellington boots"
-        ],
-        "hints": {
-          "easy": "puddles",
-          "normal": "waterproof",
-          "hard": "mud"
         }
       }
     }
@@ -3124,15 +2163,6 @@
           "normal": "varma",
           "hard": "morgon"
         }
-      },
-      "en": {
-        "word": "Slippers",
-        "aliases": [],
-        "hints": {
-          "easy": "indoors",
-          "normal": "warmth",
-          "hard": "morning"
-        }
       }
     }
   },
@@ -3153,15 +2183,6 @@
           "easy": "öppen",
           "normal": "remmar",
           "hard": "sommar"
-        }
-      },
-      "en": {
-        "word": "Sandals",
-        "aliases": [],
-        "hints": {
-          "easy": "open",
-          "normal": "straps",
-          "hard": "summer"
         }
       }
     }
@@ -3186,15 +2207,6 @@
           "normal": "strand",
           "hard": "klapprar"
         }
-      },
-      "en": {
-        "word": "Flip-flops",
-        "aliases": [],
-        "hints": {
-          "easy": "thong",
-          "normal": "beach",
-          "hard": "slapping"
-        }
       }
     }
   },
@@ -3215,15 +2227,6 @@
           "easy": "instick",
           "normal": "ovandel",
           "hard": "läder"
-        }
-      },
-      "en": {
-        "word": "Loafers",
-        "aliases": [],
-        "hints": {
-          "easy": "slip-on",
-          "normal": "vamp",
-          "hard": "leather"
         }
       }
     }
@@ -3246,15 +2249,6 @@
           "normal": "rundad",
           "hard": "dans"
         }
-      },
-      "en": {
-        "word": "Ballet flats",
-        "aliases": [],
-        "hints": {
-          "easy": "flat",
-          "normal": "rounded",
-          "hard": "dance"
-        }
       }
     }
   },
@@ -3275,15 +2269,6 @@
           "easy": "pengar",
           "normal": "kort",
           "hard": "ficka"
-        }
-      },
-      "en": {
-        "word": "Wallet",
-        "aliases": [],
-        "hints": {
-          "easy": "money",
-          "normal": "cards",
-          "hard": "pocket"
         }
       }
     }
@@ -3306,17 +2291,6 @@
           "normal": "innehåll",
           "hard": "nycklar"
         }
-      },
-      "en": {
-        "word": "Handbag",
-        "aliases": [
-          "Purse"
-        ],
-        "hints": {
-          "easy": "shoulder",
-          "normal": "contents",
-          "hard": "keys"
-        }
       }
     }
   },
@@ -3337,17 +2311,6 @@
           "easy": "hästsvans",
           "normal": "resår",
           "hard": "handled"
-        }
-      },
-      "en": {
-        "word": "Hair tie",
-        "aliases": [
-          "Hair elastic"
-        ],
-        "hints": {
-          "easy": "ponytail",
-          "normal": "elastic",
-          "hard": "wrist"
         }
       }
     }
@@ -3370,15 +2333,6 @@
           "normal": "spis",
           "hard": "diskho"
         }
-      },
-      "en": {
-        "word": "Kitchen",
-        "aliases": [],
-        "hints": {
-          "easy": "cooking",
-          "normal": "stove",
-          "hard": "sink"
-        }
       }
     }
   },
@@ -3399,15 +2353,6 @@
           "easy": "säng",
           "normal": "sömn",
           "hard": "väckarklocka"
-        }
-      },
-      "en": {
-        "word": "Bedroom",
-        "aliases": [],
-        "hints": {
-          "easy": "bed",
-          "normal": "sleep",
-          "hard": "alarm"
         }
       }
     }
@@ -3430,15 +2375,6 @@
           "normal": "umgänge",
           "hard": "fjärrkontroll"
         }
-      },
-      "en": {
-        "word": "Living room",
-        "aliases": [],
-        "hints": {
-          "easy": "sofa",
-          "normal": "lounging",
-          "hard": "remote"
-        }
       }
     }
   },
@@ -3459,15 +2395,6 @@
           "easy": "måltid",
           "normal": "bord",
           "hard": "dukning"
-        }
-      },
-      "en": {
-        "word": "Dining room",
-        "aliases": [],
-        "hints": {
-          "easy": "meals",
-          "normal": "table",
-          "hard": "setting"
         }
       }
     }
@@ -3490,15 +2417,6 @@
           "normal": "handfat",
           "hard": "spegel"
         }
-      },
-      "en": {
-        "word": "Bathroom",
-        "aliases": [],
-        "hints": {
-          "easy": "shower",
-          "normal": "basin",
-          "hard": "mirror"
-        }
       }
     }
   },
@@ -3519,15 +2437,6 @@
           "easy": "besök",
           "normal": "övernattning",
           "hard": "reserv"
-        }
-      },
-      "en": {
-        "word": "Guest room",
-        "aliases": [],
-        "hints": {
-          "easy": "visitors",
-          "normal": "overnight",
-          "hard": "spare"
         }
       }
     }
@@ -3550,17 +2459,6 @@
           "normal": "skor",
           "hard": "avhängning"
         }
-      },
-      "en": {
-        "word": "Entryway",
-        "aliases": [
-          "Entrance hall"
-        ],
-        "hints": {
-          "easy": "doorstep",
-          "normal": "shoes",
-          "hard": "coats"
-        }
       }
     }
   },
@@ -3581,15 +2479,6 @@
           "easy": "tvätt",
           "normal": "centrifugering",
           "hard": "sköljning"
-        }
-      },
-      "en": {
-        "word": "Laundry room",
-        "aliases": [],
-        "hints": {
-          "easy": "laundry",
-          "normal": "spinning",
-          "hard": "rinsing"
         }
       }
     }
@@ -3612,17 +2501,6 @@
           "normal": "galgar",
           "hard": "hyllor"
         }
-      },
-      "en": {
-        "word": "Walk-in closet",
-        "aliases": [
-          "Walk-in wardrobe"
-        ],
-        "hints": {
-          "easy": "wardrobe",
-          "normal": "hangers",
-          "hard": "shelves"
-        }
       }
     }
   },
@@ -3643,15 +2521,6 @@
           "easy": "torrvaror",
           "normal": "mjöl",
           "hard": "förråd"
-        }
-      },
-      "en": {
-        "word": "Pantry",
-        "aliases": [],
-        "hints": {
-          "easy": "provisions",
-          "normal": "flour",
-          "hard": "storage"
         }
       }
     }
@@ -3674,15 +2543,6 @@
           "normal": "förvaring",
           "hard": "taklucka"
         }
-      },
-      "en": {
-        "word": "Attic",
-        "aliases": [],
-        "hints": {
-          "easy": "rafters",
-          "normal": "storage",
-          "hard": "hatch"
-        }
       }
     }
   },
@@ -3703,15 +2563,6 @@
           "easy": "underjord",
           "normal": "trappa",
           "hard": "svalka"
-        }
-      },
-      "en": {
-        "word": "Basement",
-        "aliases": [],
-        "hints": {
-          "easy": "underground",
-          "normal": "stairs",
-          "hard": "coolness"
         }
       }
     }
@@ -3734,15 +2585,6 @@
           "normal": "värmepanna",
           "hard": "rör"
         }
-      },
-      "en": {
-        "word": "Boiler room",
-        "aliases": [],
-        "hints": {
-          "easy": "heating",
-          "normal": "furnace",
-          "hard": "pipes"
-        }
       }
     }
   },
@@ -3763,15 +2605,6 @@
           "easy": "bil",
           "normal": "port",
           "hard": "parkering"
-        }
-      },
-      "en": {
-        "word": "Garage",
-        "aliases": [],
-        "hints": {
-          "easy": "car",
-          "normal": "door",
-          "hard": "parking"
         }
       }
     }
@@ -3796,15 +2629,6 @@
           "normal": "solljus",
           "hard": "förlängning"
         }
-      },
-      "en": {
-        "word": "Sunroom",
-        "aliases": [],
-        "hints": {
-          "easy": "windows",
-          "normal": "sunlight",
-          "hard": "extension"
-        }
       }
     }
   },
@@ -3825,15 +2649,6 @@
           "easy": "leriga",
           "normal": "stövlar",
           "hard": "förrum"
-        }
-      },
-      "en": {
-        "word": "Mudroom",
-        "aliases": [],
-        "hints": {
-          "easy": "muddy",
-          "normal": "boots",
-          "hard": "vestibule"
         }
       }
     }
@@ -3856,15 +2671,6 @@
           "normal": "skrivbord",
           "hard": "videomöte"
         }
-      },
-      "en": {
-        "word": "Home office",
-        "aliases": [],
-        "hints": {
-          "easy": "remote",
-          "normal": "desk",
-          "hard": "conferencing"
-        }
       }
     }
   },
@@ -3885,15 +2691,6 @@
           "easy": "leksaker",
           "normal": "lek",
           "hard": "golvyta"
-        }
-      },
-      "en": {
-        "word": "Playroom",
-        "aliases": [],
-        "hints": {
-          "easy": "toys",
-          "normal": "play",
-          "hard": "floor"
         }
       }
     }
@@ -3916,17 +2713,6 @@
           "normal": "skötbord",
           "hard": "godnatt"
         }
-      },
-      "en": {
-        "word": "Nursery",
-        "aliases": [
-          "Baby's room"
-        ],
-        "hints": {
-          "easy": "crib",
-          "normal": "changing",
-          "hard": "bedtime"
-        }
       }
     }
   },
@@ -3947,15 +2733,6 @@
           "easy": "elever",
           "normal": "lektioner",
           "hard": "skolbänkar"
-        }
-      },
-      "en": {
-        "word": "Classroom",
-        "aliases": [],
-        "hints": {
-          "easy": "pupils",
-          "normal": "lessons",
-          "hard": "desks"
         }
       }
     }
@@ -3980,17 +2757,6 @@
           "normal": "rast",
           "hard": "kaffe"
         }
-      },
-      "en": {
-        "word": "Staff room",
-        "aliases": [
-          "Teachers' lounge"
-        ],
-        "hints": {
-          "easy": "teachers",
-          "normal": "break",
-          "hard": "coffee"
-        }
       }
     }
   },
@@ -4014,17 +2780,6 @@
           "normal": "samtal",
           "hard": "beslut"
         }
-      },
-      "en": {
-        "word": "Principal's office",
-        "aliases": [
-          "Headteacher's office"
-        ],
-        "hints": {
-          "easy": "principal",
-          "normal": "meetings",
-          "hard": "decisions"
-        }
       }
     }
   },
@@ -4045,15 +2800,6 @@
           "easy": "lån",
           "normal": "böcker",
           "hard": "tystnad"
-        }
-      },
-      "en": {
-        "word": "School library",
-        "aliases": [],
-        "hints": {
-          "easy": "borrowing",
-          "normal": "books",
-          "hard": "silence"
         }
       }
     }
@@ -4078,17 +2824,6 @@
           "normal": "matbricka",
           "hard": "kö"
         }
-      },
-      "en": {
-        "word": "School cafeteria",
-        "aliases": [
-          "School canteen"
-        ],
-        "hints": {
-          "easy": "lunch",
-          "normal": "trays",
-          "hard": "queue"
-        }
       }
     }
   },
@@ -4109,17 +2844,6 @@
           "easy": "idrott",
           "normal": "ribbstolar",
           "hard": "boll"
-        }
-      },
-      "en": {
-        "word": "School gym",
-        "aliases": [
-          "School gymnasium"
-        ],
-        "hints": {
-          "easy": "exercise",
-          "normal": "ropes",
-          "hard": "ball"
         }
       }
     }
@@ -4142,17 +2866,6 @@
           "normal": "klädbyte",
           "hard": "skåp"
         }
-      },
-      "en": {
-        "word": "Changing room",
-        "aliases": [
-          "Locker room"
-        ],
-        "hints": {
-          "easy": "benches",
-          "normal": "undressing",
-          "hard": "lockers"
-        }
       }
     }
   },
@@ -4173,15 +2886,6 @@
           "easy": "plåster",
           "normal": "hälsa",
           "hard": "undersökning"
-        }
-      },
-      "en": {
-        "word": "School nurse's office",
-        "aliases": [],
-        "hints": {
-          "easy": "bandage",
-          "normal": "health",
-          "hard": "examination"
         }
       }
     }
@@ -4204,15 +2908,6 @@
           "normal": "penslar",
           "hard": "skapande"
         }
-      },
-      "en": {
-        "word": "Art room",
-        "aliases": [],
-        "hints": {
-          "easy": "paint",
-          "normal": "brushes",
-          "hard": "creativity"
-        }
       }
     }
   },
@@ -4233,15 +2928,6 @@
           "easy": "snickeri",
           "normal": "hyvel",
           "hard": "spån"
-        }
-      },
-      "en": {
-        "word": "Woodwork classroom",
-        "aliases": [],
-        "hints": {
-          "easy": "woodworking",
-          "normal": "plane",
-          "hard": "shavings"
         }
       }
     }
@@ -4264,15 +2950,6 @@
           "normal": "symaskin",
           "hard": "tyg"
         }
-      },
-      "en": {
-        "word": "Textiles classroom",
-        "aliases": [],
-        "hints": {
-          "easy": "sewing",
-          "normal": "machine",
-          "hard": "fabric"
-        }
       }
     }
   },
@@ -4292,15 +2969,6 @@
         "hints": {
           "easy": "experiment",
           "normal": "skyddsglasögon",
-          "hard": "gas"
-        }
-      },
-      "en": {
-        "word": "Chemistry lab",
-        "aliases": [],
-        "hints": {
-          "easy": "experiments",
-          "normal": "goggles",
           "hard": "gas"
         }
       }
@@ -4324,15 +2992,6 @@
           "normal": "skärmar",
           "hard": "inloggning"
         }
-      },
-      "en": {
-        "word": "Computer lab",
-        "aliases": [],
-        "hints": {
-          "easy": "computers",
-          "normal": "monitors",
-          "hard": "login"
-        }
       }
     }
   },
@@ -4353,17 +3012,6 @@
           "easy": "scen",
           "normal": "samling",
           "hard": "publik"
-        }
-      },
-      "en": {
-        "word": "School assembly hall",
-        "aliases": [
-          "Assembly hall"
-        ],
-        "hints": {
-          "easy": "stage",
-          "normal": "assembly",
-          "hard": "audience"
         }
       }
     }
@@ -4386,15 +3034,6 @@
           "normal": "blanketter",
           "hard": "besök"
         }
-      },
-      "en": {
-        "word": "School office",
-        "aliases": [],
-        "hints": {
-          "easy": "administration",
-          "normal": "forms",
-          "hard": "visitors"
-        }
       }
     }
   },
@@ -4415,15 +3054,6 @@
           "easy": "rengöring",
           "normal": "dosering",
           "hard": "skum"
-        }
-      },
-      "en": {
-        "word": "Laundry detergent",
-        "aliases": [],
-        "hints": {
-          "easy": "cleaning",
-          "normal": "dosage",
-          "hard": "suds"
         }
       }
     }
@@ -4446,17 +3076,6 @@
           "normal": "doft",
           "hard": "slutsköljning"
         }
-      },
-      "en": {
-        "word": "Fabric softener",
-        "aliases": [
-          "Fabric conditioner"
-        ],
-        "hints": {
-          "easy": "softness",
-          "normal": "scent",
-          "hard": "rinse"
-        }
       }
     }
   },
@@ -4477,15 +3096,6 @@
           "easy": "förbehandling",
           "normal": "spill",
           "hard": "gnuggning"
-        }
-      },
-      "en": {
-        "word": "Laundry stain remover",
-        "aliases": [],
-        "hints": {
-          "easy": "pretreatment",
-          "normal": "spills",
-          "hard": "rubbing"
         }
       }
     }
@@ -4508,15 +3118,6 @@
           "normal": "trumma",
           "hard": "vatten"
         }
-      },
-      "en": {
-        "word": "Washing machine",
-        "aliases": [],
-        "hints": {
-          "easy": "spin",
-          "normal": "drum",
-          "hard": "water"
-        }
       }
     }
   },
@@ -4537,17 +3138,6 @@
           "easy": "trumma",
           "normal": "ludd",
           "hard": "värme"
-        }
-      },
-      "en": {
-        "word": "Tumble dryer",
-        "aliases": [
-          "Clothes dryer"
-        ],
-        "hints": {
-          "easy": "drum",
-          "normal": "lint",
-          "hard": "heat"
         }
       }
     }
@@ -4570,15 +3160,6 @@
           "normal": "varmluft",
           "hard": "dropp"
         }
-      },
-      "en": {
-        "word": "Drying cabinet",
-        "aliases": [],
-        "hints": {
-          "easy": "hangers",
-          "normal": "airflow",
-          "hard": "drips"
-        }
       }
     }
   },
@@ -4600,18 +3181,6 @@
           "normal": "luftning",
           "hard": "pinnar"
         }
-      },
-      "en": {
-        "word": "Clothes airer",
-        "aliases": [
-          "Drying rack",
-          "Clothes horse"
-        ],
-        "hints": {
-          "easy": "folding",
-          "normal": "airing",
-          "hard": "rods"
-        }
       }
     }
   },
@@ -4632,17 +3201,6 @@
           "easy": "lina",
           "normal": "nypor",
           "hard": "vind"
-        }
-      },
-      "en": {
-        "word": "Clothesline",
-        "aliases": [
-          "Washing line"
-        ],
-        "hints": {
-          "easy": "cord",
-          "normal": "pegs",
-          "hard": "breeze"
         }
       }
     }
@@ -4667,17 +3225,6 @@
           "normal": "upphängning",
           "hard": "grepp"
         }
-      },
-      "en": {
-        "word": "Clothespin",
-        "aliases": [
-          "Clothes peg"
-        ],
-        "hints": {
-          "easy": "spring",
-          "normal": "hanging",
-          "hard": "grip"
-        }
       }
     }
   },
@@ -4698,15 +3245,6 @@
           "easy": "värme",
           "normal": "veck",
           "hard": "ånga"
-        }
-      },
-      "en": {
-        "word": "Clothes iron",
-        "aliases": [],
-        "hints": {
-          "easy": "heat",
-          "normal": "wrinkles",
-          "hard": "steam"
         }
       }
     }
@@ -4729,15 +3267,6 @@
           "normal": "veck",
           "hard": "fällbar"
         }
-      },
-      "en": {
-        "word": "Ironing board",
-        "aliases": [],
-        "hints": {
-          "easy": "stand",
-          "normal": "wrinkles",
-          "hard": "folding"
-        }
       }
     }
   },
@@ -4758,17 +3287,6 @@
           "easy": "smutstvätt",
           "normal": "bärhandtag",
           "hard": "sortering"
-        }
-      },
-      "en": {
-        "word": "Laundry basket",
-        "aliases": [
-          "Laundry hamper"
-        ],
-        "hints": {
-          "easy": "laundry",
-          "normal": "handles",
-          "hard": "sorting"
         }
       }
     }
@@ -4793,17 +3311,6 @@
           "normal": "dragkedja",
           "hard": "fintvätt"
         }
-      },
-      "en": {
-        "word": "Mesh laundry bag",
-        "aliases": [
-          "Mesh wash bag"
-        ],
-        "hints": {
-          "easy": "mesh",
-          "normal": "zipper",
-          "hard": "delicates"
-        }
       }
     }
   },
@@ -4824,17 +3331,6 @@
           "easy": "missfärgning",
           "normal": "överföring",
           "hard": "infångning"
-        }
-      },
-      "en": {
-        "word": "Color catcher sheet",
-        "aliases": [
-          "Colour catcher sheet"
-        ],
-        "hints": {
-          "easy": "staining",
-          "normal": "transfer",
-          "hard": "absorption"
         }
       }
     }
@@ -4859,15 +3355,6 @@
           "normal": "tejp",
           "hard": "rullning"
         }
-      },
-      "en": {
-        "word": "Lint roller",
-        "aliases": [],
-        "hints": {
-          "easy": "hair",
-          "normal": "adhesive",
-          "hard": "rolling"
-        }
       }
     }
   },
@@ -4891,17 +3378,6 @@
           "normal": "rakblad",
           "hard": "stickat"
         }
-      },
-      "en": {
-        "word": "Fabric shaver",
-        "aliases": [
-          "Pilling remover"
-        ],
-        "hints": {
-          "easy": "fuzz",
-          "normal": "blade",
-          "hard": "knitwear"
-        }
       }
     }
   },
@@ -4922,17 +3398,6 @@
           "easy": "ånga",
           "normal": "hängande",
           "hard": "veck"
-        }
-      },
-      "en": {
-        "word": "Garment steamer",
-        "aliases": [
-          "Clothes steamer"
-        ],
-        "hints": {
-          "easy": "steam",
-          "normal": "hanging",
-          "hard": "wrinkles"
         }
       }
     }
@@ -4955,15 +3420,6 @@
           "normal": "krage",
           "hard": "pressning"
         }
-      },
-      "en": {
-        "word": "Laundry starch",
-        "aliases": [],
-        "hints": {
-          "easy": "stiffness",
-          "normal": "collar",
-          "hard": "pressing"
-        }
       }
     }
   },
@@ -4984,15 +3440,6 @@
           "easy": "borst",
           "normal": "läder",
           "hard": "damm"
-        }
-      },
-      "en": {
-        "word": "Shoe brush",
-        "aliases": [],
-        "hints": {
-          "easy": "bristles",
-          "normal": "leather",
-          "hard": "dust"
         }
       }
     }
@@ -5015,15 +3462,6 @@
           "normal": "läder",
           "hard": "polering"
         }
-      },
-      "en": {
-        "word": "Shoe polish",
-        "aliases": [],
-        "hints": {
-          "easy": "shine",
-          "normal": "leather",
-          "hard": "buffing"
-        }
       }
     }
   },
@@ -5044,15 +3482,6 @@
           "easy": "läst",
           "normal": "form",
           "hard": "veck"
-        }
-      },
-      "en": {
-        "word": "Shoe tree",
-        "aliases": [],
-        "hints": {
-          "easy": "last",
-          "normal": "shape",
-          "hard": "creases"
         }
       }
     }
@@ -5075,15 +3504,6 @@
           "normal": "krok",
           "hard": "garderob"
         }
-      },
-      "en": {
-        "word": "Clothes hanger",
-        "aliases": [],
-        "hints": {
-          "easy": "shoulders",
-          "normal": "hook",
-          "hard": "wardrobe"
-        }
       }
     }
   },
@@ -5103,15 +3523,6 @@
         "hints": {
           "easy": "ull",
           "normal": "studs",
-          "hard": "separation"
-        }
-      },
-      "en": {
-        "word": "Dryer ball",
-        "aliases": [],
-        "hints": {
-          "easy": "wool",
-          "normal": "bouncing",
           "hard": "separation"
         }
       }
@@ -5137,17 +3548,6 @@
           "normal": "temperatur",
           "hard": "söm"
         }
-      },
-      "en": {
-        "word": "Laundry care label",
-        "aliases": [
-          "Clothing care label"
-        ],
-        "hints": {
-          "easy": "symbols",
-          "normal": "temperature",
-          "hard": "seam"
-        }
       }
     }
   },
@@ -5169,15 +3569,6 @@
           "normal": "lakan",
           "hard": "press"
         }
-      },
-      "en": {
-        "word": "Clothes mangle",
-        "aliases": [],
-        "hints": {
-          "easy": "rollers",
-          "normal": "sheets",
-          "hard": "pressing"
-        }
       }
     }
   },
@@ -5198,15 +3589,6 @@
           "easy": "socklagning",
           "normal": "trä",
           "hard": "stöd"
-        }
-      },
-      "en": {
-        "word": "Darning egg",
-        "aliases": [],
-        "hints": {
-          "easy": "mending",
-          "normal": "wood",
-          "hard": "support"
         }
       }
     }
@@ -5232,17 +3614,6 @@
           "normal": "borst",
           "hard": "skaft"
         }
-      },
-      "en": {
-        "word": "Broom",
-        "aliases": [
-          "sweeping broom"
-        ],
-        "hints": {
-          "easy": "sweeping",
-          "normal": "bristles",
-          "hard": "handle"
-        }
       }
     }
   },
@@ -5266,15 +3637,6 @@
           "easy": "smulor",
           "normal": "skyffla",
           "hard": "skräp"
-        }
-      },
-      "en": {
-        "word": "Dustpan",
-        "aliases": [],
-        "hints": {
-          "easy": "crumbs",
-          "normal": "scooping",
-          "hard": "debris"
         }
       }
     }
@@ -5300,17 +3662,6 @@
           "normal": "blött",
           "hard": "hink"
         }
-      },
-      "en": {
-        "word": "Mop",
-        "aliases": [
-          "floor mop"
-        ],
-        "hints": {
-          "easy": "floors",
-          "normal": "wet",
-          "hard": "bucket"
-        }
       }
     }
   },
@@ -5332,15 +3683,6 @@
           "easy": "fjädrar",
           "normal": "damm",
           "hard": "hylla"
-        }
-      },
-      "en": {
-        "word": "Feather duster",
-        "aliases": [],
-        "hints": {
-          "easy": "feathers",
-          "normal": "dust",
-          "hard": "shelf"
         }
       }
     }
@@ -5364,17 +3706,6 @@
           "normal": "skrubb",
           "hard": "envis"
         }
-      },
-      "en": {
-        "word": "Scrubbing brush",
-        "aliases": [
-          "scrub brush"
-        ],
-        "hints": {
-          "easy": "bristles",
-          "normal": "scrub",
-          "hard": "stubborn"
-        }
       }
     }
   },
@@ -5397,17 +3728,6 @@
           "normal": "slang",
           "hard": "munstycke"
         }
-      },
-      "en": {
-        "word": "Vacuum cleaner",
-        "aliases": [
-          "hoover"
-        ],
-        "hints": {
-          "easy": "suction",
-          "normal": "hose",
-          "hard": "nozzle"
-        }
       }
     }
   },
@@ -5429,17 +3749,6 @@
           "easy": "damm",
           "normal": "filter",
           "hard": "byte"
-        }
-      },
-      "en": {
-        "word": "Vacuum bag",
-        "aliases": [
-          "vacuum cleaner bag"
-        ],
-        "hints": {
-          "easy": "dust",
-          "normal": "filter",
-          "hard": "replacement"
         }
       }
     }
@@ -5465,17 +3774,6 @@
           "normal": "fönster",
           "hard": "ränder"
         }
-      },
-      "en": {
-        "word": "Window squeegee",
-        "aliases": [
-          "squeegee"
-        ],
-        "hints": {
-          "easy": "rubber",
-          "normal": "windows",
-          "hard": "streaks"
-        }
       }
     }
   },
@@ -5499,15 +3797,6 @@
           "easy": "toalett",
           "normal": "skål",
           "hard": "hygien"
-        }
-      },
-      "en": {
-        "word": "Toilet brush",
-        "aliases": [],
-        "hints": {
-          "easy": "toilet",
-          "normal": "bowl",
-          "hard": "hygiene"
         }
       }
     }
@@ -5533,17 +3822,6 @@
           "normal": "damm",
           "hard": "fibrer"
         }
-      },
-      "en": {
-        "word": "Microfibre cloth",
-        "aliases": [
-          "microfiber cloth"
-        ],
-        "hints": {
-          "easy": "scratch-free",
-          "normal": "dust",
-          "hard": "fibers"
-        }
       }
     }
   },
@@ -5567,17 +3845,6 @@
           "easy": "skrubb",
           "normal": "porös",
           "hard": "disk"
-        }
-      },
-      "en": {
-        "word": "Scouring sponge",
-        "aliases": [
-          "scrubber sponge"
-        ],
-        "hints": {
-          "easy": "scrub",
-          "normal": "porous",
-          "hard": "dishes"
         }
       }
     }
@@ -5603,17 +3870,6 @@
           "normal": "vatten",
           "hard": "städning"
         }
-      },
-      "en": {
-        "word": "Rubber gloves",
-        "aliases": [
-          "washing-up gloves"
-        ],
-        "hints": {
-          "easy": "protection",
-          "normal": "water",
-          "hard": "cleaning"
-        }
       }
     }
   },
@@ -5638,18 +3894,6 @@
           "normal": "knut",
           "hard": "läckage"
         }
-      },
-      "en": {
-        "word": "Bin liner",
-        "aliases": [
-          "trash bag",
-          "garbage bag"
-        ],
-        "hints": {
-          "easy": "rubbish",
-          "normal": "knot",
-          "hard": "leaks"
-        }
       }
     }
   },
@@ -5672,17 +3916,6 @@
           "normal": "lock",
           "hard": "skräp"
         }
-      },
-      "en": {
-        "word": "Pedal bin",
-        "aliases": [
-          "step trash can"
-        ],
-        "hints": {
-          "easy": "pedal",
-          "normal": "lid",
-          "hard": "rubbish"
-        }
       }
     }
   },
@@ -5704,15 +3937,6 @@
           "easy": "sugkopp",
           "normal": "stopp",
           "hard": "pumpning"
-        }
-      },
-      "en": {
-        "word": "Plunger",
-        "aliases": [],
-        "hints": {
-          "easy": "suction",
-          "normal": "blockage",
-          "hard": "pumping"
         }
       }
     }
@@ -5738,15 +3962,6 @@
           "normal": "spray",
           "hard": "ränder"
         }
-      },
-      "en": {
-        "word": "Glass cleaner",
-        "aliases": [],
-        "hints": {
-          "easy": "windows",
-          "normal": "spray",
-          "hard": "streaks"
-        }
       }
     }
   },
@@ -5768,17 +3983,6 @@
           "easy": "kalk",
           "normal": "vinäger",
           "hard": "beläggning"
-        }
-      },
-      "en": {
-        "word": "Descaler",
-        "aliases": [
-          "descaling agent"
-        ],
-        "hints": {
-          "easy": "limescale",
-          "normal": "vinegar",
-          "hard": "deposits"
         }
       }
     }
@@ -5804,15 +4008,6 @@
           "normal": "glans",
           "hard": "torkning"
         }
-      },
-      "en": {
-        "word": "Furniture polish",
-        "aliases": [],
-        "hints": {
-          "easy": "wood",
-          "normal": "shine",
-          "hard": "wiping"
-        }
       }
     }
   },
@@ -5836,18 +4031,6 @@
           "easy": "disk",
           "normal": "skum",
           "hard": "fett"
-        }
-      },
-      "en": {
-        "word": "Washing-up liquid",
-        "aliases": [
-          "dish soap",
-          "dishwashing liquid"
-        ],
-        "hints": {
-          "easy": "dishes",
-          "normal": "suds",
-          "hard": "grease"
         }
       }
     }
@@ -5873,15 +4056,6 @@
           "normal": "disk",
           "hard": "kapsel"
         }
-      },
-      "en": {
-        "word": "Dishwasher tablet",
-        "aliases": [],
-        "hints": {
-          "easy": "dose",
-          "normal": "dishes",
-          "hard": "capsule"
-        }
       }
     }
   },
@@ -5906,15 +4080,6 @@
           "normal": "doft",
           "hard": "dimma"
         }
-      },
-      "en": {
-        "word": "Air freshener spray",
-        "aliases": [],
-        "hints": {
-          "easy": "odor",
-          "normal": "fragrance",
-          "hard": "mist"
-        }
       }
     }
   },
@@ -5936,17 +4101,6 @@
           "easy": "spill",
           "normal": "uppsugning",
           "hard": "köksrulle"
-        }
-      },
-      "en": {
-        "word": "Paper towel",
-        "aliases": [
-          "kitchen roll"
-        ],
-        "hints": {
-          "easy": "spills",
-          "normal": "absorption",
-          "hard": "kitchen"
         }
       }
     }
@@ -5972,18 +4126,6 @@
           "normal": "rulle",
           "hard": "spolning"
         }
-      },
-      "en": {
-        "word": "Toilet paper",
-        "aliases": [
-          "toilet roll",
-          "bathroom tissue"
-        ],
-        "hints": {
-          "easy": "bathroom",
-          "normal": "roll",
-          "hard": "flushing"
-        }
       }
     }
   },
@@ -6008,17 +4150,6 @@
           "normal": "snuva",
           "hard": "ficka"
         }
-      },
-      "en": {
-        "word": "Tissue",
-        "aliases": [
-          "facial tissue"
-        ],
-        "hints": {
-          "easy": "sneeze",
-          "normal": "runny",
-          "hard": "pocket"
-        }
       }
     }
   },
@@ -6040,17 +4171,6 @@
           "easy": "fuktig",
           "normal": "kladd",
           "hard": "förpackning"
-        }
-      },
-      "en": {
-        "word": "Wet wipe",
-        "aliases": [
-          "moist towelette"
-        ],
-        "hints": {
-          "easy": "damp",
-          "normal": "mess",
-          "hard": "packet"
         }
       }
     }
@@ -6074,15 +4194,6 @@
           "normal": "torka",
           "hard": "dusch"
         }
-      },
-      "en": {
-        "word": "Bath towel",
-        "aliases": [],
-        "hints": {
-          "easy": "terry",
-          "normal": "drying",
-          "hard": "shower"
-        }
       }
     }
   },
@@ -6104,18 +4215,6 @@
           "easy": "tvättning",
           "normal": "fukt",
           "hard": "ansikte"
-        }
-      },
-      "en": {
-        "word": "Washcloth",
-        "aliases": [
-          "facecloth",
-          "flannel"
-        ],
-        "hints": {
-          "easy": "washing",
-          "normal": "damp",
-          "hard": "face"
         }
       }
     }
@@ -6141,15 +4240,6 @@
           "normal": "halkskydd",
           "hard": "fötter"
         }
-      },
-      "en": {
-        "word": "Bath mat",
-        "aliases": [],
-        "hints": {
-          "easy": "floor",
-          "normal": "grip",
-          "hard": "feet"
-        }
       }
     }
   },
@@ -6171,15 +4261,6 @@
           "easy": "stänk",
           "normal": "ringar",
           "hard": "opak"
-        }
-      },
-      "en": {
-        "word": "Shower curtain",
-        "aliases": [],
-        "hints": {
-          "easy": "splashes",
-          "normal": "rings",
-          "hard": "opaque"
         }
       }
     }
@@ -6205,15 +4286,6 @@
           "normal": "tryck",
           "hard": "dosering"
         }
-      },
-      "en": {
-        "word": "Soap dispenser",
-        "aliases": [],
-        "hints": {
-          "easy": "liquid",
-          "normal": "press",
-          "hard": "dosage"
-        }
       }
     }
   },
@@ -6237,15 +4309,6 @@
           "easy": "avrinning",
           "normal": "handfat",
           "hard": "tvålrester"
-        }
-      },
-      "en": {
-        "word": "Soap dish",
-        "aliases": [],
-        "hints": {
-          "easy": "drainage",
-          "normal": "sink",
-          "hard": "residue"
         }
       }
     }
@@ -6271,17 +4334,6 @@
           "normal": "handtvätt",
           "hard": "form"
         }
-      },
-      "en": {
-        "word": "Bar soap",
-        "aliases": [
-          "soap bar"
-        ],
-        "hints": {
-          "easy": "lather",
-          "normal": "handwashing",
-          "hard": "molded"
-        }
       }
     }
   },
@@ -6306,17 +4358,6 @@
           "normal": "flaska",
           "hard": "kropp"
         }
-      },
-      "en": {
-        "word": "Body wash",
-        "aliases": [
-          "shower gel"
-        ],
-        "hints": {
-          "easy": "lather",
-          "normal": "bottle",
-          "hard": "skin"
-        }
       }
     }
   },
@@ -6338,15 +4379,6 @@
           "easy": "hår",
           "normal": "lödder",
           "hard": "hårbotten"
-        }
-      },
-      "en": {
-        "word": "Shampoo",
-        "aliases": [],
-        "hints": {
-          "easy": "hair",
-          "normal": "lather",
-          "hard": "scalp"
         }
       }
     }
@@ -6372,17 +4404,6 @@
           "normal": "mjukhet",
           "hard": "sköljning"
         }
-      },
-      "en": {
-        "word": "Conditioner",
-        "aliases": [
-          "hair conditioner"
-        ],
-        "hints": {
-          "easy": "tangles",
-          "normal": "softness",
-          "hard": "rinsing"
-        }
       }
     }
   },
@@ -6404,15 +4425,6 @@
           "easy": "fluor",
           "normal": "mint",
           "hard": "klinik"
-        }
-      },
-      "en": {
-        "word": "Toothpaste",
-        "aliases": [],
-        "hints": {
-          "easy": "fluoride",
-          "normal": "mint",
-          "hard": "tube"
         }
       }
     }
@@ -6436,15 +4448,6 @@
           "normal": "mun",
           "hard": "handtag"
         }
-      },
-      "en": {
-        "word": "Toothbrush",
-        "aliases": [],
-        "hints": {
-          "easy": "bristles",
-          "normal": "mouth",
-          "hard": "handle"
-        }
       }
     }
   },
@@ -6466,15 +4469,6 @@
           "easy": "tråd",
           "normal": "tandkött",
           "hard": "mellanrum"
-        }
-      },
-      "en": {
-        "word": "Dental floss",
-        "aliases": [],
-        "hints": {
-          "easy": "thread",
-          "normal": "gums",
-          "hard": "gaps"
         }
       }
     }
@@ -6500,17 +4494,6 @@
           "normal": "flaska",
           "hard": "andedräkt"
         }
-      },
-      "en": {
-        "word": "Mouthwash",
-        "aliases": [
-          "mouth rinse"
-        ],
-        "hints": {
-          "easy": "gargle",
-          "normal": "bottle",
-          "hard": "breath"
-        }
       }
     }
   },
@@ -6531,15 +4514,6 @@
         "hints": {
           "easy": "tandglipa",
           "normal": "tandkött",
-          "hard": "cylinder"
-        }
-      },
-      "en": {
-        "word": "Interdental brush",
-        "aliases": [],
-        "hints": {
-          "easy": "gap",
-          "normal": "gums",
           "hard": "cylinder"
         }
       }
@@ -6565,17 +4539,6 @@
           "easy": "bomull",
           "normal": "topp",
           "hard": "kosmetik"
-        }
-      },
-      "en": {
-        "word": "Cotton swab",
-        "aliases": [
-          "cotton bud"
-        ],
-        "hints": {
-          "easy": "cotton",
-          "normal": "tip",
-          "hard": "cosmetics"
         }
       }
     }

@@ -1,6 +1,6 @@
 # Gränssnittet
 
-`app/templates/index.html` laddar ett gemensamt skal och språket från `/api/i18n/<lang>.json`. `ui.mjs` öppnar `mountLocal(ctx)` i spelinställningarna direkt på `/`. Egna ordpaket går att redigera via Appval mellan omgångar.
+`app/templates/index.html` laddar ett gemensamt skal och de svenska gränssnittstexterna från `/api/i18n/sv.json`. `ui.mjs` öppnar `mountLocal(ctx)` i spelinställningarna direkt på `/`. Egna ordpaket går att redigera via Appval mellan omgångar.
 
 ## Spelvyn
 
@@ -10,7 +10,7 @@
 
 ## Spelregler
 
-Skalet visar `/#regler` i `#guide-view` och anropar `mountGuide(ctx)` från `app/static/js/guide.mjs` med `ctx.root` satt till `#guide-content`. Guiden skapar rubriker och innehåll där med `ctx.t`, `ctx.el`, `ctx.modeName` och `ctx.roleName`. Den laddas om i vyn när språket byts.
+Skalet visar `/#regler` i `#guide-view` och anropar `mountGuide(ctx)` från `app/static/js/guide.mjs` med `ctx.root` satt till `#guide-content`. Guiden skapar rubriker och innehåll där med `ctx.t`, `ctx.el`, `ctx.modeName` och `ctx.roleName`.
 
 Länken i sidhuvudet och länkarna tillbaka använder samma dokument. Hashen fungerar även vid direktstart och webbläsarens bakåt- och framåtnavigering. Lokalvyn döljer privata kort när den lämnas och behåller spelarnas plats i omgången.
 
@@ -24,8 +24,7 @@ Tidigare sparade speciallägen flyttas till Random Imposters med motsvarande fas
 
 ## Delade funktioner
 
-- `ctx.t(key, values)` väljer text med aktuell språkkod. `ctx.modeName(id)` och `ctx.roleName(id)` visar läges- och rollnamn.
+- `ctx.t(key, values)` hämtar svensk text. `ctx.modeName(id)` och `ctx.roleName(id)` visar läges- och rollnamn.
 - `ctx.el` skapar DOM-element med textnoder. `ctx.button` skapar knappar med gemensam stil och `ctx.notify` visar status och fel.
 - `ctx.storage` sparar namn och mindre inställningar som JSON i `localStorage`. En minneskopia används om lagring blockeras. Pågående privata kort lever i minnet.
 - `mountExtras(ctx)` öppnar ordpaketsredigeraren. När redigeraren stängs uppdateras urvalet med `imposter:custom-content`.
-- Vyn aviserar språkbyte via `imposter:language`.

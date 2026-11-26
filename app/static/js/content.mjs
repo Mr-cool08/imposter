@@ -1,4 +1,3 @@
-const LANGUAGES = ["sv", "en"];
 const LEVELS = ["familiar", "intermediate", "expert"];
 const HINT_LEVELS = ["easy", "normal", "hard"];
 const REVIEW_STATUSES = ["editorial", "needs_review"];
@@ -92,38 +91,32 @@ function sortedPairs(pairs) {
 }
 
 function termIndexes() {
-  return Object.fromEntries(LANGUAGES.map((language) => [language, { primary: new Map(), aliases: new Map() }]));
+  return { primary: new Map(), aliases: new Map() };
 }
 
-function spellings(word, language) {
-  const translation = word.languages?.[language];
+function spellings(word) {
+  const translation = word.languages?.sv;
   if (!isText(translation?.word) || !Array.isArray(translation.aliases)) return null;
   return { primary: normalizedTerm(translation.word), aliases: translation.aliases.filter(isText).map(normalizedTerm) };
 }
 
 function duplicateWord(word, indexes) {
-  for (const language of LANGUAGES) {
-    const terms = spellings(word, language);
-    if (!terms) continue;
-    const index = indexes[language];
-    const duplicate = index.primary.get(terms.primary) ?? index.aliases.get(terms.primary);
-    if (duplicate !== undefined) return duplicate;
-    for (const alias of terms.aliases) {
-      const included = index.primary.get(alias);
-      if (included !== undefined) return included;
-    }
+  const terms = spellings(word);
+  if (!terms) return undefined;
+  const duplicate = indexes.primary.get(terms.primary) ?? indexes.aliases.get(terms.primary);
+  if (duplicate !== undefined) return duplicate;
+  for (const alias of terms.aliases) {
+    const included = indexes.primary.get(alias);
+    if (included !== undefined) return included;
   }
   return undefined;
 }
 
 function indexWord(word, indexes) {
-  for (const language of LANGUAGES) {
-    const terms = spellings(word, language);
-    if (!terms) continue;
-    const index = indexes[language];
-    index.primary.set(terms.primary, word.id);
-    for (const alias of terms.aliases) index.aliases.set(alias, word.id);
-  }
+  const terms = spellings(word);
+  if (!terms) return;
+  indexes.primary.set(terms.primary, word.id);
+  for (const alias of terms.aliases) indexes.aliases.set(alias, word.id);
 }
 
 function packageSize(value) {
@@ -223,9 +216,7 @@ function normalizeCustom(value, base, aggregate) {
 
   function names(entry, path) {
     const name = object(entry, path);
-    return name && Object.fromEntries(LANGUAGES.map((language) => [
-      language, text(name[language], `${path}.${language}`, CUSTOM_LIMITS.nameLength),
-    ]));
+    return name && { sv: text(name.sv, `${path}.sv`, CUSTOM_LIMITS.nameLength) };
   }
 
   const categories = list(value.categories, "custom.categories", packageLimit("categories")).map((entry, index) => {
@@ -299,9 +290,7 @@ function normalizeCustom(value, base, aggregate) {
       tags: textList(word.tags, `${path}.tags`, CUSTOM_LIMITS.tags, CUSTOM_LIMITS.tagLength),
       level: choice(word.level, LEVELS, `${path}.level`),
       review: choice(word.review, REVIEW_STATUSES, `${path}.review`),
-      languages: languages && Object.fromEntries(LANGUAGES.map((language) => [
-        language, translation(languages[language], `${path}.languages.${language}`),
-      ])),
+      languages: languages && { sv: translation(languages.sv, `${path}.languages.sv`) },
     };
   });
 
@@ -344,7 +333,6 @@ function normalizeCustom(value, base, aggregate) {
 function select(settings, packs, custom, categories) {
   const builtInWords = packs.flatMap((pack) => pack.words);
   const own = custom === null ? null : normalizeCustom(custom, { categories, words: builtInWords }, true);
-  const language = settings.language ?? "sv";
   const selectedCategories = Array.isArray(settings.categories) ? new Set(settings.categories) : null;
   const selectedSubcategories = settings.subcategories?.length ? new Set(settings.subcategories) : null;
   const selectedLevels = new Set(settings.levels ?? ["familiar"]);
@@ -355,7 +343,7 @@ function select(settings, packs, custom, categories) {
     if (selectedCategories && !selectedCategories.has(word.category)) continue;
     if (selectedSubcategories && !selectedSubcategories.has(word.subcategory)) continue;
     if (!selectedLevels.has(word.level) || wordsById.has(word.id)) continue;
-    const translation = word.languages?.[language];
+    const translation = word.languages?.sv;
     if (!isText(translation?.word) || !Array.isArray(translation.aliases)) continue;
     if (!HINT_LEVELS.every((level) => isText(translation.hints?.[level]))) continue;
     if (duplicateWord(word, terms) !== undefined) continue;
@@ -452,9 +440,8 @@ export function exportCustomJSON(value) {
 }
 
 const CSV_COLUMNS = [
-  "type", "id", "category", "subcategory", "sv_name", "en_name", "icon", "tags", "level", "review",
-  "sv_word", "sv_aliases", "sv_easy", "sv_normal", "sv_hard", "en_word", "en_aliases", "en_easy", "en_normal",
-  "en_hard", "left", "right",
+  "type", "id", "category", "subcategory", "sv_name", "icon", "tags", "level", "review",
+  "sv_word", "sv_aliases", "sv_easy", "sv_normal", "sv_hard", "left", "right",
 ];
 
 function csvRows(text) {
@@ -547,7 +534,7 @@ export function parseCustomCSV(value) {
     const type = cell("type");
 
     if (type === "category" || type === "subcategory") {
-      const entry = { id: cell("id"), names: { sv: cell("sv_name"), en: cell("en_name") } };
+      const entry = { id: cell("id"), names: { sv: cell("sv_name") } };
       if (type === "category") {
         const category = { ...entry, icon: cell("icon"), subcategories: [] };
         result.categories.push(category);
@@ -559,11 +546,11 @@ export function parseCustomCSV(value) {
       result.words.push({
         id: cell("id"), category: cell("category"), subcategory: cell("subcategory"),
         tags: csvList(cell("tags"), `${path}.tags`), level: cell("level"), review: cell("review"),
-        languages: Object.fromEntries(LANGUAGES.map((language) => [language, {
-          word: cell(`${language}_word`),
-          aliases: csvList(cell(`${language}_aliases`), `${path}.${language}_aliases`),
-          hints: Object.fromEntries(HINT_LEVELS.map((level) => [level, cell(`${language}_${level}`)])),
-        }])),
+        languages: { sv: {
+          word: cell("sv_word"),
+          aliases: csvList(cell("sv_aliases"), `${path}.sv_aliases`),
+          hints: Object.fromEntries(HINT_LEVELS.map((level) => [level, cell(`sv_${level}`)])),
+        } },
       });
     } else if (type === "pair") {
       result.pairs.push([cell("left"), cell("right")]);
@@ -589,21 +576,19 @@ export function exportCustomCSV(value) {
   const add = (entry) => rows.push(CSV_COLUMNS.map((column) => quoteCsv(entry[column] ?? "")).join(","));
 
   for (const category of pack.categories) {
-    add({ type: "category", id: category.id, sv_name: category.names.sv, en_name: category.names.en, icon: category.icon });
+    add({ type: "category", id: category.id, sv_name: category.names.sv, icon: category.icon });
     for (const subcategory of category.subcategories) {
-      add({ type: "subcategory", id: subcategory.id, category: category.id, sv_name: subcategory.names.sv, en_name: subcategory.names.en });
+      add({ type: "subcategory", id: subcategory.id, category: category.id, sv_name: subcategory.names.sv });
     }
   }
   for (const word of pack.words) {
+    const { word: value, aliases, hints } = word.languages.sv;
     const entry = {
       type: "word", id: word.id, category: word.category, subcategory: word.subcategory,
       tags: JSON.stringify(word.tags), level: word.level, review: word.review,
+      sv_word: value, sv_aliases: JSON.stringify(aliases),
     };
-    for (const [language, translation] of Object.entries(word.languages)) {
-      entry[`${language}_word`] = translation.word;
-      entry[`${language}_aliases`] = JSON.stringify(translation.aliases);
-      for (const [level, hint] of Object.entries(translation.hints)) entry[`${language}_${level}`] = hint;
-    }
+    for (const [level, hint] of Object.entries(hints)) entry[`sv_${level}`] = hint;
     add(entry);
   }
   for (const [left, right] of pack.pairs) add({ type: "pair", left, right });

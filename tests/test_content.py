@@ -22,16 +22,16 @@ def write_json(path, data):
 def category(category_id, *subcategories):
     return {
         "id": category_id,
-        "names": {"sv": category_id, "en": category_id},
+        "names": {"sv": category_id},
         "icon": "🍏",
         "subcategories": [
-            {"id": subcategory, "names": {"sv": subcategory, "en": subcategory}}
+            {"id": subcategory, "names": {"sv": subcategory}}
             for subcategory in subcategories
         ],
     }
 
 
-def word(word_id, category_id, subcategory, sv, en, *, level="familiar", review="editorial"):
+def word(word_id, category_id, subcategory, swedish, *, level="familiar", review="editorial"):
     return {
         "id": word_id,
         "category": category_id,
@@ -40,11 +40,8 @@ def word(word_id, category_id, subcategory, sv, en, *, level="familiar", review=
         "level": level,
         "review": review,
         "languages": {
-            "sv": {"word": sv, "aliases": [], "hints": {
+            "sv": {"word": swedish, "aliases": [], "hints": {
                 "easy": "Växer i täta grupper", "normal": "Trivs i fukt", "hard": "Under löven",
-            }},
-            "en": {"word": en, "aliases": [], "hints": {
-                "easy": "Grows in clusters", "normal": "Likes moisture", "hard": "Under the leaves",
             }},
         },
     }
@@ -57,14 +54,14 @@ def data_dir(tmp_path):
         category("nature", "nature-trees", "nature-plants"),
     ])
     write_json(tmp_path / "words" / "food.json", [
-        word("food-apple", "food", "food-fruit", "Äpple", "Apple"),
-        word("food-pear", "food", "food-fruit", "Päron", "Pear", review="needs_review"),
-        word("food-rye", "food", "food-grains", "Råg", "Rye", level="intermediate"),
+        word("food-apple", "food", "food-fruit", "Äpple"),
+        word("food-pear", "food", "food-fruit", "Päron", review="needs_review"),
+        word("food-rye", "food", "food-grains", "Råg", level="intermediate"),
     ])
     write_json(tmp_path / "words" / "nature.json", [
-        word("nature-birch", "nature", "nature-trees", "Björk", "Birch"),
-        word("nature-fir", "nature", "nature-trees", "Ädelgran", "Fir", level="expert"),
-        word("nature-moss", "nature", "nature-plants", "Mossa", "Moss"),
+        word("nature-birch", "nature", "nature-trees", "Björk"),
+        word("nature-fir", "nature", "nature-trees", "Ädelgran", level="expert"),
+        word("nature-moss", "nature", "nature-plants", "Mossa"),
     ])
     write_json(tmp_path / "pairs" / "pairs.json", [
         ["food-apple", "food-pear"],
@@ -76,13 +73,13 @@ def data_dir(tmp_path):
 
 @pytest.fixture
 def custom_package():
-    first = word("garden-pine", "garden", "garden-tree", "Tall", "Pine")
+    first = word("garden-pine", "garden", "garden-tree", "Tall")
     first["tags"] = ["natur", "sällskap, träd"]
     first["languages"]["sv"]["aliases"] = ["Tall, vanlig", '"tall"']
     first["languages"]["sv"]["hints"]["easy"] = 'Kotte, "tung"'
     return {
         "categories": [category("garden", "garden-tree")],
-        "words": [first, word("garden-spruce", "garden", "garden-tree", "Gran", "Spruce")],
+        "words": [first, word("garden-spruce", "garden", "garden-tree", "Gran")],
         "pairs": [["garden-pine", "garden-spruce"]],
     }
 
@@ -137,7 +134,7 @@ def test_pack_includes_cross_category_pairs_and_shares_catalog_version(data_dir)
 
     food_path = data_dir / "words" / "food.json"
     records = json.loads(food_path.read_text(encoding="utf-8"))
-    records[0]["languages"]["en"]["hints"]["normal"] = "More than one kind in an orchard"
+    records[0]["languages"]["sv"]["hints"]["normal"] = "Mer än en sort i fruktträdgården"
     write_json(food_path, records)
     assert catalog.version != ContentCatalog.load(data_dir).version
 
@@ -149,7 +146,6 @@ def test_flask_manifest_and_pack_match_the_catalog(data_dir):
 
     catalog = ContentCatalog.load(data_dir)
     app = Flask(__name__)
-    app.config.update(APP_NAME="Fixture game", SLOGANS={"sv": "Svenska", "en": "English"})
     app.extensions.update(content_catalog=catalog, game_rules={})
     register_routes(app, data_dir)
 
@@ -168,7 +164,7 @@ def test_catalog_discovers_metadata_and_words_in_new_json_files(tmp_path):
     assert {item["id"] for item in fragments_only.categories} == {"food", "nature"}
     assert fragments_only.select({}) == {"words": [], "pairs": []}
 
-    write_json(tmp_path / "words" / "fruit.json", [word("food-apple", "food", "food-fruit", "Äpple", "Apple")])
+    write_json(tmp_path / "words" / "fruit.json", [word("food-apple", "food", "food-fruit", "Äpple")])
     assert ids(ContentCatalog.load(tmp_path).select({})) == {"food-apple"}
 
     old_food = category("food", "food-dried")
@@ -193,12 +189,12 @@ def test_audit_detects_duplicate_pairs_and_missing_pair_references(data_dir):
 
 def test_audit_matches_aliases_after_normalization_but_preserves_swedish_letters(tmp_path):
     write_json(tmp_path / "categories.json", [category("food", "food-grains")])
-    first = word("food-limpa", "food", "food-grains", "Limpa", "Loaf")
+    first = word("food-limpa", "food", "food-grains", "Limpa")
     first["languages"]["sv"]["aliases"] = ["RA\u030aG   LIMPA"]
     write_json(tmp_path / "words" / "food.json", [
         first,
-        word("food-rye", "food", "food-grains", "Råg limpa", "Rye bread"),
-        word("food-rag", "food", "food-grains", "Rag limpa", "Seasoned bread"),
+        word("food-rye", "food", "food-grains", "Råg limpa"),
+        word("food-rag", "food", "food-grains", "Rag limpa"),
     ])
 
     audit = audit_content(tmp_path)
@@ -308,6 +304,15 @@ def test_browser_validation_matches_python_for_order_and_duplicate_tags(data_dir
     catalog = ContentCatalog.load(data_dir)
     custom_package["words"].reverse()
     expected = catalog.validate_custom(custom_package)
+    legacy = deepcopy(custom_package)
+    legacy["categories"][0]["names"]["en"] = "Garden"
+    legacy["categories"][0]["subcategories"][0]["names"]["en"] = "Trees"
+    legacy["words"][0]["languages"]["en"] = {
+        "word": "Spruce", "aliases": [], "hints": {
+            "easy": "Evergreen tree", "normal": "Needles", "hard": "Grows in forests",
+        },
+    }
+    assert catalog.validate_custom(legacy) == expected
     invalid = deepcopy(custom_package)
     invalid["words"][0]["tags"] = ["fixture", " FIXTURE "]
     with pytest.raises(ContentValidationError):
@@ -323,16 +328,16 @@ def test_browser_validation_matches_python_for_order_and_duplicate_tags(data_dir
         catch { rejected = true; }
         console.log(JSON.stringify({valid: validateCustom(valid), rejected}));
         """,
-        {"valid": custom_package, "invalid": invalid},
+        {"valid": legacy, "invalid": invalid},
     )
 
     assert result == {"valid": expected, "rejected": True}
 
 
-def test_browser_matches_python_when_custom_terms_overlap_in_either_language(data_dir, custom_package):
+def test_browser_matches_python_when_custom_terms_overlap(data_dir, custom_package):
     catalog = ContentCatalog.load(data_dir)
     custom_package["words"][0]["languages"]["sv"]["aliases"].append("Äpple")
-    settings = {"language": "en"}
+    settings = {"language": "sv"}
 
     matches = run_content_js(
         """
@@ -353,7 +358,7 @@ def test_browser_matches_python_when_custom_terms_overlap_in_either_language(dat
 def test_browser_filters_an_aggregate_of_individually_valid_custom_packs(custom_package):
     orchard = {
         "categories": [category("orchard", "orchard-tree")],
-        "words": [word("orchard-pine", "orchard", "orchard-tree", "Tall", "Pine")],
+        "words": [word("orchard-pine", "orchard", "orchard-tree", "Tall")],
         "pairs": [],
     }
     matches = run_content_js(
