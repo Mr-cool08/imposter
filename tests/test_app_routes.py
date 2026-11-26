@@ -11,20 +11,18 @@ def app():
     })
 
 
-def test_game_shell_and_manifest(app):
+def test_home_is_a_web_page_without_installation(app):
     client = app.test_client()
     home = client.get("/")
     assert home.status_code == 200
     assert b"Provspel" in home.data
     assert "Lita inte på någon" in home.get_data(as_text=True)
 
-    response = client.get("/manifest.webmanifest")
-    assert response.mimetype == "application/manifest+json"
-    manifest = response.json
-    assert manifest["name"] == "Provspel"
-    assert manifest["scope"] == manifest["start_url"] == "/"
-    for icon in manifest["icons"]:
-        assert client.get(icon["src"]).status_code == 200
+    assert b'rel="manifest"' not in home.data
+    assert b'id="offline-menu"' not in home.data
+    assert client.get("/static/icons/icon.svg").status_code == 200
+    assert client.get("/manifest.webmanifest").status_code == 404
+    assert client.get("/static/js/offline.mjs").status_code == 404
 
 
 def test_public_data_routes_agree_on_catalog_version(app):
@@ -40,13 +38,12 @@ def test_public_data_routes_agree_on_catalog_version(app):
     assert client.get("/healthz").json == {"status": "ok", "contentVersion": catalog["version"]}
 
 
-def test_service_worker_has_root_scope(app):
+def test_legacy_service_worker_update_is_available(app):
     client = app.test_client()
     worker = client.get("/sw.js")
     assert worker.status_code == 200
-    assert worker.headers["Service-Worker-Allowed"] == "/"
-    assert worker.headers["Cache-Control"] == "no-cache"
-    assert worker.data.startswith(b"self.IMPOSTER_SHELL = {")
+    assert worker.mimetype == "text/javascript"
+    assert worker.cache_control.no_cache
 
 
 def test_both_language_routes_have_the_same_messages(app):

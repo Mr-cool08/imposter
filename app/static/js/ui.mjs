@@ -12,7 +12,6 @@ const openWords = byId("open-word-tools");
 const closeWords = byId("close-word-tools");
 const notice = byId("app-notice");
 const preferencesMenu = byId("preferences-menu");
-const offlineTools = byId("offline-tools");
 const themeColor = document.querySelector('meta[name="theme-color"]');
 const languageInput = byId("app-language");
 const themeInput = byId("app-theme");
@@ -139,7 +138,6 @@ function setRoundActive(active) {
   if (next === activeRound) return;
   activeRound = next;
   if (next) preferencesMenu.open = false;
-  window.dispatchEvent(new CustomEvent("imposter:round-state", { detail: { active: next } }));
 }
 
 function feedback(kind) {
@@ -178,7 +176,6 @@ function context(root, view) {
     modeName: id => t("ui.mode." + id),
     roleName: id => t("rules.roleName." + id),
     preferences: () => ({ ...prefs }),
-    isRoundActive: () => activeRound,
     setRoundActive(active) {
       if (localView === view) setRoundActive(active);
     },
@@ -388,7 +385,6 @@ function wireControls() {
       storage.remove("localSettings");
       storage.remove("localPlayers");
       storage.set("preferences", prefs);
-      window.dispatchEvent(new Event("imposter:local-settings"));
       updateInputs();
       await mountLocalView();
       if (!storageUnavailable) notify(t("ui.resetDone"));
@@ -429,10 +425,6 @@ async function boot() {
   }
   wireControls();
   showCurrentPage();
-  import("./offline.mjs").then(module => module.mountOffline(context(offlineTools)))
-    .catch(() => {
-      offlineTools.replaceChildren(el("p", { class: "error" }, t("ui.offlineError")));
-    });
 }
 
 boot();

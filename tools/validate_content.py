@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter, defaultdict
+from collections.abc import Iterator
 from dataclasses import dataclass
 import json
 from pathlib import Path
@@ -19,6 +20,7 @@ if TYPE_CHECKING:
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = ("sv", "en")
 HINT_LEVELS = ("easy", "normal", "hard")
+HINT_WORD = re.compile(r"[^\W_]+(?:['’-][^\W_]+)*")
 REQUIRED_CATEGORIES = (
     "minecraft", "clash-royale", "games", "everyday", "technology", "food",
     "animals", "nature", "sports", "vehicles", "film-tv", "music", "travel",
@@ -61,8 +63,16 @@ def _cell(value: object) -> str:
     )
 
 
+def _invalid_hint_paths(words: list[dict]) -> Iterator[str]:
+    for word in words:
+        for language, translation in word["languages"].items():
+            for level, hint in translation["hints"].items():
+                if not HINT_WORD.fullmatch(unicodedata.normalize("NFC", hint)) or not any(char.isalpha() for char in hint):
+                    yield f"{word['id']}.languages.{language}.hints.{level}"
+
+
 def _hint_findings(words: list[dict]) -> tuple[
-    list[tuple[str, str, list[str]]],
+    list[tuple[str, str, str, str, list[str]]],
     list[tuple[str, str, str, str]],
     list[tuple[str, str, str, str]],
 ]:
@@ -82,7 +92,7 @@ def _hint_findings(words: list[dict]) -> tuple[
             for level in HINT_LEVELS:
                 hint = translation["hints"][level]
                 key = _text_key(hint)
-                uses[lang, key].add(word["id"])
+                uses[lang, word["category"], level, key].add(word["id"])
                 if key in GENERIC_HINTS[lang]:
                     generic.append((lang, word["id"], level, hint))
                 if key in answers or any(
@@ -92,10 +102,10 @@ def _hint_findings(words: list[dict]) -> tuple[
                     reveals_answer.append((lang, word["id"], level, hint))
 
     repeated = [
-        (lang, key, sorted(ids)) for (lang, key), ids in uses.items()
+        (lang, category, level, key, sorted(ids)) for (lang, category, level, key), ids in uses.items()
         if key and len(ids) >= REUSED_HINT_THRESHOLD
     ]
-    repeated.sort(key=lambda entry: (-len(entry[2]), entry[0], entry[1]))
+    repeated.sort(key=lambda entry: (-len(entry[-1]), *entry[:-1]))
     return repeated, sorted(generic), sorted(reveals_answer)
 
 
@@ -143,6 +153,7 @@ def build_report(audit: ContentAudit) -> tuple[str, bool]:
     ready = errors == 0 and volume_met and not missing_categories
     repeated, generic, revealing = _hint_findings(audit.words)
     review = Counter(word["review"] for word in audit.words)
+    levels = Counter(word["level"] for word in audit.words)
 
     lines = [
         "# Innehållsrapport", "",
@@ -180,6 +191,8 @@ def build_report(audit: ContentAudit) -> tuple[str, bool]:
     lines.extend([f"| **Totalt** | {' | '.join(totals)} |", ""])
 
     lines.extend([
+        f"På nivån Välkända finns **{levels['familiar']}** begrepp, på Mellannivå "
+        f"**{levels['intermediate']}** och på Expert **{levels['expert']}**.", "",
         f"Med standardnivån `familiar` och alla kategorier valda finns {swedish.familiar_words} svenska "
         f"begrepp och {swedish.familiar_pairs} svenska par samt {english.familiar_words} engelska begrepp och "
         f"{english.familiar_pairs} engelska par.", "",
@@ -191,11 +204,13 @@ def build_report(audit: ContentAudit) -> tuple[str, bool]:
     lines.extend([
         "## Automatisk validering", "",
         "Valideringen kontrollerar JSON, obligatoriska fält, språkversioner, unika identifierare, "
-        "namn och parreferenser. Kontrollerna av ledtrådstext hittar mönster att gå igenom manuellt.", "",
+        "namn, parreferenser och att varje ledtråd består av ett ord. Övriga kontroller av ledtrådstext "
+        "hittar mönster att gå igenom manuellt.", "",
         f"- Strukturella fel **{errors}**",
         f"- Dublett- och aliashändelser **{duplicate_count}**",
         f"- Saknade obligatoriska fält **{missing_fields}**",
-        f"- Ledtrådsfraser som används för minst {REUSED_HINT_THRESHOLD} begrepp på samma språk **{len(repeated)}**",
+        f"- Ledtrådar som återkommer för minst {REUSED_HINT_THRESHOLD} begrepp i samma kategori, "
+        f"språk och ledtrådsnivå **{len(repeated)}**",
         f"- Träffar på generiska ledtrådar **{len(generic)}**",
         f"- Ledtrådar med ordet, en direkt översättning eller ett angivet alias **{len(revealing)}**", "",
     ])
@@ -211,10 +226,12 @@ def build_report(audit: ContentAudit) -> tuple[str, bool]:
     if repeated:
         lines.extend([
             "### Återanvända ledtrådar", "",
-            "| Språk | Normaliserad fras | Antal begrepp | Ord-ID |", "| --- | --- | ---: | --- |",
+            "| Språk | Kategori | Ledtrådsnivå | Normaliserad ledtråd | Antal begrepp | Ord-ID |",
+            "| --- | --- | --- | --- | ---: | --- |",
         ])
-        for lang, phrase, ids in repeated:
-            lines.append(f"| {lang} | {_cell(phrase)} | {len(ids)} | {_cell(', '.join(ids))} |")
+        for lang, category, level, clue, ids in repeated:
+            cells = (lang, category, level, clue, len(ids), ", ".join(ids))
+            lines.append("| " + " | ".join(map(_cell, cells)) + " |")
         lines.append("")
     for heading, findings in (("Generiska ledtrådar", generic), ("Ledtrådar som kan avslöja ordet", revealing)):
         if findings:
@@ -252,11 +269,15 @@ def main(argv: list[str] | None = None) -> int:
     # Import the standard-library content module without loading the Flask app factory.
     sys.path.insert(0, str(PROJECT_ROOT / "app"))
     try:
-        from content import audit_content
+        from content import ContentIssue, audit_content
     finally:
         sys.path.pop(0)
 
     audit = audit_content(args.data_dir)
+    audit.issues.extend(
+        ContentIssue("error", "hint_not_one_word", path, "Ange ett enda ord.")
+        for path in _invalid_hint_paths(audit.words)
+    )
     report, ready = build_report(audit)
     errors = any(issue.severity == "error" for issue in audit.issues)
     print(report, end="")

@@ -13,18 +13,18 @@
         "word": "Skolryggsäck",
         "aliases": [],
         "hints": {
-          "easy": "Bär dagens böcker på ryggen",
-          "normal": "Axelremmar och flera fack",
-          "hard": "Från hallkroken till skolbänken"
+          "easy": "axelrem",
+          "normal": "läroböcker",
+          "hard": "packning"
         }
       },
       "en": {
         "word": "School backpack",
         "aliases": [],
         "hints": {
-          "easy": "Carries books on both shoulders",
-          "normal": "Zipped pockets and padded straps",
-          "hard": "Travels from the coat hook to class"
+          "easy": "straps",
+          "normal": "textbooks",
+          "hard": "packing"
         }
       }
     }
@@ -43,18 +43,18 @@
         "word": "Pennfodral",
         "aliases": [],
         "hints": {
-          "easy": "Förvarar små skrivredskap",
-          "normal": "Öppnas ofta med dragkedja",
-          "hard": "Något skramlar i väskan"
+          "easy": "pennor",
+          "normal": "dragkedja",
+          "hard": "ordning"
         }
       },
       "en": {
         "word": "Pencil case",
         "aliases": [],
         "hints": {
-          "easy": "Keeps writing tools together",
-          "normal": "Often opens with a zip",
-          "hard": "The little rattle inside a bag"
+          "easy": "pencils",
+          "normal": "zipper",
+          "hard": "organization"
         }
       }
     }
@@ -73,9 +73,9 @@
         "word": "Suddgummi",
         "aliases": [],
         "hints": {
-          "easy": "Gnuggar bort blyertsstreck",
-          "normal": "Lämnar små smulor",
-          "hard": "En chans att börja om"
+          "easy": "blyerts",
+          "normal": "smulor",
+          "hard": "omtag"
         }
       },
       "en": {
@@ -84,9 +84,9 @@
           "Pencil eraser"
         ],
         "hints": {
-          "easy": "Rub away graphite marks",
-          "normal": "Leaves little crumbs",
-          "hard": "A second chance on the page"
+          "easy": "graphite",
+          "normal": "crumbs",
+          "hard": "correction"
         }
       }
     }
@@ -105,18 +105,18 @@
         "word": "Pennvässare",
         "aliases": [],
         "hints": {
-          "easy": "Gör en trubbig spets vass",
-          "normal": "Små spiralformade träspån",
-          "hard": "Vrid några varv"
+          "easy": "blyerts",
+          "normal": "spån",
+          "hard": "spets"
         }
       },
       "en": {
         "word": "Pencil sharpener",
         "aliases": [],
         "hints": {
-          "easy": "Makes a blunt point usable again",
-          "normal": "Little curls of wood",
-          "hard": "A few quick twists"
+          "easy": "graphite",
+          "normal": "shavings",
+          "hard": "point"
         }
       }
     }
@@ -135,18 +135,18 @@
         "word": "Skolkrita",
         "aliases": [],
         "hints": {
-          "easy": "Skriver med torrt pulver på en svart tavla",
-          "normal": "En vit pinne som smular",
-          "hard": "Damm på lärarens fingrar"
+          "easy": "damm",
+          "normal": "tavla",
+          "hard": "knarr"
         }
       },
       "en": {
         "word": "Blackboard chalk",
         "aliases": [],
         "hints": {
-          "easy": "Writes in dry powder on a dark board",
-          "normal": "A crumbly white stick",
-          "hard": "Dust on the teacher’s fingertips"
+          "easy": "dust",
+          "normal": "board",
+          "hard": "squeak"
         }
       }
     }
@@ -158,25 +158,25 @@
     "tags": [
       "school-supplies"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Whiteboardtavla",
         "aliases": [],
         "hints": {
-          "easy": "Tavla för märken som går att torka bort",
-          "normal": "Särskilda tuschpennor med avtorkbart bläck",
-          "hard": "Lektionen försvinner med ett svep"
+          "easy": "tusch",
+          "normal": "avtorkning",
+          "hard": "magnet"
         }
       },
       "en": {
         "word": "Whiteboard",
         "aliases": [],
         "hints": {
-          "easy": "A teaching surface that wipes clean",
-          "normal": "Needs special felt-tip markers",
-          "hard": "The lesson disappears in one swipe"
+          "easy": "marker",
+          "normal": "wiping",
+          "hard": "magnet"
         }
       }
     }
@@ -195,18 +195,18 @@
         "word": "Svarta tavlan",
         "aliases": [],
         "hints": {
-          "easy": "Mörk skrivyta för krita",
-          "normal": "En dammig ränna under genomgången",
-          "hard": "Ett gnissel får klassen att rysa"
+          "easy": "krita",
+          "normal": "sudd",
+          "hard": "damm"
         }
       },
       "en": {
         "word": "Blackboard",
         "aliases": [],
         "hints": {
-          "easy": "A dark teaching surface for chalk",
-          "normal": "A dusty tray below the lesson",
-          "hard": "One squeak makes the class wince"
+          "easy": "chalk",
+          "normal": "wiping",
+          "hard": "dust"
         }
       }
     }
@@ -225,18 +225,18 @@
         "word": "Passare",
         "aliases": [],
         "hints": {
-          "easy": "Ritar cirklar med en fast mittpunkt",
-          "normal": "Två ben, en spets och blyerts",
-          "hard": "Radien bestäms innan man börjar"
+          "easy": "cirkel",
+          "normal": "spets",
+          "hard": "radie"
         }
       },
       "en": {
         "word": "Drawing compass",
         "aliases": [],
         "hints": {
-          "easy": "Draws circles around a fixed point",
-          "normal": "Two arms, one point and a pencil",
-          "hard": "Set the radius before you start"
+          "easy": "circle",
+          "normal": "point",
+          "hard": "radius"
         }
       }
     }
@@ -255,18 +255,18 @@
         "word": "Gradskiva",
         "aliases": [],
         "hints": {
-          "easy": "Mäter vinklar i grader",
-          "normal": "Genomskinlig halvcirkel med streck",
-          "hard": "Nollan måste ligga längs ena sidan"
+          "easy": "vinkel",
+          "normal": "halvcirkel",
+          "hard": "mätning"
         }
       },
       "en": {
         "word": "Protractor",
         "aliases": [],
         "hints": {
-          "easy": "Measures angles in degrees",
-          "normal": "A clear semicircle with tick marks",
-          "hard": "Line up zero with one edge"
+          "easy": "angle",
+          "normal": "semicircle",
+          "hard": "measurement"
         }
       }
     }
@@ -278,25 +278,25 @@
     "tags": [
       "school-supplies"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Rittriangel",
         "aliases": [],
         "hints": {
-          "easy": "Hjälper till att rita räta vinklar",
-          "normal": "En stel triangel i matteväskan",
-          "hard": "Tvärs över en rak kant"
+          "easy": "geometri",
+          "normal": "rätvinklig",
+          "hard": "ritning"
         }
       },
       "en": {
         "word": "Set square",
         "aliases": [],
         "hints": {
-          "easy": "Helps draw right angles",
-          "normal": "A rigid triangle in a maths kit",
-          "hard": "Slide it along a straight edge"
+          "easy": "geometry",
+          "normal": "perpendicular",
+          "hard": "drafting"
         }
       }
     }
@@ -315,18 +315,18 @@
         "word": "Linjal",
         "aliases": [],
         "hints": {
-          "easy": "Mäter längder och ger raka streck",
-          "normal": "Centimeter längs kanten",
-          "hard": "Börja vid noll, inte vid änden"
+          "easy": "centimeter",
+          "normal": "rak",
+          "hard": "mätning"
         }
       },
       "en": {
         "word": "Ruler",
         "aliases": [],
         "hints": {
-          "easy": "Measures length and guides straight lines",
-          "normal": "Centimetres along an edge",
-          "hard": "Start at zero instead of at the tip"
+          "easy": "centimeters",
+          "normal": "straight",
+          "hard": "measurement"
         }
       }
     }
@@ -345,9 +345,9 @@
         "word": "Skrivhäfte",
         "aliases": [],
         "hints": {
-          "easy": "Häfte att göra uppgifter i",
-          "normal": "Linjer och tomma sidor innanför omslaget",
-          "hard": "Datumet hamnar ofta högst upp"
+          "easy": "rader",
+          "normal": "anteckningar",
+          "hard": "spiral"
         }
       },
       "en": {
@@ -356,9 +356,9 @@
           "Composition book"
         ],
         "hints": {
-          "easy": "A booklet for doing classwork",
-          "normal": "Blank ruled pages inside a cover",
-          "hard": "The date often goes at the top"
+          "easy": "lines",
+          "normal": "notes",
+          "hard": "spiral"
         }
       }
     }
@@ -377,18 +377,18 @@
         "word": "Rutpapper",
         "aliases": [],
         "hints": {
-          "easy": "Rutor för koordinater och grafer",
-          "normal": "Lodräta och vågräta stödlinjer",
-          "hard": "Ett steg på varje axel"
+          "easy": "kvadrater",
+          "normal": "koordinater",
+          "hard": "axlar"
         }
       },
       "en": {
         "word": "Graph paper",
         "aliases": [],
         "hints": {
-          "easy": "A grid for plotting points and curves",
-          "normal": "Evenly spaced vertical and horizontal lines",
-          "hard": "One step along each axis"
+          "easy": "squares",
+          "normal": "coordinates",
+          "hard": "axes"
         }
       }
     }
@@ -407,18 +407,18 @@
         "word": "Lärobok",
         "aliases": [],
         "hints": {
-          "easy": "Bok med genomgångar i ett skolämne",
-          "normal": "Kapitel att läsa till nästa lektion",
-          "hard": "Slå upp dagens sidnummer"
+          "easy": "kapitel",
+          "normal": "uppslag",
+          "hard": "fakta"
         }
       },
       "en": {
         "word": "Textbook",
         "aliases": [],
         "hints": {
-          "easy": "A book that teaches a particular subject",
-          "normal": "Chapters assigned for the next class",
-          "hard": "Turn to the page on the board"
+          "easy": "chapters",
+          "normal": "pages",
+          "hard": "facts"
         }
       }
     }
@@ -430,25 +430,25 @@
     "tags": [
       "school-supplies"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Arbetsbok",
         "aliases": [],
         "hints": {
-          "easy": "Tryckta övningar med plats för svar",
-          "normal": "Fyll i rader, rutor eller luckor",
-          "hard": "Läs frågan före den tomma raden"
+          "easy": "uppgifter",
+          "normal": "ifyllnad",
+          "hard": "övning"
         }
       },
       "en": {
         "word": "Workbook",
         "aliases": [],
         "hints": {
-          "easy": "Printed practice tasks with space for answers",
-          "normal": "Fill in boxes or complete a sentence",
-          "hard": "Read the question above the blank line"
+          "easy": "assignments",
+          "normal": "blanks",
+          "hard": "practice"
         }
       }
     }
@@ -467,18 +467,18 @@
         "word": "Instuderingskort",
         "aliases": [],
         "hints": {
-          "easy": "Frågan fram och svaret bak",
-          "normal": "Vänd efter att du har gissat",
-          "hard": "Lägg de svåra i en egen hög"
+          "easy": "repetition",
+          "normal": "vändning",
+          "hard": "minne"
         }
       },
       "en": {
         "word": "Flashcard",
         "aliases": [],
         "hints": {
-          "easy": "A prompt on one side and an answer on the other",
-          "normal": "Turn it over after guessing",
-          "hard": "Keep the tricky ones in a separate pile"
+          "easy": "revision",
+          "normal": "flipping",
+          "hard": "memory"
         }
       }
     }
@@ -497,18 +497,18 @@
         "word": "Periodiska systemet",
         "aliases": [],
         "hints": {
-          "easy": "Visar grundämnen efter atomnummer",
-          "normal": "Symboler ordnade i rader och kolumner",
-          "hard": "Syre har åtta protoner"
+          "easy": "grundämnen",
+          "normal": "grupper",
+          "hard": "atomnummer"
         }
       },
       "en": {
         "word": "Periodic table",
         "aliases": [],
         "hints": {
-          "easy": "Arranges elements by atomic number",
-          "normal": "Symbols laid out in rows and columns",
-          "hard": "Oxygen sits at eight"
+          "easy": "elements",
+          "normal": "groups",
+          "hard": "protons"
         }
       }
     }
@@ -527,18 +527,18 @@
         "word": "Jordglob",
         "aliases": [],
         "hints": {
-          "easy": "En rund modell av jorden",
-          "normal": "Världsdelar på ett klot som kan snurra",
-          "hard": "Leta efter ekvatorn med fingret"
+          "easy": "jordklot",
+          "normal": "kontinenter",
+          "hard": "rotation"
         }
       },
       "en": {
         "word": "Globe",
         "aliases": [],
         "hints": {
-          "easy": "A round model of the Earth",
-          "normal": "Continents on a sphere that spins",
-          "hard": "Trace the equator with your finger"
+          "easy": "world",
+          "normal": "continents",
+          "hard": "rotation"
         }
       }
     }
@@ -557,18 +557,18 @@
         "word": "Väggkarta",
         "aliases": [],
         "hints": {
-          "easy": "Stor plansch över en plats",
-          "normal": "Läraren pekar ut ett land inför klassen",
-          "hard": "Ibland dras den ner från en rulle"
+          "easy": "geografi",
+          "normal": "länder",
+          "hard": "upphängning"
         }
       },
       "en": {
         "word": "Wall map",
         "aliases": [],
         "hints": {
-          "easy": "A large display of a place or region",
-          "normal": "A teacher can point out a country to the class",
-          "hard": "Sometimes pulls down from a roller"
+          "easy": "geography",
+          "normal": "countries",
+          "hard": "hanging"
         }
       }
     }
@@ -587,18 +587,18 @@
         "word": "Skelettmodell",
         "aliases": [],
         "hints": {
-          "easy": "Visar människans ben i klassrummet",
-          "normal": "Revben och leder på ett stativ",
-          "hard": "Kan stå i hörnet året om"
+          "easy": "ben",
+          "normal": "leder",
+          "hard": "anatomi"
         }
       },
       "en": {
         "word": "Model skeleton",
         "aliases": [],
         "hints": {
-          "easy": "Shows the bones of the human body",
-          "normal": "Ribs and joints on a stand",
-          "hard": "Spends the whole year in the classroom corner"
+          "easy": "bones",
+          "normal": "joints",
+          "hard": "anatomy"
         }
       }
     }
@@ -617,18 +617,18 @@
         "word": "Provrör",
         "aliases": [],
         "hints": {
-          "easy": "Smal glasbehållare för små mängder",
-          "normal": "Står upprätt i ett ställ",
-          "hard": "Botten är ofta rund"
+          "easy": "laboratorium",
+          "normal": "glas",
+          "hard": "ställ"
         }
       },
       "en": {
         "word": "Test tube",
         "aliases": [],
         "hints": {
-          "easy": "A narrow glass vessel for small samples",
-          "normal": "Stands upright in a rack",
-          "hard": "Often has a rounded bottom"
+          "easy": "laboratory",
+          "normal": "glass",
+          "hard": "rack"
         }
       }
     }
@@ -647,18 +647,18 @@
         "word": "Glasbägare",
         "aliases": [],
         "hints": {
-          "easy": "Vid behållare för att blanda i ett labb",
-          "normal": "Rak sida och en liten hällpip",
-          "hard": "Strecken ger ungefärliga volymer"
+          "easy": "vätska",
+          "normal": "pip",
+          "hard": "blandning"
         }
       },
       "en": {
         "word": "Beaker",
         "aliases": [],
         "hints": {
-          "easy": "A wide lab vessel for mixing",
-          "normal": "Straight sides and a small pouring lip",
-          "hard": "Its marks give approximate volumes"
+          "easy": "liquid",
+          "normal": "spout",
+          "hard": "mixing"
         }
       }
     }
@@ -677,18 +677,18 @@
         "word": "Mätcylinder",
         "aliases": [],
         "hints": {
-          "easy": "Hög behållare som mäter vätskevolym",
-          "normal": "Täta streck ovanför en stadig fot",
-          "hard": "Läs av den böjda vätskeytan rätt"
+          "easy": "volym",
+          "normal": "skala",
+          "hard": "menisk"
         }
       },
       "en": {
         "word": "Graduated cylinder",
         "aliases": [],
         "hints": {
-          "easy": "A tall vessel for measuring liquid volume",
-          "normal": "Closely spaced marks above a broad base",
-          "hard": "Read the curved surface at eye level"
+          "easy": "volume",
+          "normal": "scale",
+          "hard": "meniscus"
         }
       }
     }
@@ -700,25 +700,25 @@
     "tags": [
       "school-supplies"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Petriskål",
         "aliases": [],
         "hints": {
-          "easy": "Grund rund skål med lock för labbprov",
-          "normal": "En gel kan täcka botten",
-          "hard": "Kolonier växer till prickar"
+          "easy": "bakterier",
+          "normal": "odling",
+          "hard": "inkubation"
         }
       },
       "en": {
         "word": "Petri dish",
         "aliases": [],
         "hints": {
-          "easy": "A shallow lidded dish for lab samples",
-          "normal": "Gel can cover the base",
-          "hard": "Colonies appear as dots"
+          "easy": "bacteria",
+          "normal": "culture",
+          "hard": "incubation"
         }
       }
     }
@@ -737,18 +737,18 @@
         "word": "Bunsenbrännare",
         "aliases": [],
         "hints": {
-          "easy": "Ger en justerbar låga i labbet",
-          "normal": "En gasslang går in i foten",
-          "hard": "Mer luft gör lågan blåare"
+          "easy": "låga",
+          "normal": "gas",
+          "hard": "upphettning"
         }
       },
       "en": {
         "word": "Bunsen burner",
         "aliases": [],
         "hints": {
-          "easy": "Produces an adjustable flame in the lab",
-          "normal": "A gas hose connects at the base",
-          "hard": "More air makes the flame bluer"
+          "easy": "flame",
+          "normal": "gas",
+          "hard": "heating"
         }
       }
     }
@@ -760,25 +760,25 @@
     "tags": [
       "school-supplies"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "pH-papper",
         "aliases": [],
         "hints": {
-          "easy": "Byter färg för att visa surhetsgrad",
-          "normal": "En remsa jämförs med en färgskala",
-          "hard": "Citronsaft och tvål kan ge olika nyanser"
+          "easy": "surhet",
+          "normal": "färgskala",
+          "hard": "indikator"
         }
       },
       "en": {
         "word": "pH test paper",
         "aliases": [],
         "hints": {
-          "easy": "Changes colour to show how acidic something is",
-          "normal": "Compare a strip with a colour chart",
-          "hard": "Lemon juice and soap give different shades"
+          "easy": "acidity",
+          "normal": "colors",
+          "hard": "indicator"
         }
       }
     }
@@ -797,18 +797,18 @@
         "word": "Objektglas",
         "aliases": [],
         "hints": {
-          "easy": "Tunn glasskiva som bär ett prov",
-          "normal": "Lägg den plant under linsen",
-          "hard": "En liten glasbit kan täcka provet"
+          "easy": "mikroskop",
+          "normal": "preparat",
+          "hard": "genomskinlig"
         }
       },
       "en": {
         "word": "Microscope slide",
         "aliases": [],
         "hints": {
-          "easy": "A thin glass strip that holds a specimen",
-          "normal": "Lies flat beneath the lens",
-          "hard": "An even smaller piece of glass can cover the sample"
+          "easy": "microscope",
+          "normal": "specimen",
+          "hard": "transparent"
         }
       }
     }
@@ -827,18 +827,18 @@
         "word": "Kulram",
         "aliases": [],
         "hints": {
-          "easy": "Räkna genom att skjuta kulor",
-          "normal": "Värdet kan bero på vilken rad kulan sitter på",
-          "hard": "Varje summa går att nollställa med handen"
+          "easy": "pärlor",
+          "normal": "räkning",
+          "hard": "pinnar"
         }
       },
       "en": {
         "word": "Abacus",
         "aliases": [],
         "hints": {
-          "easy": "Count by sliding beads",
-          "normal": "Each row can represent a different value",
-          "hard": "Clear a calculation with one hand"
+          "easy": "beads",
+          "normal": "arithmetic",
+          "hard": "rods"
         }
       }
     }
@@ -850,25 +850,25 @@
     "tags": [
       "school-supplies"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Räknekuber",
         "aliases": [],
         "hints": {
-          "easy": "Små kuber för att visa antal",
-          "normal": "Tio kan bilda en stav",
-          "hard": "Bygg samma summa i två färger"
+          "easy": "räkning",
+          "normal": "byggklossar",
+          "hard": "grupper"
         }
       },
       "en": {
         "word": "Counting cubes",
         "aliases": [],
         "hints": {
-          "easy": "Small blocks used to show quantity",
-          "normal": "Ten can snap together into a rod",
-          "hard": "Build the same total in two colours"
+          "easy": "counting",
+          "normal": "blocks",
+          "hard": "groups"
         }
       }
     }
@@ -887,18 +887,18 @@
         "word": "Bråkcirklar",
         "aliases": [],
         "hints": {
-          "easy": "Tårtbitar som visar delar av en helhet",
-          "normal": "Två fjärdedelar kan täcka en halv",
-          "hard": "Lägg bitarna kant i kant"
+          "easy": "delar",
+          "normal": "tårtbitar",
+          "hard": "helhet"
         }
       },
       "en": {
         "word": "Fraction circles",
         "aliases": [],
         "hints": {
-          "easy": "Pie-shaped pieces that show parts of a whole",
-          "normal": "Two quarters cover the same area as a half",
-          "hard": "Fit the pieces edge to edge"
+          "easy": "pieces",
+          "normal": "wedges",
+          "hard": "whole"
         }
       }
     }
@@ -917,18 +917,18 @@
         "word": "Skåp i skolan",
         "aliases": [],
         "hints": {
-          "easy": "Eget skåp i korridoren",
-          "normal": "Böcker och jacka bakom en metalldörr",
-          "hard": "En bortglömd kod kan försena lektionen"
+          "easy": "lås",
+          "normal": "korridor",
+          "hard": "böcker"
         }
       },
       "en": {
         "word": "School locker",
         "aliases": [],
         "hints": {
-          "easy": "Private storage in a hallway",
-          "normal": "A metal door keeps books and coats together",
-          "hard": "Forgetting the combination can make you late for class"
+          "easy": "lock",
+          "normal": "hallway",
+          "hard": "books"
         }
       }
     }
@@ -947,9 +947,9 @@
         "word": "Närvarolista",
         "aliases": [],
         "hints": {
-          "easy": "Visar vilka i klassen som är på plats",
-          "normal": "En markering vid varje elevs namn",
-          "hard": "Svara när ditt namn läses upp"
+          "easy": "upprop",
+          "normal": "namn",
+          "hard": "frånvaro"
         }
       },
       "en": {
@@ -958,9 +958,9 @@
           "Class attendance sheet"
         ],
         "hints": {
-          "easy": "Records which pupils are in class",
-          "normal": "A mark beside each student's name",
-          "hard": "Answer when your name is called"
+          "easy": "register",
+          "normal": "names",
+          "hard": "absence"
         }
       }
     }
@@ -979,9 +979,9 @@
         "word": "Skolschema",
         "aliases": [],
         "hints": {
-          "easy": "Visar tid och sal för varje lektion",
-          "normal": "Ämnen i rutor för veckans dagar",
-          "hard": "Där ser du om du börjar tidigt på fredag"
+          "easy": "lektioner",
+          "normal": "tider",
+          "hard": "veckor"
         }
       },
       "en": {
@@ -990,9 +990,9 @@
           "Class schedule"
         ],
         "hints": {
-          "easy": "Tells you when and where lessons happen",
-          "normal": "Subjects in blocks across the week",
-          "hard": "Check whether Friday starts early"
+          "easy": "lessons",
+          "normal": "times",
+          "hard": "weeks"
         }
       }
     }
@@ -1011,9 +1011,9 @@
         "word": "Klassfoto",
         "aliases": [],
         "hints": {
-          "easy": "Bild av eleverna tillsammans",
-          "normal": "Långa personer hamnar ofta längst bak",
-          "hard": "Alla ska titta åt samma håll"
+          "easy": "elever",
+          "normal": "uppställning",
+          "hard": "minne"
         }
       },
       "en": {
@@ -1022,9 +1022,9 @@
           "Class picture"
         ],
         "hints": {
-          "easy": "A picture of the pupils together",
-          "normal": "The tall ones often stand at the back",
-          "hard": "Everyone is meant to look the same way"
+          "easy": "pupils",
+          "normal": "posing",
+          "hard": "keepsake"
         }
       }
     }
@@ -1043,18 +1043,18 @@
         "word": "Provpapper",
         "aliases": [],
         "hints": {
-          "easy": "Frågor som besvaras inom en bestämd tid",
-          "normal": "Skriv namn innan du lämnar in",
-          "hard": "Vänd när läraren säger till"
+          "easy": "frågor",
+          "normal": "poäng",
+          "hard": "skrivtid"
         }
       },
       "en": {
         "word": "Exam paper",
         "aliases": [],
         "hints": {
-          "easy": "Questions to answer before time runs out",
-          "normal": "Put your name on it before handing it in",
-          "hard": "Turn it over when the teacher says so"
+          "easy": "questions",
+          "normal": "marks",
+          "hard": "timed"
         }
       }
     }
@@ -1066,25 +1066,25 @@
     "tags": [
       "school-supplies"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Betygsbesked",
         "aliases": [],
         "hints": {
-          "easy": "Samlar resultaten från flera skolämnen",
-          "normal": "Kan komma vid terminens slut",
-          "hard": "En rad per ämne"
+          "easy": "resultat",
+          "normal": "termin",
+          "hard": "omdöme"
         }
       },
       "en": {
         "word": "Report card",
         "aliases": [],
         "hints": {
-          "easy": "Collects results from several school subjects",
-          "normal": "May arrive at the end of term",
-          "hard": "One line for each subject"
+          "easy": "grades",
+          "normal": "term",
+          "hard": "evaluation"
         }
       }
     }
@@ -1096,25 +1096,25 @@
     "tags": [
       "school-supplies"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skolklocka",
         "aliases": [],
         "hints": {
-          "easy": "Talar om när det är dags att gå in",
-          "normal": "Hörs i korridorerna efter rasten",
-          "hard": "Ett ljud som kan göra alla sena samtidigt"
+          "easy": "rast",
+          "normal": "signal",
+          "hard": "korridor"
         }
       },
       "en": {
         "word": "School bell",
         "aliases": [],
         "hints": {
-          "easy": "Signals that it is time to go inside",
-          "normal": "Can be heard down the hall after break",
-          "hard": "One sound can make everyone late at once"
+          "easy": "recess",
+          "normal": "signal",
+          "hard": "hallway"
         }
       }
     }
@@ -1126,25 +1126,25 @@
     "tags": [
       "school-supplies"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Elevkort",
         "aliases": [],
         "hints": {
-          "easy": "Kort som visar vilken skola du går på",
-          "normal": "Brukar ha namn och bild",
-          "hard": "Kan ge dig rätt att låna på biblioteket"
+          "easy": "legitimation",
+          "normal": "foto",
+          "hard": "passerkontroll"
         }
       },
       "en": {
         "word": "Student ID card",
         "aliases": [],
         "hints": {
-          "easy": "A card that identifies you as a pupil",
-          "normal": "Usually carries a name and a picture",
-          "hard": "Might let you borrow books from the library"
+          "easy": "identification",
+          "normal": "photo",
+          "hard": "access"
         }
       }
     }
@@ -1163,18 +1163,18 @@
         "word": "T-shirt",
         "aliases": [],
         "hints": {
-          "easy": "Kortärmat plagg med enkel halsöppning",
-          "normal": "Ofta bomull och ibland ett tryck på bröstet",
-          "hard": "Hamnar lätt underst när man klär sig i lager"
+          "easy": "kortärmad",
+          "normal": "bomull",
+          "hard": "tryck"
         }
       },
       "en": {
         "word": "T-shirt",
         "aliases": [],
         "hints": {
-          "easy": "A short-sleeved top with a simple neck opening",
-          "normal": "Often cotton with a design across the chest",
-          "hard": "An easy base layer under almost anything"
+          "easy": "short-sleeved",
+          "normal": "cotton",
+          "hard": "print"
         }
       }
     }
@@ -1193,9 +1193,9 @@
         "word": "Skjorta",
         "aliases": [],
         "hints": {
-          "easy": "Knappar längs hela framsidan",
-          "normal": "Krage och ofta manschetter",
-          "hard": "Strykjärnet kan behövas före festen"
+          "easy": "knappar",
+          "normal": "krage",
+          "hard": "manschetter"
         }
       },
       "en": {
@@ -1204,9 +1204,9 @@
           "Button-front shirt"
         ],
         "hints": {
-          "easy": "Buttons run down the front",
-          "normal": "Usually has a collar and cuffs",
-          "hard": "Often gets ironed before a party"
+          "easy": "buttons",
+          "normal": "collar",
+          "hard": "cuffs"
         }
       }
     }
@@ -1218,25 +1218,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Blus",
         "aliases": [],
         "hints": {
-          "easy": "Lätt, ofta ledigt skuren överdel till kjol eller byxor",
-          "normal": "Tyg som kan falla mjukt vid ärmarna",
-          "hard": "Passar ofta under en kavaj på jobbet"
+          "easy": "topp",
+          "normal": "tyg",
+          "hard": "drapering"
         }
       },
       "en": {
         "word": "Blouse",
         "aliases": [],
         "hints": {
-          "easy": "A light top to wear with trousers or a skirt",
-          "normal": "Fabric that can drape at the sleeves",
-          "hard": "Often worn under a blazer at work"
+          "easy": "top",
+          "normal": "fabric",
+          "hard": "drape"
         }
       }
     }
@@ -1255,18 +1255,18 @@
         "word": "Linne",
         "aliases": [],
         "hints": {
-          "easy": "Överdel utan ärmar",
-          "normal": "Axelband och öppna armhål",
-          "hard": "Sval när solen ligger på"
+          "easy": "ärmlös",
+          "normal": "träning",
+          "hard": "sommar"
         }
       },
       "en": {
         "word": "Tank top",
         "aliases": [],
         "hints": {
-          "easy": "A sleeveless top with open armholes",
-          "normal": "Straps sit over the shoulders",
-          "hard": "Handy when the sun is beating down"
+          "easy": "sleeveless",
+          "normal": "exercise",
+          "hard": "summer"
         }
       }
     }
@@ -1278,25 +1278,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Pikétröja",
         "aliases": [],
         "hints": {
-          "easy": "Kortärmad överdel med krage och några knappar",
-          "normal": "Små knappar bara längst upp",
-          "hard": "En vanlig syn på en golfbana"
+          "easy": "krage",
+          "normal": "knappslå",
+          "hard": "tennis"
         }
       },
       "en": {
         "word": "Polo shirt",
         "aliases": [],
         "hints": {
-          "easy": "A short-sleeved top with a collar and a few buttons",
-          "normal": "A short opening below the neck",
-          "hard": "A common sight on a golf course"
+          "easy": "collar",
+          "normal": "buttons",
+          "hard": "tennis"
         }
       }
     }
@@ -1315,9 +1315,9 @@
         "word": "Huvtröja",
         "aliases": [],
         "hints": {
-          "easy": "Mjuk överdel med täckning för huvudet",
-          "normal": "Stor ficka framtill på många modeller",
-          "hard": "Dra i snörena när det blåser"
+          "easy": "luva",
+          "normal": "känguruficka",
+          "hard": "mys"
         }
       },
       "en": {
@@ -1326,9 +1326,9 @@
           "Hooded sweatshirt"
         ],
         "hints": {
-          "easy": "A soft top with something to pull over your head",
-          "normal": "Often has a big front pocket",
-          "hard": "Pull the drawstrings when the wind picks up"
+          "easy": "hood",
+          "normal": "pouch",
+          "hard": "cosy"
         }
       }
     }
@@ -1340,25 +1340,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Collegetröja",
         "aliases": [],
         "hints": {
-          "easy": "Mjuk tjock överdel med rund hals",
-          "normal": "Muddar vid handlederna och i nederkanten",
-          "hard": "Kan kastas över träningskläder på vägen hem"
+          "easy": "fleece",
+          "normal": "ribbkant",
+          "hard": "ledig"
         }
       },
       "en": {
         "word": "Sweatshirt",
         "aliases": [],
         "hints": {
-          "easy": "A soft, thick top with a round neckline",
-          "normal": "Ribbed bands at the wrists and waist",
-          "hard": "Easy to pull on after a workout"
+          "easy": "fleece",
+          "normal": "ribbing",
+          "hard": "casual"
         }
       }
     }
@@ -1377,18 +1377,18 @@
         "word": "Kofta",
         "aliases": [],
         "hints": {
-          "easy": "Stickad tröja som öppnas framtill",
-          "normal": "Kan knäppas hela vägen ner",
-          "hard": "Lätt att ta av när rummet blir varmt"
+          "easy": "stickad",
+          "normal": "knäppning",
+          "hard": "lager"
         }
       },
       "en": {
         "word": "Cardigan",
         "aliases": [],
         "hints": {
-          "easy": "Knitwear that opens all the way down the front",
-          "normal": "Often fastens with buttons",
-          "hard": "Easy to take off when the room warms up"
+          "easy": "knitted",
+          "normal": "buttons",
+          "hard": "layering"
         }
       }
     }
@@ -1407,9 +1407,9 @@
         "word": "Polotröja",
         "aliases": [],
         "hints": {
-          "easy": "Hög hals i mjukt tyg runt nacken",
-          "normal": "Kragsömmen kan vikas ned",
-          "hard": "Halsduken får ofta stanna hemma"
+          "easy": "högkrage",
+          "normal": "hals",
+          "hard": "vikning"
         }
       },
       "en": {
@@ -1418,9 +1418,9 @@
           "Rollneck"
         ],
         "hints": {
-          "easy": "A top with a high, close-fitting collar",
-          "normal": "The neck fabric can fold over",
-          "hard": "Sometimes saves you reaching for a scarf"
+          "easy": "folded",
+          "normal": "neck",
+          "hard": "fold"
         }
       }
     }
@@ -1439,9 +1439,9 @@
         "word": "Jeansjacka",
         "aliases": [],
         "hints": {
-          "easy": "Ytterplagg i samma tyg som många blå byxor",
-          "normal": "Metallknappar och grova sömmar",
-          "hard": "Blir ofta ljusare vid slitna veck"
+          "easy": "denim",
+          "normal": "sömmar",
+          "hard": "metallknappar"
         }
       },
       "en": {
@@ -1450,9 +1450,9 @@
           "Jean jacket"
         ],
         "hints": {
-          "easy": "Outerwear made from the fabric of blue jeans",
-          "normal": "Metal buttons and heavy seams",
-          "hard": "Creases can fade with wear"
+          "easy": "denim",
+          "normal": "seams",
+          "hard": "studs"
         }
       }
     }
@@ -1471,18 +1471,18 @@
         "word": "Regnrock",
         "aliases": [],
         "hints": {
-          "easy": "Ytterplagg som håller kroppen torr i skurar",
-          "normal": "Vattendroppar pärlar sig på tyget",
-          "hard": "Kan användas när paraplyet vänds ut och in"
+          "easy": "vattentät",
+          "normal": "luva",
+          "hard": "skyfall"
         }
       },
       "en": {
         "word": "Raincoat",
         "aliases": [],
         "hints": {
-          "easy": "Outerwear that keeps you dry in a downpour",
-          "normal": "Water beads on the surface",
-          "hard": "Comes in handy when the umbrella turns inside out"
+          "easy": "waterproof",
+          "normal": "hood",
+          "hard": "downpour"
         }
       }
     }
@@ -1501,18 +1501,18 @@
         "word": "Dunjacka",
         "aliases": [],
         "hints": {
-          "easy": "Varmt ytterplagg med lätt fjäderfyllning",
-          "normal": "Uppdelat i vadderade fack",
-          "hard": "Kan vara stor på kroppen och liten i packningen"
+          "easy": "fjädrar",
+          "normal": "vinter",
+          "hard": "isolering"
         }
       },
       "en": {
         "word": "Down jacket",
         "aliases": [],
         "hints": {
-          "easy": "Warm outerwear filled with light feathers",
-          "normal": "Stitched into padded sections",
-          "hard": "Bulky on the body, compact in a bag"
+          "easy": "feathers",
+          "normal": "winter",
+          "hard": "insulation"
         }
       }
     }
@@ -1531,18 +1531,18 @@
         "word": "Trenchcoat",
         "aliases": [],
         "hints": {
-          "easy": "Lång, ofta dubbelknäppt rock med bälte",
-          "normal": "Slag och remmar vid handlederna",
-          "hard": "En klassisk silhuett i gamla deckare"
+          "easy": "bälte",
+          "normal": "dubbelknäppt",
+          "hard": "stormklaff"
         }
       },
       "en": {
         "word": "Trench coat",
         "aliases": [],
         "hints": {
-          "easy": "A long belted coat, often double-breasted",
-          "normal": "Lapels and straps at the cuffs",
-          "hard": "A familiar silhouette in old detective stories"
+          "easy": "belt",
+          "normal": "double-breasted",
+          "hard": "flap"
         }
       }
     }
@@ -1554,25 +1554,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Kavaj",
         "aliases": [],
         "hints": {
-          "easy": "Skräddad jacka för ledig eller uppklädd stil",
-          "normal": "Slag vid kragen och knappar fram",
-          "hard": "Gör en enkel skjorta mer formell"
+          "easy": "slag",
+          "normal": "skräddad",
+          "hard": "kontor"
         }
       },
       "en": {
         "word": "Blazer",
         "aliases": [],
         "hints": {
-          "easy": "A tailored jacket that can dress up an outfit",
-          "normal": "Lapels and buttons at the front",
-          "hard": "Takes a plain shirt up a notch"
+          "easy": "lapels",
+          "normal": "tailored",
+          "hard": "office"
         }
       }
     }
@@ -1591,18 +1591,18 @@
         "word": "Kostymväst",
         "aliases": [],
         "hints": {
-          "easy": "Ärmlöst plagg under en kostymjacka",
-          "normal": "Knappar fram över skjortan",
-          "hard": "En klockkedja kan hänga vid fickan"
+          "easy": "kostym",
+          "normal": "ärmlös",
+          "hard": "knappar"
         }
       },
       "en": {
         "word": "Waistcoat",
         "aliases": [],
         "hints": {
-          "easy": "A sleeveless layer worn beneath a suit jacket",
-          "normal": "Buttons up over a shirt",
-          "hard": "A watch chain may hang by the pocket"
+          "easy": "suit",
+          "normal": "sleeveless",
+          "hard": "buttons"
         }
       }
     }
@@ -1614,25 +1614,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Frackjacka",
         "aliases": [],
         "hints": {
-          "easy": "Högtidsjacka med långa flikar bak",
-          "normal": "Kort skärning framtill",
-          "hard": "Kan bäras vid en konsert eller bal"
+          "easy": "svalstjärt",
+          "normal": "gala",
+          "hard": "formell"
         }
       },
       "en": {
         "word": "Tailcoat",
         "aliases": [],
         "hints": {
-          "easy": "A formal jacket with long panels at the back",
-          "normal": "Cut short at the front",
-          "hard": "May be worn at a concert or formal ball"
+          "easy": "tails",
+          "normal": "gala",
+          "hard": "formal"
         }
       }
     }
@@ -1644,7 +1644,7 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1653,18 +1653,18 @@
           "Laboratorierock"
         ],
         "hints": {
-          "easy": "Skyddsplagg under experiment",
-          "normal": "Ofta vit med fickor",
-          "hard": "Lämnas utanför när det är dags för lunch"
+          "easy": "vit",
+          "normal": "skydd",
+          "hard": "experiment"
         }
       },
       "en": {
         "word": "Lab coat",
         "aliases": [],
         "hints": {
-          "easy": "Protective outerwear for experiments",
-          "normal": "Often white with deep pockets",
-          "hard": "Stays behind when it is time for lunch"
+          "easy": "white",
+          "normal": "protection",
+          "hard": "experiment"
         }
       }
     }
@@ -1683,9 +1683,9 @@
         "word": "Hängselbyxor",
         "aliases": [],
         "hints": {
-          "easy": "Byxor med bröstlapp och hängslen",
-          "normal": "Spännen vid axlarna håller dem uppe",
-          "hard": "En stor ficka sitter ofta mitt på magen"
+          "easy": "hängslen",
+          "normal": "snickare",
+          "hard": "bröstficka"
         }
       },
       "en": {
@@ -1694,9 +1694,9 @@
           "Bib overalls"
         ],
         "hints": {
-          "easy": "Trousers with a front bib and shoulder straps",
-          "normal": "Buckles at the shoulders keep everything up",
-          "hard": "Often has a big pocket across the belly"
+          "easy": "suspenders",
+          "normal": "carpenter",
+          "hard": "bib"
         }
       }
     }
@@ -1715,18 +1715,18 @@
         "word": "Byxdress",
         "aliases": [],
         "hints": {
-          "easy": "Överdel och långbyxor i ett enda plagg",
-          "normal": "Ingen kant att stoppa in i midjan",
-          "hard": "Hela dagens klädval kan sitta ihop"
+          "easy": "heldräkt",
+          "normal": "midja",
+          "hard": "dragkedja"
         }
       },
       "en": {
         "word": "Jumpsuit",
         "aliases": [],
         "hints": {
-          "easy": "A one-piece outfit with full-length legs",
-          "normal": "Nothing to tuck in at the waist",
-          "hard": "The whole outfit can go on at once"
+          "easy": "onesie",
+          "normal": "waist",
+          "hard": "zipper"
         }
       }
     }
@@ -1745,18 +1745,18 @@
         "word": "Jeans",
         "aliases": [],
         "hints": {
-          "easy": "Byxor sydda i denim",
-          "normal": "Nitar kan förstärka fickornas hörn",
-          "hard": "Ett nytt mörkblått par kan färga av sig"
+          "easy": "denim",
+          "normal": "nitar",
+          "hard": "fickor"
         }
       },
       "en": {
         "word": "Jeans",
         "aliases": [],
         "hints": {
-          "easy": "Trousers made from denim",
-          "normal": "Little rivets can reinforce the pockets",
-          "hard": "A new dark blue pair can rub off on other fabrics"
+          "easy": "denim",
+          "normal": "rivets",
+          "hard": "pockets"
         }
       }
     }
@@ -1775,18 +1775,18 @@
         "word": "Chinos",
         "aliases": [],
         "hints": {
-          "easy": "Lätta byxor i vävd bomullstwill",
-          "normal": "Släta framsidor och ofta sneda fickor",
-          "hard": "Sandfärg fungerar fint till en ledig kavaj"
+          "easy": "bomull",
+          "normal": "kakifärgad",
+          "hard": "pressveck"
         }
       },
       "en": {
         "word": "Chinos",
         "aliases": [],
         "hints": {
-          "easy": "Light trousers in woven cotton twill",
-          "normal": "Smooth fronts and often slanted pockets",
-          "hard": "A sand-coloured pair goes well with a casual jacket"
+          "easy": "cotton",
+          "normal": "khaki",
+          "hard": "creases"
         }
       }
     }
@@ -1805,18 +1805,18 @@
         "word": "Mjukisbyxor",
         "aliases": [],
         "hints": {
-          "easy": "Mjuka byxor med elastisk midja",
-          "normal": "Ofta mudd nedtill vid foten",
-          "hard": "Sköna för en kväll i soffan"
+          "easy": "resår",
+          "normal": "ledigt",
+          "hard": "snörning"
         }
       },
       "en": {
         "word": "Joggers",
         "aliases": [],
         "hints": {
-          "easy": "Soft trousers with an elastic waist",
-          "normal": "Often gather at the ankles",
-          "hard": "Comfortable on an evening in"
+          "easy": "elastic",
+          "normal": "loungewear",
+          "hard": "drawstring"
         }
       }
     }
@@ -1828,25 +1828,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Leggings",
         "aliases": [],
         "hints": {
-          "easy": "Elastiska byxor som sitter tätt längs benen",
-          "normal": "Dras på utan gylf",
-          "hard": "Vanliga både i yogasalen och under en tunika"
+          "easy": "tajta",
+          "normal": "stretch",
+          "hard": "lager"
         }
       },
       "en": {
         "word": "Leggings",
         "aliases": [],
         "hints": {
-          "easy": "Stretchy trousers that sit close against the legs",
-          "normal": "Pull on without opening a fly",
-          "hard": "Worn in yoga class or under a tunic"
+          "easy": "tight",
+          "normal": "stretchy",
+          "hard": "layering"
         }
       }
     }
@@ -1865,18 +1865,18 @@
         "word": "Shorts",
         "aliases": [],
         "hints": {
-          "easy": "Byxor som slutar över eller vid knät",
-          "normal": "En sval längd för varma dagar",
-          "hard": "Smörj in den del av benet som sticker ut"
+          "easy": "kortbenad",
+          "normal": "sommar",
+          "hard": "knän"
         }
       },
       "en": {
         "word": "Shorts",
         "aliases": [],
         "hints": {
-          "easy": "Trousers that end at or above the knee",
-          "normal": "A cooler length for hot days",
-          "hard": "Remember sunscreen on the legs that stick out"
+          "easy": "cropped",
+          "normal": "summer",
+          "hard": "knees"
         }
       }
     }
@@ -1895,18 +1895,18 @@
         "word": "Kilt",
         "aliases": [],
         "hints": {
-          "easy": "Skotskt omlottplagg med veck",
-          "normal": "Rutigt ylle och remmar i midjan",
-          "hard": "En liten väska kan hänga framtill"
+          "easy": "skotsk",
+          "normal": "tartan",
+          "hard": "veck"
         }
       },
       "en": {
         "word": "Kilt",
         "aliases": [],
         "hints": {
-          "easy": "A pleated Scottish wrap garment",
-          "normal": "Checked wool fastened at the waist",
-          "hard": "A small pouch may hang in front"
+          "easy": "Scottish",
+          "normal": "tartan",
+          "hard": "pleats"
         }
       }
     }
@@ -1925,18 +1925,18 @@
         "word": "Veckad kjol",
         "aliases": [],
         "hints": {
-          "easy": "Plagg från midjan med regelbundet vikta tygpartier",
-          "normal": "De lodräta vikningarna öppnar sig i stegen",
-          "hard": "Vid en snurr kan tyget breda ut sig"
+          "easy": "veck",
+          "normal": "svaj",
+          "hard": "pressning"
         }
       },
       "en": {
         "word": "Pleated skirt",
         "aliases": [],
         "hints": {
-          "easy": "A waist-down garment with regular folds",
-          "normal": "Vertical folds open up as you walk",
-          "hard": "The fabric can fan out in a spin"
+          "easy": "pleats",
+          "normal": "swish",
+          "hard": "pressing"
         }
       }
     }
@@ -1948,7 +1948,7 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1957,9 +1957,9 @@
           "Kvällsklänning"
         ],
         "hints": {
-          "easy": "Elegant plagg för stora fester",
-          "normal": "Ofta lång nog att nå golvet",
-          "hard": "Satin under kristallkronorna"
+          "easy": "gala",
+          "normal": "lång",
+          "hard": "fest"
         }
       },
       "en": {
@@ -1968,9 +1968,9 @@
           "Evening dress"
         ],
         "hints": {
-          "easy": "Elegant garment worn to formal parties",
-          "normal": "Often long enough to reach the floor",
-          "hard": "Satin under the chandeliers"
+          "easy": "gala",
+          "normal": "long",
+          "hard": "formal"
         }
       }
     }
@@ -1989,18 +1989,18 @@
         "word": "Hängselklänning",
         "aliases": [],
         "hints": {
-          "easy": "Kjoldel med bröstlapp eller axelband",
-          "normal": "Bärs ofta över en tröja eller skjorta",
-          "hard": "En långärmad överdel kan synas under hela överkroppen"
+          "easy": "ärmlös",
+          "normal": "lager",
+          "hard": "hängslen"
         }
       },
       "en": {
         "word": "Pinafore dress",
         "aliases": [],
         "hints": {
-          "easy": "A skirt with a bib or shoulder straps attached",
-          "normal": "Often worn over a shirt or a top",
-          "hard": "The layer underneath shows at the arms and chest"
+          "easy": "sleeveless",
+          "normal": "layering",
+          "hard": "straps"
         }
       }
     }
@@ -2012,25 +2012,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Strumpbyxor",
         "aliases": [],
         "hints": {
-          "easy": "Tunt plagg från tårna upp till midjan",
-          "normal": "Kan få en maska som löper",
-          "hard": "Ger ett extra lager under kjolen"
+          "easy": "nylonstrumpor",
+          "normal": "stretch",
+          "hard": "finmaskig"
         }
       },
       "en": {
         "word": "Tights",
         "aliases": [],
         "hints": {
-          "easy": "A thin garment that covers toes to waist",
-          "normal": "A tiny snag can run down the leg",
-          "hard": "An extra layer under a skirt"
+          "easy": "hosiery",
+          "normal": "stretch",
+          "hard": "sheer"
         }
       }
     }
@@ -2049,18 +2049,18 @@
         "word": "Strumpor",
         "aliases": [],
         "hints": {
-          "easy": "Tyg som täcker fötterna i skorna",
-          "normal": "Säljs oftast i matchande par",
-          "hard": "En kan försvinna i tvätten"
+          "easy": "fötter",
+          "normal": "par",
+          "hard": "tvätt"
         }
       },
       "en": {
         "word": "Socks",
         "aliases": [],
         "hints": {
-          "easy": "Fabric covers for feet inside shoes",
-          "normal": "Usually sold in matching pairs",
-          "hard": "One can disappear in the wash"
+          "easy": "feet",
+          "normal": "pair",
+          "hard": "laundry"
         }
       }
     }
@@ -2072,16 +2072,16 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Boxerkalsonger",
         "aliases": [],
         "hints": {
-          "easy": "Underplagg med korta ben",
-          "normal": "Resårband vid midjan",
-          "hard": "Första lagret före byxorna"
+          "easy": "underkläder",
+          "normal": "resår",
+          "hard": "lösa"
         }
       },
       "en": {
@@ -2090,9 +2090,9 @@
           "Boxers"
         ],
         "hints": {
-          "easy": "Underwear with short legs",
-          "normal": "An elastic band sits at the waist",
-          "hard": "The layer that goes on before trousers"
+          "easy": "underwear",
+          "normal": "elastic",
+          "hard": "loose"
         }
       }
     }
@@ -2111,18 +2111,18 @@
         "word": "Behå",
         "aliases": [],
         "hints": {
-          "easy": "Underplagg som ger stöd åt bröst",
-          "normal": "Två kupor och ofta justerbara axelband",
-          "hard": "Hakarna kan ha flera lägen"
+          "easy": "kupa",
+          "normal": "stöd",
+          "hard": "band"
         }
       },
       "en": {
         "word": "Bra",
         "aliases": [],
         "hints": {
-          "easy": "An undergarment that supports the breasts",
-          "normal": "Two cups and often adjustable straps",
-          "hard": "The hooks may have several settings"
+          "easy": "cups",
+          "normal": "support",
+          "hard": "straps"
         }
       }
     }
@@ -2134,25 +2134,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Underklänning",
         "aliases": [],
         "hints": {
-          "easy": "Tunt plagg mellan kroppen och ett kjolförsett ytterplagg",
-          "normal": "Slätt tyg hjälper lagren att glida",
-          "hard": "Kan dölja en silhuett i motljus"
+          "easy": "tunt",
+          "normal": "slätt",
+          "hard": "lager"
         }
       },
       "en": {
         "word": "Slip",
         "aliases": [],
         "hints": {
-          "easy": "A thin garment between the body and an outer skirted layer",
-          "normal": "Smooth fabric lets the layers move freely",
-          "hard": "Keeps a silhouette from showing in strong backlight"
+          "easy": "sheer",
+          "normal": "smooth",
+          "hard": "layer"
         }
       }
     }
@@ -2171,9 +2171,9 @@
         "word": "Pyjamas",
         "aliases": [],
         "hints": {
-          "easy": "Matchande överdel och byxor för sängen",
-          "normal": "Mjukt tyg och en ledig midja",
-          "hard": "Ibland behåller man dem på till frukost"
+          "easy": "säng",
+          "normal": "mys",
+          "hard": "natt"
         }
       },
       "en": {
@@ -2182,9 +2182,9 @@
           "Pajamas"
         ],
         "hints": {
-          "easy": "A matching top and trousers for bedtime",
-          "normal": "Soft fabric and a loose waist",
-          "hard": "Sometimes they stay on until breakfast"
+          "easy": "bedtime",
+          "normal": "comfort",
+          "hard": "night"
         }
       }
     }
@@ -2196,25 +2196,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Nattlinne",
         "aliases": [],
         "hints": {
-          "easy": "Sovplagg som hänger löst över benen",
-          "normal": "Dras över huvudet inför läggdags",
-          "hard": "Inget midjeband skaver när man vänder sig"
+          "easy": "sovplagg",
+          "normal": "lös",
+          "hard": "natt"
         }
       },
       "en": {
         "word": "Nightgown",
         "aliases": [],
         "hints": {
-          "easy": "A loose sleep garment that hangs over the legs",
-          "normal": "Slips over the head at bedtime",
-          "hard": "No waistband digs in when you roll over"
+          "easy": "sleepwear",
+          "normal": "loose",
+          "hard": "night"
         }
       }
     }
@@ -2233,9 +2233,9 @@
         "word": "Badrock",
         "aliases": [],
         "hints": {
-          "easy": "Svep om dig efter duschen",
-          "normal": "Ofta frotté med ett knytband",
-          "hard": "Kan hänga på badrumsdörrens insida"
+          "easy": "morgonrock",
+          "normal": "bälte",
+          "hard": "frotté"
         }
       },
       "en": {
@@ -2244,9 +2244,9 @@
           "Bath robe"
         ],
         "hints": {
-          "easy": "Wraps around you after a shower",
-          "normal": "Often made of terry cloth with a sash",
-          "hard": "May hang on the back of a bathroom door"
+          "easy": "robe",
+          "normal": "belt",
+          "hard": "terrycloth"
         }
       }
     }
@@ -2265,18 +2265,18 @@
         "word": "Baddräkt",
         "aliases": [],
         "hints": {
-          "easy": "Sitter i ett stycke när du simmar",
-          "normal": "Torkar ofta snabbt efter badet",
-          "hard": "Ett vått exemplar luktar snart klor i väskan"
+          "easy": "simning",
+          "normal": "hel",
+          "hard": "bassäng"
         }
       },
       "en": {
         "word": "One-piece swimsuit",
         "aliases": [],
         "hints": {
-          "easy": "A single garment for swimming",
-          "normal": "Often dries quickly after a dip",
-          "hard": "A wet one soon makes a bag smell of chlorine"
+          "easy": "swimming",
+          "normal": "coverage",
+          "hard": "pool"
         }
       }
     }
@@ -2295,18 +2295,18 @@
         "word": "Bikini",
         "aliases": [],
         "hints": {
-          "easy": "Badplagg med två matchande delar",
-          "normal": "Ofta bar mage mellan delarna",
-          "hard": "Små knutar kan lämna märken efter solen"
+          "easy": "tvådelad",
+          "normal": "strand",
+          "hard": "sol"
         }
       },
       "en": {
         "word": "Bikini",
         "aliases": [],
         "hints": {
-          "easy": "Swimwear made of two matching pieces",
-          "normal": "Often leaves the midriff bare",
-          "hard": "Little ties can leave lines after a day in the sun"
+          "easy": "two-piece",
+          "normal": "beach",
+          "hard": "sun"
         }
       }
     }
@@ -2325,9 +2325,9 @@
         "word": "Badbyxor",
         "aliases": [],
         "hints": {
-          "easy": "Korta byxor avsedda för simning",
-          "normal": "Dragsko hindrar dem från att glida",
-          "hard": "Skölj av saltet efter doppet"
+          "easy": "simning",
+          "normal": "resår",
+          "hard": "strand"
         }
       },
       "en": {
@@ -2336,9 +2336,9 @@
           "Swimming trunks"
         ],
         "hints": {
-          "easy": "Shorts designed for swimming",
-          "normal": "A drawstring keeps them in place",
-          "hard": "Rinse the salt off after a dip"
+          "easy": "swimming",
+          "normal": "elastic",
+          "hard": "beach"
         }
       }
     }
@@ -2357,9 +2357,9 @@
         "word": "Kaftan",
         "aliases": [],
         "hints": {
-          "easy": "Långt löst plagg med vida ärmar",
-          "normal": "Tyget faller fritt från axlarna",
-          "hard": "Kan ge skugga mellan stranden och hotellet"
+          "easy": "fotsid",
+          "normal": "svepande",
+          "hard": "ledig"
         }
       },
       "en": {
@@ -2368,9 +2368,9 @@
           "Caftan"
         ],
         "hints": {
-          "easy": "A long loose garment with wide sleeves",
-          "normal": "The fabric hangs freely from the shoulders",
-          "hard": "An airy cover on the way back from the beach"
+          "easy": "flowing",
+          "normal": "loose",
+          "hard": "drape"
         }
       }
     }
@@ -2389,18 +2389,18 @@
         "word": "Sari",
         "aliases": [],
         "hints": {
-          "easy": "Långt tygstycke som draperas i sydasiatisk klädsel",
-          "normal": "Ena änden läggs ofta över axeln",
-          "hard": "Vecken ordnas för hand innan man går ut"
+          "easy": "drapering",
+          "normal": "Indien",
+          "hard": "veck"
         }
       },
       "en": {
         "word": "Sari",
         "aliases": [],
         "hints": {
-          "easy": "A long length of cloth draped as South Asian attire",
-          "normal": "One end often lies over the shoulder",
-          "hard": "The folds are arranged by hand before leaving home"
+          "easy": "draping",
+          "normal": "India",
+          "hard": "pleats"
         }
       }
     }
@@ -2419,18 +2419,18 @@
         "word": "Kimono",
         "aliases": [],
         "hints": {
-          "easy": "Japanskt omlottplagg med breda ärmar",
-          "normal": "Ett brett band knyts kring midjan",
-          "hard": "Framstyckena korsas före knuten"
+          "easy": "Japan",
+          "normal": "omlott",
+          "hard": "skärp"
         }
       },
       "en": {
         "word": "Kimono",
         "aliases": [],
         "hints": {
-          "easy": "A Japanese wrap garment with broad sleeves",
-          "normal": "A wide sash is tied around the waist",
-          "hard": "Cross the front panels before tying the knot"
+          "easy": "Japan",
+          "normal": "wrap",
+          "hard": "sash"
         }
       }
     }
@@ -2449,18 +2449,18 @@
         "word": "Förkläde",
         "aliases": [],
         "hints": {
-          "easy": "Skyddar framsidan av kläderna från fläckar",
-          "normal": "Knyts bakom ryggen",
-          "hard": "Mjöl och färg får gärna hamna här"
+          "easy": "matlagning",
+          "normal": "spill",
+          "hard": "knytband"
         }
       },
       "en": {
         "word": "Apron",
         "aliases": [],
         "hints": {
-          "easy": "Protects the front of your clothes from stains",
-          "normal": "Ties behind the back",
-          "hard": "A good place for stray flour or paint to land"
+          "easy": "cooking",
+          "normal": "spills",
+          "hard": "ties"
         }
       }
     }
@@ -2479,18 +2479,18 @@
         "word": "Keps",
         "aliases": [],
         "hints": {
-          "easy": "Huvudbonad med skärm framtill",
-          "normal": "Passformen kan justeras baktill",
-          "hard": "Skuggar ögonen fast öronen är fria"
+          "easy": "skärm",
+          "normal": "sol",
+          "hard": "baseball"
         }
       },
       "en": {
         "word": "Baseball cap",
         "aliases": [],
         "hints": {
-          "easy": "Headwear with a brim at the front",
-          "normal": "The fit can be adjusted at the back",
-          "hard": "Shades your eyes while leaving your ears bare"
+          "easy": "brim",
+          "normal": "sunlight",
+          "hard": "baseball"
         }
       }
     }
@@ -2509,9 +2509,9 @@
         "word": "Stickad mössa",
         "aliases": [],
         "hints": {
-          "easy": "Mjuk huvudbonad som håller öronen varma",
-          "normal": "Kanten kan vikas upp ett varv",
-          "hard": "Hamnar ofta i jackfickan när man går in"
+          "easy": "stickad",
+          "normal": "vinter",
+          "hard": "öron"
         }
       },
       "en": {
@@ -2520,9 +2520,9 @@
           "Knit cap"
         ],
         "hints": {
-          "easy": "Soft headwear that keeps the ears warm",
-          "normal": "The lower edge can fold up into a cuff",
-          "hard": "Often ends up in a coat pocket indoors"
+          "easy": "knitted",
+          "normal": "winter",
+          "hard": "ears"
         }
       }
     }
@@ -2541,18 +2541,18 @@
         "word": "Basker",
         "aliases": [],
         "hints": {
-          "easy": "Platt rund mössa av mjukt material",
-          "normal": "Sitter ofta lite på sned",
-          "hard": "Ser nästan ut som en duk ovanifrån"
+          "easy": "rund",
+          "normal": "platt",
+          "hard": "filt"
         }
       },
       "en": {
         "word": "Beret",
         "aliases": [],
         "hints": {
-          "easy": "A soft, flat, round hat",
-          "normal": "Often worn at a slight angle",
-          "hard": "From above it looks nearly like a disc"
+          "easy": "round",
+          "normal": "flat",
+          "hard": "felt"
         }
       }
     }
@@ -2571,18 +2571,18 @@
         "word": "Fiskarhatt",
         "aliases": [],
         "hints": {
-          "easy": "Mjuk hatt med ett nedåtlutande brätte",
-          "normal": "Ger lite skugga runt hela huvudet",
-          "hard": "Kan vikas ner i en ficka"
+          "easy": "brätte",
+          "normal": "fisketur",
+          "hard": "sol"
         }
       },
       "en": {
         "word": "Bucket hat",
         "aliases": [],
         "hints": {
-          "easy": "A soft hat with a brim that slopes down",
-          "normal": "Shades the head on all sides",
-          "hard": "Folds small enough for a pocket"
+          "easy": "brim",
+          "normal": "fishing",
+          "hard": "sun"
         }
       }
     }
@@ -2601,18 +2601,18 @@
         "word": "Hårband",
         "aliases": [],
         "hints": {
-          "easy": "Håller håret borta från pannan",
-          "normal": "Sitter runt huvudet eller som en båge",
-          "hard": "Luggen slipper hamna i ögonen"
+          "easy": "panna",
+          "normal": "frisyr",
+          "hard": "stretch"
         }
       },
       "en": {
         "word": "Headband",
         "aliases": [],
         "hints": {
-          "easy": "Keeps hair back from the forehead",
-          "normal": "May be a stretchy loop or a rigid arch",
-          "hard": "Stops a fringe from falling in your eyes"
+          "easy": "forehead",
+          "normal": "hairstyle",
+          "hard": "elastic"
         }
       }
     }
@@ -2624,25 +2624,25 @@
     "tags": [
       "accessories"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Tumvantar",
         "aliases": [],
         "hints": {
-          "easy": "Fyra fingrar delar utrymme och tummen sitter för sig",
-          "normal": "En varm modell för snödagar",
-          "hard": "Små knappar blir besvärliga att knäppa"
+          "easy": "tumme",
+          "normal": "vinter",
+          "hard": "värme"
         }
       },
       "en": {
         "word": "Mittens",
         "aliases": [],
         "hints": {
-          "easy": "Four fingers share a pocket and the thumb has its own",
-          "normal": "A warm choice for snowy days",
-          "hard": "Tiny buttons get difficult to fasten"
+          "easy": "thumb",
+          "normal": "winter",
+          "hard": "warmth"
         }
       }
     }
@@ -2661,18 +2661,18 @@
         "word": "Fingervantar",
         "aliases": [],
         "hints": {
-          "easy": "Värmer händerna med ett fack för varje finger",
-          "normal": "En stickad modell kan rymmas under jackärmen",
-          "hard": "Lättare att dra upp en dragkedja med dem"
+          "easy": "fingrar",
+          "normal": "kyla",
+          "hard": "handflata"
         }
       },
       "en": {
         "word": "Fingered gloves",
         "aliases": [],
         "hints": {
-          "easy": "Keep hands warm with a separate place for each digit",
-          "normal": "A knitted pair can tuck under your cuffs",
-          "hard": "You can still get a grip on a zip pull"
+          "easy": "fingers",
+          "normal": "cold",
+          "hard": "palms"
         }
       }
     }
@@ -2691,18 +2691,18 @@
         "word": "Halsduk",
         "aliases": [],
         "hints": {
-          "easy": "Värmer runt halsen när det är kallt",
-          "normal": "Lång remsa som kan lindas flera varv",
-          "hard": "Ändarna kan stoppas innanför jackan"
+          "easy": "hals",
+          "normal": "vinter",
+          "hard": "vind"
         }
       },
       "en": {
         "word": "Scarf",
         "aliases": [],
         "hints": {
-          "easy": "Keeps the neck warm in cold weather",
-          "normal": "A long strip you can wrap more than once",
-          "hard": "Tuck the ends inside a coat"
+          "easy": "neck",
+          "normal": "winter",
+          "hard": "wind"
         }
       }
     }
@@ -2721,9 +2721,9 @@
         "word": "Slips",
         "aliases": [],
         "hints": {
-          "easy": "Smalt tyg som knyts under skjortkragen",
-          "normal": "Den breda änden hänger ner över skjortan",
-          "hard": "En klämma kan hålla det på plats"
+          "easy": "krage",
+          "normal": "knut",
+          "hard": "kostym"
         }
       },
       "en": {
@@ -2732,9 +2732,9 @@
           "Tie"
         ],
         "hints": {
-          "easy": "A narrow piece of fabric tied under a shirt collar",
-          "normal": "Its wider end hangs down the front",
-          "hard": "A little clip can hold it steady"
+          "easy": "collar",
+          "normal": "knot",
+          "hard": "suit"
         }
       }
     }
@@ -2746,25 +2746,25 @@
     "tags": [
       "accessories"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Fluga",
         "aliases": [],
         "hints": {
-          "easy": "Liten rosett som bärs under kragen",
-          "normal": "Kan köpas färdigknuten",
-          "hard": "Välj den när kragen hör till festkläder"
+          "easy": "rosett",
+          "normal": "smoking",
+          "hard": "fest"
         }
       },
       "en": {
         "word": "Bow tie",
         "aliases": [],
         "hints": {
-          "easy": "A small fabric bow worn below the collar",
-          "normal": "Can be bought ready tied",
-          "hard": "Appears at a lot of formal dinners"
+          "easy": "bow",
+          "normal": "tuxedo",
+          "hard": "formal"
         }
       }
     }
@@ -2783,18 +2783,18 @@
         "word": "Skärp",
         "aliases": [],
         "hints": {
-          "easy": "Rem runt midjan som kan hålla upp byxorna",
-          "normal": "Spännet sitter framtill",
-          "hard": "Ett annat hål ger en annan passform"
+          "easy": "spänne",
+          "normal": "midja",
+          "hard": "hål"
         }
       },
       "en": {
         "word": "Belt",
         "aliases": [],
         "hints": {
-          "easy": "A strap around the waist that can hold up trousers",
-          "normal": "The buckle sits at the front",
-          "hard": "A different hole gives a different fit"
+          "easy": "buckle",
+          "normal": "waist",
+          "hard": "holes"
         }
       }
     }
@@ -2813,9 +2813,9 @@
         "word": "Hängslen",
         "aliases": [],
         "hints": {
-          "easy": "Remmar över axlarna som håller upp byxorna",
-          "normal": "Fästs med klämmor eller knappar i linningen",
-          "hard": "Kan korsa varandra på ryggen"
+          "easy": "axlar",
+          "normal": "byxor",
+          "hard": "spännen"
         }
       },
       "en": {
@@ -2824,9 +2824,9 @@
           "Trouser braces"
         ],
         "hints": {
-          "easy": "Shoulder straps that hold trousers up",
-          "normal": "Clips or buttons fasten to the waistband",
-          "hard": "The straps can cross at the back"
+          "easy": "shoulders",
+          "normal": "trousers",
+          "hard": "clips"
         }
       }
     }
@@ -2845,18 +2845,18 @@
         "word": "Manschettknappar",
         "aliases": [],
         "hints": {
-          "easy": "Fästen som håller ihop skjortärmens öppning",
-          "normal": "En liten pinne går igenom två hål",
-          "hard": "Smycket syns när ärmen glider tillbaka"
+          "easy": "skjortärm",
+          "normal": "manschett",
+          "hard": "metall"
         }
       },
       "en": {
         "word": "Cufflinks",
         "aliases": [],
         "hints": {
-          "easy": "Fastenings that close the ends of shirt sleeves",
-          "normal": "A small pin passes through two holes",
-          "hard": "They show when the jacket sleeve rides up"
+          "easy": "sleeve",
+          "normal": "fastening",
+          "hard": "metal"
         }
       }
     }
@@ -2875,18 +2875,18 @@
         "word": "Brosch",
         "aliases": [],
         "hints": {
-          "easy": "Smycke som nålas fast på kläderna",
-          "normal": "Fästet sitter dolt på baksidan",
-          "hard": "Kan lysa upp slaget på en enfärgad jacka"
+          "easy": "nål",
+          "normal": "smycke",
+          "hard": "slag"
         }
       },
       "en": {
         "word": "Brooch",
         "aliases": [],
         "hints": {
-          "easy": "Jewellery that pins onto clothing",
-          "normal": "The clasp hides behind the decoration",
-          "hard": "It can brighten a lapel on a plain jacket"
+          "easy": "pin",
+          "normal": "jewelry",
+          "hard": "lapel"
         }
       }
     }
@@ -2898,25 +2898,25 @@
     "tags": [
       "accessories"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Halsband med hänge",
         "aliases": [],
         "hints": {
-          "easy": "Kedja eller band med en prydnad som hänger ner",
-          "normal": "Spännet göms ofta vid nacken",
-          "hard": "Ankaret eller hjärtat hamnar över bröstet"
+          "easy": "halssmycke",
+          "normal": "kedja",
+          "hard": "medaljong"
         }
       },
       "en": {
         "word": "Pendant necklace",
         "aliases": [],
         "hints": {
-          "easy": "A chain or cord with an ornament hanging from it",
-          "normal": "The clasp often sits behind the neck",
-          "hard": "A heart or anchor can rest just below the collarbones"
+          "easy": "jewelry",
+          "normal": "chain",
+          "hard": "locket"
         }
       }
     }
@@ -2928,25 +2928,25 @@
     "tags": [
       "accessories"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Öronstift",
         "aliases": [],
         "hints": {
-          "easy": "Små smycken som sitter tätt mot örsnibbarna",
-          "normal": "Ett stift hålls kvar av ett lås på baksidan",
-          "hard": "Fastnar sällan i tröjan när den åker av"
+          "easy": "örsnibb",
+          "normal": "lås",
+          "hard": "diskret"
         }
       },
       "en": {
         "word": "Stud earrings",
         "aliases": [],
         "hints": {
-          "easy": "Small pieces of jewellery that sit close to the earlobes",
-          "normal": "Each post has a back to keep it in place",
-          "hard": "Unlikely to catch when you pull off a jumper"
+          "easy": "earlobe",
+          "normal": "clasp",
+          "hard": "discreet"
         }
       }
     }
@@ -2965,18 +2965,18 @@
         "word": "Armband",
         "aliases": [],
         "hints": {
-          "easy": "Smycke att bära kring handleden",
-          "normal": "Kan bestå av en kedja eller en rad pärlor",
-          "hard": "Syns när du kavlar upp ärmen"
+          "easy": "handled",
+          "normal": "smycke",
+          "hard": "kedja"
         }
       },
       "en": {
         "word": "Bracelet",
         "aliases": [],
         "hints": {
-          "easy": "Jewellery worn around the wrist",
-          "normal": "May be a chain or a row of beads",
-          "hard": "Shows when you roll up your sleeves"
+          "easy": "wrist",
+          "normal": "jewelry",
+          "hard": "chain"
         }
       }
     }
@@ -2995,18 +2995,18 @@
         "word": "Klackring",
         "aliases": [],
         "hints": {
-          "easy": "Fingerring med en bred plan ovansida",
-          "normal": "Ytan kan ha ingraverade initialer",
-          "hard": "Kunde göra ett avtryck i sigillvax"
+          "easy": "sigill",
+          "normal": "vapen",
+          "hard": "gravyr"
         }
       },
       "en": {
         "word": "Signet ring",
         "aliases": [],
         "hints": {
-          "easy": "A finger ring with a broad flat face",
-          "normal": "The face may carry engraved initials",
-          "hard": "Once used to make a mark in sealing wax"
+          "easy": "seal",
+          "normal": "crest",
+          "hard": "engraving"
         }
       }
     }
@@ -3025,9 +3025,9 @@
         "word": "Glasögon",
         "aliases": [],
         "hints": {
-          "easy": "Linser framför ögonen som hjälper dig se",
-          "normal": "Bågarna vilar på näsan och över öronen",
-          "hard": "Kan imma igen när man kommer in från kylan"
+          "easy": "syn",
+          "normal": "bågar",
+          "hard": "styrka"
         }
       },
       "en": {
@@ -3037,9 +3037,9 @@
           "Spectacles"
         ],
         "hints": {
-          "easy": "Lenses in front of the eyes help you see clearly",
-          "normal": "The frame rests on your nose and over your ears",
-          "hard": "Can fog up when you come in from the cold"
+          "easy": "vision",
+          "normal": "frames",
+          "hard": "prescription"
         }
       }
     }
@@ -3058,18 +3058,18 @@
         "word": "Skosnören",
         "aliases": [],
         "hints": {
-          "easy": "Dras genom hål för att stänga skorna",
-          "normal": "Ändarna knyts ofta som en rosett",
-          "hard": "En lös ögla kan bli en snubbelrisk"
+          "easy": "knyta",
+          "normal": "öglor",
+          "hard": "snörning"
         }
       },
       "en": {
         "word": "Shoelaces",
         "aliases": [],
         "hints": {
-          "easy": "Thread through eyelets to close your shoes",
-          "normal": "The ends often tie into a bow",
-          "hard": "A loose loop can trip you up"
+          "easy": "tying",
+          "normal": "loops",
+          "hard": "fastening"
         }
       }
     }
@@ -3088,9 +3088,9 @@
         "word": "Gummistövlar",
         "aliases": [],
         "hints": {
-          "easy": "Vattentäta skor med höga skaft",
-          "normal": "Inga snören behövs när de dras på",
-          "hard": "Plaska utan att strumporna blir blöta"
+          "easy": "vattenpöl",
+          "normal": "vattentät",
+          "hard": "lera"
         }
       },
       "en": {
@@ -3099,9 +3099,9 @@
           "Wellington boots"
         ],
         "hints": {
-          "easy": "Waterproof footwear that comes up the legs",
-          "normal": "Pull them on without tying anything",
-          "hard": "Splash without soaking your socks"
+          "easy": "puddles",
+          "normal": "waterproof",
+          "hard": "mud"
         }
       }
     }
@@ -3120,18 +3120,18 @@
         "word": "Tofflor",
         "aliases": [],
         "hints": {
-          "easy": "Mjuka inneskor att sticka fötterna i",
-          "normal": "Står ofta bredvid sängen eller vid dörren",
-          "hard": "Tystare steg på ett kallt golv"
+          "easy": "inomhus",
+          "normal": "varma",
+          "hard": "morgon"
         }
       },
       "en": {
         "word": "Slippers",
         "aliases": [],
         "hints": {
-          "easy": "Soft indoor footwear your feet slip into",
-          "normal": "Often waits beside the bed or by the door",
-          "hard": "Quieter steps across a cold floor"
+          "easy": "indoors",
+          "normal": "warmth",
+          "hard": "morning"
         }
       }
     }
@@ -3150,18 +3150,18 @@
         "word": "Sandaler",
         "aliases": [],
         "hints": {
-          "easy": "Öppna skor där remmar håller foten på sulan",
-          "normal": "Tårna får luft när det är varmt",
-          "hard": "Små stenar kan komma in utan att du tar av dem"
+          "easy": "öppen",
+          "normal": "remmar",
+          "hard": "sommar"
         }
       },
       "en": {
         "word": "Sandals",
         "aliases": [],
         "hints": {
-          "easy": "Open footwear with straps holding the foot to the sole",
-          "normal": "Keeps your toes cool on a hot day",
-          "hard": "Little stones can get in without you taking them off"
+          "easy": "open",
+          "normal": "straps",
+          "hard": "summer"
         }
       }
     }
@@ -3173,7 +3173,7 @@
     "tags": [
       "accessories"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3182,18 +3182,18 @@
           "Flipflops"
         ],
         "hints": {
-          "easy": "Sommarskor med en rem mellan tårna",
-          "normal": "Hälen lyfter från sulan för varje steg",
-          "hard": "Stegen hörs längs bassängkanten"
+          "easy": "tårem",
+          "normal": "strand",
+          "hard": "klapprar"
         }
       },
       "en": {
         "word": "Flip-flops",
         "aliases": [],
         "hints": {
-          "easy": "Summer footwear with a strap between the toes",
-          "normal": "Your heel lifts from the sole at each step",
-          "hard": "You can hear someone coming along the poolside"
+          "easy": "thong",
+          "normal": "beach",
+          "hard": "slapping"
         }
       }
     }
@@ -3212,18 +3212,18 @@
         "word": "Loafers",
         "aliases": [],
         "hints": {
-          "easy": "Låga, ofta läderklädda skor att kliva i",
-          "normal": "Fast kant över fotens ovansida",
-          "hard": "Går att bära till kavaj utan att knyta något"
+          "easy": "instick",
+          "normal": "ovandel",
+          "hard": "läder"
         }
       },
       "en": {
         "word": "Loafers",
         "aliases": [],
         "hints": {
-          "easy": "Low shoes, often leather, that you slip on",
-          "normal": "A firm band can run across the top of the foot",
-          "hard": "Smart enough for a jacket without anything to tie"
+          "easy": "slip-on",
+          "normal": "vamp",
+          "hard": "leather"
         }
       }
     }
@@ -3242,18 +3242,18 @@
         "word": "Ballerinaskor",
         "aliases": [],
         "hints": {
-          "easy": "Platta finskor med öppen ovansida",
-          "normal": "Ibland sitter en liten rosett vid tårna",
-          "hard": "Kan följa med som reserv till höga klackar"
+          "easy": "platt",
+          "normal": "rundad",
+          "hard": "dans"
         }
       },
       "en": {
         "word": "Ballet flats",
         "aliases": [],
         "hints": {
-          "easy": "Flat dress shoes with an open top",
-          "normal": "Sometimes have a tiny bow at the toe",
-          "hard": "Can be packed as a spare pair after wearing heels"
+          "easy": "flat",
+          "normal": "rounded",
+          "hard": "dance"
         }
       }
     }
@@ -3272,18 +3272,18 @@
         "word": "Plånbok",
         "aliases": [],
         "hints": {
-          "easy": "Liten förvaring för pengar och kort",
-          "normal": "Fack i olika storlekar som ofta går att vika ihop",
-          "hard": "Kolla att den är med innan du går till kassan"
+          "easy": "pengar",
+          "normal": "kort",
+          "hard": "ficka"
         }
       },
       "en": {
         "word": "Wallet",
         "aliases": [],
         "hints": {
-          "easy": "Small holder for money and cards",
-          "normal": "Pockets of different sizes often fold together",
-          "hard": "Check you have it before going to the till"
+          "easy": "money",
+          "normal": "cards",
+          "hard": "pocket"
         }
       }
     }
@@ -3302,9 +3302,9 @@
         "word": "Handväska",
         "aliases": [],
         "hints": {
-          "easy": "Väska för personliga småsaker",
-          "normal": "Bärs i handtag eller över ena axeln",
-          "hard": "Nycklarna kan gömma sig långt ner"
+          "easy": "axel",
+          "normal": "innehåll",
+          "hard": "nycklar"
         }
       },
       "en": {
@@ -3313,9 +3313,9 @@
           "Purse"
         ],
         "hints": {
-          "easy": "A bag for small personal belongings",
-          "normal": "Carry it by its handles or over one shoulder",
-          "hard": "Keys can hide right at the bottom"
+          "easy": "shoulder",
+          "normal": "contents",
+          "hard": "keys"
         }
       }
     }
@@ -3334,9 +3334,9 @@
         "word": "Hårsnodd",
         "aliases": [],
         "hints": {
-          "easy": "Liten resår som samlar håret",
-          "normal": "Vrid den några varv runt en tofs",
-          "hard": "Kan tillfälligt sitta runt handleden"
+          "easy": "hästsvans",
+          "normal": "resår",
+          "hard": "handled"
         }
       },
       "en": {
@@ -3345,9 +3345,9 @@
           "Hair elastic"
         ],
         "hints": {
-          "easy": "A little elastic loop that gathers up hair",
-          "normal": "Twist it around a ponytail several times",
-          "hard": "Sometimes waits around a wrist"
+          "easy": "ponytail",
+          "normal": "elastic",
+          "hard": "wrist"
         }
       }
     }
@@ -3366,18 +3366,18 @@
         "word": "Kök",
         "aliases": [],
         "hints": {
-          "easy": "Hällen används före middagen",
-          "normal": "Hackat på en skärbräda",
-          "hard": "Stänk på kaklet"
+          "easy": "matlagning",
+          "normal": "spis",
+          "hard": "diskho"
         }
       },
       "en": {
         "word": "Kitchen",
         "aliases": [],
         "hints": {
-          "easy": "The stove gets busy before dinner",
-          "normal": "Chopping on a board",
-          "hard": "Splashes on the backsplash"
+          "easy": "cooking",
+          "normal": "stove",
+          "hard": "sink"
         }
       }
     }
@@ -3396,18 +3396,18 @@
         "word": "Sovrum",
         "aliases": [],
         "hints": {
-          "easy": "Här står sängen",
-          "normal": "Väckarklockan hörs först här",
-          "hard": "Mörkläggning hjälper på sommaren"
+          "easy": "säng",
+          "normal": "sömn",
+          "hard": "väckarklocka"
         }
       },
       "en": {
         "word": "Bedroom",
         "aliases": [],
         "hints": {
-          "easy": "The bed goes here",
-          "normal": "First place to hear the alarm",
-          "hard": "Blackout curtains help in summer"
+          "easy": "bed",
+          "normal": "sleep",
+          "hard": "alarm"
         }
       }
     }
@@ -3426,18 +3426,18 @@
         "word": "Vardagsrum",
         "aliases": [],
         "hints": {
-          "easy": "Soffan står ofta här",
-          "normal": "En filmkväll hemma",
-          "hard": "Fjärrkontroll mellan dynorna"
+          "easy": "soffa",
+          "normal": "umgänge",
+          "hard": "fjärrkontroll"
         }
       },
       "en": {
         "word": "Living room",
         "aliases": [],
         "hints": {
-          "easy": "Usually where the sofa is",
-          "normal": "A movie night at home",
-          "hard": "Remote between the cushions"
+          "easy": "sofa",
+          "normal": "lounging",
+          "hard": "remote"
         }
       }
     }
@@ -3456,18 +3456,18 @@
         "word": "Matsal",
         "aliases": [],
         "hints": {
-          "easy": "Måltider runt ett gemensamt bord",
-          "normal": "Duka för sex personer",
-          "hard": "Iläggsskivan behövs vid kalas"
+          "easy": "måltid",
+          "normal": "bord",
+          "hard": "dukning"
         }
       },
       "en": {
         "word": "Dining room",
         "aliases": [],
         "hints": {
-          "easy": "Meals around a shared table",
-          "normal": "Set six places",
-          "hard": "Add a table leaf for company"
+          "easy": "meals",
+          "normal": "table",
+          "hard": "setting"
         }
       }
     }
@@ -3486,18 +3486,18 @@
         "word": "Badrum",
         "aliases": [],
         "hints": {
-          "easy": "Dusch och handfat",
-          "normal": "Imma på spegeln",
-          "hard": "Kakel och golvbrunn"
+          "easy": "dusch",
+          "normal": "handfat",
+          "hard": "spegel"
         }
       },
       "en": {
         "word": "Bathroom",
         "aliases": [],
         "hints": {
-          "easy": "Shower and washbasin",
-          "normal": "A fogged-up mirror",
-          "hard": "Tile and floor drain"
+          "easy": "shower",
+          "normal": "basin",
+          "hard": "mirror"
         }
       }
     }
@@ -3509,25 +3509,25 @@
     "tags": [
       "home"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Gästrum",
         "aliases": [],
         "hints": {
-          "easy": "Här sover besök över",
-          "normal": "Extra sängkläder ligger redo",
-          "hard": "Resväskan får plats vid väggen"
+          "easy": "besök",
+          "normal": "övernattning",
+          "hard": "reserv"
         }
       },
       "en": {
         "word": "Guest room",
         "aliases": [],
         "hints": {
-          "easy": "Where visitors stay overnight",
-          "normal": "Spare bedding ready to go",
-          "hard": "Room for a suitcase by the wall"
+          "easy": "visitors",
+          "normal": "overnight",
+          "hard": "spare"
         }
       }
     }
@@ -3546,9 +3546,9 @@
         "word": "Hall",
         "aliases": [],
         "hints": {
-          "easy": "Ytterkläder nära dörren",
-          "normal": "Hälsa på den som ringer",
-          "hard": "Nycklar i en liten skål"
+          "easy": "ytterdörr",
+          "normal": "skor",
+          "hard": "avhängning"
         }
       },
       "en": {
@@ -3557,9 +3557,9 @@
           "Entrance hall"
         ],
         "hints": {
-          "easy": "Coats near the front door",
-          "normal": "Greeting whoever rang the bell",
-          "hard": "A small bowl for keys"
+          "easy": "doorstep",
+          "normal": "shoes",
+          "hard": "coats"
         }
       }
     }
@@ -3578,18 +3578,18 @@
         "word": "Tvättstuga",
         "aliases": [],
         "hints": {
-          "easy": "Maskiner och korgar med kläder",
-          "normal": "Boka ett pass i huset",
-          "hard": "Ett kvarglömt luddfilter"
+          "easy": "tvätt",
+          "normal": "centrifugering",
+          "hard": "sköljning"
         }
       },
       "en": {
         "word": "Laundry room",
         "aliases": [],
         "hints": {
-          "easy": "Machines and baskets of clothes",
-          "normal": "Book a slot in the building",
-          "hard": "A lint filter someone forgot"
+          "easy": "laundry",
+          "normal": "spinning",
+          "hard": "rinsing"
         }
       }
     }
@@ -3608,9 +3608,9 @@
         "word": "Klädkammare",
         "aliases": [],
         "hints": {
-          "easy": "Rader av hängare runt omkring",
-          "normal": "Välj plagg bakom en egen dörr",
-          "hard": "Hyllor ovanför stången"
+          "easy": "garderob",
+          "normal": "galgar",
+          "hard": "hyllor"
         }
       },
       "en": {
@@ -3619,9 +3619,9 @@
           "Walk-in wardrobe"
         ],
         "hints": {
-          "easy": "Step inside to reach the hangers",
-          "normal": "Pick an outfit behind its own door",
-          "hard": "Shelves above the rail"
+          "easy": "wardrobe",
+          "normal": "hangers",
+          "hard": "shelves"
         }
       }
     }
@@ -3633,25 +3633,25 @@
     "tags": [
       "home"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skafferi",
         "aliases": [],
         "hints": {
-          "easy": "Torrvaror på hyllor",
-          "normal": "Hämta mjöl och konserver",
-          "hard": "Gamla datum längst in"
+          "easy": "torrvaror",
+          "normal": "mjöl",
+          "hard": "förråd"
         }
       },
       "en": {
         "word": "Pantry",
         "aliases": [],
         "hints": {
-          "easy": "Dry goods on shelves",
-          "normal": "Fetch flour and canned goods",
-          "hard": "Old dates at the back"
+          "easy": "provisions",
+          "normal": "flour",
+          "hard": "storage"
         }
       }
     }
@@ -3670,18 +3670,18 @@
         "word": "Vind",
         "aliases": [],
         "hints": {
-          "easy": "Utrymmet direkt under taket",
-          "normal": "Kartonger bakom en lucka",
-          "hard": "Akta huvudet vid takbjälken"
+          "easy": "takbjälkar",
+          "normal": "förvaring",
+          "hard": "taklucka"
         }
       },
       "en": {
         "word": "Attic",
         "aliases": [],
         "hints": {
-          "easy": "The space right under the roof",
-          "normal": "Boxes beyond a hatch",
-          "hard": "Mind your head near the rafters"
+          "easy": "rafters",
+          "normal": "storage",
+          "hard": "hatch"
         }
       }
     }
@@ -3700,18 +3700,18 @@
         "word": "Källare",
         "aliases": [],
         "hints": {
-          "easy": "En våning under marknivå",
-          "normal": "Svalare på sommaren",
-          "hard": "Fönster nära taket"
+          "easy": "underjord",
+          "normal": "trappa",
+          "hard": "svalka"
         }
       },
       "en": {
         "word": "Basement",
         "aliases": [],
         "hints": {
-          "easy": "A level below ground",
-          "normal": "Cooler in summer",
-          "hard": "Windows close to the ceiling"
+          "easy": "underground",
+          "normal": "stairs",
+          "hard": "coolness"
         }
       }
     }
@@ -3730,18 +3730,18 @@
         "word": "Pannrum",
         "aliases": [],
         "hints": {
-          "easy": "Centralvärmens teknik står här",
-          "normal": "Rör går ut till elementen",
-          "hard": "Tryckmätaren behöver avläsas"
+          "easy": "uppvärmning",
+          "normal": "värmepanna",
+          "hard": "rör"
         }
       },
       "en": {
         "word": "Boiler room",
         "aliases": [],
         "hints": {
-          "easy": "Houses the main heating equipment",
-          "normal": "Pipes run out to the radiators",
-          "hard": "Someone checks the pressure gauge"
+          "easy": "heating",
+          "normal": "furnace",
+          "hard": "pipes"
         }
       }
     }
@@ -3760,18 +3760,18 @@
         "word": "Garage",
         "aliases": [],
         "hints": {
-          "easy": "Bilplats under eget tak",
-          "normal": "En bred port mot uppfarten",
-          "hard": "Betonggolv med däckspår"
+          "easy": "bil",
+          "normal": "port",
+          "hard": "parkering"
         }
       },
       "en": {
         "word": "Garage",
         "aliases": [],
         "hints": {
-          "easy": "Covered parking at home",
-          "normal": "A wide door facing the driveway",
-          "hard": "Tire tracks on concrete"
+          "easy": "car",
+          "normal": "door",
+          "hard": "parking"
         }
       }
     }
@@ -3792,18 +3792,18 @@
           "Uterum"
         ],
         "hints": {
-          "easy": "Sittplats bakom stora glaspartier",
-          "normal": "Vårfika utan vind",
-          "hard": "Svalt på natten och varmt i solsken"
+          "easy": "fönster",
+          "normal": "solljus",
+          "hard": "förlängning"
         }
       },
       "en": {
         "word": "Sunroom",
         "aliases": [],
         "hints": {
-          "easy": "Seating surrounded by glass",
-          "normal": "Spring coffee out of the wind",
-          "hard": "Cool at night and warm in sunshine"
+          "easy": "windows",
+          "normal": "sunlight",
+          "hard": "extension"
         }
       }
     }
@@ -3822,18 +3822,18 @@
         "word": "Groventré",
         "aliases": [],
         "hints": {
-          "easy": "In direkt med smutsiga stövlar",
-          "normal": "Våta ytterkläder droppar av här",
-          "hard": "Sidoingång efter trädgårdsjobb"
+          "easy": "leriga",
+          "normal": "stövlar",
+          "hard": "förrum"
         }
       },
       "en": {
         "word": "Mudroom",
         "aliases": [],
         "hints": {
-          "easy": "Straight in with muddy boots",
-          "normal": "Wet outdoor gear drips here",
-          "hard": "Side entrance after yard work"
+          "easy": "muddy",
+          "normal": "boots",
+          "hard": "vestibule"
         }
       }
     }
@@ -3845,25 +3845,25 @@
     "tags": [
       "home"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Hemmakontor",
         "aliases": [],
         "hints": {
-          "easy": "Egen arbetsplats i bostaden",
-          "normal": "Videomöten bakom stängd dörr",
-          "hard": "Skrivbordet är den kortaste pendlingen"
+          "easy": "distansarbete",
+          "normal": "skrivbord",
+          "hard": "videomöte"
         }
       },
       "en": {
         "word": "Home office",
         "aliases": [],
         "hints": {
-          "easy": "A dedicated workspace at home",
-          "normal": "Video calls behind a closed door",
-          "hard": "The desk with the shortest commute"
+          "easy": "remote",
+          "normal": "desk",
+          "hard": "conferencing"
         }
       }
     }
@@ -3875,25 +3875,25 @@
     "tags": [
       "home"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Lekrum",
         "aliases": [],
         "hints": {
-          "easy": "Byggklossar och utklädning",
-          "normal": "Här får saker ligga på golvet",
-          "hard": "En filt blir till en koja"
+          "easy": "leksaker",
+          "normal": "lek",
+          "hard": "golvyta"
         }
       },
       "en": {
         "word": "Playroom",
         "aliases": [],
         "hints": {
-          "easy": "Building blocks and dress-up",
-          "normal": "Toys can stay out here",
-          "hard": "A blanket becomes a fort"
+          "easy": "toys",
+          "normal": "play",
+          "hard": "floor"
         }
       }
     }
@@ -3912,9 +3912,9 @@
         "word": "Babyrum",
         "aliases": [],
         "hints": {
-          "easy": "Spjälsäng och skötplats",
-          "normal": "Mata en liten mitt i natten",
-          "hard": "En leksaksmobil snurrar i taket"
+          "easy": "spjälsäng",
+          "normal": "skötbord",
+          "hard": "godnatt"
         }
       },
       "en": {
@@ -3923,9 +3923,9 @@
           "Baby's room"
         ],
         "hints": {
-          "easy": "Crib and changing station",
-          "normal": "A place for late-night feeds",
-          "hard": "A little mobile turns overhead"
+          "easy": "crib",
+          "normal": "changing",
+          "hard": "bedtime"
         }
       }
     }
@@ -3944,18 +3944,18 @@
         "word": "Klassrum",
         "aliases": [],
         "hints": {
-          "easy": "Elever har lektion här",
-          "normal": "Dagens datum på tavlan",
-          "hard": "Stolar skrapar när alla reser sig"
+          "easy": "elever",
+          "normal": "lektioner",
+          "hard": "skolbänkar"
         }
       },
       "en": {
         "word": "Classroom",
         "aliases": [],
         "hints": {
-          "easy": "Pupils have lessons here",
-          "normal": "Today's date on the board",
-          "hard": "Chairs scrape when everyone stands"
+          "easy": "pupils",
+          "normal": "lessons",
+          "hard": "desks"
         }
       }
     }
@@ -3976,9 +3976,9 @@
           "Personalrum"
         ],
         "hints": {
-          "easy": "Skolans lärare tar rast här",
-          "normal": "Kaffekoppar bredvid provhögar",
-          "hard": "Samtal mellan två lektioner"
+          "easy": "lärare",
+          "normal": "rast",
+          "hard": "kaffe"
         }
       },
       "en": {
@@ -3987,9 +3987,9 @@
           "Teachers' lounge"
         ],
         "hints": {
-          "easy": "Where teachers take a break",
-          "normal": "Coffee cups beside graded papers",
-          "hard": "A chat between two lessons"
+          "easy": "teachers",
+          "normal": "break",
+          "hard": "coffee"
         }
       }
     }
@@ -4010,9 +4010,9 @@
           "Rektorns kontor"
         ],
         "hints": {
-          "easy": "Skolan leds från det här rummet",
-          "normal": "Möte om hur terminen har gått",
-          "hard": "Knacka innan du blir inkallad"
+          "easy": "rektor",
+          "normal": "samtal",
+          "hard": "beslut"
         }
       },
       "en": {
@@ -4021,9 +4021,9 @@
           "Headteacher's office"
         ],
         "hints": {
-          "easy": "Where the school is run from",
-          "normal": "A meeting about the term",
-          "hard": "Knock before being called in"
+          "easy": "principal",
+          "normal": "meetings",
+          "hard": "decisions"
         }
       }
     }
@@ -4042,18 +4042,18 @@
         "word": "Skolbibliotek",
         "aliases": [],
         "hints": {
-          "easy": "Låna något att läsa mellan lektionerna",
-          "normal": "Ställ tillbaka boken rätt",
-          "hard": "Tyst arbete vid ett gemensamt bord"
+          "easy": "lån",
+          "normal": "böcker",
+          "hard": "tystnad"
         }
       },
       "en": {
         "word": "School library",
         "aliases": [],
         "hints": {
-          "easy": "Borrow something to read between classes",
-          "normal": "Put the book back in order",
-          "hard": "Quiet work at a shared table"
+          "easy": "borrowing",
+          "normal": "books",
+          "hard": "silence"
         }
       }
     }
@@ -4074,9 +4074,9 @@
           "Matbespisning"
         ],
         "hints": {
-          "easy": "Lunch med resten av skolan",
-          "normal": "Brickor ställs tillbaka",
-          "hard": "Kön delar sig vid salladen"
+          "easy": "lunch",
+          "normal": "matbricka",
+          "hard": "kö"
         }
       },
       "en": {
@@ -4085,9 +4085,9 @@
           "School canteen"
         ],
         "hints": {
-          "easy": "Lunch with the rest of the school",
-          "normal": "Trays get returned",
-          "hard": "The line splits at the salad bar"
+          "easy": "lunch",
+          "normal": "trays",
+          "hard": "queue"
         }
       }
     }
@@ -4106,9 +4106,9 @@
         "word": "Gymnastiksal",
         "aliases": [],
         "hints": {
-          "easy": "Idrottslektion under tak",
-          "normal": "Ribbstolar längs väggen",
-          "hard": "Linjer i flera färger på golvet"
+          "easy": "idrott",
+          "normal": "ribbstolar",
+          "hard": "boll"
         }
       },
       "en": {
@@ -4117,9 +4117,9 @@
           "School gymnasium"
         ],
         "hints": {
-          "easy": "Indoor PE lessons",
-          "normal": "Climbing bars along the wall",
-          "hard": "Several colors of court lines"
+          "easy": "exercise",
+          "normal": "ropes",
+          "hard": "ball"
         }
       }
     }
@@ -4138,9 +4138,9 @@
         "word": "Omklädningsrum",
         "aliases": [],
         "hints": {
-          "easy": "Byt till idrottskläder här",
-          "normal": "Bänk och krokar längs väggen",
-          "hard": "Lämna en lucka mellan väskorna"
+          "easy": "bänkar",
+          "normal": "klädbyte",
+          "hard": "skåp"
         }
       },
       "en": {
@@ -4149,9 +4149,9 @@
           "Locker room"
         ],
         "hints": {
-          "easy": "Change into your PE kit here",
-          "normal": "Bench and hooks along one wall",
-          "hard": "Leave room between the bags"
+          "easy": "benches",
+          "normal": "undressing",
+          "hard": "lockers"
         }
       }
     }
@@ -4170,18 +4170,18 @@
         "word": "Skolsköterskans rum",
         "aliases": [],
         "hints": {
-          "easy": "Plåster efter en vurpa på rasten",
-          "normal": "Kontroll av längd och syn",
-          "hard": "En brits bakom ett draperi"
+          "easy": "plåster",
+          "normal": "hälsa",
+          "hard": "undersökning"
         }
       },
       "en": {
         "word": "School nurse's office",
         "aliases": [],
         "hints": {
-          "easy": "A bandage after a playground fall",
-          "normal": "Height and eyesight checks",
-          "hard": "An examination couch behind a curtain"
+          "easy": "bandage",
+          "normal": "health",
+          "hard": "examination"
         }
       }
     }
@@ -4193,25 +4193,25 @@
     "tags": [
       "school"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Bildsal",
         "aliases": [],
         "hints": {
-          "easy": "Målarförkläden och penslar till lektionen",
-          "normal": "Färgfläckar vid diskhon",
-          "hard": "Teckningar läggs på tork"
+          "easy": "färg",
+          "normal": "penslar",
+          "hard": "skapande"
         }
       },
       "en": {
         "word": "Art room",
         "aliases": [],
         "hints": {
-          "easy": "Aprons and brushes for class",
-          "normal": "Paint splashes around the sink",
-          "hard": "Pictures laid out to dry"
+          "easy": "paint",
+          "normal": "brushes",
+          "hard": "creativity"
         }
       }
     }
@@ -4230,18 +4230,18 @@
         "word": "Träslöjdssal",
         "aliases": [],
         "hints": {
-          "easy": "Elever sågar vid hyvelbänkar",
-          "normal": "Spänn fast brädan i bänken",
-          "hard": "Sågspån fastnar på skorna"
+          "easy": "snickeri",
+          "normal": "hyvel",
+          "hard": "spån"
         }
       },
       "en": {
         "word": "Woodwork classroom",
         "aliases": [],
         "hints": {
-          "easy": "Pupils saw boards at workbenches",
-          "normal": "Clamp your piece to the bench",
-          "hard": "Sawdust sticks to your shoes"
+          "easy": "woodworking",
+          "normal": "plane",
+          "hard": "shavings"
         }
       }
     }
@@ -4260,18 +4260,18 @@
         "word": "Textilslöjdssal",
         "aliases": [],
         "hints": {
-          "easy": "Elever syr vid maskiner",
-          "normal": "Tygbitar sorterade efter färg",
-          "hard": "Pedaler står under borden"
+          "easy": "sömnad",
+          "normal": "symaskin",
+          "hard": "tyg"
         }
       },
       "en": {
         "word": "Textiles classroom",
         "aliases": [],
         "hints": {
-          "easy": "Pupils sew at machines",
-          "normal": "Scraps of fabric sorted by color",
-          "hard": "Foot pedals under the tables"
+          "easy": "sewing",
+          "normal": "machine",
+          "hard": "fabric"
         }
       }
     }
@@ -4290,18 +4290,18 @@
         "word": "Kemisal",
         "aliases": [],
         "hints": {
-          "easy": "Experiment med provrör",
-          "normal": "Glasögon före laborationen",
-          "hard": "Gasventiler vid arbetsbänkarna"
+          "easy": "experiment",
+          "normal": "skyddsglasögon",
+          "hard": "gas"
         }
       },
       "en": {
         "word": "Chemistry lab",
         "aliases": [],
         "hints": {
-          "easy": "Experiments with test tubes",
-          "normal": "Goggles before the practical",
-          "hard": "Gas taps along the workbenches"
+          "easy": "experiments",
+          "normal": "goggles",
+          "hard": "gas"
         }
       }
     }
@@ -4320,18 +4320,18 @@
         "word": "Datorsal",
         "aliases": [],
         "hints": {
-          "easy": "En hel klass vid varsin skärm",
-          "normal": "Spara filen innan lektionen är slut",
-          "hard": "Surr vid de numrerade platserna"
+          "easy": "datorer",
+          "normal": "skärmar",
+          "hard": "inloggning"
         }
       },
       "en": {
         "word": "Computer lab",
         "aliases": [],
         "hints": {
-          "easy": "A screen for each pupil",
-          "normal": "Save your file before class ends",
-          "hard": "Humming by the numbered stations"
+          "easy": "computers",
+          "normal": "monitors",
+          "hard": "login"
         }
       }
     }
@@ -4350,9 +4350,9 @@
         "word": "Aula",
         "aliases": [],
         "hints": {
-          "easy": "Hela skolan kan samlas framför scenen",
-          "normal": "Avslutning med tal och sång",
-          "hard": "Stolsraderna riktas åt samma håll"
+          "easy": "scen",
+          "normal": "samling",
+          "hard": "publik"
         }
       },
       "en": {
@@ -4361,9 +4361,9 @@
           "Assembly hall"
         ],
         "hints": {
-          "easy": "The whole school gathers facing a stage",
-          "normal": "End-of-term speeches and songs",
-          "hard": "Rows of chairs all face one way"
+          "easy": "stage",
+          "normal": "assembly",
+          "hard": "audience"
         }
       }
     }
@@ -4382,18 +4382,18 @@
         "word": "Skolexpedition",
         "aliases": [],
         "hints": {
-          "easy": "Här sköts skolans administration",
-          "normal": "Hämta blankett eller schema",
-          "hard": "Besökare anmäler sig här"
+          "easy": "administration",
+          "normal": "blanketter",
+          "hard": "besök"
         }
       },
       "en": {
         "word": "School office",
         "aliases": [],
         "hints": {
-          "easy": "Where school administration happens",
-          "normal": "Pick up a form or timetable",
-          "hard": "Visitors check in here"
+          "easy": "administration",
+          "normal": "forms",
+          "hard": "visitors"
         }
       }
     }
@@ -4412,18 +4412,18 @@
         "word": "Tvättmedel",
         "aliases": [],
         "hints": {
-          "easy": "Doseras till smutsiga kläder",
-          "normal": "Välj mängd efter vattnets hårdhet",
-          "hard": "Kan komma som pulver i kartong"
+          "easy": "rengöring",
+          "normal": "dosering",
+          "hard": "skum"
         }
       },
       "en": {
         "word": "Laundry detergent",
         "aliases": [],
         "hints": {
-          "easy": "A dose for dirty clothes",
-          "normal": "Adjust the amount for hard water",
-          "hard": "Sometimes a powder in a box"
+          "easy": "cleaning",
+          "normal": "dosage",
+          "hard": "suds"
         }
       }
     }
@@ -4435,16 +4435,16 @@
     "tags": [
       "laundry"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Sköljmedel",
         "aliases": [],
         "hints": {
-          "easy": "Ger mjukare känsla i plaggen",
-          "normal": "Hälls i facket med en blomma",
-          "hard": "Tar bort en del statisk elektricitet"
+          "easy": "mjukhet",
+          "normal": "doft",
+          "hard": "slutsköljning"
         }
       },
       "en": {
@@ -4453,9 +4453,9 @@
           "Fabric conditioner"
         ],
         "hints": {
-          "easy": "Makes clothes feel softer",
-          "normal": "Goes in the compartment with a flower",
-          "hard": "Cuts down on static cling"
+          "easy": "softness",
+          "normal": "scent",
+          "hard": "rinse"
         }
       }
     }
@@ -4467,25 +4467,25 @@
     "tags": [
       "laundry"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Fläckborttagare för kläder",
         "aliases": [],
         "hints": {
-          "easy": "Punktbehandla plagget före maskinen",
-          "normal": "Använd lite direkt på märket",
-          "hard": "Spår av kaffe på manschetten"
+          "easy": "förbehandling",
+          "normal": "spill",
+          "hard": "gnuggning"
         }
       },
       "en": {
         "word": "Laundry stain remover",
         "aliases": [],
         "hints": {
-          "easy": "Spot-treat the garment before washing",
-          "normal": "Apply a little directly to the mark",
-          "hard": "Coffee spilled on a cuff"
+          "easy": "pretreatment",
+          "normal": "spills",
+          "hard": "rubbing"
         }
       }
     }
@@ -4504,18 +4504,18 @@
         "word": "Tvättmaskin",
         "aliases": [],
         "hints": {
-          "easy": "Kläder snurrar i vatten",
-          "normal": "Trumman går fort på slutet",
-          "hard": "En ensam strumpa bakom gummit"
+          "easy": "centrifug",
+          "normal": "trumma",
+          "hard": "vatten"
         }
       },
       "en": {
         "word": "Washing machine",
         "aliases": [],
         "hints": {
-          "easy": "Clothes turn in water",
-          "normal": "The drum speeds up at the end",
-          "hard": "A lone sock behind the rubber seal"
+          "easy": "spin",
+          "normal": "drum",
+          "hard": "water"
         }
       }
     }
@@ -4534,9 +4534,9 @@
         "word": "Torktumlare",
         "aliases": [],
         "hints": {
-          "easy": "Fuktiga plagg snurrar i varmluft",
-          "normal": "Borsta rent luddfiltret efteråt",
-          "hard": "Känn på sömmarna innan du viker"
+          "easy": "trumma",
+          "normal": "ludd",
+          "hard": "värme"
         }
       },
       "en": {
@@ -4545,9 +4545,9 @@
           "Clothes dryer"
         ],
         "hints": {
-          "easy": "Damp clothes spin in warm air",
-          "normal": "Clear the lint filter afterward",
-          "hard": "Feel the seams before folding"
+          "easy": "drum",
+          "normal": "lint",
+          "hard": "heat"
         }
       }
     }
@@ -4566,18 +4566,18 @@
         "word": "Torkskåp",
         "aliases": [],
         "hints": {
-          "easy": "Våt tvätt hänger bakom en varm dörr",
-          "normal": "Bra när vinteroverallen är genomblöt",
-          "hard": "Luft passerar mellan galgarna"
+          "easy": "galgar",
+          "normal": "varmluft",
+          "hard": "dropp"
         }
       },
       "en": {
         "word": "Drying cabinet",
         "aliases": [],
         "hints": {
-          "easy": "Wet clothes hang behind a warm door",
-          "normal": "Handy for a soaked snowsuit",
-          "hard": "Air passes between the hangers"
+          "easy": "hangers",
+          "normal": "airflow",
+          "hard": "drips"
         }
       }
     }
@@ -4589,16 +4589,16 @@
     "tags": [
       "laundry"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Torkställning",
         "aliases": [],
         "hints": {
-          "easy": "Fäll upp för att hänga våta plagg",
-          "normal": "Strumpor och skjortor över pinnar",
-          "hard": "Tar golvyta i flera timmar"
+          "easy": "utfällbar",
+          "normal": "luftning",
+          "hard": "pinnar"
         }
       },
       "en": {
@@ -4608,9 +4608,9 @@
           "Clothes horse"
         ],
         "hints": {
-          "easy": "Unfold it to hang wet clothes",
-          "normal": "Socks and shirts over bars",
-          "hard": "It takes up floor space for hours"
+          "easy": "folding",
+          "normal": "airing",
+          "hard": "rods"
         }
       }
     }
@@ -4629,9 +4629,9 @@
         "word": "Tvättlina",
         "aliases": [],
         "hints": {
-          "easy": "Häng tvätt längs ett spänt snöre",
-          "normal": "Lakan fladdrar i vinden",
-          "hard": "Säckar lätt mellan stolparna"
+          "easy": "lina",
+          "normal": "nypor",
+          "hard": "vind"
         }
       },
       "en": {
@@ -4640,9 +4640,9 @@
           "Washing line"
         ],
         "hints": {
-          "easy": "Hang washing along a taut cord",
-          "normal": "Sheets flap in the breeze",
-          "hard": "It tends to sag between posts"
+          "easy": "cord",
+          "normal": "pegs",
+          "hard": "breeze"
         }
       }
     }
@@ -4663,9 +4663,9 @@
           "Tvättklämma"
         ],
         "hints": {
-          "easy": "Håller plagget kvar i blåsten",
-          "normal": "Kläm fast hörnet av lakanet",
-          "hard": "En liten fjäder mellan två käftar"
+          "easy": "fjäder",
+          "normal": "upphängning",
+          "hard": "grepp"
         }
       },
       "en": {
@@ -4674,9 +4674,9 @@
           "Clothes peg"
         ],
         "hints": {
-          "easy": "Keeps clothes from blowing away",
-          "normal": "Clip on to the corner of the sheet",
-          "hard": "A small spring between two pieces"
+          "easy": "spring",
+          "normal": "hanging",
+          "hard": "grip"
         }
       }
     }
@@ -4695,18 +4695,18 @@
         "word": "Strykjärn",
         "aliases": [],
         "hints": {
-          "easy": "Varm platta slätar ut ett plagg",
-          "normal": "Välj värme efter materialet",
-          "hard": "Triangelformad spets runt knappar"
+          "easy": "värme",
+          "normal": "veck",
+          "hard": "ånga"
         }
       },
       "en": {
         "word": "Clothes iron",
         "aliases": [],
         "hints": {
-          "easy": "A hot plate flattens fabric",
-          "normal": "Choose the heat for the fabric",
-          "hard": "A pointed tip for working around buttons"
+          "easy": "heat",
+          "normal": "wrinkles",
+          "hard": "steam"
         }
       }
     }
@@ -4725,18 +4725,18 @@
         "word": "Strykbräda",
         "aliases": [],
         "hints": {
-          "easy": "Värmetålig yta på fällbara ben",
-          "normal": "Trä skjortan över den smala änden",
-          "hard": "Ett vadderat överdrag"
+          "easy": "ställning",
+          "normal": "veck",
+          "hard": "fällbar"
         }
       },
       "en": {
         "word": "Ironing board",
         "aliases": [],
         "hints": {
-          "easy": "Heat-safe surface on folding legs",
-          "normal": "Slide a shirt over the narrow end",
-          "hard": "A padded cover"
+          "easy": "stand",
+          "normal": "wrinkles",
+          "hard": "folding"
         }
       }
     }
@@ -4755,9 +4755,9 @@
         "word": "Tvättkorg",
         "aliases": [],
         "hints": {
-          "easy": "Samlar smutsiga plagg i väntan på omgången",
-          "normal": "Bär allt till maskinen på en gång",
-          "hard": "Lufthål längs sidorna"
+          "easy": "smutstvätt",
+          "normal": "bärhandtag",
+          "hard": "sortering"
         }
       },
       "en": {
@@ -4766,9 +4766,9 @@
           "Laundry hamper"
         ],
         "hints": {
-          "easy": "Holds dirty clothes until wash day",
-          "normal": "Carry everything to the machine at once",
-          "hard": "Air holes along the sides"
+          "easy": "laundry",
+          "normal": "handles",
+          "hard": "sorting"
         }
       }
     }
@@ -4789,9 +4789,9 @@
           "Tvättpåse i nät"
         ],
         "hints": {
-          "easy": "Skyddar ömtåliga plagg i maskinen",
-          "normal": "Lägg bygelbehån här före start",
-          "hard": "Vattnet passerar de små hålen"
+          "easy": "nät",
+          "normal": "dragkedja",
+          "hard": "fintvätt"
         }
       },
       "en": {
@@ -4800,9 +4800,9 @@
           "Mesh wash bag"
         ],
         "hints": {
-          "easy": "Protects delicate clothes in the machine",
-          "normal": "Put the underwired bra in first",
-          "hard": "Water passes through small holes"
+          "easy": "mesh",
+          "normal": "zipper",
+          "hard": "delicates"
         }
       }
     }
@@ -4821,9 +4821,9 @@
         "word": "Färgfångande tvättduk",
         "aliases": [],
         "hints": {
-          "easy": "Fångar färg som läcker i maskinen",
-          "normal": "Minskar risken för rosa vittvätt",
-          "hard": "Kan få en ny nyans efteråt"
+          "easy": "missfärgning",
+          "normal": "överföring",
+          "hard": "infångning"
         }
       },
       "en": {
@@ -4832,9 +4832,9 @@
           "Colour catcher sheet"
         ],
         "hints": {
-          "easy": "Traps dye released in the wash",
-          "normal": "Keeps whites from turning pink",
-          "hard": "It may come out a different shade"
+          "easy": "staining",
+          "normal": "transfer",
+          "hard": "absorption"
         }
       }
     }
@@ -4846,7 +4846,7 @@
     "tags": [
       "laundry"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4855,18 +4855,18 @@
           "Klädvårdsrulle"
         ],
         "hints": {
-          "easy": "Tar hundhår från en mörk kavaj",
-          "normal": "Klistrigt varv över axeln",
-          "hard": "Dra av ett förbrukat blad"
+          "easy": "hår",
+          "normal": "tejp",
+          "hard": "rullning"
         }
       },
       "en": {
         "word": "Lint roller",
         "aliases": [],
         "hints": {
-          "easy": "Lifts dog hair off a dark jacket",
-          "normal": "A sticky pass over the shoulder",
-          "hard": "Peel off a used sheet"
+          "easy": "hair",
+          "normal": "adhesive",
+          "hard": "rolling"
         }
       }
     }
@@ -4878,7 +4878,7 @@
     "tags": [
       "laundry"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4887,9 +4887,9 @@
           "Noppmaskin"
         ],
         "hints": {
-          "easy": "Tar bort små bollar på tröjan",
-          "normal": "För munstycket försiktigt över stickat",
-          "hard": "En behållare samlar upp det lösa"
+          "easy": "ludd",
+          "normal": "rakblad",
+          "hard": "stickat"
         }
       },
       "en": {
@@ -4898,9 +4898,9 @@
           "Pilling remover"
         ],
         "hints": {
-          "easy": "Removes little balls from a sweater",
-          "normal": "Glide it gently over the knit",
-          "hard": "A small compartment catches the fuzz"
+          "easy": "fuzz",
+          "normal": "blade",
+          "hard": "knitwear"
         }
       }
     }
@@ -4919,9 +4919,9 @@
         "word": "Klädångare",
         "aliases": [],
         "hints": {
-          "easy": "Slätar ut plagg på galgen",
-          "normal": "Fyll behållaren före uppvärmning",
-          "hard": "Imma nära den veckade fållen"
+          "easy": "ånga",
+          "normal": "hängande",
+          "hard": "veck"
         }
       },
       "en": {
@@ -4930,9 +4930,9 @@
           "Clothes steamer"
         ],
         "hints": {
-          "easy": "Smooths clothes on a hanger",
-          "normal": "Fill the reservoir before heating",
-          "hard": "Mist near a creased hem"
+          "easy": "steam",
+          "normal": "hanging",
+          "hard": "wrinkles"
         }
       }
     }
@@ -4951,18 +4951,18 @@
         "word": "Strykstärkelse",
         "aliases": [],
         "hints": {
-          "easy": "Gör en skjortkrage styvare",
-          "normal": "Används för skarpa pressveck",
-          "hard": "Spraya lätt innan plagget pressas"
+          "easy": "stadga",
+          "normal": "krage",
+          "hard": "pressning"
         }
       },
       "en": {
         "word": "Laundry starch",
         "aliases": [],
         "hints": {
-          "easy": "Stiffens a shirt collar",
-          "normal": "Helps make creases crisp",
-          "hard": "A light spray before pressing"
+          "easy": "stiffness",
+          "normal": "collar",
+          "hard": "pressing"
         }
       }
     }
@@ -4974,25 +4974,25 @@
     "tags": [
       "laundry"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skoborste",
         "aliases": [],
         "hints": {
-          "easy": "Drar bort damm från skinnet",
-          "normal": "Jobba med korta drag runt sulan",
-          "hard": "Täta strån på ett trähandtag"
+          "easy": "borst",
+          "normal": "läder",
+          "hard": "damm"
         }
       },
       "en": {
         "word": "Shoe brush",
         "aliases": [],
         "hints": {
-          "easy": "Sweeps dust off leather",
-          "normal": "Use short strokes around the sole",
-          "hard": "Dense bristles on a wooden handle"
+          "easy": "bristles",
+          "normal": "leather",
+          "hard": "dust"
         }
       }
     }
@@ -5004,25 +5004,25 @@
     "tags": [
       "laundry"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skokräm",
         "aliases": [],
         "hints": {
-          "easy": "Ger glans åt läderskor",
-          "normal": "Gnid in ett tunt lager med en trasa",
-          "hard": "Färgen matchas mot paret"
+          "easy": "glans",
+          "normal": "läder",
+          "hard": "polering"
         }
       },
       "en": {
         "word": "Shoe polish",
         "aliases": [],
         "hints": {
-          "easy": "Makes leather footwear shine",
-          "normal": "Rub on a thin coat with a cloth",
-          "hard": "Match the color to the pair"
+          "easy": "shine",
+          "normal": "leather",
+          "hard": "buffing"
         }
       }
     }
@@ -5041,18 +5041,18 @@
         "word": "Skoblock",
         "aliases": [],
         "hints": {
-          "easy": "Håller formen på ett tomt par",
-          "normal": "Sätts i efter att lädret varit på promenad",
-          "hard": "En fjäder trycker hälen bakåt"
+          "easy": "läst",
+          "normal": "form",
+          "hard": "veck"
         }
       },
       "en": {
         "word": "Shoe tree",
         "aliases": [],
         "hints": {
-          "easy": "Holds the shape of empty footwear",
-          "normal": "Goes in after wearing the pair",
-          "hard": "A spring presses back against the heel"
+          "easy": "last",
+          "normal": "shape",
+          "hard": "creases"
         }
       }
     }
@@ -5071,18 +5071,18 @@
         "word": "Klädgalge",
         "aliases": [],
         "hints": {
-          "easy": "Håller skjortan uppe i garderoben",
-          "normal": "Haka fast den över stången",
-          "hard": "Små hack för axelband"
+          "easy": "axlar",
+          "normal": "krok",
+          "hard": "garderob"
         }
       },
       "en": {
         "word": "Clothes hanger",
         "aliases": [],
         "hints": {
-          "easy": "Keeps a shirt up in the closet",
-          "normal": "Hook it over the rail",
-          "hard": "Little notches for shoulder straps"
+          "easy": "shoulders",
+          "normal": "hook",
+          "hard": "wardrobe"
         }
       }
     }
@@ -5101,18 +5101,18 @@
         "word": "Torkboll",
         "aliases": [],
         "hints": {
-          "easy": "Håller isär plagg i varm trumma",
-          "normal": "Kan minska tiden för våt tvätt",
-          "hard": "Den av ull studsar bland handdukarna"
+          "easy": "ull",
+          "normal": "studs",
+          "hard": "separation"
         }
       },
       "en": {
         "word": "Dryer ball",
         "aliases": [],
         "hints": {
-          "easy": "Separates clothes in the hot drum",
-          "normal": "Can shorten the cycle for wet clothes",
-          "hard": "Wool versions bounce among towels"
+          "easy": "wool",
+          "normal": "bouncing",
+          "hard": "separation"
         }
       }
     }
@@ -5133,9 +5133,9 @@
           "Tvättrådsetikett"
         ],
         "hints": {
-          "easy": "Anger hur plagget får skötas",
-          "normal": "En balja med siffror på en liten lapp",
-          "hard": "Ofta fastsydd i sidsömmen"
+          "easy": "symboler",
+          "normal": "temperatur",
+          "hard": "söm"
         }
       },
       "en": {
@@ -5144,9 +5144,9 @@
           "Clothing care label"
         ],
         "hints": {
-          "easy": "Tells you how to handle the garment",
-          "normal": "A little symbol with a number in a tub",
-          "hard": "Often sewn into the side seam"
+          "easy": "symbols",
+          "normal": "temperature",
+          "hard": "seam"
         }
       }
     }
@@ -5165,18 +5165,18 @@
         "word": "Mangel",
         "aliases": [],
         "hints": {
-          "easy": "Pressar dukar släta mellan valsar",
-          "normal": "Mata in ett vikt lakan",
-          "hard": "Håll fingrarna borta från rullarna"
+          "easy": "valsar",
+          "normal": "lakan",
+          "hard": "press"
         }
       },
       "en": {
         "word": "Clothes mangle",
         "aliases": [],
         "hints": {
-          "easy": "Presses tablecloths flat between rollers",
-          "normal": "Feed in a folded sheet",
-          "hard": "Keep your fingers away from the cylinders"
+          "easy": "rollers",
+          "normal": "sheets",
+          "hard": "pressing"
         }
       }
     }
@@ -5195,18 +5195,18 @@
         "word": "Stoppägg",
         "aliases": [],
         "hints": {
-          "easy": "Stöder en trasig strumpa inifrån",
-          "normal": "Sträcker ut stickningen medan du syr",
-          "hard": "En slät träform i hälen"
+          "easy": "socklagning",
+          "normal": "trä",
+          "hard": "stöd"
         }
       },
       "en": {
         "word": "Darning egg",
         "aliases": [],
         "hints": {
-          "easy": "Supports a torn sock from inside",
-          "normal": "Stretches the knit while you stitch",
-          "hard": "A smooth wooden form in the heel"
+          "easy": "mending",
+          "normal": "wood",
+          "hard": "support"
         }
       }
     }
@@ -5228,9 +5228,9 @@
           "sopkvast"
         ],
         "hints": {
-          "easy": "Samlar grus från golvet",
-          "normal": "Borst på långt skaft",
-          "hard": "Hörn och trösklar"
+          "easy": "sopa",
+          "normal": "borst",
+          "hard": "skaft"
         }
       },
       "en": {
@@ -5239,9 +5239,9 @@
           "sweeping broom"
         ],
         "hints": {
-          "easy": "Sweeps grit off floors",
-          "normal": "Bristles on a long handle",
-          "hard": "Corners and thresholds"
+          "easy": "sweeping",
+          "normal": "bristles",
+          "hard": "handle"
         }
       }
     }
@@ -5263,18 +5263,18 @@
           "sopskopa"
         ],
         "hints": {
-          "easy": "Tar emot hopborstade smulor",
-          "normal": "Platt läpp mot golvet",
-          "hard": "Sista högen vid dörren"
+          "easy": "smulor",
+          "normal": "skyffla",
+          "hard": "skräp"
         }
       },
       "en": {
         "word": "Dustpan",
         "aliases": [],
         "hints": {
-          "easy": "Catches a pile of sweepings",
-          "normal": "Flat lip against the floor",
-          "hard": "Last pile by the door"
+          "easy": "crumbs",
+          "normal": "scooping",
+          "hard": "debris"
         }
       }
     }
@@ -5296,9 +5296,9 @@
           "mopp"
         ],
         "hints": {
-          "easy": "Torkar golv med vatten",
-          "normal": "Fuktigt huvud på långt skaft",
-          "hard": "Våta spår på klinker"
+          "easy": "golvtvätt",
+          "normal": "blött",
+          "hard": "hink"
         }
       },
       "en": {
@@ -5307,9 +5307,9 @@
           "floor mop"
         ],
         "hints": {
-          "easy": "Cleans floors with water",
-          "normal": "Damp head on a long handle",
-          "hard": "Wet streaks on tiles"
+          "easy": "floors",
+          "normal": "wet",
+          "hard": "bucket"
         }
       }
     }
@@ -5322,25 +5322,25 @@
       "cleaning",
       "equipment"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Dammvippa",
         "aliases": [],
         "hints": {
-          "easy": "Sveper rent bland prydnader",
-          "normal": "Lätta strån mellan små figurer",
-          "hard": "Hylla med porslinsfigurer"
+          "easy": "fjädrar",
+          "normal": "damm",
+          "hard": "hylla"
         }
       },
       "en": {
         "word": "Feather duster",
         "aliases": [],
         "hints": {
-          "easy": "Flicks dust off ornaments",
-          "normal": "Soft enough for small trinkets",
-          "hard": "A shelf of porcelain figures"
+          "easy": "feathers",
+          "normal": "dust",
+          "hard": "shelf"
         }
       }
     }
@@ -5353,16 +5353,16 @@
       "cleaning",
       "equipment"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skurborste",
         "aliases": [],
         "hints": {
-          "easy": "Styva strån för fast smuts",
-          "normal": "Hårt tryck i små cirklar",
-          "hard": "Jord i farstun"
+          "easy": "borst",
+          "normal": "skrubb",
+          "hard": "envis"
         }
       },
       "en": {
@@ -5371,9 +5371,9 @@
           "scrub brush"
         ],
         "hints": {
-          "easy": "Stiff bristles for stubborn dirt",
-          "normal": "Firm pressure in little circles",
-          "hard": "Mud in the entryway"
+          "easy": "bristles",
+          "normal": "scrub",
+          "hard": "stubborn"
         }
       }
     }
@@ -5393,9 +5393,9 @@
         "word": "Dammsugare",
         "aliases": [],
         "hints": {
-          "easy": "Suger upp smulor och päls",
-          "normal": "Brummar under soffan",
-          "hard": "Rakt mönster i mattluggen"
+          "easy": "sug",
+          "normal": "slang",
+          "hard": "munstycke"
         }
       },
       "en": {
@@ -5404,9 +5404,9 @@
           "hoover"
         ],
         "hints": {
-          "easy": "Sucks up crumbs and pet hair",
-          "normal": "Hums under the couch",
-          "hard": "Straight lines in the carpet pile"
+          "easy": "suction",
+          "normal": "hose",
+          "hard": "nozzle"
         }
       }
     }
@@ -5426,9 +5426,9 @@
         "word": "Dammsugarpåse",
         "aliases": [],
         "hints": {
-          "easy": "Fylls med damm och hår",
-          "normal": "Byts när suget avtar",
-          "hard": "Pappkrage runt öppningen"
+          "easy": "damm",
+          "normal": "filter",
+          "hard": "byte"
         }
       },
       "en": {
@@ -5437,9 +5437,9 @@
           "vacuum cleaner bag"
         ],
         "hints": {
-          "easy": "Fills with dust and hair",
-          "normal": "Replaced when suction weakens",
-          "hard": "Cardboard collar at the opening"
+          "easy": "dust",
+          "normal": "filter",
+          "hard": "replacement"
         }
       }
     }
@@ -5452,7 +5452,7 @@
       "cleaning",
       "equipment"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5461,9 +5461,9 @@
           "fönsterraka"
         ],
         "hints": {
-          "easy": "Drar bort vattnet från rutan",
-          "normal": "Gummilist över vått glas",
-          "hard": "Torra drag utan ränder"
+          "easy": "gummiblad",
+          "normal": "fönster",
+          "hard": "ränder"
         }
       },
       "en": {
@@ -5472,9 +5472,9 @@
           "squeegee"
         ],
         "hints": {
-          "easy": "Pulls water off a pane",
-          "normal": "Rubber strip across wet glass",
-          "hard": "Dry passes without streaks"
+          "easy": "rubber",
+          "normal": "windows",
+          "hard": "streaks"
         }
       }
     }
@@ -5496,18 +5496,18 @@
           "wc-borste"
         ],
         "hints": {
-          "easy": "Gnuggar rent inuti porslinsskålen",
-          "normal": "Står i en behållare bredvid sitsen",
-          "hard": "Smal väg in under kanten"
+          "easy": "toalett",
+          "normal": "skål",
+          "hard": "hygien"
         }
       },
       "en": {
         "word": "Toilet brush",
         "aliases": [],
         "hints": {
-          "easy": "Scrubs inside the porcelain bowl",
-          "normal": "Stands in a holder beside the seat",
-          "hard": "A tight reach under the rim"
+          "easy": "toilet",
+          "normal": "bowl",
+          "hard": "hygiene"
         }
       }
     }
@@ -5520,7 +5520,7 @@
       "cleaning",
       "equipment"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5529,9 +5529,9 @@
           "mikrofibertrasa"
         ],
         "hints": {
-          "easy": "Torkar bort fingeravtryck utan ludd",
-          "normal": "Tätt tyg med mycket fina trådar",
-          "hard": "Glans på spegeln"
+          "easy": "repfri",
+          "normal": "damm",
+          "hard": "fibrer"
         }
       },
       "en": {
@@ -5540,9 +5540,9 @@
           "microfiber cloth"
         ],
         "hints": {
-          "easy": "Wipes fingerprints without leaving lint",
-          "normal": "Densely woven from very fine threads",
-          "hard": "A mirror polished clear"
+          "easy": "scratch-free",
+          "normal": "dust",
+          "hard": "fibers"
         }
       }
     }
@@ -5555,7 +5555,7 @@
       "cleaning",
       "equipment"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5564,9 +5564,9 @@
           "rengöringssvamp"
         ],
         "hints": {
-          "easy": "Grov sida för intorkade fläckar",
-          "normal": "Mjuk baksida som håller vatten",
-          "hard": "Kärva drag på en plåt"
+          "easy": "skrubb",
+          "normal": "porös",
+          "hard": "disk"
         }
       },
       "en": {
@@ -5575,9 +5575,9 @@
           "scrubber sponge"
         ],
         "hints": {
-          "easy": "Coarse side for dried stains",
-          "normal": "Soft backing that holds water",
-          "hard": "Scratchy passes over a baking tray"
+          "easy": "scrub",
+          "normal": "porous",
+          "hard": "dishes"
         }
       }
     }
@@ -5599,9 +5599,9 @@
           "diskhandskar"
         ],
         "hints": {
-          "easy": "Håller händerna torra när du städar",
-          "normal": "Vattentäta fingrar för diskbaljan",
-          "hard": "Rullad kant vid handleden"
+          "easy": "handskydd",
+          "normal": "vatten",
+          "hard": "städning"
         }
       },
       "en": {
@@ -5610,9 +5610,9 @@
           "washing-up gloves"
         ],
         "hints": {
-          "easy": "Keep hands dry while cleaning",
-          "normal": "Waterproof fingers at the sink",
-          "hard": "A rolled edge at the wrist"
+          "easy": "protection",
+          "normal": "water",
+          "hard": "cleaning"
         }
       }
     }
@@ -5634,9 +5634,9 @@
           "avfallspåse"
         ],
         "hints": {
-          "easy": "Håller ihop avfallet när hinken töms",
-          "normal": "Viks över korgens kant",
-          "hard": "En knut på väg ut"
+          "easy": "avfall",
+          "normal": "knut",
+          "hard": "läckage"
         }
       },
       "en": {
@@ -5646,9 +5646,9 @@
           "garbage bag"
         ],
         "hints": {
-          "easy": "Holds waste before the bin is emptied",
-          "normal": "Folds over the rim of the bin",
-          "hard": "A knot on the way out"
+          "easy": "rubbish",
+          "normal": "knot",
+          "hard": "leaks"
         }
       }
     }
@@ -5661,16 +5661,16 @@
       "cleaning",
       "equipment"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Pedalhink",
         "aliases": [],
         "hints": {
-          "easy": "Soplocket öppnas med foten",
-          "normal": "Händerna kan vara upptagna",
-          "hard": "En liten spak mot golvet"
+          "easy": "fotpedal",
+          "normal": "lock",
+          "hard": "skräp"
         }
       },
       "en": {
@@ -5679,9 +5679,9 @@
           "step trash can"
         ],
         "hints": {
-          "easy": "Foot pressure raises the rubbish lid",
-          "normal": "Works with your hands full",
-          "hard": "A small lever near the floor"
+          "easy": "pedal",
+          "normal": "lid",
+          "hard": "rubbish"
         }
       }
     }
@@ -5694,25 +5694,25 @@
       "cleaning",
       "equipment"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Vaskrensare",
         "aliases": [],
         "hints": {
-          "easy": "Lossar stopp med en gummikopp",
-          "normal": "Tryckväxling över avloppet",
-          "hard": "När vattennivån vägrar sjunka"
+          "easy": "sugkopp",
+          "normal": "stopp",
+          "hard": "pumpning"
         }
       },
       "en": {
         "word": "Plunger",
         "aliases": [],
         "hints": {
-          "easy": "Clears a clog with a rubber cup",
-          "normal": "Pressure pulses over the drain",
-          "hard": "When the water will not go down"
+          "easy": "suction",
+          "normal": "blockage",
+          "hard": "pumping"
         }
       }
     }
@@ -5725,7 +5725,7 @@
       "cleaning",
       "products"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5734,18 +5734,18 @@
           "fönsterputs"
         ],
         "hints": {
-          "easy": "Tar bort fettmärken från glas",
-          "normal": "Sprayas på spegeln",
-          "hard": "Den sista randen syns i solen"
+          "easy": "fönster",
+          "normal": "spray",
+          "hard": "ränder"
         }
       },
       "en": {
         "word": "Glass cleaner",
         "aliases": [],
         "hints": {
-          "easy": "Lifts greasy marks off glass",
-          "normal": "Sprayed onto the mirror",
-          "hard": "Sunlight reveals the final streak"
+          "easy": "windows",
+          "normal": "spray",
+          "hard": "streaks"
         }
       }
     }
@@ -5765,9 +5765,9 @@
         "word": "Avkalkningsmedel",
         "aliases": [],
         "hints": {
-          "easy": "Löser hårda mineralavlagringar",
-          "normal": "Mot det vita kring kranen",
-          "hard": "Hårt vatten lämnar spår"
+          "easy": "kalk",
+          "normal": "vinäger",
+          "hard": "beläggning"
         }
       },
       "en": {
@@ -5776,9 +5776,9 @@
           "descaling agent"
         ],
         "hints": {
-          "easy": "Dissolves hardened mineral deposits",
-          "normal": "Tackles white buildup around the tap",
-          "hard": "Hard water leaves a trace"
+          "easy": "limescale",
+          "normal": "vinegar",
+          "hard": "deposits"
         }
       }
     }
@@ -5800,18 +5800,18 @@
           "möbelputs"
         ],
         "hints": {
-          "easy": "Ger lackade träytor ny glans",
-          "normal": "Poleras in med mjuk trasa",
-          "hard": "En solstrimma på en gammal byrå"
+          "easy": "trä",
+          "normal": "glans",
+          "hard": "torkning"
         }
       },
       "en": {
         "word": "Furniture polish",
         "aliases": [],
         "hints": {
-          "easy": "Restores shine to finished wood",
-          "normal": "Buffed in with a soft cloth",
-          "hard": "Sunlight on an old dresser"
+          "easy": "wood",
+          "normal": "shine",
+          "hard": "wiping"
         }
       }
     }
@@ -5833,9 +5833,9 @@
           "diskmedel"
         ],
         "hints": {
-          "easy": "Löser fett på disken i vasken",
-          "normal": "Några droppar ger skum",
-          "hard": "Efter en kladdig stekpanna"
+          "easy": "disk",
+          "normal": "skum",
+          "hard": "fett"
         }
       },
       "en": {
@@ -5845,9 +5845,9 @@
           "dishwashing liquid"
         ],
         "hints": {
-          "easy": "Cuts grease on dishes in the sink",
-          "normal": "A few drops make suds",
-          "hard": "After a greasy frying pan"
+          "easy": "dishes",
+          "normal": "suds",
+          "hard": "grease"
         }
       }
     }
@@ -5860,7 +5860,7 @@
       "cleaning",
       "products"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5869,18 +5869,18 @@
           "disktablett"
         ],
         "hints": {
-          "easy": "En fast dos för smutsiga tallrikar",
-          "normal": "Läggs i facket med lucka",
-          "hard": "Ett klick före programstart"
+          "easy": "dos",
+          "normal": "disk",
+          "hard": "kapsel"
         }
       },
       "en": {
         "word": "Dishwasher tablet",
         "aliases": [],
         "hints": {
-          "easy": "One solid dose for dirty plates",
-          "normal": "Sits inside the little dispenser door",
-          "hard": "A click before the cycle starts"
+          "easy": "dose",
+          "normal": "dishes",
+          "hard": "capsule"
         }
       }
     }
@@ -5893,7 +5893,7 @@
       "cleaning",
       "products"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5902,18 +5902,18 @@
           "luktspray"
         ],
         "hints": {
-          "easy": "För friskare lukt i rummet",
-          "normal": "En dusch med citrusdoft",
-          "hard": "När gästerna snart kommer"
+          "easy": "lukt",
+          "normal": "doft",
+          "hard": "dimma"
         }
       },
       "en": {
         "word": "Air freshener spray",
         "aliases": [],
         "hints": {
-          "easy": "Makes stale indoor air smell fresher",
-          "normal": "A mist of citrus scent",
-          "hard": "Just before guests arrive"
+          "easy": "odor",
+          "normal": "fragrance",
+          "hard": "mist"
         }
       }
     }
@@ -5933,9 +5933,9 @@
         "word": "Hushållspapper",
         "aliases": [],
         "hints": {
-          "easy": "Rivs av för att suga upp spill",
-          "normal": "Rulle nära vasken",
-          "hard": "En våt fläck vid frukosten"
+          "easy": "spill",
+          "normal": "uppsugning",
+          "hard": "köksrulle"
         }
       },
       "en": {
@@ -5944,9 +5944,9 @@
           "kitchen roll"
         ],
         "hints": {
-          "easy": "Tear off a sheet to soak up a spill",
-          "normal": "A roll beside the sink",
-          "hard": "A wet patch at breakfast"
+          "easy": "spills",
+          "normal": "absorption",
+          "hard": "kitchen"
         }
       }
     }
@@ -5968,9 +5968,9 @@
           "toarulle"
         ],
         "hints": {
-          "easy": "Mjuk rulle bredvid sitsen",
-          "normal": "Rutorna rivs längs perforeringen",
-          "hard": "En tom hylsa i hållaren"
+          "easy": "badrum",
+          "normal": "rulle",
+          "hard": "spolning"
         }
       },
       "en": {
@@ -5980,9 +5980,9 @@
           "bathroom tissue"
         ],
         "hints": {
-          "easy": "A soft roll beside the seat",
-          "normal": "Squares tear along perforations",
-          "hard": "An empty tube on the holder"
+          "easy": "bathroom",
+          "normal": "roll",
+          "hard": "flushing"
         }
       }
     }
@@ -6004,9 +6004,9 @@
           "näsduk i papper"
         ],
         "hints": {
-          "easy": "Engångsblad när näsan rinner",
-          "normal": "En ask som räcker länge vid sängen",
-          "hard": "Det prasslar under pollensäsongen"
+          "easy": "nysning",
+          "normal": "snuva",
+          "hard": "ficka"
         }
       },
       "en": {
@@ -6015,9 +6015,9 @@
           "facial tissue"
         ],
         "hints": {
-          "easy": "A disposable sheet for a runny nose",
-          "normal": "A box kept beside the bed",
-          "hard": "Rustles through pollen season"
+          "easy": "sneeze",
+          "normal": "runny",
+          "hard": "pocket"
         }
       }
     }
@@ -6030,16 +6030,16 @@
       "hygiene",
       "paper"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Våtservett",
         "aliases": [],
         "hints": {
-          "easy": "Fuktigt engångsblad för kladdiga händer",
-          "normal": "Locket håller innehållet fuktigt",
-          "hard": "Efter glass på bussen"
+          "easy": "fuktig",
+          "normal": "kladd",
+          "hard": "förpackning"
         }
       },
       "en": {
@@ -6048,9 +6048,9 @@
           "moist towelette"
         ],
         "hints": {
-          "easy": "Damp disposable sheet for sticky hands",
-          "normal": "The lid keeps the contents moist",
-          "hard": "After ice cream on the bus"
+          "easy": "damp",
+          "normal": "mess",
+          "hard": "packet"
         }
       }
     }
@@ -6070,18 +6070,18 @@
         "word": "Badhandduk",
         "aliases": [],
         "hints": {
-          "easy": "Stort frottéstycke efter duschen",
-          "normal": "Hängs upp för att torka efter bad",
-          "hard": "Vattenpärlor från axlarna"
+          "easy": "frotté",
+          "normal": "torka",
+          "hard": "dusch"
         }
       },
       "en": {
         "word": "Bath towel",
         "aliases": [],
         "hints": {
-          "easy": "Large terry cloth for drying after a shower",
-          "normal": "Hangs up still damp after a bath",
-          "hard": "Drops of water on your shoulders"
+          "easy": "terry",
+          "normal": "drying",
+          "hard": "shower"
         }
       }
     }
@@ -6094,16 +6094,16 @@
       "bathroom",
       "accessories"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Tvättlapp",
         "aliases": [],
         "hints": {
-          "easy": "Liten tygbit för att tvätta kroppen",
-          "normal": "Vrids ur över handfatet",
-          "hard": "Mjuk frotté kring två fingrar"
+          "easy": "tvättning",
+          "normal": "fukt",
+          "hard": "ansikte"
         }
       },
       "en": {
@@ -6113,9 +6113,9 @@
           "flannel"
         ],
         "hints": {
-          "easy": "Small piece of cloth for washing yourself",
-          "normal": "Wrung out over the basin",
-          "hard": "Soft terry cloth around two fingers"
+          "easy": "washing",
+          "normal": "damp",
+          "hard": "face"
         }
       }
     }
@@ -6128,7 +6128,7 @@
       "bathroom",
       "accessories"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -6137,18 +6137,18 @@
           "badmatta"
         ],
         "hints": {
-          "easy": "Ligger där du kliver ur duschen",
-          "normal": "Tar de första blöta fotavtrycken",
-          "hard": "Varma fötter över kallt kakel"
+          "easy": "golv",
+          "normal": "halkskydd",
+          "hard": "fötter"
         }
       },
       "en": {
         "word": "Bath mat",
         "aliases": [],
         "hints": {
-          "easy": "Lies where you step out of the shower",
-          "normal": "Catches the first wet footprints",
-          "hard": "Warm feet over cold tile"
+          "easy": "floor",
+          "normal": "grip",
+          "hard": "feet"
         }
       }
     }
@@ -6168,18 +6168,18 @@
         "word": "Duschdraperi",
         "aliases": [],
         "hints": {
-          "easy": "Hindrar vattnet från att stänka ut",
-          "normal": "Ringar på en stång vid karet",
-          "hard": "Våt nederkant med veck"
+          "easy": "stänk",
+          "normal": "ringar",
+          "hard": "opak"
         }
       },
       "en": {
         "word": "Shower curtain",
         "aliases": [],
         "hints": {
-          "easy": "Stops water spraying outside the bath",
-          "normal": "Rings on a rail by the tub",
-          "hard": "A damp, pleated bottom edge"
+          "easy": "splashes",
+          "normal": "rings",
+          "hard": "opaque"
         }
       }
     }
@@ -6192,7 +6192,7 @@
       "bathroom",
       "accessories"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -6201,18 +6201,18 @@
           "tvåldispenser"
         ],
         "hints": {
-          "easy": "Doserar flytande handrengöring",
-          "normal": "Tryck med handflatan vid kranen",
-          "hard": "Ett kort dropp från pipen"
+          "easy": "flytande",
+          "normal": "tryck",
+          "hard": "dosering"
         }
       },
       "en": {
         "word": "Soap dispenser",
         "aliases": [],
         "hints": {
-          "easy": "Dispenses liquid for washing your hands",
-          "normal": "Press down with your palm by the tap",
-          "hard": "A quick drip from the spout"
+          "easy": "liquid",
+          "normal": "press",
+          "hard": "dosage"
         }
       }
     }
@@ -6225,7 +6225,7 @@
       "bathroom",
       "accessories"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -6234,18 +6234,18 @@
           "tvålfat"
         ],
         "hints": {
-          "easy": "Håller den fasta kakan vid vasken",
-          "normal": "Räfflor som låter vattnet rinna undan",
-          "hard": "En hal oval på porslin"
+          "easy": "avrinning",
+          "normal": "handfat",
+          "hard": "tvålrester"
         }
       },
       "en": {
         "word": "Soap dish",
         "aliases": [],
         "hints": {
-          "easy": "Holds a solid bar by the basin",
-          "normal": "Raised ridges let water drain away",
-          "hard": "A slippery oval on porcelain"
+          "easy": "drainage",
+          "normal": "sink",
+          "hard": "residue"
         }
       }
     }
@@ -6267,9 +6267,9 @@
           "tvålkaka"
         ],
         "hints": {
-          "easy": "Blöts och gnuggas mot händerna",
-          "normal": "Fast kaka med rundade kanter",
-          "hard": "Ett halt grepp under kranen"
+          "easy": "lödder",
+          "normal": "handtvätt",
+          "hard": "form"
         }
       },
       "en": {
@@ -6278,9 +6278,9 @@
           "soap bar"
         ],
         "hints": {
-          "easy": "Wetted and rubbed between your hands",
-          "normal": "A solid cake with rounded edges",
-          "hard": "A slippery grip under the tap"
+          "easy": "lather",
+          "normal": "handwashing",
+          "hard": "molded"
         }
       }
     }
@@ -6302,9 +6302,9 @@
           "duschgel"
         ],
         "hints": {
-          "easy": "Flytande rengöring för kroppen",
-          "normal": "Löddrar på våt hud",
-          "hard": "En doft av citrus efter badet"
+          "easy": "lödder",
+          "normal": "flaska",
+          "hard": "kropp"
         }
       },
       "en": {
@@ -6313,9 +6313,9 @@
           "shower gel"
         ],
         "hints": {
-          "easy": "Liquid cleanser for your skin",
-          "normal": "Lathers over wet skin",
-          "hard": "A citrus scent after bathing"
+          "easy": "lather",
+          "normal": "bottle",
+          "hard": "skin"
         }
       }
     }
@@ -6335,18 +6335,18 @@
         "word": "Schampo",
         "aliases": [],
         "hints": {
-          "easy": "Tvättar bort fett ur håret",
-          "normal": "Masseras in i hårbotten",
-          "hard": "Lödder ovanför öronen"
+          "easy": "hår",
+          "normal": "lödder",
+          "hard": "hårbotten"
         }
       },
       "en": {
         "word": "Shampoo",
         "aliases": [],
         "hints": {
-          "easy": "Washes oil out of your hair",
-          "normal": "Massaged into the scalp",
-          "hard": "Lather above the ears"
+          "easy": "hair",
+          "normal": "lather",
+          "hard": "scalp"
         }
       }
     }
@@ -6368,9 +6368,9 @@
           "hårbalsam"
         ],
         "hints": {
-          "easy": "Gör vått hår lättare att reda ut",
-          "normal": "Brukar fördelas i längder och toppar",
-          "hard": "Färre tovor i kammen"
+          "easy": "tovigt",
+          "normal": "mjukhet",
+          "hard": "sköljning"
         }
       },
       "en": {
@@ -6379,9 +6379,9 @@
           "hair conditioner"
         ],
         "hints": {
-          "easy": "Makes wet hair easier to untangle",
-          "normal": "Often applied to the lengths and ends",
-          "hard": "Fewer snags in the comb"
+          "easy": "tangles",
+          "normal": "softness",
+          "hard": "rinsing"
         }
       }
     }
@@ -6401,18 +6401,18 @@
         "word": "Tandkräm",
         "aliases": [],
         "hints": {
-          "easy": "Mint från en tub för munnen",
-          "normal": "En liten klick på stråna",
-          "hard": "Sista klämmen före läggdags"
+          "easy": "fluor",
+          "normal": "mint",
+          "hard": "klinik"
         }
       },
       "en": {
         "word": "Toothpaste",
         "aliases": [],
         "hints": {
-          "easy": "Minty stuff from a tube for your mouth",
-          "normal": "A small dab on the bristles",
-          "hard": "One last squeeze before bedtime"
+          "easy": "fluoride",
+          "normal": "mint",
+          "hard": "tube"
         }
       }
     }
@@ -6432,18 +6432,18 @@
         "word": "Tandborste",
         "aliases": [],
         "hints": {
-          "easy": "Rengör tänderna med små strån",
-          "normal": "Står ofta upprätt i en mugg",
-          "hard": "Två minuter framför spegeln"
+          "easy": "borst",
+          "normal": "mun",
+          "hard": "handtag"
         }
       },
       "en": {
         "word": "Toothbrush",
         "aliases": [],
         "hints": {
-          "easy": "Cleans teeth with a head of bristles",
-          "normal": "Often stands upright in a cup",
-          "hard": "Two minutes in front of the mirror"
+          "easy": "bristles",
+          "normal": "mouth",
+          "hard": "handle"
         }
       }
     }
@@ -6463,18 +6463,18 @@
         "word": "Tandtråd",
         "aliases": [],
         "hints": {
-          "easy": "Tunn tråd för mellan tänderna",
-          "normal": "Dras av vid en liten skärkant",
-          "hard": "När mat fastnat efter middagen"
+          "easy": "tråd",
+          "normal": "tandkött",
+          "hard": "mellanrum"
         }
       },
       "en": {
         "word": "Dental floss",
         "aliases": [],
         "hints": {
-          "easy": "Thin thread for the spaces between teeth",
-          "normal": "Cut against an edge on a little case",
-          "hard": "When dinner gets stuck"
+          "easy": "thread",
+          "normal": "gums",
+          "hard": "gaps"
         }
       }
     }
@@ -6487,7 +6487,7 @@
       "hygiene",
       "oral-care"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -6496,9 +6496,9 @@
           "munsköljmedel"
         ],
         "hints": {
-          "easy": "Flytande komplement till tandborstning",
-          "normal": "Mint som spottas ut",
-          "hard": "En liten dos från korken"
+          "easy": "gurgla",
+          "normal": "flaska",
+          "hard": "andedräkt"
         }
       },
       "en": {
@@ -6507,9 +6507,9 @@
           "mouth rinse"
         ],
         "hints": {
-          "easy": "A liquid you swish after brushing",
-          "normal": "Mint that you spit out",
-          "hard": "A small dose from the cap"
+          "easy": "gargle",
+          "normal": "bottle",
+          "hard": "breath"
         }
       }
     }
@@ -6529,18 +6529,18 @@
         "word": "Mellanrumsborste",
         "aliases": [],
         "hints": {
-          "easy": "Rengör glipor mellan tänderna",
-          "normal": "Mycket litet huvud på smal tråd",
-          "hard": "Köps i flera färgkodade storlekar"
+          "easy": "tandglipa",
+          "normal": "tandkött",
+          "hard": "cylinder"
         }
       },
       "en": {
         "word": "Interdental brush",
         "aliases": [],
         "hints": {
-          "easy": "Cleans gaps between the teeth",
-          "normal": "A tiny head on a slim wire",
-          "hard": "Sold in colour-coded sizes"
+          "easy": "gap",
+          "normal": "gums",
+          "hard": "cylinder"
         }
       }
     }
@@ -6562,9 +6562,9 @@
           "tops"
         ],
         "hints": {
-          "easy": "Liten pinne med mjuk topp",
-          "normal": "Rättar till utsmetad makeup",
-          "hard": "En sned vinge vid ögonvrån"
+          "easy": "bomull",
+          "normal": "topp",
+          "hard": "kosmetik"
         }
       },
       "en": {
@@ -6573,9 +6573,9 @@
           "cotton bud"
         ],
         "hints": {
-          "easy": "Small stick with a soft tip",
-          "normal": "Tidies smudged makeup",
-          "hard": "A wonky eyeliner wing"
+          "easy": "cotton",
+          "normal": "tip",
+          "hard": "cosmetics"
         }
       }
     }

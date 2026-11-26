@@ -4,6 +4,10 @@
 
 Använd UTF-8 och stabila, småbokstaviga ASCII-ID:n med bindestreck eller understreck mellan delarna. Underkategori-ID:n ska vara globalt unika. Använd `<kategori>-<namn>` för grundinnehållets ord-ID:n. Ordets kategori och underkategori måste finnas i metadatan, och båda ord-ID:n i ett par måste finnas i samma innehållskälla. Par får gå över kategorigränser.
 
+I grundpaketen består varje ledtråd av ett ord. En lätt ledtråd ger en tydlig association, medan en svår ledtråd har en mer indirekt koppling till svaret.
+
+**Välkända** är ord som en blandad grupp kan känna igen utan specialkunskap. **Mellannivå** rymmer ämnesspecifika ord som är vanliga inom kategorin. **Expert** är till för ovanliga begrepp och detaljer som kräver fördjupad ämneskunskap. Minecraft och Clash Royale börjar på Mellannivå eftersom innehållet bygger på spelkunskap.
+
 ## Python och HTTP
 
 `ContentCatalog.load(data_dir)` läser, validerar och laddar innehållet. `catalog.categories` innehåller kategoriobjekten. `catalog.version` identifierar innehållet och ändras vid ändringar i metadatan, orden eller paren. `catalog.pack(category_id)` returnerar `{version, category, words, pairs}` med kategoriobjektet och alla giltiga par där minst ett ord hör till kategorin. Ett okänt ID ger `KeyError`. `/api/content/manifest` returnerar `{version, categories}` och `/api/content/packs/<category>.json` levererar `catalog.pack(category)`.
@@ -12,7 +16,7 @@ Använd UTF-8 och stabila, småbokstaviga ASCII-ID:n med bindestreck eller under
 
 ## JavaScript
 
-Importera från `/static/js/content.mjs`. Följande funktioner hämtar från samma offentliga källor som offlinecachen kan leverera.
+Importera från `/static/js/content.mjs`. Funktionerna som hämtar innehåll använder de offentliga API-rutterna ovan.
 
 - `loadManifest({fetch} = {})` hämtar `{version, categories}`.
 - `loadPack(categoryId, {fetch, version} = {})` hämtar ett paket. Om `version` anges måste paketets version stämma.

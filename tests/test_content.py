@@ -1,4 +1,4 @@
-"""Content contracts shared by Flask and the offline browser."""
+"""Content contracts shared by Flask and the browser."""
 
 from copy import deepcopy
 import json

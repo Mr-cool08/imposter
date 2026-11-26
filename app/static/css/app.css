@@ -183,8 +183,6 @@ body:has(#local-view[data-local-phase]:not([data-local-phase="setup"]), #word-to
   box-shadow: var(--shadow);
 }
 
-.offline-settings { border-top: 1px solid var(--line); padding-top: .65rem; }
-.offline-settings > summary { min-height: 2.75rem; align-content: center; font-weight: 740; }
 .back-to-setup { justify-self: start; }
 
 .guide-view {

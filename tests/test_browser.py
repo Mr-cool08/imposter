@@ -4,8 +4,9 @@ import json
 import os
 import re
 from collections import Counter
+from contextlib import contextmanager
 from pathlib import Path
-from threading import Thread
+from threading import Event, Thread
 from urllib.parse import urlsplit
 
 import pytest
@@ -17,23 +18,11 @@ else:
     playwright_api = pytest.importorskip("playwright.sync_api")
 
 
-@pytest.fixture(scope="module")
-def app_url():
-    external_url = os.getenv("IMPOSTER_TEST_URL")
-    if external_url:
-        yield external_url.rstrip("/")
-        return
-
+@contextmanager
+def serve_app(app):
     from werkzeug.serving import make_server
 
-    from app import create_app
-
-    server = make_server(
-        "127.0.0.1",
-        0,
-        create_app({"APP_NAME": "Imposter Party", "TRUSTED_HOSTS": None}),
-        threaded=True,
-    )
+    server = make_server("127.0.0.1", 0, app, threaded=True)
     worker = Thread(target=server.serve_forever, daemon=True)
     worker.start()
     try:
@@ -42,6 +31,20 @@ def app_url():
         server.shutdown()
         server.server_close()
         worker.join(timeout=5)
+
+
+@pytest.fixture(scope="module")
+def app_url():
+    external_url = os.getenv("IMPOSTER_TEST_URL")
+    if external_url:
+        yield external_url.rstrip("/")
+        return
+
+    from app import create_app
+
+    app = create_app({"APP_NAME": "Imposter Party", "TRUSTED_HOSTS": None})
+    with serve_app(app) as url:
+        yield url
 
 
 @pytest.fixture(scope="module")
@@ -101,17 +104,11 @@ def test_start_page_and_public_apis(app_url, chromium, device):
         assert page.request.get(f"{app_url}/healthz").ok
         catalog = page.request.get(f"{app_url}/api/content/manifest").json()
         assert {entry["id"] for entry in catalog["categories"]} >= {"minecraft", "clash-royale"}
-        manifest_url = page.locator('link[rel="manifest"]').get_attribute("href")
-        assert manifest_url
-        install_manifest = page.request.get(manifest_url).json()
-        assert install_manifest["start_url"] == "/"
-        assert install_manifest["display"] == "standalone"
-        assert install_manifest["icons"]
-        for icon in install_manifest["icons"]:
-            assert page.request.get(icon["src"]).ok
+        playwright_api.expect(page.locator('link[rel="manifest"]')).to_have_count(0)
         expect_no_horizontal_scroll(page)
 
         page.locator("#preferences-menu > summary").click()
+        playwright_api.expect(page.get_by_text("Spela utan nätverk", exact=True)).to_have_count(0)
         page.locator("#app-language").select_option("en")
         playwright_api.expect(page.locator("html")).to_have_attribute("lang", "en")
         english = page.request.get("/api/i18n/en.json").json()
@@ -130,6 +127,7 @@ def test_start_page_and_public_apis(app_url, chromium, device):
         origin = urlsplit(app_url).netloc
         assert all(urlsplit(url).netloc == origin for url in requests if url.startswith(("http:", "https:")))
         assert not any("socket.io" in url or "/js/online.mjs" in url for url in requests)
+        assert page.evaluate("async () => (await navigator.serviceWorker?.getRegistrations())?.length ?? 0") == 0
         assert not errors
     finally:
         context.close()
@@ -200,35 +198,65 @@ def test_rules_page_direct_entry_navigation_and_localization(app_url, chromium):
         context.close()
 
 
-def download_offline_from_menu(page, category):
-    page.locator("#preferences-menu > summary").click()
-    page.locator("#offline-menu summary").click()
-    offline_menu = page.locator("#offline-tools")
-    offline_menu.get_by_role("button", name="Ladda ner för offline").click(timeout=15000)
-    playwright_api.expect(offline_menu.get_by_role("status")).to_have_text(
-        "De valda ordpaketen är klara för lokalspel offline.", timeout=45000
-    )
-    page.wait_for_function("navigator.serviceWorker.controller !== null")
-    cached_paths = page.evaluate("""async () => {
-        const paths = [];
-        for (const name of await caches.keys()) {
-            const cache = await caches.open(name);
-            for (const request of await cache.keys()) paths.push(new URL(request.url).pathname);
-        }
-        return paths;
-    }""")
-    assert "/api/content/rules" in cached_paths
-    cached_packs = {path for path in cached_paths if path.startswith("/api/content/packs/")}
-    assert cached_packs == {f"/api/content/packs/{category}.json"}
-    assert not any(path.startswith(("/socket.io", "/api/qr/")) for path in cached_paths)
-
-
 def add_players(page, names):
     name_input = page.get_by_test_id("local-player-name")
     for name in names:
         name_input.fill(name)
         page.get_by_test_id("local-add-player").click()
     playwright_api.expect(page.get_by_test_id("local-start")).to_be_enabled(timeout=15000)
+
+
+def test_existing_service_worker_releases_the_website(chromium):
+    from flask import Response, request
+
+    from app import create_app
+
+    app = create_app({"APP_NAME": "Imposter Party", "TRUSTED_HOSTS": None})
+    publish_update = Event()
+
+    @app.before_request
+    def serve_legacy_worker():
+        if request.path == "/sw.js" and not publish_update.is_set():
+            return Response("""
+                self.addEventListener("activate", event => event.waitUntil(self.clients.claim()));
+                self.addEventListener("fetch", event => {
+                    if (new URL(event.request.url).pathname === "/") {
+                        event.respondWith(caches.match("/"));
+                    }
+                });
+            """, mimetype="text/javascript", headers={"Cache-Control": "no-cache"})
+
+    browser, _ = chromium
+    with serve_app(app) as url, browser.new_context(base_url=url) as context:
+        page = context.new_page()
+        page.goto(url)
+        add_players(page, ["Ellie", "Samir", "Lo"])
+        page.evaluate("""async () => {
+            const shell = await caches.open("imposter-shell-test");
+            await shell.put("/", new Response("Cached legacy page"));
+            await caches.open("imposter-content-test");
+            await caches.open("unrelated-cache");
+            await navigator.serviceWorker.register("/sw.js");
+        }""")
+        page.wait_for_function("navigator.serviceWorker.controller !== null")
+        assert page.evaluate("async () => (await fetch('/')).text()") == "Cached legacy page"
+
+        publish_update.set()
+        page.evaluate("""async () => {
+            const registration = await navigator.serviceWorker.getRegistration();
+            registration.addEventListener("updatefound", () => {
+                window.updatedWorker = registration.installing;
+            }, { once: true });
+            await registration.update();
+        }""")
+        page.wait_for_function("window.updatedWorker?.state === 'activated'")
+        assert page.evaluate("async () => !(await navigator.serviceWorker.getRegistration())")
+        assert page.evaluate("caches.keys()") == ["unrelated-cache"]
+
+        response = page.reload()
+        assert response is not None and response.ok and not response.from_service_worker
+        playwright_api.expect(page.get_by_test_id("local-player-name")).to_be_visible()
+        playwright_api.expect(page.get_by_text("Ellie", exact=True)).to_be_visible()
 
 
 def read_private_cards(page, names, *, check_privacy=False):
@@ -280,7 +308,7 @@ def read_private_cards(page, names, *, check_privacy=False):
     return cards, reveal
 
 
-def test_mobile_local_game_after_disabling_network(app_url, chromium):
+def test_mobile_local_game_after_reload(app_url, chromium):
     browser, mobile = chromium
     context = browser.new_context(base_url=app_url, **mobile)
     page = context.new_page()
@@ -295,10 +323,6 @@ def test_mobile_local_game_after_disabling_network(app_url, chromium):
         food = page.locator('[data-category="food"] .category-card__select input')
         food.check()
         expect(start).to_be_enabled(timeout=15000)
-        download_offline_from_menu(page, "food")
-
-        context.set_offline(True)
-        page.wait_for_function("!navigator.onLine")
         page.goto(f"{app_url}/#regler")
         page.reload()
         guide = page.get_by_test_id("rules-guide")

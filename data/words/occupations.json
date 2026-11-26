@@ -6,16 +6,16 @@
     "tags": [
       "primary-care"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Distriktsläkare",
         "aliases": [],
         "hints": {
-          "easy": "Tar emot patienter med vanliga besvär på vårdcentralen",
-          "normal": "Kan skriva remiss till specialist",
-          "hard": "Ofta första kontakten med vården"
+          "easy": "Vårdcentral",
+          "normal": "Diagnos",
+          "hard": "Remiss"
         }
       },
       "en": {
@@ -26,9 +26,9 @@
           "Family doctor"
         ],
         "hints": {
-          "easy": "Se them first for everyday health problems",
-          "normal": "Can refer you to a specialist",
-          "hard": "A familiar face on repeat visits"
+          "easy": "Clinic",
+          "normal": "Diagnosis",
+          "hard": "Referral"
         }
       }
     }
@@ -47,18 +47,18 @@
         "word": "Sjuksköterska",
         "aliases": [],
         "hints": {
-          "easy": "Ger läkemedel och följer patienters tillstånd",
-          "normal": "Rond på avdelningen",
-          "hard": "Lämnar över anteckningar till nästa arbetspass"
+          "easy": "Omvårdnad",
+          "normal": "Sjukhus",
+          "hard": "Patient"
         }
       },
       "en": {
         "word": "Nurse",
         "aliases": [],
         "hints": {
-          "easy": "Administers medication and monitors patients",
-          "normal": "Works closely with the ward team",
-          "hard": "Bedside observations"
+          "easy": "Care",
+          "normal": "Hospital",
+          "hard": "Patient"
         }
       }
     }
@@ -77,18 +77,18 @@
         "word": "Tandläkare",
         "aliases": [],
         "hints": {
-          "easy": "Lagar hål och undersöker bettet",
-          "normal": "Stolen lutas bakåt",
-          "hard": "En liten rund spegel"
+          "easy": "Tänder",
+          "normal": "Borr",
+          "hard": "Karies"
         }
       },
       "en": {
         "word": "Dentist",
         "aliases": [],
         "hints": {
-          "easy": "Fills cavities and checks your bite",
-          "normal": "You recline under a bright lamp",
-          "hard": "A little mirror on a handle"
+          "easy": "Teeth",
+          "normal": "Drill",
+          "hard": "Cavities"
         }
       }
     }
@@ -107,18 +107,18 @@
         "word": "Tandhygienist",
         "aliases": [],
         "hints": {
-          "easy": "Tar bort tandsten vid tandköttet",
-          "normal": "Visar hur mellanrumsborsten används",
-          "hard": "Blödning vid kontrollen"
+          "easy": "Tandsten",
+          "normal": "Putsning",
+          "hard": "Tandkött"
         }
       },
       "en": {
         "word": "Dental hygienist",
         "aliases": [],
         "hints": {
-          "easy": "Removes hardened plaque from teeth",
-          "normal": "Shows how to clean between teeth",
-          "hard": "Looks for bleeding gums"
+          "easy": "Tartar",
+          "normal": "Polishing",
+          "hard": "Gums"
         }
       }
     }
@@ -130,25 +130,25 @@
     "tags": [
       "patient-care"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Barnmorska",
         "aliases": [],
         "hints": {
-          "easy": "Stöttar den som föder",
-          "normal": "Lyssnar efter fostrets hjärtslag",
-          "hard": "Ett första skrik"
+          "easy": "Förlossning",
+          "normal": "Graviditet",
+          "hard": "Värkar"
         }
       },
       "en": {
         "word": "Midwife",
         "aliases": [],
         "hints": {
-          "easy": "Supports people through childbirth",
-          "normal": "Listens for the fetal heartbeat",
-          "hard": "A first cry in the room"
+          "easy": "Childbirth",
+          "normal": "Pregnancy",
+          "hard": "Contractions"
         }
       }
     }
@@ -160,25 +160,25 @@
     "tags": [
       "medicines"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Apotekare",
         "aliases": [],
         "hints": {
-          "easy": "Kontrollerar recept innan läkemedel lämnas ut",
-          "normal": "Kan förklara hur dosen ska tas",
-          "hard": "Frågar om andra mediciner"
+          "easy": "Medicin",
+          "normal": "Recept",
+          "hard": "Interaktion"
         }
       },
       "en": {
         "word": "Pharmacist",
         "aliases": [],
         "hints": {
-          "easy": "Checks prescriptions before dispensing medicine",
-          "normal": "Can explain the directions on the label",
-          "hard": "May ask what else you take"
+          "easy": "Medicine",
+          "normal": "Prescriptions",
+          "hard": "Interactions"
         }
       }
     }
@@ -190,25 +190,25 @@
     "tags": [
       "optics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Optiker",
         "aliases": [],
         "hints": {
-          "easy": "Hjälper dig att få glasögon som sitter rätt",
-          "normal": "Bågen justeras vid öronen",
-          "hard": "Pupillerna behöver hamna rätt mot glasen"
+          "easy": "Glasögon",
+          "normal": "Syn",
+          "hard": "Bågar"
         }
       },
       "en": {
         "word": "Optician",
         "aliases": [],
         "hints": {
-          "easy": "Fits glasses using your prescription",
-          "normal": "Adjusts the arms behind your ears",
-          "hard": "Checks where the pupils line up"
+          "easy": "Glasses",
+          "normal": "Vision",
+          "hard": "Frames"
         }
       }
     }
@@ -220,7 +220,7 @@
     "tags": [
       "rehabilitation"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -229,9 +229,9 @@
           "Sjukgymnast"
         ],
         "hints": {
-          "easy": "Hjälper patienter att återfå rörlighet",
-          "normal": "Ett träningsprogram för knät",
-          "hard": "Ett gummiband för motstånd"
+          "easy": "Rehab",
+          "normal": "Rörelse",
+          "hard": "Övningar"
         }
       },
       "en": {
@@ -241,9 +241,9 @@
           "Physio"
         ],
         "hints": {
-          "easy": "Helps patients regain movement and strength",
-          "normal": "Gives you exercises for an injured knee",
-          "hard": "A resistance band in the clinic"
+          "easy": "Rehab",
+          "normal": "Movement",
+          "hard": "Exercises"
         }
       }
     }
@@ -262,9 +262,9 @@
         "word": "Logoped",
         "aliases": [],
         "hints": {
-          "easy": "Utreder svårigheter med tal och språk",
-          "normal": "Övar på att forma språkljud",
-          "hard": "Kan arbeta med sväljning"
+          "easy": "Uttal",
+          "normal": "Tal",
+          "hard": "Sväljning"
         }
       },
       "en": {
@@ -274,9 +274,9 @@
           "Speech and language therapist"
         ],
         "hints": {
-          "easy": "Assesses difficulties with speaking or language",
-          "normal": "Practises how to form sounds",
-          "hard": "Swallowing can be part of the job"
+          "easy": "Pronunciation",
+          "normal": "Speech",
+          "hard": "Swallowing"
         }
       }
     }
@@ -295,18 +295,18 @@
         "word": "Psykolog",
         "aliases": [],
         "hints": {
-          "easy": "Arbetar med psykisk hälsa och beteende",
-          "normal": "Utreder med samtal och tester",
-          "hard": "Letar efter återkommande tankemönster"
+          "easy": "Samtal",
+          "normal": "Beteende",
+          "hard": "Utredning"
         }
       },
       "en": {
         "word": "Psychologist",
         "aliases": [],
         "hints": {
-          "easy": "Works with mental health and behaviour",
-          "normal": "Interviews and psychological tests",
-          "hard": "Recurring patterns of thought"
+          "easy": "Talking",
+          "normal": "Behavior",
+          "hard": "Assessment"
         }
       }
     }
@@ -325,9 +325,9 @@
         "word": "Veterinär",
         "aliases": [],
         "hints": {
-          "easy": "Undersöker och behandlar sjuka djur",
-          "normal": "Valpens vaccination",
-          "hard": "Patienten kan jama"
+          "easy": "Djur",
+          "normal": "Djurklinik",
+          "hard": "Vaccin"
         }
       },
       "en": {
@@ -336,9 +336,9 @@
           "Vet"
         ],
         "hints": {
-          "easy": "Treats sick or injured animals",
-          "normal": "A vaccination for a puppy",
-          "hard": "One patient might meow"
+          "easy": "Animals",
+          "normal": "Clinic",
+          "hard": "Vaccine"
         }
       }
     }
@@ -357,18 +357,18 @@
         "word": "Arbetsterapeut",
         "aliases": [],
         "hints": {
-          "easy": "Gör dagliga aktiviteter lättare efter skada eller sjukdom",
-          "normal": "Övar på att klä på sig själv",
-          "hard": "Ett tjockare grepp på besticken"
+          "easy": "Hjälpmedel",
+          "normal": "Vardag",
+          "hard": "Anpassning"
         }
       },
       "en": {
         "word": "Occupational therapist",
         "aliases": [],
         "hints": {
-          "easy": "Helps people manage daily tasks after injury or illness",
-          "normal": "Practises getting dressed independently",
-          "hard": "Chunkier handles on cutlery"
+          "easy": "Aids",
+          "normal": "Routines",
+          "hard": "Adaptation"
         }
       }
     }
@@ -387,9 +387,9 @@
         "word": "Dietist",
         "aliases": [],
         "hints": {
-          "easy": "Ger individanpassade kostråd vid sjukdom",
-          "normal": "Kan planera näring vid en födoämnesallergi",
-          "hard": "Räknar på vad portionsstorleken ger"
+          "easy": "Kost",
+          "normal": "Måltider",
+          "hard": "Näring"
         }
       },
       "en": {
@@ -398,9 +398,9 @@
           "Dietician"
         ],
         "hints": {
-          "easy": "Advises patients on nutrition for their health needs",
-          "normal": "Helps plan meals around a food allergy",
-          "hard": "Looks at what each portion provides"
+          "easy": "Nutrition",
+          "normal": "Meals",
+          "hard": "Nutrients"
         }
       }
     }
@@ -419,9 +419,9 @@
         "word": "Röntgensjuksköterska",
         "aliases": [],
         "hints": {
-          "easy": "Tar diagnostiska bilder av kroppens insida",
-          "normal": "Placerar patienten rätt inför bilden",
-          "hard": "Ber dig ligga alldeles stilla"
+          "easy": "Röntgen",
+          "normal": "Strålning",
+          "hard": "Positionering"
         }
       },
       "en": {
@@ -431,9 +431,9 @@
           "Radiologic technologist"
         ],
         "hints": {
-          "easy": "Takes medical images of the inside of the body",
-          "normal": "Positions the patient for a scan",
-          "hard": "Asks you to keep completely still"
+          "easy": "Imaging",
+          "normal": "Radiation",
+          "hard": "Positioning"
         }
       }
     }
@@ -452,9 +452,9 @@
         "word": "Biomedicinsk analytiker",
         "aliases": [],
         "hints": {
-          "easy": "Analyserar patientprover i laboratoriet",
-          "normal": "Ett blodrör har en streckkod",
-          "hard": "Kontrollprovet körs före mätningen"
+          "easy": "Laboratorium",
+          "normal": "Blodprov",
+          "hard": "Mikroskop"
         }
       },
       "en": {
@@ -464,9 +464,9 @@
           "Medical laboratory scientist"
         ],
         "hints": {
-          "easy": "Tests patient samples in a lab",
-          "normal": "A barcode on a blood tube",
-          "hard": "Runs a control sample before testing"
+          "easy": "Laboratory",
+          "normal": "Samples",
+          "hard": "Microscope"
         }
       }
     }
@@ -478,25 +478,25 @@
     "tags": [
       "patient-care"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Kirurg",
         "aliases": [],
         "hints": {
-          "easy": "Opererar patienter",
-          "normal": "Arbetar innanför det sterila fältet",
-          "hard": "Övar på att sy ihop vävnad"
+          "easy": "Operation",
+          "normal": "Skalpell",
+          "hard": "Stygn"
         }
       },
       "en": {
         "word": "Surgeon",
         "aliases": [],
         "hints": {
-          "easy": "Performs operations on patients",
-          "normal": "Works inside a sterile field",
-          "hard": "Practises closing tissue with stitches"
+          "easy": "Operation",
+          "normal": "Scalpel",
+          "hard": "Stitches"
         }
       }
     }
@@ -515,18 +515,18 @@
         "word": "Audionom",
         "aliases": [],
         "hints": {
-          "easy": "Undersöker hörseln och provar ut hörapparater",
-          "normal": "Patienten svarar på olika toner",
-          "hard": "En ljudisolerad provhytt"
+          "easy": "Hörsel",
+          "normal": "Hörapparat",
+          "hard": "Audiogram"
         }
       },
       "en": {
         "word": "Audiologist",
         "aliases": [],
         "hints": {
-          "easy": "Tests hearing and fits hearing aids",
-          "normal": "The patient responds to a series of tones",
-          "hard": "A soundproof test booth"
+          "easy": "Hearing",
+          "normal": "Aids",
+          "hard": "Audiogram"
         }
       }
     }
@@ -538,7 +538,7 @@
     "tags": [
       "patient-care"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -547,9 +547,9 @@
           "Anestesiolog"
         ],
         "hints": {
-          "easy": "Ansvarar för sövning under operationer",
-          "normal": "Anpassar mediciner medan patienten opereras",
-          "hard": "Följer syresättningen under ingreppet"
+          "easy": "Nedsövning",
+          "normal": "Operation",
+          "hard": "Narkos"
         }
       },
       "en": {
@@ -558,9 +558,9 @@
           "Anaesthesiologist"
         ],
         "hints": {
-          "easy": "Manages anaesthesia during surgery",
-          "normal": "Adjusts medication during the procedure",
-          "hard": "Watches oxygen levels throughout the operation"
+          "easy": "Sedation",
+          "normal": "Operation",
+          "hard": "Anesthesia"
         }
       }
     }
@@ -579,18 +579,18 @@
         "word": "Förskollärare",
         "aliases": [],
         "hints": {
-          "easy": "Planerar lärande genom lek för små barn",
-          "normal": "Samling på mattan",
-          "hard": "Att turas om är något gruppen tränar"
+          "easy": "Barn",
+          "normal": "Förskola",
+          "hard": "Lek"
         }
       },
       "en": {
         "word": "Preschool teacher",
         "aliases": [],
         "hints": {
-          "easy": "Plans learning through play for young children",
-          "normal": "Circle time on the rug",
-          "hard": "Practising how to take turns"
+          "easy": "Children",
+          "normal": "Preschool",
+          "hard": "Play"
         }
       }
     }
@@ -609,9 +609,9 @@
         "word": "Lågstadielärare",
         "aliases": [],
         "hints": {
-          "easy": "Lär yngre elever att läsa och räkna",
-          "normal": "Rättar arbeten efter lektionen",
-          "hard": "Handen upp innan du svarar"
+          "easy": "Skolklass",
+          "normal": "Läsning",
+          "hard": "Lektionsplanering"
         }
       },
       "en": {
@@ -620,9 +620,9 @@
           "Elementary school teacher"
         ],
         "hints": {
-          "easy": "Teaches young pupils reading and maths",
-          "normal": "Marks work after the lesson",
-          "hard": "Hands go up before anyone answers"
+          "easy": "Classroom",
+          "normal": "Reading",
+          "hard": "Planning"
         }
       }
     }
@@ -641,18 +641,18 @@
         "word": "Bibliotekarie",
         "aliases": [],
         "hints": {
-          "easy": "Hjälper besökare att hitta och låna böcker",
-          "normal": "Vet var reservationerna står",
-          "hard": "En kod på bokryggen"
+          "easy": "Bibliotek",
+          "normal": "Lån",
+          "hard": "Katalog"
         }
       },
       "en": {
         "word": "Librarian",
         "aliases": [],
         "hints": {
-          "easy": "Helps visitors find and borrow books",
-          "normal": "Keeps track of items on hold",
-          "hard": "A label on the spine"
+          "easy": "Library",
+          "normal": "Loans",
+          "hard": "Catalog"
         }
       }
     }
@@ -664,25 +664,25 @@
     "tags": [
       "collections"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Arkivarie",
         "aliases": [],
         "hints": {
-          "easy": "Bevarar och ordnar äldre handlingar",
-          "normal": "Hittar original bland förtecknade volymer",
-          "hard": "Syrafria omslag skyddar papper"
+          "easy": "Arkiv",
+          "normal": "Handlingar",
+          "hard": "Bevarande"
         }
       },
       "en": {
         "word": "Archivist",
         "aliases": [],
         "hints": {
-          "easy": "Organises records for long-term preservation",
-          "normal": "Finds originals within catalogued collections",
-          "hard": "Acid-free folders"
+          "easy": "Archive",
+          "normal": "Records",
+          "hard": "Preservation"
         }
       }
     }
@@ -702,9 +702,9 @@
         "word": "Skolkurator",
         "aliases": [],
         "hints": {
-          "easy": "Stöttar elever med sociala och känslomässiga problem",
-          "normal": "Samtal om konflikter på rasten",
-          "hard": "Har ett rum dit elever kan komma enskilt"
+          "easy": "Elevstöd",
+          "normal": "Samtal",
+          "hard": "Trygghet"
         }
       },
       "en": {
@@ -713,9 +713,9 @@
           "School counselor"
         ],
         "hints": {
-          "easy": "Supports pupils with personal or social concerns",
-          "normal": "Might talk through a playground conflict",
-          "hard": "A quiet room for a private chat"
+          "easy": "Support",
+          "normal": "Listening",
+          "hard": "Wellbeing"
         }
       }
     }
@@ -727,25 +727,25 @@
     "tags": [
       "social-services"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Socialsekreterare",
         "aliases": [],
         "hints": {
-          "easy": "Bedömer vilket samhällsstöd en person eller familj kan behöva",
-          "normal": "Ett möte om ekonomiskt bistånd",
-          "hard": "Flera myndigheter kan behöva samarbeta"
+          "easy": "Socialtjänst",
+          "normal": "Familjer",
+          "hard": "Utredning"
         }
       },
       "en": {
         "word": "Social worker",
         "aliases": [],
         "hints": {
-          "easy": "Assesses what support a person or family needs",
-          "normal": "May visit a family at home",
-          "hard": "Sometimes coordinates several services"
+          "easy": "Welfare",
+          "normal": "Families",
+          "hard": "Assessment"
         }
       }
     }
@@ -764,9 +764,9 @@
         "word": "Polis",
         "aliases": [],
         "hints": {
-          "easy": "Ingriper vid brott och olyckor",
-          "normal": "Spärrar av en plats efter ett larm",
-          "hard": "Ett vittnes första uppgifter"
+          "easy": "Uniform",
+          "normal": "Patrull",
+          "hard": "Gripande"
         }
       },
       "en": {
@@ -775,9 +775,9 @@
           "Police constable"
         ],
         "hints": {
-          "easy": "Responds to crimes and emergencies",
-          "normal": "May put a cordon around a scene",
-          "hard": "Takes an initial witness account"
+          "easy": "Uniform",
+          "normal": "Patrol",
+          "hard": "Arrest"
         }
       }
     }
@@ -796,9 +796,9 @@
         "word": "Brandman",
         "aliases": [],
         "hints": {
-          "easy": "Släcker eld och räddar människor vid olyckor",
-          "normal": "Skyddskläderna åker på när larmet går",
-          "hard": "Ska kunna arbeta där sikten är dålig"
+          "easy": "Brand",
+          "normal": "Slang",
+          "hard": "Räddning"
         }
       },
       "en": {
@@ -807,9 +807,9 @@
           "Fire fighter"
         ],
         "hints": {
-          "easy": "Puts out fires and rescues people in emergencies",
-          "normal": "Grabs protective gear when the alarm sounds",
-          "hard": "May work where visibility is poor"
+          "easy": "Fire",
+          "normal": "Hose",
+          "hard": "Rescue"
         }
       }
     }
@@ -821,25 +821,25 @@
     "tags": [
       "court"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Domare i domstol",
         "aliases": [],
         "hints": {
-          "easy": "Leder förhandlingar och avgör rättsfall",
-          "normal": "Hör båda sidor i rättssalen",
-          "hard": "Avgör om förhandlingen ska ta paus"
+          "easy": "Domslut",
+          "normal": "Rättegång",
+          "hard": "Opartiskhet"
         }
       },
       "en": {
         "word": "Judge",
         "aliases": [],
         "hints": {
-          "easy": "Presides over hearings and decides cases",
-          "normal": "Listens to both sides in court",
-          "hard": "Decides when the hearing takes a break"
+          "easy": "Ruling",
+          "normal": "Trial",
+          "hard": "Impartiality"
         }
       }
     }
@@ -851,16 +851,16 @@
     "tags": [
       "court"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Försvarsadvokat",
         "aliases": [],
         "hints": {
-          "easy": "Företräder den som åtalats för ett brott",
-          "normal": "Kan ifrågasätta ett vittnes uppgifter",
-          "hard": "Klienten får tala ostört före förhandlingen"
+          "easy": "Brottmål",
+          "normal": "Klient",
+          "hard": "Alibi"
         }
       },
       "en": {
@@ -870,9 +870,9 @@
           "Defense lawyer"
         ],
         "hints": {
-          "easy": "Represents a person accused of a crime",
-          "normal": "May challenge a witness's account",
-          "hard": "Meets with their client in private"
+          "easy": "Trial",
+          "normal": "Client",
+          "hard": "Alibi"
         }
       }
     }
@@ -884,25 +884,25 @@
     "tags": [
       "court"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Åklagare",
         "aliases": [],
         "hints": {
-          "easy": "Driver åtal och lägger fram bevis i domstol",
-          "normal": "Bedömer om en förundersökning räcker",
-          "hard": "För statens talan i ett brottmål"
+          "easy": "Åtal",
+          "normal": "Bevis",
+          "hard": "Förundersökning"
         }
       },
       "en": {
         "word": "Prosecutor",
         "aliases": [],
         "hints": {
-          "easy": "Brings criminal charges and presents evidence in court",
-          "normal": "Weighs whether the investigation supports charges",
-          "hard": "Presents the case on behalf of the state"
+          "easy": "Charges",
+          "normal": "Evidence",
+          "hard": "Investigation"
         }
       }
     }
@@ -922,18 +922,18 @@
         "word": "Domstolstolk",
         "aliases": [],
         "hints": {
-          "easy": "Återger det som sägs på ett annat språk under en förhandling",
-          "normal": "Översätter vittnesmål i rättssalen",
-          "hard": "Behåller talarens jag-form"
+          "easy": "Översättning",
+          "normal": "Rättegång",
+          "hard": "Vittnesmål"
         }
       },
       "en": {
         "word": "Court interpreter",
         "aliases": [],
         "hints": {
-          "easy": "Interprets spoken words between languages during hearings",
-          "normal": "Relays what witnesses say in court",
-          "hard": "Keeps the speaker's first-person point of view"
+          "easy": "Translation",
+          "normal": "Trial",
+          "hard": "Testimony"
         }
       }
     }
@@ -946,25 +946,25 @@
       "school",
       "maintenance"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skolvaktmästare",
         "aliases": [],
         "hints": {
-          "easy": "Håller skolans lokaler i skick",
-          "normal": "Fixar ett krånglande dörrhandtag",
-          "hard": "En nyckelknippa som passar nästan överallt"
+          "easy": "Nyckelknippa",
+          "normal": "Underhåll",
+          "hard": "Korridor"
         }
       },
       "en": {
         "word": "School caretaker",
         "aliases": [],
         "hints": {
-          "easy": "Keeps the school building in working order",
-          "normal": "Fixes a stubborn classroom door handle",
-          "hard": "A key ring that works almost everywhere"
+          "easy": "Keys",
+          "normal": "Maintenance",
+          "hard": "Corridor"
         }
       }
     }
@@ -983,18 +983,18 @@
         "word": "Begravningsentreprenör",
         "aliases": [],
         "hints": {
-          "easy": "Ordnar ceremonier och praktiska frågor efter dödsfall",
-          "normal": "Bokar tid för avskedet",
-          "hard": "Låter anhöriga välja musik till ceremonin"
+          "easy": "Begravning",
+          "normal": "Kista",
+          "hard": "Ceremoni"
         }
       },
       "en": {
         "word": "Funeral director",
         "aliases": [],
         "hints": {
-          "easy": "Arranges services and practical matters after a death",
-          "normal": "Schedules a time for people to say goodbye",
-          "hard": "Discusses music choices with the family"
+          "easy": "Funeral",
+          "normal": "Coffin",
+          "hard": "Ceremony"
         }
       }
     }
@@ -1013,18 +1013,18 @@
         "word": "Stadsplanerare",
         "aliases": [],
         "hints": {
-          "easy": "Planerar hur bostäder, gator och annan mark ska samspela",
-          "normal": "Utformar nya kvarter på karta",
-          "hard": "Samråd med dem som bor i närheten"
+          "easy": "Stadsplan",
+          "normal": "Kvarter",
+          "hard": "Översiktsplan"
         }
       },
       "en": {
         "word": "Urban planner",
         "aliases": [],
         "hints": {
-          "easy": "Plans how streets, housing and other land uses fit together",
-          "normal": "Maps out a proposed neighbourhood",
-          "hard": "Consults people who live nearby"
+          "easy": "Zoning",
+          "normal": "Blocks",
+          "hard": "Planning"
         }
       }
     }
@@ -1036,25 +1036,25 @@
     "tags": [
       "buildings"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Byggnadsinspektör",
         "aliases": [],
         "hints": {
-          "easy": "Kontrollerar att byggen uppfyller gällande krav",
-          "normal": "Jämför arbetet på plats med handlingarna",
-          "hard": "Brister skrivs upp före slutbesked"
+          "easy": "Besiktning",
+          "normal": "Bygglov",
+          "hard": "Tillsyn"
         }
       },
       "en": {
         "word": "Building inspector",
         "aliases": [],
         "hints": {
-          "easy": "Checks that construction meets official requirements",
-          "normal": "Compares the work on site with approved documents",
-          "hard": "Records problems that need fixing"
+          "easy": "Inspection",
+          "normal": "Permit",
+          "hard": "Compliance"
         }
       }
     }
@@ -1073,9 +1073,9 @@
         "word": "Studie- och yrkesvägledare",
         "aliases": [],
         "hints": {
-          "easy": "Hjälper elever att välja utbildning eller framtida arbete",
-          "normal": "Pratar om behörighet inför gymnasievalet",
-          "hard": "Ber eleven sätta ord på sina intressen"
+          "easy": "Yrkesval",
+          "normal": "Utbildningar",
+          "hard": "Vägledning"
         }
       },
       "en": {
@@ -1086,9 +1086,9 @@
           "Careers advisor"
         ],
         "hints": {
-          "easy": "Helps people choose study and work paths",
-          "normal": "Explains entry requirements for courses",
-          "hard": "Asks what you actually enjoy doing"
+          "easy": "Career",
+          "normal": "Education",
+          "hard": "Guidance"
         }
       }
     }
@@ -1107,18 +1107,18 @@
         "word": "Kriminalvårdare",
         "aliases": [],
         "hints": {
-          "easy": "Håller ordning och stöttar intagna på anstalt",
-          "normal": "Räknar personer vid avdelningens inlåsning",
-          "hard": "Har fasta rutiner för besök"
+          "easy": "Fängelse",
+          "normal": "Cell",
+          "hard": "Lås"
         }
       },
       "en": {
         "word": "Prison officer",
         "aliases": [],
         "hints": {
-          "easy": "Maintains order and supports people in custody",
-          "normal": "Checks the head count before lockup",
-          "hard": "Follows strict routines for visits"
+          "easy": "Prison",
+          "normal": "Cell",
+          "hard": "Locks"
         }
       }
     }
@@ -1130,7 +1130,7 @@
     "tags": [
       "buildings"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1139,18 +1139,18 @@
           "Snickare"
         ],
         "hints": {
-          "easy": "Bygger stommar och sätter upp innerväggar",
-          "normal": "Kapade reglar ska passa mot varandra",
-          "hard": "Markerar fästen på samma avstånd"
+          "easy": "Såg",
+          "normal": "Stomme",
+          "hard": "Reglar"
         }
       },
       "en": {
         "word": "Construction carpenter",
         "aliases": [],
         "hints": {
-          "easy": "Builds timber frames and puts up interior walls",
-          "normal": "Cuts studs to fit into place",
-          "hard": "Marks even spacing for the supports"
+          "easy": "Saw",
+          "normal": "Framing",
+          "hard": "Studs"
         }
       }
     }
@@ -1169,18 +1169,18 @@
         "word": "Rörmokare",
         "aliases": [],
         "hints": {
-          "easy": "Installerar och lagar vattenledningar",
-          "normal": "Rycker ut när avloppet krånglar",
-          "hard": "Kontrollerar om en koppling håller tätt"
+          "easy": "Vattenrör",
+          "normal": "Avlopp",
+          "hard": "Läcka"
         }
       },
       "en": {
         "word": "Plumber",
         "aliases": [],
         "hints": {
-          "easy": "Installs and repairs pipes that carry water",
-          "normal": "Called in for a blocked drain",
-          "hard": "Checks a joint for drips"
+          "easy": "Pipes",
+          "normal": "Drains",
+          "hard": "Leak"
         }
       }
     }
@@ -1199,18 +1199,18 @@
         "word": "Elektriker",
         "aliases": [],
         "hints": {
-          "easy": "Installerar uttag och drar ledningar till dem",
-          "normal": "Bryter strömmen innan en koppling öppnas",
-          "hard": "Testar om det är spänningslöst"
+          "easy": "Elledning",
+          "normal": "Uttag",
+          "hard": "Säkring"
         }
       },
       "en": {
         "word": "Electrician",
         "aliases": [],
         "hints": {
-          "easy": "Installs wiring and wall outlets",
-          "normal": "Switches off the supply before opening a connection",
-          "hard": "Tests that a circuit is safe to touch"
+          "easy": "Wiring",
+          "normal": "Outlets",
+          "hard": "Fuse"
         }
       }
     }
@@ -1229,18 +1229,18 @@
         "word": "Byggnadsmålare",
         "aliases": [],
         "hints": {
-          "easy": "Ger väggar och tak ny färg",
-          "normal": "Täcker golvet innan rollern tas fram",
-          "hard": "Skarpa kanter kräver stadig hand"
+          "easy": "Pensel",
+          "normal": "Färg",
+          "hard": "Maskering"
         }
       },
       "en": {
         "word": "House painter",
         "aliases": [],
         "hints": {
-          "easy": "Applies a fresh coat to walls and ceilings",
-          "normal": "Covers the floor before getting out the roller",
-          "hard": "A steady hand makes a crisp edge"
+          "easy": "Brush",
+          "normal": "Paint",
+          "hard": "Masking"
         }
       }
     }
@@ -1252,25 +1252,25 @@
     "tags": [
       "buildings"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Murare",
         "aliases": [],
         "hints": {
-          "easy": "Bygger väggar av tegel och bruk",
-          "normal": "Fogarna ska få jämn bredd",
-          "hard": "Spänner ett snöre för en rak rad"
+          "easy": "Tegel",
+          "normal": "Murbruk",
+          "hard": "Fog"
         }
       },
       "en": {
         "word": "Bricklayer",
         "aliases": [],
         "hints": {
-          "easy": "Builds walls with bricks and mortar",
-          "normal": "Keeps the joints an even width",
-          "hard": "Stretches a line to keep a course straight"
+          "easy": "Bricks",
+          "normal": "Mortar",
+          "hard": "Joint"
         }
       }
     }
@@ -1289,18 +1289,18 @@
         "word": "Takläggare",
         "aliases": [],
         "hints": {
-          "easy": "Lägger och reparerar ytskiktet överst på hus",
-          "normal": "Tätar noga runt skorstenen",
-          "hard": "Överlappet leder bort regnet"
+          "easy": "Takpannor",
+          "normal": "Takås",
+          "hard": "Fallskydd"
         }
       },
       "en": {
         "word": "Roofer",
         "aliases": [],
         "hints": {
-          "easy": "Fits and repairs the outer covering on top of buildings",
-          "normal": "Seals the area around a chimney",
-          "hard": "Overlapping layers keep rain out"
+          "easy": "Tiles",
+          "normal": "Ridge",
+          "hard": "Harness"
         }
       }
     }
@@ -1319,18 +1319,18 @@
         "word": "Golvläggare",
         "aliases": [],
         "hints": {
-          "easy": "Lägger parkett, mattor och andra ytor att gå på",
-          "normal": "Kontrollerar att underlaget är jämnt",
-          "hard": "Lämnar en liten rörelsemån vid väggen"
+          "easy": "Parkett",
+          "normal": "Underlag",
+          "hard": "Lister"
         }
       },
       "en": {
         "word": "Flooring installer",
         "aliases": [],
         "hints": {
-          "easy": "Fits parquet, carpet and other surfaces underfoot",
-          "normal": "Checks that the base is level",
-          "hard": "Leaves a little room for expansion"
+          "easy": "Parquet",
+          "normal": "Underlay",
+          "hard": "Trim"
         }
       }
     }
@@ -1349,18 +1349,18 @@
         "word": "Glasmästare",
         "aliases": [],
         "hints": {
-          "easy": "Skär till och monterar fönsterglas",
-          "normal": "Byter en sprucken ruta",
-          "hard": "En sugkopp hjälper vid lyftet"
+          "easy": "Glas",
+          "normal": "Fönster",
+          "hard": "Kitt"
         }
       },
       "en": {
         "word": "Glazier",
         "aliases": [],
         "hints": {
-          "easy": "Cuts and fits panes in windows",
-          "normal": "Replaces a cracked pane",
-          "hard": "Uses suction cups to lift a sheet"
+          "easy": "Glass",
+          "normal": "Windows",
+          "hard": "Putty"
         }
       }
     }
@@ -1372,25 +1372,25 @@
     "tags": [
       "buildings"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Låssmed",
         "aliases": [],
         "hints": {
-          "easy": "Hjälper den som blivit utlåst och byter låscylindrar",
-          "normal": "Gör en reservnyckel",
-          "hard": "Måste veta att du har rätt till dörren"
+          "easy": "Nycklar",
+          "normal": "Låscylinder",
+          "hard": "Dörrbeslag"
         }
       },
       "en": {
         "word": "Locksmith",
         "aliases": [],
         "hints": {
-          "easy": "Helps people who are locked out and changes door cylinders",
-          "normal": "Can cut a spare key",
-          "hard": "Needs to check you have permission to enter"
+          "easy": "Keys",
+          "normal": "Cylinder",
+          "hard": "Hardware"
         }
       }
     }
@@ -1409,18 +1409,18 @@
         "word": "Svetsare",
         "aliases": [],
         "hints": {
-          "easy": "Fogar samman metall med stark värme",
-          "normal": "En mörk visirskärm skyddar ansiktet",
-          "hard": "Fogen kan likna en rad fiskfjäll"
+          "easy": "Metall",
+          "normal": "Svetsfog",
+          "hard": "Gnistor"
         }
       },
       "en": {
         "word": "Welder",
         "aliases": [],
         "hints": {
-          "easy": "Joins pieces of metal with intense heat",
-          "normal": "Wears a dark face shield",
-          "hard": "A finished bead can look like fish scales"
+          "easy": "Metal",
+          "normal": "Joint",
+          "hard": "Sparks"
         }
       }
     }
@@ -1439,18 +1439,18 @@
         "word": "Möbelsnickare",
         "aliases": [],
         "hints": {
-          "easy": "Bygger bland annat bord och stolar av trä",
-          "normal": "Provar delarna innan limmet läggs på",
-          "hard": "Får ådringen att passa över en skarv"
+          "easy": "Möbler",
+          "normal": "Finsnickeri",
+          "hard": "Faner"
         }
       },
       "en": {
         "word": "Furniture maker",
         "aliases": [],
         "hints": {
-          "easy": "Builds wooden items such as tables and chairs",
-          "normal": "Dry-fits the pieces before gluing",
-          "hard": "Matches the grain across a joint"
+          "easy": "Furniture",
+          "normal": "Joinery",
+          "hard": "Veneer"
         }
       }
     }
@@ -1469,18 +1469,18 @@
         "word": "Stenhuggare",
         "aliases": [],
         "hints": {
-          "easy": "Hugger och formar natursten",
-          "normal": "Skär bokstäver i en minnesplatta",
-          "hard": "Provslår med hammare och mejsel"
+          "easy": "Sten",
+          "normal": "Mejsel",
+          "hard": "Granit"
         }
       },
       "en": {
         "word": "Stonemason",
         "aliases": [],
         "hints": {
-          "easy": "Shapes blocks of natural rock",
-          "normal": "Carves lettering in a memorial",
-          "hard": "Works with a mallet and chisel"
+          "easy": "Stone",
+          "normal": "Chisel",
+          "hard": "Granite"
         }
       }
     }
@@ -1492,25 +1492,25 @@
     "tags": [
       "furniture"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Tapetserare",
         "aliases": [],
         "hints": {
-          "easy": "Byter stoppning och tyg på möbler",
-          "normal": "Spänner klädseln över en stolssits",
-          "hard": "Plockar ur gamla klammer på undersidan"
+          "easy": "Fåtölj",
+          "normal": "Stoppning",
+          "hard": "Tyg"
         }
       },
       "en": {
         "word": "Upholsterer",
         "aliases": [],
         "hints": {
-          "easy": "Renews padding and fabric on furniture",
-          "normal": "Stretches the fabric neatly over a seat",
-          "hard": "Pulls old staples out of the underside"
+          "easy": "Armchair",
+          "normal": "Stuffing",
+          "hard": "Fabric"
         }
       }
     }
@@ -1529,18 +1529,18 @@
         "word": "Sotare",
         "aliases": [],
         "hints": {
-          "easy": "Avlägsnar sot ur skorstenar",
-          "normal": "För en lång borste genom rökkanalen",
-          "hard": "Har ofta med sig skydd för golvet"
+          "easy": "Skorsten",
+          "normal": "Sot",
+          "hard": "Borste"
         }
       },
       "en": {
         "word": "Chimney sweep",
         "aliases": [],
         "hints": {
-          "easy": "Clears soot out of chimneys",
-          "normal": "Pushes a long brush through a flue",
-          "hard": "Protects the hearth from falling debris"
+          "easy": "Chimney",
+          "normal": "Soot",
+          "hard": "Brush"
         }
       }
     }
@@ -1559,18 +1559,18 @@
         "word": "Urmakare",
         "aliases": [],
         "hints": {
-          "easy": "Lagar klockors små mekanismer",
-          "normal": "Använder lupp vid arbetsbänken",
-          "hard": "Ett fjäderverk kan plockas isär bit för bit"
+          "easy": "Urverk",
+          "normal": "Visare",
+          "hard": "Kugghjul"
         }
       },
       "en": {
         "word": "Watchmaker",
         "aliases": [],
         "hints": {
-          "easy": "Repairs the tiny mechanisms inside timepieces",
-          "normal": "Uses a magnifier at the bench",
-          "hard": "Disassembles a spring-driven movement piece by piece"
+          "easy": "Movement",
+          "normal": "Hands",
+          "hard": "Gears"
         }
       }
     }
@@ -1589,18 +1589,18 @@
         "word": "Guldsmed",
         "aliases": [],
         "hints": {
-          "easy": "Formar smycken av ädla metaller",
-          "normal": "Löder ihop en ring som ska förstoras",
-          "hard": "Polerar bort spåren efter arbetet"
+          "easy": "Smycken",
+          "normal": "Guld",
+          "hard": "Lödning"
         }
       },
       "en": {
         "word": "Goldsmith",
         "aliases": [],
         "hints": {
-          "easy": "Makes jewellery from precious metals",
-          "normal": "Solders material onto a ring to resize it",
-          "hard": "Polishes away marks left by the tools"
+          "easy": "Jewelry",
+          "normal": "Gold",
+          "hard": "Soldering"
         }
       }
     }
@@ -1612,25 +1612,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skräddare",
         "aliases": [],
         "hints": {
-          "easy": "Syr och ändrar kläder efter mått",
-          "normal": "Nålar upp ett för långt byxben",
-          "hard": "Tar hänsyn till hur tyget faller"
+          "easy": "Kostym",
+          "normal": "Sömmar",
+          "hard": "Mått"
         }
       },
       "en": {
         "word": "Tailor",
         "aliases": [],
         "hints": {
-          "easy": "Makes or alters clothes to fit a person",
-          "normal": "Pins up a trouser leg before shortening it",
-          "hard": "Looks at how the fabric hangs"
+          "easy": "Suit",
+          "normal": "Seams",
+          "hard": "Measurements"
         }
       }
     }
@@ -1642,25 +1642,25 @@
     "tags": [
       "clothing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skomakare",
         "aliases": [],
         "hints": {
-          "easy": "Tillverkar eller lagar skor",
-          "normal": "En utsliten klack kan få en ny bit",
-          "hard": "Formar materialet över en läst"
+          "easy": "Skor",
+          "normal": "Sulor",
+          "hard": "Läst"
         }
       },
       "en": {
         "word": "Shoemaker",
         "aliases": [],
         "hints": {
-          "easy": "Makes or repairs footwear",
-          "normal": "Might replace a worn heel",
-          "hard": "Shapes the material over a last"
+          "easy": "Shoes",
+          "normal": "Soles",
+          "hard": "Last"
         }
       }
     }
@@ -1680,18 +1680,18 @@
         "word": "Skådespelare",
         "aliases": [],
         "hints": {
-          "easy": "Gestaltar en roll på scen eller framför kameran",
-          "normal": "Repeterar repliker före inspelning",
-          "hard": "Samma känsla ska hålla i flera tagningar"
+          "easy": "Roller",
+          "normal": "Repliker",
+          "hard": "Manus"
         }
       },
       "en": {
         "word": "Actor",
         "aliases": [],
         "hints": {
-          "easy": "Portrays a character on stage or on camera",
-          "normal": "Rehearses lines before filming",
-          "hard": "Keeps the same emotion across takes"
+          "easy": "Roles",
+          "normal": "Lines",
+          "hard": "Script"
         }
       }
     }
@@ -1704,25 +1704,25 @@
       "stage",
       "film"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Regissör",
         "aliases": [],
         "hints": {
-          "easy": "Leder det konstnärliga arbetet i en film eller föreställning",
-          "normal": "Ger instruktioner mellan tagningarna",
-          "hard": "Kan be om en helt annan tolkning"
+          "easy": "Regi",
+          "normal": "Inspelning",
+          "hard": "Tagning"
         }
       },
       "en": {
         "word": "Director",
         "aliases": [],
         "hints": {
-          "easy": "Guides the artistic work on a film or show",
-          "normal": "Gives notes between takes",
-          "hard": "Can ask for a completely different reading"
+          "easy": "Staging",
+          "normal": "Filming",
+          "hard": "Take"
         }
       }
     }
@@ -1734,25 +1734,25 @@
     "tags": [
       "stage"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Inspicient",
         "aliases": [],
         "hints": {
-          "easy": "Samordnar när saker ska hända under en föreställning",
-          "normal": "Ger klartecken till ljud och ljus",
-          "hard": "Har markeringar i körmanuset"
+          "easy": "Scenbyte",
+          "normal": "Kuliss",
+          "hard": "Signal"
         }
       },
       "en": {
         "word": "Stage manager",
         "aliases": [],
         "hints": {
-          "easy": "Coordinates what happens during a live performance",
-          "normal": "Calls lighting and sound cues",
-          "hard": "Keeps a heavily marked prompt script"
+          "easy": "Scene",
+          "normal": "Backstage",
+          "hard": "Cue"
         }
       }
     }
@@ -1772,18 +1772,18 @@
         "word": "Filmfotograf",
         "aliases": [],
         "hints": {
-          "easy": "Ansvarar för kamerabild och ljus under en inspelning",
-          "normal": "Väljer vilken brännvidd scenen behöver",
-          "hard": "En skugga i bild kan vara planerad"
+          "easy": "Kamera",
+          "normal": "Bildspråk",
+          "hard": "Ljussättning"
         }
       },
       "en": {
         "word": "Cinematographer",
         "aliases": [],
         "hints": {
-          "easy": "Shapes how a film is shot and lit",
-          "normal": "Chooses a lens for the scene",
-          "hard": "A shadow in the frame may be deliberate"
+          "easy": "Camera",
+          "normal": "Framing",
+          "hard": "Lighting"
         }
       }
     }
@@ -1803,18 +1803,18 @@
         "word": "Kostymdesigner",
         "aliases": [],
         "hints": {
-          "easy": "Bestämmer hur karaktärernas kläder ska se ut",
-          "normal": "Letar efter plagg som passar rätt tidsperiod",
-          "hard": "Färgen kan säga något om rollen"
+          "easy": "Scenkläder",
+          "normal": "Skisser",
+          "hard": "Epok"
         }
       },
       "en": {
         "word": "Costume designer",
         "aliases": [],
         "hints": {
-          "easy": "Designs what characters wear in a production",
-          "normal": "Researches clothing from the right period",
-          "hard": "Colour can say something about a character"
+          "easy": "Wardrobe",
+          "normal": "Sketches",
+          "hard": "Period"
         }
       }
     }
@@ -1827,25 +1827,25 @@
       "stage",
       "film"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Makeupartist",
         "aliases": [],
         "hints": {
-          "easy": "Sminkar personer inför foto och scenframträdanden",
-          "normal": "Dämpar hudens glans före närbilden",
-          "hard": "Kontrollerar resultatet i rätt belysning"
+          "easy": "Smink",
+          "normal": "Borstar",
+          "hard": "Foundation"
         }
       },
       "en": {
         "word": "Makeup artist",
         "aliases": [],
         "hints": {
-          "easy": "Applies cosmetics for shoots or performances",
-          "normal": "Reduces shine before a close-up",
-          "hard": "Checks the look under the right lighting"
+          "easy": "Makeup",
+          "normal": "Brushes",
+          "hard": "Foundation"
         }
       }
     }
@@ -1864,18 +1864,18 @@
         "word": "Dansare",
         "aliases": [],
         "hints": {
-          "easy": "Framför inövade rörelser på en scen eller inför en kamera",
-          "normal": "Följer takten och håller sin plats i gruppen",
-          "hard": "Övar så att landningen ser lätt ut"
+          "easy": "Koreografi",
+          "normal": "Rörelse",
+          "hard": "Takt"
         }
       },
       "en": {
         "word": "Dancer",
         "aliases": [],
         "hints": {
-          "easy": "Performs rehearsed sequences of movement",
-          "normal": "Keeps time while staying in formation",
-          "hard": "Practises making a landing look effortless"
+          "easy": "Choreography",
+          "normal": "Movement",
+          "hard": "Rhythm"
         }
       }
     }
@@ -1894,18 +1894,18 @@
         "word": "Koreograf",
         "aliases": [],
         "hints": {
-          "easy": "Skapar rörelsesekvenser för andra att framföra",
-          "normal": "Bestämmer vem som går in på vilket taktslag",
-          "hard": "Flyttar en grupp en bit för att skapa en ny bild"
+          "easy": "Dans",
+          "normal": "Steg",
+          "hard": "Formationer"
         }
       },
       "en": {
         "word": "Choreographer",
         "aliases": [],
         "hints": {
-          "easy": "Creates movement sequences for others to perform",
-          "normal": "Decides who enters on which beat",
-          "hard": "Shifts the group to make a new pattern"
+          "easy": "Dance",
+          "normal": "Steps",
+          "hard": "Formations"
         }
       }
     }
@@ -1917,25 +1917,25 @@
     "tags": [
       "visual-design"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Illustratör",
         "aliases": [],
         "hints": {
-          "easy": "Gör bilder till exempelvis böcker och artiklar",
-          "normal": "Skissar en figur utifrån en text",
-          "hard": "Flera idéer ryms i marginalen"
+          "easy": "Teckningar",
+          "normal": "Bokbilder",
+          "hard": "Uppdrag"
         }
       },
       "en": {
         "word": "Illustrator",
         "aliases": [],
         "hints": {
-          "easy": "Makes images for things like books and articles",
-          "normal": "Sketches a character described in the text",
-          "hard": "Tries several ideas in the margin"
+          "easy": "Drawings",
+          "normal": "Art",
+          "hard": "Commission"
         }
       }
     }
@@ -1954,18 +1954,18 @@
         "word": "Grafisk designer",
         "aliases": [],
         "hints": {
-          "easy": "Utformar visuellt material som affischer och logotyper",
-          "normal": "Väljer typsnitt och färger till en layout",
-          "hard": "Flyttar element så att blicken leds rätt"
+          "easy": "Layout",
+          "normal": "Typografi",
+          "hard": "Logotyp"
         }
       },
       "en": {
         "word": "Graphic designer",
         "aliases": [],
         "hints": {
-          "easy": "Creates visual material such as posters and logos",
-          "normal": "Chooses type and colours for a layout",
-          "hard": "Places elements to guide the viewer's eye"
+          "easy": "Layout",
+          "normal": "Typography",
+          "hard": "Logo"
         }
       }
     }
@@ -1985,18 +1985,18 @@
         "word": "Journalist",
         "aliases": [],
         "hints": {
-          "easy": "Samlar in och kontrollerar uppgifter för nyheter",
-          "normal": "Ringer flera källor före publicering",
-          "hard": "Måste kunna styrka ett citat"
+          "easy": "Nyheter",
+          "normal": "Intervju",
+          "hard": "Källor"
         }
       },
       "en": {
         "word": "Journalist",
         "aliases": [],
         "hints": {
-          "easy": "Gathers and checks information for news stories",
-          "normal": "Calls several sources before publishing",
-          "hard": "Needs to back up a quotation"
+          "easy": "News",
+          "normal": "Interview",
+          "hard": "Sources"
         }
       }
     }
@@ -2015,18 +2015,18 @@
         "word": "Fotograf",
         "aliases": [],
         "hints": {
-          "easy": "Tar stillbilder på uppdrag",
-          "normal": "Ber modellen vända sig mot fönstret",
-          "hard": "Väntar på rätt ögonblick i sökaren"
+          "easy": "Kamera",
+          "normal": "Porträtt",
+          "hard": "Slutartid"
         }
       },
       "en": {
         "word": "Photographer",
         "aliases": [],
         "hints": {
-          "easy": "Takes still images for clients",
-          "normal": "May ask the subject to face the window",
-          "hard": "Waits for the right moment in the viewfinder"
+          "easy": "Camera",
+          "normal": "Portrait",
+          "hard": "Shutter"
         }
       }
     }
@@ -2046,18 +2046,18 @@
         "word": "Ljudtekniker",
         "aliases": [],
         "hints": {
-          "easy": "Spelar in eller balanserar ljud för publik och produktion",
-          "normal": "Justerar nivåerna mellan mikrofonerna",
-          "hard": "Ett rundgångstjut måste bort direkt"
+          "easy": "Mikrofoner",
+          "normal": "Mixerbord",
+          "hard": "Nivåer"
         }
       },
       "en": {
         "word": "Sound engineer",
         "aliases": [],
         "hints": {
-          "easy": "Records or balances audio for a show or production",
-          "normal": "Adjusts the levels of different microphones",
-          "hard": "Has to stop feedback fast"
+          "easy": "Microphones",
+          "normal": "Mixer",
+          "hard": "Levels"
         }
       }
     }
@@ -2076,18 +2076,18 @@
         "word": "Filmklippare",
         "aliases": [],
         "hints": {
-          "easy": "Sätter ihop tagningar till en färdig berättelse",
-          "normal": "Väljer exakt när nästa bild tar över",
-          "hard": "Ibland gör en borttagen sekund stor skillnad"
+          "easy": "Klippning",
+          "normal": "Tagningar",
+          "hard": "Övergångar"
         }
       },
       "en": {
         "word": "Film editor",
         "aliases": [],
         "hints": {
-          "easy": "Assembles shots into a finished story",
-          "normal": "Chooses exactly when to move to the next shot",
-          "hard": "A missing second can change the pace"
+          "easy": "Cutting",
+          "normal": "Footage",
+          "hard": "Transitions"
         }
       }
     }
@@ -2100,25 +2100,25 @@
       "languages",
       "publishing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Översättare",
         "aliases": [],
         "hints": {
-          "easy": "Gör texter läsbara på ett annat språk",
-          "normal": "Letar efter en motsvarighet till ett uttryck",
-          "hard": "Kan behöva välja mellan ordalydelse och ton"
+          "easy": "Språk",
+          "normal": "Översättning",
+          "hard": "Original"
         }
       },
       "en": {
         "word": "Translator",
         "aliases": [],
         "hints": {
-          "easy": "Renders written texts in another language",
-          "normal": "Finds an equivalent for an idiom",
-          "hard": "May weigh literal wording against tone"
+          "easy": "Languages",
+          "normal": "Translation",
+          "hard": "Original"
         }
       }
     }
@@ -2137,18 +2137,18 @@
         "word": "Utställningskurator",
         "aliases": [],
         "hints": {
-          "easy": "Väljer verk och formar ett tema för en utställning",
-          "normal": "Planerar vad besökaren möter först",
-          "hard": "Två föremål i samma rum kan förändra tolkningen"
+          "easy": "Utställning",
+          "normal": "Urval",
+          "hard": "Katalog"
         }
       },
       "en": {
         "word": "Exhibition curator",
         "aliases": [],
         "hints": {
-          "easy": "Selects works and develops a theme for an exhibition",
-          "normal": "Plans what a visitor sees first",
-          "hard": "Two objects shown together can change how we read them"
+          "easy": "Exhibition",
+          "normal": "Selection",
+          "hard": "Catalog"
         }
       }
     }
@@ -2167,18 +2167,18 @@
         "word": "Författare",
         "aliases": [],
         "hints": {
-          "easy": "Skriver böcker och andra litterära verk",
-          "normal": "Bearbetar manuset före utgivning",
-          "hard": "Kan behöva stryka ett eget favoritstycke"
+          "easy": "Böcker",
+          "normal": "Skrivande",
+          "hard": "Manuskript"
         }
       },
       "en": {
         "word": "Author",
         "aliases": [],
         "hints": {
-          "easy": "Writes books or other literary works",
-          "normal": "Revises the manuscript before publication",
-          "hard": "May cut a passage they love"
+          "easy": "Books",
+          "normal": "Writing",
+          "hard": "Manuscript"
         }
       }
     }
@@ -2190,25 +2190,25 @@
     "tags": [
       "publishing"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Korrekturläsare",
         "aliases": [],
         "hints": {
-          "easy": "Rättar stavning och skiljetecken inför publicering",
-          "normal": "Hittar en punkt som står dubbelt",
-          "hard": "Kan märka att ett namn stavas på två sätt"
+          "easy": "Stavfel",
+          "normal": "Korrektur",
+          "hard": "Kommatecken"
         }
       },
       "en": {
         "word": "Proofreader",
         "aliases": [],
         "hints": {
-          "easy": "Checks spelling and punctuation before publication",
-          "normal": "Spots a duplicated full stop",
-          "hard": "Notices when one name is spelt two ways"
+          "easy": "Typos",
+          "normal": "Proofs",
+          "hard": "Commas"
         }
       }
     }
@@ -2227,18 +2227,18 @@
         "word": "Frisör",
         "aliases": [],
         "hints": {
-          "easy": "Klipper och formar kunders hår",
-          "normal": "Håller upp en hårslinga för att jämföra längden",
-          "hard": "En spegel visar hur det ser ut bakifrån"
+          "easy": "Sax",
+          "normal": "Klippning",
+          "hard": "Salong"
         }
       },
       "en": {
         "word": "Hairdresser",
         "aliases": [],
         "hints": {
-          "easy": "Cuts and styles clients' hair",
-          "normal": "Holds up a section to check the length",
-          "hard": "A second mirror shows the back"
+          "easy": "Scissors",
+          "normal": "Haircut",
+          "hard": "Salon"
         }
       }
     }
@@ -2250,25 +2250,25 @@
     "tags": [
       "salon"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Nagelterapeut",
         "aliases": [],
         "hints": {
-          "easy": "Formar och behandlar naglar på en salong",
-          "normal": "Slipar kanten innan ny färg läggs på",
-          "hard": "Vissa ytor härdas under en liten lampa"
+          "easy": "Manikyr",
+          "normal": "Nagellack",
+          "hard": "Filning"
         }
       },
       "en": {
         "word": "Nail technician",
         "aliases": [],
         "hints": {
-          "easy": "Shapes and treats nails in a salon",
-          "normal": "Files the edge before applying a new colour",
-          "hard": "Some finishes cure under a small lamp"
+          "easy": "Manicure",
+          "normal": "Polish",
+          "hard": "Filing"
         }
       }
     }
@@ -2280,25 +2280,25 @@
     "tags": [
       "salon"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Massör",
         "aliases": [],
         "hints": {
-          "easy": "Knådar muskler med händerna",
-          "normal": "Frågar hur hårt tryck som känns bra",
-          "hard": "Kan be dig vända dig på bänken"
+          "easy": "Muskler",
+          "normal": "Knådning",
+          "hard": "Spänning"
         }
       },
       "en": {
         "word": "Massage therapist",
         "aliases": [],
         "hints": {
-          "easy": "Works on muscles by applying pressure by hand",
-          "normal": "Asks how much pressure feels comfortable",
-          "hard": "May ask you to turn over on the table"
+          "easy": "Muscles",
+          "normal": "Kneading",
+          "hard": "Tension"
         }
       }
     }
@@ -2319,9 +2319,9 @@
           "Servitris"
         ],
         "hints": {
-          "easy": "Tar upp beställningar och serverar vid bord",
-          "normal": "Måste veta vad gästen är allergisk mot",
-          "hard": "Håller koll på vem som hade vilken rätt"
+          "easy": "Servering",
+          "normal": "Beställning",
+          "hard": "Bricka"
         }
       },
       "en": {
@@ -2330,9 +2330,9 @@
           "Waitress"
         ],
         "hints": {
-          "easy": "Takes orders and serves meals at tables",
-          "normal": "Checks an allergy with the kitchen",
-          "hard": "Remembers who ordered which dish"
+          "easy": "Service",
+          "normal": "Order",
+          "hard": "Tray"
         }
       }
     }
@@ -2345,25 +2345,25 @@
       "hospitality",
       "beverages"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Bartender",
         "aliases": [],
         "hints": {
-          "easy": "Blandar och serverar drinkar bakom en disk",
-          "normal": "Skakar en blandning med is",
-          "hard": "Kan vrida citrusskal över glaset"
+          "easy": "Drinkar",
+          "normal": "Skakare",
+          "hard": "Is"
         }
       },
       "en": {
         "word": "Bartender",
         "aliases": [],
         "hints": {
-          "easy": "Mixes and serves drinks at a counter",
-          "normal": "Shakes a mixture with ice",
-          "hard": "Might twist a peel above the glass"
+          "easy": "Cocktails",
+          "normal": "Shaker",
+          "hard": "Ice"
         }
       }
     }
@@ -2376,25 +2376,25 @@
       "hospitality",
       "beverages"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Barista",
         "aliases": [],
         "hints": {
-          "easy": "Gör drycker som espresso och cappuccino",
-          "normal": "Ångar mjölk till fint skum",
-          "hard": "Jämnt tryck hjälper vattnet att rinna jämnt"
+          "easy": "Kaffe",
+          "normal": "Espresso",
+          "hard": "Mjölkskum"
         }
       },
       "en": {
         "word": "Barista",
         "aliases": [],
         "hints": {
-          "easy": "Makes drinks such as espresso and cappuccino",
-          "normal": "Steams milk into fine foam",
-          "hard": "Even pressure helps the water flow evenly"
+          "easy": "Coffee",
+          "normal": "Espresso",
+          "hard": "Foam"
         }
       }
     }
@@ -2407,25 +2407,25 @@
       "hospitality",
       "customer-care"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Receptionist",
         "aliases": [],
         "hints": {
-          "easy": "Tar emot besökare och svarar på frågor vid entrén",
-          "normal": "Kontrollerar vem besökaren har bokat tid med",
-          "hard": "Ser ofta vem som kommer in först"
+          "easy": "Reception",
+          "normal": "Incheckning",
+          "hard": "Telefon"
         }
       },
       "en": {
         "word": "Receptionist",
         "aliases": [],
         "hints": {
-          "easy": "Welcomes visitors and answers questions at the front desk",
-          "normal": "Checks who a visitor has an appointment with",
-          "hard": "Often the first person to see who walks in"
+          "easy": "Reception",
+          "normal": "Checkin",
+          "hard": "Phone"
         }
       }
     }
@@ -2445,9 +2445,9 @@
         "word": "Butikskassör",
         "aliases": [],
         "hints": {
-          "easy": "Tar betalt och lämnar kvitto i en butik",
-          "normal": "Läser av streckkoder medan kön väntar",
-          "hard": "Räknar växel innan nästa kund"
+          "easy": "Kassa",
+          "normal": "Skanner",
+          "hard": "Kvitto"
         }
       },
       "en": {
@@ -2456,9 +2456,9 @@
           "Checkout operator"
         ],
         "hints": {
-          "easy": "Takes payments and gives receipts in a shop",
-          "normal": "Scans barcodes while the queue waits",
-          "hard": "Counts out change before the next customer"
+          "easy": "Register",
+          "normal": "Scanner",
+          "hard": "Receipt"
         }
       }
     }
@@ -2470,16 +2470,16 @@
     "tags": [
       "housing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Fastighetsmäklare",
         "aliases": [],
         "hints": {
-          "easy": "Hjälper till när människor köper och säljer bostäder",
-          "normal": "Håller visning och tar emot bud",
-          "hard": "Går igenom papperen innan tillträdet"
+          "easy": "Bostäder",
+          "normal": "Visning",
+          "hard": "Budgivning"
         }
       },
       "en": {
@@ -2488,9 +2488,9 @@
           "Estate agent"
         ],
         "hints": {
-          "easy": "Helps people buy and sell property",
-          "normal": "Holds viewings and handles offers",
-          "hard": "Checks the paperwork before the keys change hands"
+          "easy": "Houses",
+          "normal": "Viewing",
+          "hard": "Bidding"
         }
       }
     }
@@ -2509,9 +2509,9 @@
         "word": "Hotellstädare",
         "aliases": [],
         "hints": {
-          "easy": "Städar gästrum och byter sängkläder",
-          "normal": "Återställer rummet efter utcheckning",
-          "hard": "Brukar ha en vagn med handdukar i korridoren"
+          "easy": "Sängkläder",
+          "normal": "Städvagn",
+          "hard": "Rumslista"
         }
       },
       "en": {
@@ -2520,9 +2520,9 @@
           "Guest room attendant"
         ],
         "hints": {
-          "easy": "Cleans guest rooms and changes the linen",
-          "normal": "Resets the room after checkout",
-          "hard": "A trolley full of towels in the corridor"
+          "easy": "Linen",
+          "normal": "Cart",
+          "hard": "Checklist"
         }
       }
     }
@@ -2534,25 +2534,25 @@
     "tags": [
       "finance"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Redovisningsekonom",
         "aliases": [],
         "hints": {
-          "easy": "Arbetar med bokföring och bokslut",
-          "normal": "Stämmer av saldon mot underlagen",
-          "hard": "Periodens sista dag spelar roll"
+          "easy": "Bokföring",
+          "normal": "Balansräkning",
+          "hard": "Avstämning"
         }
       },
       "en": {
         "word": "Accountant",
         "aliases": [],
         "hints": {
-          "easy": "Prepares and maintains financial records",
-          "normal": "Reconciles balances against supporting documents",
-          "hard": "The last day of the reporting period matters"
+          "easy": "Bookkeeping",
+          "normal": "Balance",
+          "hard": "Reconciliation"
         }
       }
     }
@@ -2571,18 +2571,18 @@
         "word": "Revisor",
         "aliases": [],
         "hints": {
-          "easy": "Granskar ekonomiska rapporter oberoende",
-          "normal": "Väljer ut poster att kontrollera mot underlag",
-          "hard": "Vill se hur en uppgift kan spåras bakåt"
+          "easy": "Granskning",
+          "normal": "Årsredovisning",
+          "hard": "Oberoende"
         }
       },
       "en": {
         "word": "Auditor",
         "aliases": [],
         "hints": {
-          "easy": "Independently examines financial statements",
-          "normal": "Samples entries to check against the records",
-          "hard": "Follows the trail behind a reported figure"
+          "easy": "Review",
+          "normal": "Accounts",
+          "hard": "Independence"
         }
       }
     }
@@ -2601,9 +2601,9 @@
         "word": "Skadereglerare",
         "aliases": [],
         "hints": {
-          "easy": "Bedömer hur en försäkring täcker en anmäld skada",
-          "normal": "Begär bilder och kostnadsunderlag",
-          "hard": "Kollar undantagen i villkoren"
+          "easy": "Försäkring",
+          "normal": "Skada",
+          "hard": "Ersättning"
         }
       },
       "en": {
@@ -2612,9 +2612,9 @@
           "Loss adjuster"
         ],
         "hints": {
-          "easy": "Evaluates damage claims for an insurer",
-          "normal": "Asks for photos and cost estimates",
-          "hard": "Checks for exclusions in the policy"
+          "easy": "Insurance",
+          "normal": "Damage",
+          "hard": "Compensation"
         }
       }
     }
@@ -2634,18 +2634,18 @@
         "word": "Evenemangsplanerare",
         "aliases": [],
         "hints": {
-          "easy": "Samordnar lokal, personal och program för ett arrangemang",
-          "normal": "Har en körplan för hela dagen",
-          "hard": "Tar reda på om lokalen har en reservlösning"
+          "easy": "Arrangemang",
+          "normal": "Lokal",
+          "hard": "Körschema"
         }
       },
       "en": {
         "word": "Event planner",
         "aliases": [],
         "hints": {
-          "easy": "Coordinates venues, staffing and schedules for events",
-          "normal": "Keeps a running order for the day",
-          "hard": "Checks what the venue can do if plans change"
+          "easy": "Events",
+          "normal": "Venue",
+          "hard": "Schedule"
         }
       }
     }
@@ -2658,7 +2658,7 @@
       "sales",
       "travel"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2667,18 +2667,18 @@
           "Resekonsult"
         ],
         "hints": {
-          "easy": "Hjälper kunder att boka resor och boende",
-          "normal": "Jämför paket och bytestider",
-          "hard": "Kontrollerar om bokningen går att ändra"
+          "easy": "Resor",
+          "normal": "Bokningar",
+          "hard": "Resmål"
         }
       },
       "en": {
         "word": "Travel agent",
         "aliases": [],
         "hints": {
-          "easy": "Helps customers book trips and accommodation",
-          "normal": "Compares package deals and connection times",
-          "hard": "Checks what can be changed after booking"
+          "easy": "Trips",
+          "normal": "Bookings",
+          "hard": "Destinations"
         }
       }
     }
@@ -2690,25 +2690,25 @@
     "tags": [
       "customer-care"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Kundtjänstmedarbetare",
         "aliases": [],
         "hints": {
-          "easy": "Hjälper kunder med frågor och problem via exempelvis telefon",
-          "normal": "Letar upp en order som har blivit fel",
-          "hard": "För ärendet vidare när det kräver en specialist"
+          "easy": "Kundfrågor",
+          "normal": "Support",
+          "hard": "Återkoppling"
         }
       },
       "en": {
         "word": "Customer service representative",
         "aliases": [],
         "hints": {
-          "easy": "Helps customers with questions and problems by phone or online",
-          "normal": "Looks up an order that went wrong",
-          "hard": "Passes a tricky case to a specialist"
+          "easy": "Enquiries",
+          "normal": "Support",
+          "hard": "Feedback"
         }
       }
     }
@@ -2720,16 +2720,16 @@
     "tags": [
       "body-art"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Tatuerare",
         "aliases": [],
         "hints": {
-          "easy": "För in färgpigment i huden för att skapa ett motiv",
-          "normal": "Provar motivets placering med en mall",
-          "hard": "Ger kunden råd om läkningen"
+          "easy": "Bläck",
+          "normal": "Nål",
+          "hard": "Motiv"
         }
       },
       "en": {
@@ -2738,9 +2738,9 @@
           "Tattooist"
         ],
         "hints": {
-          "easy": "Puts permanent designs on skin",
-          "normal": "Checks placement using a stencil",
-          "hard": "Explains how to care for it while it heals"
+          "easy": "Ink",
+          "normal": "Needle",
+          "hard": "Design"
         }
       }
     }
@@ -2759,18 +2759,18 @@
         "word": "Bankkassör",
         "aliases": [],
         "hints": {
-          "easy": "Hjälper bankkunder att sätta in eller ta ut kontanter",
-          "normal": "Räknar sedlar framför kunden",
-          "hard": "Legitimation kan behövas för ett ärende"
+          "easy": "Bankkontor",
+          "normal": "Insättning",
+          "hard": "Uttag"
         }
       },
       "en": {
         "word": "Bank teller",
         "aliases": [],
         "hints": {
-          "easy": "Handles cash deposits and withdrawals at a branch",
-          "normal": "Counts the notes in front of a customer",
-          "hard": "Some transactions require proof of identity"
+          "easy": "Branch",
+          "normal": "Deposit",
+          "hard": "Withdrawal"
         }
       }
     }
@@ -2789,18 +2789,18 @@
         "word": "Lantbrukare",
         "aliases": [],
         "hints": {
-          "easy": "Driver ett jordbruk med grödor eller djur",
-          "normal": "Planerar säsongen efter vädret",
-          "hard": "Kostnaden för foder eller utsäde påverkar året"
+          "easy": "Gård",
+          "normal": "Skörd",
+          "hard": "Åkrar"
         }
       },
       "en": {
         "word": "Farmer",
         "aliases": [],
         "hints": {
-          "easy": "Runs a farm with crops or livestock",
-          "normal": "Plans the season around weather and growth",
-          "hard": "The cost of seed or feed shapes the year"
+          "easy": "Farm",
+          "normal": "Harvest",
+          "hard": "Fields"
         }
       }
     }
@@ -2819,18 +2819,18 @@
         "word": "Grönsaksodlare",
         "aliases": [],
         "hints": {
-          "easy": "Producerar exempelvis kål och morötter för försäljning",
-          "normal": "Planterar om småplantor vid rätt tid",
-          "hard": "Byter gärna plats på olika grödor mellan år"
+          "easy": "Grönsaker",
+          "normal": "Odling",
+          "hard": "Växthus"
         }
       },
       "en": {
         "word": "Vegetable grower",
         "aliases": [],
         "hints": {
-          "easy": "Raises crops such as carrots and cabbage for sale",
-          "normal": "Transplants seedlings at the right time",
-          "hard": "Rotates crops between plots"
+          "easy": "Vegetables",
+          "normal": "Cultivation",
+          "hard": "Greenhouse"
         }
       }
     }
@@ -2849,18 +2849,18 @@
         "word": "Arborist",
         "aliases": [],
         "hints": {
-          "easy": "Vårdar och beskär träd yrkesmässigt",
-          "normal": "Bedömer om en tung gren riskerar att falla",
-          "hard": "Kan behöva rep för att nå kronan"
+          "easy": "Träd",
+          "normal": "Beskärning",
+          "hard": "Klättring"
         }
       },
       "en": {
         "word": "Arborist",
         "aliases": [],
         "hints": {
-          "easy": "Cares for and prunes trees professionally",
-          "normal": "Assesses whether a heavy branch might fall",
-          "hard": "May climb into the canopy on a rope"
+          "easy": "Trees",
+          "normal": "Pruning",
+          "hard": "Climbing"
         }
       }
     }
@@ -2879,18 +2879,18 @@
         "word": "Trädgårdsmästare",
         "aliases": [],
         "hints": {
-          "easy": "Planterar och sköter växter i trädgårdar",
-          "normal": "Klipper häck och rensar rabatter",
-          "hard": "Känner efter om jorden är torr under ytan"
+          "easy": "Rabatter",
+          "normal": "Plantering",
+          "hard": "Beskärning"
         }
       },
       "en": {
         "word": "Gardener",
         "aliases": [],
         "hints": {
-          "easy": "Tends plants in gardens and on estates",
-          "normal": "Clips hedges and weeds the borders",
-          "hard": "Checks for moisture below the surface"
+          "easy": "Flowerbeds",
+          "normal": "Planting",
+          "hard": "Pruning"
         }
       }
     }
@@ -2902,25 +2902,25 @@
     "tags": [
       "flowers"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Florist",
         "aliases": [],
         "hints": {
-          "easy": "Binder buketter och gör blomsterarrangemang",
-          "normal": "Snittar stjälkar och väljer grönt som passar",
-          "hard": "Tänker på när knopparna ska slå ut"
+          "easy": "Bukett",
+          "normal": "Blomsterbutik",
+          "hard": "Snittblommor"
         }
       },
       "en": {
         "word": "Florist",
         "aliases": [],
         "hints": {
-          "easy": "Puts together bouquets and flower arrangements",
-          "normal": "Trims the stems and picks matching foliage",
-          "hard": "Thinks about when the buds will open"
+          "easy": "Bouquet",
+          "normal": "Shop",
+          "hard": "Blossoms"
         }
       }
     }
@@ -2939,18 +2939,18 @@
         "word": "Landskapsarkitekt",
         "aliases": [],
         "hints": {
-          "easy": "Ritar hur parker och utemiljöer ska se ut",
-          "normal": "Placerar gångar, planteringar och sittplatser",
-          "hard": "Vattnet behöver också någonstans att ta vägen"
+          "easy": "Utemiljö",
+          "normal": "Parkritning",
+          "hard": "Markplanering"
         }
       },
       "en": {
         "word": "Landscape architect",
         "aliases": [],
         "hints": {
-          "easy": "Designs parks and other outdoor spaces",
-          "normal": "Places paths, planted areas and seating",
-          "hard": "Rainwater needs somewhere to go"
+          "easy": "Outdoors",
+          "normal": "Design",
+          "hard": "Grading"
         }
       }
     }
@@ -2969,18 +2969,18 @@
         "word": "Skogsarbetare",
         "aliases": [],
         "hints": {
-          "easy": "Planterar, röjer eller avverkar skog",
-          "normal": "Väljer vilka unga stammar som ska sparas",
-          "hard": "Uppväxande träd behöver utrymme mellan sig"
+          "easy": "Skog",
+          "normal": "Avverkning",
+          "hard": "Motorsåg"
         }
       },
       "en": {
         "word": "Forestry worker",
         "aliases": [],
         "hints": {
-          "easy": "Plants, thins or harvests woodland",
-          "normal": "Chooses which young stems should stay",
-          "hard": "Young trees need space to grow"
+          "easy": "Forest",
+          "normal": "Logging",
+          "hard": "Chainsaw"
         }
       }
     }
@@ -2992,25 +2992,25 @@
     "tags": [
       "pollinators"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Biodlare",
         "aliases": [],
         "hints": {
-          "easy": "Sköter bisamhällen i kupor",
-          "normal": "Lyfter ramar för att undersöka samhället",
-          "hard": "En puff rök kan lugna det som surrar"
+          "easy": "Bikupa",
+          "normal": "Honung",
+          "hard": "Rökpust"
         }
       },
       "en": {
         "word": "Beekeeper",
         "aliases": [],
         "hints": {
-          "easy": "Looks after colonies in hives",
-          "normal": "Lifts frames to inspect the colony",
-          "hard": "A puff of smoke can calm the buzzing"
+          "easy": "Hive",
+          "normal": "Honey",
+          "hard": "Smoker"
         }
       }
     }
@@ -3022,25 +3022,25 @@
     "tags": [
       "animal-care"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Hovslagare",
         "aliases": [],
         "hints": {
-          "easy": "Verkar hovar och sätter på hästskor",
-          "normal": "Lyfter en fot i taget och kontrollerar balansen",
-          "hard": "Söm håller metallen på plats"
+          "easy": "Hästskor",
+          "normal": "Hovar",
+          "hard": "Söm"
         }
       },
       "en": {
         "word": "Farrier",
         "aliases": [],
         "hints": {
-          "easy": "Trims hooves and fits horseshoes",
-          "normal": "Holds one foot at a time to check its balance",
-          "hard": "Uses a few nails to secure the work"
+          "easy": "Horseshoes",
+          "normal": "Hooves",
+          "hard": "Nails"
         }
       }
     }
@@ -3052,16 +3052,16 @@
     "tags": [
       "animal-care"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Djurvårdare på djurpark",
         "aliases": [],
         "hints": {
-          "easy": "Matar och sköter exotiska djur i hägn",
-          "normal": "Förbereder något att undersöka i hägnet",
-          "hard": "Lägger märke till om en individ äter mindre"
+          "easy": "Djurpark",
+          "normal": "Utfodring",
+          "hard": "Hägn"
         }
       },
       "en": {
@@ -3070,9 +3070,9 @@
           "Zoo keeper"
         ],
         "hints": {
-          "easy": "Feeds and cares for animals in a zoo",
-          "normal": "Sets out something new for the animals to explore",
-          "hard": "Notices when one individual eats less"
+          "easy": "Zoo",
+          "normal": "Feeding",
+          "hard": "Enclosure"
         }
       }
     }
@@ -3091,18 +3091,18 @@
         "word": "Hundfrisör",
         "aliases": [],
         "hints": {
-          "easy": "Tvättar och klipper hundars päls",
-          "normal": "Reder ut tovor före klippningen",
-          "hard": "Ser till att kunden vågar stå kvar på bordet"
+          "easy": "Päls",
+          "normal": "Trimning",
+          "hard": "Borstning"
         }
       },
       "en": {
         "word": "Dog groomer",
         "aliases": [],
         "hints": {
-          "easy": "Washes and trims dogs' coats",
-          "normal": "Works through knots before clipping",
-          "hard": "Helps a nervous customer stay on the table"
+          "easy": "Fur",
+          "normal": "Trimming",
+          "hard": "Brushing"
         }
       }
     }
@@ -3121,18 +3121,18 @@
         "word": "Hundtränare",
         "aliases": [],
         "hints": {
-          "easy": "Lär hundar och deras ägare nya beteenden",
-          "normal": "Belönar precis när hunden gör rätt",
-          "hard": "Övningen ska även fungera bland störningar"
+          "easy": "Lydnad",
+          "normal": "Belöning",
+          "hard": "Klicker"
         }
       },
       "en": {
         "word": "Dog trainer",
         "aliases": [],
         "hints": {
-          "easy": "Teaches dogs and their owners new behaviours",
-          "normal": "Times a reward to the desired action",
-          "hard": "The lesson should hold up around distractions"
+          "easy": "Obedience",
+          "normal": "Reward",
+          "hard": "Clicker"
         }
       }
     }
@@ -3151,18 +3151,18 @@
         "word": "Bagare",
         "aliases": [],
         "hints": {
-          "easy": "Gör bröd och bullar i ugn",
-          "normal": "Låter degen jäsa före gräddning",
-          "hard": "Kan börja arbetsdagen långt före gryningen"
+          "easy": "Bröd",
+          "normal": "Deg",
+          "hard": "Ugn"
         }
       },
       "en": {
         "word": "Baker",
         "aliases": [],
         "hints": {
-          "easy": "Makes bread and buns for sale",
-          "normal": "Lets the dough rise before it goes in the oven",
-          "hard": "The shift can begin well before dawn"
+          "easy": "Bread",
+          "normal": "Dough",
+          "hard": "Oven"
         }
       }
     }
@@ -3175,25 +3175,25 @@
       "baking",
       "kitchen"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Konditor",
         "aliases": [],
         "hints": {
-          "easy": "Tillverkar tårtor, kakor och andra fina bakverk",
-          "normal": "Spritsar en dekoration i sista steget",
-          "hard": "Temperaturen spelar roll för chokladens glans"
+          "easy": "Bakelser",
+          "normal": "Tårtor",
+          "hard": "Glasyr"
         }
       },
       "en": {
         "word": "Pastry chef",
         "aliases": [],
         "hints": {
-          "easy": "Makes cakes, pastries and other desserts",
-          "normal": "Pipes on a decoration to finish",
-          "hard": "Temperature matters for glossy chocolate"
+          "easy": "Pastries",
+          "normal": "Cakes",
+          "hard": "Icing"
         }
       }
     }
@@ -3212,18 +3212,18 @@
         "word": "Kock",
         "aliases": [],
         "hints": {
-          "easy": "Lagar mat åt gäster i ett professionellt kök",
-          "normal": "Förbereder ingredienserna före serveringen",
-          "hard": "Flera delar av rätten måste bli klara samtidigt"
+          "easy": "Kök",
+          "normal": "Matlagning",
+          "hard": "Meny"
         }
       },
       "en": {
         "word": "Chef",
         "aliases": [],
         "hints": {
-          "easy": "Cooks meals for guests in a professional kitchen",
-          "normal": "Prepares ingredients ahead of service",
-          "hard": "Several parts of the dish must be ready together"
+          "easy": "Kitchen",
+          "normal": "Cooking",
+          "hard": "Menu"
         }
       }
     }
@@ -3242,9 +3242,9 @@
         "word": "Ostmakare",
         "aliases": [],
         "hints": {
-          "easy": "Förädlar mjölk till nya konsistenser och smaker",
-          "normal": "Skiljer ostmassan från vasslen",
-          "hard": "Följer hur ytan förändras under lagring"
+          "easy": "Ystning",
+          "normal": "Mjölk",
+          "hard": "Lagring"
         }
       },
       "en": {
@@ -3253,9 +3253,9 @@
           "Cheese maker"
         ],
         "hints": {
-          "easy": "Turns milk into wheels and blocks with different flavours",
-          "normal": "Separates the curds from the whey",
-          "hard": "Watches the surface change during ageing"
+          "easy": "Coagulation",
+          "normal": "Milk",
+          "hard": "Aging"
         }
       }
     }
@@ -3267,25 +3267,25 @@
     "tags": [
       "food-production"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Styckare",
         "aliases": [],
         "hints": {
-          "easy": "Delar stora köttbitar i mindre delar",
-          "normal": "Vet var snittet ska gå mellan leder",
-          "hard": "Olika detaljer passar för olika sorters tillagning"
+          "easy": "Kött",
+          "normal": "Styckschema",
+          "hard": "Kniv"
         }
       },
       "en": {
         "word": "Meat cutter",
         "aliases": [],
         "hints": {
-          "easy": "Breaks down large pieces of meat for sale",
-          "normal": "Knows where to separate the joints",
-          "hard": "Different cuts need different cooking methods"
+          "easy": "Meat",
+          "normal": "Cuts",
+          "hard": "Knife"
         }
       }
     }
@@ -3304,18 +3304,18 @@
         "word": "Fiskhandlare",
         "aliases": [],
         "hints": {
-          "easy": "Säljer fisk och skaldjur över disk",
-          "normal": "Färska exemplar ligger ofta på is",
-          "hard": "Väger upp lagom mycket till en gryta"
+          "easy": "Fiskdisk",
+          "normal": "Filéering",
+          "hard": "Isbädd"
         }
       },
       "en": {
         "word": "Fishmonger",
         "aliases": [],
         "hints": {
-          "easy": "Sells fish and shellfish at a counter",
-          "normal": "Keeps the fresh catch on ice",
-          "hard": "Can suggest what would work well in a stew"
+          "easy": "Counter",
+          "normal": "Filleting",
+          "hard": "Ice"
         }
       }
     }

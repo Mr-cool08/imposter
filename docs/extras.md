@@ -1,6 +1,6 @@
 # Egna ord
 
-`app/static/js/extras.mjs` innehåller redigeraren för egna ordpaket. Skalet monterar den via `mountExtras(ctx)`. Funktionen fyller `ctx.root` enligt `docs/ui.md`. Kontexten använder `ctx.lang`, `ctx.t(key, values?)` och skalets DOM-hjälpare. Flask inkluderar JavaScript- och CSS-filerna i offline-skalet. Texten hämtas från `data/i18n/extras.<lang>.json` via den gemensamma språkrouten.
+`app/static/js/extras.mjs` innehåller redigeraren för egna ordpaket. Skalet monterar den via `mountExtras(ctx)`. Funktionen fyller `ctx.root` enligt `docs/ui.md`. Kontexten använder `ctx.lang`, `ctx.t(key, values?)` och skalets DOM-hjälpare. Texten hämtas från `data/i18n/extras.<lang>.json` via den gemensamma språkrouten.
 
 ## Integration med spel
 

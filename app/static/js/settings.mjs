@@ -491,10 +491,6 @@ export function mountSettings(ctx, {
         }
     }
 
-    function refreshAfterOffline() {
-        if (selection.error) void refreshSelection();
-    }
-
     const modeInput = select("mode", value.mode, modeOptions(), selectMode);
     const basic = el("div", { class: "settings-grid settings-modes" },
         el("div", { class: "settings-mode stack" }, modeInput, modeDescription),
@@ -514,7 +510,6 @@ export function mountSettings(ctx, {
     editor.append(basic, modeRange, catalog, advanced, pool, issuesList);
     root.replaceChildren(editor);
     renderMode();
-    window.addEventListener("imposter:offline-change", refreshAfterOffline, { signal: controller.signal });
     ctx.signal?.addEventListener("abort", destroy, { once: true, signal: controller.signal });
     queueMicrotask(() => void refreshSelection());
 

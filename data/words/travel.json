@@ -13,18 +13,18 @@
         "word": "Sverige",
         "aliases": [],
         "hints": {
-          "easy": "Kungarike med tre kronor",
-          "normal": "Dalahästar",
-          "hard": "Midsommarstång"
+          "easy": "Stockholm",
+          "normal": "Midsommar",
+          "hard": "Älgar"
         }
       },
       "en": {
         "word": "Sweden",
         "aliases": [],
         "hints": {
-          "easy": "Kingdom of three crowns",
-          "normal": "Painted Dala horses",
-          "hard": "Summer maypoles"
+          "easy": "Stockholm",
+          "normal": "Midsummer",
+          "hard": "Moose"
         }
       }
     }
@@ -43,8 +43,8 @@
         "word": "Norge",
         "aliases": [],
         "hints": {
-          "easy": "Fjordar längs Atlantkusten",
-          "normal": "En lång gräns mot Sverige",
+          "easy": "Oslo",
+          "normal": "Fjord",
           "hard": "Brunost"
         }
       },
@@ -52,9 +52,9 @@
         "word": "Norway",
         "aliases": [],
         "hints": {
-          "easy": "Fjords along the Atlantic coast",
-          "normal": "Long land border with Sweden",
-          "hard": "Brown whey cheese"
+          "easy": "Oslo",
+          "normal": "Fjord",
+          "hard": "Brunost"
         }
       }
     }
@@ -73,18 +73,18 @@
         "word": "Finland",
         "aliases": [],
         "hints": {
-          "easy": "Landet med tusen sjöar",
-          "normal": "Bastu och björkris",
-          "hard": "Sisu när det tar emot"
+          "easy": "Helsingfors",
+          "normal": "Bastu",
+          "hard": "Mumintroll"
         }
       },
       "en": {
         "word": "Finland",
         "aliases": [],
         "hints": {
-          "easy": "Land of a thousand lakes",
-          "normal": "Birch whisks in saunas",
-          "hard": "Grit through a long winter"
+          "easy": "Helsinki",
+          "normal": "Sauna",
+          "hard": "Moomins"
         }
       }
     }
@@ -103,18 +103,18 @@
         "word": "Danmark",
         "aliases": [],
         "hints": {
-          "easy": "Kungariket på Jylland",
-          "normal": "Bron mot Malmö",
-          "hard": "Röda pølser"
+          "easy": "Köpenhamn",
+          "normal": "Lego",
+          "hard": "Hygge"
         }
       },
       "en": {
         "word": "Denmark",
         "aliases": [],
         "hints": {
-          "easy": "Kingdom on the Jutland peninsula",
-          "normal": "Bridge towards Malmö",
-          "hard": "Red hot dogs"
+          "easy": "Copenhagen",
+          "normal": "Lego",
+          "hard": "Hygge"
         }
       }
     }
@@ -133,18 +133,18 @@
         "word": "Island",
         "aliases": [],
         "hints": {
-          "easy": "Vulkanö mitt i Nordatlanten",
-          "normal": "Gejsrar och heta källor",
-          "hard": "Skyr till frukost"
+          "easy": "Reykjavik",
+          "normal": "Vulkaner",
+          "hard": "Gejsrar"
         }
       },
       "en": {
         "word": "Iceland",
         "aliases": [],
         "hints": {
-          "easy": "Land of volcanoes on the Mid-Atlantic Ridge",
-          "normal": "Geysers and hot springs",
-          "hard": "Cultured dairy eaten with a spoon"
+          "easy": "Reykjavik",
+          "normal": "Volcanoes",
+          "hard": "Geysers"
         }
       }
     }
@@ -166,9 +166,9 @@
           "UK"
         ],
         "hints": {
-          "easy": "Örike med London som huvudstad",
-          "normal": "Pund och vänstertrafik",
-          "hard": "Röda telefonkiosker"
+          "easy": "London",
+          "normal": "Kungahus",
+          "hard": "Pund"
         }
       },
       "en": {
@@ -177,9 +177,9 @@
           "UK"
         ],
         "hints": {
-          "easy": "Island kingdom governed from London",
-          "normal": "Pounds and left-hand traffic",
-          "hard": "Red telephone boxes"
+          "easy": "London",
+          "normal": "Royalty",
+          "hard": "Pound"
         }
       }
     }
@@ -198,18 +198,18 @@
         "word": "Irland",
         "aliases": [],
         "hints": {
-          "easy": "Smaragdön väster om Storbritannien",
-          "normal": "Dublin och gröna fält",
-          "hard": "Treklöver"
+          "easy": "Dublin",
+          "normal": "Klöver",
+          "hard": "Harpa"
         }
       },
       "en": {
         "word": "Ireland",
         "aliases": [],
         "hints": {
-          "easy": "Emerald Isle west of Britain",
-          "normal": "Dublin and green fields",
-          "hard": "Shamrocks"
+          "easy": "Dublin",
+          "normal": "Shamrock",
+          "hard": "Harp"
         }
       }
     }
@@ -228,18 +228,18 @@
         "word": "Frankrike",
         "aliases": [],
         "hints": {
-          "easy": "Landet med Paris som huvudstad",
-          "normal": "Baguetter och ett cykellopp",
-          "hard": "Gallisk tupp"
+          "easy": "Paris",
+          "normal": "Baguetter",
+          "hard": "Trikolor"
         }
       },
       "en": {
         "word": "France",
         "aliases": [],
         "hints": {
-          "easy": "Paris is its capital",
-          "normal": "Baguettes and a cycling tour",
-          "hard": "Gallic rooster"
+          "easy": "Paris",
+          "normal": "Baguettes",
+          "hard": "Tricolor"
         }
       }
     }
@@ -258,18 +258,18 @@
         "word": "Spanien",
         "aliases": [],
         "hints": {
-          "easy": "Kanarierna hör till landet",
-          "normal": "Tapas och flamenco",
-          "hard": "Sena middagar"
+          "easy": "Madrid",
+          "normal": "Flamenco",
+          "hard": "Tapas"
         }
       },
       "en": {
         "word": "Spain",
         "aliases": [],
         "hints": {
-          "easy": "Country that includes the Canaries",
-          "normal": "Tapas and flamenco",
-          "hard": "Late dinners"
+          "easy": "Madrid",
+          "normal": "Flamenco",
+          "hard": "Tapas"
         }
       }
     }
@@ -281,25 +281,25 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Portugal",
         "aliases": [],
         "hints": {
-          "easy": "Lissabon och Atlantkusten",
-          "normal": "Fadosång och portvin",
-          "hard": "Korkekar"
+          "easy": "Lissabon",
+          "normal": "Fado",
+          "hard": "Sardiner"
         }
       },
       "en": {
         "word": "Portugal",
         "aliases": [],
         "hints": {
-          "easy": "Lisbon and the Atlantic coast",
-          "normal": "Fado songs and fortified wine",
-          "hard": "Cork oaks"
+          "easy": "Lisbon",
+          "normal": "Fado",
+          "hard": "Sardines"
         }
       }
     }
@@ -318,18 +318,18 @@
         "word": "Italien",
         "aliases": [],
         "hints": {
-          "easy": "Stöveln i Medelhavet",
-          "normal": "Rom och renässansen",
-          "hard": "Trikolor med grönt vid stången"
+          "easy": "Rom",
+          "normal": "Pizza",
+          "hard": "Stövel"
         }
       },
       "en": {
         "word": "Italy",
         "aliases": [],
         "hints": {
-          "easy": "Boot-shaped country in the Mediterranean",
-          "normal": "Rome and the Renaissance",
-          "hard": "Tricolour with green at the hoist"
+          "easy": "Rome",
+          "normal": "Pizza",
+          "hard": "Boot"
         }
       }
     }
@@ -348,18 +348,18 @@
         "word": "Grekland",
         "aliases": [],
         "hints": {
-          "easy": "Aten och öarna i Egeiska havet",
-          "normal": "Olivlundar och antika tempel",
-          "hard": "Blåvita ränder"
+          "easy": "Aten",
+          "normal": "Oliver",
+          "hard": "Feta"
         }
       },
       "en": {
         "word": "Greece",
         "aliases": [],
         "hints": {
-          "easy": "Athens and the Aegean islands",
-          "normal": "Olive groves and ancient temples",
-          "hard": "Blue and white stripes"
+          "easy": "Athens",
+          "normal": "Olives",
+          "hard": "Feta"
         }
       }
     }
@@ -378,18 +378,18 @@
         "word": "Polen",
         "aliases": [],
         "hints": {
-          "easy": "Landet med Warszawa och Kraków",
-          "normal": "Pierogi och Wisła",
-          "hard": "Bärnsten vid Östersjön"
+          "easy": "Warszawa",
+          "normal": "Pierogi",
+          "hard": "Wisła"
         }
       },
       "en": {
         "word": "Poland",
         "aliases": [],
         "hints": {
-          "easy": "Home to Warsaw and Kraków",
-          "normal": "Pierogi and the Vistula",
-          "hard": "Baltic amber"
+          "easy": "Warsaw",
+          "normal": "Pierogi",
+          "hard": "Vistula"
         }
       }
     }
@@ -408,18 +408,18 @@
         "word": "Tyskland",
         "aliases": [],
         "hints": {
-          "easy": "Berlin och förbundsländerna",
-          "normal": "Rhen och kringlor",
-          "hard": "Svart, rött och guld"
+          "easy": "Berlin",
+          "normal": "Autobahn",
+          "hard": "Pretzels"
         }
       },
       "en": {
         "word": "Germany",
         "aliases": [],
         "hints": {
-          "easy": "Berlin and the federal states",
-          "normal": "Rhine and pretzels",
-          "hard": "Black, red and gold"
+          "easy": "Berlin",
+          "normal": "Autobahn",
+          "hard": "Pretzels"
         }
       }
     }
@@ -431,25 +431,25 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Schweiz",
         "aliases": [],
         "hints": {
-          "easy": "Alpland med vitt kors på flaggan",
-          "normal": "Fyra nationella språk",
-          "hard": "Kantonernas vapen på bilskyltarna"
+          "easy": "Alperna",
+          "normal": "Choklad",
+          "hard": "Neutralitet"
         }
       },
       "en": {
         "word": "Switzerland",
         "aliases": [],
         "hints": {
-          "easy": "Alpine country with a white cross",
-          "normal": "Four national languages",
-          "hard": "Cantonal shields on number plates"
+          "easy": "Alps",
+          "normal": "Chocolate",
+          "hard": "Neutrality"
         }
       }
     }
@@ -461,25 +461,25 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Österrike",
         "aliases": [],
         "hints": {
-          "easy": "Alpland med Wien som huvudstad",
-          "normal": "Valser och Sachertårta",
-          "hard": "Edelweiss på alpängarna"
+          "easy": "Wien",
+          "normal": "Vals",
+          "hard": "Schnitzel"
         }
       },
       "en": {
         "word": "Austria",
         "aliases": [],
         "hints": {
-          "easy": "Alpine country governed from Vienna",
-          "normal": "Waltzes and Sachertorte",
-          "hard": "White blossoms above the tree line"
+          "easy": "Vienna",
+          "normal": "Waltz",
+          "hard": "Schnitzel"
         }
       }
     }
@@ -491,16 +491,16 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Nederländerna",
         "aliases": [],
         "hints": {
-          "easy": "Landet med tulpanfält och polder",
-          "normal": "Orange på kungens dag",
-          "hard": "Diken bakom vallarna"
+          "easy": "Amsterdam",
+          "normal": "Tulpaner",
+          "hard": "Väderkvarnar"
         }
       },
       "en": {
@@ -509,9 +509,9 @@
           "The Netherlands"
         ],
         "hints": {
-          "easy": "Country of tulips and polders",
-          "normal": "Orange on King's Day",
-          "hard": "Ditches behind the dikes"
+          "easy": "Amsterdam",
+          "normal": "Tulips",
+          "hard": "Windmills"
         }
       }
     }
@@ -530,18 +530,18 @@
         "word": "Kroatien",
         "aliases": [],
         "hints": {
-          "easy": "Dubrovnik och den adriatiska kusten",
-          "normal": "Zagreb och dalmatiska öar",
-          "hard": "Schackrutigt vapen"
+          "easy": "Zagreb",
+          "normal": "Adriatiska",
+          "hard": "Dubrovnik"
         }
       },
       "en": {
         "word": "Croatia",
         "aliases": [],
         "hints": {
-          "easy": "Dubrovnik and the Adriatic coast",
-          "normal": "Zagreb and Dalmatian islands",
-          "hard": "Checkerboard coat of arms"
+          "easy": "Zagreb",
+          "normal": "Adriatic",
+          "hard": "Dubrovnik"
         }
       }
     }
@@ -560,18 +560,18 @@
         "word": "Georgien",
         "aliases": [],
         "hints": {
-          "easy": "Tbilisi och Kaukasus",
-          "normal": "Vin jäst i lerkrukor",
-          "hard": "Fem kors på flaggan"
+          "easy": "Tbilisi",
+          "normal": "Kaukasus",
+          "hard": "Khachapuri"
         }
       },
       "en": {
         "word": "Georgia",
         "aliases": [],
         "hints": {
-          "easy": "Tbilisi and the Caucasus",
-          "normal": "Wine fermented in clay jars",
-          "hard": "Five crosses on the flag"
+          "easy": "Tbilisi",
+          "normal": "Caucasus",
+          "hard": "Khachapuri"
         }
       }
     }
@@ -590,18 +590,18 @@
         "word": "Egypten",
         "aliases": [],
         "hints": {
-          "easy": "Pyramider vid Nilens deltaområde",
-          "normal": "Faraoner och flodbåtar",
-          "hard": "Papyrusrullar"
+          "easy": "Kairo",
+          "normal": "Pyramider",
+          "hard": "Nilen"
         }
       },
       "en": {
         "word": "Egypt",
         "aliases": [],
         "hints": {
-          "easy": "Pyramids near the Nile Delta",
-          "normal": "Pharaohs and riverboats",
-          "hard": "Papyrus scrolls"
+          "easy": "Cairo",
+          "normal": "Pyramids",
+          "hard": "Nile"
         }
       }
     }
@@ -613,25 +613,25 @@
     "tags": [
       "africa"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Marocko",
         "aliases": [],
         "hints": {
-          "easy": "Kungarike vid Gibraltarsundet",
-          "normal": "Atlasbergen och myntate",
-          "hard": "Grön stjärna på rött"
+          "easy": "Marrakech",
+          "normal": "Atlasbergen",
+          "hard": "Tagine"
         }
       },
       "en": {
         "word": "Morocco",
         "aliases": [],
         "hints": {
-          "easy": "Kingdom by the Strait of Gibraltar",
-          "normal": "Atlas Mountains and mint tea",
-          "hard": "Green star on red"
+          "easy": "Marrakech",
+          "normal": "Atlas",
+          "hard": "Tagine"
         }
       }
     }
@@ -650,18 +650,18 @@
         "word": "Etiopien",
         "aliases": [],
         "hints": {
-          "easy": "Landet med Addis Abeba",
-          "normal": "Högland och kaffeceremonier",
-          "hard": "Injera"
+          "easy": "Kaffe",
+          "normal": "Injera",
+          "hard": "Högland"
         }
       },
       "en": {
         "word": "Ethiopia",
         "aliases": [],
         "hints": {
-          "easy": "Home to Addis Ababa",
-          "normal": "Highlands and coffee ceremonies",
-          "hard": "Injera flatbread"
+          "easy": "Coffee",
+          "normal": "Injera",
+          "hard": "Highlands"
         }
       }
     }
@@ -673,25 +673,25 @@
     "tags": [
       "africa"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Kenya",
         "aliases": [],
         "hints": {
-          "easy": "Nairobi och savannerna",
-          "normal": "Vandringarna i Masai Mara",
-          "hard": "Sköld och två spjut på flaggan"
+          "easy": "Nairobi",
+          "normal": "Safari",
+          "hard": "Masajer"
         }
       },
       "en": {
         "word": "Kenya",
         "aliases": [],
         "hints": {
-          "easy": "Nairobi and the savannas",
-          "normal": "Migrating herds in the Maasai Mara",
-          "hard": "Shield between two spears on the flag"
+          "easy": "Nairobi",
+          "normal": "Safari",
+          "hard": "Maasai"
         }
       }
     }
@@ -710,18 +710,18 @@
         "word": "Tanzania",
         "aliases": [],
         "hints": {
-          "easy": "Kilimanjaro och Zanzibar",
-          "normal": "Serengetis slätter",
-          "hard": "Svart diagonal på flaggan"
+          "easy": "Kilimanjaro",
+          "normal": "Serengeti",
+          "hard": "Zanzibar"
         }
       },
       "en": {
         "word": "Tanzania",
         "aliases": [],
         "hints": {
-          "easy": "Kilimanjaro and Zanzibar",
-          "normal": "Plains of the Serengeti",
-          "hard": "Black diagonal across the flag"
+          "easy": "Kilimanjaro",
+          "normal": "Serengeti",
+          "hard": "Zanzibar"
         }
       }
     }
@@ -733,25 +733,25 @@
     "tags": [
       "africa"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Sydafrika",
         "aliases": [],
         "hints": {
-          "easy": "Kapstaden och Taffelberget",
-          "normal": "Nelson Mandelas hemland",
-          "hard": "Rand"
+          "easy": "Johannesburg",
+          "normal": "Mandela",
+          "hard": "Proteor"
         }
       },
       "en": {
         "word": "South Africa",
         "aliases": [],
         "hints": {
-          "easy": "Cape Town and Table Mountain",
-          "normal": "Nelson Mandela's homeland",
-          "hard": "Rand currency"
+          "easy": "Johannesburg",
+          "normal": "Mandela",
+          "hard": "Proteas"
         }
       }
     }
@@ -770,18 +770,18 @@
         "word": "Kanada",
         "aliases": [],
         "hints": {
-          "easy": "Lönnlöv på flaggan",
-          "normal": "Ottawa och stora barrskogar",
-          "hard": "Röda riduniformer"
+          "easy": "Lönnlöv",
+          "normal": "Ishockey",
+          "hard": "Ottawa"
         }
       },
       "en": {
         "word": "Canada",
         "aliases": [],
         "hints": {
-          "easy": "Maple leaf on the flag",
-          "normal": "Ottawa and vast conifer forests",
-          "hard": "Scarlet mounted police uniforms"
+          "easy": "Maple",
+          "normal": "Hockey",
+          "hard": "Ottawa"
         }
       }
     }
@@ -802,9 +802,9 @@
           "Förenta staterna"
         ],
         "hints": {
-          "easy": "Femtio delstater",
-          "normal": "Örnen på dollarn",
-          "hard": "Kust mot både Atlanten och Stilla havet"
+          "easy": "Hollywood",
+          "normal": "Frihetsgudinnan",
+          "hard": "Dollar"
         }
       },
       "en": {
@@ -815,9 +815,9 @@
           "US"
         ],
         "hints": {
-          "easy": "Fifty states",
-          "normal": "Eagle on the dollar",
-          "hard": "Atlantic and Pacific coastlines"
+          "easy": "Hollywood",
+          "normal": "Liberty",
+          "hard": "Dollar"
         }
       }
     }
@@ -836,18 +836,18 @@
         "word": "Mexiko",
         "aliases": [],
         "hints": {
-          "easy": "Landet mellan USA och Guatemala",
-          "normal": "Mariachi och agave",
-          "hard": "Örn med orm"
+          "easy": "Tacos",
+          "normal": "Mariachi",
+          "hard": "Kaktusar"
         }
       },
       "en": {
         "word": "Mexico",
         "aliases": [],
         "hints": {
-          "easy": "Between the United States and Guatemala",
-          "normal": "Mariachi and agave",
-          "hard": "Eagle holding a snake"
+          "easy": "Tacos",
+          "normal": "Mariachi",
+          "hard": "Cacti"
         }
       }
     }
@@ -866,18 +866,18 @@
         "word": "Brasilien",
         "aliases": [],
         "hints": {
-          "easy": "Sydamerikas största land",
-          "normal": "Samba och en grön flagga",
-          "hard": "Portugisiska på en annan kontinent"
+          "easy": "Amazonas",
+          "normal": "Karneval",
+          "hard": "Samba"
         }
       },
       "en": {
         "word": "Brazil",
         "aliases": [],
         "hints": {
-          "easy": "Largest country in South America",
-          "normal": "Samba and a green flag",
-          "hard": "Portuguese across the Atlantic"
+          "easy": "Amazon",
+          "normal": "Carnival",
+          "hard": "Samba"
         }
       }
     }
@@ -889,25 +889,25 @@
     "tags": [
       "south-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Argentina",
         "aliases": [],
         "hints": {
-          "easy": "Buenos Aires och pampas",
-          "normal": "Tango och Patagonien",
-          "hard": "Sol mellan ljusblå band"
+          "easy": "Tango",
+          "normal": "Pampas",
+          "hard": "Mate"
         }
       },
       "en": {
         "word": "Argentina",
         "aliases": [],
         "hints": {
-          "easy": "Buenos Aires and the Pampas",
-          "normal": "Tango and Patagonia",
-          "hard": "Sun between light blue stripes"
+          "easy": "Tango",
+          "normal": "Pampas",
+          "hard": "Mate"
         }
       }
     }
@@ -926,18 +926,18 @@
         "word": "Chile",
         "aliases": [],
         "hints": {
-          "easy": "Smalt land längs Andernas västsida",
-          "normal": "Atacama och sydliga fjordar",
-          "hard": "En ensam stjärna på flaggan"
+          "easy": "Anderna",
+          "normal": "Atacama",
+          "hard": "Santiago"
         }
       },
       "en": {
         "word": "Chile",
         "aliases": [],
         "hints": {
-          "easy": "Long narrow country west of the Andes",
-          "normal": "Atacama and southern fjords",
-          "hard": "Lone star on its flag"
+          "easy": "Andes",
+          "normal": "Atacama",
+          "hard": "Santiago"
         }
       }
     }
@@ -949,25 +949,25 @@
     "tags": [
       "south-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Peru",
         "aliases": [],
         "hints": {
-          "easy": "Andinskt land med Machu Picchu",
-          "normal": "Lima och inkavägar",
-          "hard": "Ceviche längs Stillahavskusten"
+          "easy": "Lima",
+          "normal": "Inka",
+          "hard": "Lamor"
         }
       },
       "en": {
         "word": "Peru",
         "aliases": [],
         "hints": {
-          "easy": "Andean country with Machu Picchu",
-          "normal": "Lima and Inca roads",
-          "hard": "Ceviche on the Pacific coast"
+          "easy": "Lima",
+          "normal": "Inca",
+          "hard": "Llamas"
         }
       }
     }
@@ -986,18 +986,18 @@
         "word": "Japan",
         "aliases": [],
         "hints": {
-          "easy": "Öriket med Tokyo och Fuji",
-          "normal": "Röd cirkel på vitt",
-          "hard": "Snabba tåg under körsbärsblomningen"
+          "easy": "Tokyo",
+          "normal": "Sushi",
+          "hard": "Körsbärsblomning"
         }
       },
       "en": {
         "word": "Japan",
         "aliases": [],
         "hints": {
-          "easy": "Island nation of Tokyo and Mount Fuji",
-          "normal": "Red disc on white",
-          "hard": "Fast trains under cherry blossoms"
+          "easy": "Tokyo",
+          "normal": "Sushi",
+          "hard": "Blossoms"
         }
       }
     }
@@ -1009,25 +1009,25 @@
     "tags": [
       "asia"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Sydkorea",
         "aliases": [],
         "hints": {
-          "easy": "Seoul och den delade halvön",
-          "normal": "K-pop och kimchi",
-          "hard": "Hangul"
+          "easy": "Seoul",
+          "normal": "Kimchi",
+          "hard": "Taekwondo"
         }
       },
       "en": {
         "word": "South Korea",
         "aliases": [],
         "hints": {
-          "easy": "Seoul and a divided peninsula",
-          "normal": "K-pop and kimchi",
-          "hard": "Hangul script"
+          "easy": "Seoul",
+          "normal": "Kimchi",
+          "hard": "Taekwondo"
         }
       }
     }
@@ -1046,18 +1046,18 @@
         "word": "Indien",
         "aliases": [],
         "hints": {
-          "easy": "Ganges och Taj Mahal",
-          "normal": "Monsunregn och Diwali",
-          "hard": "Hjul med tjugofyra ekrar"
+          "easy": "Bollywood",
+          "normal": "Curry",
+          "hard": "Monsun"
         }
       },
       "en": {
         "word": "India",
         "aliases": [],
         "hints": {
-          "easy": "Ganges and the Taj Mahal",
-          "normal": "Monsoon rains and Diwali",
-          "hard": "Wheel with twenty-four spokes"
+          "easy": "Bollywood",
+          "normal": "Curry",
+          "hard": "Monsoon"
         }
       }
     }
@@ -1076,18 +1076,18 @@
         "word": "Nepal",
         "aliases": [],
         "hints": {
-          "easy": "Himalayalandet med Katmandu",
-          "normal": "Vandrare på väg mot Everest",
-          "hard": "Flagga med två spetsar"
+          "easy": "Everest",
+          "normal": "Himalaya",
+          "hard": "Katmandu"
         }
       },
       "en": {
         "word": "Nepal",
         "aliases": [],
         "hints": {
-          "easy": "Himalayan country with Kathmandu",
-          "normal": "Trekkers heading for Everest",
-          "hard": "Flag with two pennants"
+          "easy": "Everest",
+          "normal": "Himalayas",
+          "hard": "Kathmandu"
         }
       }
     }
@@ -1106,18 +1106,18 @@
         "word": "Thailand",
         "aliases": [],
         "hints": {
-          "easy": "Bangkok och Andamansjöns stränder",
-          "normal": "Munkar i saffransfärgade dräkter",
-          "hard": "Vattenstänk på nyåret"
+          "easy": "Bangkok",
+          "normal": "Tempel",
+          "hard": "Elefanter"
         }
       },
       "en": {
         "word": "Thailand",
         "aliases": [],
         "hints": {
-          "easy": "Bangkok and Andaman Sea beaches",
-          "normal": "Monks in saffron robes",
-          "hard": "Water splashing at New Year"
+          "easy": "Bangkok",
+          "normal": "Temples",
+          "hard": "Elephants"
         }
       }
     }
@@ -1129,25 +1129,25 @@
     "tags": [
       "asia"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Vietnam",
         "aliases": [],
         "hints": {
-          "easy": "Hanoi och Mekongdeltat",
-          "normal": "Risterrasser och nudelsoppa",
-          "hard": "Lång kust formad som ett S"
+          "easy": "Hanoi",
+          "normal": "Pho",
+          "hard": "Mekong"
         }
       },
       "en": {
         "word": "Vietnam",
         "aliases": [],
         "hints": {
-          "easy": "Hanoi and the Mekong Delta",
-          "normal": "Rice terraces and noodle soup",
-          "hard": "Long S-shaped coast"
+          "easy": "Hanoi",
+          "normal": "Pho",
+          "hard": "Mekong"
         }
       }
     }
@@ -1166,18 +1166,18 @@
         "word": "Australien",
         "aliases": [],
         "hints": {
-          "easy": "Landet med kängurur och Canberra",
-          "normal": "Röda inlandet",
-          "hard": "Södra korset på flaggan"
+          "easy": "Känguru",
+          "normal": "Sydney",
+          "hard": "Eukalyptus"
         }
       },
       "en": {
         "word": "Australia",
         "aliases": [],
         "hints": {
-          "easy": "Home of kangaroos and Canberra",
-          "normal": "Red interior",
-          "hard": "Southern Cross on the flag"
+          "easy": "Kangaroo",
+          "normal": "Sydney",
+          "hard": "Eucalyptus"
         }
       }
     }
@@ -1189,25 +1189,25 @@
     "tags": [
       "oceania"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Nya Zeeland",
         "aliases": [],
         "hints": {
-          "easy": "Två huvudöar och Wellington",
-          "normal": "Māorikultur och kiwifåglar",
-          "hard": "Fårbeten under sydliga stjärnor"
+          "easy": "Kiwi",
+          "normal": "Maori",
+          "hard": "Får"
         }
       },
       "en": {
         "word": "New Zealand",
         "aliases": [],
         "hints": {
-          "easy": "Two main islands and Wellington",
-          "normal": "Māori culture and kiwi birds",
-          "hard": "Sheep pastures under southern stars"
+          "easy": "Kiwi",
+          "normal": "Māori",
+          "hard": "Sheep"
         }
       }
     }
@@ -1226,18 +1226,18 @@
         "word": "Lesotho",
         "aliases": [],
         "hints": {
-          "easy": "Bergsrike helt omgivet av Sydafrika",
-          "normal": "Maseru vid gränsfloden",
-          "hard": "Vävd konformad hatt på flaggan"
+          "easy": "Enklav",
+          "normal": "Maseru",
+          "hard": "Bergsland"
         }
       },
       "en": {
         "word": "Lesotho",
         "aliases": [],
         "hints": {
-          "easy": "Mountain kingdom surrounded by South Africa",
-          "normal": "Maseru by the border river",
-          "hard": "Woven conical hat on the flag"
+          "easy": "Enclave",
+          "normal": "Maseru",
+          "hard": "Mountainous"
         }
       }
     }
@@ -1258,9 +1258,9 @@
           "Swaziland"
         ],
         "hints": {
-          "easy": "Litet kungarike mellan Sydafrika och Moçambique",
-          "normal": "Mbabane och Lubombobergen",
-          "hard": "Svartvit sköld på flaggan"
+          "easy": "Mbabane",
+          "normal": "Monarki",
+          "hard": "Inland"
         }
       },
       "en": {
@@ -1269,9 +1269,9 @@
           "Swaziland"
         ],
         "hints": {
-          "easy": "Small kingdom between South Africa and Mozambique",
-          "normal": "Mbabane and the Lubombo hills",
-          "hard": "Black-and-white shield on the flag"
+          "easy": "Mbabane",
+          "normal": "Monarchy",
+          "hard": "Landlocked"
         }
       }
     }
@@ -1290,18 +1290,18 @@
         "word": "Stockholm",
         "aliases": [],
         "hints": {
-          "easy": "Huvudstaden vid Mälarens utlopp",
-          "normal": "Skärgårdsbåtar vid kajerna",
-          "hard": "Tunnelbanans bergrum med konst"
+          "easy": "Huvudstad",
+          "normal": "Tunnelbana",
+          "hard": "Skärgård"
         }
       },
       "en": {
         "word": "Stockholm",
         "aliases": [],
         "hints": {
-          "easy": "Capital at the outlet of Lake Mälaren",
-          "normal": "Archipelago ferries at the quays",
-          "hard": "Art in underground stations"
+          "easy": "Capital",
+          "normal": "Subway",
+          "hard": "Archipelago"
         }
       }
     }
@@ -1320,9 +1320,9 @@
         "word": "Göteborg",
         "aliases": [],
         "hints": {
-          "easy": "Svensk hamnstad vid Göta älv",
-          "normal": "Spårvagnar till Liseberg",
-          "hard": "Feskekôrka"
+          "easy": "Liseberg",
+          "normal": "Spårvagn",
+          "hard": "Göta"
         }
       },
       "en": {
@@ -1331,9 +1331,9 @@
           "Göteborg"
         ],
         "hints": {
-          "easy": "Swedish port at the Göta River",
-          "normal": "Trams to Liseberg",
-          "hard": "Church-shaped fish market"
+          "easy": "Liseberg",
+          "normal": "Trams",
+          "hard": "Göta"
         }
       }
     }
@@ -1352,9 +1352,9 @@
         "word": "Malmö",
         "aliases": [],
         "hints": {
-          "easy": "Skånsk stad med ett vridet höghus",
-          "normal": "Svenska änden av Öresundsbron",
-          "hard": "Parker vid kanalen"
+          "easy": "Skåne",
+          "normal": "Öresund",
+          "hard": "Svängd"
         }
       },
       "en": {
@@ -1363,9 +1363,9 @@
           "Malmo"
         ],
         "hints": {
-          "easy": "Scanian city with a twisting tower",
-          "normal": "Swedish end of the Øresund Bridge",
-          "hard": "Canal-side parks"
+          "easy": "Scania",
+          "normal": "Öresund",
+          "hard": "Twisting"
         }
       }
     }
@@ -1384,18 +1384,18 @@
         "word": "Köpenhamn",
         "aliases": [],
         "hints": {
-          "easy": "Tivoli och den lilla sjöjungfrun",
-          "normal": "Färgglada hus i Nyhavn",
-          "hard": "Cyklar runt sjöarna"
+          "easy": "Danmark",
+          "normal": "Tivoli",
+          "hard": "Sjöjungfru"
         }
       },
       "en": {
         "word": "Copenhagen",
         "aliases": [],
         "hints": {
-          "easy": "Tivoli and the Little Mermaid",
-          "normal": "Colourful houses in Nyhavn",
-          "hard": "Cyclists around the lakes"
+          "easy": "Denmark",
+          "normal": "Tivoli",
+          "hard": "Mermaid"
         }
       }
     }
@@ -1414,18 +1414,18 @@
         "word": "Oslo",
         "aliases": [],
         "hints": {
-          "easy": "Norsk huvudstad vid en fjord",
-          "normal": "Operataket går att promenera på",
-          "hard": "Skulpturer i Vigelandsparken"
+          "easy": "Norge",
+          "normal": "Holmenkollen",
+          "hard": "Fjord"
         }
       },
       "en": {
         "word": "Oslo",
         "aliases": [],
         "hints": {
-          "easy": "Norwegian capital at a fjord",
-          "normal": "Opera house roof you can walk up",
-          "hard": "Sculptures in Vigeland Park"
+          "easy": "Norway",
+          "normal": "Holmenkollen",
+          "hard": "Fjord"
         }
       }
     }
@@ -1444,18 +1444,18 @@
         "word": "Helsingfors",
         "aliases": [],
         "hints": {
-          "easy": "Finlands huvudstad vid Finska viken",
-          "normal": "Färja från torget till Sveaborg",
-          "hard": "Vit domkyrka ovanför trappor"
+          "easy": "Finland",
+          "normal": "Domkyrka",
+          "hard": "Sveaborg"
         }
       },
       "en": {
         "word": "Helsinki",
         "aliases": [],
         "hints": {
-          "easy": "Finnish capital on the Gulf of Finland",
-          "normal": "Ferry to Suomenlinna from the market",
-          "hard": "White cathedral above a broad staircase"
+          "easy": "Finland",
+          "normal": "Cathedral",
+          "hard": "Suomenlinna"
         }
       }
     }
@@ -1467,7 +1467,7 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1476,9 +1476,9 @@
           "Reykjavík"
         ],
         "hints": {
-          "easy": "Islands huvudstad vid Faxaflói",
-          "normal": "Kyrktorn format som basaltpelare",
-          "hard": "Färgglada plåthus"
+          "easy": "Island",
+          "normal": "Hallgrímskirkja",
+          "hard": "Geotermisk"
         }
       },
       "en": {
@@ -1487,9 +1487,9 @@
           "Reykjavik"
         ],
         "hints": {
-          "easy": "Iceland's capital on Faxaflói Bay",
-          "normal": "Church tower inspired by basalt columns",
-          "hard": "Colourful corrugated houses"
+          "easy": "Iceland",
+          "normal": "Hallgrímskirkja",
+          "hard": "Geothermal"
         }
       }
     }
@@ -1508,18 +1508,18 @@
         "word": "London",
         "aliases": [],
         "hints": {
-          "easy": "Dubbeldäckare vid Themsen",
-          "normal": "Tunnelbanans runda skyltar",
-          "hard": "Svarta taxibilar"
+          "easy": "England",
+          "normal": "Tunnelbana",
+          "hard": "Themsen"
         }
       },
       "en": {
         "word": "London",
         "aliases": [],
         "hints": {
-          "easy": "Double-decker buses beside the Thames",
-          "normal": "Round Underground signs",
-          "hard": "Black cabs"
+          "easy": "England",
+          "normal": "Underground",
+          "hard": "Thames"
         }
       }
     }
@@ -1538,18 +1538,18 @@
         "word": "Paris",
         "aliases": [],
         "hints": {
-          "easy": "Huvudstad på båda sidor av Seine",
-          "normal": "Boklådor längs floden",
-          "hard": "Grå zinktak över stenfasader"
+          "easy": "Eiffeltornet",
+          "normal": "Frankrike",
+          "hard": "Seine"
         }
       },
       "en": {
         "word": "Paris",
         "aliases": [],
         "hints": {
-          "easy": "Capital on both banks of the Seine",
-          "normal": "Booksellers along the river",
-          "hard": "Grey zinc rooftops"
+          "easy": "Eiffel",
+          "normal": "France",
+          "hard": "Seine"
         }
       }
     }
@@ -1568,9 +1568,9 @@
         "word": "Rom",
         "aliases": [],
         "hints": {
-          "easy": "Stad med Colosseum och Vatikanen",
-          "normal": "Sju kullar vid Tibern",
-          "hard": "Små dricksfontäner"
+          "easy": "Italien",
+          "normal": "Colosseum",
+          "hard": "Tibern"
         }
       },
       "en": {
@@ -1579,9 +1579,9 @@
           "Roma"
         ],
         "hints": {
-          "easy": "City of the Colosseum and the Vatican",
-          "normal": "Seven hills by the Tiber",
-          "hard": "Small drinking fountains"
+          "easy": "Italy",
+          "normal": "Colosseum",
+          "hard": "Tiber"
         }
       }
     }
@@ -1593,16 +1593,16 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Venedig",
         "aliases": [],
         "hints": {
-          "easy": "Italiensk stad på öar i en lagun",
-          "normal": "Gondoler mellan palatsen",
-          "hard": "Lejon med vingar"
+          "easy": "Gondol",
+          "normal": "Kanaler",
+          "hard": "Maskerad"
         }
       },
       "en": {
@@ -1611,9 +1611,9 @@
           "Venezia"
         ],
         "hints": {
-          "easy": "Italian city built across lagoon islands",
-          "normal": "Gondolas between palaces",
-          "hard": "Winged lions"
+          "easy": "Gondola",
+          "normal": "Canals",
+          "hard": "Masquerade"
         }
       }
     }
@@ -1625,25 +1625,25 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Barcelona",
         "aliases": [],
         "hints": {
-          "easy": "Katalansk stad med Gaudís kyrka",
-          "normal": "Mosaiker i Park Güell",
-          "hard": "Kvarter med avskurna hörn"
+          "easy": "Katalonien",
+          "normal": "Gaudí",
+          "hard": "Mosaik"
         }
       },
       "en": {
         "word": "Barcelona",
         "aliases": [],
         "hints": {
-          "easy": "Catalan city of Gaudí's basilica",
-          "normal": "Mosaics in Park Güell",
-          "hard": "City blocks with clipped corners"
+          "easy": "Catalonia",
+          "normal": "Gaudí",
+          "hard": "Mosaic"
         }
       }
     }
@@ -1655,16 +1655,16 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Lissabon",
         "aliases": [],
         "hints": {
-          "easy": "Portugals huvudstad vid Tejo",
-          "normal": "Gula spårvagnar genom Alfama",
-          "hard": "Trottoarer med vågmönster"
+          "easy": "Portugal",
+          "normal": "Spårvagnar",
+          "hard": "Fado"
         }
       },
       "en": {
@@ -1673,9 +1673,9 @@
           "Lisboa"
         ],
         "hints": {
-          "easy": "Portuguese capital on the Tagus",
-          "normal": "Yellow trams through Alfama",
-          "hard": "Wave-patterned pavements"
+          "easy": "Portugal",
+          "normal": "Trams",
+          "hard": "Fado"
         }
       }
     }
@@ -1687,25 +1687,25 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Amsterdam",
         "aliases": [],
         "hints": {
-          "easy": "Nederländernas huvudstad med kanalringar",
-          "normal": "Cyklar på broarna",
-          "hard": "Gavlar med lyftkrokar"
+          "easy": "Nederländerna",
+          "normal": "Kanaler",
+          "hard": "Cyklar"
         }
       },
       "en": {
         "word": "Amsterdam",
         "aliases": [],
         "hints": {
-          "easy": "Dutch capital with concentric canals",
-          "normal": "Bicycles on the bridges",
-          "hard": "Gables with hoisting hooks"
+          "easy": "Netherlands",
+          "normal": "Canals",
+          "hard": "Bicycles"
         }
       }
     }
@@ -1724,18 +1724,18 @@
         "word": "Berlin",
         "aliases": [],
         "hints": {
-          "easy": "Tysk huvudstad med en tidigare mur",
-          "normal": "Brandenburger Tor",
-          "hard": "Små hattar på gångsignalerna"
+          "easy": "Tyskland",
+          "normal": "Muren",
+          "hard": "Björn"
         }
       },
       "en": {
         "word": "Berlin",
         "aliases": [],
         "hints": {
-          "easy": "German capital once divided by a wall",
-          "normal": "Brandenburg Gate",
-          "hard": "Little hats on pedestrian signals"
+          "easy": "Germany",
+          "normal": "Wall",
+          "hard": "Bear"
         }
       }
     }
@@ -1747,16 +1747,16 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Wien",
         "aliases": [],
         "hints": {
-          "easy": "Österrikes huvudstad vid Donau",
-          "normal": "Kaffehus och kejserliga palats",
-          "hard": "Gröna kupoler vid Ringstrasse"
+          "easy": "Österrike",
+          "normal": "Vals",
+          "hard": "Kaféer"
         }
       },
       "en": {
@@ -1765,9 +1765,9 @@
           "Wien"
         ],
         "hints": {
-          "easy": "Austrian capital on the Danube",
-          "normal": "Coffee houses and imperial palaces",
-          "hard": "Green domes off the Ringstrasse"
+          "easy": "Austria",
+          "normal": "Waltz",
+          "hard": "Cafes"
         }
       }
     }
@@ -1779,16 +1779,16 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Prag",
         "aliases": [],
         "hints": {
-          "easy": "Tjeckiens huvudstad vid Moldau",
-          "normal": "Astronomiskt ur på torget",
-          "hard": "Statyer längs Karlsbron"
+          "easy": "Tjeckien",
+          "normal": "Karlsbron",
+          "hard": "Astronomi"
         }
       },
       "en": {
@@ -1797,9 +1797,9 @@
           "Praha"
         ],
         "hints": {
-          "easy": "Czech capital on the Vltava",
-          "normal": "Astronomical clock in the square",
-          "hard": "Statues lining Charles Bridge"
+          "easy": "Czechia",
+          "normal": "Bridge",
+          "hard": "Astronomy"
         }
       }
     }
@@ -1811,16 +1811,16 @@
     "tags": [
       "europe-asia"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Istanbul",
         "aliases": [],
         "hints": {
-          "easy": "Stad på båda sidor av Bosporen",
-          "normal": "Kupoler och basarer vid vattnet",
-          "hard": "Färjor mellan kontinenter"
+          "easy": "Bosporen",
+          "normal": "Minareter",
+          "hard": "Kontinenter"
         }
       },
       "en": {
@@ -1829,9 +1829,9 @@
           "İstanbul"
         ],
         "hints": {
-          "easy": "City on both banks of the Bosphorus",
-          "normal": "Domes and bazaars near the water",
-          "hard": "Ferries between continents"
+          "easy": "Bosporus",
+          "normal": "Minarets",
+          "hard": "Continents"
         }
       }
     }
@@ -1843,25 +1843,25 @@
     "tags": [
       "africa"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Kairo",
         "aliases": [],
         "hints": {
-          "easy": "Egyptens huvudstad vid Nilen",
-          "normal": "Khan el-Khalilis gränder",
-          "hard": "Moskéer vid en gammal citadellmur"
+          "easy": "Egypten",
+          "normal": "Nilen",
+          "hard": "Giza"
         }
       },
       "en": {
         "word": "Cairo",
         "aliases": [],
         "hints": {
-          "easy": "Egyptian capital on the Nile",
-          "normal": "Lanes of Khan el-Khalili",
-          "hard": "Mosques near an old citadel wall"
+          "easy": "Egypt",
+          "normal": "Nile",
+          "hard": "Giza"
         }
       }
     }
@@ -1882,9 +1882,9 @@
           "Marrakesh"
         ],
         "hints": {
-          "easy": "Marockansk stad med torget Jemaa el-Fna",
-          "normal": "Röda stadsmurar",
-          "hard": "Blå väggar i Majorelleträdgården"
+          "easy": "Marocko",
+          "normal": "Souk",
+          "hard": "Medina"
         }
       },
       "en": {
@@ -1893,9 +1893,9 @@
           "Marrakech"
         ],
         "hints": {
-          "easy": "Moroccan city of Jemaa el-Fna square",
-          "normal": "Red city walls",
-          "hard": "Blue walls in the Majorelle Garden"
+          "easy": "Morocco",
+          "normal": "Souk",
+          "hard": "Medina"
         }
       }
     }
@@ -1907,25 +1907,25 @@
     "tags": [
       "africa"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Kapstaden",
         "aliases": [],
         "hints": {
-          "easy": "Sydafrikansk stad nedanför Taffelberget",
-          "normal": "Färgglada hus i Bo-Kaap",
-          "hard": "Kalla bad vid Kaphalvön"
+          "easy": "Taffelberget",
+          "normal": "Afrikansk",
+          "hard": "Hamnstad"
         }
       },
       "en": {
         "word": "Cape Town",
         "aliases": [],
         "hints": {
-          "easy": "South African city beneath Table Mountain",
-          "normal": "Painted houses in Bo-Kaap",
-          "hard": "Cold swims along the Cape Peninsula"
+          "easy": "Plateau",
+          "normal": "African",
+          "hard": "Harbor"
         }
       }
     }
@@ -1944,18 +1944,18 @@
         "word": "Nairobi",
         "aliases": [],
         "hints": {
-          "easy": "Kenyas huvudstad med en nationalpark intill",
-          "normal": "Höghus bakom savannens djur",
-          "hard": "Svalare kvällar på höglandet"
+          "easy": "Kenya",
+          "normal": "Nationalpark",
+          "hard": "Safari"
         }
       },
       "en": {
         "word": "Nairobi",
         "aliases": [],
         "hints": {
-          "easy": "Kenyan capital with a national park next door",
-          "normal": "Wildlife with a skyline behind it",
-          "hard": "Cooler evenings on the highlands"
+          "easy": "Kenya",
+          "normal": "Wildlife",
+          "hard": "Safari"
         }
       }
     }
@@ -1976,9 +1976,9 @@
           "New York City"
         ],
         "hints": {
-          "easy": "Storstaden med Manhattan och Brooklyn",
-          "normal": "Gula taxibilar vid Central Park",
-          "hard": "Brandtrappor över trottoaren"
+          "easy": "Manhattan",
+          "normal": "Broadway",
+          "hard": "Taxi"
         }
       },
       "en": {
@@ -1988,9 +1988,9 @@
           "NYC"
         ],
         "hints": {
-          "easy": "City of Manhattan and Brooklyn",
-          "normal": "Yellow taxis by Central Park",
-          "hard": "Fire escapes over the sidewalk"
+          "easy": "Manhattan",
+          "normal": "Broadway",
+          "hard": "Taxi"
         }
       }
     }
@@ -2002,25 +2002,25 @@
     "tags": [
       "north-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "San Francisco",
         "aliases": [],
         "hints": {
-          "easy": "Kalifornisk stad vid Golden Gate",
-          "normal": "Kabelspårvagnar i branta backar",
-          "hard": "Dimma som rullar in från Stilla havet"
+          "easy": "Kalifornien",
+          "normal": "Dimma",
+          "hard": "Branter"
         }
       },
       "en": {
         "word": "San Francisco",
         "aliases": [],
         "hints": {
-          "easy": "California city by the Golden Gate",
-          "normal": "Cable cars on steep hills",
-          "hard": "Fog rolling in from the Pacific"
+          "easy": "California",
+          "normal": "Fog",
+          "hard": "Slopes"
         }
       }
     }
@@ -2041,9 +2041,9 @@
           "Montreal"
         ],
         "hints": {
-          "easy": "Franskspråkig storstad på en ö i Québec",
-          "normal": "Trappor utanpå husfasaderna",
-          "hard": "Utsikt från Mont Royal"
+          "easy": "Québec",
+          "normal": "Franskspråkig",
+          "hard": "Bagels"
         }
       },
       "en": {
@@ -2052,9 +2052,9 @@
           "Montréal"
         ],
         "hints": {
-          "easy": "French-speaking island city in Quebec",
-          "normal": "Outdoor staircases on row houses",
-          "hard": "Views from Mount Royal"
+          "easy": "Quebec",
+          "normal": "Francophone",
+          "hard": "Bagels"
         }
       }
     }
@@ -2066,7 +2066,7 @@
     "tags": [
       "north-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2075,9 +2075,9 @@
           "Mexiko stad"
         ],
         "hints": {
-          "easy": "Mexikos huvudstad på hög höjd",
-          "normal": "En stad byggd över Tenochtitlán",
-          "hard": "Odlingsöar mellan kanaler i Xochimilco"
+          "easy": "Huvudstad",
+          "normal": "Azteker",
+          "hard": "Högplatå"
         }
       },
       "en": {
@@ -2087,9 +2087,9 @@
           "CDMX"
         ],
         "hints": {
-          "easy": "High-altitude capital of Mexico",
-          "normal": "A city built over Tenochtitlán",
-          "hard": "Garden plots between the canals of Xochimilco"
+          "easy": "Capital",
+          "normal": "Aztecs",
+          "hard": "Plateau"
         }
       }
     }
@@ -2101,16 +2101,16 @@
     "tags": [
       "north-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Havanna",
         "aliases": [],
         "hints": {
-          "easy": "Kubas huvudstad vid en gammal hamn",
-          "normal": "Amerikanska veteranbilar och Malecón",
-          "hard": "Pastellfasader mot havsvinden"
+          "easy": "Kuba",
+          "normal": "Veteranbilar",
+          "hard": "Malecón"
         }
       },
       "en": {
@@ -2119,9 +2119,9 @@
           "La Habana"
         ],
         "hints": {
-          "easy": "Cuban capital around an old harbour",
-          "normal": "Vintage American cars along the Malecón",
-          "hard": "Pastel facades in the sea breeze"
+          "easy": "Cuba",
+          "normal": "Classics",
+          "hard": "Malecón"
         }
       }
     }
@@ -2133,7 +2133,7 @@
     "tags": [
       "south-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2142,9 +2142,9 @@
           "Rio"
         ],
         "hints": {
-          "easy": "Brasiliansk stad med Copacabana",
-          "normal": "Karneval längs berg och stränder",
-          "hard": "Svartvita vågor på strandpromenaden"
+          "easy": "Karneval",
+          "normal": "Copacabana",
+          "hard": "Sockertoppen"
         }
       },
       "en": {
@@ -2153,9 +2153,9 @@
           "Rio"
         ],
         "hints": {
-          "easy": "Brazilian city of Copacabana",
-          "normal": "Carnival between hills and beaches",
-          "hard": "Black-and-white wave patterns along the promenade"
+          "easy": "Carnival",
+          "normal": "Copacabana",
+          "hard": "Sugarloaf"
         }
       }
     }
@@ -2167,25 +2167,25 @@
     "tags": [
       "south-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Buenos Aires",
         "aliases": [],
         "hints": {
-          "easy": "Argentinas huvudstad vid Río de la Plata",
-          "normal": "Tango i San Telmos kvarter",
-          "hard": "Färgglad korrugerad plåt i La Boca"
+          "easy": "Argentina",
+          "normal": "Tango",
+          "hard": "Hamn"
         }
       },
       "en": {
         "word": "Buenos Aires",
         "aliases": [],
         "hints": {
-          "easy": "Argentine capital on the Río de la Plata",
-          "normal": "Tango in the streets of San Telmo",
-          "hard": "Colourful corrugated walls in La Boca"
+          "easy": "Argentina",
+          "normal": "Tango",
+          "hard": "Port"
         }
       }
     }
@@ -2204,18 +2204,18 @@
         "word": "Lima",
         "aliases": [],
         "hints": {
-          "easy": "Perus huvudstad vid Stilla havet",
-          "normal": "Miraflores parker ovanför klipporna",
-          "hard": "Kustdimma över torra kullar"
+          "easy": "Peru",
+          "normal": "Stillahavskust",
+          "hard": "Ceviche"
         }
       },
       "en": {
         "word": "Lima",
         "aliases": [],
         "hints": {
-          "easy": "Peruvian capital on the Pacific coast",
-          "normal": "Clifftop parks in Miraflores",
-          "hard": "Coastal fog over arid hills"
+          "easy": "Peru",
+          "normal": "Pacific",
+          "hard": "Ceviche"
         }
       }
     }
@@ -2236,9 +2236,9 @@
           "Cuzco"
         ],
         "hints": {
-          "easy": "Inkarikets gamla huvudstad",
-          "normal": "Branta gränder med inkamurar",
-          "hard": "Tolv vinklar i en mursten"
+          "easy": "Inka",
+          "normal": "Anderna",
+          "hard": "Högland"
         }
       },
       "en": {
@@ -2247,9 +2247,9 @@
           "Cuzco"
         ],
         "hints": {
-          "easy": "Former capital of the Inca Empire",
-          "normal": "Steep alleys with Inca stonework",
-          "hard": "Twelve angles in a wall stone"
+          "easy": "Inca",
+          "normal": "Andes",
+          "hard": "Highlands"
         }
       }
     }
@@ -2268,18 +2268,18 @@
         "word": "Tokyo",
         "aliases": [],
         "hints": {
-          "easy": "Japans huvudstad med Shibuyas övergångsställe",
-          "normal": "Tågspår och ljusskyltar i Shinjuku",
-          "hard": "Smala gränder med ståbarer"
+          "easy": "Japan",
+          "normal": "Shibuya",
+          "hard": "Storstad"
         }
       },
       "en": {
         "word": "Tokyo",
         "aliases": [],
         "hints": {
-          "easy": "Japan's capital with the Shibuya crossing",
-          "normal": "Railways and neon in Shinjuku",
-          "hard": "Tiny bars near the tracks"
+          "easy": "Japan",
+          "normal": "Shibuya",
+          "hard": "Metropolis"
         }
       }
     }
@@ -2298,18 +2298,18 @@
         "word": "Kyoto",
         "aliases": [],
         "hints": {
-          "easy": "Japans gamla kejsarstad med Gion",
-          "normal": "Röda portar i långa rader",
-          "hard": "Gatstensgränder och låga trähus"
+          "easy": "Japan",
+          "normal": "Tempel",
+          "hard": "Geisha"
         }
       },
       "en": {
         "word": "Kyoto",
         "aliases": [],
         "hints": {
-          "easy": "Japan's former imperial capital with Gion",
-          "normal": "Long rows of red gates",
-          "hard": "Stone lanes lined with low wooden houses"
+          "easy": "Japan",
+          "normal": "Temples",
+          "hard": "Geisha"
         }
       }
     }
@@ -2321,25 +2321,25 @@
     "tags": [
       "asia"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Seoul",
         "aliases": [],
         "hints": {
-          "easy": "Sydkoreas huvudstad vid Hanfloden",
-          "normal": "Palatsgårdar mellan höghusen",
-          "hard": "Promenad längs den återöppnade stadsbäcken"
+          "easy": "Sydkorea",
+          "normal": "Palats",
+          "hard": "Han"
         }
       },
       "en": {
         "word": "Seoul",
         "aliases": [],
         "hints": {
-          "easy": "South Korean capital on the Han River",
-          "normal": "Royal palaces between high-rise buildings",
-          "hard": "Walkway by a restored city stream"
+          "easy": "Korea",
+          "normal": "Palaces",
+          "hard": "Han"
         }
       }
     }
@@ -2351,25 +2351,25 @@
     "tags": [
       "asia"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Bangkok",
         "aliases": [],
         "hints": {
-          "easy": "Thailands huvudstad vid Chao Phraya",
-          "normal": "Flodbåtar nära det kungliga palatset",
-          "hard": "Gyllene tempelspiror i gatulivet"
+          "easy": "Thailand",
+          "normal": "Trafik",
+          "hard": "Gatumat"
         }
       },
       "en": {
         "word": "Bangkok",
         "aliases": [],
         "hints": {
-          "easy": "Thai capital on the Chao Phraya",
-          "normal": "Riverboats by the royal palace",
-          "hard": "Gilded temple spires among busy streets"
+          "easy": "Thailand",
+          "normal": "Traffic",
+          "hard": "Vendors"
         }
       }
     }
@@ -2388,18 +2388,18 @@
         "word": "Hanoi",
         "aliases": [],
         "hints": {
-          "easy": "Vietnams huvudstad vid Röda floden",
-          "normal": "Kvarter av hantverksgator nära Hoan Kiem",
-          "hard": "Kaffe med vispat ägg"
+          "easy": "Vietnam",
+          "normal": "Huvudstad",
+          "hard": "Sjö"
         }
       },
       "en": {
         "word": "Hanoi",
         "aliases": [],
         "hints": {
-          "easy": "Vietnamese capital on the Red River",
-          "normal": "Craft streets near Hoan Kiem Lake",
-          "hard": "Coffee with whipped egg yolk"
+          "easy": "Vietnam",
+          "normal": "Capital",
+          "hard": "Lake"
         }
       }
     }
@@ -2411,25 +2411,25 @@
     "tags": [
       "asia"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Singapore",
         "aliases": [],
         "hints": {
-          "easy": "Stadsstat där en takpark vilar på tre torn",
-          "normal": "Matmarknader med gemensamma sittplatser",
-          "hard": "Lejonhuvud med fiskkropp vid vattnet"
+          "easy": "Stadsstat",
+          "normal": "Lejon",
+          "hard": "Trädgårdar"
         }
       },
       "en": {
         "word": "Singapore",
         "aliases": [],
         "hints": {
-          "easy": "City-state with a rooftop park spanning three towers",
-          "normal": "Hawker centres for shared dining",
-          "hard": "Lion's head and fish body by the water"
+          "easy": "Citystate",
+          "normal": "Lion",
+          "hard": "Gardens"
         }
       }
     }
@@ -2441,25 +2441,25 @@
     "tags": [
       "oceania"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Sydney",
         "aliases": [],
         "hints": {
-          "easy": "Australisk hamnstad med operahus",
-          "normal": "Färjor under en välvd stålbro",
-          "hard": "Surf vid Bondi"
+          "easy": "Australien",
+          "normal": "Segeltak",
+          "hard": "Hamnbro"
         }
       },
       "en": {
         "word": "Sydney",
         "aliases": [],
         "hints": {
-          "easy": "Australian harbour city with a famous opera house",
-          "normal": "Ferries beneath an arched steel bridge",
-          "hard": "Surf at Bondi"
+          "easy": "Australia",
+          "normal": "Sails",
+          "hard": "Bridge"
         }
       }
     }
@@ -2478,18 +2478,18 @@
         "word": "Auckland",
         "aliases": [],
         "hints": {
-          "easy": "Aotearoas storstad mellan två hamnar",
-          "normal": "Vulkan med krater i en stadspark",
-          "hard": "Segelmaster vid vattnet"
+          "easy": "Segling",
+          "normal": "Hamnar",
+          "hard": "Vulkaner"
         }
       },
       "en": {
         "word": "Auckland",
         "aliases": [],
         "hints": {
-          "easy": "New Zealand city between two harbours",
-          "normal": "Volcanic crater in a city park",
-          "hard": "Sailing masts along the waterfront"
+          "easy": "Sailing",
+          "normal": "Harbors",
+          "hard": "Volcanoes"
         }
       }
     }
@@ -2501,25 +2501,25 @@
     "tags": [
       "south-america"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Quito",
         "aliases": [],
         "hints": {
-          "easy": "Ecuadors huvudstad högt uppe i Anderna",
-          "normal": "Byggd nedanför vulkanen Pichincha",
-          "hard": "Kyrkfasader över ett långsmalt stadslandskap"
+          "easy": "Ecuador",
+          "normal": "Ekvatorn",
+          "hard": "Anderna"
         }
       },
       "en": {
         "word": "Quito",
         "aliases": [],
         "hints": {
-          "easy": "Ecuadorian capital high in the Andes",
-          "normal": "Built below Pichincha volcano",
-          "hard": "Baroque churches in a narrow valley"
+          "easy": "Ecuador",
+          "normal": "Equator",
+          "hard": "Andes"
         }
       }
     }
@@ -2540,9 +2540,9 @@
           "Hoi An"
         ],
         "hints": {
-          "easy": "Gammal vietnamesisk handelsstad med lyktor",
-          "normal": "Täckt japansk bro mellan låga hus",
-          "hard": "Gula fasader mot Thu Bon-floden"
+          "easy": "Vietnam",
+          "normal": "Lyktor",
+          "hard": "Skräddare"
         }
       },
       "en": {
@@ -2551,9 +2551,9 @@
           "Hoi An"
         ],
         "hints": {
-          "easy": "Old Vietnamese trading town lit by lanterns",
-          "normal": "Covered Japanese bridge between low buildings",
-          "hard": "Yellow facades along the Thu Bon River"
+          "easy": "Vietnam",
+          "normal": "Lanterns",
+          "hard": "Tailors"
         }
       }
     }
@@ -2572,18 +2572,18 @@
         "word": "Luang Prabang",
         "aliases": [],
         "hints": {
-          "easy": "Gammal kungastad i Laos vid Mekong",
-          "normal": "Munkar tar emot almosor i gryningen",
-          "hard": "Trappa upp till templet på Phou Si"
+          "easy": "Laos",
+          "normal": "Mekong",
+          "hard": "Tempel"
         }
       },
       "en": {
         "word": "Luang Prabang",
         "aliases": [],
         "hints": {
-          "easy": "Former Lao royal capital beside the Mekong",
-          "normal": "Monks receive alms at dawn",
-          "hard": "Steps up to the temple on Phou Si"
+          "easy": "Laos",
+          "normal": "Mekong",
+          "hard": "Temples"
         }
       }
     }
@@ -2602,18 +2602,18 @@
         "word": "Eiffeltornet",
         "aliases": [],
         "hints": {
-          "easy": "Järnbygge över Paris hustak",
-          "normal": "Fyra fackverksben möts upptill",
-          "hard": "Uppfördes till en världsutställning"
+          "easy": "Paris",
+          "normal": "Järn",
+          "hard": "Världsutställning"
         }
       },
       "en": {
         "word": "Eiffel Tower",
         "aliases": [],
         "hints": {
-          "easy": "Iron structure above the rooftops of Paris",
-          "normal": "Four lattice legs meet overhead",
-          "hard": "Built for a world's fair"
+          "easy": "Paris",
+          "normal": "Iron",
+          "hard": "Exposition"
         }
       }
     }
@@ -2625,7 +2625,7 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2634,18 +2634,18 @@
           "Arc de Triomphe"
         ],
         "hints": {
-          "easy": "Monument mitt i Paris stora cirkulationsplats",
-          "normal": "Champs-Élysées löper fram till den",
-          "hard": "Flamma för en okänd soldat"
+          "easy": "Paris",
+          "normal": "Parad",
+          "hard": "Napoleon"
         }
       },
       "en": {
         "word": "Arc de Triomphe",
         "aliases": [],
         "hints": {
-          "easy": "Monument in the middle of a Paris roundabout",
-          "normal": "Champs-Élysées leads up to it",
-          "hard": "Flame for an unknown soldier"
+          "easy": "Paris",
+          "normal": "Parade",
+          "hard": "Napoleon"
         }
       }
     }
@@ -2657,25 +2657,25 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Colosseum",
         "aliases": [],
         "hints": {
-          "easy": "Oval arena mitt i Rom",
-          "normal": "Gladiatorer och staplade valvbågar",
-          "hard": "Gångar under arenagolvet"
+          "easy": "Gladiatorer",
+          "normal": "Rom",
+          "hard": "Amfiteater"
         }
       },
       "en": {
         "word": "Colosseum",
         "aliases": [],
         "hints": {
-          "easy": "Oval arena in the heart of Rome",
-          "normal": "Gladiators and stacked arches",
-          "hard": "Passages beneath the arena floor"
+          "easy": "Gladiators",
+          "normal": "Rome",
+          "hard": "Amphitheater"
         }
       }
     }
@@ -2687,7 +2687,7 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2696,18 +2696,18 @@
           "Pisas lutande torn"
         ],
         "hints": {
-          "easy": "Snett klocktorn på Mirakeltorget",
-          "normal": "Turister låtsas hålla upp det",
-          "hard": "Vita våningar med kolonnrader"
+          "easy": "Sned",
+          "normal": "Italien",
+          "hard": "Klockor"
         }
       },
       "en": {
         "word": "Leaning Tower of Pisa",
         "aliases": [],
         "hints": {
-          "easy": "Tilting bell tower in the Square of Miracles",
-          "normal": "Visitors pose as if holding it up",
-          "hard": "White tiers ringed with columns"
+          "easy": "Tilted",
+          "normal": "Italy",
+          "hard": "Bells"
         }
       }
     }
@@ -2719,7 +2719,7 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2728,9 +2728,9 @@
           "Sagrada Familia"
         ],
         "hints": {
-          "easy": "Gaudís kyrka i Barcelona",
-          "normal": "Förgrenade pelare likt en stenskog",
-          "hard": "Fruktformer på spirorna"
+          "easy": "Gaudí",
+          "normal": "Barcelona",
+          "hard": "Basilikabygge"
         }
       },
       "en": {
@@ -2739,9 +2739,9 @@
           "Sagrada Familia"
         ],
         "hints": {
-          "easy": "Gaudí's basilica in Barcelona",
-          "normal": "Branching columns like a stone forest",
-          "hard": "Fruit shapes crowning the spires"
+          "easy": "Gaudí",
+          "normal": "Barcelona",
+          "hard": "Basilica"
         }
       }
     }
@@ -2760,18 +2760,18 @@
         "word": "Alhambra",
         "aliases": [],
         "hints": {
-          "easy": "Moriskt palats ovanför Granada",
-          "normal": "Smala vattenrännor i palatsets trädgårdar",
-          "hard": "Marmorlejon bär en fontän"
+          "easy": "Granada",
+          "normal": "Morisk",
+          "hard": "Innergård"
         }
       },
       "en": {
         "word": "Alhambra",
         "aliases": [],
         "hints": {
-          "easy": "Moorish palace above Granada",
-          "normal": "Narrow water channels in formal gardens",
-          "hard": "Marble lions support a fountain"
+          "easy": "Granada",
+          "normal": "Moorish",
+          "hard": "Courtyard"
         }
       }
     }
@@ -2783,25 +2783,25 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Big Ben",
         "aliases": [],
         "hints": {
-          "easy": "Stora klockan vid brittiska parlamentet",
-          "normal": "Klangen från Westminsters klocktorn",
-          "hard": "Slag som hörs i BBC:s sändningar"
+          "easy": "London",
+          "normal": "Klocka",
+          "hard": "Westminster"
         }
       },
       "en": {
         "word": "Big Ben",
         "aliases": [],
         "hints": {
-          "easy": "Great bell by the British Parliament",
-          "normal": "Chimes from Westminster's clock tower",
-          "hard": "Strikes broadcast by the BBC"
+          "easy": "London",
+          "normal": "Clock",
+          "hard": "Westminster"
         }
       }
     }
@@ -2813,25 +2813,25 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Tower Bridge",
         "aliases": [],
         "hints": {
-          "easy": "Londonbro med två nygotiska torn",
-          "normal": "Vägbanan öppnas för höga fartyg",
-          "hard": "Gångbanor högt ovanför Themsen"
+          "easy": "London",
+          "normal": "Klaffbro",
+          "hard": "Themsen"
         }
       },
       "en": {
         "word": "Tower Bridge",
         "aliases": [],
         "hints": {
-          "easy": "London crossing with two Gothic Revival towers",
-          "normal": "Roadway lifts for tall vessels",
-          "hard": "Walkways high above the Thames"
+          "easy": "London",
+          "normal": "Drawbridge",
+          "hard": "Thames"
         }
       }
     }
@@ -2843,25 +2843,25 @@
     "tags": [
       "europe"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Stonehenge",
         "aliases": [],
         "hints": {
-          "easy": "Förhistorisk stenring på Salisbury Plain",
-          "normal": "Stenbalkar vilar tvärs över blocken",
-          "hard": "Soluppgång vid sommarsolståndet"
+          "easy": "Stencirkel",
+          "normal": "England",
+          "hard": "Solstånd"
         }
       },
       "en": {
         "word": "Stonehenge",
         "aliases": [],
         "hints": {
-          "easy": "Prehistoric stone circle on Salisbury Plain",
-          "normal": "Stone lintels laid across upright blocks",
-          "hard": "Sunrise at the summer solstice"
+          "easy": "Stones",
+          "normal": "England",
+          "hard": "Solstice"
         }
       }
     }
@@ -2873,7 +2873,7 @@
     "tags": [
       "europe"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2882,9 +2882,9 @@
           "Mont Saint-Michel"
         ],
         "hints": {
-          "easy": "Klosterö utanför Normandie",
-          "normal": "Tidvatten täcker sandbankarna",
-          "hard": "Trappgränder upp mot en spira"
+          "easy": "Kloster",
+          "normal": "Tidvatten",
+          "hard": "Normandie"
         }
       },
       "en": {
@@ -2893,9 +2893,9 @@
           "Mont Saint-Michel"
         ],
         "hints": {
-          "easy": "Abbey island off the Normandy coast",
-          "normal": "Tides reshape the flats around a rock",
-          "hard": "Stepped lanes rising to a spire"
+          "easy": "Abbey",
+          "normal": "Tides",
+          "hard": "Normandy"
         }
       }
     }
@@ -2914,18 +2914,18 @@
         "word": "Parthenon",
         "aliases": [],
         "hints": {
-          "easy": "Antikt tempel på Akropolis",
-          "normal": "Doriska kolonner ovanför Aten",
-          "hard": "En fris med ryttare och procession"
+          "easy": "Aten",
+          "normal": "Akropolis",
+          "hard": "Pelare"
         }
       },
       "en": {
         "word": "Parthenon",
         "aliases": [],
         "hints": {
-          "easy": "Ancient temple on the Acropolis",
-          "normal": "Doric columns above Athens",
-          "hard": "Frieze with horsemen in a procession"
+          "easy": "Athens",
+          "normal": "Acropolis",
+          "hard": "Columns"
         }
       }
     }
@@ -2937,7 +2937,7 @@
     "tags": [
       "africa"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2946,9 +2946,9 @@
           "Gizapyramiderna"
         ],
         "hints": {
-          "easy": "Tre stora kungagravar nära Kairo",
-          "normal": "Faraonernas väldiga stenblock",
-          "hard": "Trianglar vid ökengränsen"
+          "easy": "Egypten",
+          "normal": "Faraoner",
+          "hard": "Gravkammare"
         }
       },
       "en": {
@@ -2957,9 +2957,9 @@
           "Giza Pyramids"
         ],
         "hints": {
-          "easy": "Three monumental royal tombs near Cairo",
-          "normal": "Huge stone blocks for the pharaohs",
-          "hard": "Triangular silhouettes at the desert edge"
+          "easy": "Egypt",
+          "normal": "Pharaohs",
+          "hard": "Tombs"
         }
       }
     }
@@ -2971,7 +2971,7 @@
     "tags": [
       "africa"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2980,9 +2980,9 @@
           "Sfinxen"
         ],
         "hints": {
-          "easy": "Stenfigur med lejonkropp nära Kairo",
-          "normal": "Människoansikte utan näsa",
-          "hard": "Långa framtassar i kalksten"
+          "easy": "Lejon",
+          "normal": "Egypten",
+          "hard": "Sandsten"
         }
       },
       "en": {
@@ -2992,9 +2992,9 @@
           "Sphinx of Giza"
         ],
         "hints": {
-          "easy": "Stone figure with a lion's body near Cairo",
-          "normal": "Human face with a missing nose",
-          "hard": "Long front paws carved in limestone"
+          "easy": "Lion",
+          "normal": "Egypt",
+          "hard": "Limestone"
         }
       }
     }
@@ -3006,25 +3006,25 @@
     "tags": [
       "africa"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Taffelberget",
         "aliases": [],
         "hints": {
-          "easy": "Berg med platt topp ovanför Kapstaden",
-          "normal": "Molntäcke kallat för en duk",
-          "hard": "Linbana över branta sandstensväggar"
+          "easy": "Platå",
+          "normal": "Linbana",
+          "hard": "Afrika"
         }
       },
       "en": {
         "word": "Table Mountain",
         "aliases": [],
         "hints": {
-          "easy": "Flat-topped mountain above Cape Town",
-          "normal": "Cloud cover nicknamed a tablecloth",
-          "hard": "Cableway over sandstone cliffs"
+          "easy": "Plateau",
+          "normal": "Cableway",
+          "hard": "Africa"
         }
       }
     }
@@ -3043,18 +3043,18 @@
         "word": "Victoriafallen",
         "aliases": [],
         "hints": {
-          "easy": "Väldigt vattenfall i Zambezifloden",
-          "normal": "På gränsen mellan Zambia och Zimbabwe",
-          "hard": "Dån och stänk ovanför en klyfta"
+          "easy": "Vattenfall",
+          "normal": "Zambezi",
+          "hard": "Dimma"
         }
       },
       "en": {
         "word": "Victoria Falls",
         "aliases": [],
         "hints": {
-          "easy": "Vast waterfall on the Zambezi",
-          "normal": "Border of Zambia and Zimbabwe",
-          "hard": "Roar and spray above a chasm"
+          "easy": "Waterfall",
+          "normal": "Zambezi",
+          "hard": "Mist"
         }
       }
     }
@@ -3073,18 +3073,18 @@
         "word": "Abu Simbel",
         "aliases": [],
         "hints": {
-          "easy": "Klipptempel i södra Egypten",
-          "normal": "Fyra sittande jättefigurer vid entrén",
-          "hard": "Flyttades upp undan en dammsjö"
+          "easy": "Ramses",
+          "normal": "Klipptempel",
+          "hard": "Förflyttning"
         }
       },
       "en": {
         "word": "Abu Simbel",
         "aliases": [],
         "hints": {
-          "easy": "Rock temples in southern Egypt",
-          "normal": "Four colossal seated figures at the entrance",
-          "hard": "Moved uphill to escape a reservoir"
+          "easy": "Ramses",
+          "normal": "Temple",
+          "hard": "Relocation"
         }
       }
     }
@@ -3103,9 +3103,9 @@
         "word": "Frihetsgudinnan",
         "aliases": [],
         "hints": {
-          "easy": "Kopparfigur med fackla i New Yorks hamn",
-          "normal": "Gåva från Frankrike",
-          "hard": "Grön patina och en spetsig krona"
+          "easy": "Fackla",
+          "normal": "Manhattan",
+          "hard": "Koppar"
         }
       },
       "en": {
@@ -3114,9 +3114,9 @@
           "Lady Liberty"
         ],
         "hints": {
-          "easy": "Copper figure holding a torch in New York Harbor",
-          "normal": "Gift from France",
-          "hard": "Green patina and a spiked crown"
+          "easy": "Torch",
+          "normal": "Manhattan",
+          "hard": "Copper"
         }
       }
     }
@@ -3128,7 +3128,7 @@
     "tags": [
       "north-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3137,18 +3137,18 @@
           "Golden Gate Bridge"
         ],
         "hints": {
-          "easy": "Rödorange hängbro vid San Francisco",
-          "normal": "Två torn där hav möter bukt",
-          "hard": "Kablar i kustdimman"
+          "easy": "Kalifornien",
+          "normal": "Hängbro",
+          "hard": "Orange"
         }
       },
       "en": {
         "word": "Golden Gate Bridge",
         "aliases": [],
         "hints": {
-          "easy": "Orange-red suspension bridge by San Francisco",
-          "normal": "Two towers where ocean meets bay",
-          "hard": "Cables above coastal fog"
+          "easy": "California",
+          "normal": "Suspension",
+          "hard": "Orange"
         }
       }
     }
@@ -3160,7 +3160,7 @@
     "tags": [
       "north-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3169,18 +3169,18 @@
           "Brooklyn Bridge"
         ],
         "hints": {
-          "easy": "Stenbågar över East River",
-          "normal": "Gångväg högt över trafiken",
-          "hard": "Dubbla gotiska portöppningar"
+          "easy": "Manhattan",
+          "normal": "Hängbro",
+          "hard": "Neogotik"
         }
       },
       "en": {
         "word": "Brooklyn Bridge",
         "aliases": [],
         "hints": {
-          "easy": "Stone arches above the East River",
-          "normal": "Pedestrian path above the traffic",
-          "hard": "Twin Gothic gateways"
+          "easy": "Manhattan",
+          "normal": "Suspension",
+          "hard": "Gothic"
         }
       }
     }
@@ -3192,25 +3192,25 @@
     "tags": [
       "north-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Grand Canyon",
         "aliases": [],
         "hints": {
-          "easy": "Djup ravin i Arizona",
-          "normal": "Coloradofloden längst nere",
-          "hard": "Färgade lager i väggarna"
+          "easy": "Arizona",
+          "normal": "Ravin",
+          "hard": "Colorado"
         }
       },
       "en": {
         "word": "Grand Canyon",
         "aliases": [],
         "hints": {
-          "easy": "Deep gorge in Arizona",
-          "normal": "Colorado River far below the rim",
-          "hard": "Bands of colour in the rock walls"
+          "easy": "Arizona",
+          "normal": "Gorge",
+          "hard": "Colorado"
         }
       }
     }
@@ -3222,7 +3222,7 @@
     "tags": [
       "north-america"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3231,9 +3231,9 @@
           "Chichen Itza"
         ],
         "hints": {
-          "easy": "Mayastad med trappyramid på Yucatán",
-          "normal": "Bollplan bland stenbyggnaderna",
-          "hard": "Ormskugga vid dagjämningen"
+          "easy": "Maya",
+          "normal": "Pyramid",
+          "hard": "Yucatán"
         }
       },
       "en": {
@@ -3242,9 +3242,9 @@
           "Chichen Itza"
         ],
         "hints": {
-          "easy": "Maya city with a stepped pyramid in Yucatán",
-          "normal": "Ball court among stone buildings",
-          "hard": "Serpent shadow around the equinox"
+          "easy": "Maya",
+          "normal": "Pyramid",
+          "hard": "Yucatan"
         }
       }
     }
@@ -3256,25 +3256,25 @@
     "tags": [
       "south-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Machu Picchu",
         "aliases": [],
         "hints": {
-          "easy": "Inkabyggnader högt bland Andernas toppar",
-          "normal": "Stenterrasser i molnen",
-          "hard": "Block som passar utan murbruk"
+          "easy": "Inka",
+          "normal": "Peru",
+          "hard": "Terrasser"
         }
       },
       "en": {
         "word": "Machu Picchu",
         "aliases": [],
         "hints": {
-          "easy": "Inca ruins high in the Andes",
-          "normal": "Stone terraces in the clouds",
-          "hard": "Blocks fitted without mortar"
+          "easy": "Inca",
+          "normal": "Peru",
+          "hard": "Terraces"
         }
       }
     }
@@ -3286,7 +3286,7 @@
     "tags": [
       "south-america"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3295,9 +3295,9 @@
           "Cristo Redentor"
         ],
         "hints": {
-          "easy": "Staty med utbredda armar ovanför Rio",
-          "normal": "Corcovado är berget under fötterna",
-          "hard": "Ljus täljsten över betong"
+          "easy": "Rio",
+          "normal": "Utsträckta",
+          "hard": "Bergstopp"
         }
       },
       "en": {
@@ -3306,9 +3306,9 @@
           "Cristo Redentor"
         ],
         "hints": {
-          "easy": "Outstretched arms above Rio",
-          "normal": "Corcovado beneath its feet",
-          "hard": "Pale soapstone covering concrete"
+          "easy": "Rio",
+          "normal": "Outstretched",
+          "hard": "Summit"
         }
       }
     }
@@ -3320,25 +3320,25 @@
     "tags": [
       "asia"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Taj Mahal",
         "aliases": [],
         "hints": {
-          "easy": "Vitt mausoleum i Agra",
-          "normal": "Marmorkupol speglad i vatten",
-          "hard": "Fyra minareter vid sockelns hörn"
+          "easy": "Indien",
+          "normal": "Marmor",
+          "hard": "Mausoleum"
         }
       },
       "en": {
         "word": "Taj Mahal",
         "aliases": [],
         "hints": {
-          "easy": "White mausoleum in Agra",
-          "normal": "Marble dome reflected in water",
-          "hard": "Four minarets at the corners of a plinth"
+          "easy": "India",
+          "normal": "Marble",
+          "hard": "Mausoleum"
         }
       }
     }
@@ -3359,9 +3359,9 @@
           "Kinas stora mur"
         ],
         "hints": {
-          "easy": "Försvarsverk över kinesiska bergsryggar",
-          "normal": "Vaktposter mellan långa trappor",
-          "hard": "Kreneleringar som följer terrängen"
+          "easy": "Befästning",
+          "normal": "Murverk",
+          "hard": "Vakttorn"
         }
       },
       "en": {
@@ -3370,9 +3370,9 @@
           "Great Wall"
         ],
         "hints": {
-          "easy": "Defences along Chinese mountain ridges",
-          "normal": "Watchtowers between long flights of steps",
-          "hard": "Battlements tracing the terrain"
+          "easy": "Fortification",
+          "normal": "Masonry",
+          "hard": "Watchtowers"
         }
       }
     }
@@ -3384,25 +3384,25 @@
     "tags": [
       "asia"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Angkor Wat",
         "aliases": [],
         "hints": {
-          "easy": "Kambodjanskt tempel med fem centrala torn",
-          "normal": "En bred vallgrav kring anläggningen",
-          "hard": "Gallerier av uthuggna mytscener"
+          "easy": "Kambodja",
+          "normal": "Tempel",
+          "hard": "Lotus"
         }
       },
       "en": {
         "word": "Angkor Wat",
         "aliases": [],
         "hints": {
-          "easy": "Cambodian temple with five central towers",
-          "normal": "A wide moat around the complex",
-          "hard": "Galleries carved with scenes from myth"
+          "easy": "Cambodia",
+          "normal": "Temple",
+          "hard": "Lotus"
         }
       }
     }
@@ -3421,18 +3421,18 @@
         "word": "Petra",
         "aliases": [],
         "hints": {
-          "easy": "Forntida stad uthuggen i jordansk sandsten",
-          "normal": "Smal klyfta fram till Skattkammaren",
-          "hard": "Rosaröda fasader i klippväggen"
+          "easy": "Jordanien",
+          "normal": "Klippstad",
+          "hard": "Sandsten"
         }
       },
       "en": {
         "word": "Petra",
         "aliases": [],
         "hints": {
-          "easy": "Ancient city cut into Jordanian sandstone",
-          "normal": "Narrow gorge leading to the Treasury",
-          "hard": "Rose-red facades in the cliffs"
+          "easy": "Jordan",
+          "normal": "City",
+          "hard": "Sandstone"
         }
       }
     }
@@ -3444,25 +3444,25 @@
     "tags": [
       "asia"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Burj Khalifa",
         "aliases": [],
         "hints": {
-          "easy": "Spetsig skyskrapa i Dubai",
-          "normal": "Tornet smalnar av i etapper",
-          "hard": "Fontäner vid foten"
+          "easy": "Dubai",
+          "normal": "Skyskrapa",
+          "hard": "Höjd"
         }
       },
       "en": {
         "word": "Burj Khalifa",
         "aliases": [],
         "hints": {
-          "easy": "Needle-topped skyscraper in Dubai",
-          "normal": "Successive setbacks narrow the shaft",
-          "hard": "Fountains at its feet"
+          "easy": "Dubai",
+          "normal": "Skyscraper",
+          "hard": "Height"
         }
       }
     }
@@ -3483,18 +3483,18 @@
           "Himeji slott"
         ],
         "hints": {
-          "easy": "Japansk borg kallad Vita hägern",
-          "normal": "Vita stuckväggar under mörka tegeltak",
-          "hard": "Vindlande väg till huvudtornet"
+          "easy": "Japan",
+          "normal": "Häger",
+          "hard": "Vit"
         }
       },
       "en": {
         "word": "Himeji Castle",
         "aliases": [],
         "hints": {
-          "easy": "Japanese fortress nicknamed the White Heron",
-          "normal": "White plaster walls beneath dark tiled roofs",
-          "hard": "Winding approach to the main keep"
+          "easy": "Japan",
+          "normal": "Heron",
+          "hard": "White"
         }
       }
     }
@@ -3513,18 +3513,18 @@
         "word": "Borobudur",
         "aliases": [],
         "hints": {
-          "easy": "Buddhistiskt tempel med stenterrasser på Java",
-          "normal": "Klockformade stupor på de övre nivåerna",
-          "hard": "Reliefpaneler längs gångarna"
+          "easy": "Java",
+          "normal": "Buddhism",
+          "hard": "Stupa"
         }
       },
       "en": {
         "word": "Borobudur",
         "aliases": [],
         "hints": {
-          "easy": "Buddhist temple with stone terraces on Java",
-          "normal": "Bell-shaped stupas on the upper levels",
-          "hard": "Relief panels along its paths"
+          "easy": "Java",
+          "normal": "Buddhism",
+          "hard": "Stupa"
         }
       }
     }
@@ -3536,7 +3536,7 @@
     "tags": [
       "oceania"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3545,18 +3545,18 @@
           "Sydneys operahus"
         ],
         "hints": {
-          "easy": "Vita segelformer i en australisk hamn",
-          "normal": "Dansk arkitekt bakom byggnaden",
-          "hard": "Keramiska plattor på skalen"
+          "easy": "Segel",
+          "normal": "Hamn",
+          "hard": "Scen"
         }
       },
       "en": {
         "word": "Sydney Opera House",
         "aliases": [],
         "hints": {
-          "easy": "White sail forms in an Australian harbour",
-          "normal": "Designed by a Danish architect",
-          "hard": "Ceramic tiles on the shells"
+          "easy": "Sails",
+          "normal": "Harbor",
+          "hard": "Stage"
         }
       }
     }
@@ -3568,7 +3568,7 @@
     "tags": [
       "oceania"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3577,9 +3577,9 @@
           "Ayers Rock"
         ],
         "hints": {
-          "easy": "Röd sandstensklippa i Australiens inland",
-          "normal": "Växlar färg i kvällsljuset",
-          "hard": "Helig plats för Anangu"
+          "easy": "Australien",
+          "normal": "Sandsten",
+          "hard": "Rödfärgad"
         }
       },
       "en": {
@@ -3588,9 +3588,9 @@
           "Ayers Rock"
         ],
         "hints": {
-          "easy": "Red sandstone monolith in inland Australia",
-          "normal": "Changing colours in the evening light",
-          "hard": "Sacred to the Anangu"
+          "easy": "Australia",
+          "normal": "Sandstone",
+          "hard": "Reddish"
         }
       }
     }
@@ -3602,25 +3602,25 @@
     "tags": [
       "oceania"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Stora barriärrevet",
         "aliases": [],
         "hints": {
-          "easy": "Korallvärld utanför Queensland",
-          "normal": "Dykare bland färggranna fiskar",
-          "hard": "Laguner bakom en lång kedja av rev"
+          "easy": "Koraller",
+          "normal": "Australien",
+          "hard": "Dykning"
         }
       },
       "en": {
         "word": "Great Barrier Reef",
         "aliases": [],
         "hints": {
-          "easy": "Coral seascape off Queensland",
-          "normal": "Divers among colourful fish",
-          "hard": "Lagoons behind a long chain of reefs"
+          "easy": "Corals",
+          "normal": "Australia",
+          "hard": "Diving"
         }
       }
     }
@@ -3641,9 +3641,9 @@
           "Karnaktemplet"
         ],
         "hints": {
-          "easy": "Stort forntida tempelområde i Luxor",
-          "normal": "Pelarsal som en skog av sandsten",
-          "hard": "Rader av vädurshuvuden vid ingången"
+          "easy": "Luxor",
+          "normal": "Amon",
+          "hard": "Pelarsal"
         }
       },
       "en": {
@@ -3652,9 +3652,9 @@
           "Karnak Temple"
         ],
         "hints": {
-          "easy": "Vast ancient temple complex in Luxor",
-          "normal": "A hall like a forest of sandstone columns",
-          "hard": "Rows of ram heads by the entrance"
+          "easy": "Luxor",
+          "normal": "Amon",
+          "hard": "Columns"
         }
       }
     }
@@ -3675,18 +3675,18 @@
           "Resepass"
         ],
         "hints": {
-          "easy": "Litet häfte som visar medborgarskap",
-          "normal": "Foto bredvid en maskinläsbar rad",
-          "hard": "Bläddras vid gränskontrollen"
+          "easy": "Gränskontroll",
+          "normal": "Stämplar",
+          "hard": "Legitimation"
         }
       },
       "en": {
         "word": "Passport",
         "aliases": [],
         "hints": {
-          "easy": "Small booklet that shows nationality",
-          "normal": "Photo beside machine-readable lines",
-          "hard": "Flipped through at a border desk"
+          "easy": "Border",
+          "normal": "Stamps",
+          "hard": "Identification"
         }
       }
     }
@@ -3698,7 +3698,7 @@
     "tags": [
       "document"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3707,9 +3707,9 @@
           "Inresevisum"
         ],
         "hints": {
-          "easy": "Tillstånd att resa in i ett land",
-          "normal": "Kan vara ett klistermärke eller digitalt",
-          "hard": "Giltighetstid och villkor för vistelsen"
+          "easy": "Inresetillstånd",
+          "normal": "Ambassad",
+          "hard": "Giltighet"
         }
       },
       "en": {
@@ -3718,9 +3718,9 @@
           "Entry visa"
         ],
         "hints": {
-          "easy": "Permission to enter a country",
-          "normal": "Either a sticker or an electronic record",
-          "hard": "Duration and conditions of a stay"
+          "easy": "Entry",
+          "normal": "Embassy",
+          "hard": "Validity"
         }
       }
     }
@@ -3732,25 +3732,25 @@
     "tags": [
       "document"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Boardingkort",
         "aliases": [],
         "hints": {
-          "easy": "Visas för att få gå ombord",
-          "normal": "Platsnummer bredvid avgångstid",
-          "hard": "Kod läses vid gaten"
+          "easy": "Ombordstigning",
+          "normal": "Gate",
+          "hard": "Platsnummer"
         }
       },
       "en": {
         "word": "Boarding pass",
         "aliases": [],
         "hints": {
-          "easy": "Shown when you board a flight",
-          "normal": "Seat number near the departure details",
-          "hard": "Code scanned at the gate"
+          "easy": "Boarding",
+          "normal": "Gate",
+          "hard": "Seat"
         }
       }
     }
@@ -3762,25 +3762,25 @@
     "tags": [
       "document"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Tågpass",
         "aliases": [],
         "hints": {
-          "easy": "Ger flera tågresor under en giltighetsperiod",
-          "normal": "Kan räknas i valfria resdagar",
-          "hard": "Platsbokning kan krävas separat"
+          "easy": "Järnväg",
+          "normal": "Giltighet",
+          "hard": "Resperiod"
         }
       },
       "en": {
         "word": "Rail pass",
         "aliases": [],
         "hints": {
-          "easy": "Covers multiple train trips within a period",
-          "normal": "May count days with travel rather than trips",
-          "hard": "Reservations may be separate"
+          "easy": "Railway",
+          "normal": "Validity",
+          "hard": "Period"
         }
       }
     }
@@ -3799,9 +3799,9 @@
         "word": "Internationellt körkort",
         "aliases": [],
         "hints": {
-          "easy": "Översättning att visa ihop med körkortet",
-          "normal": "Hyrsajten kan kräva det utomlands",
-          "hard": "Flera språk vid en vägkontroll"
+          "easy": "Hyrbil",
+          "normal": "Legitimation",
+          "hard": "Behörighet"
         }
       },
       "en": {
@@ -3810,9 +3810,9 @@
           "IDP"
         ],
         "hints": {
-          "easy": "Translation carried with a driving licence",
-          "normal": "May be requested when renting abroad",
-          "hard": "Several languages at a roadside check"
+          "easy": "Rental",
+          "normal": "Identification",
+          "hard": "Authorization"
         }
       }
     }
@@ -3831,18 +3831,18 @@
         "word": "Tulldeklaration",
         "aliases": [],
         "hints": {
-          "easy": "Formulär om varor som förs över gränsen",
-          "normal": "Frågor om värde och innehåll",
-          "hard": "Underlag för att bedöma avgifter"
+          "easy": "Tull",
+          "normal": "Införsel",
+          "hard": "Varulista"
         }
       },
       "en": {
         "word": "Customs declaration",
         "aliases": [],
         "hints": {
-          "easy": "Form describing goods taken across a border",
-          "normal": "Questions about value and contents",
-          "hard": "Helps determine which duties apply"
+          "easy": "Customs",
+          "normal": "Import",
+          "hard": "Inventory"
         }
       }
     }
@@ -3861,9 +3861,9 @@
         "word": "Reseförsäkringsintyg",
         "aliases": [],
         "hints": {
-          "easy": "Visar försäkringsskydd på resan",
-          "normal": "Telefonnumret till larmcentralen finns ofta med",
-          "hard": "En klinik kan be om försäkringsuppgifterna"
+          "easy": "Försäkring",
+          "normal": "Sjukvård",
+          "hard": "Intyg"
         }
       },
       "en": {
@@ -3872,9 +3872,9 @@
           "Proof of travel insurance"
         ],
         "hints": {
-          "easy": "Proof of cover while away",
-          "normal": "Often lists an emergency assistance number",
-          "hard": "A clinic may ask for the policy details"
+          "easy": "Insurance",
+          "normal": "Healthcare",
+          "hard": "Certificate"
         }
       }
     }
@@ -3886,7 +3886,7 @@
     "tags": [
       "luggage"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3895,9 +3895,9 @@
           "Väskbricka"
         ],
         "hints": {
-          "easy": "Märkning som fästs på väskans handtag",
-          "normal": "Tejp på incheckade kollin",
-          "hard": "Kod för sortering på flygplatsen"
+          "easy": "Namnbricka",
+          "normal": "Bagage",
+          "hard": "Handtag"
         }
       },
       "en": {
@@ -3906,9 +3906,9 @@
           "Bag tag"
         ],
         "hints": {
-          "easy": "Label fastened to a suitcase handle",
-          "normal": "A strip wrapped around a checked item",
-          "hard": "Code for airport sorting"
+          "easy": "Label",
+          "normal": "Baggage",
+          "hard": "Handle"
         }
       }
     }
@@ -3929,9 +3929,9 @@
           "Incheckningskvitto för bagage"
         ],
         "hints": {
-          "easy": "Kvittot på en incheckad väska",
-          "normal": "Behövs om väskan inte kommer fram",
-          "hard": "Nummer som matchar en remsa på kollit"
+          "easy": "Bagage",
+          "normal": "Kvitto",
+          "hard": "Streckkod"
         }
       },
       "en": {
@@ -3940,9 +3940,9 @@
           "Baggage receipt"
         ],
         "hints": {
-          "easy": "Proof that a suitcase was checked in",
-          "normal": "Useful when a bag fails to arrive",
-          "hard": "Number matching a strip on the case"
+          "easy": "Baggage",
+          "normal": "Receipt",
+          "hard": "Barcode"
         }
       }
     }
@@ -3961,18 +3961,18 @@
         "word": "Resväska",
         "aliases": [],
         "hints": {
-          "easy": "Packning i ett skal med handtag",
-          "normal": "Ofta hjul på väg till gaten",
-          "hard": "Remmar håller kläderna på plats"
+          "easy": "Bagage",
+          "normal": "Packning",
+          "hard": "Hjul"
         }
       },
       "en": {
         "word": "Suitcase",
         "aliases": [],
         "hints": {
-          "easy": "Travel case with a carrying handle",
-          "normal": "Often wheels towards the gate",
-          "hard": "Straps hold clothes in place"
+          "easy": "Luggage",
+          "normal": "Packing",
+          "hard": "Wheels"
         }
       }
     }
@@ -3993,9 +3993,9 @@
           "Klädfodral"
         ],
         "hints": {
-          "easy": "Skyddar kavajen utan att den viks",
-          "normal": "Minskar veck vid transport",
-          "hard": "Kan ha en krok över dragkedjan"
+          "easy": "Kostym",
+          "normal": "Galge",
+          "hard": "Veck"
         }
       },
       "en": {
@@ -4004,9 +4004,9 @@
           "Suit bag"
         ],
         "hints": {
-          "easy": "Carrier for a suit on its hanger",
-          "normal": "Helps prevent creases in transit",
-          "hard": "May have a hook above the zip"
+          "easy": "Suit",
+          "normal": "Hanger",
+          "hard": "Creases"
         }
       }
     }
@@ -4025,18 +4025,18 @@
         "word": "Packkub",
         "aliases": [],
         "hints": {
-          "easy": "Liten påse för att dela upp väskans innehåll",
-          "normal": "Strumpor och tröjor hålls isär",
-          "hard": "Nätpanel visar vad som ligger i"
+          "easy": "Organisering",
+          "normal": "Packning",
+          "hard": "Dragkedja"
         }
       },
       "en": {
         "word": "Packing cube",
         "aliases": [],
         "hints": {
-          "easy": "Small pouch for organising a suitcase",
-          "normal": "Keeps socks and shirts apart",
-          "hard": "A mesh panel shows its contents"
+          "easy": "Organization",
+          "normal": "Packing",
+          "hard": "Zipper"
         }
       }
     }
@@ -4048,25 +4048,25 @@
     "tags": [
       "comfort"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Resekudde",
         "aliases": [],
         "hints": {
-          "easy": "Stöd runt nacken när man sitter",
-          "normal": "Huvudet tippar mindre på nattflyget",
-          "hard": "Kan tömmas på luft i handbagaget"
+          "easy": "Nackstöd",
+          "normal": "Sömn",
+          "hard": "Hästsko"
         }
       },
       "en": {
         "word": "Travel pillow",
         "aliases": [],
         "hints": {
-          "easy": "Neck support for sleeping upright",
-          "normal": "Stops your head dropping on an overnight flight",
-          "hard": "Inflatable versions pack flat"
+          "easy": "Neck",
+          "normal": "Sleep",
+          "hard": "Horseshoe"
         }
       }
     }
@@ -4078,16 +4078,16 @@
     "tags": [
       "orientation"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Guidebok",
         "aliases": [],
         "hints": {
-          "easy": "Bok med förslag på vad man kan besöka",
-          "normal": "Promenader med kartor mellan kapitlen",
-          "hard": "Tips om sevärdheter och lokal etikett"
+          "easy": "Sevärdheter",
+          "normal": "Tips",
+          "hard": "Resmål"
         }
       },
       "en": {
@@ -4096,9 +4096,9 @@
           "Guidebook"
         ],
         "hints": {
-          "easy": "Book of places to see on a trip",
-          "normal": "Walking routes between its pages",
-          "hard": "Sightseeing and etiquette tips"
+          "easy": "Sights",
+          "normal": "Recommendations",
+          "hard": "Destinations"
         }
       }
     }
@@ -4117,18 +4117,18 @@
         "word": "Stadskarta",
         "aliases": [],
         "hints": {
-          "easy": "Utvikbart gatunät i fickformat",
-          "normal": "Hjälper dig hitta nästa torg",
-          "hard": "Gatunamn med rutor i registret"
+          "easy": "Gator",
+          "normal": "Orientering",
+          "hard": "Kvarter"
         }
       },
       "en": {
         "word": "City map",
         "aliases": [],
         "hints": {
-          "easy": "Pocket-sized foldout of city streets",
-          "normal": "Helps you find the next square",
-          "hard": "Grid references beside street names"
+          "easy": "Streets",
+          "normal": "Orientation",
+          "hard": "Blocks"
         }
       }
     }
@@ -4140,25 +4140,25 @@
     "tags": [
       "orientation"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Parlör",
         "aliases": [],
         "hints": {
-          "easy": "Bok med fraser för ett annat språk",
-          "normal": "Hjälper dig beställa utan att kunna språket",
-          "hard": "Ljudskrift för svåra uttal"
+          "easy": "Översättning",
+          "normal": "Fraser",
+          "hard": "Turist"
         }
       },
       "en": {
         "word": "Phrasebook",
         "aliases": [],
         "hints": {
-          "easy": "Book of ready-made phrases for another language",
-          "normal": "Helps you order when words fail",
-          "hard": "Pronunciation written out phonetically"
+          "easy": "Translation",
+          "normal": "Phrases",
+          "hard": "Tourist"
         }
       }
     }
@@ -4170,7 +4170,7 @@
     "tags": [
       "lodging"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4179,9 +4179,9 @@
           "Hotellnyckelkort"
         ],
         "hints": {
-          "easy": "Plast som ersätter en rumsnyckel",
-          "normal": "Delas ut när man checkar in",
-          "hard": "Ger ibland också ström i rummet"
+          "easy": "Hotell",
+          "normal": "Dörr",
+          "hard": "Kortläsare"
         }
       },
       "en": {
@@ -4190,9 +4190,9 @@
           "Room key card"
         ],
         "hints": {
-          "easy": "Plastic that replaces a room key",
-          "normal": "Handed over at check-in",
-          "hard": "Sometimes also switches on room power"
+          "easy": "Hotel",
+          "normal": "Door",
+          "hard": "Reader"
         }
       }
     }
@@ -4204,16 +4204,16 @@
     "tags": [
       "lodging"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Stör ej-skylt",
         "aliases": [],
         "hints": {
-          "easy": "Visar att hotellrummet ska lämnas ifred",
-          "normal": "Hängs på dörrhandtaget utanför rummet",
-          "hard": "Städningen får vänta"
+          "easy": "Dörrhandtag",
+          "normal": "Ostört",
+          "hard": "Hotell"
         }
       },
       "en": {
@@ -4222,9 +4222,9 @@
           "Do not disturb door hanger"
         ],
         "hints": {
-          "easy": "Asks hotel staff to leave the room alone",
-          "normal": "Hangs on the corridor side of a door handle",
-          "hard": "Housekeeping can wait"
+          "easy": "Doorknob",
+          "normal": "Privacy",
+          "hard": "Hotel"
         }
       }
     }
@@ -4236,7 +4236,7 @@
     "tags": [
       "luggage"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4245,9 +4245,9 @@
           "Resväskelås"
         ],
         "hints": {
-          "easy": "Lås genom resväskans dragkedjeöglor",
-          "normal": "En liten sifferkod i packningen",
-          "hard": "Håller ihop dragarna under transport"
+          "easy": "Stöldskydd",
+          "normal": "Sifferkod",
+          "hard": "Dragkedja"
         }
       },
       "en": {
@@ -4256,9 +4256,9 @@
           "Suitcase lock"
         ],
         "hints": {
-          "easy": "Lock fitted through suitcase zip loops",
-          "normal": "A tiny combination dial on your baggage",
-          "hard": "Keeps the zipper pulls together in transit"
+          "easy": "Security",
+          "normal": "Combination",
+          "hard": "Zipper"
         }
       }
     }

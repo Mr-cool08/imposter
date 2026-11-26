@@ -6,19 +6,19 @@
     "tags": [
       "arid"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Stenöken",
+        "word": "Badlands",
         "aliases": [
-          "Badlands",
-          "Mesa"
+          "Mesa",
+          "Stenöken"
         ],
         "hints": {
-          "easy": "Röd sand mellan lager av terrakotta",
-          "normal": "Randiga karga berg",
-          "hard": "Guld är lättare att hitta än man tror"
+          "easy": "Terrakotta",
+          "normal": "Randigt",
+          "hard": "Guld"
         }
       },
       "en": {
@@ -27,9 +27,9 @@
           "Mesa"
         ],
         "hints": {
-          "easy": "Red sand between layers of terracotta",
-          "normal": "Striped barren hills",
-          "hard": "Gold is easier to find than you might expect"
+          "easy": "Terracotta",
+          "normal": "Striped",
+          "hard": "Gold"
         }
       }
     }
@@ -45,23 +45,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Bambudjungel",
+        "word": "Bamboo Jungle",
         "aliases": [
-          "Bamboo Jungle"
+          "Bambudjungel"
         ],
         "hints": {
-          "easy": "Tropisk variant med täta gröna strån",
-          "normal": "Pandor i undervegetationen",
-          "hard": "Bra ställe att samla till byggställningar"
+          "easy": "Tropisk",
+          "normal": "Pandor",
+          "hard": "Byggställningar"
         }
       },
       "en": {
         "word": "Bamboo Jungle",
         "aliases": [],
         "hints": {
-          "easy": "Tropical variant with dense green stalks",
-          "normal": "Pandas in the undergrowth",
-          "hard": "A good place to gather supplies for scaffolding"
+          "easy": "Tropical",
+          "normal": "Pandas",
+          "hard": "Scaffolding"
         }
       }
     }
@@ -73,27 +73,27 @@
     "tags": [
       "nether"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Basaltdeltan",
+        "word": "Basalt Deltas",
         "aliases": [
-          "Basalt Deltas"
+          "Basaltdeltan"
         ],
         "hints": {
-          "easy": "Karg Netherbiom med svarta klippor och lavahål",
-          "normal": "Askliknande partiklar i luften",
-          "hard": "En liten miss vid nästa hopp kostar mycket"
+          "easy": "Lavahål",
+          "normal": "Aska",
+          "hard": "Hopp"
         }
       },
       "en": {
         "word": "Basalt Deltas",
         "aliases": [],
         "hints": {
-          "easy": "Barren Nether biome with dark cliffs and lava holes",
-          "normal": "Ashlike flecks in the air",
-          "hard": "One bad jump is costly here"
+          "easy": "Lava",
+          "normal": "Ash",
+          "hard": "Jump"
         }
       }
     }
@@ -105,27 +105,27 @@
     "tags": [
       "woodland"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Körsbärslund",
+        "word": "Cherry Grove",
         "aliases": [
-          "Cherry Grove"
+          "Körsbärslund"
         ],
         "hints": {
-          "easy": "Bergsnära biom med rosa trädkronor",
-          "normal": "Kronblad på marken",
-          "hard": "Brädorna blir rosa de också"
+          "easy": "Rosa",
+          "normal": "Kronblad",
+          "hard": "Brädor"
         }
       },
       "en": {
         "word": "Cherry Grove",
         "aliases": [],
         "hints": {
-          "easy": "Foothill biome with pink canopies",
-          "normal": "Petals on the ground",
-          "hard": "Even your planks come out pink"
+          "easy": "Pink",
+          "normal": "Petals",
+          "hard": "Planks"
         }
       }
     }
@@ -141,23 +141,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Karmosinskog",
+        "word": "Crimson Forest",
         "aliases": [
-          "Crimson Forest"
+          "Karmosinskog"
         ],
         "hints": {
-          "easy": "Röd Netherbiom med jättesvampar och hogliner",
-          "normal": "Rankor hänger från de väldiga svamphattarna",
-          "hard": "Ett glödande ljus växer bland hattarna"
+          "easy": "Nether",
+          "normal": "Svampar",
+          "hard": "Rankor"
         }
       },
       "en": {
         "word": "Crimson Forest",
         "aliases": [],
         "hints": {
-          "easy": "Red Nether biome with giant fungi and hoglins",
-          "normal": "Vines hang from enormous caps",
-          "hard": "A glowing light grows between the caps"
+          "easy": "Nether",
+          "normal": "Fungi",
+          "hard": "Vines"
         }
       }
     }
@@ -169,27 +169,27 @@
     "tags": [
       "woodland"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Mörk skog",
+        "word": "Dark Forest",
         "aliases": [
-          "Dark Forest"
+          "Mörk skog"
         ],
         "hints": {
-          "easy": "Täta mörka ekar och jättesvampar",
-          "normal": "Kronorna skuggar marken mitt på dagen",
-          "hard": "Höga herrgårdsfönster mellan stammarna"
+          "easy": "Jättesvampar",
+          "normal": "Trädkronor",
+          "hard": "Herrgård"
         }
       },
       "en": {
         "word": "Dark Forest",
         "aliases": [],
         "hints": {
-          "easy": "Dense dark oaks and giant mushrooms",
-          "normal": "The canopy shades the ground at midday",
-          "hard": "Tall mansion windows between the trunks"
+          "easy": "Mushrooms",
+          "normal": "Canopy",
+          "hard": "Mansion"
         }
       }
     }
@@ -205,23 +205,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Djupa mörkret",
+        "word": "Deep Dark",
         "aliases": [
-          "Deep Dark"
+          "Djupa mörkret"
         ],
         "hints": {
-          "easy": "Underjordisk biom med sculk och skrikande block",
-          "normal": "Platser där fotsteg kan väcka en jätte",
-          "hard": "Ull på marken dämpar vibrationerna"
+          "easy": "Underjord",
+          "normal": "Fotsteg",
+          "hard": "Vibrationer"
         }
       },
       "en": {
         "word": "Deep Dark",
         "aliases": [],
         "hints": {
-          "easy": "Underground biome of sculk and shrieking blocks",
-          "normal": "Footsteps here can wake a giant",
-          "hard": "Wool underfoot muffles vibrations"
+          "easy": "Underground",
+          "normal": "Footsteps",
+          "hard": "Vibrations"
         }
       }
     }
@@ -233,25 +233,27 @@
     "tags": [
       "arid"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Öken",
-        "aliases": [],
+        "word": "Desert",
+        "aliases": [
+          "Öken"
+        ],
         "hints": {
-          "easy": "Sandig biom med kaktusar och pyramider",
-          "normal": "Byhus av sandsten",
-          "hard": "En odöd varelse tål dagsljuset där"
+          "easy": "Kaktusar",
+          "normal": "Sandsten",
+          "hard": "Dagsljus"
         }
       },
       "en": {
         "word": "Desert",
         "aliases": [],
         "hints": {
-          "easy": "Sandy biome with cacti and pyramids",
-          "normal": "Village houses made of sandstone",
-          "hard": "An undead mob can endure the daylight there"
+          "easy": "Cacti",
+          "normal": "Sandstone",
+          "hard": "Sunlight"
         }
       }
     }
@@ -267,23 +269,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Droppstensgrottor",
+        "word": "Dripstone Caves",
         "aliases": [
-          "Dripstone Caves"
+          "Droppstensgrottor"
         ],
         "hints": {
-          "easy": "Underjordisk biom med spetsar i tak och golv",
-          "normal": "Kopparmalm är vanlig här",
-          "hard": "Se upp var du landar efter ett fall"
+          "easy": "Stalaktiter",
+          "normal": "Koppar",
+          "hard": "Droppar"
         }
       },
       "en": {
         "word": "Dripstone Caves",
         "aliases": [],
         "hints": {
-          "easy": "Underground biome with spikes on the ceiling and floor",
-          "normal": "Copper ore is common here",
-          "hard": "Watch where you land after a fall"
+          "easy": "Stalactites",
+          "normal": "Copper",
+          "hard": "Droplets"
         }
       }
     }
@@ -299,23 +301,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Fruset hav",
+        "word": "Frozen Ocean",
         "aliases": [
-          "Frozen Ocean"
+          "Fruset hav"
         ],
         "hints": {
-          "easy": "Vidsträckt vatten med stora isberg",
-          "normal": "Isbjörnar kan vandra över ytan",
-          "hard": "En båt får leta efter öppna rännor"
+          "easy": "Packis",
+          "normal": "Isbjörnar",
+          "hard": "Rännor"
         }
       },
       "en": {
         "word": "Frozen Ocean",
         "aliases": [],
         "hints": {
-          "easy": "Expansive water dotted with large icebergs",
-          "normal": "Polar bears may wander across the surface",
-          "hard": "A boat has to look for open channels"
+          "easy": "Icebergs",
+          "normal": "Bears",
+          "hard": "Channels"
         }
       }
     }
@@ -331,23 +333,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Isspikar",
+        "word": "Ice Spikes",
         "aliases": [
-          "Ice Spikes"
+          "Isspikar"
         ],
         "hints": {
-          "easy": "Stora spiror av packis på en snöslätt",
-          "normal": "En taggig siluett mot himlen",
-          "hard": "Ta med en silkeshacka för pelarna"
+          "easy": "Snöslätt",
+          "normal": "Siluett",
+          "hard": "Pelarna"
         }
       },
       "en": {
         "word": "Ice Spikes",
         "aliases": [],
         "hints": {
-          "easy": "Huge towers of packed ice on a snowy plain",
-          "normal": "A jagged silhouette against the sky",
-          "hard": "Bring a Silk Touch pickaxe for the pillars"
+          "easy": "Towers",
+          "normal": "Silhouette",
+          "hard": "Silk"
         }
       }
     }
@@ -359,25 +361,27 @@
     "tags": [
       "woodland"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Djungel",
-        "aliases": [],
+        "word": "Jungle",
+        "aliases": [
+          "Djungel"
+        ],
         "hints": {
-          "easy": "Tät biom med höga träd och lianer",
-          "normal": "Papegojor och kakao bland stammarna",
-          "hard": "En mossig byggnad göms av växtligheten"
+          "easy": "Lianer",
+          "normal": "Stammarna",
+          "hard": "Växtligheten"
         }
       },
       "en": {
         "word": "Jungle",
         "aliases": [],
         "hints": {
-          "easy": "Dense biome with tall trees and vines",
-          "normal": "Parrots and cocoa among the trunks",
-          "hard": "The foliage hides a mossy building"
+          "easy": "Biome",
+          "normal": "Parrots",
+          "hard": "Foliage"
         }
       }
     }
@@ -393,23 +397,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Frodiga grottor",
+        "word": "Lush Caves",
         "aliases": [
-          "Lush Caves"
+          "Frodiga grottor"
         ],
         "hints": {
-          "easy": "Grönt bergrum med lysbär och axolotler",
-          "normal": "En azalea kan visa vägen ner",
-          "hard": "Sporer faller från en blomma i taket"
+          "easy": "Axolotler",
+          "normal": "Azalea",
+          "hard": "Sporer"
         }
       },
       "en": {
         "word": "Lush Caves",
         "aliases": [],
         "hints": {
-          "easy": "Green cavern with glow berries and axolotls",
-          "normal": "An azalea can show you the way down",
-          "hard": "Spores fall from a flower on the ceiling"
+          "easy": "Axolotls",
+          "normal": "Azalea",
+          "hard": "Spores"
         }
       }
     }
@@ -421,27 +425,27 @@
     "tags": [
       "wetland"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Mangroveträsk",
+        "word": "Mangrove Swamp",
         "aliases": [
-          "Mangrove Swamp"
+          "Mangroveträsk"
         ],
         "hints": {
-          "easy": "Lerig våtmark med synliga trädrötter",
-          "normal": "Prova att ro mellan rotbågarna",
-          "hard": "Små groddplantor hänger från grenverket"
+          "easy": "Trädrötter",
+          "normal": "Lera",
+          "hard": "Groddplantor"
         }
       },
       "en": {
         "word": "Mangrove Swamp",
         "aliases": [],
         "hints": {
-          "easy": "Muddy wetland with exposed tree roots",
-          "normal": "Try rowing between the arches of roots",
-          "hard": "Propagules dangle from the foliage"
+          "easy": "Roots",
+          "normal": "Mud",
+          "hard": "Propagules"
         }
       }
     }
@@ -457,23 +461,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Äng",
+        "word": "Meadow",
         "aliases": [
-          "Meadow"
+          "Äng"
         ],
         "hints": {
-          "easy": "Blomrik gräsmark vid bergen",
-          "normal": "Ett träd här bär ett bo",
-          "hard": "Binas besök bland höjdens blommor"
+          "easy": "Blommor",
+          "normal": "Berg",
+          "hard": "Bin"
         }
       },
       "en": {
         "word": "Meadow",
         "aliases": [],
         "hints": {
-          "easy": "Flower-filled grassland near mountains",
-          "normal": "A tree here comes with a nest",
-          "hard": "Bees visit the blooms up high"
+          "easy": "Flowers",
+          "normal": "Mountains",
+          "hard": "Bees"
         }
       }
     }
@@ -489,15 +493,15 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Svampslätter",
+        "word": "Mushroom Fields",
         "aliases": [
-          "Mushroom Fields",
-          "Svampö"
+          "Svampö",
+          "Svampslätter"
         ],
         "hints": {
-          "easy": "Biom med jättesvampar och speciella kor",
-          "normal": "Gråviolett mycel på marken",
-          "hard": "En ovanligt fridfull natt vid ytan"
+          "easy": "Svampkor",
+          "normal": "Mycel",
+          "hard": "Frid"
         }
       },
       "en": {
@@ -506,9 +510,9 @@
           "Mushroom Island"
         ],
         "hints": {
-          "easy": "Biome with giant fungi and unusual cows",
-          "normal": "Gray-purple mycelium covers the ground",
-          "hard": "An unusually peaceful night on the surface"
+          "easy": "Cows",
+          "normal": "Mycelium",
+          "hard": "Peace"
         }
       }
     }
@@ -524,23 +528,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Netherödemark",
+        "word": "Nether Wastes",
         "aliases": [
-          "Nether Wastes"
+          "Netherödemark"
         ],
         "hints": {
-          "easy": "Röd klippmark i elddimensionen med stora lavasjöar",
-          "normal": "Glödsten hänger ofta från taket",
-          "hard": "Vita kvartsfläckar bryter av allt det röda"
+          "easy": "Elddimensionen",
+          "normal": "Glödsten",
+          "hard": "Kvartsfläckar"
         }
       },
       "en": {
         "word": "Nether Wastes",
         "aliases": [],
         "hints": {
-          "easy": "Red rocky ground and large lava lakes in the fiery dimension",
-          "normal": "Glowstone often hangs overhead",
-          "hard": "White patches of quartz break up the sea of red"
+          "easy": "Rocky",
+          "normal": "Glowstone",
+          "hard": "Patches"
         }
       }
     }
@@ -556,23 +560,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Blek trädgård",
+        "word": "Pale Garden",
         "aliases": [
-          "Pale Garden"
+          "Blek trädgård"
         ],
         "hints": {
-          "easy": "Skog med vitaktiga ekar och hängande mossa",
-          "normal": "Något trälikt rör sig efter skymningen",
-          "hard": "Musiken tonar bort när du går in"
+          "easy": "Blekt",
+          "normal": "Skymning",
+          "hard": "Harts"
         }
       },
       "en": {
         "word": "Pale Garden",
         "aliases": [],
         "hints": {
-          "easy": "Woodland with whitish oaks and hanging moss",
-          "normal": "Something wooden moves after dusk",
-          "hard": "The music fades as you enter"
+          "easy": "Pale",
+          "normal": "Dusk",
+          "hard": "Resin"
         }
       }
     }
@@ -584,27 +588,27 @@
     "tags": [
       "overworld"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Slätter",
+        "word": "Plains",
         "aliases": [
-          "Plains"
+          "Slätter"
         ],
         "hints": {
-          "easy": "Flack gräsmark med hästar och byar",
-          "normal": "Lätt att hitta en öppen byggplats",
-          "hard": "Ett ensamt träd syns på långt håll"
+          "easy": "Hästar",
+          "normal": "Gräs",
+          "hard": "Byggplats"
         }
       },
       "en": {
         "word": "Plains",
         "aliases": [],
         "hints": {
-          "easy": "Flat grassland with horses and villages",
-          "normal": "Easy to find space to build",
-          "hard": "You can see a lone tree from far away"
+          "easy": "Horses",
+          "normal": "Grass",
+          "hard": "Space"
         }
       }
     }
@@ -616,27 +620,27 @@
     "tags": [
       "overworld"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Savann",
+        "word": "Savanna",
         "aliases": [
-          "Savanna"
+          "Savann"
         ],
         "hints": {
-          "easy": "Torr gräsmark med akacior",
-          "normal": "Orange plankor från de platta trädkronorna",
-          "hard": "Ett bältdjur kan rulla ihop sig nära dig"
+          "easy": "Akacior",
+          "normal": "Gräs",
+          "hard": "Bältdjur"
         }
       },
       "en": {
         "word": "Savanna",
         "aliases": [],
         "hints": {
-          "easy": "Dry grassland with acacia trees",
-          "normal": "Orange planks from the flat-topped trees",
-          "hard": "An armadillo may curl up nearby"
+          "easy": "Acacias",
+          "normal": "Grass",
+          "hard": "Armadillo"
         }
       }
     }
@@ -652,23 +656,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Snöiga sluttningar",
+        "word": "Snowy Slopes",
         "aliases": [
-          "Snowy Slopes"
+          "Snöiga sluttningar"
         ],
         "hints": {
-          "easy": "Vita bergssidor med getter och pudersnö",
-          "normal": "En get kan stå långt ovanför dig",
-          "hard": "Läderstövlar hjälper på vägen upp"
+          "easy": "Berg",
+          "normal": "Get",
+          "hard": "Läderstövlar"
         }
       },
       "en": {
         "word": "Snowy Slopes",
         "aliases": [],
         "hints": {
-          "easy": "White mountainsides with goats and powder snow",
-          "normal": "A goat may be standing far above you",
-          "hard": "Leather boots help on the climb"
+          "easy": "Mountains",
+          "normal": "Goats",
+          "hard": "Leather"
         }
       }
     }
@@ -680,27 +684,27 @@
     "tags": [
       "nether"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Själsandsdal",
+        "word": "Soul Sand Valley",
         "aliases": [
-          "Soul Sand Valley"
+          "Själsandsdal"
         ],
         "hints": {
-          "easy": "Netherbiom med blå lågor och stora benfynd",
-          "normal": "Svårare att springa utan förtrollade stövlar",
-          "hard": "Vita benbågar sticker upp ur marken"
+          "easy": "Fossiler",
+          "normal": "Eld",
+          "hard": "Benbågar"
         }
       },
       "en": {
         "word": "Soul Sand Valley",
         "aliases": [],
         "hints": {
-          "easy": "Nether biome with blue flames and giant fossils",
-          "normal": "Running is harder without enchanted boots",
-          "hard": "White arcs of bone stick out of the ground"
+          "easy": "Fossils",
+          "normal": "Flames",
+          "hard": "Arches"
         }
       }
     }
@@ -712,25 +716,27 @@
     "tags": [
       "wetland"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Träsk",
-        "aliases": [],
+        "word": "Swamp",
+        "aliases": [
+          "Träsk"
+        ],
         "hints": {
-          "easy": "Grodor, näckrosblad och grunt vatten",
-          "normal": "Slemkuber hoppar fram vid rätt måne",
-          "hard": "En blå orkidé vid vattenbrynet"
+          "easy": "Näckrosblad",
+          "normal": "Slemkuber",
+          "hard": "Vattenbrynet"
         }
       },
       "en": {
         "word": "Swamp",
         "aliases": [],
         "hints": {
-          "easy": "Frogs, lily pads, and shallow water",
-          "normal": "Slimes come out in the right moon phase",
-          "hard": "A blue orchid at the water's edge"
+          "easy": "Water",
+          "normal": "Slimes",
+          "hard": "Orchid"
         }
       }
     }
@@ -742,27 +748,27 @@
     "tags": [
       "woodland"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Tajga",
+        "word": "Taiga",
         "aliases": [
-          "Taiga"
+          "Tajga"
         ],
         "hints": {
-          "easy": "Granskog med rävar och söta bär",
-          "normal": "Ormbunkar bland barrträden",
-          "hard": "Bärbuskarna gör ont att gå igenom"
+          "easy": "Granskog",
+          "normal": "Barrträden",
+          "hard": "Bärbuskarna"
         }
       },
       "en": {
         "word": "Taiga",
         "aliases": [],
         "hints": {
-          "easy": "Spruce forest with foxes and sweet berries",
-          "normal": "Ferns between the conifers",
-          "hard": "Those berry bushes hurt to walk through"
+          "easy": "Spruce",
+          "normal": "Conifers",
+          "hard": "Bushes"
         }
       }
     }
@@ -778,23 +784,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Varmt hav",
+        "word": "Warm Ocean",
         "aliases": [
-          "Warm Ocean"
+          "Varmt hav"
         ],
         "hints": {
-          "easy": "Klara vatten med korallrev",
-          "normal": "Färgglada fiskar mellan blocken",
-          "hard": "En sjögurka lyser upp dyket"
+          "easy": "Korallrev",
+          "normal": "Fisk",
+          "hard": "Sjögurka"
         }
       },
       "en": {
         "word": "Warm Ocean",
         "aliases": [],
         "hints": {
-          "easy": "Clear water with coral reefs",
-          "normal": "Colorful fish between the blocks",
-          "hard": "A sea pickle lights up your dive"
+          "easy": "Coral",
+          "normal": "Fish",
+          "hard": "Pickle"
         }
       }
     }
@@ -810,23 +816,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Förvrängd skog",
+        "word": "Warped Forest",
         "aliases": [
-          "Warped Forest"
+          "Förvrängd skog"
         ],
         "hints": {
-          "easy": "Turkos Netherbiom med jättesvampar",
-          "normal": "Långa teleportörer trivs mellan stammarna",
-          "hard": "Rankorna slingrar uppåt"
+          "easy": "Netherbiom",
+          "normal": "Teleportörer",
+          "hard": "Rankorna"
         }
       },
       "en": {
         "word": "Warped Forest",
         "aliases": [],
         "hints": {
-          "easy": "Teal Nether biome with giant fungi",
-          "normal": "Tall teleporters thrive among the trunks",
-          "hard": "The vines twist upward"
+          "easy": "Nether",
+          "normal": "Teleporters",
+          "hard": "Upward"
         }
       }
     }
@@ -840,23 +846,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Ametistkluster",
+        "word": "Amethyst Cluster",
         "aliases": [
-          "Amethyst Cluster"
+          "Ametistkluster"
         ],
         "hints": {
-          "easy": "Fullvuxna lila kristaller som ger skärvor",
-          "normal": "Växer i geoder på särskilda block",
-          "hard": "Klingande fynd bakom ett vitt lager"
+          "easy": "Kristaller",
+          "normal": "Geoder",
+          "hard": "Klang"
         }
       },
       "en": {
         "word": "Amethyst Cluster",
         "aliases": [],
         "hints": {
-          "easy": "Mature purple crystals drop shards",
-          "normal": "Grows on special blocks inside geodes",
-          "hard": "A chiming discovery behind white calcite"
+          "easy": "Crystals",
+          "normal": "Geodes",
+          "hard": "Chimes"
         }
       }
     }
@@ -866,27 +872,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Städ",
+        "word": "Anvil",
         "aliases": [
-          "Anvil"
+          "Städ"
         ],
         "hints": {
-          "easy": "Lagar och döper om utrustning",
-          "normal": "Låter dig föra över en förtrollning från en bok",
-          "hard": "En fallande järnklump gör ont"
+          "easy": "Lagning",
+          "normal": "Förtrollning",
+          "hard": "Järnklump"
         }
       },
       "en": {
         "word": "Anvil",
         "aliases": [],
         "hints": {
-          "easy": "Rename items or combine damaged gear",
-          "normal": "Apply the magic from a book",
-          "hard": "The iron block with a very loud landing"
+          "easy": "Repairs",
+          "normal": "Enchantments",
+          "hard": "Iron"
         }
       }
     }
@@ -896,27 +902,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Fyr",
+        "word": "Beacon",
         "aliases": [
-          "Beacon"
+          "Fyr"
         ],
         "hints": {
-          "easy": "Skickar en ljusstråle från en mineralpyramid",
-          "normal": "Ger närliggande spelare effekter",
-          "hard": "En Netherstjärna behövs i receptet"
+          "easy": "Ljusstråle",
+          "normal": "Mineralpyramid",
+          "hard": "Netherstjärna"
         }
       },
       "en": {
         "word": "Beacon",
         "aliases": [],
         "hints": {
-          "easy": "Projects a beam above a mineral pyramid",
-          "normal": "Grants effects to nearby players",
-          "hard": "The Wither's prize goes into the recipe"
+          "easy": "Beam",
+          "normal": "Pyramid",
+          "hard": "Wither"
         }
       }
     }
@@ -926,27 +932,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Berggrund",
+        "word": "Bedrock",
         "aliases": [
-          "Bedrock"
+          "Berggrund"
         ],
         "hints": {
-          "easy": "Bottenlagret du normalt inte kan bryta i överlevnad",
-          "normal": "Bildar också taket i Nether",
-          "hard": "En grå gräns för gruvan"
+          "easy": "Botten",
+          "normal": "Nether",
+          "hard": "Gruva"
         }
       },
       "en": {
         "word": "Bedrock",
         "aliases": [],
         "hints": {
-          "easy": "The unbreakable bottom of a survival world",
-          "normal": "Also forms the Nether ceiling",
-          "hard": "Mine down far enough and the pickaxe stops helping"
+          "easy": "Bottom",
+          "normal": "Nether",
+          "hard": "Mining"
         }
       }
     }
@@ -960,23 +966,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Byklocka",
+        "word": "Bell",
         "aliases": [
-          "Bell"
+          "Byklocka"
         ],
         "hints": {
-          "easy": "En klang samlar byborna under tak vid en räd",
-          "normal": "En pil kan slå an tonen",
-          "hard": "Hänger ofta vid byns mötesplats"
+          "easy": "Byborna",
+          "normal": "Pil",
+          "hard": "Mötesplats"
         }
       },
       "en": {
         "word": "Bell",
         "aliases": [],
         "hints": {
-          "easy": "Sound it to send villagers indoors during a raid",
-          "normal": "An arrow can ring it",
-          "hard": "Often found at the village gathering point"
+          "easy": "Villagers",
+          "normal": "Arrow",
+          "hard": "Gathering"
         }
       }
     }
@@ -990,23 +996,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Masugn",
+        "word": "Blast Furnace",
         "aliases": [
-          "Blast Furnace"
+          "Masugn"
         ],
         "hints": {
-          "easy": "Smälter malm snabbare än en vanlig ugn",
-          "normal": "Arbetsplats för rustningssmeden",
-          "hard": "Metall in, aldrig middag"
+          "easy": "Malm",
+          "normal": "Rustningssmed",
+          "hard": "Middag"
         }
       },
       "en": {
         "word": "Blast Furnace",
         "aliases": [],
         "hints": {
-          "easy": "Processes ore at double furnace speed",
-          "normal": "The armorer works here",
-          "hard": "A poor place for raw pork"
+          "easy": "Ore",
+          "normal": "Armorer",
+          "hard": "Dinner"
         }
       }
     }
@@ -1020,23 +1026,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Blå is",
+        "word": "Blue Ice",
         "aliases": [
-          "Blue Ice"
+          "Blå is"
         ],
         "hints": {
-          "easy": "Mycket hal yta för båtar",
-          "normal": "Tillverkas av packad is",
-          "hard": "Gör lågfriktionsvägar genom Nether möjliga"
+          "easy": "Båtar",
+          "normal": "Halka",
+          "hard": "Nether"
         }
       },
       "en": {
         "word": "Blue Ice",
         "aliases": [],
         "hints": {
-          "easy": "Boats slide unusually fast over it",
-          "normal": "Made by compacting packed ice",
-          "hard": "An odd paving material for a Nether highway"
+          "easy": "Boats",
+          "normal": "Sliding",
+          "hard": "Nether"
         }
       }
     }
@@ -1046,27 +1052,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Bryggställ",
+        "word": "Brewing Stand",
         "aliases": [
-          "Brewing Stand"
+          "Bryggställ"
         ],
         "hints": {
-          "easy": "Brygger drycker i tre flaskor åt gången",
-          "normal": "Blazepulver håller arbetet igång",
-          "hard": "En präst kan göra anspråk på den"
+          "easy": "Brygder",
+          "normal": "Blazepulver",
+          "hard": "Präst"
         }
       },
       "en": {
         "word": "Brewing Stand",
         "aliases": [],
         "hints": {
-          "easy": "Three bottle slots for potion making",
-          "normal": "Runs on blaze powder",
-          "hard": "A cleric may set up here"
+          "easy": "Potions",
+          "normal": "Blaze",
+          "hard": "Cleric"
         }
       }
     }
@@ -1080,24 +1086,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Kartografbord",
+        "word": "Cartography Table",
         "aliases": [
           "Kartografibord",
-          "Cartography Table"
+          "Kartografbord"
         ],
         "hints": {
-          "easy": "Utökar och kopierar kartor",
-          "normal": "En glasruta kan låsa kartbilden",
-          "hard": "Två papper ovanpå plankor"
+          "easy": "Kartkopior",
+          "normal": "Glasruta",
+          "hard": "Plankor"
         }
       },
       "en": {
         "word": "Cartography Table",
         "aliases": [],
         "hints": {
-          "easy": "Copy a map or cover more ground",
-          "normal": "A pane can freeze the displayed terrain",
-          "hard": "Paper sits on top of planks in the recipe"
+          "easy": "Maps",
+          "normal": "Glass",
+          "hard": "Planks"
         }
       }
     }
@@ -1111,23 +1117,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Ledare",
+        "word": "Conduit",
         "aliases": [
-          "Conduit"
+          "Ledare"
         ],
         "hints": {
-          "easy": "Ger vattenandning nära en ram av prismarin",
-          "normal": "Byggs runt Havets hjärta",
-          "hard": "Djupa byggen med öppna ögon"
+          "easy": "Vattenandning",
+          "normal": "Nautilus",
+          "hard": "Prismarin"
         }
       },
       "en": {
         "word": "Conduit",
         "aliases": [],
         "hints": {
-          "easy": "Provides underwater breathing near a prismarine frame",
-          "normal": "Nautilus shells surround the core",
-          "hard": "An underwater base feels much less claustrophobic"
+          "easy": "Breathing",
+          "normal": "Nautilus",
+          "hard": "Prismarine"
         }
       }
     }
@@ -1141,23 +1147,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Kopparlampa",
+        "word": "Copper Bulb",
         "aliases": [
-          "Copper Bulb"
+          "Kopparlampa"
         ],
         "hints": {
-          "easy": "Växlar mellan tänt och släckt vid en signalpuls",
-          "normal": "Oxidation dämpar ljuset",
-          "hard": "Minns senaste trycket utan ständig ström"
+          "easy": "Signalpuls",
+          "normal": "Oxidation",
+          "hard": "Minne"
         }
       },
       "en": {
         "word": "Copper Bulb",
         "aliases": [],
         "hints": {
-          "easy": "A power pulse toggles the light",
-          "normal": "Oxidation lowers the brightness",
-          "hard": "Remembers the last button press without power"
+          "easy": "Pulse",
+          "normal": "Oxidation",
+          "hard": "Memory"
         }
       }
     }
@@ -1167,27 +1173,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Tillverkare",
+        "word": "Crafter",
         "aliases": [
-          "Crafter"
+          "Tillverkare"
         ],
         "hints": {
-          "easy": "Bygger föremål automatiskt vid redstonepuls",
-          "normal": "Du kan spärra enskilda receptrutor",
-          "hard": "Förädla skörden medan bonden är borta"
+          "easy": "Redstonepuls",
+          "normal": "Receptrutor",
+          "hard": "Bonde"
         }
       },
       "en": {
         "word": "Crafter",
         "aliases": [],
         "hints": {
-          "easy": "Makes items automatically on a power pulse",
-          "normal": "Lock slots to shape the recipe",
-          "hard": "Finish processing the farm output while you're away"
+          "easy": "Automation",
+          "normal": "Slots",
+          "hard": "Farming"
         }
       }
     }
@@ -1197,18 +1203,18 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Arbetsbänk",
+        "word": "Crafting Table",
         "aliases": [
-          "Crafting Table"
+          "Arbetsbänk"
         ],
         "hints": {
-          "easy": "Nio rutor för recept",
-          "normal": "Fyra plankor räcker",
-          "hard": "Första projektet efter trädslaget"
+          "easy": "Recept",
+          "normal": "Plankor",
+          "hard": "Rutnät"
         }
       },
       "en": {
@@ -1217,9 +1223,9 @@
           "Workbench"
         ],
         "hints": {
-          "easy": "Unlocks a three-by-three recipe grid",
-          "normal": "Put four planks together",
-          "hard": "Where the stone-tool era starts"
+          "easy": "Recipes",
+          "normal": "Planks",
+          "hard": "Grid"
         }
       }
     }
@@ -1233,23 +1239,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Gråtande obsidian",
+        "word": "Crying Obsidian",
         "aliases": [
-          "Crying Obsidian"
+          "Gråtande obsidian"
         ],
         "hints": {
-          "easy": "Mörkt block som droppar lila partiklar",
-          "normal": "Ingår i återuppståndelseankare",
-          "hard": "Den blanka ruinbiten kan inte ingå i en fungerande portalram"
+          "easy": "Partiklar",
+          "normal": "Återuppståndelseankare",
+          "hard": "Ruinbiten"
         }
       },
       "en": {
         "word": "Crying Obsidian",
         "aliases": [],
         "hints": {
-          "easy": "Purple drops seep out of the dark block",
-          "normal": "A component of the Nether respawn block",
-          "hard": "The shiny parts of a ruined frame must be replaced"
+          "easy": "Seep",
+          "normal": "Nether",
+          "hard": "Shiny"
         }
       }
     }
@@ -1263,24 +1269,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Dagsljusdetektor",
+        "word": "Daylight Detector",
         "aliases": [
           "Dagsljussensor",
-          "Daylight Detector"
+          "Dagsljusdetektor"
         ],
         "hints": {
-          "easy": "Mäter himmelsljus och styr rödsten",
-          "normal": "Högerklick vänder på funktionen",
-          "hard": "Tänd gatljusen automatiskt på kvällen"
+          "easy": "Himmelsljus",
+          "normal": "Redstone",
+          "hard": "Gatljus"
         }
       },
       "en": {
         "word": "Daylight Detector",
         "aliases": [],
         "hints": {
-          "easy": "Turns sky light into circuit strength",
-          "normal": "Click it to invert its behavior",
-          "hard": "Automate the lamps at sunset"
+          "easy": "Sunlight",
+          "normal": "Redstone",
+          "hard": "Streetlights"
         }
       }
     }
@@ -1294,23 +1300,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Automat",
+        "word": "Dispenser",
         "aliases": [
-          "Dispenser"
+          "Automat"
         ],
         "hints": {
-          "easy": "Kan skjuta en pil när den får ström",
-          "normal": "En hink med vatten kan tömmas automatiskt",
-          "hard": "En båge gömmer sig mitt i receptet"
+          "easy": "Skjuta",
+          "normal": "Hink",
+          "hard": "Gömmer"
         }
       },
       "en": {
         "word": "Dispenser",
         "aliases": [],
         "hints": {
-          "easy": "Fires arrows when powered",
-          "normal": "Can empty a water bucket for you",
-          "hard": "A bow goes in the middle of its recipe"
+          "easy": "Arrows",
+          "normal": "Water",
+          "hard": "Recipe"
         }
       }
     }
@@ -1324,23 +1330,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Utmatare",
+        "word": "Dropper",
         "aliases": [
-          "Dropper"
+          "Utmatare"
         ],
         "hints": {
-          "easy": "Matar ut ett föremål när den får en puls",
-          "normal": "Kan lämna saker direkt i behållaren framför",
-          "hard": "En pil åker ut som lös plockvara"
+          "easy": "Utkast",
+          "normal": "Behållare",
+          "hard": "Signal"
         }
       },
       "en": {
         "word": "Dropper",
         "aliases": [],
         "hints": {
-          "easy": "Ejects one item on a pulse",
-          "normal": "Can feed the container in front of it",
-          "hard": "Arrows tumble out instead of flying point first"
+          "easy": "Ejection",
+          "normal": "Container",
+          "hard": "Signal"
         }
       }
     }
@@ -1350,27 +1356,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Förtrollningsbord",
+        "word": "Enchanting Table",
         "aliases": [
-          "Enchanting Table"
+          "Förtrollningsbord"
         ],
         "hints": {
-          "easy": "Lapis och erfarenhet förbättrar din utrustning",
-          "normal": "Bokhyllor ökar de möjliga nivåerna",
-          "hard": "En svävande bok följer dig"
+          "easy": "Erfarenhet",
+          "normal": "Bokhyllor",
+          "hard": "Svävande"
         }
       },
       "en": {
         "word": "Enchanting Table",
         "aliases": [],
         "hints": {
-          "easy": "Spend levels and lapis on gear",
-          "normal": "Leave room for bookshelves nearby",
-          "hard": "A floating book turns to face you"
+          "easy": "Lapis",
+          "normal": "Bookshelves",
+          "hard": "Floating"
         }
       }
     }
@@ -1380,27 +1386,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Enderkista",
+        "word": "Ender Chest",
         "aliases": [
-          "Ender Chest"
+          "Enderkista"
         ],
         "hints": {
-          "easy": "Samma privata förråd på flera platser",
-          "normal": "Innehållet följer spelaren mellan dimensioner",
-          "hard": "Åtta obsidian runt ett vakande öga"
+          "easy": "Förvaring",
+          "normal": "Dimensioner",
+          "hard": "Obsidian"
         }
       },
       "en": {
         "word": "Ender Chest",
         "aliases": [],
         "hints": {
-          "easy": "Your private storage is shared across its locations",
-          "normal": "Stash at home and retrieve in another dimension",
-          "hard": "One eye sits inside a ring of obsidian"
+          "easy": "Storage",
+          "normal": "Dimensions",
+          "hard": "Obsidian"
         }
       }
     }
@@ -1410,27 +1416,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Glödsten",
+        "word": "Glowstone",
         "aliases": [
-          "Glowstone"
+          "Glödsten"
         ],
         "hints": {
-          "easy": "Lysande stenklumpar i Nethers tak",
-          "normal": "Laddar återuppståndelseankaret",
-          "hard": "Faller lätt sönder till ljusgult stoft"
+          "easy": "Nether",
+          "normal": "Återuppståndelse",
+          "hard": "Ljusgult"
         }
       },
       "en": {
         "word": "Glowstone",
         "aliases": [],
         "hints": {
-          "easy": "Bright mineral clusters hang from the Nether ceiling",
-          "normal": "Recharges a Nether spawn point",
-          "hard": "May crumble to golden dust when mined"
+          "easy": "Nether",
+          "normal": "Respawn",
+          "hard": "Crumble"
         }
       }
     }
@@ -1444,23 +1450,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Slipsten",
+        "word": "Grindstone",
         "aliases": [
-          "Grindstone"
+          "Slipsten"
         ],
         "hints": {
-          "easy": "Tar bort de flesta förtrollningar från utrustning",
-          "normal": "En vapensmed använder den",
-          "hard": "Förbannelserna sitter envist kvar"
+          "easy": "Förtrollningar",
+          "normal": "Vapensmed",
+          "hard": "Förbannelserna"
         }
       },
       "en": {
         "word": "Grindstone",
         "aliases": [],
         "hints": {
-          "easy": "Strips most magic off your equipment",
-          "normal": "A weaponsmith's workstation",
-          "hard": "Curses survive the cleanup"
+          "easy": "Equipment",
+          "normal": "Workstation",
+          "hard": "Cleanup"
         }
       }
     }
@@ -1474,23 +1480,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Honungsblock",
+        "word": "Honey Block",
         "aliases": [
-          "Honey Block"
+          "Honungsblock"
         ],
         "hints": {
-          "easy": "Klibbigt block som bromsar glid längs sidan",
-          "normal": "Kan ta med andra block när en kolv flyttar det",
-          "hard": "En fyrkant för den som vill dämpa ett fall"
+          "easy": "Klibbigt",
+          "normal": "Kolv",
+          "hard": "Fyrkant"
         }
       },
       "en": {
         "word": "Honey Block",
         "aliases": [],
         "hints": {
-          "easy": "Slide slowly down its sticky sides",
-          "normal": "A piston can take neighboring blocks along with it",
-          "hard": "An amber cushion for a bad landing"
+          "easy": "Sticky",
+          "normal": "Neighboring",
+          "hard": "Amber"
         }
       }
     }
@@ -1500,27 +1506,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Tratt",
+        "word": "Hopper",
         "aliases": [
-          "Hopper"
+          "Tratt"
         ],
         "hints": {
-          "easy": "För saker vidare till kistor och maskiner",
-          "normal": "Matar ut genom pipen längst ner",
-          "hard": "Rödsten kan stänga av flödet"
+          "easy": "Insamling",
+          "normal": "Förvaring",
+          "hard": "Redstone"
         }
       },
       "en": {
         "word": "Hopper",
         "aliases": [],
         "hints": {
-          "easy": "Transfers items to chests and machines",
-          "normal": "Its narrow spout sets the output direction",
-          "hard": "Power it to stop the flow"
+          "easy": "Funnel",
+          "normal": "Storage",
+          "hard": "Redstone"
         }
       }
     }
@@ -1534,23 +1540,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Läspulpet",
+        "word": "Lectern",
         "aliases": [
-          "Lectern"
+          "Läspulpet"
         ],
         "hints": {
-          "easy": "Håller en öppen bok som andra kan läsa",
-          "normal": "Bibliotekariens arbetsplats",
-          "hard": "Ett sidbyte kan ge en signal"
+          "easy": "Bok",
+          "normal": "Bibliotekarie",
+          "hard": "Sidbyte"
         }
       },
       "en": {
         "word": "Lectern",
         "aliases": [],
         "hints": {
-          "easy": "Displays a book for everyone to read",
-          "normal": "Attracts a librarian villager",
-          "hard": "Page turns can drive a circuit"
+          "easy": "Book",
+          "normal": "Librarian",
+          "hard": "Circuit"
         }
       }
     }
@@ -1564,23 +1570,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Magnetit",
+        "word": "Lodestone",
         "aliases": [
-          "Lodestone"
+          "Magnetit"
         ],
         "hints": {
-          "easy": "Binder en kompass till den plats där du ställer blocket",
-          "normal": "Fungerar även som riktmärke i Nether",
-          "hard": "Gör basen till din egen nordpol"
+          "easy": "Kompass",
+          "normal": "Nether",
+          "hard": "Nordpol"
         }
       },
       "en": {
         "word": "Lodestone",
         "aliases": [],
         "hints": {
-          "easy": "Links a compass to the placed block",
-          "normal": "Navigation still works in the Nether",
-          "hard": "Turn your base into a personal north"
+          "easy": "Compass",
+          "normal": "Nether",
+          "hard": "Personal"
         }
       }
     }
@@ -1594,23 +1600,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Vävstol",
+        "word": "Loom",
         "aliases": [
-          "Loom"
+          "Vävstol"
         ],
         "hints": {
-          "easy": "Sätter mönster på fanor med färgämne",
-          "normal": "Arbetsplats för en herde",
-          "hard": "Två trådar räcker till översta raden"
+          "easy": "Banderoll",
+          "normal": "Herde",
+          "hard": "Tråd"
         }
       },
       "en": {
         "word": "Loom",
         "aliases": [],
         "hints": {
-          "easy": "Uses dye to decorate banners",
-          "normal": "A shepherd's work block",
-          "hard": "String sits above the planks"
+          "easy": "Banner",
+          "normal": "Shepherd",
+          "hard": "String"
         }
       }
     }
@@ -1620,27 +1626,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Magmablock",
+        "word": "Magma Block",
         "aliases": [
-          "Magma Block"
+          "Magmablock"
         ],
         "hints": {
-          "easy": "Drar ned vattenbadare med bubblor",
-          "normal": "Smyg på ytan för att undvika skada",
-          "hard": "Orange sprickor på golvet i en varm grotta"
+          "easy": "Bubblor",
+          "normal": "Värme",
+          "hard": "Sprickor"
         }
       },
       "en": {
         "word": "Magma Block",
         "aliases": [],
         "hints": {
-          "easy": "Creates downward bubbles under water",
-          "normal": "Crouch when stepping on it to avoid damage",
-          "hard": "Look for orange cracks in a hot cave floor"
+          "easy": "Bubbles",
+          "normal": "Heat",
+          "hard": "Cracks"
         }
       }
     }
@@ -1650,27 +1656,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Notblock",
+        "word": "Note Block",
         "aliases": [
-          "Note Block"
+          "Notblock"
         ],
         "hints": {
-          "easy": "Klicka för att stämma tonen",
-          "normal": "Underlaget avgör vilket instrument du hör",
-          "hard": "En redstonepuls kan starta konserten"
+          "easy": "Stämma",
+          "normal": "Instrument",
+          "hard": "Redstonepuls"
         }
       },
       "en": {
         "word": "Note Block",
         "aliases": [],
         "hints": {
-          "easy": "Click to change its pitch",
-          "normal": "The material underneath selects the instrument",
-          "hard": "Wire a concert into the floor"
+          "easy": "Pitch",
+          "normal": "Instrument",
+          "hard": "Concert"
         }
       }
     }
@@ -1684,23 +1690,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Observatör",
+        "word": "Observer",
         "aliases": [
-          "Observer"
+          "Observatör"
         ],
         "hints": {
-          "easy": "Upptäcker när blocket framför förändras",
-          "normal": "Ger en kort signal från baksidan",
-          "hard": "Ett stenansikte kan hålla koll på sockerrören"
+          "easy": "Förändring",
+          "normal": "Puls",
+          "hard": "Stenansikte"
         }
       },
       "en": {
         "word": "Observer",
         "aliases": [],
         "hints": {
-          "easy": "Detects changes directly in front of it",
-          "normal": "Its rear sends a brief pulse",
-          "hard": "The face staring at a sugar cane farm"
+          "easy": "Changes",
+          "normal": "Pulse",
+          "hard": "Faces"
         }
       }
     }
@@ -1710,25 +1716,25 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Obsidian",
         "aliases": [],
         "hints": {
-          "easy": "Bygg den svarta ramen till Netherportalen",
-          "normal": "Uppstår när vatten möter stilla lava",
-          "hard": "En diamantspets får jobba länge"
+          "easy": "Netherportalen",
+          "normal": "Stilla",
+          "hard": "Diamantspets"
         }
       },
       "en": {
         "word": "Obsidian",
         "aliases": [],
         "hints": {
-          "easy": "Frames a portal to the Nether",
-          "normal": "Water cools a lava source into it",
-          "hard": "Mining the dark stuff takes patience"
+          "easy": "Nether",
+          "normal": "Water",
+          "hard": "Patience"
         }
       }
     }
@@ -1738,27 +1744,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Kolv",
+        "word": "Piston",
         "aliases": [
-          "Piston"
+          "Kolv"
         ],
         "hints": {
-          "easy": "Skjuter andra block åt sidan med rödsten",
-          "normal": "Den vanliga sorten drar inte tillbaka lasten",
-          "hard": "Dold dörr med ett mekaniskt klonk"
+          "easy": "Redstone",
+          "normal": "Block",
+          "hard": "Mekanik"
         }
       },
       "en": {
         "word": "Piston",
         "aliases": [],
         "hints": {
-          "easy": "Pushes blocks when powered",
-          "normal": "The plain version leaves its cargo behind",
-          "hard": "The clunk behind a secret doorway"
+          "easy": "Redstone",
+          "normal": "Blocks",
+          "hard": "Clunk"
         }
       }
     }
@@ -1772,23 +1778,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Spetsig droppsten",
+        "word": "Pointed Dripstone",
         "aliases": [
-          "Pointed Dripstone"
+          "Spetsig droppsten"
         ],
         "hints": {
-          "easy": "Hänger som farliga piggar från grottaket",
-          "normal": "Kan droppa lava i en kittel",
-          "hard": "Dubbelriktad dekor under mark"
+          "easy": "Farliga",
+          "normal": "Droppa",
+          "hard": "Dubbelriktad"
         }
       },
       "en": {
         "word": "Pointed Dripstone",
         "aliases": [],
         "hints": {
-          "easy": "Sharp cave formations may fall from above",
-          "normal": "Can drip lava into a cauldron",
-          "hard": "Cave decor that points up or down"
+          "easy": "Formations",
+          "normal": "Cauldron",
+          "hard": "Decor"
         }
       }
     }
@@ -1802,23 +1808,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Redstonekomparator",
+        "word": "Redstone Comparator",
         "aliases": [
-          "Redstone Comparator"
+          "Redstonekomparator"
         ],
         "hints": {
-          "easy": "Läser av hur full en behållare är",
-          "normal": "Kan subtrahera en styrsignal från sidan",
-          "hard": "Tre små facklor och en bit kvartskristall"
+          "easy": "Behållare",
+          "normal": "Subtrahera",
+          "hard": "Kvartskristall"
         }
       },
       "en": {
         "word": "Redstone Comparator",
         "aliases": [],
         "hints": {
-          "easy": "Reads how full a container is",
-          "normal": "Can subtract the strength of a side input",
-          "hard": "Three tiny torches and some quartz"
+          "easy": "Container",
+          "normal": "Subtract",
+          "hard": "Torches"
         }
       }
     }
@@ -1828,27 +1834,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Redstonelampa",
+        "word": "Redstone Lamp",
         "aliases": [
-          "Redstone Lamp"
+          "Redstonelampa"
         ],
         "hints": {
-          "easy": "Lyser så länge den får ström från en krets",
-          "normal": "Glödsten omges av rött stoft i receptet",
-          "hard": "En knapp vid dörren ger ett kort sken"
+          "easy": "Krets",
+          "normal": "Glödsten",
+          "hard": "Sken"
         }
       },
       "en": {
         "word": "Redstone Lamp",
         "aliases": [],
         "hints": {
-          "easy": "A powered circuit keeps it lit",
-          "normal": "Glowstone goes within a cross of dust",
-          "hard": "A push button provides a brief flash"
+          "easy": "Powered",
+          "normal": "Glowstone",
+          "hard": "Provides"
         }
       }
     }
@@ -1858,27 +1864,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Redstonerepeater",
+        "word": "Redstone Repeater",
         "aliases": [
-          "Redstone Repeater"
+          "Redstonerepeater"
         ],
         "hints": {
-          "easy": "Förnyar en försvagad signal på en ledning",
-          "normal": "Har inställbar fördröjning",
-          "hard": "Två röda lyktor längs signalens väg"
+          "easy": "Signal",
+          "normal": "Fördröjning",
+          "hard": "Facklor"
         }
       },
       "en": {
         "word": "Redstone Repeater",
         "aliases": [],
         "hints": {
-          "easy": "Restores a weakened circuit signal",
-          "normal": "Adjust the delay with a click",
-          "hard": "Two little torches show the signal path"
+          "easy": "Signal",
+          "normal": "Delay",
+          "hard": "Torches"
         }
       }
     }
@@ -1888,27 +1894,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Återuppståndelseankare",
+        "word": "Respawn Anchor",
         "aliases": [
-          "Respawn Anchor"
+          "Återuppståndelseankare"
         ],
         "hints": {
-          "easy": "Sätter din återkomstpunkt i Nether",
-          "normal": "Laddas med glödsten",
-          "hard": "Ingen säker sovplats i övervärlden"
+          "easy": "Nether",
+          "normal": "Glödsten",
+          "hard": "Sovplats"
         }
       },
       "en": {
         "word": "Respawn Anchor",
         "aliases": [],
         "hints": {
-          "easy": "Sets your spawn in the Nether",
-          "normal": "Feed it a luminous block to add a charge",
-          "hard": "The inverse of a bed's dimensional danger"
+          "easy": "Nether",
+          "normal": "Luminous",
+          "hard": "Inverse"
         }
       }
     }
@@ -1918,18 +1924,18 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Sculksensor",
+        "word": "Sculk Sensor",
         "aliases": [
-          "Sculk Sensor"
+          "Sculksensor"
         ],
         "hints": {
-          "easy": "Vibrationer blir redstonesignaler",
-          "normal": "Ull mellan källan och blocket kan dämpa signalen",
-          "hard": "Smyg förbi i djupet"
+          "easy": "Vibrationer",
+          "normal": "Fotsteg",
+          "hard": "Redstone"
         }
       },
       "en": {
@@ -1938,9 +1944,9 @@
           "Skulk Sensor"
         ],
         "hints": {
-          "easy": "Turns vibrations into power for circuits",
-          "normal": "Wool can block what it detects",
-          "hard": "Sneak past the tendrils down below"
+          "easy": "Vibrations",
+          "normal": "Footsteps",
+          "hard": "Redstone"
         }
       }
     }
@@ -1954,14 +1960,14 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Sculkskrikare",
+        "word": "Sculk Shrieker",
         "aliases": [
-          "Sculk Shrieker"
+          "Sculkskrikare"
         ],
         "hints": {
-          "easy": "Kan kalla på väktaren i djupmörkret",
-          "normal": "Ger mörkereffekt när den reagerar",
-          "hard": "Flera varningar innan stegen blir tyngre"
+          "easy": "Vrål",
+          "normal": "Mörker",
+          "hard": "Varningar"
         }
       },
       "en": {
@@ -1970,9 +1976,9 @@
           "Skulk Shrieker"
         ],
         "hints": {
-          "easy": "Can summon the Warden in the Deep Dark",
-          "normal": "Its activation dims your vision",
-          "hard": "Several warnings before the heavy footsteps"
+          "easy": "Screams",
+          "normal": "Darkness",
+          "hard": "Warnings"
         }
       }
     }
@@ -1986,23 +1992,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Havslykta",
+        "word": "Sea Lantern",
         "aliases": [
-          "Sea Lantern"
+          "Havslykta"
         ],
         "hints": {
-          "easy": "Blekt ljusblock i havsmonumentet",
-          "normal": "Kristaller och skärvor av prismarin i receptet",
-          "hard": "Lyser som vanligt under vatten"
+          "easy": "Havsmonumentet",
+          "normal": "Prismarin",
+          "hard": "Lyser"
         }
       },
       "en": {
         "word": "Sea Lantern",
         "aliases": [],
         "hints": {
-          "easy": "Pale lights decorate ocean monuments",
-          "normal": "Made from two kinds of prismarine loot",
-          "hard": "Aquarium lighting with a cold tint"
+          "easy": "Ocean",
+          "normal": "Prismarine",
+          "hard": "Lighting"
         }
       }
     }
@@ -2012,27 +2018,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Shulkerlåda",
+        "word": "Shulker Box",
         "aliases": [
-          "Shulker Box"
+          "Shulkerlåda"
         ],
         "hints": {
-          "easy": "Behåller sakerna inuti när du plockar upp den",
-          "normal": "Två skal omsluter en kista i receptet",
-          "hard": "Färgkoda ditt förråd för expeditionen"
+          "easy": "Förvaring",
+          "normal": "Skal",
+          "hard": "Expedition"
         }
       },
       "en": {
         "word": "Shulker Box",
         "aliases": [],
         "hints": {
-          "easy": "Keeps its inventory after being broken",
-          "normal": "Two shells go around a chest",
-          "hard": "Color-code your portable supplies"
+          "easy": "Storage",
+          "normal": "Shells",
+          "hard": "Expedition"
         }
       }
     }
@@ -2042,27 +2048,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Slemblock",
+        "word": "Slime Block",
         "aliases": [
-          "Slime Block"
+          "Slemblock"
         ],
         "hints": {
-          "easy": "Studsar tillbaka en spelare som landar på det",
-          "normal": "Nio slembollar ger en fyrkant",
-          "hard": "En grön trampolin som kan sitta på en kolv"
+          "easy": "Studsar",
+          "normal": "Slembollar",
+          "hard": "Trampolin"
         }
       },
       "en": {
         "word": "Slime Block",
         "aliases": [],
         "hints": {
-          "easy": "Bounce upward after landing on it",
-          "normal": "Nine gooey balls make one cube",
-          "hard": "A green trampoline you can attach to a piston"
+          "easy": "Landing",
+          "normal": "Gooey",
+          "hard": "Trampoline"
         }
       }
     }
@@ -2076,23 +2082,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Smedjebord",
+        "word": "Smithing Table",
         "aliases": [
-          "Smithing Table"
+          "Smedjebord"
         ],
         "hints": {
-          "easy": "Uppgraderar diamantutrustning till netherit",
-          "normal": "Här fäster du rustningsdekorationer med en mall",
-          "hard": "Verktygssmedens hörn i byn"
+          "easy": "Diamantutrustning",
+          "normal": "Rustningsdekorationer",
+          "hard": "Verktygssmedens"
         }
       },
       "en": {
         "word": "Smithing Table",
         "aliases": [],
         "hints": {
-          "easy": "Turns diamond gear into netherite gear",
-          "normal": "Apply an armor trim here",
-          "hard": "A toolsmith wants one nearby"
+          "easy": "Netherite",
+          "normal": "Armor",
+          "hard": "Toolsmith"
         }
       }
     }
@@ -2106,23 +2112,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Rökugn",
+        "word": "Smoker",
         "aliases": [
-          "Smoker"
+          "Rökugn"
         ],
         "hints": {
-          "easy": "Tillagar mat dubbelt så snabbt som ugnen",
-          "normal": "Slaktarens arbetsplats",
-          "hard": "En stockklädd genväg till middag"
+          "easy": "Mat",
+          "normal": "Slaktare",
+          "hard": "Stockar"
         }
       },
       "en": {
         "word": "Smoker",
         "aliases": [],
         "hints": {
-          "easy": "Cooks food at double furnace speed",
-          "normal": "The butcher claims one",
-          "hard": "Logs around a hot center"
+          "easy": "Food",
+          "normal": "Butcher",
+          "hard": "Logs"
         }
       }
     }
@@ -2132,28 +2138,28 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Själsand",
+        "word": "Soul Sand",
         "aliases": [
           "Själssand",
-          "Soul Sand"
+          "Själsand"
         ],
         "hints": {
-          "easy": "Skapar uppåtgående bubblor i vatten",
-          "normal": "Gör stegen långsammare på land",
-          "hard": "De mörka ansiktena kan bli stommen till en boss"
+          "easy": "Bubblor",
+          "normal": "Långsammare",
+          "hard": "Ansiktena"
         }
       },
       "en": {
         "word": "Soul Sand",
         "aliases": [],
         "hints": {
-          "easy": "Turns a water column into a rising elevator",
-          "normal": "Slows footsteps on land",
-          "hard": "The gloomy faces can form a boss's body"
+          "easy": "Water",
+          "normal": "Footsteps",
+          "hard": "Gloomy"
         }
       }
     }
@@ -2167,23 +2173,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Vattensvamp",
+        "word": "Sponge",
         "aliases": [
-          "Sponge"
+          "Vattensvamp"
         ],
         "hints": {
-          "easy": "Suger upp vatten runt sig",
-          "normal": "Torkas i en ugn och går att använda igen",
-          "hard": "Havsmonumentets genväg till ett torrt rum"
+          "easy": "Vatten",
+          "normal": "Torkning",
+          "hard": "Havsmonument"
         }
       },
       "en": {
         "word": "Sponge",
         "aliases": [],
         "hints": {
-          "easy": "Removes water from nearby blocks",
-          "normal": "Dry it in a furnace to reuse it",
-          "hard": "The trick to draining an ocean monument"
+          "easy": "Water",
+          "normal": "Drying",
+          "hard": "Monument"
         }
       }
     }
@@ -2197,24 +2203,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Stenskärare",
+        "word": "Stonecutter",
         "aliases": [
           "Stensåg",
-          "Stonecutter"
+          "Stenskärare"
         ],
         "hints": {
-          "easy": "Enklare sätt att skära sten till trappor och plattor",
-          "normal": "Stenhuggarens arbetsplats i byn",
-          "hard": "Ett runt blad står där och snurrar"
+          "easy": "Trappor",
+          "normal": "Stenhuggare",
+          "hard": "Blad"
         }
       },
       "en": {
         "word": "Stonecutter",
         "aliases": [],
         "hints": {
-          "easy": "Shape stone into stairs and slabs directly",
-          "normal": "A mason's job site",
-          "hard": "Watch the circular blade spin"
+          "easy": "Stairs",
+          "normal": "Mason",
+          "hard": "Blade"
         }
       }
     }
@@ -2224,27 +2230,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-blocks",
     "tags": [],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Utmaningsskapare",
+        "word": "Trial Spawner",
         "aliases": [
-          "Trial Spawner"
+          "Utmaningsskapare"
         ],
         "hints": {
-          "easy": "Släpper fram stridsvågor i provkammaren",
-          "normal": "Kan spotta ut belöning när fienderna är besegrade",
-          "hard": "Fler deltagare kan ge fler motståndare"
+          "easy": "Provkammaren",
+          "normal": "Belöning",
+          "hard": "Deltagare"
         }
       },
       "en": {
         "word": "Trial Spawner",
         "aliases": [],
         "hints": {
-          "easy": "Spawns waves of enemies in trial chambers",
-          "normal": "Ejects a reward once the fight is clear",
-          "hard": "Bringing friends can mean extra opponents"
+          "easy": "Waves",
+          "normal": "Ejects",
+          "hard": "Bringing"
         }
       }
     }
@@ -2258,24 +2264,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Kassaskåp",
+        "word": "Vault",
         "aliases": [
           "Valv",
-          "Vault"
+          "Kassaskåp"
         ],
         "hints": {
-          "easy": "En provnyckel låser upp belöningen",
-          "normal": "Varje spelare kan få en egen utdelning",
-          "hard": "Gallret avslöjar glimtar av tänkbart byte"
+          "easy": "Belöningen",
+          "normal": "Utdelning",
+          "hard": "Glimtar"
         }
       },
       "en": {
         "word": "Vault",
         "aliases": [],
         "hints": {
-          "easy": "Open it with a trial key",
-          "normal": "Each player gets a personal chance to unlock it",
-          "hard": "Possible prizes cycle behind the front grille"
+          "easy": "Trial",
+          "normal": "Chance",
+          "hard": "Prizes"
         }
       }
     }
@@ -2289,23 +2295,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Ametistskärva",
+        "word": "Amethyst Shard",
         "aliases": [
-          "Amethyst Shard"
+          "Ametistskärva"
         ],
         "hints": {
-          "easy": "Lila fynd från ett fullvuxet kristallkluster",
-          "normal": "En bit behövs till kikaren",
-          "hard": "Fyra spetsar kan fogas till en hel kub"
+          "easy": "Kristallkluster",
+          "normal": "Kikaren",
+          "hard": "Spetsar"
         }
       },
       "en": {
         "word": "Amethyst Shard",
         "aliases": [],
         "hints": {
-          "easy": "A purple drop from a fully grown cluster",
-          "normal": "One is needed to make a spyglass",
-          "hard": "Four pointed pieces form a solid cube"
+          "easy": "Cluster",
+          "normal": "Spyglass",
+          "hard": "Pointed"
         }
       }
     }
@@ -2319,23 +2325,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Forntida spillror",
+        "word": "Ancient Debris",
         "aliases": [
-          "Ancient Debris"
+          "Forntida spillror"
         ],
         "hints": {
-          "easy": "Sällsynt block i Nether som smälts till metallskrot",
-          "normal": "Tål explosioner från grävning med sängar",
-          "hard": "De bruna ådrorna blir en dyr uppgradering"
+          "easy": "Nether",
+          "normal": "Grävning",
+          "hard": "Ådrorna"
         }
       },
       "en": {
         "word": "Ancient Debris",
         "aliases": [],
         "hints": {
-          "easy": "Rare Nether block you smelt into scraps",
-          "normal": "Resists the blasts used for bed mining",
-          "hard": "Look for brown spirals in exposed tunnels"
+          "easy": "Nether",
+          "normal": "Blasts",
+          "hard": "Spirals"
         }
       }
     }
@@ -2345,27 +2351,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Blazestav",
+        "word": "Blaze Rod",
         "aliases": [
-          "Blaze Rod"
+          "Blazestav"
         ],
         "hints": {
-          "easy": "Gyllene droppe från flygande eldmonster",
-          "normal": "Mal den till bränsle för bryggning",
-          "hard": "Finns bakom risken med en Netherfästning"
+          "easy": "Eldmonster",
+          "normal": "Bryggning",
+          "hard": "Netherfästning"
         }
       },
       "en": {
         "word": "Blaze Rod",
         "aliases": [],
         "hints": {
-          "easy": "Golden drop from flying fire mobs",
-          "normal": "Grind it into brewing fuel",
-          "hard": "A reason to brave a Nether fortress"
+          "easy": "Flying",
+          "normal": "Brewing",
+          "hard": "Nether"
         }
       }
     }
@@ -2379,24 +2385,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Arkeologipensel",
+        "word": "Brush",
         "aliases": [
           "Pensel",
-          "Brush"
+          "Arkeologipensel"
         ],
         "hints": {
-          "easy": "Skrapar varsamt fram byte ur misstänkt sand",
-          "normal": "En fjäder och en koppartacka sitter på skaftet",
-          "hard": "Använd långsamt hellre än att gräva"
+          "easy": "Sand",
+          "normal": "Fjäder",
+          "hard": "Gräva"
         }
       },
       "en": {
         "word": "Brush",
         "aliases": [],
         "hints": {
-          "easy": "Dusts loot out of suspicious sand",
-          "normal": "A feather and copper ingot sit on its handle",
-          "hard": "Archaeology favors patience over a shovel"
+          "easy": "Sand",
+          "normal": "Feather",
+          "hard": "Patience"
         }
       }
     }
@@ -2410,24 +2416,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Körfrukt",
+        "word": "Chorus Fruit",
         "aliases": [
           "Chorusfrukt",
-          "Chorus Fruit"
+          "Körfrukt"
         ],
         "hints": {
-          "easy": "Ät för att hoppa till en slumpad plats i närheten",
-          "normal": "Plockas från de höga lila växterna i End",
-          "hard": "Ett mellanmål som kan ta dig förbi en vägg"
+          "easy": "Teleportering",
+          "normal": "End",
+          "hard": "Mellanmål"
         }
       },
       "en": {
         "word": "Chorus Fruit",
         "aliases": [],
         "hints": {
-          "easy": "Eat it to teleport somewhere nearby",
-          "normal": "Harvested from tall purple End plants",
-          "hard": "A snack that might take you through a wall"
+          "easy": "Teleportation",
+          "normal": "Harvest",
+          "hard": "Snack"
         }
       }
     }
@@ -2437,27 +2443,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Armborst",
+        "word": "Crossbow",
         "aliases": [
-          "Crossbow"
+          "Armborst"
         ],
         "hints": {
-          "easy": "Laddas i förväg och kan skjuta fyrverkerier",
-          "normal": "Plundrarna bär sådana under räder",
-          "hard": "En salva med Multishot sprider sig åt tre håll"
+          "easy": "Fyrverkerier",
+          "normal": "Plundrarna",
+          "hard": "Multishot"
         }
       },
       "en": {
         "word": "Crossbow",
         "aliases": [],
         "hints": {
-          "easy": "Can be loaded ahead of time and fire rockets",
-          "normal": "Pillagers carry these into raids",
-          "hard": "Multishot spreads one volley three ways"
+          "easy": "Loaded",
+          "normal": "Pillagers",
+          "hard": "Multishot"
         }
       }
     }
@@ -2467,27 +2473,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Diamanthacka",
+        "word": "Diamond Pickaxe",
         "aliases": [
-          "Diamond Pickaxe"
+          "Diamanthacka"
         ],
         "hints": {
-          "easy": "Gruvverktyg för att bryta obsidian",
-          "normal": "Kan uppgraderas med netherit",
-          "hard": "Tre ädelstenar sitter över två pinnar"
+          "easy": "Gruvverktyg",
+          "normal": "Obsidian",
+          "hard": "Ädelstenar"
         }
       },
       "en": {
         "word": "Diamond Pickaxe",
         "aliases": [],
         "hints": {
-          "easy": "Mine obsidian with this tool",
-          "normal": "The starting point for a netherite upgrade",
-          "hard": "Three gems across the top of the grid"
+          "easy": "Mining",
+          "normal": "Obsidian",
+          "hard": "Gems"
         }
       }
     }
@@ -2501,24 +2507,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Drakeld",
+        "word": "Dragon's Breath",
         "aliases": [
           "Drakandedräkt",
-          "Dragon's Breath"
+          "Drakeld"
         ],
         "hints": {
-          "easy": "Samla bossens lila moln i tomma flaskor",
-          "normal": "Gör kastdrycker till kvardröjande drycker",
-          "hard": "En glasflaska rustad för slutstriden"
+          "easy": "Moln",
+          "normal": "Kastdrycker",
+          "hard": "Slutstrid"
         }
       },
       "en": {
         "word": "Dragon's Breath",
         "aliases": [],
         "hints": {
-          "easy": "Bottle the purple cloud left by the End boss",
-          "normal": "Turns splash potions into lingering potions",
-          "hard": "Take some empty glass into the final fight"
+          "easy": "Cloud",
+          "normal": "Potions",
+          "hard": "Bottles"
         }
       }
     }
@@ -2532,23 +2538,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Ekoskärva",
+        "word": "Echo Shard",
         "aliases": [
-          "Echo Shard"
+          "Ekoskärva"
         ],
         "hints": {
-          "easy": "Mörkt blågrönt byte från kistor i antika städer",
-          "normal": "Ingrediens till kompassen som hjälper efter en död",
-          "hard": "Åtta av skatten runt en vanlig nål"
+          "easy": "Djupmörker",
+          "normal": "Kompass",
+          "hard": "Skatt"
         }
       },
       "en": {
         "word": "Echo Shard",
         "aliases": [],
         "hints": {
-          "easy": "Dark teal loot from ancient city chests",
-          "normal": "A component of the compass for your last death",
-          "hard": "Ring a regular compass with eight of these"
+          "easy": "Darkness",
+          "normal": "Compass",
+          "hard": "Treasure"
         }
       }
     }
@@ -2558,25 +2564,25 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Elytra",
         "aliases": [],
         "hints": {
-          "easy": "Ger glidflykt med utrustning i bröstfacket",
-          "normal": "Hittas ombord på ett skepp i End",
-          "hard": "Några raketer förlänger resan över tomrummet"
+          "easy": "Bröstfacket",
+          "normal": "End",
+          "hard": "Förlänger"
         }
       },
       "en": {
         "word": "Elytra",
         "aliases": [],
         "hints": {
-          "easy": "Glide using the chest equipment slot",
-          "normal": "Found aboard a ship in the End",
-          "hard": "A firework keeps you from dropping into the void"
+          "easy": "Equipment",
+          "normal": "Aboard",
+          "hard": "Firework"
         }
       }
     }
@@ -2586,27 +2592,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Smaragd",
+        "word": "Emerald",
         "aliases": [
-          "Emerald"
+          "Smaragd"
         ],
         "hints": {
-          "easy": "Grön valuta i bybornas handel",
-          "normal": "Malmen finns främst i bergsområden",
-          "hard": "En bonde kan lämna den i utbyte mot skörden"
+          "easy": "Bybornas",
+          "normal": "Bergsområden",
+          "hard": "Bonde"
         }
       },
       "en": {
         "word": "Emerald",
         "aliases": [],
         "hints": {
-          "easy": "The green currency villagers trade in",
-          "normal": "Look to mountain biomes for the ore",
-          "hard": "A farmer might pay you one for crops"
+          "easy": "Villagers",
+          "normal": "Biomes",
+          "hard": "Farmer"
         }
       }
     }
@@ -2616,18 +2622,18 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Förtrollat guldäpple",
+        "word": "Enchanted Golden Apple",
         "aliases": [
-          "Enchanted Golden Apple"
+          "Förtrollat guldäpple"
         ],
         "hints": {
-          "easy": "Sällsynt mat som ger flera skyddseffekter",
-          "normal": "Skimrande skatt i vissa kistor",
-          "hard": "Nödbroms när överlevnadens hjärtan är på väg bort"
+          "easy": "Skydd",
+          "normal": "Skatt",
+          "hard": "Glimmer"
         }
       },
       "en": {
@@ -2637,9 +2643,9 @@
           "God Apple"
         ],
         "hints": {
-          "easy": "Rare food that grants several defenses",
-          "normal": "Glinting loot from certain chests",
-          "hard": "A last resort when your hearts are running low"
+          "easy": "Defense",
+          "normal": "Treasure",
+          "hard": "Glint"
         }
       }
     }
@@ -2649,27 +2655,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Enderpärla",
+        "word": "Ender Pearl",
         "aliases": [
-          "Ender Pearl"
+          "Enderpärla"
         ],
         "hints": {
-          "easy": "Kasta för att teleportera dit den landar",
-          "normal": "Kan kosta några hjärtan vid landningen",
-          "hard": "Ett mörkt klot från en lång tjuv"
+          "easy": "Teleportera",
+          "normal": "Landningen",
+          "hard": "Mörkt"
         }
       },
       "en": {
         "word": "Ender Pearl",
         "aliases": [],
         "hints": {
-          "easy": "Throw it to teleport to the landing spot",
-          "normal": "The trip can cost some health",
-          "hard": "A tall block thief drops the dark orb"
+          "easy": "Teleport",
+          "normal": "Health",
+          "hard": "Thief"
         }
       }
     }
@@ -2679,19 +2685,19 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Förtrollningsflaska",
+        "word": "Bottle o' Enchanting",
         "aliases": [
           "Erfarenhetsflaska",
-          "Bottle o' Enchanting"
+          "Förtrollningsflaska"
         ],
         "hints": {
-          "easy": "Kasta glaset så kommer erfarenhetsklot fram",
-          "normal": "En präst kan sälja den",
-          "hard": "Ett sätt att ha några nivåer i reserv"
+          "easy": "Erfarenhetsklot",
+          "normal": "Sälja",
+          "hard": "Nivåer"
         }
       },
       "en": {
@@ -2701,9 +2707,9 @@
           "XP Bottle"
         ],
         "hints": {
-          "easy": "Smash the glass to release experience orbs",
-          "normal": "A cleric can trade it to you",
-          "hard": "Bank a little progress for later repairs"
+          "easy": "Experience",
+          "normal": "Cleric",
+          "hard": "Progress"
         }
       }
     }
@@ -2713,27 +2719,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Enderöga",
+        "word": "Eye of Ender",
         "aliases": [
-          "Eye of Ender"
+          "Enderöga"
         ],
         "hints": {
-          "easy": "Kasta det för att hitta ett fäste",
-          "normal": "Fyll de tomma uttagen runt slutportalen",
-          "hard": "En pärla får ett tillskott av blazepulver"
+          "easy": "Fäste",
+          "normal": "Slutportalen",
+          "hard": "Tillskott"
         }
       },
       "en": {
         "word": "Eye of Ender",
         "aliases": [],
         "hints": {
-          "easy": "Toss one to find a stronghold",
-          "normal": "Fill empty sockets around the final portal",
-          "hard": "Blaze powder transforms a familiar green orb"
+          "easy": "Stronghold",
+          "normal": "Sockets",
+          "hard": "Transforms"
         }
       }
     }
@@ -2747,23 +2753,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Eldladdning",
+        "word": "Fire Charge",
         "aliases": [
-          "Fire Charge"
+          "Eldladdning"
         ],
         "hints": {
-          "easy": "Tänder block och kan skjutas ur en utmatare",
-          "normal": "Sätter fart på en Netherportal från handen",
-          "hard": "Som ett engångsalternativ till tändstålet"
+          "easy": "Utmatare",
+          "normal": "Netherportal",
+          "hard": "Engångsalternativ"
         }
       },
       "en": {
         "word": "Fire Charge",
         "aliases": [],
         "hints": {
-          "easy": "Lights blocks and can launch from a dispenser",
-          "normal": "Ignites a Nether portal by hand",
-          "hard": "The one-shot substitute for a striker"
+          "easy": "Dispenser",
+          "normal": "Nether",
+          "hard": "Substitute"
         }
       }
     }
@@ -2773,27 +2779,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Fyrverkeriraket",
+        "word": "Firework Rocket",
         "aliases": [
-          "Firework Rocket"
+          "Fyrverkeriraket"
         ],
         "hints": {
-          "easy": "Använd under glidflykt för att få fart",
-          "normal": "Papper och krut räcker för en variant utan stjärna",
-          "hard": "Sätt en i armborstet som ammunition"
+          "easy": "Glidflykt",
+          "normal": "Krut",
+          "hard": "Ammunition"
         }
       },
       "en": {
         "word": "Firework Rocket",
         "aliases": [],
         "hints": {
-          "easy": "Boosts you mid-glide",
-          "normal": "Paper and gunpowder make a version without a star",
-          "hard": "A crossbow can launch it"
+          "easy": "Boosts",
+          "normal": "Gunpowder",
+          "hard": "Crossbow"
         }
       }
     }
@@ -2803,18 +2809,18 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Flinta och stål",
+        "word": "Flint and Steel",
         "aliases": [
-          "Flint and Steel"
+          "Flinta och stål"
         ],
         "hints": {
-          "easy": "Tänder portaler och dynamit",
-          "normal": "En järntacka möter en flintbit i receptet",
-          "hard": "Handverktyget som lämnar en gnista"
+          "easy": "Portaler",
+          "normal": "Järntacka",
+          "hard": "Handverktyget"
         }
       },
       "en": {
@@ -2823,9 +2829,9 @@
           "Flint & Steel"
         ],
         "hints": {
-          "easy": "Ignites portals and TNT",
-          "normal": "Combine an iron ingot with a stone chip",
-          "hard": "Keep one handy if a portal goes dark"
+          "easy": "TNT",
+          "normal": "Ingot",
+          "hard": "Portal"
         }
       }
     }
@@ -2839,24 +2845,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Ghasttår",
+        "word": "Ghast Tear",
         "aliases": [
           "Gasttår",
-          "Ghast Tear"
+          "Ghasttår"
         ],
         "hints": {
-          "easy": "Ljus droppe från det svävande monstret i Nether",
-          "normal": "Ingrediens i läkande regenereringsdrycker",
-          "hard": "Den dyrbara droppen kan landa i lavan"
+          "easy": "Nether",
+          "normal": "Regenerering",
+          "hard": "Brygd"
         }
       },
       "en": {
         "word": "Ghast Tear",
         "aliases": [],
         "hints": {
-          "easy": "Pale loot from the large floating Nether mob",
-          "normal": "Brew it into a regeneration potion",
-          "hard": "Catch that precious drop before it reaches lava"
+          "easy": "Nether",
+          "normal": "Regeneration",
+          "hard": "Potion"
         }
       }
     }
@@ -2866,27 +2872,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Havets hjärta",
+        "word": "Heart of the Sea",
         "aliases": [
-          "Heart of the Sea"
+          "Havets hjärta"
         ],
         "hints": {
-          "easy": "Blått fynd i en begravd skattkista",
-          "normal": "Omgivet av nautilusskal blir det en kanal",
-          "hard": "Kryssa på kartan innan du bygger under vatten"
+          "easy": "Skattkista",
+          "normal": "Nautilusskal",
+          "hard": "Kartan"
         }
       },
       "en": {
         "word": "Heart of the Sea",
         "aliases": [],
         "hints": {
-          "easy": "The blue prize in a buried treasure chest",
-          "normal": "Surround it with nautilus shells to make a conduit",
-          "hard": "Follow the X before building underwater"
+          "easy": "Prize",
+          "normal": "Nautilus",
+          "hard": "Underwater"
         }
       }
     }
@@ -2896,25 +2902,25 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Lapis lazuli",
+        "word": "Lapis Lazuli",
         "aliases": [],
         "hints": {
-          "easy": "Blå mineral som används vid förtrollning",
-          "normal": "Kan göras till blått färgämne",
-          "hard": "Det där blåa facket vid den svävande boken"
+          "easy": "Förtrollning",
+          "normal": "Färgämne",
+          "hard": "Blått"
         }
       },
       "en": {
         "word": "Lapis Lazuli",
         "aliases": [],
         "hints": {
-          "easy": "Blue mineral spent on enchantments",
-          "normal": "Make blue dye from a piece",
-          "hard": "The blue slot beside the floating book"
+          "easy": "Enchantment",
+          "normal": "Dye",
+          "hard": "Blue"
         }
       }
     }
@@ -2924,27 +2930,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Koppel",
+        "word": "Lead",
         "aliases": [
-          "Lead"
+          "Koppel"
         ],
         "hints": {
-          "easy": "Dra med dig djur och bind dem vid ett staket",
-          "normal": "Kan brista om djuret hamnar för långt bort",
-          "hard": "Den vandrande handlarens lamor brukar ha varsitt"
+          "easy": "Tjuder",
+          "normal": "Avstånd",
+          "hard": "Handlare"
         }
       },
       "en": {
         "word": "Lead",
         "aliases": [],
         "hints": {
-          "easy": "Tethers animals to you or a fence post",
-          "normal": "Too much distance can snap the rope",
-          "hard": "The wandering trader's llamas are walked with these"
+          "easy": "Leash",
+          "normal": "Distance",
+          "hard": "Trader"
         }
       }
     }
@@ -2958,23 +2964,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Stridsklubba",
+        "word": "Mace",
         "aliases": [
-          "Mace"
+          "Stridsklubba"
         ],
         "hints": {
-          "easy": "Slår hårdare efter ett långt fall",
-          "normal": "Tung kärna och vindstav bildar vapnet",
-          "hard": "Få träffen rätt, så uteblir fallets skada"
+          "easy": "Slag",
+          "normal": "Vindstav",
+          "hard": "Fallhöjd"
         }
       },
       "en": {
         "word": "Mace",
         "aliases": [],
         "hints": {
-          "easy": "Hits harder the farther you fall",
-          "normal": "A heavy core tops a breeze rod",
-          "hard": "Land on a target instead of taking fall damage"
+          "easy": "Impact",
+          "normal": "Wind",
+          "hard": "Falling"
         }
       }
     }
@@ -2988,24 +2994,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Magmamassa",
+        "word": "Magma Cream",
         "aliases": [
           "Magmakräm",
-          "Magma Cream"
+          "Magmamassa"
         ],
         "hints": {
-          "easy": "Kokas till dryck för eldresistans",
-          "normal": "Slemboll och blazepulver kan sättas ihop till den",
-          "hard": "Glödande kuber kan lämna en klick efter sig"
+          "easy": "Eldresistans",
+          "normal": "Blazepulver",
+          "hard": "Kuber"
         }
       },
       "en": {
         "word": "Magma Cream",
         "aliases": [],
         "hints": {
-          "easy": "Brews into a fire resistance potion",
-          "normal": "Combine a slimeball with blaze powder",
-          "hard": "The hot bouncing cubes may leave some behind"
+          "easy": "Resistance",
+          "normal": "Slimeball",
+          "hard": "Bouncing"
         }
       }
     }
@@ -3015,28 +3021,28 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Lagning",
+        "word": "Mending",
         "aliases": [
           "Reparera",
-          "Mending"
+          "Lagning"
         ],
         "hints": {
-          "easy": "Förtrollning som reparerar utrustning med erfarenhet",
-          "normal": "Kan köpas som bok av en bibliotekarie",
-          "hard": "Gröna klot blir extra livslängd för verktygen"
+          "easy": "Erfarenhet",
+          "normal": "Bibliotekarie",
+          "hard": "Livslängd"
         }
       },
       "en": {
         "word": "Mending",
         "aliases": [],
         "hints": {
-          "easy": "An enchantment that uses experience to repair gear",
-          "normal": "A librarian can trade the book",
-          "hard": "Green orbs extend your tools' lives"
+          "easy": "Enchantment",
+          "normal": "Librarian",
+          "hard": "Extend"
         }
       }
     }
@@ -3050,23 +3056,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Musikskiva 5",
+        "word": "Music Disc 5",
         "aliases": [
-          "Music Disc 5"
+          "Musikskiva 5"
         ],
         "hints": {
-          "easy": "Sätt ihop nio fragment från antika städer",
-          "normal": "En grammofon spelar upp kusliga ljud i stället för vanlig musik",
-          "hard": "Leta under jord efter sekvenser av dova steg"
+          "easy": "Fragment",
+          "normal": "Grammofon",
+          "hard": "Sekvenser"
         }
       },
       "en": {
         "word": "Music Disc 5",
         "aliases": [],
         "hints": {
-          "easy": "Assembled from nine ancient city fragments",
-          "normal": "Plays unsettling sounds on a jukebox",
-          "hard": "Collect the pieces of an underground soundscape"
+          "easy": "Assembled",
+          "normal": "Unsettling",
+          "hard": "Soundscape"
         }
       }
     }
@@ -3076,28 +3082,28 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Namnskylt",
+        "word": "Name Tag",
         "aliases": [
           "Namnlapp",
-          "Name Tag"
+          "Namnskylt"
         ],
         "hints": {
-          "easy": "Ger en mob ett eget namn efter ett besök vid städet",
-          "normal": "Du kan hitta en när du fiskar",
-          "hard": "Dinnerbone får världen att se upp och ned ut"
+          "easy": "Städet",
+          "normal": "Fiskar",
+          "hard": "Dinnerbone"
         }
       },
       "en": {
         "word": "Name Tag",
         "aliases": [],
         "hints": {
-          "easy": "Name a mob once you've used the anvil",
-          "normal": "Can be found while fishing",
-          "hard": "Dinnerbone changes which way is up"
+          "easy": "Anvil",
+          "normal": "Fishing",
+          "hard": "Dinnerbone"
         }
       }
     }
@@ -3111,23 +3117,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Nautilusskal",
+        "word": "Nautilus Shell",
         "aliases": [
-          "Nautilus Shell"
+          "Nautilusskal"
         ],
         "hints": {
-          "easy": "Åtta delar behövs runt Havets hjärta",
-          "normal": "Kan nappas upp när du fiskar efter skatter",
-          "hard": "En drunknad fiende kan bära en spiral"
+          "easy": "Skattfiske",
+          "normal": "Metspö",
+          "hard": "Drunknad"
         }
       },
       "en": {
         "word": "Nautilus Shell",
         "aliases": [],
         "hints": {
-          "easy": "Eight pieces ring the Heart of the Sea",
-          "normal": "Can turn up on a fishing line",
-          "hard": "Sometimes a drowned mob carries a spiral"
+          "easy": "Treasure",
+          "normal": "Fishing",
+          "hard": "Drowned"
         }
       }
     }
@@ -3141,24 +3147,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Nether-stjärna",
+        "word": "Nether Star",
         "aliases": [
           "Netherstjärna",
-          "Nether Star"
+          "Nether-stjärna"
         ],
         "hints": {
-          "easy": "Byte från Wither som används i fyren",
-          "normal": "Glas och obsidian omger den i receptet",
-          "hard": "Triumfen som till sist syns som en stråle"
+          "easy": "Wither",
+          "normal": "Obsidian",
+          "hard": "Triumfen"
         }
       },
       "en": {
         "word": "Nether Star",
         "aliases": [],
         "hints": {
-          "easy": "Wither loot used to make a beacon",
-          "normal": "Goes with glass and obsidian in a crafting grid",
-          "hard": "A boss victory that ends in a beam of light"
+          "easy": "Wither",
+          "normal": "Crafting",
+          "hard": "Victory"
         }
       }
     }
@@ -3172,23 +3178,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Nether-vårta",
+        "word": "Nether Wart",
         "aliases": [
-          "Nether Wart"
+          "Nether-vårta"
         ],
         "hints": {
-          "easy": "Startar många dryckesrecept i en vattenflaska",
-          "normal": "Odlas på själssand",
-          "hard": "Röda små klasar längs en fästningstrappa"
+          "easy": "Dryckesrecept",
+          "normal": "Själssand",
+          "hard": "Fästningstrappa"
         }
       },
       "en": {
         "word": "Nether Wart",
         "aliases": [],
         "hints": {
-          "easy": "Starts many potion recipes from water bottles",
-          "normal": "Farm it on soul sand",
-          "hard": "Little red clusters beside fortress stairs"
+          "easy": "Recipes",
+          "normal": "Sand",
+          "hard": "Stairs"
         }
       }
     }
@@ -3202,23 +3208,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Netherittacka",
+        "word": "Netherite Ingot",
         "aliases": [
-          "Netherite Ingot"
+          "Netherittacka"
         ],
         "hints": {
-          "easy": "Uppgraderar diamantutrustning i smedjebordet",
-          "normal": "Guld blandas med skrot från Nether",
-          "hard": "Den mörka tackan överlever lava som lös droppe"
+          "easy": "Diamantutrustning",
+          "normal": "Nether",
+          "hard": "Tackan"
         }
       },
       "en": {
         "word": "Netherite Ingot",
         "aliases": [],
         "hints": {
-          "easy": "Upgrades diamond gear at a smithing table",
-          "normal": "Combine gold with scraps from the Nether",
-          "hard": "This dark bar survives as an item in lava"
+          "easy": "Smithing",
+          "normal": "Nether",
+          "hard": "Bar"
         }
       }
     }
@@ -3228,27 +3234,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Fantommembran",
+        "word": "Phantom Membrane",
         "aliases": [
-          "Phantom Membrane"
+          "Fantommembran"
         ],
         "hints": {
-          "easy": "Lagar elytravingar i ett städ",
-          "normal": "Bryggs till en dryck för långsamt fall",
-          "hard": "Ett byte som dyker upp efter sömnlösa nätter"
+          "easy": "Elytravingar",
+          "normal": "Brygder",
+          "hard": "Sömnlöshet"
         }
       },
       "en": {
         "word": "Phantom Membrane",
         "aliases": [],
         "hints": {
-          "easy": "Repairs elytra at an anvil",
-          "normal": "Used to brew slow falling",
-          "hard": "Loot from the consequences of staying awake"
+          "easy": "Elytra",
+          "normal": "Potions",
+          "hard": "Insomnia"
         }
       }
     }
@@ -3258,27 +3264,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Krukskärva",
+        "word": "Pottery Sherd",
         "aliases": [
-          "Pottery Sherd"
+          "Krukskärva"
         ],
         "hints": {
-          "easy": "Arkeologiskt fynd som ger en kruka motiv",
-          "normal": "Pensla på misstänkt grus eller sand",
-          "hard": "Fyra sidor kan berätta olika historier"
+          "easy": "Arkeologi",
+          "normal": "Sand",
+          "hard": "Motiv"
         }
       },
       "en": {
         "word": "Pottery Sherd",
         "aliases": [],
         "hints": {
-          "easy": "An archaeological find that patterns a pot",
-          "normal": "Look in brushed sand or gravel",
-          "hard": "Each side of the finished vessel can tell a story"
+          "easy": "Archaeology",
+          "normal": "Sand",
+          "hard": "Patterns"
         }
       }
     }
@@ -3292,24 +3298,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Kaninfot",
+        "word": "Rabbit's Foot",
         "aliases": [
           "Hartass",
-          "Rabbit's Foot"
+          "Kaninfot"
         ],
         "hints": {
-          "easy": "En sällsynt droppe som ger hoppstyrka i en dryck",
-          "normal": "Dyker ibland upp efter jakt på ett litet örondjur",
-          "hard": "Kan kännas som tur i ett bryggställ"
+          "easy": "Hoppstyrka",
+          "normal": "Jakt",
+          "hard": "Bryggning"
         }
       },
       "en": {
         "word": "Rabbit's Foot",
         "aliases": [],
         "hints": {
-          "easy": "An uncommon drop that brews into a leaping potion",
-          "normal": "Sometimes found after hunting a long-eared mob",
-          "hard": "A bit of luck in a brewing slot"
+          "easy": "Jumping",
+          "normal": "Hunting",
+          "hard": "Brewing"
         }
       }
     }
@@ -3319,28 +3325,28 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Återupplivningskompass",
+        "word": "Recovery Compass",
         "aliases": [
           "Återställningskompass",
-          "Recovery Compass"
+          "Återupplivningskompass"
         ],
         "hints": {
-          "easy": "Pekar mot platsen där du dog senast",
-          "normal": "Byggs med ekoskärvor från djupet",
-          "hard": "Snurrar förvirrat i fel dimension"
+          "easy": "Dödsplats",
+          "normal": "Ekoskärvor",
+          "hard": "Dimension"
         }
       },
       "en": {
         "word": "Recovery Compass",
         "aliases": [],
         "hints": {
-          "easy": "Points to where you last died",
-          "normal": "Surround a compass with echo shards",
-          "hard": "It spins uselessly in the wrong dimension"
+          "easy": "Death",
+          "normal": "Echo",
+          "hard": "Dimension"
         }
       }
     }
@@ -3350,30 +3356,30 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Redstonestoft",
+        "word": "Redstone Dust",
         "aliases": [
           "Redstone",
           "Rödsten",
           "Rödstensstoft",
-          "Redstone Dust"
+          "Redstonestoft"
         ],
         "hints": {
-          "easy": "Rött pulver som leder signaler längs marken",
-          "normal": "Malm längre ner i övervärlden ger den här varan",
-          "hard": "Som en synlig ledning mellan knappen och dörren"
+          "easy": "Signaler",
+          "normal": "Övervärlden",
+          "hard": "Ledning"
         }
       },
       "en": {
         "word": "Redstone Dust",
         "aliases": [],
         "hints": {
-          "easy": "Red powder laid down to carry a signal",
-          "normal": "Mined from an ore deep in the Overworld",
-          "hard": "The wire trail between the switch and the door"
+          "easy": "Powder",
+          "normal": "Overworld",
+          "hard": "Switch"
         }
       }
     }
@@ -3383,27 +3389,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Sadel",
+        "word": "Saddle",
         "aliases": [
-          "Saddle"
+          "Sadel"
         ],
         "hints": {
-          "easy": "Utrustning som låter dig styra en ridhäst",
-          "normal": "Kan även sättas på en gris",
-          "hard": "Nästa steg efter att hästens hjärtan visat sig"
+          "easy": "Utrustning",
+          "normal": "Gris",
+          "hard": "Hästens"
         }
       },
       "en": {
         "word": "Saddle",
         "aliases": [],
         "hints": {
-          "easy": "Put it on a horse to control your ride",
-          "normal": "Pigs can wear one too",
-          "hard": "Look for hearts before fitting it to a horse"
+          "easy": "Horse",
+          "normal": "Wear",
+          "hard": "Fitting"
         }
       }
     }
@@ -3413,28 +3419,28 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Silkesberöring",
+        "word": "Silk Touch",
         "aliases": [
           "Silkesvante",
-          "Silk Touch"
+          "Silkesberöring"
         ],
         "hints": {
-          "easy": "Förtrollning som låter dig plocka upp glas helt",
-          "normal": "Bevarar till exempel malm som block",
-          "hard": "Gruvarbetaren kan skjuta upp att plocka ut fynden"
+          "easy": "Förtrollning",
+          "normal": "Bevarande",
+          "hard": "Gruvarbete"
         }
       },
       "en": {
         "word": "Silk Touch",
         "aliases": [],
         "hints": {
-          "easy": "An enchantment that lets you collect glass intact",
-          "normal": "Harvests ore as a block",
-          "hard": "Save the raw mining haul for processing later"
+          "easy": "Enchantment",
+          "normal": "Preservation",
+          "hard": "Mining"
         }
       }
     }
@@ -3448,23 +3454,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Kikare",
+        "word": "Spyglass",
         "aliases": [
-          "Spyglass"
+          "Kikare"
         ],
         "hints": {
-          "easy": "Zoomar in på vad som finns långt bort",
-          "normal": "Ametist och koppar ingår i receptet",
-          "hard": "Utsikten krymper till ett litet fyrkantigt fält"
+          "easy": "Zoomar",
+          "normal": "Koppar",
+          "hard": "Fyrkantigt"
         }
       },
       "en": {
         "word": "Spyglass",
         "aliases": [],
         "hints": {
-          "easy": "Zooms in on distant details",
-          "normal": "Made from amethyst and copper",
-          "hard": "The landscape falls away around a small square"
+          "easy": "Zooms",
+          "normal": "Amethyst",
+          "hard": "Landscape"
         }
       }
     }
@@ -3478,24 +3484,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Skyndsamt smygande",
+        "word": "Swift Sneak",
         "aliases": [
           "Snabbt smygande",
-          "Swift Sneak"
+          "Skyndsamt smygande"
         ],
         "hints": {
-          "easy": "Förtrollar byxor så att du hukar dig fram fortare",
-          "normal": "Böcker med effekten finns i antika städer",
-          "hard": "Bråttom förbi i djupet utan vanliga fotsteg"
+          "easy": "Förtrollning",
+          "normal": "Byxor",
+          "hard": "Djupmörker"
         }
       },
       "en": {
         "word": "Swift Sneak",
         "aliases": [],
         "hints": {
-          "easy": "Enchant leggings to move faster while crouching",
-          "normal": "Look for the book in ancient cities",
-          "hard": "Hurry through the deep without ordinary footsteps"
+          "easy": "Enchantment",
+          "normal": "Leggings",
+          "hard": "Cities"
         }
       }
     }
@@ -3505,27 +3511,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Odödlighetstotem",
+        "word": "Totem of Undying",
         "aliases": [
-          "Totem of Undying"
+          "Odödlighetstotem"
         ],
         "hints": {
-          "easy": "Kan rädda ett dödligt slag när du håller den",
-          "normal": "En frammanare kan tappa den",
-          "hard": "En gyllene figur för vänsterhanden"
+          "easy": "Återuppståndelse",
+          "normal": "Frammanare",
+          "hard": "Vänsterhand"
         }
       },
       "en": {
         "word": "Totem of Undying",
         "aliases": [],
         "hints": {
-          "easy": "Saves you from a lethal hit when held",
-          "normal": "Dropped by an evoker",
-          "hard": "A golden figure for the off hand"
+          "easy": "Revival",
+          "normal": "Evoker",
+          "hard": "Figure"
         }
       }
     }
@@ -3535,27 +3541,27 @@
     "category": "minecraft",
     "subcategory": "minecraft-items",
     "tags": [],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Treudd",
+        "word": "Trident",
         "aliases": [
-          "Trident"
+          "Treudd"
         ],
         "hints": {
-          "easy": "Kan kastas och tappas av drunknade fiender",
-          "normal": "Lojalitet kan få vapnet att återvända",
-          "hard": "Ett åskväder gör kanalisering användbar"
+          "easy": "Drunknade",
+          "normal": "Lojalitet",
+          "hard": "Kanalisering"
         }
       },
       "en": {
         "word": "Trident",
         "aliases": [],
         "hints": {
-          "easy": "Throwable weapon dropped by drowned mobs",
-          "normal": "Loyalty can bring it back to you",
-          "hard": "Wait for a thunderstorm to use Channeling"
+          "easy": "Dropped",
+          "normal": "Loyalty",
+          "hard": "Channeling"
         }
       }
     }
@@ -3569,24 +3575,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Vindattack",
+        "word": "Wind Charge",
         "aliases": [
           "Vindladdning",
-          "Wind Charge"
+          "Vindattack"
         ],
         "hints": {
-          "easy": "Kastas för en knuff eller ett extra högt hopp",
-          "normal": "Tillverkas ur droppen från en Breeze",
-          "hard": "Skjut mot marken för att ta dig upp"
+          "easy": "Knuff",
+          "normal": "Breeze",
+          "hard": "Hopp"
         }
       },
       "en": {
         "word": "Wind Charge",
         "aliases": [],
         "hints": {
-          "easy": "Throw it for knockback or a bigger jump",
-          "normal": "Crafted from what a Breeze drops",
-          "hard": "Aim at the ground to lift yourself"
+          "easy": "Knockback",
+          "normal": "Breeze",
+          "hard": "Jumping"
         }
       }
     }
@@ -3607,18 +3613,18 @@
           "Hjälpande ande"
         ],
         "hints": {
-          "easy": "Blå flygande hjälpreda som samlar tappade föremål",
-          "normal": "Ge den ett exempel på vad du saknar",
-          "hard": "Ett notblock blir återlämningsplats"
+          "easy": "Hjälpreda",
+          "normal": "Föremål",
+          "hard": "Leverans"
         }
       },
       "en": {
         "word": "Allay",
         "aliases": [],
         "hints": {
-          "easy": "Blue flying helper that gathers dropped items",
-          "normal": "Give it an example of what you're missing",
-          "hard": "A note block becomes its delivery spot"
+          "easy": "Helper",
+          "normal": "Items",
+          "hard": "Delivery"
         }
       }
     }
@@ -3639,18 +3645,18 @@
           "Brännare"
         ],
         "hints": {
-          "easy": "Flyger vid Netherfästningen och skjuter eldklot",
-          "normal": "Gula stavar kretsar runt kroppen",
-          "hard": "Vatten gör ont"
+          "easy": "Nether",
+          "normal": "Stavar",
+          "hard": "Eld"
         }
       },
       "en": {
         "word": "Blaze",
         "aliases": [],
         "hints": {
-          "easy": "Flies near the Nether fortress and shoots fireballs",
-          "normal": "Yellow rods orbit its body",
-          "hard": "Water hurts it"
+          "easy": "Nether",
+          "normal": "Rods",
+          "hard": "Fire"
         }
       }
     }
@@ -3666,23 +3672,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Vindväsen",
+        "word": "Breeze",
         "aliases": [
-          "Breeze"
+          "Vindväsen"
         ],
         "hints": {
-          "easy": "Hoppande fiende som skjuter luftstötar",
-          "normal": "Rörlig motståndare i kopparkorridorerna",
-          "hard": "En träff nära en knapp kan slå på den"
+          "easy": "Luftstötar",
+          "normal": "Hopp",
+          "hard": "Redstone"
         }
       },
       "en": {
         "word": "Breeze",
         "aliases": [],
         "hints": {
-          "easy": "Leaping enemy that shoots blasts of air",
-          "normal": "An agile opponent in copper corridors",
-          "hard": "A near hit can activate a button"
+          "easy": "Gusts",
+          "normal": "Leaping",
+          "hard": "Redstone"
         }
       }
     }
@@ -3698,21 +3704,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Grottspindel",
-        "aliases": [],
+        "word": "Cave Spider",
+        "aliases": [
+          "Grottspindel"
+        ],
         "hints": {
-          "easy": "Liten giftig fiende i övergivna gruvor",
-          "normal": "Blågrön kropp bakom täta nät",
-          "hard": "Ta med mjölk ner till rälsen"
+          "easy": "Övergivna",
+          "normal": "Blågrön",
+          "hard": "Rälsen"
         }
       },
       "en": {
         "word": "Cave Spider",
         "aliases": [],
         "hints": {
-          "easy": "Small venomous enemy in abandoned mineshafts",
-          "normal": "Blue-green body behind thick webs",
-          "hard": "Take milk down to the rails"
+          "easy": "Mineshafts",
+          "normal": "Webs",
+          "hard": "Milk"
         }
       }
     }
@@ -3724,27 +3732,27 @@
     "tags": [
       "hostile"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Knarrträd",
+        "word": "Creaking",
         "aliases": [
-          "Creaking"
+          "Knarrträd"
         ],
         "hints": {
-          "easy": "Trälik fiende som stelnar när du ser på den",
-          "normal": "Följ partiklarna till hjärtat",
-          "hard": "Vänd dig inte om bland de bleka ekarna"
+          "easy": "Trä",
+          "normal": "Partiklar",
+          "hard": "Ekar"
         }
       },
       "en": {
         "word": "Creaking",
         "aliases": [],
         "hints": {
-          "easy": "Wooden foe that freezes under your gaze",
-          "normal": "Follow the particles to its heart",
-          "hard": "Don't turn around among the pale oaks"
+          "easy": "Wood",
+          "normal": "Particles",
+          "hard": "Oaks"
         }
       }
     }
@@ -3756,25 +3764,25 @@
     "tags": [
       "hostile"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Creeper",
         "aliases": [],
         "hints": {
-          "easy": "Grön och exploderar på nära håll",
-          "normal": "En väsning vid husväggen",
-          "hard": "Katter får den att backa"
+          "easy": "Exploderar",
+          "normal": "Väsning",
+          "hard": "Katter"
         }
       },
       "en": {
         "word": "Creeper",
         "aliases": [],
         "hints": {
-          "easy": "Green and explodes up close",
-          "normal": "A hiss outside your house",
-          "hard": "Cats make it back away"
+          "easy": "Explodes",
+          "normal": "Hiss",
+          "hard": "Cats"
         }
       }
     }
@@ -3790,23 +3798,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Drunknad zombie",
+        "word": "Drowned",
         "aliases": [
-          "Drowned"
+          "Drunknad zombie"
         ],
         "hints": {
-          "easy": "Odöd simmare som ibland bär en treudd",
-          "normal": "Turkos gestalt under ytan",
-          "hard": "En vanlig odöd kan förvandlas av vatten"
+          "easy": "Simmare",
+          "normal": "Turkos",
+          "hard": "Treudd"
         }
       },
       "en": {
         "word": "Drowned",
         "aliases": [],
         "hints": {
-          "easy": "Undead swimmer that sometimes carries a trident",
-          "normal": "A turquoise figure below the surface",
-          "hard": "Water can turn another undead mob into it"
+          "easy": "Swimmer",
+          "normal": "Turquoise",
+          "hard": "Trident"
         }
       }
     }
@@ -3822,24 +3830,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Urväktare",
+        "word": "Elder Guardian",
         "aliases": [
           "Äldersväktare",
-          "Elder Guardian"
+          "Urväktare"
         ],
         "hints": {
-          "easy": "Stor blek mob som försvårar grävning i havsmonumentet",
-          "normal": "En spökbild på skärmen när du simmar nära",
-          "hard": "Mjölk ger bara en tillfällig respit"
+          "easy": "Havsmonument",
+          "normal": "Spökbild",
+          "hard": "Gruvtrötthet"
         }
       },
       "en": {
         "word": "Elder Guardian",
         "aliases": [],
         "hints": {
-          "easy": "Big pale mob that makes mining hard at a monument",
-          "normal": "A ghostly face on screen as you swim closer",
-          "hard": "Milk only buys you time"
+          "easy": "Monument",
+          "normal": "Apparition",
+          "hard": "Fatigue"
         }
       }
     }
@@ -3851,25 +3859,27 @@
     "tags": [
       "boss"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Enderdrake",
-        "aliases": [],
+        "word": "Ender Dragon",
+        "aliases": [
+          "Enderdrake"
+        ],
         "hints": {
-          "easy": "Flygande boss bland obsidianpelare",
-          "normal": "Kristallerna håller bossen vid liv",
-          "hard": "Ett ägg vid utgången"
+          "easy": "Obsidianpelare",
+          "normal": "Kristaller",
+          "hard": "Utgång"
         }
       },
       "en": {
         "word": "Ender Dragon",
         "aliases": [],
         "hints": {
-          "easy": "Flying boss among obsidian pillars",
-          "normal": "Crystals keep the boss alive",
-          "hard": "An egg by the exit"
+          "easy": "Pillars",
+          "normal": "Crystals",
+          "hard": "Exit"
         }
       }
     }
@@ -3881,25 +3891,25 @@
     "tags": [
       "teleportation"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Enderman",
         "aliases": [],
         "hints": {
-          "easy": "Lång varelse som teleporterar sig",
-          "normal": "Undvik ögonkontakt",
-          "hard": "Bär ibland ett jordblock"
+          "easy": "Teleporterar",
+          "normal": "Ögonkontakt",
+          "hard": "Jordblock"
         }
       },
       "en": {
         "word": "Enderman",
         "aliases": [],
         "hints": {
-          "easy": "Tall mob that teleports",
-          "normal": "Avoid eye contact",
-          "hard": "Sometimes carries a dirt block"
+          "easy": "Teleports",
+          "normal": "Contact",
+          "hard": "Dirt"
         }
       }
     }
@@ -3918,18 +3928,18 @@
         "word": "Endermite",
         "aliases": [],
         "hints": {
-          "easy": "Liten lila mob som ibland dyker upp efter ett pärlkast",
-          "normal": "Lurar långa teleportörer i fällor",
-          "hard": "En risk med att förflytta sig utan att gå"
+          "easy": "Pärlor",
+          "normal": "Teleportering",
+          "hard": "Fiendskap"
         }
       },
       "en": {
         "word": "Endermite",
         "aliases": [],
         "hints": {
-          "easy": "Tiny purple mob that may appear after a pearl throw",
-          "normal": "Lures tall teleporting mobs into traps",
-          "hard": "A hazard of moving without walking"
+          "easy": "Pearls",
+          "normal": "Teleportation",
+          "hard": "Hostility"
         }
       }
     }
@@ -3945,23 +3955,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Frammanare",
+        "word": "Evoker",
         "aliases": [
-          "Evoker"
+          "Frammanare"
         ],
         "hints": {
-          "easy": "Trollkarlen med käkar som sticker upp ur golvet",
-          "normal": "Kallar in små flygande hjälpredor",
-          "hard": "En totem som sista försvar"
+          "easy": "Trollkarlen",
+          "normal": "Hjälpredor",
+          "hard": "Totem"
         }
       },
       "en": {
         "word": "Evoker",
         "aliases": [],
         "hints": {
-          "easy": "Spellcaster who makes jaws rise from the floor",
-          "normal": "Calls in little winged helpers",
-          "hard": "A totem as a last line of defense"
+          "easy": "Spellcaster",
+          "normal": "Helpers",
+          "hard": "Totem"
         }
       }
     }
@@ -3980,18 +3990,18 @@
         "word": "Ghast",
         "aliases": [],
         "hints": {
-          "easy": "Vit flygande jättekub som skjuter eldklot",
-          "normal": "Ett gråtläte ovanför lavan",
-          "hard": "Skicka tillbaka projektilen"
+          "easy": "Eldklot",
+          "normal": "Gråtläte",
+          "hard": "Projektil"
         }
       },
       "en": {
         "word": "Ghast",
         "aliases": [],
         "hints": {
-          "easy": "Big white flying cube that shoots fireballs",
-          "normal": "A wail above the lava",
-          "hard": "Send its projectile back"
+          "easy": "Fireballs",
+          "normal": "Wail",
+          "hard": "Projectile"
         }
       }
     }
@@ -4010,18 +4020,18 @@
         "word": "Guardian",
         "aliases": [],
         "hints": {
-          "easy": "Taggig simmare som skjuter en stråle",
-          "normal": "Patrullerar prismarinbyggnaden",
-          "hard": "När taggarna är ute kan slag slå tillbaka"
+          "easy": "Simmare",
+          "normal": "Prismarinbyggnaden",
+          "hard": "Taggarna"
         }
       },
       "en": {
         "word": "Guardian",
         "aliases": [],
         "hints": {
-          "easy": "Spiky swimmer that fires a beam",
-          "normal": "Patrols the prismarine building",
-          "hard": "Striking its extended spikes can hurt you back"
+          "easy": "Swimmer",
+          "normal": "Prismarine",
+          "hard": "Striking"
         }
       }
     }
@@ -4040,18 +4050,18 @@
         "word": "Hoglin",
         "aliases": [],
         "hints": {
-          "easy": "Stort vildsvinsliknande odjur i den röda Nether-skogen",
-          "normal": "Kastar upp dig med betarna",
-          "hard": "Skyr den turkosa svampen"
+          "easy": "Nether",
+          "normal": "Betar",
+          "hard": "Svampar"
         }
       },
       "en": {
         "word": "Hoglin",
         "aliases": [],
         "hints": {
-          "easy": "Big boarlike beast in the red Nether forest",
-          "normal": "Flings you into the air with its tusks",
-          "hard": "Avoids the teal fungus"
+          "easy": "Nether",
+          "normal": "Tusks",
+          "hard": "Fungi"
         }
       }
     }
@@ -4067,23 +4077,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Uttorkad zombie",
+        "word": "Husk",
         "aliases": [
-          "Husk"
+          "Uttorkad zombie"
         ],
         "hints": {
-          "easy": "Odöd som tål solen i öknen",
-          "normal": "Sandfärgade kläder",
-          "hard": "Ett slag kan göra dig hungrig"
+          "easy": "Öknen",
+          "normal": "Sandfärgade",
+          "hard": "Hungrig"
         }
       },
       "en": {
         "word": "Husk",
         "aliases": [],
         "hints": {
-          "easy": "Sunproof undead mob in the desert",
-          "normal": "Sand-colored clothing",
-          "hard": "A hit can make you hungry"
+          "easy": "Desert",
+          "normal": "Clothing",
+          "hard": "Hungry"
         }
       }
     }
@@ -4095,25 +4105,27 @@
     "tags": [
       "construct"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Järngolem",
-        "aliases": [],
+        "word": "Iron Golem",
+        "aliases": [
+          "Järngolem"
+        ],
         "hints": {
-          "easy": "Stor byvakt byggd av metallblock",
-          "normal": "Pumpa på en korsform",
-          "hard": "En vallmo i en väldig hand"
+          "easy": "Metallblock",
+          "normal": "Korsform",
+          "hard": "Vallmo"
         }
       },
       "en": {
         "word": "Iron Golem",
         "aliases": [],
         "hints": {
-          "easy": "Big village guard built from metal blocks",
-          "normal": "A pumpkin on top of a cross",
-          "hard": "A poppy in an enormous hand"
+          "easy": "Village",
+          "normal": "Pumpkin",
+          "hard": "Poppy"
         }
       }
     }
@@ -4129,23 +4141,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Magmakub",
+        "word": "Magma Cube",
         "aliases": [
-          "Magma Cube"
+          "Magmakub"
         ],
         "hints": {
-          "easy": "Hoppande mörk kub i Nether",
-          "normal": "Delar upp sig i mindre motståndare",
-          "hard": "Byte till eldtålig brygd"
+          "easy": "Nether",
+          "normal": "Studs",
+          "hard": "Eldtålighet"
         }
       },
       "en": {
         "word": "Magma Cube",
         "aliases": [],
         "hints": {
-          "easy": "Dark bouncing cube in the Nether",
-          "normal": "Breaks into smaller enemies",
-          "hard": "Loot for a fire-resistant potion"
+          "easy": "Nether",
+          "normal": "Bouncing",
+          "hard": "Fireproof"
         }
       }
     }
@@ -4166,18 +4178,18 @@
           "Svampko"
         ],
         "hints": {
-          "easy": "Röd boskap med svampar på ryggen",
-          "normal": "Fyll skålen direkt vid djuret",
-          "hard": "En sax kan ta bort påväxten permanent"
+          "easy": "Boskap",
+          "normal": "Skål",
+          "hard": "Svamp"
         }
       },
       "en": {
         "word": "Mooshroom",
         "aliases": [],
         "hints": {
-          "easy": "Red cattle with mushrooms on its back",
-          "normal": "Fill a bowl straight from the animal",
-          "hard": "Shears can remove the growth for good"
+          "easy": "Cattle",
+          "normal": "Bowl",
+          "hard": "Fungi"
         }
       }
     }
@@ -4193,23 +4205,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Fantom",
+        "word": "Phantom",
         "aliases": [
-          "Phantom"
+          "Fantom"
         ],
         "hints": {
-          "easy": "Flygande angripare efter flera sömnlösa nätter",
-          "normal": "Cirklar högt innan den dyker",
-          "hard": "Membran till lagning av flygvingar"
+          "easy": "Sömnlöshet",
+          "normal": "Cirklar",
+          "hard": "Vingar"
         }
       },
       "en": {
         "word": "Phantom",
         "aliases": [],
         "hints": {
-          "easy": "Flying attacker after several sleepless nights",
-          "normal": "Circles overhead before swooping",
-          "hard": "A membrane for mending your wings"
+          "easy": "Insomnia",
+          "normal": "Circling",
+          "hard": "Wings"
         }
       }
     }
@@ -4228,18 +4240,18 @@
         "word": "Piglin",
         "aliases": [],
         "hints": {
-          "easy": "Grislik varelse som byter varor mot guldtackor",
-          "normal": "Ta på dig guld innan du närmar dig",
-          "hard": "Låt kistan vara om någon ser dig"
+          "easy": "Guldtackor",
+          "normal": "Byteshandel",
+          "hard": "Kista"
         }
       },
       "en": {
         "word": "Piglin",
         "aliases": [],
         "hints": {
-          "easy": "Piglike creature that barters for gold ingots",
-          "normal": "Put on some gold before approaching",
-          "hard": "Leave the chest alone if you're being watched"
+          "easy": "Ingots",
+          "normal": "Bartering",
+          "hard": "Chest"
         }
       }
     }
@@ -4251,27 +4263,27 @@
     "tags": [
       "raid"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Plundrare",
+        "word": "Pillager",
         "aliases": [
-          "Pillager"
+          "Plundrare"
         ],
         "hints": {
-          "easy": "Grå angripare med armborst",
-          "normal": "Patrull med baner i täten",
-          "hard": "Ett vakttorn att hålla avstånd till"
+          "easy": "Angripare",
+          "normal": "Baner",
+          "hard": "Vakttorn"
         }
       },
       "en": {
         "word": "Pillager",
         "aliases": [],
         "hints": {
-          "easy": "Gray attacker armed with a crossbow",
-          "normal": "A patrol with a banner out front",
-          "hard": "A watchtower worth steering clear of"
+          "easy": "Attacker",
+          "normal": "Banner",
+          "hard": "Watchtower"
         }
       }
     }
@@ -4287,23 +4299,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Ödeläggare",
+        "word": "Ravager",
         "aliases": [
-          "Ravager"
+          "Ödeläggare"
         ],
         "hints": {
-          "easy": "Massivt hornförsett odjur som stormar byar",
-          "normal": "Kan bära en beväpnad ryttare",
-          "hard": "Ett vrål efter att skölden stoppat anfallet"
+          "easy": "Horn",
+          "normal": "Ryttare",
+          "hard": "Sköld"
         }
       },
       "en": {
         "word": "Ravager",
         "aliases": [],
         "hints": {
-          "easy": "Huge horned beast that storms villages",
-          "normal": "Can carry an armed rider",
-          "hard": "A roar after a shield stops its charge"
+          "easy": "Horns",
+          "normal": "Rider",
+          "hard": "Shield"
         }
       }
     }
@@ -4322,18 +4334,18 @@
         "word": "Shulker",
         "aliases": [],
         "hints": {
-          "easy": "Skalförsedd fiende som får dig att sväva",
-          "normal": "Ser ut som ett block på väggen",
-          "hard": "Skalen blir bärbar förvaring"
+          "easy": "Skalförsedd",
+          "normal": "Väggen",
+          "hard": "Bärbar"
         }
       },
       "en": {
         "word": "Shulker",
         "aliases": [],
         "hints": {
-          "easy": "Shelled enemy that makes you float",
-          "normal": "Looks like a block on the wall",
-          "hard": "Its shells become portable storage"
+          "easy": "Shelled",
+          "normal": "Block",
+          "hard": "Shells"
         }
       }
     }
@@ -4349,21 +4361,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Silverfisk",
-        "aliases": [],
+        "word": "Silverfish",
+        "aliases": [
+          "Silverfisk"
+        ],
         "hints": {
-          "easy": "Liten grå mob som gömmer sig i stenblock",
-          "normal": "En överraskning när du hackar i fästet",
-          "hard": "Ett slag kan väcka fler i murverket"
+          "easy": "Bakslag",
+          "normal": "Gruva",
+          "hard": "Murverk"
         }
       },
       "en": {
         "word": "Silverfish",
         "aliases": [],
         "hints": {
-          "easy": "Small gray mob that hides inside stone blocks",
-          "normal": "A mining surprise in the stronghold",
-          "hard": "One hit may wake others in the masonry"
+          "easy": "Ambush",
+          "normal": "Mining",
+          "hard": "Masonry"
         }
       }
     }
@@ -4375,25 +4389,27 @@
     "tags": [
       "undead"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Skelett",
-        "aliases": [],
+        "word": "Skeleton",
+        "aliases": [
+          "Skelett"
+        ],
         "hints": {
-          "easy": "Odöd bågskytt som brinner i solen",
-          "normal": "Pilar från andra sidan gläntan",
-          "hard": "Benmjöl från en nattstrid"
+          "easy": "Bågskytt",
+          "normal": "Glänta",
+          "hard": "Natt"
         }
       },
       "en": {
         "word": "Skeleton",
         "aliases": [],
         "hints": {
-          "easy": "Undead archer that burns in daylight",
-          "normal": "Arrows from across a clearing",
-          "hard": "Bone meal after a night fight"
+          "easy": "Archer",
+          "normal": "Clearing",
+          "hard": "Night"
         }
       }
     }
@@ -4405,27 +4421,27 @@
     "tags": [
       "hostile"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Slemkub",
+        "word": "Slime",
         "aliases": [
-          "Slime"
+          "Slemkub"
         ],
         "hints": {
-          "easy": "Grön studsande kub som delar sig",
-          "normal": "Fullmåne över ett träsk",
-          "hard": "Råvara till den klibbiga kolven"
+          "easy": "Studsande",
+          "normal": "Fullmåne",
+          "hard": "Kolven"
         }
       },
       "en": {
         "word": "Slime",
         "aliases": [],
         "hints": {
-          "easy": "Green bouncing cube that splits apart",
-          "normal": "A full moon over a swamp",
-          "hard": "The ingredient for a sticky piston"
+          "easy": "Bouncing",
+          "normal": "Swamp",
+          "hard": "Ingredient"
         }
       }
     }
@@ -4441,23 +4457,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Sniffare",
+        "word": "Sniffer",
         "aliases": [
-          "Sniffer"
+          "Sniffare"
         ],
         "hints": {
-          "easy": "Stor urtidsvarelse som gräver fram frön",
-          "normal": "Ett ägg bland arkeologiska fynd",
-          "hard": "En fackellilja börjar med dess nos"
+          "easy": "Urtidsvarelse",
+          "normal": "Arkeologi",
+          "hard": "Fackellilja"
         }
       },
       "en": {
         "word": "Sniffer",
         "aliases": [],
         "hints": {
-          "easy": "Large prehistoric creature that digs up seeds",
-          "normal": "An egg among archaeological finds",
-          "hard": "A torchflower starts with its nose"
+          "easy": "Prehistory",
+          "normal": "Archaeology",
+          "hard": "Torchflower"
         }
       }
     }
@@ -4469,25 +4485,27 @@
     "tags": [
       "construct"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Snögolem",
-        "aliases": [],
+        "word": "Snow Golem",
+        "aliases": [
+          "Snögolem"
+        ],
         "hints": {
-          "easy": "Byggd av två vita block och en pumpa",
-          "normal": "Kastar vita projektiler",
-          "hard": "En sax avslöjar ansiktet"
+          "easy": "Pumpa",
+          "normal": "Projektiler",
+          "hard": "Ansiktet"
         }
       },
       "en": {
         "word": "Snow Golem",
         "aliases": [],
         "hints": {
-          "easy": "Built from two white blocks and a pumpkin",
-          "normal": "Throws little white projectiles",
-          "hard": "Shears reveal its face"
+          "easy": "Pumpkin",
+          "normal": "Projectiles",
+          "hard": "Shears"
         }
       }
     }
@@ -4503,23 +4521,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Strövare",
+        "word": "Stray",
         "aliases": [
-          "Stray"
+          "Strövare"
         ],
         "hints": {
-          "easy": "Bågskytt med långsamhetspilar",
-          "normal": "Trasiga kläder i snön",
-          "hard": "En kall variant av nattens benrangel"
+          "easy": "Långsamhetspilar",
+          "normal": "Trasor",
+          "hard": "Natt"
         }
       },
       "en": {
         "word": "Stray",
         "aliases": [],
         "hints": {
-          "easy": "Archer with slowing arrows",
-          "normal": "Ragged clothes in the snow",
-          "hard": "A chilly cousin of the nighttime archer"
+          "easy": "Slowing",
+          "normal": "Rags",
+          "hard": "Night"
         }
       }
     }
@@ -4540,18 +4558,18 @@
           "Vandrare"
         ],
         "hints": {
-          "easy": "Kan bära dig över en sjö av lava",
-          "normal": "Svamp på spö styr färden",
-          "hard": "Huttrar på land"
+          "easy": "Lava",
+          "normal": "Spö",
+          "hard": "Värme"
         }
       },
       "en": {
         "word": "Strider",
         "aliases": [],
         "hints": {
-          "easy": "Can carry you across a lava lake",
-          "normal": "A fungus on a stick steers it",
-          "hard": "Shivers on land"
+          "easy": "Lava",
+          "normal": "Rod",
+          "hard": "Warmth"
         }
       }
     }
@@ -4567,23 +4585,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Vålnad",
+        "word": "Vex",
         "aliases": [
-          "Vex"
+          "Vålnad"
         ],
         "hints": {
-          "easy": "Liten flygande svärdsfiende som tar sig genom väggar",
-          "normal": "En magikers besvärjelse ger den liv",
-          "hard": "Röda markeringar när den anfaller"
+          "easy": "Svärdsfiende",
+          "normal": "Besvärjelse",
+          "hard": "Markeringar"
         }
       },
       "en": {
         "word": "Vex",
         "aliases": [],
         "hints": {
-          "easy": "Little flying swordsman that passes through walls",
-          "normal": "A spellcaster brings it to life",
-          "hard": "Red markings when it charges"
+          "easy": "Swordsman",
+          "normal": "Spellcaster",
+          "hard": "Markings"
         }
       }
     }
@@ -4595,25 +4613,27 @@
     "tags": [
       "trading"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Bybo",
-        "aliases": [],
+        "word": "Villager",
+        "aliases": [
+          "Bybo"
+        ],
         "hints": {
-          "easy": "Handlar med spelaren för smaragder",
-          "normal": "Hopvikta armar och hummanden",
-          "hard": "En arbetsstation kan ändra yrket"
+          "easy": "Smaragder",
+          "normal": "Hummanden",
+          "hard": "Arbetsstation"
         }
       },
       "en": {
         "word": "Villager",
         "aliases": [],
         "hints": {
-          "easy": "Trades with the player for emeralds",
-          "normal": "Folded arms and a hum",
-          "hard": "A job block can change its profession"
+          "easy": "Emeralds",
+          "normal": "Hum",
+          "hard": "Profession"
         }
       }
     }
@@ -4625,7 +4645,7 @@
     "tags": [
       "raid"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4634,18 +4654,18 @@
           "Försvarare"
         ],
         "hints": {
-          "easy": "Grå angripare med järnyxa",
-          "normal": "Rusning genom herrgårdens korridorer",
-          "hard": "Namnet Johnny ändrar beteendet"
+          "easy": "Angripare",
+          "normal": "Rusning",
+          "hard": "Johnny"
         }
       },
       "en": {
         "word": "Vindicator",
         "aliases": [],
         "hints": {
-          "easy": "Gray attacker armed with an iron axe",
-          "normal": "A rush down the mansion corridors",
-          "hard": "The name Johnny changes its behavior"
+          "easy": "Attacker",
+          "normal": "Mansion",
+          "hard": "Johnny"
         }
       }
     }
@@ -4657,27 +4677,28 @@
     "tags": [
       "trading"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Vandrande byteshandlare",
+        "word": "Wandering Trader",
         "aliases": [
-          "Vandrande handelsman"
+          "Vandrande handelsman",
+          "Vandrande byteshandlare"
         ],
         "hints": {
-          "easy": "Blåklädd försäljare med två lamor",
-          "normal": "Dyker upp nära ditt bygge med udda varor",
-          "hard": "Vid mörkrets inbrott kan säljaren bli osynlig"
+          "easy": "Försäljare",
+          "normal": "Lamor",
+          "hard": "Varor"
         }
       },
       "en": {
         "word": "Wandering Trader",
         "aliases": [],
         "hints": {
-          "easy": "Blue-robed seller with two llamas",
-          "normal": "Turns up near your build with odd goods",
-          "hard": "Drinks up to disappear at night"
+          "easy": "Seller",
+          "normal": "Llamas",
+          "hard": "Goods"
         }
       }
     }
@@ -4689,25 +4710,25 @@
     "tags": [
       "deep-dark"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Warden",
         "aliases": [],
         "hints": {
-          "easy": "Blind jätte som följer vibrationer",
-          "normal": "Smyg förbi det skrikande blocket",
-          "hard": "Ett dån genom väggen"
+          "easy": "Vibrationer",
+          "normal": "Blocket",
+          "hard": "Dån"
         }
       },
       "en": {
         "word": "Warden",
         "aliases": [],
         "hints": {
-          "easy": "Blind giant that follows vibrations",
-          "normal": "Sneak past the shrieking block",
-          "hard": "A boom through the wall"
+          "easy": "Vibrations",
+          "normal": "Shrieking",
+          "hard": "Boom"
         }
       }
     }
@@ -4719,25 +4740,27 @@
     "tags": [
       "potions"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Häxa",
-        "aliases": [],
+        "word": "Witch",
+        "aliases": [
+          "Häxa"
+        ],
         "hints": {
-          "easy": "Kastar giftbrygder på spelaren",
-          "normal": "En koja på pålar i träsket",
-          "hard": "Tar själv en klunk när det hettar till"
+          "easy": "Giftbrygder",
+          "normal": "Träsk",
+          "hard": "Kittel"
         }
       },
       "en": {
         "word": "Witch",
         "aliases": [],
         "hints": {
-          "easy": "Throws poison potions at the player",
-          "normal": "A hut on stilts in the swamp",
-          "hard": "Takes a sip when things heat up"
+          "easy": "Poison",
+          "normal": "Swamp",
+          "hard": "Cauldron"
         }
       }
     }
@@ -4749,25 +4772,25 @@
     "tags": [
       "boss"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Wither",
         "aliases": [],
         "hints": {
-          "easy": "Boss med tre huvuden",
-          "normal": "Byggs av själssand och skallar",
-          "hard": "En stjärna som belöning"
+          "easy": "Huvuden",
+          "normal": "Själssand",
+          "hard": "Stjärna"
         }
       },
       "en": {
         "word": "Wither",
         "aliases": [],
         "hints": {
-          "easy": "Three-headed boss",
-          "normal": "Built from soul sand and skulls",
-          "hard": "A star as your reward"
+          "easy": "Heads",
+          "normal": "Sand",
+          "hard": "Star"
         }
       }
     }
@@ -4779,25 +4802,25 @@
     "tags": [
       "undead"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Zombie",
         "aliases": [],
         "hints": {
-          "easy": "Grön odöd i turkos tröja",
-          "normal": "Stönar utanför dörren på natten",
-          "hard": "Ruttet kött som fynd"
+          "easy": "Odöd",
+          "normal": "Stön",
+          "hard": "Ruttet"
         }
       },
       "en": {
         "word": "Zombie",
         "aliases": [],
         "hints": {
-          "easy": "Green undead mob in a teal shirt",
-          "normal": "Groans outside the door at night",
-          "hard": "Rotten flesh as loot"
+          "easy": "Undead",
+          "normal": "Groans",
+          "hard": "Rotten"
         }
       }
     }
@@ -4813,23 +4836,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Uråldrig stad",
+        "word": "Ancient City",
         "aliases": [
-          "Ancient City"
+          "Uråldrig stad"
         ],
         "hints": {
-          "easy": "Vidsträckta underjordiska ruiner där en Warden kan vakna",
-          "normal": "En balans mellan kistjakt och tystnad",
-          "hard": "En skärva hjälper dig att hitta en gammal dödsplats"
+          "easy": "Warden",
+          "normal": "Kistjakt",
+          "hard": "Skärva"
         }
       },
       "en": {
         "word": "Ancient City",
         "aliases": [],
         "hints": {
-          "easy": "Sprawling underground ruins where a warden may wake",
-          "normal": "Balance chest hunting with keeping quiet",
-          "hard": "A shard helps you find where you died"
+          "easy": "Sprawling",
+          "normal": "Hunting",
+          "hard": "Shard"
         }
       }
     }
@@ -4841,18 +4864,18 @@
     "tags": [
       "nether"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Bastionsruin",
+        "word": "Bastion Remnant",
         "aliases": [
-          "Bastion Remnant"
+          "Bastionsruin"
         ],
         "hints": {
-          "easy": "Svartstensbyggnad med pigliner och skattkistor",
-          "normal": "Guldrustning räcker inte mot vakterna med yxa",
-          "hard": "Pigstep kan ligga i en av kistorna"
+          "easy": "Svartstensbyggnad",
+          "normal": "Guldrustning",
+          "hard": "Kistorna"
         }
       },
       "en": {
@@ -4861,9 +4884,9 @@
           "Bastion"
         ],
         "hints": {
-          "easy": "Blackstone building with piglins and loot chests",
-          "normal": "Gold armor won't appease the guards with axes",
-          "hard": "One chest might hold Pigstep"
+          "easy": "Blackstone",
+          "normal": "Gold",
+          "hard": "Pigstep"
         }
       }
     }
@@ -4875,27 +4898,27 @@
     "tags": [
       "ocean"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Nedgrävd skatt",
+        "word": "Buried Treasure",
         "aliases": [
-          "Buried Treasure"
+          "Nedgrävd skatt"
         ],
         "hints": {
-          "easy": "Gömd kista som en karta pekar ut",
-          "normal": "Gräv där det röda krysset sitter",
-          "hard": "En blå ingrediens till undervattensbasen"
+          "easy": "Kista",
+          "normal": "Kryss",
+          "hard": "Karta"
         }
       },
       "en": {
         "word": "Buried Treasure",
         "aliases": [],
         "hints": {
-          "easy": "Hidden chest marked on a map",
-          "normal": "Dig where the red X sits",
-          "hard": "A blue ingredient for your underwater base"
+          "easy": "Chest",
+          "normal": "Cross",
+          "hard": "Map"
         }
       }
     }
@@ -4907,20 +4930,20 @@
     "tags": [
       "overworld"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Ökenpyramid",
+        "word": "Desert Pyramid",
         "aliases": [
           "Ökentempel",
           "Desert Temple",
-          "Desert Pyramid"
+          "Ökenpyramid"
         ],
         "hints": {
-          "easy": "Sandstensbyggnad med sprängfälla under golvet",
-          "normal": "Fyra kistor runt en tryckplatta",
-          "hard": "Börja gräva vid den färgade golvfiguren"
+          "easy": "Sprängfälla",
+          "normal": "Tryckplatta",
+          "hard": "Golvfiguren"
         }
       },
       "en": {
@@ -4929,9 +4952,9 @@
           "Desert Temple"
         ],
         "hints": {
-          "easy": "Sandstone building with a blast trap under its floor",
-          "normal": "Four chests around a pressure plate",
-          "hard": "Start digging by the colored floor pattern"
+          "easy": "Sandstone",
+          "normal": "Chests",
+          "hard": "Digging"
         }
       }
     }
@@ -4947,24 +4970,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Endstad",
+        "word": "End City",
         "aliases": [
           "End-stad",
-          "End City"
+          "Endstad"
         ],
         "hints": {
-          "easy": "Torn av purpurblock på avlägsna öar",
-          "normal": "En träff från en shulker blir ett fallprov",
-          "hard": "Ibland finns ett svävande skepp intill"
+          "easy": "Purpurblock",
+          "normal": "Shulker",
+          "hard": "Skepp"
         }
       },
       "en": {
         "word": "End City",
         "aliases": [],
         "hints": {
-          "easy": "Purpur towers on remote islands",
-          "normal": "A shulker hit turns into a fall test",
-          "hard": "Sometimes a ship floats nearby"
+          "easy": "Purpur",
+          "normal": "Shulker",
+          "hard": "Floats"
         }
       }
     }
@@ -4976,25 +4999,25 @@
     "tags": [
       "overworld"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Igloo",
         "aliases": [],
         "hints": {
-          "easy": "Litet snöhus som kan dölja en källare",
-          "normal": "Titta under mattan efter en lucka",
-          "hard": "Ett gyllene äpple väntar vid experimentet"
+          "easy": "Källare",
+          "normal": "Mattan",
+          "hard": "Experimentet"
         }
       },
       "en": {
         "word": "Igloo",
         "aliases": [],
         "hints": {
-          "easy": "Little snow house that can hide a basement",
-          "normal": "Check under the carpet for a trapdoor",
-          "hard": "A golden apple awaits by the experiment"
+          "easy": "Basement",
+          "normal": "Trapdoor",
+          "hard": "Experiment"
         }
       }
     }
@@ -5006,20 +5029,20 @@
     "tags": [
       "overworld"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Djungeltempel",
+        "word": "Jungle Temple",
         "aliases": [
           "Djungelpyramid",
-          "Jungle Temple",
-          "Jungle Pyramid"
+          "Jungle Pyramid",
+          "Djungeltempel"
         ],
         "hints": {
-          "easy": "Mossig stenbyggnad med pilfällor",
-          "normal": "Några spakar styr en dold passage",
-          "hard": "Titta efter en tunn tråd lågt över gången"
+          "easy": "Stenbyggnad",
+          "normal": "Spakar",
+          "hard": "Fälla"
         }
       },
       "en": {
@@ -5028,9 +5051,9 @@
           "Jungle Pyramid"
         ],
         "hints": {
-          "easy": "Mossy stone building with arrow traps",
-          "normal": "A few levers control a hidden passage",
-          "hard": "Watch for a thin line across the corridor"
+          "easy": "Stone",
+          "normal": "Levers",
+          "hard": "Arrows"
         }
       }
     }
@@ -5042,19 +5065,19 @@
     "tags": [
       "underground"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Övergiven gruva",
+        "word": "Abandoned Mineshaft",
         "aliases": [
           "Gruva",
-          "Abandoned Mineshaft"
+          "Övergiven gruva"
         ],
         "hints": {
-          "easy": "Gångar med räls, trästöd och spindelnät",
-          "normal": "En kistvagn står övergiven på spåret",
-          "hard": "Sätt en fackla för att markera hemvägen"
+          "easy": "Spindelnät",
+          "normal": "Kistvagn",
+          "hard": "Hemvägen"
         }
       },
       "en": {
@@ -5063,9 +5086,9 @@
           "Mineshaft"
         ],
         "hints": {
-          "easy": "Passages with rails, wooden supports, and cobwebs",
-          "normal": "A chest cart sits abandoned on the tracks",
-          "hard": "Place a torch to mark the way home"
+          "easy": "Cobwebs",
+          "normal": "Cart",
+          "hard": "Torch"
         }
       }
     }
@@ -5081,24 +5104,24 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Netherfästning",
+        "word": "Nether Fortress",
         "aliases": [
           "Nether-fästning",
-          "Nether Fortress"
+          "Netherfästning"
         ],
         "hints": {
-          "easy": "Mörkröda tegelbroar där blazes håller till",
-          "normal": "Långa gångar ovanför lavan",
-          "hard": "Här kan du hämta början till ett bryggeri"
+          "easy": "Tegelbroar",
+          "normal": "Lava",
+          "hard": "Brygder"
         }
       },
       "en": {
         "word": "Nether Fortress",
         "aliases": [],
         "hints": {
-          "easy": "Dark red brick bridges inhabited by blazes",
-          "normal": "Long walkways over lava",
-          "hard": "Pick up the beginnings of a brewing setup here"
+          "easy": "Bridges",
+          "normal": "Lava",
+          "hard": "Brewing"
         }
       }
     }
@@ -5114,23 +5137,23 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Havsmonument",
+        "word": "Ocean Monument",
         "aliases": [
-          "Ocean Monument"
+          "Havsmonument"
         ],
         "hints": {
-          "easy": "Stort grönt undervattenbygge med taggiga försvarare",
-          "normal": "Hämta svampar bakom prismarinväggarna",
-          "hard": "Hackan känns plötsligt ovanligt trög"
+          "easy": "Prismarin",
+          "normal": "Svampar",
+          "hard": "Gruvtrötthet"
         }
       },
       "en": {
         "word": "Ocean Monument",
         "aliases": [],
         "hints": {
-          "easy": "Big green underwater building with spiky defenders",
-          "normal": "Look for sponges behind prismarine walls",
-          "hard": "Your pickaxe suddenly feels sluggish"
+          "easy": "Prismarine",
+          "normal": "Sponges",
+          "hard": "Fatigue"
         }
       }
     }
@@ -5146,14 +5169,14 @@
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Havsruiner",
+        "word": "Ocean Ruins",
         "aliases": [
-          "Ocean Ruins"
+          "Havsruiner"
         ],
         "hints": {
-          "easy": "Gamla stenbyggnader som oftast ligger under ytan",
-          "normal": "Borsta misstänkta block under dyket",
-          "hard": "I varmt vatten kan du hitta ett urtida ägg"
+          "easy": "Stenbyggnad",
+          "normal": "Arkeologi",
+          "hard": "Skatt"
         }
       },
       "en": {
@@ -5162,9 +5185,9 @@
           "Underwater Ruins"
         ],
         "hints": {
-          "easy": "Old stone buildings usually below the surface",
-          "normal": "Brush suspicious blocks during your dive",
-          "hard": "Warm water may hide a prehistoric egg"
+          "easy": "Stone",
+          "normal": "Archaeology",
+          "hard": "Treasure"
         }
       }
     }
@@ -5176,27 +5199,27 @@
     "tags": [
       "overworld"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Plundrarutpost",
+        "word": "Pillager Outpost",
         "aliases": [
-          "Pillager Outpost"
+          "Plundrarutpost"
         ],
         "hints": {
-          "easy": "Vakttorn fullt av armborstskyttar",
-          "normal": "Något blått kan vänta bakom gallret",
-          "hard": "Sök proviant under taket högst upp"
+          "easy": "Armborst",
+          "normal": "Galler",
+          "hard": "Proviant"
         }
       },
       "en": {
         "word": "Pillager Outpost",
         "aliases": [],
         "hints": {
-          "easy": "Watchtower full of crossbow users",
-          "normal": "Something blue may be waiting behind bars",
-          "hard": "Look for supplies beneath the roof"
+          "easy": "Crossbows",
+          "normal": "Cages",
+          "hard": "Supplies"
         }
       }
     }
@@ -5208,27 +5231,27 @@
     "tags": [
       "nether"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Förstörd portal",
+        "word": "Ruined Portal",
         "aliases": [
-          "Ruined Portal"
+          "Förstörd portal"
         ],
         "hints": {
-          "easy": "Trasig obsidianram till Nether",
-          "normal": "Udda lila droppar bland de svarta blocken",
-          "hard": "Kistan intill kan ha det du behöver för att tända"
+          "easy": "Obsidian",
+          "normal": "Nether",
+          "hard": "Kista"
         }
       },
       "en": {
         "word": "Ruined Portal",
         "aliases": [],
         "hints": {
-          "easy": "Broken obsidian frame leading to the Nether",
-          "normal": "Odd purple drops among the black blocks",
-          "hard": "The nearby chest may have what you need to light it"
+          "easy": "Obsidian",
+          "normal": "Nether",
+          "hard": "Chest"
         }
       }
     }
@@ -5240,27 +5263,27 @@
     "tags": [
       "ocean"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Skeppsvrak",
+        "word": "Shipwreck",
         "aliases": [
-          "Shipwreck"
+          "Skeppsvrak"
         ],
         "hints": {
-          "easy": "Trasigt träfartyg med kistor ombord",
-          "normal": "Leta efter en karta i den gamla hytten",
-          "hard": "Skrovet kan ligga på sidan"
+          "easy": "Träfartyg",
+          "normal": "Hytt",
+          "hard": "Skrov"
         }
       },
       "en": {
         "word": "Shipwreck",
         "aliases": [],
         "hints": {
-          "easy": "Broken wooden vessel with chests aboard",
-          "normal": "Look for a map in the old cabin",
-          "hard": "The hull might lie on its side"
+          "easy": "Deck",
+          "normal": "Cabin",
+          "hard": "Hull"
         }
       }
     }
@@ -5272,27 +5295,27 @@
     "tags": [
       "underground"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Fäste",
+        "word": "Stronghold",
         "aliases": [
-          "Stronghold"
+          "Fäste"
         ],
         "hints": {
-          "easy": "Underjordiskt gångsystem med portalen till End",
-          "normal": "Kasta ett öga för att hitta rätt plats",
-          "hard": "Bokhyllor bakom stenmurar"
+          "easy": "Tunnlar",
+          "normal": "Ögon",
+          "hard": "Bokhyllor"
         }
       },
       "en": {
         "word": "Stronghold",
         "aliases": [],
         "hints": {
-          "easy": "Underground tunnels with the portal to the End",
-          "normal": "Throw an eye to find the right spot",
-          "hard": "Bookshelves behind stone walls"
+          "easy": "Tunnels",
+          "normal": "Eyes",
+          "hard": "Bookshelves"
         }
       }
     }
@@ -5304,20 +5327,20 @@
     "tags": [
       "overworld"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Träskkoja",
+        "word": "Swamp Hut",
         "aliases": [
           "Häxkoja",
-          "Swamp Hut",
-          "Witch Hut"
+          "Witch Hut",
+          "Träskkoja"
         ],
         "hints": {
-          "easy": "Litet hus på pålar med en häxa i",
-          "normal": "En kittel och en katt delar rummet",
-          "hard": "Ta med något att klättra på till dörren"
+          "easy": "Pålar",
+          "normal": "Kittel",
+          "hard": "Häxa"
         }
       },
       "en": {
@@ -5326,9 +5349,9 @@
           "Witch Hut"
         ],
         "hints": {
-          "easy": "Little house on stilts with a witch inside",
-          "normal": "A cauldron and a cat share the room",
-          "hard": "Bring something to climb on to reach the door"
+          "easy": "Stilts",
+          "normal": "Cauldron",
+          "hard": "Witch"
         }
       }
     }
@@ -5349,18 +5372,18 @@
           "Vägruiner"
         ],
         "hints": {
-          "easy": "Begravda husrester av terrakotta och lera",
-          "normal": "Borsta misstänkt grus längs den gamla gatan",
-          "hard": "Börja där ett litet färgat block sticker upp"
+          "easy": "Lera",
+          "normal": "Misstänkt",
+          "hard": "Färgat"
         }
       },
       "en": {
         "word": "Trail Ruins",
         "aliases": [],
         "hints": {
-          "easy": "Buried houses made of terracotta and mud",
-          "normal": "Brush suspicious gravel along the old street",
-          "hard": "Start where a little colored block sticks out"
+          "easy": "Mud",
+          "normal": "Gravel",
+          "hard": "Colored"
         }
       }
     }
@@ -5372,27 +5395,27 @@
     "tags": [
       "underground"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Utmaningskammare",
+        "word": "Trial Chambers",
         "aliases": [
-          "Trial Chambers"
+          "Utmaningskammare"
         ],
         "hints": {
-          "easy": "Kopparkorridorer med stridsvågor och låsta belöningar",
-          "normal": "Kämpa för en nyckel till valvet",
-          "hard": "En ovanlig flaska kan höja insatsen"
+          "easy": "Belöningar",
+          "normal": "Valv",
+          "hard": "Vågor"
         }
       },
       "en": {
         "word": "Trial Chambers",
         "aliases": [],
         "hints": {
-          "easy": "Copper corridors with combat waves and locked rewards",
-          "normal": "Fight for a key to the vault",
-          "hard": "An unusual bottle can raise the stakes"
+          "easy": "Rewards",
+          "normal": "Vault",
+          "hard": "Waves"
         }
       }
     }
@@ -5404,25 +5427,27 @@
     "tags": [
       "overworld"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "By",
-        "aliases": [],
+        "word": "Village",
+        "aliases": [
+          "By"
+        ],
         "hints": {
-          "easy": "Bebyggelse med invånare som handlar",
-          "normal": "Ring i klockan mitt bland husen",
-          "hard": "Ta mat från gården och lämna tillbaka fröna"
+          "easy": "Invånare",
+          "normal": "Klockan",
+          "hard": "Gården"
         }
       },
       "en": {
         "word": "Village",
         "aliases": [],
         "hints": {
-          "easy": "Settlement with residents who trade",
-          "normal": "Ring the bell between the houses",
-          "hard": "Take food from the farm and replant the seeds"
+          "easy": "Settlement",
+          "normal": "Bell",
+          "hard": "Replant"
         }
       }
     }
@@ -5434,27 +5459,27 @@
     "tags": [
       "overworld"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
-        "word": "Skogsherrgård",
+        "word": "Woodland Mansion",
         "aliases": [
-          "Woodland Mansion"
+          "Skogsherrgård"
         ],
         "hints": {
-          "easy": "Stor byggnad i mörk ekskog med fientliga invånare",
-          "normal": "Hitta en frammanare för att få en totem",
-          "hard": "Många rum att gå vilse i bakom fasaden"
+          "easy": "Herrgård",
+          "normal": "Frammanare",
+          "hard": "Fasad"
         }
       },
       "en": {
         "word": "Woodland Mansion",
         "aliases": [],
         "hints": {
-          "easy": "Huge building in dark oak woods with hostile residents",
-          "normal": "Find an evoker to get a totem",
-          "hard": "Plenty of rooms to get lost in behind the facade"
+          "easy": "Estate",
+          "normal": "Evoker",
+          "hard": "Facade"
         }
       }
     }

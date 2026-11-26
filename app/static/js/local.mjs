@@ -46,7 +46,6 @@ export function mountLocal(ctx) {
 
     function saveSettings() {
         storage.set("localSettings", settings);
-        window.dispatchEvent(new Event("imposter:local-settings"));
     }
 
     function renderSetup() {

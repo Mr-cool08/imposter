@@ -6,25 +6,25 @@
     "tags": [
       "road"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Sedan",
         "aliases": [],
         "hints": {
-          "easy": "Personbil med separat bagageutrymme",
-          "normal": "Ett bakluckelock under rutan",
-          "hard": "Tre delar i sidoprofil"
+          "easy": "Bagagelucka",
+          "normal": "Fyrdörrad",
+          "hard": "Kaross"
         }
       },
       "en": {
         "word": "Sedan",
         "aliases": [],
         "hints": {
-          "easy": "Passenger car with a separate trunk",
-          "normal": "The trunk lid sits below the rear window",
-          "hard": "Three boxes in profile"
+          "easy": "Trunk",
+          "normal": "Passengers",
+          "hard": "Bodywork"
         }
       }
     }
@@ -36,7 +36,7 @@
     "tags": [
       "road"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -45,9 +45,9 @@
           "Kombibil"
         ],
         "hints": {
-          "easy": "Personbil där lastgolvet fortsätter bakom baksätet",
-          "normal": "Hundbur bakom nackstöden",
-          "hard": "Taklinjen fortsätter ända bak"
+          "easy": "Lastutrymme",
+          "normal": "Baklucka",
+          "hard": "Familj"
         }
       },
       "en": {
@@ -56,9 +56,9 @@
           "Estate car"
         ],
         "hints": {
-          "easy": "Car with an extended cargo area behind the seats",
-          "normal": "Dog crate behind the headrests",
-          "hard": "The roofline carries all the way back"
+          "easy": "Cargo",
+          "normal": "Tailgate",
+          "hard": "Family"
         }
       }
     }
@@ -79,9 +79,9 @@
           "Cabrio"
         ],
         "hints": {
-          "easy": "Personbil med öppningsbart tak",
-          "normal": "Vinden rufsar till frisyren vid rödljuset",
-          "hard": "Kupén kan kräva solkräm"
+          "easy": "Taklöst",
+          "normal": "Sol",
+          "hard": "Sufflett"
         }
       },
       "en": {
@@ -90,9 +90,9 @@
           "Cabriolet"
         ],
         "hints": {
-          "easy": "Passenger car with a roof that folds away",
-          "normal": "Hair blowing at the traffic lights",
-          "hard": "The cabin might call for sunscreen"
+          "easy": "Roofless",
+          "normal": "Sun",
+          "hard": "Canvas"
         }
       }
     }
@@ -104,25 +104,25 @@
     "tags": [
       "road"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Pickup",
         "aliases": [],
         "hints": {
-          "easy": "Bil med öppet lastflak bakom förarhytten",
-          "normal": "Surrade plankor syns bakifrån",
-          "hard": "Lasten åker utomhus"
+          "easy": "Flak",
+          "normal": "Last",
+          "hard": "Hytt"
         }
       },
       "en": {
         "word": "Pickup truck",
         "aliases": [],
         "hints": {
-          "easy": "Road vehicle with an open bed behind the cab",
-          "normal": "Strapped lumber visible from behind",
-          "hard": "The cargo rides outdoors"
+          "easy": "Bed",
+          "normal": "Payload",
+          "hard": "Cab"
         }
       }
     }
@@ -134,25 +134,25 @@
     "tags": [
       "road"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Limousin",
         "aliases": [],
         "hints": {
-          "easy": "Lång representationsbil med chaufför",
-          "normal": "Sittplatserna kan bilda en soffa",
-          "hard": "Ankomsten hör till upplevelsen"
+          "easy": "Lyxbil",
+          "normal": "Chaufför",
+          "hard": "Förlängd"
         }
       },
       "en": {
         "word": "Limousine",
         "aliases": [],
         "hints": {
-          "easy": "Long luxury car driven by a chauffeur",
-          "normal": "The passenger seats can form a lounge",
-          "hard": "Arriving is part of the experience"
+          "easy": "Luxury",
+          "normal": "Chauffeur",
+          "hard": "Stretched"
         }
       }
     }
@@ -164,25 +164,25 @@
     "tags": [
       "road"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "SUV",
         "aliases": [],
         "hints": {
-          "easy": "Hög personbil ofta med terränginspirerad kaross",
-          "normal": "Kliv upp i förarsätet",
-          "hard": "Hög sittposition på pendlingsvägen"
+          "easy": "Terräng",
+          "normal": "Markfrigång",
+          "hard": "Högbyggd"
         }
       },
       "en": {
         "word": "SUV",
         "aliases": [],
         "hints": {
-          "easy": "Tall passenger car with off-road styling",
-          "normal": "A step up to the driver's seat",
-          "hard": "A high perch on the daily commute"
+          "easy": "Terrain",
+          "normal": "Clearance",
+          "hard": "Tall"
         }
       }
     }
@@ -201,18 +201,18 @@
         "word": "Motoriserad trehjuling",
         "aliases": [],
         "hints": {
-          "easy": "Litet vägfordon med två hjul på den ena axeln och ett på den andra",
-          "normal": "Föraren kan sitta i en liten hytt på vissa modeller",
-          "hard": "Udda antal kontaktpunkter mot vägen"
+          "easy": "Trehjul",
+          "normal": "Motor",
+          "hard": "Stabilitet"
         }
       },
       "en": {
         "word": "Motorized three-wheeler",
         "aliases": [],
         "hints": {
-          "easy": "Small road vehicle with two wheels on one axle and one on the other",
-          "normal": "Some models have a tiny cab",
-          "hard": "An odd number of contact points"
+          "easy": "Wheels",
+          "normal": "Motor",
+          "hard": "Stability"
         }
       }
     }
@@ -224,7 +224,7 @@
     "tags": [
       "road"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -233,9 +233,9 @@
           "Dragspelsbuss"
         ],
         "hints": {
-          "easy": "Stadsfordon med två passagerardelar som kan vinklas mot varandra",
-          "normal": "Gummibälg mitt i gången",
-          "hard": "Man kan gå över en rörlig skarv"
+          "easy": "Dragspel",
+          "normal": "Led",
+          "hard": "Stadstrafik"
         }
       },
       "en": {
@@ -244,9 +244,9 @@
           "Bendy bus"
         ],
         "hints": {
-          "easy": "City transit vehicle with two sections that bend at a joint",
-          "normal": "Rubber bellows halfway down the aisle",
-          "hard": "Passengers can cross a moving seam"
+          "easy": "Accordion",
+          "normal": "Joint",
+          "hard": "Transit"
         }
       }
     }
@@ -258,7 +258,7 @@
     "tags": [
       "road"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -267,9 +267,9 @@
           "Dubbeldäckad buss"
         ],
         "hints": {
-          "easy": "Kollektivfordon med två passagerarvåningar",
-          "normal": "Trappa strax innanför dörren",
-          "hard": "Bästa utsikten är en våning upp"
+          "easy": "Övervåning",
+          "normal": "London",
+          "hard": "Trappa"
         }
       },
       "en": {
@@ -278,9 +278,9 @@
           "Double-decker"
         ],
         "hints": {
-          "easy": "Transit vehicle with two passenger floors",
-          "normal": "A staircase just inside the doors",
-          "hard": "The best view is one floor up"
+          "easy": "Upstairs",
+          "normal": "London",
+          "hard": "Stairway"
         }
       }
     }
@@ -299,18 +299,18 @@
         "word": "Minibuss",
         "aliases": [],
         "hints": {
-          "easy": "Mindre kollektivfordon för en grupp passagerare",
-          "normal": "Hela laget kan åka i samma fordon",
-          "hard": "Många bälten på ett kort chassi"
+          "easy": "Smågrupp",
+          "normal": "Sittplatser",
+          "hard": "Skyttel"
         }
       },
       "en": {
         "word": "Minibus",
         "aliases": [],
         "hints": {
-          "easy": "Compact group vehicle with several passenger rows",
-          "normal": "The whole team can travel together",
-          "hard": "Lots of seat belts on a short chassis"
+          "easy": "Group",
+          "normal": "Seats",
+          "hard": "Shuttle"
         }
       }
     }
@@ -329,9 +329,9 @@
         "word": "Husbil",
         "aliases": [],
         "hints": {
-          "easy": "Självgående semesterfordon med sängar och kök",
-          "normal": "Förarhytten sitter ihop med boendet",
-          "hard": "Efter parkering blir resan ett rum"
+          "easy": "Camping",
+          "normal": "Säng",
+          "hard": "Boende"
         }
       },
       "en": {
@@ -340,9 +340,9 @@
           "Motor home"
         ],
         "hints": {
-          "easy": "Self-powered holiday vehicle with beds and a kitchen",
-          "normal": "The driver's cab connects to the living quarters",
-          "hard": "Parking turns the journey into a room"
+          "easy": "Camping",
+          "normal": "Bed",
+          "hard": "Lodging"
         }
       }
     }
@@ -361,9 +361,9 @@
         "word": "Husvagn",
         "aliases": [],
         "hints": {
-          "easy": "Bogserat semesterboende med sängar och kök",
-          "normal": "Stödbenen vevas ner på campingplatsen",
-          "hard": "Boendet har inget eget förarsäte"
+          "easy": "Släp",
+          "normal": "Camping",
+          "hard": "Dragkrok"
         }
       },
       "en": {
@@ -372,9 +372,9 @@
           "Caravan"
         ],
         "hints": {
-          "easy": "Towable holiday accommodation with beds and a kitchen",
-          "normal": "The stabilizers come down at the campsite",
-          "hard": "The living quarters have no driver's seat"
+          "easy": "Trailer",
+          "normal": "Camping",
+          "hard": "Hitch"
         }
       }
     }
@@ -393,18 +393,18 @@
         "word": "Ambulans",
         "aliases": [],
         "hints": {
-          "easy": "Utryckningsfordon där en patient kan vårdas under färden",
-          "normal": "En bår skjuts in genom bakdörrarna",
-          "hard": "Behandling på väg"
+          "easy": "Akutvård",
+          "normal": "Siren",
+          "hard": "Bår"
         }
       },
       "en": {
         "word": "Ambulance",
         "aliases": [],
         "hints": {
-          "easy": "Emergency vehicle equipped to care for a patient in transit",
-          "normal": "A stretcher slides in through the back doors",
-          "hard": "Treatment on the move"
+          "easy": "Emergency",
+          "normal": "Siren",
+          "hard": "Stretcher"
         }
       }
     }
@@ -423,9 +423,9 @@
         "word": "Brandbil",
         "aliases": [],
         "hints": {
-          "easy": "Utryckningsfordon med slangar och pump",
-          "normal": "Skåpdörrar med kopplingar och munstycken",
-          "hard": "Arbetsplatsen börjar där röken syns"
+          "easy": "Släckning",
+          "normal": "Slang",
+          "hard": "Stege"
         }
       },
       "en": {
@@ -434,9 +434,9 @@
           "Fire truck"
         ],
         "hints": {
-          "easy": "Emergency vehicle carrying hoses and a pump",
-          "normal": "Cabinets full of fittings and nozzles",
-          "hard": "The job begins where smoke is visible"
+          "easy": "Firefighting",
+          "normal": "Hose",
+          "hard": "Ladder"
         }
       }
     }
@@ -455,9 +455,9 @@
         "word": "Sopbil",
         "aliases": [],
         "hints": {
-          "easy": "Fordon som tömmer hushållens avfallskärl",
-          "normal": "Kärlet lyfts upp och vänds",
-          "hard": "Rutten hörs tidigt på morgonen"
+          "easy": "Avfall",
+          "normal": "Sopkärl",
+          "hard": "Komprimering"
         }
       },
       "en": {
@@ -466,9 +466,9 @@
           "Refuse truck"
         ],
         "hints": {
-          "easy": "Vehicle that empties households' waste containers",
-          "normal": "A bin tips upside down",
-          "hard": "You can hear the route early in the morning"
+          "easy": "Waste",
+          "normal": "Bins",
+          "hard": "Compaction"
         }
       }
     }
@@ -487,18 +487,18 @@
         "word": "Bärgningsbil",
         "aliases": [],
         "hints": {
-          "easy": "Rycker ut när ett trasigt fordon behöver flyttas",
-          "normal": "Vinschen får upp bilen på flaket",
-          "hard": "Samtalet efter motorstoppet"
+          "easy": "Bärgning",
+          "normal": "Vinsch",
+          "hard": "Haveri"
         }
       },
       "en": {
         "word": "Tow truck",
         "aliases": [],
         "hints": {
-          "easy": "Vehicle that retrieves broken-down or stuck cars",
-          "normal": "A winch pulls a car onto the deck",
-          "hard": "The call after the engine gives out"
+          "easy": "Recovery",
+          "normal": "Winch",
+          "hard": "Breakdown"
         }
       }
     }
@@ -517,18 +517,18 @@
         "word": "Likbil",
         "aliases": [],
         "hints": {
-          "easy": "Lång bil som transporterar en kista vid begravning",
-          "normal": "Stora sidofönster längs lastutrymmet",
-          "hard": "En långsam färd i procession"
+          "easy": "Kista",
+          "normal": "Begravning",
+          "hard": "Procession"
         }
       },
       "en": {
         "word": "Hearse",
         "aliases": [],
         "hints": {
-          "easy": "Long car that carries a coffin at a funeral",
-          "normal": "Large side windows along the rear compartment",
-          "hard": "A slow journey in procession"
+          "easy": "Coffin",
+          "normal": "Funeral",
+          "hard": "Procession"
         }
       }
     }
@@ -540,25 +540,25 @@
     "tags": [
       "road"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Betongbil",
         "aliases": [],
         "hints": {
-          "easy": "Lastfordon som håller färsk gjutmassa i rörelse",
-          "normal": "En stor trumma snurrar på vägen",
-          "hard": "Leveransen får inte hinna stelna"
+          "easy": "Betong",
+          "normal": "Trumma",
+          "hard": "Rotation"
         }
       },
       "en": {
         "word": "Concrete mixer truck",
         "aliases": [],
         "hints": {
-          "easy": "Truck that keeps fresh construction mix moving",
-          "normal": "A large drum turns on the road",
-          "hard": "The delivery must arrive before it sets"
+          "easy": "Concrete",
+          "normal": "Drum",
+          "hard": "Rotation"
         }
       }
     }
@@ -577,18 +577,18 @@
         "word": "Tankbil",
         "aliases": [],
         "hints": {
-          "easy": "Lastfordon som fraktar stora mängder vätska",
-          "normal": "En lång rund behållare ersätter lastskåpet",
-          "hard": "Lasten kan skvalpa vid inbromsning"
+          "easy": "Vätska",
+          "normal": "Cistern",
+          "hard": "Bränsle"
         }
       },
       "en": {
         "word": "Tanker truck",
         "aliases": [],
         "hints": {
-          "easy": "Road hauler for large quantities of liquid",
-          "normal": "A long rounded vessel replaces the cargo box",
-          "hard": "The load can slosh under braking"
+          "easy": "Liquid",
+          "normal": "Cistern",
+          "hard": "Fuel"
         }
       }
     }
@@ -609,18 +609,18 @@
           "Sopmaskin"
         ],
         "hints": {
-          "easy": "Fordon som borstar och suger upp skräp från vägbanan",
-          "normal": "Runda borstar ute vid trottoarkanten",
-          "hard": "Lämnar en ren remsa efter sig"
+          "easy": "Borstar",
+          "normal": "Trottoar",
+          "hard": "Damm"
         }
       },
       "en": {
         "word": "Street sweeper",
         "aliases": [],
         "hints": {
-          "easy": "Vehicle that brushes and vacuums debris from pavement",
-          "normal": "Round brushes by the curb",
-          "hard": "It leaves a clean stripe behind"
+          "easy": "Brushes",
+          "normal": "Curb",
+          "hard": "Dust"
         }
       }
     }
@@ -639,18 +639,18 @@
         "word": "Plogbil",
         "aliases": [],
         "hints": {
-          "easy": "Vägfordon med blad som röjer nysnö",
-          "normal": "En vit vall växer vid vägkanten",
-          "hard": "Kör gärna före rusningen"
+          "easy": "Snöröjning",
+          "normal": "Plogblad",
+          "hard": "Vinter"
         }
       },
       "en": {
         "word": "Snowplow",
         "aliases": [],
         "hints": {
-          "easy": "Road vehicle with a blade that clears fresh snow",
-          "normal": "A white bank grows at the roadside",
-          "hard": "Often out ahead of rush hour"
+          "easy": "Clearing",
+          "normal": "Blade",
+          "hard": "Winter"
         }
       }
     }
@@ -669,18 +669,18 @@
         "word": "Moped",
         "aliases": [],
         "hints": {
-          "easy": "Lätt motoriserad tvåhjuling med begränsad toppfart",
-          "normal": "Hjälm på vägen till skolan",
-          "hard": "Hastigheten räcker gott på villagator"
+          "easy": "Tvåhjul",
+          "normal": "Hastighetsgräns",
+          "hard": "Hjälm"
         }
       },
       "en": {
         "word": "Moped",
         "aliases": [],
         "hints": {
-          "easy": "Light motorized two-wheeler with a limited top speed",
-          "normal": "Helmet on the way to school",
-          "hard": "Built for speeds below highway traffic"
+          "easy": "Wheels",
+          "normal": "Speed",
+          "hard": "Helmet"
         }
       }
     }
@@ -701,9 +701,9 @@
           "Cykelrickshaw"
         ],
         "hints": {
-          "easy": "Trehjulig trampdriven taxi",
-          "normal": "Föraren trampar framför passagerarbänken",
-          "hard": "En kort stadstur utan motor"
+          "easy": "Trampa",
+          "normal": "Passagerare",
+          "hard": "Sightseeing"
         }
       },
       "en": {
@@ -712,9 +712,9 @@
           "Cycle rickshaw"
         ],
         "hints": {
-          "easy": "Three-wheeled taxi powered by pedaling",
-          "normal": "The driver pedals in front of the passenger bench",
-          "hard": "A short city ride without an engine"
+          "easy": "Pedal",
+          "normal": "Passenger",
+          "hard": "Sightseeing"
         }
       }
     }
@@ -733,9 +733,9 @@
         "word": "Fyrhjuling",
         "aliases": [],
         "hints": {
-          "easy": "Litet terrängfordon med grensäte och fyra grova däck",
-          "normal": "Motorcykelstyre över en stadig hjulbas",
-          "hard": "Smala stigar passar bättre än asfalt"
+          "easy": "Terräng",
+          "normal": "Fyrhjulsdrift",
+          "hard": "Sadel"
         }
       },
       "en": {
@@ -744,9 +744,9 @@
           "Quad bike"
         ],
         "hints": {
-          "easy": "Small off-road vehicle with a straddle seat and four chunky tires",
-          "normal": "Motorcycle-style handlebars over a stable base",
-          "hard": "Narrow trails suit it better than pavement"
+          "easy": "Terrain",
+          "normal": "Traction",
+          "hard": "Saddle"
         }
       }
     }
@@ -758,16 +758,16 @@
     "tags": [
       "road"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Tippbil",
         "aliases": [],
         "hints": {
-          "easy": "Lastfordon med flak som lyfts för att tömma lasten",
-          "normal": "Gruset glider ut bakåt",
-          "hard": "Lossningen tar hjälp av tyngdkraften"
+          "easy": "Lastflak",
+          "normal": "Tömning",
+          "hard": "Hydraulik"
         }
       },
       "en": {
@@ -776,9 +776,9 @@
           "Tipper truck"
         ],
         "hints": {
-          "easy": "Truck with a bed that lifts to empty its load",
-          "normal": "Gravel slides out behind",
-          "hard": "Gravity does the unloading"
+          "easy": "Bed",
+          "normal": "Unloading",
+          "hard": "Hydraulics"
         }
       }
     }
@@ -797,18 +797,18 @@
         "word": "Segelbåt",
         "aliases": [],
         "hints": {
-          "easy": "Fritidsfarkost som huvudsakligen drivs av vinden",
-          "normal": "Mast och duk ovanför sittbrunnen",
-          "hard": "Färden vänder i sicksack mot vinden"
+          "easy": "Vind",
+          "normal": "Mast",
+          "hard": "Kryssning"
         }
       },
       "en": {
         "word": "Sailboat",
         "aliases": [],
         "hints": {
-          "easy": "Leisure craft powered mainly by the wind",
-          "normal": "A mast and canvas above the cockpit",
-          "hard": "Progress upwind follows a zigzag"
+          "easy": "Wind",
+          "normal": "Mast",
+          "hard": "Tacking"
         }
       }
     }
@@ -827,18 +827,18 @@
         "word": "Roddbåt",
         "aliases": [],
         "hints": {
-          "easy": "Liten farkost där man drar två åror genom vattnet",
-          "normal": "Årorna vilar i varsin klyka",
-          "hard": "Man kan färdas med ryggen först"
+          "easy": "Åror",
+          "normal": "Sjö",
+          "hard": "Årtullar"
         }
       },
       "en": {
         "word": "Rowboat",
         "aliases": [],
         "hints": {
-          "easy": "Small craft moved with a pair of oars",
-          "normal": "An oar rests in a fitting on each side",
-          "hard": "You can travel with your back to the destination"
+          "easy": "Oars",
+          "normal": "Lake",
+          "hard": "Oarlocks"
         }
       }
     }
@@ -850,7 +850,7 @@
     "tags": [
       "water"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -860,9 +860,9 @@
           "Canadensare"
         ],
         "hints": {
-          "easy": "Öppen smal paddelfarkost som ofta har två sittplatser",
-          "normal": "Paddeln har vanligen ett blad",
-          "hard": "Packningen ligger mellan sittplatserna"
+          "easy": "Paddel",
+          "normal": "Öppen",
+          "hard": "Knästående"
         }
       },
       "en": {
@@ -871,9 +871,9 @@
           "Canoe"
         ],
         "hints": {
-          "easy": "Open narrow paddle craft often fitted with two seats",
-          "normal": "The paddle usually has a single blade",
-          "hard": "The gear sits between the seats"
+          "easy": "Paddle",
+          "normal": "Open",
+          "hard": "Kneeling"
         }
       }
     }
@@ -885,25 +885,25 @@
     "tags": [
       "water"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Kajak",
         "aliases": [],
         "hints": {
-          "easy": "Låg paddelfarkost som ofta har täckt däck och sittbrunn",
-          "normal": "Paddelblad i båda ändar",
-          "hard": "Vattenlinjen är nära sittpositionen"
+          "easy": "Paddling",
+          "normal": "Sittbrunn",
+          "hard": "Eskimåsväng"
         }
       },
       "en": {
         "word": "Kayak",
         "aliases": [],
         "hints": {
-          "easy": "Low paddle craft often built with a covered deck and cockpit",
-          "normal": "A paddle blade on both ends",
-          "hard": "The waterline is close to the seat"
+          "easy": "Paddling",
+          "normal": "Cockpit",
+          "hard": "Roll"
         }
       }
     }
@@ -922,18 +922,18 @@
         "word": "Färja",
         "aliases": [],
         "hints": {
-          "easy": "Fartyg som trafikerar en fast rutt över vatten",
-          "normal": "Bilar kan rulla ombord via en ramp",
-          "hard": "Överfarten står i tidtabellen"
+          "easy": "Överfart",
+          "normal": "Passagerare",
+          "hard": "Tidtabell"
         }
       },
       "en": {
         "word": "Ferry",
         "aliases": [],
         "hints": {
-          "easy": "Vessel that runs an established route across water",
-          "normal": "Cars can roll aboard via a ramp",
-          "hard": "The crossing has a timetable"
+          "easy": "Crossing",
+          "normal": "Passengers",
+          "hard": "Timetable"
         }
       }
     }
@@ -952,18 +952,18 @@
         "word": "Oceangående linjefartyg",
         "aliases": [],
         "hints": {
-          "easy": "Stort passagerarfartyg byggt för linjetrafik över oceaner",
-          "normal": "Hytter för flera nätter på havet",
-          "hard": "Att komma fram enligt plan är poängen"
+          "easy": "Atlant",
+          "normal": "Passagerare",
+          "hard": "Linjetrafik"
         }
       },
       "en": {
         "word": "Ocean liner",
         "aliases": [],
         "hints": {
-          "easy": "Large passenger ship built for scheduled ocean crossings",
-          "normal": "Cabins for several nights at sea",
-          "hard": "Arriving on schedule is the point"
+          "easy": "Atlantic",
+          "normal": "Passengers",
+          "hard": "Routes"
         }
       }
     }
@@ -975,25 +975,25 @@
     "tags": [
       "water"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Containerfartyg",
         "aliases": [],
         "hints": {
-          "easy": "Fraktfartyg som tar standardiserade lastlådor",
-          "normal": "Färgade metallboxar staplas på däck",
-          "hard": "Varje lastplats har en bestämd adress"
+          "easy": "Last",
+          "normal": "Staplar",
+          "hard": "Hamn"
         }
       },
       "en": {
         "word": "Container ship",
         "aliases": [],
         "hints": {
-          "easy": "Cargo vessel built for standardized freight boxes",
-          "normal": "Colored steel boxes stacked on deck",
-          "hard": "Every slot has a specific address"
+          "easy": "Cargo",
+          "normal": "Stacks",
+          "hard": "Port"
         }
       }
     }
@@ -1005,7 +1005,7 @@
     "tags": [
       "water"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1014,9 +1014,9 @@
           "Ro-ro-fartyg"
         ],
         "hints": {
-          "easy": "Fraktfartyg där lastade fordon kör på och av",
-          "normal": "Lastdäcket nås genom en ramp",
-          "hard": "Frakten kommer ombord på egna hjul"
+          "easy": "Bilfärja",
+          "normal": "Ramp",
+          "hard": "Hjullast"
         }
       },
       "en": {
@@ -1025,9 +1025,9 @@
           "Ro-ro ship"
         ],
         "hints": {
-          "easy": "Cargo ship designed for vehicles to drive aboard and off again",
-          "normal": "A ramp opens onto the cargo deck",
-          "hard": "The freight comes aboard on its own wheels"
+          "easy": "Ferry",
+          "normal": "Ramp",
+          "hard": "Wheels"
         }
       }
     }
@@ -1046,18 +1046,18 @@
         "word": "Oljetanker",
         "aliases": [],
         "hints": {
-          "easy": "Fartyg som fraktar stora mängder petroleum i slutna utrymmen",
-          "normal": "Rör och ventiler löper över däcket",
-          "hard": "I hamnen lossas lasten med pumpar"
+          "easy": "Råolja",
+          "normal": "Sjötransport",
+          "hard": "Skrov"
         }
       },
       "en": {
         "word": "Oil tanker",
         "aliases": [],
         "hints": {
-          "easy": "Ship that carries petroleum in large sealed compartments",
-          "normal": "Pipes and valves run across the deck",
-          "hard": "Pumps do the unloading in port"
+          "easy": "Petroleum",
+          "normal": "Shipping",
+          "hard": "Hull"
         }
       }
     }
@@ -1069,25 +1069,25 @@
     "tags": [
       "water"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Bulkfartyg",
         "aliases": [],
         "hints": {
-          "easy": "Fraktfartyg för löst gods som kol, spannmål eller malm",
-          "normal": "Stora luckor öppnar djupa lastrum",
-          "hard": "Lossningen skopar eller suger upp lasten"
+          "easy": "Spannmål",
+          "normal": "Lastlucka",
+          "hard": "Lossning"
         }
       },
       "en": {
         "word": "Bulk carrier",
         "aliases": [],
         "hints": {
-          "easy": "Freighter for loose cargo such as coal, grain, or ore",
-          "normal": "Large hatches open into deep holds",
-          "hard": "The cargo is scooped or sucked out"
+          "easy": "Grain",
+          "normal": "Hatch",
+          "hard": "Unloading"
         }
       }
     }
@@ -1099,25 +1099,25 @@
     "tags": [
       "water"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Bogserbåt",
         "aliases": [],
         "hints": {
-          "easy": "Stark liten farkost som flyttar stora fartyg i hamn",
-          "normal": "En grov lina fästs till det stora fartyget",
-          "hard": "Råstyrka i låg fart"
+          "easy": "Bogsering",
+          "normal": "Hamn",
+          "hard": "Dragkraft"
         }
       },
       "en": {
         "word": "Tugboat",
         "aliases": [],
         "hints": {
-          "easy": "Small powerful vessel that maneuvers larger ships in port",
-          "normal": "A thick line connects it to a much bigger hull",
-          "hard": "Brute strength at low speed"
+          "easy": "Towing",
+          "normal": "Harbor",
+          "hard": "Pull"
         }
       }
     }
@@ -1129,25 +1129,25 @@
     "tags": [
       "water"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Isbrytare",
         "aliases": [],
         "hints": {
-          "easy": "Fartyg som öppnar farleder i fruset vatten",
-          "normal": "Den kraftiga fören pressar sönder underlaget",
-          "hard": "Andra fartyg följer i spåret"
+          "easy": "Is",
+          "normal": "Polarvatten",
+          "hard": "Förstärkt"
         }
       },
       "en": {
         "word": "Icebreaker",
         "aliases": [],
         "hints": {
-          "easy": "Ship that opens navigation routes through frozen water",
-          "normal": "A reinforced bow crushes the surface",
-          "hard": "Other ships follow in its track"
+          "easy": "Ice",
+          "normal": "Arctic",
+          "hard": "Reinforced"
         }
       }
     }
@@ -1159,25 +1159,25 @@
     "tags": [
       "water"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Mudderverk",
         "aliases": [],
         "hints": {
-          "easy": "Flytande maskin som tar upp material från bottnen",
-          "normal": "Lera och sand flyttas för att fördjupa leden",
-          "hard": "Arbetet syns mest på djupmätningen"
+          "easy": "Muddring",
+          "normal": "Bottensediment",
+          "hard": "Farled"
         }
       },
       "en": {
         "word": "Dredger",
         "aliases": [],
         "hints": {
-          "easy": "Floating machine that removes material from the bed",
-          "normal": "Silt and sand are moved to deepen a channel",
-          "hard": "The change is clearest on the depth chart"
+          "easy": "Dredging",
+          "normal": "Sediment",
+          "hard": "Channel"
         }
       }
     }
@@ -1196,18 +1196,18 @@
         "word": "Trålare",
         "aliases": [],
         "hints": {
-          "easy": "Fiskefartyg som drar ett stort nät genom vattnet",
-          "normal": "Vinschar tar hem fångstredskapet",
-          "hard": "Nätets öppning hålls isär under draget"
+          "easy": "Fiske",
+          "normal": "Nät",
+          "hard": "Släpdragning"
         }
       },
       "en": {
         "word": "Trawler",
         "aliases": [],
         "hints": {
-          "easy": "Fishing vessel that tows a large net through water",
-          "normal": "Winches haul in the fishing gear",
-          "hard": "The net opening is held apart during the tow"
+          "easy": "Fishing",
+          "normal": "Net",
+          "hard": "Towing"
         }
       }
     }
@@ -1219,25 +1219,25 @@
     "tags": [
       "water"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Livbåt",
         "aliases": [],
         "hints": {
-          "easy": "Liten reservfarkost för evakuering från ett fartyg",
-          "normal": "Sjömän övar ombordstigning före en nödsituation",
-          "hard": "På stora fartyg hänger den ofta redo utanför relingen"
+          "easy": "Sjöräddning",
+          "normal": "Evakuering",
+          "hard": "Dävert"
         }
       },
       "en": {
         "word": "Lifeboat",
         "aliases": [],
         "hints": {
-          "easy": "Small emergency craft for evacuating a ship",
-          "normal": "Crew practice boarding before an emergency",
-          "hard": "On big ships it often hangs ready beyond the rail"
+          "easy": "Rescue",
+          "normal": "Evacuation",
+          "hard": "Davit"
         }
       }
     }
@@ -1256,18 +1256,18 @@
         "word": "Ubåt",
         "aliases": [],
         "hints": {
-          "easy": "Fartyg som kan navigera helt under vattenytan",
-          "normal": "Barlasttankar hjälper till att styra djupet",
-          "hard": "Horisonten kan ses genom ett periskop"
+          "easy": "Undervatten",
+          "normal": "Periskop",
+          "hard": "Dykning"
         }
       },
       "en": {
         "word": "Submarine",
         "aliases": [],
         "hints": {
-          "easy": "Vessel able to navigate entirely beneath the surface",
-          "normal": "Ballast tanks help control its depth",
-          "hard": "A periscope can bring the horizon into view"
+          "easy": "Underwater",
+          "normal": "Periscope",
+          "hard": "Diving"
         }
       }
     }
@@ -1286,9 +1286,9 @@
         "word": "Djuphavsfarkost",
         "aliases": [],
         "hints": {
-          "easy": "Liten specialfarkost för arbete långt under havsytan",
-          "normal": "En stödfarkost väntar ofta vid ytan",
-          "hard": "Strålkastare ersätter solljuset"
+          "easy": "Havsbotten",
+          "normal": "Tryckskrov",
+          "hard": "Provtagning"
         }
       },
       "en": {
@@ -1297,9 +1297,9 @@
           "Deep-diving submersible"
         ],
         "hints": {
-          "easy": "Small specialized craft for work far beneath the ocean surface",
-          "normal": "A support vessel often waits at the surface",
-          "hard": "Floodlights take over from sunlight"
+          "easy": "Seabed",
+          "normal": "Pressure",
+          "hard": "Sampling"
         }
       }
     }
@@ -1320,9 +1320,9 @@
           "Skovelhjulsångare"
         ],
         "hints": {
-          "easy": "Ångdriven båt som skjuter fart med skovelhjul",
-          "normal": "Stora hjul slår regelbundet i vattenytan",
-          "hard": "Gamla flodlinjer hade ett särskilt plask"
+          "easy": "Skovelhjul",
+          "normal": "Ånga",
+          "hard": "Flod"
         }
       },
       "en": {
@@ -1331,9 +1331,9 @@
           "Paddlewheel steamer"
         ],
         "hints": {
-          "easy": "Steam-powered boat propelled by wheels fitted with paddles",
-          "normal": "Large wheels strike the surface at regular intervals",
-          "hard": "Historic river routes had a distinctive splash"
+          "easy": "Paddle",
+          "normal": "Steam",
+          "hard": "River"
         }
       }
     }
@@ -1352,18 +1352,18 @@
         "word": "Svävare",
         "aliases": [],
         "hints": {
-          "easy": "Farkost som glider över land eller vatten på en luftkudde",
-          "normal": "En flexibel kjol håller kvar luften under skrovet",
-          "hard": "Strandkanten behöver ingen ramp"
+          "easy": "Luftkudde",
+          "normal": "Kjol",
+          "hard": "Svävning"
         }
       },
       "en": {
         "word": "Hovercraft",
         "aliases": [],
         "hints": {
-          "easy": "Craft that skims over land or water on a cushion of air",
-          "normal": "A flexible skirt holds air beneath the hull",
-          "hard": "The shoreline needs no ramp"
+          "easy": "Cushion",
+          "normal": "Skirt",
+          "hard": "Gliding"
         }
       }
     }
@@ -1375,25 +1375,25 @@
     "tags": [
       "water"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Bärplansbåt",
         "aliases": [],
         "hints": {
-          "easy": "Farkost vars skrov lyfts av vingar under vattenytan",
-          "normal": "Smala stag förbinder den upplyfta båten med de nedsänkta profilerna",
-          "hard": "När farten ökar blir det mindre skrov i vattnet"
+          "easy": "Vattenvingar",
+          "normal": "Lyftkraft",
+          "hard": "Motstånd"
         }
       },
       "en": {
         "word": "Hydrofoil",
         "aliases": [],
         "hints": {
-          "easy": "Craft whose hull is lifted by underwater wings",
-          "normal": "Slim struts link the raised hull to submerged surfaces",
-          "hard": "More speed puts less hull in the water"
+          "easy": "Foils",
+          "normal": "Lift",
+          "hard": "Drag"
         }
       }
     }
@@ -1412,18 +1412,18 @@
         "word": "Stakbåt",
         "aliases": [],
         "hints": {
-          "easy": "Lång flatbottnad farkost som drivs med en stång mot bottnen",
-          "normal": "Föraren kan stå vid ena änden",
-          "hard": "En grund kanal är idealisk"
+          "easy": "Stakning",
+          "normal": "Flatbottnad",
+          "hard": "Cambridge"
         }
       },
       "en": {
         "word": "Punt",
         "aliases": [],
         "hints": {
-          "easy": "Long flat-bottomed craft propelled with a pole against the bed",
-          "normal": "The operator may stand at one end",
-          "hard": "A shallow channel is ideal"
+          "easy": "Poling",
+          "normal": "Flat",
+          "hard": "Cambridge"
         }
       }
     }
@@ -1442,18 +1442,18 @@
         "word": "Pråm",
         "aliases": [],
         "hints": {
-          "easy": "Flatbottnad lastfarkost som ofta skjuts eller dras av en annan båt",
-          "normal": "Mycket last ryms trots litet djupgående",
-          "hard": "En trogen gäst på lugna kanaler"
+          "easy": "Last",
+          "normal": "Kanal",
+          "hard": "Bogseras"
         }
       },
       "en": {
         "word": "Barge",
         "aliases": [],
         "hints": {
-          "easy": "Flat-bottomed freight vessel often pushed or pulled by another boat",
-          "normal": "A large payload fits on a shallow draft",
-          "hard": "A regular sight on calm canals"
+          "easy": "Cargo",
+          "normal": "Canal",
+          "hard": "Towed"
         }
       }
     }
@@ -1472,18 +1472,18 @@
         "word": "Pontonbåt",
         "aliases": [],
         "hints": {
-          "easy": "Mindre farkost där ett brett däck bärs upp av parallella flytkroppar",
-          "normal": "Sittgrupper får plats på en plan yta",
-          "hard": "Vikten bärs upp långt utanför mittlinjen"
+          "easy": "Flytelement",
+          "normal": "Soldäck",
+          "hard": "Stabil"
         }
       },
       "en": {
         "word": "Pontoon boat",
         "aliases": [],
         "hints": {
-          "easy": "Small craft with a broad deck supported by parallel flotation tubes",
-          "normal": "Lounge seats fit on the flat platform",
-          "hard": "Buoyancy sits well out from the centerline"
+          "easy": "Floats",
+          "normal": "Deck",
+          "hard": "Stable"
         }
       }
     }
@@ -1502,18 +1502,18 @@
         "word": "Utriggarkanot",
         "aliases": [],
         "hints": {
-          "easy": "Smal paddelfarkost som stabiliseras av en flottör på en bom",
-          "normal": "Tvärarmar går ut från huvudskrovet",
-          "hard": "Balansen finns en bit ut åt sidan"
+          "easy": "Sidoflottör",
+          "normal": "Paddling",
+          "hard": "Balans"
         }
       },
       "en": {
         "word": "Outrigger canoe",
         "aliases": [],
         "hints": {
-          "easy": "Narrow paddle craft steadied by a float on a projecting arm",
-          "normal": "Crossbeams extend from the main hull",
-          "hard": "Its balance comes from off to the side"
+          "easy": "Float",
+          "normal": "Paddling",
+          "hard": "Balance"
         }
       }
     }
@@ -1532,9 +1532,9 @@
         "word": "Gummibåt",
         "aliases": [],
         "hints": {
-          "easy": "Liten farkost som får formen av luftfyllda tuber",
-          "normal": "Den handburna pumpen gör skrovet styvt",
-          "hard": "Kan bli mycket mindre när luften släpps ut"
+          "easy": "Pump",
+          "normal": "Gummi",
+          "hard": "Reservfarkost"
         }
       },
       "en": {
@@ -1543,9 +1543,9 @@
           "Inflatable dinghy"
         ],
         "hints": {
-          "easy": "Small craft shaped by air-filled tubes",
-          "normal": "A portable pump stiffens the hull",
-          "hard": "It shrinks dramatically when deflated"
+          "easy": "Pump",
+          "normal": "Rubber",
+          "hard": "Tender"
         }
       }
     }
@@ -1564,18 +1564,18 @@
         "word": "Helikopter",
         "aliases": [],
         "hints": {
-          "easy": "Vinglös luftfarkost som lyfter med drivna rotorblad",
-          "normal": "Smatter hörs långt innan landningen",
-          "hard": "Kan stanna i luften rakt över en punkt"
+          "easy": "Rotor",
+          "normal": "Vertikalt",
+          "hard": "Hovra"
         }
       },
       "en": {
         "word": "Helicopter",
         "aliases": [],
         "hints": {
-          "easy": "Wingless aircraft that lifts on powered rotating blades",
-          "normal": "A chopping sound comes well before touchdown",
-          "hard": "It can hover directly over one spot"
+          "easy": "Rotor",
+          "normal": "Vertical",
+          "hard": "Hover"
         }
       }
     }
@@ -1596,9 +1596,9 @@
           "Trafikflygplan"
         ],
         "hints": {
-          "easy": "Flygplan som transporterar resenärer i reguljärtrafik",
-          "normal": "Kabinen har numrerade sätesrader",
-          "hard": "En bricka fälls ner när det är dags att äta"
+          "easy": "Passagerare",
+          "normal": "Flygplats",
+          "hard": "Kabin"
         }
       },
       "en": {
@@ -1607,9 +1607,9 @@
           "Passenger airliner"
         ],
         "hints": {
-          "easy": "Aircraft that carries travelers on commercial routes",
-          "normal": "The cabin has numbered seating rows",
-          "hard": "A tray folds down when food arrives"
+          "easy": "Passengers",
+          "normal": "Airport",
+          "hard": "Cabin"
         }
       }
     }
@@ -1621,7 +1621,7 @@
     "tags": [
       "air"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1630,9 +1630,9 @@
           "Fraktplan"
         ],
         "hints": {
-          "easy": "Luftfarkost byggd för att leverera gods i stället för resenärer",
-          "normal": "Pallar fästs vid skenor i golvet",
-          "hard": "Lastlistan ersätter passagerarlistan"
+          "easy": "Gods",
+          "normal": "Lastlucka",
+          "hard": "Pallar"
         }
       },
       "en": {
@@ -1641,9 +1641,9 @@
           "Cargo plane"
         ],
         "hints": {
-          "easy": "Aircraft built to deliver freight instead of passengers",
-          "normal": "Pallets lock into tracks in the floor",
-          "hard": "A cargo manifest takes the place of the passenger list"
+          "easy": "Freight",
+          "normal": "Hatch",
+          "hard": "Pallets"
         }
       }
     }
@@ -1655,25 +1655,25 @@
     "tags": [
       "air"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Affärsjet",
         "aliases": [],
         "hints": {
-          "easy": "Litet snabbflyg för en privat grupp med egna restider",
-          "normal": "En handfull stolar kring fällbara bord",
-          "hard": "Avgångstiden kan följa mötets slut"
+          "easy": "Privat",
+          "normal": "Direktflyg",
+          "hard": "Tjänsteresa"
         }
       },
       "en": {
         "word": "Business jet",
         "aliases": [],
         "hints": {
-          "easy": "Small fast aircraft chartered by private groups",
-          "normal": "A handful of seats near folding tables",
-          "hard": "Departure can wait until the meeting ends"
+          "easy": "Private",
+          "normal": "Direct",
+          "hard": "Executive"
         }
       }
     }
@@ -1685,7 +1685,7 @@
     "tags": [
       "air"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1694,9 +1694,9 @@
           "Segelplan"
         ],
         "hints": {
-          "easy": "Flygplan som håller sig uppe utan egen motor under flygningen",
-          "normal": "Letar lyft där varm luft stiger",
-          "hard": "Första höjden kan komma från en lina"
+          "easy": "Motorlöst",
+          "normal": "Termik",
+          "hard": "Bogsering"
         }
       },
       "en": {
@@ -1705,9 +1705,9 @@
           "Sailplane"
         ],
         "hints": {
-          "easy": "Aircraft that stays aloft without using an onboard engine",
-          "normal": "It looks for lift where warm air rises",
-          "hard": "The first climb can come from a tow line"
+          "easy": "Unpowered",
+          "normal": "Thermals",
+          "hard": "Towing"
         }
       }
     }
@@ -1726,18 +1726,18 @@
         "word": "Varmluftsballong",
         "aliases": [],
         "hints": {
-          "easy": "Färgglatt hölje som stiger när luften inuti värms",
-          "normal": "En brännare dånar över korgen",
-          "hard": "Rutten bestäms i stort av vinden"
+          "easy": "Brännare",
+          "normal": "Korg",
+          "hard": "Lyftkraft"
         }
       },
       "en": {
         "word": "Hot-air balloon",
         "aliases": [],
         "hints": {
-          "easy": "Colorful envelope that rises as the air inside is heated",
-          "normal": "A burner roars above the basket",
-          "hard": "The wind mostly decides the route"
+          "easy": "Burner",
+          "normal": "Basket",
+          "hard": "Buoyancy"
         }
       }
     }
@@ -1749,16 +1749,16 @@
     "tags": [
       "air"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Luftskepp",
         "aliases": [],
         "hints": {
-          "easy": "Styrbar luftfarkost som bärs upp av en gas lättare än luft",
-          "normal": "En lång kropp svävar över en liten gondol",
-          "hard": "Kan kryssa under egen kraft ovanför publiken"
+          "easy": "Zeppelin",
+          "normal": "Helium",
+          "hard": "Gondol"
         }
       },
       "en": {
@@ -1767,9 +1767,9 @@
           "Dirigible"
         ],
         "hints": {
-          "easy": "Steerable aircraft supported by a gas lighter than air",
-          "normal": "An elongated body floats above a small gondola",
-          "hard": "It can cruise under its own power over a crowd"
+          "easy": "Zeppelin",
+          "normal": "Helium",
+          "hard": "Gondola"
         }
       }
     }
@@ -1781,25 +1781,25 @@
     "tags": [
       "air"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Väderballong",
         "aliases": [],
         "hints": {
-          "easy": "Gasfylld farkost som lyfter instrument högt i atmosfären",
-          "normal": "Mäter bland annat temperatur och luftfuktighet på vägen upp",
-          "hard": "Den kan spricka när höljet utvidgas"
+          "easy": "Meteorologi",
+          "normal": "Radiosond",
+          "hard": "Atmosfär"
         }
       },
       "en": {
         "word": "Weather balloon",
         "aliases": [],
         "hints": {
-          "easy": "Gas-filled craft that carries instruments high into the atmosphere",
-          "normal": "It samples temperature and humidity during the climb",
-          "hard": "It may burst as its envelope expands"
+          "easy": "Meteorology",
+          "normal": "Radiosonde",
+          "hard": "Atmosphere"
         }
       }
     }
@@ -1818,18 +1818,18 @@
         "word": "Fångballong",
         "aliases": [],
         "hints": {
-          "easy": "Gasfylld plattform som förblir fäst vid marken",
-          "normal": "En vajer rullas upp vid nedtagning",
-          "hard": "Drivkraften går till vinschen på marken"
+          "easy": "Förankring",
+          "normal": "Helium",
+          "hard": "Spaning"
         }
       },
       "en": {
         "word": "Tethered aerostat",
         "aliases": [],
         "hints": {
-          "easy": "Gas-filled platform that stays tied to the ground",
-          "normal": "A cable reels in when it is brought down",
-          "hard": "The powered equipment is the winch below"
+          "easy": "Anchor",
+          "normal": "Helium",
+          "hard": "Surveillance"
         }
       }
     }
@@ -1841,7 +1841,7 @@
     "tags": [
       "air"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1850,18 +1850,18 @@
           "Flottörplan"
         ],
         "hints": {
-          "easy": "Flygplan som startar på vatten med pontoner under kroppen",
-          "normal": "Dubbla flytkroppar ligger där hjulen brukar sitta",
-          "hard": "Piren kan ligga närmare än någon terminal"
+          "easy": "Flottörer",
+          "normal": "Vatten",
+          "hard": "Landning"
         }
       },
       "en": {
         "word": "Floatplane",
         "aliases": [],
         "hints": {
-          "easy": "Aircraft that takes off on water with pontoons beneath the body",
-          "normal": "A pair of buoyant pods replaces the wheels",
-          "hard": "A jetty can be closer than any terminal"
+          "easy": "Floats",
+          "normal": "Water",
+          "hard": "Landing"
         }
       }
     }
@@ -1873,25 +1873,25 @@
     "tags": [
       "air"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Flygbåt",
         "aliases": [],
         "hints": {
-          "easy": "Flygplan vars egen båtformade kropp bär det vid vattenlandning",
-          "normal": "Kroppens botten kan ha ett steg som underlättar starten",
-          "hard": "När motorerna tystnar flyter kabinen vidare"
+          "easy": "Båtskrov",
+          "normal": "Sjölandning",
+          "hard": "Amfibisk"
         }
       },
       "en": {
         "word": "Flying boat",
         "aliases": [],
         "hints": {
-          "easy": "Aircraft whose boat-shaped fuselage supports it on water",
-          "normal": "A step in the hull can help it take off",
-          "hard": "The cabin still floats when the engines stop"
+          "easy": "Hull",
+          "normal": "Landing",
+          "hard": "Amphibious"
         }
       }
     }
@@ -1910,18 +1910,18 @@
         "word": "Vattenbombare",
         "aliases": [],
         "hints": {
-          "easy": "Flygplan som släpper vatten över stora bränder",
-          "normal": "Vissa modeller fyller sina behållare på en sjö i fart",
-          "hard": "En kort passage lämnar en gardin bakom sig"
+          "easy": "Skogsbrand",
+          "normal": "Tank",
+          "hard": "Tömning"
         }
       },
       "en": {
         "word": "Water bomber",
         "aliases": [],
         "hints": {
-          "easy": "Aircraft that drops water onto large fires",
-          "normal": "Some models refill their tanks while skimming a lake",
-          "hard": "A brief pass leaves a curtain behind"
+          "easy": "Wildfire",
+          "normal": "Tank",
+          "hard": "Drop"
         }
       }
     }
@@ -1933,25 +1933,25 @@
     "tags": [
       "air"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Biplan",
         "aliases": [],
         "hints": {
-          "easy": "Flygplan med ett helt vingpar ovanför det andra",
-          "normal": "Stag löper mellan de två vingnivåerna",
-          "hard": "En klassisk silhuett från flygets barndom"
+          "easy": "Dubbla",
+          "normal": "Vingar",
+          "hard": "Stag"
         }
       },
       "en": {
         "word": "Biplane",
         "aliases": [],
         "hints": {
-          "easy": "Aircraft with one full set of wings above another",
-          "normal": "Struts run between the two wing levels",
-          "hard": "A classic silhouette from the early days of flight"
+          "easy": "Double",
+          "normal": "Wings",
+          "hard": "Bracing"
         }
       }
     }
@@ -1972,9 +1972,9 @@
           "Autogiroflygplan"
         ],
         "hints": {
-          "easy": "Flygmaskin vars rotor drivs av fartvinden",
-          "normal": "Rotorbladen bär farkosten utan att vara motordrivna i flykten",
-          "hard": "Startsträckan är kort men den behöver framåtfart"
+          "easy": "Frispinnande",
+          "normal": "Rotor",
+          "hard": "Autorotation"
         }
       },
       "en": {
@@ -1983,9 +1983,9 @@
           "Gyrocopter"
         ],
         "hints": {
-          "easy": "Light aircraft with an overhead rotor spun by airflow",
-          "normal": "The lifting blades turn without engine power in flight",
-          "hard": "It needs forward speed even with a short takeoff run"
+          "easy": "Freewheeling",
+          "normal": "Rotor",
+          "hard": "Autorotation"
         }
       }
     }
@@ -2004,18 +2004,18 @@
         "word": "Tiltrotorflygplan",
         "aliases": [],
         "hints": {
-          "easy": "Flygplan vars motordrivna rotorer vinklas mellan vertikalt lyft och framdrift",
-          "normal": "Motorpaketen vid vingändarna kan vridas",
-          "hard": "Startar ovanför en punkt och flyger vidare på vingar"
+          "easy": "Propellrar",
+          "normal": "Vridning",
+          "hard": "Vertikalt"
         }
       },
       "en": {
         "word": "Tiltrotor aircraft",
         "aliases": [],
         "hints": {
-          "easy": "Aircraft with powered rotors that tilt between vertical lift and forward thrust",
-          "normal": "Engine assemblies at the wing ends can swivel",
-          "hard": "It takes off from one spot and cruises on its wings"
+          "easy": "Propellers",
+          "normal": "Rotation",
+          "hard": "Vertical"
         }
       }
     }
@@ -2034,18 +2034,18 @@
         "word": "Ornitopter",
         "aliases": [],
         "hints": {
-          "easy": "Flygfarkost som rör vingarna upp och ner för att flyga",
-          "normal": "Gångjärn i vingroten arbetar under färden",
-          "hard": "Flygprofilen härmar fåglar"
+          "easy": "Flaxande",
+          "normal": "Fågellik",
+          "hard": "Vingar"
         }
       },
       "en": {
         "word": "Ornithopter",
         "aliases": [],
         "hints": {
-          "easy": "Flying machine that uses flapping wings",
-          "normal": "Hinges at the wing roots move throughout flight",
-          "hard": "Its motion mimics birds"
+          "easy": "Flapping",
+          "normal": "Bird",
+          "hard": "Wings"
         }
       }
     }
@@ -2064,18 +2064,18 @@
         "word": "Raketflygplan",
         "aliases": [],
         "hints": {
-          "easy": "Flygplan som får fart av en motor som bär eget oxidationsmedel",
-          "normal": "Dragkraften fungerar även i mycket tunn luft",
-          "hard": "Kort motortid kan ge en snabb stigning"
+          "easy": "Raketmotor",
+          "normal": "Experiment",
+          "hard": "Hastighet"
         }
       },
       "en": {
         "word": "Rocket-powered aircraft",
         "aliases": [],
         "hints": {
-          "easy": "Aircraft driven by an engine that carries its own oxidizer",
-          "normal": "Thrust is available even in extremely thin air",
-          "hard": "A short burn can produce a rapid climb"
+          "easy": "Rocket",
+          "normal": "Experiment",
+          "hard": "Speed"
         }
       }
     }
@@ -2087,25 +2087,25 @@
     "tags": [
       "air"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Kameradrönare",
         "aliases": [],
         "hints": {
-          "easy": "Fjärrstyrd liten flygfarkost som tar bilder uppifrån",
-          "normal": "Stabiliserat objektiv under flera propellrar",
-          "hard": "Operatören kan se platsen från ovan utan att själv lyfta"
+          "easy": "Luftbild",
+          "normal": "Fjärrstyrning",
+          "hard": "Kamera"
         }
       },
       "en": {
         "word": "Camera drone",
         "aliases": [],
         "hints": {
-          "easy": "Small remotely controlled aircraft that takes aerial images",
-          "normal": "A stabilized lens sits beneath several propellers",
-          "hard": "The operator gets a top-down view without leaving the ground"
+          "easy": "Aerial",
+          "normal": "Remote",
+          "hard": "Camera"
         }
       }
     }
@@ -2124,9 +2124,9 @@
         "word": "Besprutningsflygplan",
         "aliases": [],
         "hints": {
-          "easy": "Jordbruksflygplan som sprider vätska över odlingsfält",
-          "normal": "Munstycken sitter längs vingarna",
-          "hard": "Upprepade låga stråk täcker grödan"
+          "easy": "Bekämpning",
+          "normal": "Grödor",
+          "hard": "Lågflygning"
         }
       },
       "en": {
@@ -2135,9 +2135,9 @@
           "Crop dusting aircraft"
         ],
         "hints": {
-          "easy": "Agricultural aircraft that sprays liquid over fields",
-          "normal": "Nozzles line the wings",
-          "hard": "Repeated low passes cover the crop"
+          "easy": "Spraying",
+          "normal": "Crops",
+          "hard": "Low"
         }
       }
     }
@@ -2156,18 +2156,18 @@
         "word": "Muskeldrivet flygplan",
         "aliases": [],
         "hints": {
-          "easy": "Ultralätt flygplan som får framdrift från pilotens muskelkraft",
-          "normal": "Pedaler kan driva propellern",
-          "hard": "Varje extra gram kostar ork"
+          "easy": "Pedaler",
+          "normal": "Muskelkraft",
+          "hard": "Lättvikt"
         }
       },
       "en": {
         "word": "Human-powered aircraft",
         "aliases": [],
         "hints": {
-          "easy": "Ultralight aircraft propelled by the pilot's muscles",
-          "normal": "Pedals can turn its propeller",
-          "hard": "Every extra gram costs effort"
+          "easy": "Pedals",
+          "normal": "Muscle",
+          "hard": "Lightweight"
         }
       }
     }
@@ -2179,25 +2179,25 @@
     "tags": [
       "air"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Hängglidare",
         "aliases": [],
         "hints": {
-          "easy": "Motorlös flygfarkost med styv vinge som piloten hänger under",
-          "normal": "En trekantig bygel hjälper piloten att flytta vikten",
-          "hard": "Starten börjar ofta med några steg i en sluttning"
+          "easy": "Glidflygning",
+          "normal": "Sele",
+          "hard": "Triangel"
         }
       },
       "en": {
         "word": "Hang glider",
         "aliases": [],
         "hints": {
-          "easy": "Unpowered flying craft with a rigid wing the pilot hangs beneath",
-          "normal": "A triangular control frame helps the pilot shift weight",
-          "hard": "Takeoff often starts with a few steps down a slope"
+          "easy": "Gliding",
+          "normal": "Harness",
+          "hard": "Triangle"
         }
       }
     }
@@ -2216,18 +2216,18 @@
         "word": "Markeffektfarkost",
         "aliases": [],
         "hints": {
-          "easy": "Vingfarkost som kryssar mycket lågt för att utnyttja ytan under sig",
-          "normal": "Håller sig nära vattenytan under normal färd",
-          "hard": "Den lägsta flyghöjden ger bäst verkningsgrad"
+          "easy": "Markeffekt",
+          "normal": "Vattenyta",
+          "hard": "Låghöjd"
         }
       },
       "en": {
         "word": "Ground-effect vehicle",
         "aliases": [],
         "hints": {
-          "easy": "Winged craft that cruises extremely low to benefit from the surface below",
-          "normal": "It stays close to the water during normal travel",
-          "hard": "Efficiency improves at the lowest flight heights"
+          "easy": "Lift",
+          "normal": "Surface",
+          "hard": "Altitude"
         }
       }
     }
@@ -2246,18 +2246,18 @@
         "word": "Överljudspassagerarplan",
         "aliases": [],
         "hints": {
-          "easy": "Passagerarplan som är byggt för att kryssa snabbare än ljudet",
-          "normal": "Smal kropp och deltavinge förekom på kända modeller",
-          "hard": "Ett tryckfenomen gjorde rutter över land besvärliga"
+          "easy": "Concorde",
+          "normal": "Ljudvall",
+          "hard": "Mach"
         }
       },
       "en": {
         "word": "Supersonic transport",
         "aliases": [],
         "hints": {
-          "easy": "Passenger aircraft built to cruise faster than sound",
-          "normal": "Famous models featured slender fuselages and delta wings",
-          "hard": "A pressure wave made overland routes troublesome"
+          "easy": "Concorde",
+          "normal": "Barrier",
+          "hard": "Mach"
         }
       }
     }
@@ -2276,18 +2276,18 @@
         "word": "Lyfthelikopter",
         "aliases": [],
         "hints": {
-          "easy": "Rotorfarkost byggd för att lyfta tung last utvändigt",
-          "normal": "Moduler eller stolpar kan hänga under buken",
-          "hard": "Kabinen kan ha utsikt bakåt för precisionsarbetet"
+          "easy": "Luftlyft",
+          "normal": "Last",
+          "hard": "Lyftkrok"
         }
       },
       "en": {
         "word": "Aerial crane",
         "aliases": [],
         "hints": {
-          "easy": "Rotorcraft designed to lift heavy external loads",
-          "normal": "Modules or poles can hang beneath its belly",
-          "hard": "The cab may face rearward for precision work"
+          "easy": "Airlift",
+          "normal": "Cargo",
+          "hard": "Hook"
         }
       }
     }
@@ -2306,18 +2306,18 @@
         "word": "Triplan",
         "aliases": [],
         "hints": {
-          "easy": "Flygplan med tre uppsättningar vingar staplade på höjden",
-          "normal": "Stagen binder ihop fler nivåer än på många äldre propellerplan",
-          "hard": "Kort spännvidd får sällskap av en hög vingprofil"
+          "easy": "Tre",
+          "normal": "Vingar",
+          "hard": "Staplade"
         }
       },
       "en": {
         "word": "Triplane",
         "aliases": [],
         "hints": {
-          "easy": "Aircraft with three wing sets stacked vertically",
-          "normal": "Its struts join more levels than on most early propeller planes",
-          "hard": "Short span meets a tall wing silhouette"
+          "easy": "Three",
+          "normal": "Wings",
+          "hard": "Stacked"
         }
       }
     }
@@ -2336,18 +2336,18 @@
         "word": "Ånglok",
         "aliases": [],
         "hints": {
-          "easy": "Äldre dragfordon där vatten och eld driver kolvar",
-          "normal": "Vit vattenånga över spåret",
-          "hard": "Man fick fylla på med vatten längs rutten"
+          "easy": "Ånga",
+          "normal": "Kol",
+          "hard": "Skorsten"
         }
       },
       "en": {
         "word": "Steam locomotive",
         "aliases": [],
         "hints": {
-          "easy": "Historic rail engine whose pistons use heated water vapor",
-          "normal": "White vapor billows over the track",
-          "hard": "The crew had to take on water along the route"
+          "easy": "Steam",
+          "normal": "Coal",
+          "hard": "Chimney"
         }
       }
     }
@@ -2359,25 +2359,25 @@
     "tags": [
       "rail"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Ellok",
         "aliases": [],
         "hints": {
-          "easy": "Dragfordon på räls som får ström från en kontaktledning",
-          "normal": "En ledad arm kan ligga mot tråden över taket",
-          "hard": "Drivenergin levereras längs linjen"
+          "easy": "Ström",
+          "normal": "Kontaktledning",
+          "hard": "Strömavtagare"
         }
       },
       "en": {
         "word": "Electric locomotive",
         "aliases": [],
         "hints": {
-          "easy": "Rail engine usually fed by an overhead power line",
-          "normal": "A hinged arm can touch the wire above the roof",
-          "hard": "Its power is supplied along the route"
+          "easy": "Electricity",
+          "normal": "Catenary",
+          "hard": "Pantograph"
         }
       }
     }
@@ -2389,25 +2389,25 @@
     "tags": [
       "rail"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Diesellok",
         "aliases": [],
         "hints": {
-          "easy": "Dragfordon med förbränningsmotor som klarar sig utan kontaktledning",
-          "normal": "Motorljudet stiger när ett tungt godståg sätts i rörelse",
-          "hard": "Även ett avlägset stickspår går att nå"
+          "easy": "Bränsle",
+          "normal": "Motor",
+          "hard": "Avgaser"
         }
       },
       "en": {
         "word": "Diesel locomotive",
         "aliases": [],
         "hints": {
-          "easy": "Rail engine with an onboard fuel-burning motor and no need for overhead wires",
-          "normal": "The engine note swells as a heavy freight train starts",
-          "hard": "Even a remote siding is within reach"
+          "easy": "Fuel",
+          "normal": "Motor",
+          "hard": "Exhaust"
         }
       }
     }
@@ -2419,25 +2419,25 @@
     "tags": [
       "rail"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Höghastighetståg",
         "aliases": [],
         "hints": {
-          "easy": "Tåg byggt för mycket snabb trafik mellan större stationer",
-          "normal": "Strömlinjeformad nos minskar luftmotståndet",
-          "hard": "Långa avstånd känns kortare än väntat"
+          "easy": "Snabbt",
+          "normal": "Shinkansen",
+          "hard": "Aerodynamik"
         }
       },
       "en": {
         "word": "High-speed train",
         "aliases": [],
         "hints": {
-          "easy": "Train designed for very fast service between major stations",
-          "normal": "A streamlined nose cuts air resistance",
-          "hard": "Long distances feel shorter than expected"
+          "easy": "Fast",
+          "normal": "Shinkansen",
+          "hard": "Aerodynamics"
         }
       }
     }
@@ -2456,9 +2456,9 @@
         "word": "Magnetsvävtåg",
         "aliases": [],
         "hints": {
-          "easy": "Spårfordon som kan åka upplyft över banan med magnetkraft",
-          "normal": "Ingen vanlig hjulkontakt vid hög fart",
-          "hard": "Kraften under golvet bemästrar tyngden"
+          "easy": "Magneter",
+          "normal": "Svävning",
+          "hard": "Friktion"
         }
       },
       "en": {
@@ -2467,9 +2467,9 @@
           "Maglev"
         ],
         "hints": {
-          "easy": "Guideway vehicle that can run suspended above the track by magnetic force",
-          "normal": "No ordinary wheel contact at speed",
-          "hard": "A force beneath the floor holds it up"
+          "easy": "Magnets",
+          "normal": "Levitation",
+          "hard": "Friction"
         }
       }
     }
@@ -2488,9 +2488,9 @@
         "word": "Spårvagn",
         "aliases": [],
         "hints": {
-          "easy": "Kollektivfordon som ofta går på räls i stadsgatorna",
-          "normal": "Samma korsning används av bilar och rälsfordon",
-          "hard": "Hållplatsen kan ligga mitt i gatan"
+          "easy": "Stadsgator",
+          "normal": "Räls",
+          "hard": "Hållplats"
         }
       },
       "en": {
@@ -2499,9 +2499,9 @@
           "Streetcar"
         ],
         "hints": {
-          "easy": "City transit vehicle that often runs on rails set into streets",
-          "normal": "It may share an intersection with cars",
-          "hard": "The stop can sit in the middle of the street"
+          "easy": "Streets",
+          "normal": "Rails",
+          "hard": "Stop"
         }
       }
     }
@@ -2520,9 +2520,9 @@
         "word": "Tunnelbanetåg",
         "aliases": [],
         "hints": {
-          "easy": "Stadståg som ofta kör i tunnlar mellan täta stationer",
-          "normal": "Många breda dörrar släpper av resenärer samtidigt",
-          "hard": "Nätet har vanligtvis inga plankorsningar"
+          "easy": "Tunnel",
+          "normal": "Perrong",
+          "hard": "Storstad"
         }
       },
       "en": {
@@ -2532,9 +2532,9 @@
           "Underground train"
         ],
         "hints": {
-          "easy": "Urban train that often runs through tunnels between closely spaced stations",
-          "normal": "Many wide doors let riders out at once",
-          "hard": "The network usually has no level crossings"
+          "easy": "Tunnel",
+          "normal": "Platform",
+          "hard": "Metropolis"
         }
       }
     }
@@ -2553,18 +2553,18 @@
         "word": "Enspårståg",
         "aliases": [],
         "hints": {
-          "easy": "Tåg som gränslar eller hänger från en enda bärbalk",
-          "normal": "En smal betongbalk räcker som bana",
-          "hard": "Man kan se staden rakt ner från spåret"
+          "easy": "Enkelspår",
+          "normal": "Upphöjt",
+          "hard": "Balk"
         }
       },
       "en": {
         "word": "Monorail",
         "aliases": [],
         "hints": {
-          "easy": "Train that straddles or hangs from a single beam",
-          "normal": "A narrow concrete beam can be the whole track",
-          "hard": "You may see the city straight below the line"
+          "easy": "Rail",
+          "normal": "Elevated",
+          "hard": "Beam"
         }
       }
     }
@@ -2583,18 +2583,18 @@
         "word": "Rälsbuss",
         "aliases": [],
         "hints": {
-          "easy": "Lätt självgående järnvägsfordon likt en buss på spår",
-          "normal": "Ofta en ensam kort salong utan dragfordon",
-          "hard": "En enkel lösning för banor med få resenärer"
+          "easy": "Räls",
+          "normal": "Lättvikt",
+          "hard": "Landsbygd"
         }
       },
       "en": {
         "word": "Railbus",
         "aliases": [],
         "hints": {
-          "easy": "Light self-propelled railway vehicle resembling a bus on tracks",
-          "normal": "Often a single short passenger compartment with no separate engine up front",
-          "hard": "A simple solution for low-traffic lines"
+          "easy": "Rails",
+          "normal": "Lightweight",
+          "hard": "Rural"
         }
       }
     }
@@ -2613,9 +2613,9 @@
         "word": "Bergbana",
         "aliases": [],
         "hints": {
-          "easy": "Rälsbana där en vajer drar vagnar i brant lutning",
-          "normal": "När en vagn går ner kan den balansera den som går upp",
-          "hard": "Plattformen kan luta lika mycket som backen"
+          "easy": "Brant",
+          "normal": "Vajer",
+          "hard": "Motvikt"
         }
       },
       "en": {
@@ -2624,9 +2624,9 @@
           "Funicular railway"
         ],
         "hints": {
-          "easy": "Inclined railway whose cars are drawn by cable",
-          "normal": "A descending car can counterbalance an ascending one",
-          "hard": "The platform can be as steep as the hillside"
+          "easy": "Steep",
+          "normal": "Cable",
+          "hard": "Counterweight"
         }
       }
     }
@@ -2645,18 +2645,18 @@
         "word": "Kuggstångståg",
         "aliases": [],
         "hints": {
-          "easy": "Tåg som greppar en tandad skena för att klara branta backar",
-          "normal": "Ett extra hjul griper mellan de vanliga skenorna",
-          "hard": "Stigningen kräver ett mekaniskt ingrepp"
+          "easy": "Kuggar",
+          "normal": "Berg",
+          "hard": "Räls"
         }
       },
       "en": {
         "word": "Rack railway train",
         "aliases": [],
         "hints": {
-          "easy": "Train that engages a toothed rail to climb steep grades",
-          "normal": "An extra wheel meshes between the standard rails",
-          "hard": "The grade calls for positive mechanical engagement"
+          "easy": "Teeth",
+          "normal": "Mountain",
+          "hard": "Rails"
         }
       }
     }
@@ -2668,25 +2668,25 @@
     "tags": [
       "rail"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Kabelspårvagn",
         "aliases": [],
         "hints": {
-          "easy": "Stadsvagn som grips fast i en rörlig kabel under gatan",
-          "normal": "Föraren släpper taget om draglinan vid hållplatsen",
-          "hard": "Motorn finns någon annanstans än ombord"
+          "easy": "Vajer",
+          "normal": "Grepp",
+          "hard": "Kuperat"
         }
       },
       "en": {
         "word": "Cable tram",
         "aliases": [],
         "hints": {
-          "easy": "Street vehicle that grips a moving cable below the road",
-          "normal": "The operator releases the moving line at a stop",
-          "hard": "Its motor is somewhere else"
+          "easy": "Cable",
+          "normal": "Grip",
+          "hard": "Hilly"
         }
       }
     }
@@ -2707,9 +2707,9 @@
           "Trampdressin"
         ],
         "hints": {
-          "easy": "Litet trampfordon som rullar på järnvägsspår",
-          "normal": "Pedalerna driver hjul längs en övergiven bana",
-          "hard": "Man behöver inte styra i kurvorna"
+          "easy": "Trampor",
+          "normal": "Räls",
+          "hard": "Utflykt"
         }
       },
       "en": {
@@ -2718,9 +2718,9 @@
           "Rail bike"
         ],
         "hints": {
-          "easy": "Small pedal-powered vehicle that runs along railroad tracks",
-          "normal": "Pedals drive it down a disused line",
-          "hard": "You do not need to steer around curves"
+          "easy": "Pedals",
+          "normal": "Rails",
+          "hard": "Outing"
         }
       }
     }
@@ -2732,16 +2732,16 @@
     "tags": [
       "rail"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Sovvagn",
         "aliases": [],
         "hints": {
-          "easy": "Järnvägsvagn med bäddar för nattresenärer",
-          "normal": "Ett litet bord kan stå mellan britsarna",
-          "hard": "Man vaknar på en annan station"
+          "easy": "Säng",
+          "normal": "Natt",
+          "hard": "Kupé"
         }
       },
       "en": {
@@ -2750,9 +2750,9 @@
           "Sleeper car"
         ],
         "hints": {
-          "easy": "Rail coach fitted with beds for overnight travelers",
-          "normal": "A small table may fit between the bunks",
-          "hard": "You wake up near a different station"
+          "easy": "Bed",
+          "normal": "Night",
+          "hard": "Compartment"
         }
       }
     }
@@ -2764,25 +2764,25 @@
     "tags": [
       "rail"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Restaurangvagn",
         "aliases": [],
         "hints": {
-          "easy": "Järnvägsvagn där resenärer äter vid dukade bord",
-          "normal": "Tallrikarna åker genom landskapet samtidigt som gästerna",
-          "hard": "Bordsbokningen hör ihop med färdplanen"
+          "easy": "Måltid",
+          "normal": "Bord",
+          "hard": "Servering"
         }
       },
       "en": {
         "word": "Dining car",
         "aliases": [],
         "hints": {
-          "easy": "Rail coach where travelers dine at set tables",
-          "normal": "Plates cross the countryside with the guests",
-          "hard": "The table reservation follows a timetable"
+          "easy": "Meal",
+          "normal": "Table",
+          "hard": "Service"
         }
       }
     }
@@ -2801,18 +2801,18 @@
         "word": "Panoramavagn",
         "aliases": [],
         "hints": {
-          "easy": "Järnvägsvagn utformad för bred utsikt längs färden",
-          "normal": "Stora fönster når ibland upp i taket",
-          "hard": "Landskapet är underhållningen"
+          "easy": "Utsikt",
+          "normal": "Panoramafönster",
+          "hard": "Landskap"
         }
       },
       "en": {
         "word": "Observation car",
         "aliases": [],
         "hints": {
-          "easy": "Rail coach designed for broad views along the route",
-          "normal": "Oversize windows may stretch into the roof",
-          "hard": "The scenery is the entertainment"
+          "easy": "View",
+          "normal": "Windows",
+          "hard": "Scenery"
         }
       }
     }
@@ -2831,18 +2831,18 @@
         "word": "Postvagn",
         "aliases": [],
         "hints": {
-          "easy": "Järnvägsvagn för brevsortering under färd",
-          "normal": "Säckar och sorteringsfack längs väggarna",
-          "hard": "Breven kunde byta väg innan tåget stod still"
+          "easy": "Post",
+          "normal": "Sortering",
+          "hard": "Brev"
         }
       },
       "en": {
         "word": "Railway post office",
         "aliases": [],
         "hints": {
-          "easy": "Rail coach formerly used to sort mail en route",
-          "normal": "Sacks and sorting slots line the walls",
-          "hard": "Letters could change route before the train stopped"
+          "easy": "Mail",
+          "normal": "Sorting",
+          "hard": "Letters"
         }
       }
     }
@@ -2861,9 +2861,9 @@
         "word": "Tankvagn",
         "aliases": [],
         "hints": {
-          "easy": "Järnvägsvagn som bär vätska i en stor sluten behållare",
-          "normal": "En lång cylinder vilar på hjulparen",
-          "hard": "Innehållet har oftast en anslutning i stället för en lastdörr"
+          "easy": "Vätska",
+          "normal": "Järnväg",
+          "hard": "Frakt"
         }
       },
       "en": {
@@ -2872,9 +2872,9 @@
           "Rail tanker"
         ],
         "hints": {
-          "easy": "Rail wagon carrying liquid in a large sealed vessel",
-          "normal": "A long cylinder rests on wheelsets",
-          "hard": "The contents usually come out through a fitting instead of a cargo door"
+          "easy": "Liquid",
+          "normal": "Rail",
+          "hard": "Freight"
         }
       }
     }
@@ -2886,25 +2886,25 @@
     "tags": [
       "rail"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Bottenlossande godsvagn",
         "aliases": [],
         "hints": {
-          "easy": "Godsvagn som tömmer löst material genom luckor undertill",
-          "normal": "Lasten faller rakt ner mellan skenorna när platsen är rätt",
-          "hard": "Tyngdkraften ersätter lyftkranen vid lossning"
+          "easy": "Bottenlucka",
+          "normal": "Gravitation",
+          "hard": "Spannmål"
         }
       },
       "en": {
         "word": "Hopper wagon",
         "aliases": [],
         "hints": {
-          "easy": "Freight wagon that unloads loose material through gates underneath",
-          "normal": "The load drops between the rails at the right spot",
-          "hard": "Gravity replaces a crane during unloading"
+          "easy": "Hatch",
+          "normal": "Gravity",
+          "hard": "Grain"
         }
       }
     }
@@ -2916,25 +2916,25 @@
     "tags": [
       "rail"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Biltransportvagn",
         "aliases": [],
         "hints": {
-          "easy": "Järnvägsvagn byggd för att frakta personbilar",
-          "normal": "Tak eller flera däck skyddar och skiljer lastnivåerna",
-          "hard": "De mindre fordonen åker utan förare"
+          "easy": "Biltransport",
+          "normal": "Järnväg",
+          "hard": "Våningar"
         }
       },
       "en": {
         "word": "Autorack",
         "aliases": [],
         "hints": {
-          "easy": "Rail wagon built to carry passenger cars",
-          "normal": "A roof or stacked decks protect and separate the loads",
-          "hard": "The smaller vehicles ride without drivers"
+          "easy": "Automobiles",
+          "normal": "Rail",
+          "hard": "Decks"
         }
       }
     }
@@ -2953,18 +2953,18 @@
         "word": "Spårriktare",
         "aliases": [],
         "hints": {
-          "easy": "Banmaskin som packar sten under sliprar för att justera rälsens läge",
-          "normal": "Vibrerande pinnar tränger ner i ballasten",
-          "hard": "En justering i millimeter kan ge en lugnare färd"
+          "easy": "Ballast",
+          "normal": "Sliprar",
+          "hard": "Vibration"
         }
       },
       "en": {
         "word": "Track tamper",
         "aliases": [],
         "hints": {
-          "easy": "Track machine that packs stone beneath sleepers to correct rail alignment",
-          "normal": "Vibrating tines sink into the ballast",
-          "hard": "A millimeter adjustment can smooth the ride"
+          "easy": "Ballast",
+          "normal": "Sleepers",
+          "hard": "Vibration"
         }
       }
     }
@@ -2983,18 +2983,18 @@
         "word": "Rälssliptåg",
         "aliases": [],
         "hints": {
-          "easy": "Banfordon som jämnar till rälsens löpyta med slipstenar",
-          "normal": "Gnistor kan synas nära skenorna vid nattarbete",
-          "hard": "Behandlingen kan göra trafiken tystare"
+          "easy": "Räls",
+          "normal": "Slipsten",
+          "hard": "Gnistor"
         }
       },
       "en": {
         "word": "Rail grinding train",
         "aliases": [],
         "hints": {
-          "easy": "Maintenance vehicle that smooths running surfaces with grinding stones",
-          "normal": "Sparks can show near the rails during night work",
-          "hard": "The treatment can make later traffic quieter"
+          "easy": "Rails",
+          "normal": "Wheel",
+          "hard": "Sparks"
         }
       }
     }
@@ -3015,9 +3015,9 @@
           "Järnvägssnöslunga"
         ],
         "hints": {
-          "easy": "Järnvägsfordon med ett stort roterande hjul som kastar undan snö",
-          "normal": "Fungerar som en jättelik snöslunga framför tåget",
-          "hard": "En igendrevad bergsbana kan bli farbar igen"
+          "easy": "Snö",
+          "normal": "Rotor",
+          "hard": "Kast"
         }
       },
       "en": {
@@ -3026,9 +3026,9 @@
           "Rotary snowplough"
         ],
         "hints": {
-          "easy": "Rail vehicle with a large spinning wheel that throws snow aside",
-          "normal": "It acts like a giant snow blower at the front of a train",
-          "hard": "A drifted mountain line can reopen"
+          "easy": "Snow",
+          "normal": "Rotor",
+          "hard": "Throw"
         }
       }
     }
@@ -3047,18 +3047,18 @@
         "word": "Tvåvägsgrävare",
         "aliases": [],
         "hints": {
-          "easy": "Banarbetsmaskin som kan köra både på gummihjul och på räls",
-          "normal": "Små stålhjul fälls ner för arbetet på spåret",
-          "hard": "Den kan lämna banan vid en övergång"
+          "easy": "Grävning",
+          "normal": "Vägdrift",
+          "hard": "Räls"
         }
       },
       "en": {
         "word": "Road–rail excavator",
         "aliases": [],
         "hints": {
-          "easy": "Track excavator that can travel on rubber tires as well as rails",
-          "normal": "Small steel wheels lower for work on the track",
-          "hard": "It can leave the line at a crossing"
+          "easy": "Digging",
+          "normal": "Roadway",
+          "hard": "Rails"
         }
       }
     }
@@ -3070,16 +3070,16 @@
     "tags": [
       "rail"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Växellok",
         "aliases": [],
         "hints": {
-          "easy": "Kompakt järnvägsfordon som sorterar godsvagnar på en bangård",
-          "normal": "Korta drag i låg fart mellan spåren",
-          "hard": "Sätter ihop tåget innan långfärden börjar"
+          "easy": "Rangering",
+          "normal": "Bangård",
+          "hard": "Koppling"
         }
       },
       "en": {
@@ -3088,9 +3088,9 @@
           "Shunting locomotive"
         ],
         "hints": {
-          "easy": "Compact rail engine that moves and couples wagons in a yard",
-          "normal": "Short low-speed moves from track to track",
-          "hard": "It assembles the train before the long journey"
+          "easy": "Shunting",
+          "normal": "Railyard",
+          "hard": "Coupling"
         }
       }
     }
@@ -3109,18 +3109,18 @@
         "word": "Grävmaskin",
         "aliases": [],
         "hints": {
-          "easy": "Schaktmaskin med vridbar överdel och ledad skoparm",
-          "normal": "Skopan öser jord vid slutet av en lång arm",
-          "hard": "Hytten kan vrida sig medan banden står still"
+          "easy": "Grävning",
+          "normal": "Skopa",
+          "hard": "Grävarm"
         }
       },
       "en": {
         "word": "Excavator",
         "aliases": [],
         "hints": {
-          "easy": "Earthmoving machine with a rotating upper body and jointed bucket arm",
-          "normal": "Its bucket scoops soil at the end of a long arm",
-          "hard": "The cab can turn while the tracks stay put"
+          "easy": "Digging",
+          "normal": "Bucket",
+          "hard": "Boom"
         }
       }
     }
@@ -3132,25 +3132,25 @@
     "tags": [
       "work"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Bulldozer",
         "aliases": [],
         "hints": {
-          "easy": "Tung bandmaskin med brett blad som skjuter jord framför sig",
-          "normal": "Lämnar breda raka spår i leran",
-          "hard": "Materialet tas med utan att lyftas"
+          "easy": "Schaktning",
+          "normal": "Schaktblad",
+          "hard": "Larvband"
         }
       },
       "en": {
         "word": "Bulldozer",
         "aliases": [],
         "hints": {
-          "easy": "Heavy tracked machine with a wide blade that pushes earth ahead",
-          "normal": "It leaves broad straight tracks in the mud",
-          "hard": "Material moves without being picked up"
+          "easy": "Grading",
+          "normal": "Blade",
+          "hard": "Tracks"
         }
       }
     }
@@ -3162,25 +3162,25 @@
     "tags": [
       "work"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Hjullastare",
         "aliases": [],
         "hints": {
-          "easy": "Arbetsfordon med stor frontskopa på lyftarmar",
-          "normal": "Fyller ofta flak från en grushög",
-          "hard": "Midjan kan svänga när skopan byter riktning"
+          "easy": "Materialhantering",
+          "normal": "Skopa",
+          "hard": "Midjestyrning"
         }
       },
       "en": {
         "word": "Wheel loader",
         "aliases": [],
         "hints": {
-          "easy": "Work vehicle with a large bucket on front lift arms",
-          "normal": "It often fills truck beds from a gravel pile",
-          "hard": "Its chassis may hinge in the middle to steer"
+          "easy": "Loading",
+          "normal": "Bucket",
+          "hard": "Articulation"
         }
       }
     }
@@ -3199,18 +3199,18 @@
         "word": "Grävlastare",
         "aliases": [],
         "hints": {
-          "easy": "Arbetsfordon med skopa fram och ledad schaktarm bak",
-          "normal": "Stödben sätts ner när föraren arbetar bakåt",
-          "hard": "Samma förare kan byta uppgift genom att svänga runt sätet"
+          "easy": "Grävskopa",
+          "normal": "Dubbelfunktion",
+          "hard": "Stödben"
         }
       },
       "en": {
         "word": "Backhoe loader",
         "aliases": [],
         "hints": {
-          "easy": "Work vehicle with a front bucket and a jointed digging arm at the rear",
-          "normal": "Stabilizers go down to work behind it",
-          "hard": "One operator can switch jobs by turning the seat"
+          "easy": "Bucket",
+          "normal": "Versatility",
+          "hard": "Stabilizers"
         }
       }
     }
@@ -3222,25 +3222,25 @@
     "tags": [
       "work"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Vägvält",
         "aliases": [],
         "hints": {
-          "easy": "Arbetsfordon vars tunga ståltrumma packar mark eller asfalt",
-          "normal": "Rullar långsamt över varm beläggning",
-          "hard": "Underlaget blir tätare för varje passage"
+          "easy": "Packning",
+          "normal": "Trumma",
+          "hard": "Asfalt"
         }
       },
       "en": {
         "word": "Road roller",
         "aliases": [],
         "hints": {
-          "easy": "Work vehicle with a heavy steel drum that compacts soil or asphalt",
-          "normal": "It crawls over hot pavement",
-          "hard": "The surface gets denser with each pass"
+          "easy": "Compaction",
+          "normal": "Drum",
+          "hard": "Asphalt"
         }
       }
     }
@@ -3259,18 +3259,18 @@
         "word": "Asfaltläggare",
         "aliases": [],
         "hints": {
-          "easy": "Maskin som sprider en jämn ny beläggning på vägen",
-          "normal": "En lastbil matar het massa i behållaren framtill",
-          "hard": "En balk lämnar en obruten matta efter sig"
+          "easy": "Beläggning",
+          "normal": "Matta",
+          "hard": "Avjämning"
         }
       },
       "en": {
         "word": "Asphalt paver",
         "aliases": [],
         "hints": {
-          "easy": "Machine that spreads an even layer of new pavement",
-          "normal": "A truck feeds hot mix into the front hopper",
-          "hard": "A screed leaves a continuous mat behind"
+          "easy": "Paving",
+          "normal": "Mat",
+          "hard": "Screed"
         }
       }
     }
@@ -3289,9 +3289,9 @@
         "word": "Asfaltfräs",
         "aliases": [],
         "hints": {
-          "easy": "Vägmaskin som river upp ett slitet lager med en tandad trumma",
-          "normal": "Ett band leder bort det upprivna materialet",
-          "hard": "Efter passagen får körbanan längsgående räfflor"
+          "easy": "Fräsning",
+          "normal": "Vägbana",
+          "hard": "Tänder"
         }
       },
       "en": {
@@ -3300,9 +3300,9 @@
           "Pavement milling machine"
         ],
         "hints": {
-          "easy": "Road machine that removes worn pavement with a toothed drum",
-          "normal": "A conveyor carries away the loose material",
-          "hard": "The pass leaves lengthwise grooves in the lane"
+          "easy": "Milling",
+          "normal": "Roadway",
+          "hard": "Teeth"
         }
       }
     }
@@ -3321,18 +3321,18 @@
         "word": "Väghyvel",
         "aliases": [],
         "hints": {
-          "easy": "Lång arbetsmaskin som formar vägbanan med ett justerbart mittblad",
-          "normal": "Skäret arbetar mellan fram- och bakhjulen",
-          "hard": "En liten tvärlutning leder regnet åt sidan"
+          "easy": "Avjämning",
+          "normal": "Vägbana",
+          "hard": "Schaktblad"
         }
       },
       "en": {
         "word": "Motor grader",
         "aliases": [],
         "hints": {
-          "easy": "Long road machine that shapes the surface with an adjustable center blade",
-          "normal": "The cutting edge works between the front and rear wheels",
-          "hard": "A slight cross slope sends rain off to the side"
+          "easy": "Leveling",
+          "normal": "Roadway",
+          "hard": "Blade"
         }
       }
     }
@@ -3351,18 +3351,18 @@
         "word": "Motorschaktvagn",
         "aliases": [],
         "hints": {
-          "easy": "Schaktfordon som skär loss jord och tar med sig materialet i ett öppet lasttråg",
-          "normal": "Trågets skärkant sänks medan maskinen rullar",
-          "hard": "Transporten börjar innan skäret har slutat arbeta"
+          "easy": "Jordmassor",
+          "normal": "Skrapstål",
+          "hard": "Transport"
         }
       },
       "en": {
         "word": "Motor scraper",
         "aliases": [],
         "hints": {
-          "easy": "Earthmoving vehicle that slices soil into a large carrying bowl",
-          "normal": "The bowl's cutting edge is lowered while the machine rolls",
-          "hard": "Loading begins during the pass itself"
+          "easy": "Earth",
+          "normal": "Blade",
+          "hard": "Transport"
         }
       }
     }
@@ -3381,18 +3381,18 @@
         "word": "Dikesgrävare",
         "aliases": [],
         "hints": {
-          "easy": "Maskin som gör långa smala schakt för kablar eller rör",
-          "normal": "En kedja med tänder kan löpa runt en bom",
-          "hard": "Jorden hamnar bredvid en jämnbred springa"
+          "easy": "Dike",
+          "normal": "Kablar",
+          "hard": "Kedja"
         }
       },
       "en": {
         "word": "Trencher",
         "aliases": [],
         "hints": {
-          "easy": "Machine for cutting long narrow slots for cables or pipes",
-          "normal": "A chain with teeth can run around a boom",
-          "hard": "The removed soil piles up beside an even-width cut"
+          "easy": "Trench",
+          "normal": "Cables",
+          "hard": "Chain"
         }
       }
     }
@@ -3411,18 +3411,18 @@
         "word": "Tunnelborrmaskin",
         "aliases": [],
         "hints": {
-          "easy": "Stor underjordisk maskin som öppnar en cirkelrund passage genom berg eller jord",
-          "normal": "En bred skärskiva arbetar framför flera vagnar",
-          "hard": "Färdvägen byggs medan maskinen rör sig framåt"
+          "easy": "Borrkrona",
+          "normal": "Berg",
+          "hard": "Borrsköld"
         }
       },
       "en": {
         "word": "Tunnel boring machine",
         "aliases": [],
         "hints": {
-          "easy": "Large underground machine that opens a circular passage through soil or rock",
-          "normal": "A broad cutting head leads a procession of equipment",
-          "hard": "It makes its own route as it advances"
+          "easy": "Cutter",
+          "normal": "Rock",
+          "hard": "Shield"
         }
       }
     }
@@ -3434,16 +3434,16 @@
     "tags": [
       "work"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Gaffeltruck",
         "aliases": [],
         "hints": {
-          "easy": "Lagerfordon med två spetsar som lyfter pallar underifrån",
-          "normal": "Masthöjden avgör vilka hyllor som nås",
-          "hard": "Föraren kan behöva backa för att kunna se vägen"
+          "easy": "Pall",
+          "normal": "Lager",
+          "hard": "Lyft"
         }
       },
       "en": {
@@ -3452,9 +3452,9 @@
           "Forklift truck"
         ],
         "hints": {
-          "easy": "Warehouse vehicle with two prongs that lift pallets from underneath",
-          "normal": "The mast height determines which shelves it can reach",
-          "hard": "The driver may need to back up for a clear view"
+          "easy": "Pallet",
+          "normal": "Warehouse",
+          "hard": "Lifting"
         }
       }
     }
@@ -3473,18 +3473,18 @@
         "word": "Saxlift",
         "aliases": [],
         "hints": {
-          "easy": "Höjbar arbetsplattform med flera korslagda armar",
-          "normal": "Korgen reser sig rakt upp från en liten hjulbas",
-          "hard": "Hopfälld går den ofta under en vanlig port"
+          "easy": "Plattform",
+          "normal": "Kryssarmar",
+          "hard": "Höjd"
         }
       },
       "en": {
         "word": "Scissor lift",
         "aliases": [],
         "hints": {
-          "easy": "Rising work platform supported by interconnected crossed arms",
-          "normal": "The basket rises vertically from a small wheelbase",
-          "hard": "Collapsed, it often fits beneath an ordinary doorway"
+          "easy": "Platform",
+          "normal": "Crossbars",
+          "hard": "Height"
         }
       }
     }
@@ -3503,18 +3503,18 @@
         "word": "Bomlift",
         "aliases": [],
         "hints": {
-          "easy": "Arbetsplattform med personkorg på en lång utskjutbar arm",
-          "normal": "Korgen kan nå över ett hinder på marken",
-          "hard": "Höjd och sidled går att justera var för sig"
+          "easy": "Korg",
+          "normal": "Arbetsarm",
+          "hard": "Räckvidd"
         }
       },
       "en": {
         "word": "Boom lift",
         "aliases": [],
         "hints": {
-          "easy": "Aerial work platform with a basket on a long extending arm",
-          "normal": "The basket can reach over an obstacle below",
-          "hard": "Reach and height can be controlled separately"
+          "easy": "Basket",
+          "normal": "Arm",
+          "hard": "Reach"
         }
       }
     }
@@ -3526,25 +3526,25 @@
     "tags": [
       "work"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Mobilkran",
         "aliases": [],
         "hints": {
-          "easy": "Flyttbar lyftmaskin med en lång arm som kan fällas ihop för transport",
-          "normal": "Stödben trycks mot marken före tunga lyft",
-          "hard": "Reser armen när rätt parkeringsplats hittats"
+          "easy": "Lyft",
+          "normal": "Krok",
+          "hard": "Stödben"
         }
       },
       "en": {
         "word": "Mobile crane",
         "aliases": [],
         "hints": {
-          "easy": "Traveling hoist with a long arm that folds or retracts for driving",
-          "normal": "Outriggers press against the ground before heavy lifts",
-          "hard": "It raises its arm once it has found the right parking spot"
+          "easy": "Lifting",
+          "normal": "Hook",
+          "hard": "Outriggers"
         }
       }
     }
@@ -3563,18 +3563,18 @@
         "word": "Grensletruck",
         "aliases": [],
         "hints": {
-          "easy": "Högt terminalfordon som kör över en container och lyfter den inom sitt eget chassi",
-          "normal": "Hjulen står på varsin sida om lastplatsen",
-          "hard": "Föraren kan sitta högt över den egna lasten"
+          "easy": "Containrar",
+          "normal": "Terminal",
+          "hard": "Högbent"
         }
       },
       "en": {
         "word": "Straddle carrier",
         "aliases": [],
         "hints": {
-          "easy": "Tall terminal vehicle that drives over a shipping box and lifts it inside its frame",
-          "normal": "Its wheels run on either side of the loading slot",
-          "hard": "The operator can sit high above the load"
+          "easy": "Containers",
+          "normal": "Terminal",
+          "hard": "Straddling"
         }
       }
     }
@@ -3593,18 +3593,18 @@
         "word": "Traktor",
         "aliases": [],
         "hints": {
-          "easy": "Jordbruksfordon som drar eller driver redskap ute på fält",
-          "normal": "Draget sitter bakom förarsätet",
-          "hard": "Bakdäcken är ofta större än framdäcken"
+          "easy": "Åker",
+          "normal": "Plog",
+          "hard": "Dragkraft"
         }
       },
       "en": {
         "word": "Farm tractor",
         "aliases": [],
         "hints": {
-          "easy": "Farm vehicle that pulls or powers field implements",
-          "normal": "The hitch sits behind the operator",
-          "hard": "The rear tires are often bigger than the front ones"
+          "easy": "Field",
+          "normal": "Plow",
+          "hard": "Traction"
         }
       }
     }
@@ -3616,25 +3616,25 @@
     "tags": [
       "work"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skördetröska",
         "aliases": [],
         "hints": {
-          "easy": "Jordbruksmaskin som både skär säden och skiljer kärnorna från halmen",
-          "normal": "Spannmålet töms genom ett långt rör",
-          "hard": "En körning ersätter flera arbetsmoment på fältet"
+          "easy": "Tröskning",
+          "normal": "Spannmål",
+          "hard": "Skärbord"
         }
       },
       "en": {
         "word": "Combine harvester",
         "aliases": [],
         "hints": {
-          "easy": "Farm machine that cuts grain crops and separates the kernels from the straw",
-          "normal": "Grain pours out through a long tube",
-          "hard": "One pass handles several different jobs"
+          "easy": "Threshing",
+          "normal": "Grain",
+          "hard": "Header"
         }
       }
     }
@@ -3653,18 +3653,18 @@
         "word": "Exakthack",
         "aliases": [],
         "hints": {
-          "easy": "Skördemaskin som finfördelar gröna växter till djurfoder",
-          "normal": "En ställbar pip blåser ut bitarna i en vagn bredvid",
-          "hard": "Skörden mäts också i hur långa bitarna är"
+          "easy": "Ensilage",
+          "normal": "Hackning",
+          "hard": "Majs"
         }
       },
       "en": {
         "word": "Forage harvester",
         "aliases": [],
         "hints": {
-          "easy": "Harvesting machine that chops green plants into animal feed",
-          "normal": "A swiveling chute blows pieces into a nearby trailer",
-          "hard": "The crop is also judged by the length of the pieces"
+          "easy": "Silage",
+          "normal": "Chopping",
+          "hard": "Maize"
         }
       }
     }
@@ -3683,18 +3683,18 @@
         "word": "Balpress",
         "aliases": [],
         "hints": {
-          "easy": "Lantbruksmaskin som packar hö eller halm i täta buntar",
-          "normal": "Snöre eller nät håller formen efter utmatning",
-          "hard": "Lämnar regelbundna paket i en rad över fältet"
+          "easy": "Hö",
+          "normal": "Balar",
+          "hard": "Bindgarn"
         }
       },
       "en": {
         "word": "Baler",
         "aliases": [],
         "hints": {
-          "easy": "Farm machine that compacts hay or straw into tight bundles",
-          "normal": "Twine or netting holds the shape after ejection",
-          "hard": "It leaves a line of tidy packages across the field"
+          "easy": "Hay",
+          "normal": "Bales",
+          "hard": "Twine"
         }
       }
     }
@@ -3713,18 +3713,18 @@
         "word": "Skördare",
         "aliases": [],
         "hints": {
-          "easy": "Skogsmaskin som fäller träd, kvistar stammarna och kapar dem",
-          "normal": "Griphuvudet mäter längden medan stammen matas igenom",
-          "hard": "Arbetet lämnar färdigkapade längder mellan träden"
+          "easy": "Trädfällning",
+          "normal": "Kvistning",
+          "hard": "Grip"
         }
       },
       "en": {
         "word": "Forestry harvester",
         "aliases": [],
         "hints": {
-          "easy": "Forestry machine that fells trees, removes branches, and cuts trunks to length",
-          "normal": "The head measures the stem as rollers feed it through",
-          "hard": "It leaves cut lengths between the standing trees"
+          "easy": "Felling",
+          "normal": "Delimbing",
+          "hard": "Grapple"
         }
       }
     }
@@ -3736,25 +3736,25 @@
     "tags": [
       "work"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Skotare",
         "aliases": [],
         "hints": {
-          "easy": "Skogsmaskin som bär staplade stockar från hygge till väg",
-          "normal": "En griparm lägger lasten mellan uppstående stöttor",
-          "hard": "Virket ligger ovan jord hela vägen ut"
+          "easy": "Timmer",
+          "normal": "Lastning",
+          "hard": "Skotning"
         }
       },
       "en": {
         "word": "Forwarder",
         "aliases": [],
         "hints": {
-          "easy": "Forestry vehicle that carries stacked logs from a cutting site to the road",
-          "normal": "A grapple stacks the load between upright stakes",
-          "hard": "Timber stays off the ground all the way out"
+          "easy": "Logs",
+          "normal": "Loading",
+          "hard": "Transport"
         }
       }
     }
@@ -3773,18 +3773,18 @@
         "word": "Lunnare",
         "aliases": [],
         "hints": {
-          "easy": "Skogsmaskin som drar stockar längs marken till en uppsamlingsplats",
-          "normal": "Stammarna kan samlas med klämgrip eller vajer",
-          "hard": "En del av lasten släpar efter genom terrängen"
+          "easy": "Timmer",
+          "normal": "Släpning",
+          "hard": "Vinsch"
         }
       },
       "en": {
         "word": "Skidder",
         "aliases": [],
         "hints": {
-          "easy": "Forestry machine that drags felled timber along the ground to a collection point",
-          "normal": "A grapple or cable can gather the stems",
-          "hard": "Part of the load trails along the ground"
+          "easy": "Logs",
+          "normal": "Dragging",
+          "hard": "Winch"
         }
       }
     }
@@ -3803,18 +3803,18 @@
         "word": "Pistmaskin",
         "aliases": [],
         "hints": {
-          "easy": "Bandfordon som jämnar ut snö i skidbackar",
-          "normal": "Fräsen bak lämnar täta parallella ränder",
-          "hard": "Spåren ligger färdiga innan liftarna öppnar"
+          "easy": "Skidbacke",
+          "normal": "Preparering",
+          "hard": "Larvband"
         }
       },
       "en": {
         "word": "Snow groomer",
         "aliases": [],
         "hints": {
-          "easy": "Tracked vehicle that prepares the snow on ski slopes",
-          "normal": "A rear tiller leaves closely spaced stripes",
-          "hard": "Its work is visible before the lifts open"
+          "easy": "Slope",
+          "normal": "Grooming",
+          "hard": "Tracks"
         }
       }
     }
@@ -3833,9 +3833,9 @@
         "word": "Gruvtruck",
         "aliases": [],
         "hints": {
-          "easy": "Mycket stort flakfordon som fraktar brutet berg i en dagbrottsgruva",
-          "normal": "Däcken kan vara högre än en människa",
-          "hard": "En körning kan flytta ett helt lass sprängsten uppför en ramp"
+          "easy": "Gruva",
+          "normal": "Malm",
+          "hard": "Lastkapacitet"
         }
       },
       "en": {
@@ -3844,9 +3844,9 @@
           "Mine haul truck"
         ],
         "hints": {
-          "easy": "Huge off-road hauler that moves broken rock in an open-pit mine",
-          "normal": "The tires can stand taller than a person",
-          "hard": "One trip can haul a load of blasted rock up a ramp"
+          "easy": "Mine",
+          "normal": "Ore",
+          "hard": "Payload"
         }
       }
     }

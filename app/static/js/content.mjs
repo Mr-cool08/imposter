@@ -401,7 +401,7 @@ function checkManifest(manifest) {
   return manifest;
 }
 
-/** Load the manifest through the same endpoint online and offline. */
+/** Load the public category catalog. */
 export async function loadManifest({ fetch: fetcher = globalThis.fetch } = {}) {
   return checkManifest(await requestContent("/api/content/manifest", fetcher));
 }

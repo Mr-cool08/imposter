@@ -1,6 +1,6 @@
 # Imposter Party
 
-**Lita inte på någon.** Ett ordspel för 3–20 personer på en gemensam mobil, med svenska som standard och engelska som alternativ.
+**Lita inte på någon.** Ett ordspel för 3–20 personer som spelas i webbläsaren på en gemensam mobil. Svenska är standardspråk och engelska finns som alternativ.
 
 1. Lägg till spelare och välj spelläge, kategorier och roller.
 2. Skicka runt mobilen. Varje spelare visar sitt privata kort och döljer det innan mobilen lämnas vidare.
@@ -8,7 +8,7 @@
 
 Ni bestämmer själva hur ni ger ledtrådar, diskuterar och avslutar omgången.
 
-Öppna **Spelregler** i sidhuvudet för att läsa om spelstegen, spellägena och rollerna. Sidan går att läsa offline efter att appskalet har sparats.
+Öppna **Spelregler** i sidhuvudet för att läsa om spelstegen, spellägena och rollerna.
 
 **Random Imposters** drar ett antal mellan det lägsta och högsta tal ni väljer. Med sex spelare ger 0 ingen imposter, 5 Reverse och 6 alla som imposters. Välj samma lägsta och högsta tal för ett fast antal. Joker och andra extra roller kan begränsa vilka antal som går att välja.
 
@@ -34,11 +34,9 @@ python3 -m venv .venv
 
 Öppna [http://localhost:5000](http://localhost:5000). Kopiera `.env.example` till `.env` om du vill ändra `APP_NAME`, `HOST` eller `PORT`.
 
-## Offline på mobilen
+## Sparade spelval och egna ordpaket
 
-Öppna **Offline** och spara paket för de kategorier ni valt. När nedladdningen är klar fungerar inställningar, rollkort och avslöjande utan nätverk. Sparade spelarnamn, inställningar och egna ordpaket finns kvar i samma webbläsare. Exportera egna paket som JSON eller CSV för att flytta dem.
-
-Telefonens webbläsare behöver normalt HTTPS för att kunna installera eller spara webbappen offline. `localhost` kan användas vid test på samma enhet. [Offlineguiden](docs/offline.md)
+Inställningar och egna ordpaket sparas i webbläsaren. Spelarnamnen sparas när **Spara spelarnamn** är valt. Öppna **Egna ordpaket** under **Appval** för att exportera egna paket som JSON eller CSV och flytta dem till en annan webbläsare.
 
 ## Tester och GitHub Actions
 
@@ -60,7 +58,7 @@ GitHub Actions kör Python- och JavaScript-tester, innehållsvalidering, webblä
 docker compose up --build -d
 ```
 
-På Linux kan appen även startas med `gunicorn --bind 127.0.0.1:5000 --workers 1 --threads 4 --no-control-socket wsgi:app`. Produktionsstarten har debug avstängt och körs i Docker med ett vanligt användarkonto. Hälsokontrollen finns på `/healthz`. Om mobiltelefoner ska installera appen, servera den via HTTPS med en omvänd proxy. Uppdatera en Compose-installation genom att köra `docker compose up --build -d` på nytt. Webbläsaren kan aktivera den nya offlineversionen mellan omgångar.
+På Linux kan appen även startas med `gunicorn --bind 127.0.0.1:5000 --workers 1 --threads 4 --no-control-socket wsgi:app`. Produktionsstarten har debug avstängt och körs i Docker med ett vanligt användarkonto. Hälsokontrollen finns på `/healthz`. Uppdatera en Compose-installation genom att köra `docker compose up --build -d` på nytt.
 
 ## Ändra spelet
 

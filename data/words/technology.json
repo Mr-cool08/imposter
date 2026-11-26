@@ -6,7 +6,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -15,9 +15,9 @@
           "streckkodsskanner"
         ],
         "hints": {
-          "easy": "Avläser varans kod i kassan",
-          "normal": "Ett pip bekräftar att varan hittades",
-          "hard": "Olika breda linjer blir ett produktnummer"
+          "easy": "Kod",
+          "normal": "Kassa",
+          "hard": "Produktnummer"
         }
       },
       "en": {
@@ -26,9 +26,9 @@
           "barcode reader"
         ],
         "hints": {
-          "easy": "Reads the product code at checkout",
-          "normal": "A beep confirms the item was found",
-          "hard": "Lines of different widths become an item number"
+          "easy": "Code",
+          "normal": "Checkout",
+          "hard": "Widths"
         }
       }
     }
@@ -49,9 +49,9 @@
           "kortläsare"
         ],
         "hints": {
-          "easy": "Tar emot kortet från en kamera eller inspelare",
-          "normal": "Flyttar material när enheten saknar rätt fack",
-          "hard": "En smal springa tar hela bildserien"
+          "easy": "Kamera",
+          "normal": "Överföring",
+          "hard": "Bildserie"
         }
       },
       "en": {
@@ -61,9 +61,9 @@
           "card reader"
         ],
         "hints": {
-          "easy": "Accepts the card from a camera or recorder",
-          "normal": "Transfers files when a device lacks the right slot",
-          "hard": "A narrow opening takes a whole photo shoot"
+          "easy": "Camera",
+          "normal": "Transfer",
+          "hard": "Photos"
         }
       }
     }
@@ -84,9 +84,9 @@
           "bildskärm"
         ],
         "hints": {
-          "easy": "Visar bilden från en dator",
-          "normal": "Upplösningen påverkar hur mycket som ryms",
-          "hard": "Uppdateringsfrekvensen märks när allt rör sig"
+          "easy": "Bild",
+          "normal": "Upplösning",
+          "hard": "Bildfrekvens"
         }
       },
       "en": {
@@ -96,9 +96,9 @@
           "computer display"
         ],
         "hints": {
-          "easy": "Displays the picture sent by a computer",
-          "normal": "Resolution affects how much fits on the screen",
-          "hard": "Refresh rate matters when everything moves"
+          "easy": "Picture",
+          "normal": "Resolution",
+          "hard": "Refresh"
         }
       }
     }
@@ -119,9 +119,9 @@
           "mus"
         ],
         "hints": {
-          "easy": "Styr pilen när handen glider över bordet",
-          "normal": "Rullhjulet flyttar sidan upp och ned",
-          "hard": "Ett litet ljus känner av underlaget"
+          "easy": "Pekare",
+          "normal": "Rullhjul",
+          "hard": "Underlag"
         }
       },
       "en": {
@@ -130,9 +130,9 @@
           "mouse"
         ],
         "hints": {
-          "easy": "Moves the pointer as your hand slides across the desk",
-          "normal": "Its wheel scrolls through a page",
-          "hard": "A light underneath can track the surface"
+          "easy": "Pointer",
+          "normal": "Wheel",
+          "hard": "Mousepad"
         }
       }
     }
@@ -144,7 +144,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -153,9 +153,9 @@
           "CPU"
         ],
         "hints": {
-          "easy": "Utför datorprogrammets instruktioner",
-          "normal": "Kärnorna delar på arbetet",
-          "hard": "Klockan slår miljarder gånger i sekunden"
+          "easy": "Instruktioner",
+          "normal": "Kärnor",
+          "hard": "Transistorer"
         }
       },
       "en": {
@@ -165,9 +165,9 @@
           "central processing unit"
         ],
         "hints": {
-          "easy": "Executes a program's instructions",
-          "normal": "Cores share the workload",
-          "hard": "Its clock can tick billions of times a second"
+          "easy": "Instructions",
+          "normal": "Cores",
+          "hard": "Transistors"
         }
       }
     }
@@ -186,18 +186,18 @@
         "word": "stationär dator",
         "aliases": [],
         "hints": {
-          "easy": "Skärm och tangentbord kopplas in separat",
-          "normal": "Står ofta under skrivbordet",
-          "hard": "Fler kort får plats i lådan"
+          "easy": "Tangentbord",
+          "normal": "Skrivbord",
+          "hard": "Expansionskort"
         }
       },
       "en": {
         "word": "desktop computer",
         "aliases": [],
         "hints": {
-          "easy": "Usually needs a separate monitor",
-          "normal": "Often lives under the desk",
-          "hard": "There is room for expansion cards"
+          "easy": "Keyboard",
+          "normal": "Desk",
+          "hard": "Expansion"
         }
       }
     }
@@ -218,9 +218,9 @@
           "DP"
         ],
         "hints": {
-          "easy": "Digital anslutning för datorskärmar",
-          "normal": "Standardkontakten har ett avfasat hörn",
-          "hard": "Vissa kontakter måste lösas med en knapp"
+          "easy": "Bildsignal",
+          "normal": "Kontakt",
+          "hard": "Skärm"
         }
       },
       "en": {
@@ -229,9 +229,9 @@
           "DP"
         ],
         "hints": {
-          "easy": "A digital connection for computer monitors",
-          "normal": "The standard plug has one bevelled corner",
-          "hard": "Some connectors need a button pressed to release them"
+          "easy": "Signal",
+          "normal": "Connector",
+          "hard": "Monitor"
         }
       }
     }
@@ -252,9 +252,9 @@
           "docka"
         ],
         "hints": {
-          "easy": "En bärbar dator får skärm och skrivbordstillbehör med en inkoppling",
-          "normal": "Kan även ladda datorn medan du jobbar",
-          "hard": "Skrivbordet behåller alla sladdar när datorn följer med"
+          "easy": "Tillbehör",
+          "normal": "Laddning",
+          "hard": "Sladdar"
         }
       },
       "en": {
@@ -263,9 +263,9 @@
           "laptop dock"
         ],
         "hints": {
-          "easy": "One connection gives a laptop its desk peripherals",
-          "normal": "It may charge the laptop while you work",
-          "hard": "The desk keeps all its cables when you leave"
+          "easy": "Peripherals",
+          "normal": "Charging",
+          "hard": "Cables"
         }
       }
     }
@@ -286,9 +286,9 @@
           "minnessticka"
         ],
         "hints": {
-          "easy": "Filer följer med på en liten sticka med datorplugg",
-          "normal": "Kopplas direkt i porten utan sladd",
-          "hard": "Kan bära en presentation på nyckelknippan"
+          "easy": "Filer",
+          "normal": "Port",
+          "hard": "Presentation"
         }
       },
       "en": {
@@ -299,9 +299,9 @@
           "USB stick"
         ],
         "hints": {
-          "easy": "A little plug-in stick carries files",
-          "normal": "Plugs straight into a port without a cable",
-          "hard": "Can carry a presentation on a keyring"
+          "easy": "Files",
+          "normal": "Port",
+          "hard": "Presentation"
         }
       }
     }
@@ -320,9 +320,9 @@
         "word": "diskett",
         "aliases": [],
         "hints": {
-          "easy": "Äldre magnetiskt lagringsmedium för datorfiler",
-          "normal": "En liten plastflik kan skydda mot överskrivning",
-          "hard": "Den blev en ikon för att spara"
+          "easy": "Lagring",
+          "normal": "Överskrivning",
+          "hard": "Ikon"
         }
       },
       "en": {
@@ -332,9 +332,9 @@
           "diskette"
         ],
         "hints": {
-          "easy": "An old magnetic medium for saving computer files",
-          "normal": "A tiny tab can protect it against overwriting",
-          "hard": "Its shape became the save icon"
+          "easy": "Storage",
+          "normal": "Overwriting",
+          "hard": "Icon"
         }
       }
     }
@@ -346,16 +346,16 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "grafikkort",
         "aliases": [],
         "hints": {
-          "easy": "Ritar upp avancerade 3D-bilder",
-          "normal": "Eget minne för bland annat texturer",
-          "hard": "Fläktarna går när många trianglar ska ritas"
+          "easy": "Rendering",
+          "normal": "Texturer",
+          "hard": "Fläktar"
         }
       },
       "en": {
@@ -364,9 +364,9 @@
           "video card"
         ],
         "hints": {
-          "easy": "Renders complex 3D scenes",
-          "normal": "Can have dedicated memory for textures",
-          "hard": "Fans spin up when triangles pile up"
+          "easy": "Rendering",
+          "normal": "Textures",
+          "hard": "Triangles"
         }
       }
     }
@@ -378,7 +378,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -388,9 +388,9 @@
           "HDD"
         ],
         "hints": {
-          "easy": "Filerna lagras magnetiskt på snurrande skivor",
-          "normal": "Ett läshuvud rör sig över ytan",
-          "hard": "Arbetet kan höras som små klick"
+          "easy": "Skivor",
+          "normal": "Läshuvud",
+          "hard": "Magnetism"
         }
       },
       "en": {
@@ -400,9 +400,9 @@
           "mechanical hard drive"
         ],
         "hints": {
-          "easy": "Stores files on spinning magnetic platters",
-          "normal": "A head travels just above the surface",
-          "hard": "Tiny clicks can give away its activity"
+          "easy": "Platters",
+          "normal": "Spindles",
+          "hard": "Magnetism"
         }
       }
     }
@@ -421,9 +421,9 @@
         "word": "kylfläns",
         "aliases": [],
         "hints": {
-          "easy": "Metallribbor leder bort värme från ett chip",
-          "normal": "Mer yta ger bättre värmeavgivning",
-          "hard": "Ser ut som en rad små staket"
+          "easy": "Metallribbor",
+          "normal": "Värmeavgivning",
+          "hard": "Flänsar"
         }
       },
       "en": {
@@ -432,9 +432,9 @@
           "heatsink"
         ],
         "hints": {
-          "easy": "Metal fins draw heat away from a chip",
-          "normal": "Extra surface area helps heat escape",
-          "hard": "It can look like a row of tiny fences"
+          "easy": "Fins",
+          "normal": "Cooling",
+          "hard": "Metal"
         }
       }
     }
@@ -455,9 +455,9 @@
           "bläckkassett"
         ],
         "hints": {
-          "easy": "Innehåller flytande färg till skrivaren",
-          "normal": "Munstyckena kan torka igen om den står länge",
-          "hard": "En saknad färg kan stoppa en hel utskrift"
+          "easy": "Skrivare",
+          "normal": "Munstycken",
+          "hard": "Utskrift"
         }
       },
       "en": {
@@ -466,9 +466,9 @@
           "printer ink cartridge"
         ],
         "hints": {
-          "easy": "Holds liquid colour for a printer",
-          "normal": "Nozzles can dry up after a long wait",
-          "hard": "One missing colour may stop a whole print job"
+          "easy": "Printer",
+          "normal": "Nozzles",
+          "hard": "Liquid"
         }
       }
     }
@@ -487,18 +487,18 @@
         "word": "tangentbord",
         "aliases": [],
         "hints": {
-          "easy": "Har en lång knapp för mellanslag",
-          "normal": "Bokstavsraderna kan se olika ut mellan länder",
-          "hard": "Händerna vilar vid de små upphöjningarna"
+          "easy": "Bokstäver",
+          "normal": "Mellanslag",
+          "hard": "Fingrar"
         }
       },
       "en": {
         "word": "keyboard",
         "aliases": [],
         "hints": {
-          "easy": "The long button inserts a space",
-          "normal": "Letter layouts change between countries",
-          "hard": "Small raised marks guide resting fingers"
+          "easy": "Letters",
+          "normal": "Spacebar",
+          "hard": "Fingers"
         }
       }
     }
@@ -519,18 +519,18 @@
           "tangentkåpa"
         ],
         "hints": {
-          "easy": "Den synliga plastdelen över en tangentmekanism",
-          "normal": "Kan bytas för att ge knapparna annan färg",
-          "hard": "Bokstaven och fingertoppen möts på ovansidan"
+          "easy": "Tangentmekanism",
+          "normal": "Knapparna",
+          "hard": "Fingertoppen"
         }
       },
       "en": {
         "word": "keycap",
         "aliases": [],
         "hints": {
-          "easy": "The visible plastic top above a key mechanism",
-          "normal": "Swap it out to change the colour of the keys",
-          "hard": "The printed letter meets the fingertip here"
+          "easy": "Mechanism",
+          "normal": "Swap",
+          "hard": "Letter"
         }
       }
     }
@@ -551,9 +551,9 @@
           "KVM-switch"
         ],
         "hints": {
-          "easy": "Delar bildskärm, tangentbord och mus mellan datorer",
-          "normal": "En knapp byter vilken maskin som får signalerna",
-          "hard": "Ett skrivbord räcker för flera system"
+          "easy": "Tangentbord",
+          "normal": "Signalerna",
+          "hard": "Skrivbord"
         }
       },
       "en": {
@@ -562,9 +562,9 @@
           "KVM"
         ],
         "hints": {
-          "easy": "Shares a monitor, keyboard and mouse between computers",
-          "normal": "A button changes which machine gets the signals",
-          "hard": "One desk can serve several systems"
+          "easy": "Keyboard",
+          "normal": "Signals",
+          "hard": "Systems"
         }
       }
     }
@@ -585,9 +585,9 @@
           "laptop"
         ],
         "hints": {
-          "easy": "Skärmen fälls ned över tangentbordet",
-          "normal": "Fungerar när vägguttaget är långt borta",
-          "hard": "Gångjärnet följer med på tåget"
+          "easy": "Skärm",
+          "normal": "Ström",
+          "hard": "Gångjärn"
         }
       },
       "en": {
@@ -596,9 +596,9 @@
           "notebook computer"
         ],
         "hints": {
-          "easy": "Its screen folds down over the keys",
-          "normal": "Battery power keeps it usable on the move",
-          "hard": "The hinge goes along on the train"
+          "easy": "Screen",
+          "normal": "Power",
+          "hard": "Hinge"
         }
       }
     }
@@ -610,25 +610,25 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "minneskort",
         "aliases": [],
         "hints": {
-          "easy": "Lagrar bilder i en liten löstagbar plastbit",
-          "normal": "Går att flytta från kameran till datorn",
-          "hard": "En fasad kant visar vilket håll som passar"
+          "easy": "Kamera",
+          "normal": "Lagring",
+          "hard": "Foton"
         }
       },
       "en": {
         "word": "memory card",
         "aliases": [],
         "hints": {
-          "easy": "A removable chip stores a camera's pictures",
-          "normal": "Can travel from a camera to a computer",
-          "hard": "A clipped corner helps it go in the right way"
+          "easy": "Camera",
+          "normal": "Storage",
+          "hard": "Photos"
         }
       }
     }
@@ -649,9 +649,9 @@
           "systemkort"
         ],
         "hints": {
-          "easy": "Här sitter sockeln för processorn",
-          "normal": "Datorns kort och minnen möts här",
-          "hard": "Kopparspåren binder ihop maskinen"
+          "easy": "Processorn",
+          "normal": "Minnen",
+          "hard": "Kopparspåren"
         }
       },
       "en": {
@@ -660,9 +660,9 @@
           "mainboard"
         ],
         "hints": {
-          "easy": "The CPU socket is mounted here",
-          "normal": "Memory and expansion cards meet on it",
-          "hard": "Copper traces tie the machine together"
+          "easy": "CPU",
+          "normal": "Expansion",
+          "hard": "Traces"
         }
       }
     }
@@ -683,9 +683,9 @@
           "skivläsare"
         ],
         "hints": {
-          "easy": "Använder laser för att läsa skivor",
-          "normal": "Släden kan matas ut med en knapp",
-          "hard": "Jobbar med en spiral av små märken"
+          "easy": "Laser",
+          "normal": "Släde",
+          "hard": "Spiral"
         }
       },
       "en": {
@@ -695,9 +695,9 @@
           "disc drive"
         ],
         "hints": {
-          "easy": "Uses a laser to read discs",
-          "normal": "A button may eject the loading tray",
-          "hard": "Follows a spiral of tiny marks"
+          "easy": "Laser",
+          "normal": "Tray",
+          "hard": "Spiral"
         }
       }
     }
@@ -709,7 +709,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -718,9 +718,9 @@
           "chassi"
         ],
         "hints": {
-          "easy": "Höljet som alla datordelar byggs in i",
-          "normal": "Sidopanelen öppnas före ett komponentbyte",
-          "hard": "Luftflödet påverkas av var hålen sitter"
+          "easy": "Datordelar",
+          "normal": "Komponentbyte",
+          "hard": "Luftflödet"
         }
       },
       "en": {
@@ -729,9 +729,9 @@
           "PC case"
         ],
         "hints": {
-          "easy": "The enclosure that holds the PC parts",
-          "normal": "A side panel comes off before an upgrade",
-          "hard": "Its vents shape the path air takes"
+          "easy": "Enclosure",
+          "normal": "Panel",
+          "hard": "Vents"
         }
       }
     }
@@ -743,7 +743,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -752,9 +752,9 @@
           "chassifläkt"
         ],
         "hints": {
-          "easy": "Bladen flyttar varm luft ur chassit",
-          "normal": "Varvtalet stiger under tung belastning",
-          "hard": "Damm samlas runt den snurrande ramen"
+          "easy": "Chassit",
+          "normal": "Belastning",
+          "hard": "Ramen"
         }
       },
       "en": {
@@ -764,9 +764,9 @@
           "PC fan"
         ],
         "hints": {
-          "easy": "Its blades move hot air out of the case",
-          "normal": "Speeds up when the machine works harder",
-          "hard": "Dust can gather around its spinning frame"
+          "easy": "Blades",
+          "normal": "Speeds",
+          "hard": "Spinning"
         }
       }
     }
@@ -787,9 +787,9 @@
           "nätaggregat"
         ],
         "hints": {
-          "easy": "Omvandlar vägguttagets ström för datorn",
-          "normal": "En bunt kablar matar bland annat moderkortet",
-          "hard": "Wattvärdet sätter gränsen för komponenterna"
+          "easy": "Vägguttagets",
+          "normal": "Moderkortet",
+          "hard": "Komponenterna"
         }
       },
       "en": {
@@ -799,9 +799,9 @@
           "power supply unit"
         ],
         "hints": {
-          "easy": "Converts wall power for a computer's internals",
-          "normal": "A bundle of leads supplies the motherboard and other parts",
-          "hard": "Its wattage limits the hardware you can run"
+          "easy": "Internals",
+          "normal": "Motherboard",
+          "hard": "Wattage"
         }
       }
     }
@@ -820,18 +820,18 @@
         "word": "skrivare",
         "aliases": [],
         "hints": {
-          "easy": "Gör ett digitalt dokument till text på papper",
-          "normal": "Ett snett ark kan stoppa hela jobbet",
-          "hard": "Utskriftskön växer när magasinet är tomt"
+          "easy": "Papper",
+          "normal": "Bläck",
+          "hard": "Utskriftskö"
         }
       },
       "en": {
         "word": "printer",
         "aliases": [],
         "hints": {
-          "easy": "Puts a digital document onto paper",
-          "normal": "One skewed sheet can stop the job",
-          "hard": "The queue grows when the tray runs out"
+          "easy": "Paper",
+          "normal": "Ink",
+          "hard": "Queue"
         }
       }
     }
@@ -843,7 +843,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -852,9 +852,9 @@
           "RAM"
         ],
         "hints": {
-          "easy": "Håller information som datorn använder just nu",
-          "normal": "Innehållet försvinner när strömmen bryts",
-          "hard": "Fler öppna flikar fyller utrymmet"
+          "easy": "Arbetsyta",
+          "normal": "Ström",
+          "hard": "Flikar"
         }
       },
       "en": {
@@ -863,9 +863,9 @@
           "random-access memory"
         ],
         "hints": {
-          "easy": "Holds data the computer is using right now",
-          "normal": "Its contents vanish when power goes off",
-          "hard": "Open tabs can crowd it out"
+          "easy": "Workspace",
+          "normal": "Power",
+          "hard": "Tabs"
         }
       }
     }
@@ -877,7 +877,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -886,9 +886,9 @@
           "scanner"
         ],
         "hints": {
-          "easy": "Gör ett pappersdokument till en digital bild",
-          "normal": "Sidan läggs ofta mot en glasskiva",
-          "hard": "En ljuslinje färdas under originalet"
+          "easy": "Dokument",
+          "normal": "Glasskiva",
+          "hard": "Ljuslinje"
         }
       },
       "en": {
@@ -897,9 +897,9 @@
           "document scanner"
         ],
         "hints": {
-          "easy": "Turns a paper document into a digital image",
-          "normal": "The page often lies face down on glass",
-          "hard": "A line of light travels beneath the original"
+          "easy": "Documents",
+          "normal": "Glass",
+          "hard": "Light"
         }
       }
     }
@@ -921,9 +921,9 @@
           "COM-port"
         ],
         "hints": {
-          "easy": "Äldre datoruttag som skickar bitar en i taget",
-          "normal": "Användes ofta till modem och styrutrustning",
-          "hard": "En av de klassiska varianterna har nio stift"
+          "easy": "Datoruttag",
+          "normal": "Styrutrustning",
+          "hard": "Varianterna"
         }
       },
       "en": {
@@ -932,9 +932,9 @@
           "COM port"
         ],
         "hints": {
-          "easy": "An older computer connection that sends bits one at a time",
-          "normal": "Often used for modems and control equipment",
-          "hard": "One classic version exposes nine pins"
+          "easy": "Connection",
+          "normal": "Modems",
+          "hard": "Exposes"
         }
       }
     }
@@ -946,7 +946,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -955,9 +955,9 @@
           "SSD-enhet"
         ],
         "hints": {
-          "easy": "Lagrar filer utan rörliga delar",
-          "normal": "Ger ofta snabbare datorstart",
-          "hard": "Tyst även när allt skrivs om"
+          "easy": "Lagring",
+          "normal": "Starttid",
+          "hard": "Tystnad"
         }
       },
       "en": {
@@ -966,9 +966,9 @@
           "SSD"
         ],
         "hints": {
-          "easy": "Stores files with no moving parts",
-          "normal": "Often makes booting quicker",
-          "hard": "Stays silent when its contents change"
+          "easy": "Storage",
+          "normal": "Booting",
+          "hard": "Silence"
         }
       }
     }
@@ -987,9 +987,9 @@
         "word": "ljudkort",
         "aliases": [],
         "hints": {
-          "easy": "Sköter datorns in- och utgående ljudsignaler",
-          "normal": "Där kan mikrofonen och högtalarna anslutas",
-          "hard": "Extrajack i en kortplats"
+          "easy": "Ljudsignaler",
+          "normal": "Högtalarna",
+          "hard": "Kortplats"
         }
       },
       "en": {
@@ -998,9 +998,9 @@
           "audio card"
         ],
         "hints": {
-          "easy": "Handles a computer's recording and playback signals",
-          "normal": "Can provide sockets for speakers and a mic",
-          "hard": "Extra jacks from an expansion slot"
+          "easy": "Recording",
+          "normal": "Speakers",
+          "hard": "Jacks"
         }
       }
     }
@@ -1012,7 +1012,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1021,9 +1021,9 @@
           "stylus"
         ],
         "hints": {
-          "easy": "Ritar direkt på en pekskärm",
-          "normal": "Spetsen kan känna hur hårt du trycker",
-          "hard": "Handstilen syns utan en droppe bläck"
+          "easy": "Pekskärm",
+          "normal": "Tryck",
+          "hard": "Handstil"
         }
       },
       "en": {
@@ -1032,9 +1032,9 @@
           "digital pen"
         ],
         "hints": {
-          "easy": "Draws directly on a touchscreen",
-          "normal": "The tip may sense how hard you press",
-          "hard": "Leaves handwriting without a drop of ink"
+          "easy": "Touchscreen",
+          "normal": "Pressure",
+          "hard": "Handwriting"
         }
       }
     }
@@ -1053,9 +1053,9 @@
         "word": "surfplatta",
         "aliases": [],
         "hints": {
-          "easy": "Stor pekskärm som hålls i handen",
-          "normal": "Vanlig för film i knät",
-          "hard": "Bokformat utan pärmar"
+          "easy": "Pekskärm",
+          "normal": "Film",
+          "hard": "Bokformat"
         }
       },
       "en": {
@@ -1064,9 +1064,9 @@
           "tablet computer"
         ],
         "hints": {
-          "easy": "A handheld touchscreen bigger than a phone",
-          "normal": "Good for watching video on your lap",
-          "hard": "Book-shaped without a spine"
+          "easy": "Touchscreen",
+          "normal": "Films",
+          "hard": "Reading"
         }
       }
     }
@@ -1087,9 +1087,9 @@
           "värmeledningspasta"
         ],
         "hints": {
-          "easy": "Ett tunt lager stryks mellan chip och kylare",
-          "normal": "Fyller ut mikroskopiska ojämnheter",
-          "hard": "En klick räcker ofta vid monteringen"
+          "easy": "Kylare",
+          "normal": "Ojämnheter",
+          "hard": "Monteringen"
         }
       },
       "en": {
@@ -1098,9 +1098,9 @@
           "thermal compound"
         ],
         "hints": {
-          "easy": "A thin smear sits between the chip and cooler",
-          "normal": "Fills microscopic surface gaps",
-          "hard": "A small dab often does the job"
+          "easy": "Smear",
+          "normal": "Microscopic",
+          "hard": "Dab"
         }
       }
     }
@@ -1121,18 +1121,18 @@
           "tredimensionell skrivare"
         ],
         "hints": {
-          "easy": "Bygger ett föremål lager för lager från en fil",
-          "normal": "En plasttråd kan smältas i munstycket",
-          "hard": "Stöd måste ibland brytas loss efteråt"
+          "easy": "Lager",
+          "normal": "Plasttråd",
+          "hard": "Brytas"
         }
       },
       "en": {
         "word": "3D printer",
         "aliases": [],
         "hints": {
-          "easy": "Builds an object from a file one layer at a time",
-          "normal": "A nozzle may melt a strand of plastic",
-          "hard": "Temporary supports sometimes snap off afterwards"
+          "easy": "Layer",
+          "normal": "Nozzle",
+          "hard": "Temporary"
         }
       }
     }
@@ -1153,9 +1153,9 @@
           "lasertoner"
         ],
         "hints": {
-          "easy": "Innehåller pulvret till en laserskrivare",
-          "normal": "Byts när sidorna börjar blekna",
-          "hard": "Värme fäster färgen på arket"
+          "easy": "Laserskrivare",
+          "normal": "Sidorna",
+          "hard": "Fäster"
         }
       },
       "en": {
@@ -1164,9 +1164,9 @@
           "laser toner cartridge"
         ],
         "hints": {
-          "easy": "Holds the powder for a laser printer",
-          "normal": "Gets replaced when pages start to fade",
-          "hard": "Heat fixes the colour onto the sheet"
+          "easy": "Printer",
+          "normal": "Replaced",
+          "hard": "Fixes"
         }
       }
     }
@@ -1178,7 +1178,7 @@
     "tags": [
       "computing"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1187,9 +1187,9 @@
           "pekplatta för dator"
         ],
         "hints": {
-          "easy": "Ytan under tangenterna styr skärmens pekare",
-          "normal": "Två fingrar kan rulla sidan",
-          "hard": "En liten rektangel sparar plats på tåget"
+          "easy": "Pekare",
+          "normal": "Fingrar",
+          "hard": "Rektangel"
         }
       },
       "en": {
@@ -1198,9 +1198,9 @@
           "trackpad"
         ],
         "hints": {
-          "easy": "The pad below the keys steers the pointer",
-          "normal": "Two fingers can scroll a page",
-          "hard": "A small rectangle saves space on the train"
+          "easy": "Pointer",
+          "normal": "Fingers",
+          "hard": "Rectangle"
         }
       }
     }
@@ -1221,18 +1221,18 @@
           "trackball"
         ],
         "hints": {
-          "easy": "Pekaren styrs genom att snurra på en kula",
-          "normal": "Själva enheten står still på skrivbordet",
-          "hard": "Tummen kan göra hela förflyttningen"
+          "easy": "Pekaren",
+          "normal": "Enheten",
+          "hard": "Förflyttningen"
         }
       },
       "en": {
         "word": "trackball",
         "aliases": [],
         "hints": {
-          "easy": "Roll a ball to steer the cursor",
-          "normal": "The base stays in one place on the desk",
-          "hard": "A thumb can do all the travelling"
+          "easy": "Ball",
+          "normal": "Base",
+          "hard": "Thumb"
         }
       }
     }
@@ -1244,7 +1244,7 @@
     "tags": [
       "computing"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1254,9 +1254,9 @@
           "avbrottsfri strömförsörjning"
         ],
         "hints": {
-          "easy": "Håller datorn igång med batteri vid strömavbrott",
-          "normal": "Ger tid att spara och stänga av säkert",
-          "hard": "Piper ibland när resten av rummet slocknar"
+          "easy": "Strömavbrott",
+          "normal": "Stänga",
+          "hard": "Slocknar"
         }
       },
       "en": {
@@ -1265,9 +1265,9 @@
           "UPS"
         ],
         "hints": {
-          "easy": "Keeps a computer running on battery during an outage",
-          "normal": "Buys time to save files and shut down safely",
-          "hard": "May beep when the rest of the room goes dark"
+          "easy": "Computer",
+          "normal": "Save",
+          "hard": "Beep"
         }
       }
     }
@@ -1286,9 +1286,9 @@
         "word": "USB-hubb",
         "aliases": [],
         "hints": {
-          "easy": "Gör en datorport till flera anslutningar",
-          "normal": "Samlar tillbehör i samma lilla dosa",
-          "hard": "En kabel delar på jobbet med flera prylar"
+          "easy": "Anslutningar",
+          "normal": "Tillbehör",
+          "hard": "Kabel"
         }
       },
       "en": {
@@ -1297,9 +1297,9 @@
           "USB splitter"
         ],
         "hints": {
-          "easy": "Turns one USB connection into several",
-          "normal": "Lets several accessories share a small box",
-          "hard": "One upstream cable does the work for many"
+          "easy": "Connection",
+          "normal": "Accessories",
+          "hard": "Upstream"
         }
       }
     }
@@ -1320,9 +1320,9 @@
           "VGA"
         ],
         "hints": {
-          "easy": "Äldre bildkontakt med tre rader stift",
-          "normal": "Små skruvar håller ofta kabeln på plats",
-          "hard": "Det blå uttaget ger en analog signal"
+          "easy": "Bildkontakt",
+          "normal": "Skruvar",
+          "hard": "Uttaget"
         }
       },
       "en": {
@@ -1332,9 +1332,9 @@
           "VGA"
         ],
         "hints": {
-          "easy": "An old video plug with three rows of pins",
-          "normal": "Small screws often hold the cable in place",
-          "hard": "The blue socket carries an analogue signal"
+          "easy": "Video",
+          "normal": "Screws",
+          "hard": "Analogue"
         }
       }
     }
@@ -1355,9 +1355,9 @@
           "webbkamera för dator"
         ],
         "hints": {
-          "easy": "Visar ditt ansikte i videosamtalet",
-          "normal": "Sitter ofta mitt ovanför skärmen",
-          "hard": "Den lilla lampan kan tändas när du kopplar upp dig"
+          "easy": "Videosamtal",
+          "normal": "Skärm",
+          "hard": "Lampa"
         }
       },
       "en": {
@@ -1366,9 +1366,9 @@
           "web camera"
         ],
         "hints": {
-          "easy": "Shows your face on a video call",
-          "normal": "Often sits at the top centre of a screen",
-          "hard": "A tiny light may come on when you join"
+          "easy": "Videoconference",
+          "normal": "Screen",
+          "hard": "Indicator"
         }
       }
     }
@@ -1389,9 +1389,9 @@
           "kopplingsplatta"
         ],
         "hints": {
-          "easy": "Elektronikprototyper byggs i små hål utan lödning",
-          "normal": "Rader av små hål är förbundna under ytan",
-          "hard": "En mittspringa håller chipets ben åtskilda"
+          "easy": "Elektronikprototyper",
+          "normal": "Förbundna",
+          "hard": "Mittspringa"
         }
       },
       "en": {
@@ -1400,9 +1400,9 @@
           "solderless breadboard"
         ],
         "hints": {
-          "easy": "Builds circuit prototypes with jumpers and no solder",
-          "normal": "Rows of small holes connect beneath the surface",
-          "hard": "A central gap separates the two sides of a chip"
+          "easy": "Jumpers",
+          "normal": "Connect",
+          "hard": "Central"
         }
       }
     }
@@ -1414,25 +1414,25 @@
     "tags": [
       "electronics"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "kondensator",
         "aliases": [],
         "hints": {
-          "easy": "Lagrar elektrisk laddning mellan ledande ytor",
-          "normal": "Kan jämna ut spänningstoppar i en krets",
-          "hard": "Förmågan mäts i farad"
+          "easy": "Laddning",
+          "normal": "Spänningstoppar",
+          "hard": "Farad"
         }
       },
       "en": {
         "word": "capacitor",
         "aliases": [],
         "hints": {
-          "easy": "Stores electric charge between conducting surfaces",
-          "normal": "Can smooth out voltage changes in a circuit",
-          "hard": "Its capacity is measured in farads"
+          "easy": "Conducting",
+          "normal": "Voltage",
+          "hard": "Capacity"
         }
       }
     }
@@ -1453,18 +1453,18 @@
           "dvärgbrytare"
         ],
         "hints": {
-          "easy": "Bryter kretsen vid för hög ström och kan återställas",
-          "normal": "En spak i elcentralen faller till frånläge",
-          "hard": "Går att slå på när felet är löst"
+          "easy": "Överström",
+          "normal": "Elcentral",
+          "hard": "Spak"
         }
       },
       "en": {
         "word": "circuit breaker",
         "aliases": [],
         "hints": {
-          "easy": "Trips at excessive current and can be reset",
-          "normal": "A lever flips towards off in the panel",
-          "hard": "Switches back on after the fault is cleared"
+          "easy": "Overcurrent",
+          "normal": "Panel",
+          "hard": "Lever"
         }
       }
     }
@@ -1485,9 +1485,9 @@
           "koaxkabel"
         ],
         "hints": {
-          "easy": "TV-signal kan gå i en ledare omgiven av en skärm",
-          "normal": "Har mittledaren och ytterledaren kring samma axel",
-          "hard": "En ensam kopparspets sticker ofta fram ur TV-kontakten"
+          "easy": "Antenn",
+          "normal": "Mittledare",
+          "hard": "Kopparspets"
         }
       },
       "en": {
@@ -1497,9 +1497,9 @@
           "coax"
         ],
         "hints": {
-          "easy": "Can carry a TV signal through a shielded centre conductor",
-          "normal": "The inner and outer conductors share one axis",
-          "hard": "A single copper tip often protrudes at the TV plug"
+          "easy": "Aerial",
+          "normal": "Conductor",
+          "hard": "Copper"
         }
       }
     }
@@ -1511,7 +1511,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1520,9 +1520,9 @@
           "knappcell"
         ],
         "hints": {
-          "easy": "Ett litet, runt och platt batteri i klockor och smådosor",
-          "normal": "Pluspolen täcker en stor del av den synliga ytan",
-          "hard": "En silverblank skiva göms under locket"
+          "easy": "Smådosor",
+          "normal": "Pluspolen",
+          "hard": "Silverblank"
         }
       },
       "en": {
@@ -1532,9 +1532,9 @@
           "button cell"
         ],
         "hints": {
-          "easy": "A small, flat, round battery used in tiny gadgets and some watches",
-          "normal": "The positive face takes up most of the visible surface",
-          "hard": "A silvery disc sits hidden under a cover"
+          "easy": "Gadgets",
+          "normal": "Positive",
+          "hard": "Silvery"
         }
       }
     }
@@ -1555,9 +1555,9 @@
           "kvartsoscillator"
         ],
         "hints": {
-          "easy": "Använder kvarts för att ge en stadig elektronisk takt",
-          "normal": "Kan hålla tiden i klockor och styrkretsar",
-          "hard": "En liten metallkapsel bygger på mekanisk resonans"
+          "easy": "Elektronisk",
+          "normal": "Styrkretsar",
+          "hard": "Metallkapsel"
         }
       },
       "en": {
@@ -1566,9 +1566,9 @@
           "quartz oscillator"
         ],
         "hints": {
-          "easy": "Uses quartz to provide a steady electronic beat",
-          "normal": "Helps keep time in clocks and control circuits",
-          "hard": "A tiny metal case relies on mechanical resonance"
+          "easy": "Provide",
+          "normal": "Clocks",
+          "hard": "Resonance"
         }
       }
     }
@@ -1580,25 +1580,25 @@
     "tags": [
       "electronics"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "likriktardiod",
         "aliases": [],
         "hints": {
-          "easy": "Släpper huvudsakligen igenom ström åt ena hållet",
-          "normal": "Kan hjälpa till att göra växelström till likström",
-          "hard": "Ett band på höljet markerar ofta katoden"
+          "easy": "Riktning",
+          "normal": "Växelström",
+          "hard": "Katod"
         }
       },
       "en": {
         "word": "rectifier diode",
         "aliases": [],
         "hints": {
-          "easy": "Mainly lets current pass in one direction",
-          "normal": "Can help turn alternating current into direct current",
-          "hard": "A stripe on the case often marks the cathode"
+          "easy": "Direction",
+          "normal": "Current",
+          "hard": "Stripe"
         }
       }
     }
@@ -1620,9 +1620,9 @@
           "e-bläck"
         ],
         "hints": {
-          "easy": "Flyttar färgade partiklar för att visa text utan bakljus",
-          "normal": "Bilden kan vara kvar när strömmen bryts",
-          "hard": "Solsken fungerar bättre än snabba animationer"
+          "easy": "Bakljus",
+          "normal": "Strömmen",
+          "hard": "Animationer"
         }
       },
       "en": {
@@ -1632,9 +1632,9 @@
           "e-ink display"
         ],
         "hints": {
-          "easy": "Moves coloured particles to show text without a backlight",
-          "normal": "The image can stay put after power is cut",
-          "hard": "Better suited to sunlight than fast animations"
+          "easy": "Particles",
+          "normal": "Image",
+          "hard": "Animations"
         }
       }
     }
@@ -1646,7 +1646,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1655,9 +1655,9 @@
           "e-boksläsare"
         ],
         "hints": {
-          "easy": "Gjord för att läsa digitala böcker",
-          "normal": "Skärmen är ofta lätt att läsa i solljus",
-          "hard": "Hela biblioteket ryms i ett tunt fodral"
+          "easy": "Böcker",
+          "normal": "Solljus",
+          "hard": "Bibliotek"
         }
       },
       "en": {
@@ -1667,9 +1667,9 @@
           "e-book reader"
         ],
         "hints": {
-          "easy": "Designed for reading digital books",
-          "normal": "The screen is often readable in direct sun",
-          "hard": "Fits a whole library into one slim cover"
+          "easy": "Books",
+          "normal": "Sunlight",
+          "hard": "Library"
         }
       }
     }
@@ -1681,7 +1681,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1690,9 +1690,9 @@
           "öronsnäckor"
         ],
         "hints": {
-          "easy": "Små ljudenheter som sitter direkt i öronen",
-          "normal": "Trådlösa varianter bor ofta i ett laddfodral",
-          "hard": "Ett öronproppsliknande par för pendlingen"
+          "easy": "Öron",
+          "normal": "Laddfodral",
+          "hard": "Hörselgång"
         }
       },
       "en": {
@@ -1702,9 +1702,9 @@
           "in-ear headphones"
         ],
         "hints": {
-          "easy": "Tiny audio units that fit right in the ears",
-          "normal": "Wireless pairs often live in a charging case",
-          "hard": "An earplug-sized pair for the commute"
+          "easy": "Ears",
+          "normal": "Charging",
+          "hard": "Earplug"
         }
       }
     }
@@ -1725,9 +1725,9 @@
           "piezosummer"
         ],
         "hints": {
-          "easy": "En liten komponent ger ifrån sig en varningston",
-          "normal": "Kan markera tidens slut i en enkel timer",
-          "hard": "En keramisk skiva kan få luften att vibrera"
+          "easy": "Varning",
+          "normal": "Timer",
+          "hard": "Keramik"
         }
       },
       "en": {
@@ -1737,9 +1737,9 @@
           "piezo buzzer"
         ],
         "hints": {
-          "easy": "A small component gives off a warning tone",
-          "normal": "Can mark the end of a simple timer",
-          "hard": "A ceramic disc can make the air vibrate"
+          "easy": "Warning",
+          "normal": "Timer",
+          "hard": "Ceramic"
         }
       }
     }
@@ -1751,7 +1751,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1760,18 +1760,18 @@
           "smältsäkring"
         ],
         "hints": {
-          "easy": "Bryter strömmen när en tunn tråd smälter",
-          "normal": "Måste bytas efter att den löst ut",
-          "hard": "Tar skadan för att skydda resten av kretsen"
+          "easy": "Överström",
+          "normal": "Ersättning",
+          "hard": "Smälttråd"
         }
       },
       "en": {
         "word": "fuse",
         "aliases": [],
         "hints": {
-          "easy": "Cuts power when a thin wire melts",
-          "normal": "Needs replacement after it has blown",
-          "hard": "Sacrifices itself to protect the rest of the circuit"
+          "easy": "Overcurrent",
+          "normal": "Replacement",
+          "hard": "Filament"
         }
       }
     }
@@ -1783,7 +1783,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1792,9 +1792,9 @@
           "HDMI-kontakt"
         ],
         "hints": {
-          "easy": "En kabel för både digital bild och ljud till teven",
-          "normal": "Ansluter en spelkonsol eller spelare till en skärm",
-          "hard": "Rätt källa väljs när kontakten sitter i"
+          "easy": "Kabel",
+          "normal": "Spelkonsol",
+          "hard": "Bildsignal"
         }
       },
       "en": {
@@ -1803,9 +1803,9 @@
           "HDMI connector"
         ],
         "hints": {
-          "easy": "One cable carries digital picture and sound to a TV",
-          "normal": "Connects a console or player to a display",
-          "hard": "Select the matching input after plugging it in"
+          "easy": "Cable",
+          "normal": "Console",
+          "hard": "Signal"
         }
       }
     }
@@ -1817,7 +1817,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1826,9 +1826,9 @@
           "omslutande hörlurar"
         ],
         "hints": {
-          "easy": "Kåporna täcker öronen och hålls ihop av en båge",
-          "normal": "Ljudet stannar nära huvudet",
-          "hard": "Mjuka kuddar omsluter öronen"
+          "easy": "Kåpor",
+          "normal": "Ljud",
+          "hard": "Bygel"
         }
       },
       "en": {
@@ -1837,9 +1837,9 @@
           "circumaural headphones"
         ],
         "hints": {
-          "easy": "A headband holds cups that cover the ears",
-          "normal": "Keeps the sound close to your head",
-          "hard": "Soft pads surround your ears"
+          "easy": "Earcups",
+          "normal": "Sound",
+          "hard": "Headband"
         }
       }
     }
@@ -1851,7 +1851,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1860,9 +1860,9 @@
           "värmekrympslang"
         ],
         "hints": {
-          "easy": "Plaströr som drar ihop sig kring en kabel när det värms",
-          "normal": "Isolerar ofta en lödd skarv",
-          "hard": "Passar löst på före monteringen och tätt efteråt"
+          "easy": "Plaströr",
+          "normal": "Isolerar",
+          "hard": "Monteringen"
         }
       },
       "en": {
@@ -1872,9 +1872,9 @@
           "heat shrink"
         ],
         "hints": {
-          "easy": "Plastic sleeve that contracts around a cable when heated",
-          "normal": "Often insulates a soldered splice",
-          "hard": "Fits loosely before assembly and snugly afterwards"
+          "easy": "Contracts",
+          "normal": "Insulates",
+          "hard": "Loosely"
         }
       }
     }
@@ -1895,9 +1895,9 @@
           "induktansspole"
         ],
         "hints": {
-          "easy": "Lagrar energi i ett magnetfält kring lindad tråd",
-          "normal": "Motverkar snabba ändringar i strömmen",
-          "hard": "Storleken på induktansen mäts i henry"
+          "easy": "Lindning",
+          "normal": "Magnetfält",
+          "hard": "Ström"
         }
       },
       "en": {
@@ -1906,9 +1906,9 @@
           "coil"
         ],
         "hints": {
-          "easy": "Stores energy in a magnetic field around wound wire",
-          "normal": "Resists fast changes in current",
-          "hard": "Its inductance is measured in henries"
+          "easy": "Winding",
+          "normal": "Magnetism",
+          "hard": "Current"
         }
       }
     }
@@ -1920,7 +1920,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -1929,9 +1929,9 @@
           "LED"
         ],
         "hints": {
-          "easy": "Avger ljus när strömmen går genom halvledaren",
-          "normal": "Små exemplar visar att en apparat är påslagen",
-          "hard": "Fel polaritet kan lämna indikatorn mörk"
+          "easy": "Halvledare",
+          "normal": "Ljus",
+          "hard": "Polaritet"
         }
       },
       "en": {
@@ -1940,9 +1940,9 @@
           "LED"
         ],
         "hints": {
-          "easy": "A semiconductor gives off light when current passes through",
-          "normal": "Small ones show when a device is powered on",
-          "hard": "Wrong polarity can leave an indicator dark"
+          "easy": "Semiconductor",
+          "normal": "Light",
+          "hard": "Polarity"
         }
       }
     }
@@ -1963,9 +1963,9 @@
           "li-jonbatteri"
         ],
         "hints": {
-          "easy": "Uppladdningsbar celltyp i många mobiler och bärbara datorer",
-          "normal": "Lagrar mycket energi i förhållande till vikten",
-          "hard": "Laddningsbärare färdas mellan elektroderna"
+          "easy": "Uppladdningsbar",
+          "normal": "Förhållande",
+          "hard": "Laddningsbärare"
         }
       },
       "en": {
@@ -1974,9 +1974,9 @@
           "Li-ion battery"
         ],
         "hints": {
-          "easy": "A rechargeable cell type in many phones and laptops",
-          "normal": "Stores a lot of energy for its weight",
-          "hard": "Charge carriers travel between the electrodes"
+          "easy": "Rechargeable",
+          "normal": "Energy",
+          "hard": "Carriers"
         }
       }
     }
@@ -1995,18 +1995,18 @@
         "word": "multimeter",
         "aliases": [],
         "hints": {
-          "easy": "Mäter bland annat spänning, ström och resistans",
-          "normal": "Röd och svart mätspets söker kontakt",
-          "hard": "Ett pip kan betyda att en ledning är hel"
+          "easy": "Spänning",
+          "normal": "Mätspets",
+          "hard": "Ledning"
         }
       },
       "en": {
         "word": "multimeter",
         "aliases": [],
         "hints": {
-          "easy": "Measures voltage, current and resistance",
-          "normal": "A red probe and a black probe touch the circuit",
-          "hard": "A beep can mean a wire has continuity"
+          "easy": "Resistance",
+          "normal": "Probe",
+          "hard": "Continuity"
         }
       }
     }
@@ -2018,7 +2018,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2027,9 +2027,9 @@
           "9-voltsbatteri"
         ],
         "hints": {
-          "easy": "Rektangulärt batteri med två poler på samma ovansida",
-          "normal": "Vanligt i äldre brandvarnare och vissa mätinstrument",
-          "hard": "Två olika stora snäppfästen håller kontakten"
+          "easy": "Rektangel",
+          "normal": "Brandvarnare",
+          "hard": "Snäppfäste"
         }
       },
       "en": {
@@ -2039,9 +2039,9 @@
           "nine-volt battery"
         ],
         "hints": {
-          "easy": "A rectangular battery with two terminals on one end",
-          "normal": "Often found in older smoke alarms and some meters",
-          "hard": "Two differently sized snap terminals hold the clip"
+          "easy": "Rectangle",
+          "normal": "Alarm",
+          "hard": "Terminals"
         }
       }
     }
@@ -2062,9 +2062,9 @@
           "OLED"
         ],
         "hints": {
-          "easy": "Bildpunkterna lyser själva utan bakbelysning",
-          "normal": "Avstängda bildpunkter ger djup svärta",
-          "hard": "Skärmen kan byggas mycket tunn av organiska material"
+          "easy": "Bakbelysning",
+          "normal": "Bildpunkter",
+          "hard": "Byggas"
         }
       },
       "en": {
@@ -2073,9 +2073,9 @@
           "organic light-emitting diode display"
         ],
         "hints": {
-          "easy": "Pixels emit their own light without a backlight",
-          "normal": "Turning individual pixels off gives deep blacks",
-          "hard": "Organic layers can make the panel very thin"
+          "easy": "Emit",
+          "normal": "Individual",
+          "hard": "Layers"
         }
       }
     }
@@ -2094,9 +2094,9 @@
         "word": "oscilloskop",
         "aliases": [],
         "hints": {
-          "easy": "Ritar upp en elektrisk signal över tid",
-          "normal": "Vågformen avslöjar pulser och störningar",
-          "hard": "Tidbasen avgör hur snabbt kurvan löper"
+          "easy": "Signal",
+          "normal": "Störningar",
+          "hard": "Tidbasen"
         }
       },
       "en": {
@@ -2105,9 +2105,9 @@
           "scope"
         ],
         "hints": {
-          "easy": "Plots an electrical signal over time",
-          "normal": "Its trace can reveal pulses and noise",
-          "hard": "The time base sets the horizontal scale"
+          "easy": "Electrical",
+          "normal": "Trace",
+          "hard": "Horizontal"
         }
       }
     }
@@ -2126,18 +2126,18 @@
         "word": "fotodiod",
         "aliases": [],
         "hints": {
-          "easy": "En halvledare ger en ström som beror på ljusmängden",
-          "normal": "Kan läsa av pulser från en fjärrkontroll",
-          "hard": "En skugga minskar den elektriska signalen"
+          "easy": "Halvledare",
+          "normal": "Fjärrkontroll",
+          "hard": "Skugga"
         }
       },
       "en": {
         "word": "photodiode",
         "aliases": [],
         "hints": {
-          "easy": "A semiconductor produces current in response to light",
-          "normal": "Can pick up pulses from a remote control",
-          "hard": "A shadow reduces the electrical signal"
+          "easy": "Semiconductor",
+          "normal": "Pulses",
+          "hard": "Reduces"
         }
       }
     }
@@ -2156,9 +2156,9 @@
         "word": "potentiometer",
         "aliases": [],
         "hints": {
-          "easy": "Vridbart motstånd som kan dela en spänning",
-          "normal": "Bakom många äldre volymrattar sitter en sådan",
-          "hard": "En glidkontakt rör sig längs en bana"
+          "easy": "Spänning",
+          "normal": "Volymrattar",
+          "hard": "Glidkontakt"
         }
       },
       "en": {
@@ -2167,9 +2167,9 @@
           "pot"
         ],
         "hints": {
-          "easy": "An adjustable resistor that can divide a voltage",
-          "normal": "Sits behind many old volume knobs",
-          "hard": "A sliding contact moves along a track"
+          "easy": "Resistor",
+          "normal": "Knobs",
+          "hard": "Sliding"
         }
       }
     }
@@ -2181,7 +2181,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2191,9 +2191,9 @@
           "reservbatteri"
         ],
         "hints": {
-          "easy": "Laddar mobilen med ett batteri i fickan",
-          "normal": "Tas fram när resan är längre än batteritiden",
-          "hard": "Måste själv laddas efter ett par räddningar"
+          "easy": "Batteri",
+          "normal": "Laddning",
+          "hard": "Reserv"
         }
       },
       "en": {
@@ -2203,9 +2203,9 @@
           "battery pack"
         ],
         "hints": {
-          "easy": "Charges a phone with a battery you can carry",
-          "normal": "Comes out when the trip outlasts your battery",
-          "hard": "Needs a refill after doing the rescuing"
+          "easy": "Battery",
+          "normal": "Charging",
+          "hard": "Backup"
         }
       }
     }
@@ -2227,9 +2227,9 @@
           "PCB"
         ],
         "hints": {
-          "easy": "Plattan har kopparbanor mellan elektronikdelarna",
-          "normal": "Komponentben kan lödas fast i små hål",
-          "hard": "Ofta gröna ytor med förgrenat mönster"
+          "easy": "Elektronikdelarna",
+          "normal": "Komponentben",
+          "hard": "Förgrenat"
         }
       },
       "en": {
@@ -2238,9 +2238,9 @@
           "PCB"
         ],
         "hints": {
-          "easy": "A flat board carries copper tracks between components",
-          "normal": "Component leads can be soldered into tiny holes",
-          "hard": "Often green with branching routes"
+          "easy": "Components",
+          "normal": "Soldered",
+          "hard": "Branching"
         }
       }
     }
@@ -2252,16 +2252,16 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "projektor",
         "aliases": [],
         "hints": {
-          "easy": "Kastar upp en stor bild på vägg eller duk",
-          "normal": "Bäst svärta när lamporna i rummet släcks",
-          "hard": "En liten lins gör väggen till bildyta"
+          "easy": "Vägg",
+          "normal": "Lins",
+          "hard": "Bild"
         }
       },
       "en": {
@@ -2270,9 +2270,9 @@
           "video projector"
         ],
         "hints": {
-          "easy": "Throws a large picture onto a wall or screen",
-          "normal": "Dark scenes look better with the room lights off",
-          "hard": "A small lens turns the wall into a display"
+          "easy": "Wall",
+          "normal": "Lens",
+          "hard": "Image"
         }
       }
     }
@@ -2284,16 +2284,16 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "tryckknapp",
         "aliases": [],
         "hints": {
-          "easy": "Sluter eller bryter kretsen när fingret trycker",
-          "normal": "En enkel modell fjädrar tillbaka direkt",
-          "hard": "Dörrklockan väntar på en fingertopp"
+          "easy": "Finger",
+          "normal": "Fjäder",
+          "hard": "Dörrklocka"
         }
       },
       "en": {
@@ -2302,9 +2302,9 @@
           "pushbutton"
         ],
         "hints": {
-          "easy": "A finger press opens or closes a circuit",
-          "normal": "A basic version springs back as soon as you let go",
-          "hard": "A doorbell waits for a fingertip"
+          "easy": "Finger",
+          "normal": "Spring",
+          "hard": "Doorbell"
         }
       }
     }
@@ -2326,9 +2326,9 @@
           "tungrelä"
         ],
         "hints": {
-          "easy": "Två metallblad påverkas av en magnet i närheten",
-          "normal": "Kan känna att en dörr öppnas eller stängs",
-          "hard": "De rörliga kontakterna sitter ofta i ett glasrör"
+          "easy": "Metallblad",
+          "normal": "Känna",
+          "hard": "Kontakterna"
         }
       },
       "en": {
@@ -2337,9 +2337,9 @@
           "magnetic reed switch"
         ],
         "hints": {
-          "easy": "A nearby magnet moves two small metal reeds",
-          "normal": "Can detect a door opening or closing",
-          "hard": "The moving contacts often sit inside a glass tube"
+          "easy": "Metal",
+          "normal": "Detect",
+          "hard": "Contacts"
         }
       }
     }
@@ -2360,9 +2360,9 @@
           "elektromekaniskt relä"
         ],
         "hints": {
-          "easy": "En liten ström styr en annan krets via en magnetspole",
-          "normal": "Det hörs ofta ett klick när kontakten växlar",
-          "hard": "Styrsignalen kan hållas elektriskt skild från lasten"
+          "easy": "Magnetspole",
+          "normal": "Kontakten",
+          "hard": "Styrsignalen"
         }
       },
       "en": {
@@ -2371,9 +2371,9 @@
           "electromechanical relay"
         ],
         "hints": {
-          "easy": "A small current uses a coil to switch another circuit",
-          "normal": "You can often hear the contacts click",
-          "hard": "Control and load can stay electrically separate"
+          "easy": "Switch",
+          "normal": "Contacts",
+          "hard": "Separate"
         }
       }
     }
@@ -2394,9 +2394,9 @@
           "fjärris"
         ],
         "hints": {
-          "easy": "Byter kanal eller volym från soffan",
-          "normal": "Många riktas mot apparaten när man trycker",
-          "hard": "Försvinner lätt mellan kuddarna"
+          "easy": "Volym",
+          "normal": "Kanal",
+          "hard": "Soffkudde"
         }
       },
       "en": {
@@ -2405,9 +2405,9 @@
           "TV remote"
         ],
         "hints": {
-          "easy": "Changes the channel or volume from the sofa",
-          "normal": "Many models need to point at the device",
-          "hard": "Easily disappears between cushions"
+          "easy": "Volume",
+          "normal": "Channel",
+          "hard": "Cushion"
         }
       }
     }
@@ -2428,18 +2428,18 @@
           "resistor"
         ],
         "hints": {
-          "easy": "Begränsar hur mycket ström som går genom kretsen",
-          "normal": "Färgringar kan visa värdet",
-          "hard": "Egenskapen anges i ohm"
+          "easy": "Begränsar",
+          "normal": "Färgringar",
+          "hard": "Egenskapen"
         }
       },
       "en": {
         "word": "resistor",
         "aliases": [],
         "hints": {
-          "easy": "Limits the current through a circuit",
-          "normal": "Coloured bands may give its value",
-          "hard": "Its rating is stated in ohms"
+          "easy": "Limits",
+          "normal": "Bands",
+          "hard": "Rating"
         }
       }
     }
@@ -2461,9 +2461,9 @@
           "pulsgivare"
         ],
         "hints": {
-          "easy": "Översätter vridning till avläsbara elektriska signaler",
-          "normal": "Kan tala om hur fort en axel snurrar",
-          "hard": "Med två pulståg går det att fånga riktningen"
+          "easy": "Vridning",
+          "normal": "Tala",
+          "hard": "Riktningen"
         }
       },
       "en": {
@@ -2472,9 +2472,9 @@
           "shaft encoder"
         ],
         "hints": {
-          "easy": "Converts turning motion into readable electrical signals",
-          "normal": "Can tell a controller how fast a shaft spins",
-          "hard": "Two pulse trains can reveal the direction of travel"
+          "easy": "Turning",
+          "normal": "Controller",
+          "hard": "Direction"
         }
       }
     }
@@ -2495,9 +2495,9 @@
           "servo"
         ],
         "hints": {
-          "easy": "En motor styrs mot ett bestämt läge med återkoppling",
-          "normal": "Kan ställa rodret i en radiostyrd modell",
-          "hard": "Korrigerar när axeln har hamnat fel"
+          "easy": "Återkoppling",
+          "normal": "Radiostyrd",
+          "hard": "Korrigerar"
         }
       },
       "en": {
@@ -2506,9 +2506,9 @@
           "servomotor"
         ],
         "hints": {
-          "easy": "Uses feedback to move a motor to a target position",
-          "normal": "Can set the rudder on a radio-controlled model",
-          "hard": "Corrects for an error in shaft position"
+          "easy": "Feedback",
+          "normal": "Rudder",
+          "hard": "Corrects"
         }
       }
     }
@@ -2529,9 +2529,9 @@
           "7-segmentsdisplay"
         ],
         "hints": {
-          "easy": "Sju lysande streck bildar en siffra",
-          "normal": "Vanlig i väckarklockor och köksvågar",
-          "hard": "Alla delar behöver lysa för att visa en åtta"
+          "easy": "Siffra",
+          "normal": "Väckarklockor",
+          "hard": "Lysa"
         }
       },
       "en": {
@@ -2540,9 +2540,9 @@
           "7-segment display"
         ],
         "hints": {
-          "easy": "Seven lit bars form a digit",
-          "normal": "Common in alarm clocks and kitchen scales",
-          "hard": "Displaying an eight lights every part"
+          "easy": "Lit",
+          "normal": "Clocks",
+          "hard": "Displaying"
         }
       }
     }
@@ -2563,18 +2563,18 @@
           "smarttelefon"
         ],
         "hints": {
-          "easy": "En telefon som också kör appar",
-          "normal": "Kamera, karta och chatt i samma ficka",
-          "hard": "Hemskärmen samlar det mesta du gör"
+          "easy": "Appar",
+          "normal": "Kamera",
+          "hard": "Hemskärm"
         }
       },
       "en": {
         "word": "smartphone",
         "aliases": [],
         "hints": {
-          "easy": "A phone that also runs apps",
-          "normal": "Camera and maps fit in the same pocket",
-          "hard": "The home screen gathers most of what you do"
+          "easy": "Apps",
+          "normal": "Camera",
+          "hard": "Screen"
         }
       }
     }
@@ -2593,9 +2593,9 @@
         "word": "smartklocka",
         "aliases": [],
         "hints": {
-          "easy": "Visar aviseringar och träningsdata på handleden",
-          "normal": "Kan spegla meddelanden från mobilen",
-          "hard": "Armen vibrerar när någon ringer"
+          "easy": "Aviseringar",
+          "normal": "Meddelanden",
+          "hard": "Vibrationer"
         }
       },
       "en": {
@@ -2604,9 +2604,9 @@
           "smart watch"
         ],
         "hints": {
-          "easy": "Shows notifications and workouts on your wrist",
-          "normal": "Can mirror messages from your phone",
-          "hard": "Your arm buzzes when someone calls"
+          "easy": "Notifications",
+          "normal": "Messages",
+          "hard": "Vibrations"
         }
       }
     }
@@ -2625,9 +2625,9 @@
         "word": "lödtenn",
         "aliases": [],
         "hints": {
-          "easy": "Metallen smälter och binder ihop elektriska anslutningar",
-          "normal": "Tunn tråd kan matas mot den varma spetsen",
-          "hard": "En liten metallvall kan omge varje komponentben"
+          "easy": "Lödning",
+          "normal": "Anslutningar",
+          "hard": "Mjukmetall"
         }
       },
       "en": {
@@ -2636,9 +2636,9 @@
           "solder wire"
         ],
         "hints": {
-          "easy": "Melts to join electrical connections",
-          "normal": "Often fed as thin wire onto a hot tip",
-          "hard": "A metallic bead may surround each component lead"
+          "easy": "Melting",
+          "normal": "Connections",
+          "hard": "Wire"
         }
       }
     }
@@ -2650,7 +2650,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2660,9 +2660,9 @@
           "ljudlist"
         ],
         "hints": {
-          "easy": "En lång rad högtalare i samma hölje vid teven",
-          "normal": "Monteras ofta precis under bilden",
-          "hard": "En smal list gör dialogen tydligare"
+          "easy": "Högtalare",
+          "normal": "TV",
+          "hard": "Dialog"
         }
       },
       "en": {
@@ -2671,9 +2671,9 @@
           "sound bar"
         ],
         "hints": {
-          "easy": "A long speaker unit made to sit by the TV",
-          "normal": "Often mounted just below the picture",
-          "hard": "A slim strip makes dialogue clearer"
+          "easy": "Speaker",
+          "normal": "Television",
+          "hard": "Dialogue"
         }
       }
     }
@@ -2692,9 +2692,9 @@
         "word": "högtalare",
         "aliases": [],
         "hints": {
-          "easy": "Gör en elektrisk ljudsignal hörbar i rummet",
-          "normal": "Membranet rör sig fram och tillbaka",
-          "hard": "Tunga baskickar kan få lådan att darra"
+          "easy": "Ljudsignal",
+          "normal": "Membranet",
+          "hard": "Baskickar"
         }
       },
       "en": {
@@ -2703,9 +2703,9 @@
           "speaker"
         ],
         "hints": {
-          "easy": "Turns an electrical signal into sound in the room",
-          "normal": "Its diaphragm moves back and forth",
-          "hard": "Low notes can make the cabinet shake"
+          "easy": "Electrical",
+          "normal": "Diaphragm",
+          "hard": "Cabinet"
         }
       }
     }
@@ -2724,18 +2724,18 @@
         "word": "stegmotor",
         "aliases": [],
         "hints": {
-          "easy": "Vrider axeln i bestämda vinklar för varje puls",
-          "normal": "Flyttar ofta utskriftshuvudet i en 3D-skrivare",
-          "hard": "Kan räkna rörelsen från utgångsläget"
+          "easy": "Vrider",
+          "normal": "Utskriftshuvudet",
+          "hard": "Utgångsläget"
         }
       },
       "en": {
         "word": "stepper motor",
         "aliases": [],
         "hints": {
-          "easy": "Turns the shaft a fixed angle for each pulse",
-          "normal": "Often moves a 3D printer's print head",
-          "hard": "Can count movement from a starting point"
+          "easy": "Shaft",
+          "normal": "Printer",
+          "hard": "Movement"
         }
       }
     }
@@ -2758,9 +2758,9 @@
           "televisionsapparat"
         ],
         "hints": {
-          "easy": "Visar program och filmer för hela rummet",
-          "normal": "En fjärrkontroll byter ofta kanal eller källa",
-          "hard": "Soffan står ofta vänd mot den"
+          "easy": "Filmer",
+          "normal": "Fjärrkontroll",
+          "hard": "Soffa"
         }
       },
       "en": {
@@ -2771,9 +2771,9 @@
           "television set"
         ],
         "hints": {
-          "easy": "Shows programmes and films to the whole room",
-          "normal": "The remote can switch channels or inputs",
-          "hard": "The sofa often faces it"
+          "easy": "Films",
+          "normal": "Remote",
+          "hard": "Sofa"
         }
       }
     }
@@ -2794,18 +2794,18 @@
           "temperaturberoende resistor"
         ],
         "hints": {
-          "easy": "Elektriskt motstånd som ändras kraftigt med temperaturen",
-          "normal": "Vanlig i elektroniska termometrar",
-          "hard": "Värdet kan falla när delen värms upp"
+          "easy": "Elektriskt",
+          "normal": "Termometrar",
+          "hard": "Falla"
         }
       },
       "en": {
         "word": "thermistor",
         "aliases": [],
         "hints": {
-          "easy": "Electrical resistance changes strongly with temperature",
-          "normal": "Common inside electronic thermometers",
-          "hard": "The reading can fall as the part warms up"
+          "easy": "Resistance",
+          "normal": "Thermometers",
+          "hard": "Reading"
         }
       }
     }
@@ -2826,18 +2826,18 @@
           "vippomkopplare"
         ],
         "hints": {
-          "easy": "En liten spak väljer mellan två fasta lägen",
-          "normal": "Stannar i valt läge när du släpper den",
-          "hard": "Ett kort vipp uppåt kan ge ström"
+          "easy": "Spak",
+          "normal": "Läge",
+          "hard": "Vipp"
         }
       },
       "en": {
         "word": "toggle switch",
         "aliases": [],
         "hints": {
-          "easy": "A small lever selects one of two fixed positions",
-          "normal": "Stays where you leave it after release",
-          "hard": "A flick upwards can bring the power on"
+          "easy": "Lever",
+          "normal": "Release",
+          "hard": "Upwards"
         }
       }
     }
@@ -2858,9 +2858,9 @@
           "trafo"
         ],
         "hints": {
-          "easy": "Två lindningar kan höja eller sänka växelspänningen",
-          "normal": "Magnetfältet för över energi mellan spolarna",
-          "hard": "Antalet varv avgör spänningsförhållandet"
+          "easy": "Lindningar",
+          "normal": "Spolarna",
+          "hard": "Spänningsförhållandet"
         }
       },
       "en": {
@@ -2869,9 +2869,9 @@
           "electrical transformer"
         ],
         "hints": {
-          "easy": "Two windings can raise or lower AC voltage",
-          "normal": "A magnetic field moves energy between coils",
-          "hard": "The turn count sets the voltage ratio"
+          "easy": "AC",
+          "normal": "Magnetic",
+          "hard": "Ratio"
         }
       }
     }
@@ -2890,18 +2890,18 @@
         "word": "transistor",
         "aliases": [],
         "hints": {
-          "easy": "Halvledare som kan förstärka en signal eller fungera som brytare",
-          "normal": "Ett chip kan rymma miljarder sådana",
-          "hard": "En styrsignal bestämmer hur mycket som får passera"
+          "easy": "Halvledare",
+          "normal": "Miljarder",
+          "hard": "Styrsignal"
         }
       },
       "en": {
         "word": "transistor",
         "aliases": [],
         "hints": {
-          "easy": "A semiconductor that can amplify a signal or act as a switch",
-          "normal": "A chip can hold billions of them",
-          "hard": "A control signal decides how much current gets through"
+          "easy": "Semiconductor",
+          "normal": "Billions",
+          "hard": "Decides"
         }
       }
     }
@@ -2913,7 +2913,7 @@
     "tags": [
       "electronics"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -2922,9 +2922,9 @@
           "USB typ C"
         ],
         "hints": {
-          "easy": "En liten oval kontakt som passar åt båda håll",
-          "normal": "Används för laddning och dataöverföring",
-          "hard": "Sladden har ingen rättvänd sida mot porten"
+          "easy": "Kontakt",
+          "normal": "Laddning",
+          "hard": "Symmetri"
         }
       },
       "en": {
@@ -2933,9 +2933,9 @@
           "USB Type-C"
         ],
         "hints": {
-          "easy": "A small oval connector that works either way up",
-          "normal": "Used for charging and data transfer",
-          "hard": "There is no upside down at this socket"
+          "easy": "Connector",
+          "normal": "Charging",
+          "hard": "Symmetry"
         }
       }
     }
@@ -2956,18 +2956,18 @@
           "spänningsstabilisator"
         ],
         "hints": {
-          "easy": "Håller utspänningen stadig när lasten ändras",
-          "normal": "Skyddar matningen till känsliga kretsar mot variationer",
-          "hard": "Återkoppling ser till att nivån håller sig nära sitt börvärde"
+          "easy": "Utspänningen",
+          "normal": "Matningen",
+          "hard": "Återkoppling"
         }
       },
       "en": {
         "word": "voltage regulator",
         "aliases": [],
         "hints": {
-          "easy": "Keeps output voltage steady as the load changes",
-          "normal": "Feeds sensitive circuits despite a fluctuating input",
-          "hard": "Feedback keeps the level near its set point"
+          "easy": "Output",
+          "normal": "Fluctuating",
+          "hard": "Feedback"
         }
       }
     }
@@ -2988,9 +2988,9 @@
           "USB-laddare"
         ],
         "hints": {
-          "easy": "Sätts i vägguttaget för att fylla ett mobilbatteri",
-          "normal": "Laddkabeln går ofta att lossa från klossen",
-          "hard": "En liten adapter kan förhandla fram högre effekt"
+          "easy": "Vägguttag",
+          "normal": "Laddkabel",
+          "hard": "Adapter"
         }
       },
       "en": {
@@ -3000,9 +3000,9 @@
           "USB wall charger"
         ],
         "hints": {
-          "easy": "Plugs into the mains to refill a phone battery",
-          "normal": "The charging lead often detaches from the block",
-          "hard": "A small adapter can negotiate more power"
+          "easy": "Socket",
+          "normal": "Cable",
+          "hard": "Adapter"
         }
       }
     }
@@ -3024,9 +3024,9 @@
           "Qi-platta"
         ],
         "hints": {
-          "easy": "Ladda mobilen genom att lägga den mot ytan",
-          "normal": "Spolarna måste hamna nära varandra",
-          "hard": "Den rätta fläcken betyder mer än kabeln till mobilen"
+          "easy": "Lägga",
+          "normal": "Spolarna",
+          "hard": "Fläcken"
         }
       },
       "en": {
@@ -3036,9 +3036,9 @@
           "charging mat"
         ],
         "hints": {
-          "easy": "Rest the phone on it to fill the battery",
-          "normal": "The coils need to line up nearby",
-          "hard": "Finding the sweet spot replaces plugging in the phone"
+          "easy": "Battery",
+          "normal": "Coils",
+          "hard": "Plugging"
         }
       }
     }
@@ -3060,9 +3060,9 @@
           "accesspunkt"
         ],
         "hints": {
-          "easy": "Ansluter trådlösa enheter till ett befintligt lokalt nät",
-          "normal": "På kontoret kan den sitta i taket",
-          "hard": "En enda nätverkskabel kan både driva den och bära dess data"
+          "easy": "Trådlöst",
+          "normal": "Kontor",
+          "hard": "Nätverkskabel"
         }
       },
       "en": {
@@ -3072,9 +3072,9 @@
           "WAP"
         ],
         "hints": {
-          "easy": "Links wireless devices to an existing local network",
-          "normal": "It may be mounted on a ceiling in an office",
-          "hard": "One cable can carry both its data and its power"
+          "easy": "Wireless",
+          "normal": "Office",
+          "hard": "Ethernet"
         }
       }
     }
@@ -3086,7 +3086,7 @@
     "tags": [
       "networking"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3095,9 +3095,9 @@
           "flygläge"
         ],
         "hints": {
-          "easy": "Ett läge som stänger av mobilens radioanslutning till master",
-          "normal": "Mobilen kan sakna täckning redan innan planet lyfter",
-          "hard": "Symbolen syns ofta bredvid telefonens batteri"
+          "easy": "Radiosignaler",
+          "normal": "Täckning",
+          "hard": "Symbol"
         }
       },
       "en": {
@@ -3106,9 +3106,9 @@
           "flight mode"
         ],
         "hints": {
-          "easy": "Turns off your phone's connection to cell towers",
-          "normal": "The phone may lose service before takeoff",
-          "hard": "Its icon often appears next to the phone battery"
+          "easy": "Signals",
+          "normal": "Takeoff",
+          "hard": "Icon"
         }
       }
     }
@@ -3129,9 +3129,9 @@
           "nätverkskapacitet"
         ],
         "hints": {
-          "easy": "Mängden data en anslutning kan bära per sekund",
-          "normal": "Flera högupplösta filmer samtidigt ställer högre krav",
-          "hard": "Ditt abonnemang kan ha olika tak upp och ner"
+          "easy": "Anslutning",
+          "normal": "Högupplösta",
+          "hard": "Abonnemang"
         }
       },
       "en": {
@@ -3140,9 +3140,9 @@
           "network bandwidth"
         ],
         "hints": {
-          "easy": "How much data a connection can carry per second",
-          "normal": "Several high-resolution videos at once need more of it",
-          "hard": "An internet plan can cap the two directions differently"
+          "easy": "Connection",
+          "normal": "Resolution",
+          "hard": "Internet"
         }
       }
     }
@@ -3154,25 +3154,25 @@
     "tags": [
       "networking"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "Bluetooth",
         "aliases": [],
         "hints": {
-          "easy": "Trådlös koppling mellan närliggande prylar",
-          "normal": "Para ihop mobilen med högtalaren",
-          "hard": "Högtalaren kan minnas den senaste mobilen"
+          "easy": "Trådlöst",
+          "normal": "Högtalare",
+          "hard": "Parkoppling"
         }
       },
       "en": {
         "word": "Bluetooth",
         "aliases": [],
         "hints": {
-          "easy": "A wireless link between devices close to each other",
-          "normal": "Pair your phone with a speaker",
-          "hard": "The speaker can remember your last handset"
+          "easy": "Wireless",
+          "normal": "Speaker",
+          "hard": "Pairing"
         }
       }
     }
@@ -3193,9 +3193,9 @@
           "innehållsleveransnätverk"
         ],
         "hints": {
-          "easy": "Sprider kopior av innehåll till servrar nära besökarna",
-          "normal": "Samma bild kan hämtas från olika städer",
-          "hard": "Ett byte av originalet syns ibland först när kopian löper ut"
+          "easy": "Besökarna",
+          "normal": "Hämtas",
+          "hard": "Originalet"
         }
       },
       "en": {
@@ -3204,9 +3204,9 @@
           "CDN"
         ],
         "hints": {
-          "easy": "Copies content to servers near the people who request it",
-          "normal": "Two visitors might fetch one picture from different cities",
-          "hard": "An update might not appear until a local copy expires"
+          "easy": "Servers",
+          "normal": "Visitors",
+          "hard": "Update"
         }
       }
     }
@@ -3218,7 +3218,7 @@
     "tags": [
       "networking"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3227,9 +3227,9 @@
           "mobilt nät"
         ],
         "hints": {
-          "easy": "Låter mobilen nå nätet via operatörens master",
-          "normal": "Byt från hemnätet till mobildata",
-          "hard": "Din förbindelse kan flyttas till nästa mast på tåget"
+          "easy": "Operatörens",
+          "normal": "Hemnätet",
+          "hard": "Förbindelse"
         }
       },
       "en": {
@@ -3238,9 +3238,9 @@
           "cellular network"
         ],
         "hints": {
-          "easy": "Connects a phone through your carrier's towers",
-          "normal": "Switch from your home connection to cellular data",
-          "hard": "Your link can hand over to a new tower on the train"
+          "easy": "Carrier",
+          "normal": "Switch",
+          "hard": "Link"
         }
       }
     }
@@ -3261,18 +3261,18 @@
           "klientprogram"
         ],
         "hints": {
-          "easy": "Programmet som ber en nätverkstjänst om data",
-          "normal": "Din webbläsare skickar en fråga innan sidan visas",
-          "hard": "Flera exemplar kan begära samma uppgift oberoende av varandra"
+          "easy": "Nätverkstjänst",
+          "normal": "Webbläsare",
+          "hard": "Exemplar"
         }
       },
       "en": {
         "word": "client",
         "aliases": [],
         "hints": {
-          "easy": "The program that asks a network service for data",
-          "normal": "Your browser makes a request before the page appears",
-          "hard": "Several instances can ask for the same item independently"
+          "easy": "Program",
+          "normal": "Browser",
+          "hard": "Instances"
         }
       }
     }
@@ -3291,9 +3291,9 @@
         "word": "DHCP",
         "aliases": [],
         "hints": {
-          "easy": "Delar automatiskt ut nätverksadresser och inställningar",
-          "normal": "En ny dator kan komma igång utan manuell konfiguration",
-          "hard": "Enheten får låna sin adress en bestämd tid"
+          "easy": "Inställningar",
+          "normal": "Konfiguration",
+          "hard": "Enheten"
         }
       },
       "en": {
@@ -3302,9 +3302,9 @@
           "dynamic host configuration protocol"
         ],
         "hints": {
-          "easy": "Automatically hands out network addresses and settings",
-          "normal": "A new computer can connect without manual setup",
-          "hard": "A device borrows its address for a set period"
+          "easy": "Settings",
+          "normal": "Computer",
+          "hard": "Borrows"
         }
       }
     }
@@ -3325,9 +3325,9 @@
           "domännamnssystemet"
         ],
         "hints": {
-          "easy": "Slår upp nätadresser utifrån domännamn",
-          "normal": "Datorn frågar innan en sajt kan nås",
-          "hard": "Gamla svar kan ligga kvar en stund efter ett serverbyte"
+          "easy": "Nätadresser",
+          "normal": "Namn",
+          "hard": "Serverbyte"
         }
       },
       "en": {
@@ -3336,9 +3336,9 @@
           "domain name system"
         ],
         "hints": {
-          "easy": "Looks up network addresses for domain names",
-          "normal": "Your computer asks before it reaches a site",
-          "hard": "Cached answers can persist after a server move"
+          "easy": "Addresses",
+          "normal": "Names",
+          "hard": "Servers"
         }
       }
     }
@@ -3359,9 +3359,9 @@
           "domän"
         ],
         "hints": {
-          "easy": "Namnet du skriver för att hitta en webbplats",
-          "normal": "Det kan sluta på .se",
-          "hard": "Köp rätten att ha din egen efter snabel-a"
+          "easy": "Webbplats",
+          "normal": "Sluta",
+          "hard": "Rätten"
         }
       },
       "en": {
@@ -3370,9 +3370,9 @@
           "domain"
         ],
         "hints": {
-          "easy": "A name you can use to reach a website",
-          "normal": "It might end in .com",
-          "hard": "Buy one to put after the at sign in your address"
+          "easy": "Website",
+          "normal": "End",
+          "hard": "Buy"
         }
       }
     }
@@ -3391,18 +3391,18 @@
         "word": "Ethernet",
         "aliases": [],
         "hints": {
-          "easy": "Teknik för lokala anslutningar över nätverkskabel",
-          "normal": "Sladdens kontakt brukar klicka till i datorn",
-          "hard": "Flera standardiserade hastigheter kan dela samma uttag"
+          "easy": "Anslutningar",
+          "normal": "Sladdens",
+          "hard": "Hastigheter"
         }
       },
       "en": {
         "word": "Ethernet",
         "aliases": [],
         "hints": {
-          "easy": "Wired technology for local network connections",
-          "normal": "Its common connector clicks into a computer's port",
-          "hard": "Several standard link speeds can use the same socket"
+          "easy": "Technology",
+          "normal": "Connector",
+          "hard": "Standard"
         }
       }
     }
@@ -3424,9 +3424,9 @@
           "elnätsadapter"
         ],
         "hints": {
-          "easy": "Bär nätverkstrafik över hemmets elledningar",
-          "normal": "Använd en adapter vid vardera uttaget",
-          "hard": "En förlängningslist med filter kan försämra länken"
+          "easy": "Elledningar",
+          "normal": "Vardera",
+          "hard": "Förlängningslist"
         }
       },
       "en": {
@@ -3435,9 +3435,9 @@
           "powerline adapter"
         ],
         "hints": {
-          "easy": "Carries network data along a home's electrical wiring",
-          "normal": "Plug an adapter into each of two sockets",
-          "hard": "A filtered power strip can weaken the link"
+          "easy": "Wiring",
+          "normal": "Sockets",
+          "hard": "Filtered"
         }
       }
     }
@@ -3459,9 +3459,9 @@
           "optisk fiber"
         ],
         "hints": {
-          "easy": "Skickar data som ljuspulser i tunna trådar",
-          "normal": "Villaägare kan få snabbt nät indraget via en sådan",
-          "hard": "En för skarp böj kan försvaga signalen"
+          "easy": "Ljuspulser",
+          "normal": "Internet",
+          "hard": "Glasstrå"
         }
       },
       "en": {
@@ -3472,9 +3472,9 @@
           "optical fiber"
         ],
         "hints": {
-          "easy": "Carries data as light pulses through thin strands",
-          "normal": "It can bring fast internet into a house",
-          "hard": "Too tight a bend can weaken the signal"
+          "easy": "Pulses",
+          "normal": "Internet",
+          "hard": "Glass"
         }
       }
     }
@@ -3493,18 +3493,18 @@
         "word": "brandvägg",
         "aliases": [],
         "hints": {
-          "easy": "Tillåter eller stoppar datatrafik enligt regler",
-          "normal": "Kan hindra okända anslutningar utifrån",
-          "hard": "En ny tjänst kan behöva ett undantag"
+          "easy": "Datatrafik",
+          "normal": "Regler",
+          "hard": "Undantag"
         }
       },
       "en": {
         "word": "firewall",
         "aliases": [],
         "hints": {
-          "easy": "Allows or blocks network traffic according to rules",
-          "normal": "Can keep unknown incoming connections out",
-          "hard": "A new service may need an exception"
+          "easy": "Traffic",
+          "normal": "Rules",
+          "hard": "Exception"
         }
       }
     }
@@ -3523,9 +3523,9 @@
         "word": "HTTP",
         "aliases": [],
         "hints": {
-          "easy": "Reglerna bakom hämtning av resurser på webben",
-          "normal": "Webbläsaren kan be om en sida, en bild eller annan data",
-          "hard": "Siffror i svaret berättar hur det gick"
+          "easy": "Förfrågan",
+          "normal": "Webbläsare",
+          "hard": "Svar"
         }
       },
       "en": {
@@ -3534,9 +3534,9 @@
           "hypertext transfer protocol"
         ],
         "hints": {
-          "easy": "Rules for requesting resources on the web",
-          "normal": "A browser can ask for a page or an image",
-          "hard": "A number in the reply can tell you how it went"
+          "easy": "Request",
+          "normal": "Browser",
+          "hard": "Response"
         }
       }
     }
@@ -3557,18 +3557,18 @@
           "IP-nummer"
         ],
         "hints": {
-          "easy": "En sifferbeteckning som används för att skicka data rätt",
-          "normal": "Den kan ändras när mobilen ansluter till ett nytt nät",
-          "hard": "En vanlig äldre form har fyra tal med punkter mellan"
+          "easy": "Sifferbeteckning",
+          "normal": "Ansluter",
+          "hard": "Äldre"
         }
       },
       "en": {
         "word": "IP address",
         "aliases": [],
         "hints": {
-          "easy": "A numeric identifier used to send data to the right place",
-          "normal": "It can change when a phone joins a different network",
-          "hard": "A common older form has four numbers separated by dots"
+          "easy": "Identifier",
+          "normal": "Joins",
+          "hard": "Numbers"
         }
       }
     }
@@ -3589,9 +3589,9 @@
           "nätverkslatens"
         ],
         "hints": {
-          "easy": "Fördröjningen från ett steg till nästa i nätet",
-          "normal": "Ett spel kan reagera sent trots snabbt internet",
-          "hard": "Geografiskt avstånd kan ge fler millisekunder"
+          "easy": "Fördröjningen",
+          "normal": "Reagera",
+          "hard": "Millisekunder"
         }
       },
       "en": {
@@ -3600,9 +3600,9 @@
           "network latency"
         ],
         "hints": {
-          "easy": "The delay before data takes effect or arrives",
-          "normal": "An online game can respond slowly even on a fast connection",
-          "hard": "Geographical distance can add milliseconds"
+          "easy": "Delay",
+          "normal": "Respond",
+          "hard": "Milliseconds"
         }
       }
     }
@@ -3623,18 +3623,18 @@
           "hårdvaruadress"
         ],
         "hints": {
-          "easy": "En adress för ett nätverksgränssnitt på den lokala länken",
-          "normal": "Kan skrivas som sex par hexadecimala tecken",
-          "hard": "Mobilen kan visa ett slumpat värde för varje trådlöst nät"
+          "easy": "Nätverksgränssnitt",
+          "normal": "Hexadecimala",
+          "hard": "Slumpat"
         }
       },
       "en": {
         "word": "MAC address",
         "aliases": [],
         "hints": {
-          "easy": "Identifies a network interface on the local link",
-          "normal": "Can be written as six pairs of hex digits",
-          "hard": "A phone can use a randomized value for each wireless network"
+          "easy": "Identifies",
+          "normal": "Digits",
+          "hard": "Randomized"
         }
       }
     }
@@ -3646,7 +3646,7 @@
     "tags": [
       "networking"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -3655,9 +3655,9 @@
           "meshnät"
         ],
         "hints": {
-          "easy": "Flera stationer samarbetar för att ge täckning över en yta",
-          "normal": "Samma trådlösa nät kan räcka till båda våningarna",
-          "hard": "En station kan nå basen via en granne"
+          "easy": "Samarbetar",
+          "normal": "Våningarna",
+          "hard": "Station"
         }
       },
       "en": {
@@ -3666,9 +3666,9 @@
           "mesh Wi-Fi"
         ],
         "hints": {
-          "easy": "Several stations work together to cover a wider area",
-          "normal": "The same wireless name works on both floors",
-          "hard": "A node can reach the main unit through a neighbour"
+          "easy": "Stations",
+          "normal": "Wireless",
+          "hard": "Neighbour"
         }
       }
     }
@@ -3690,9 +3690,9 @@
           "hotspot"
         ],
         "hints": {
-          "easy": "Dela telefonens dataanslutning med en annan pryl",
-          "normal": "Låt den bärbara datorn ansluta till telefonen",
-          "hard": "Datorns filmer kan äta upp telefonens datapott"
+          "easy": "Dataanslutning",
+          "normal": "Ansluta",
+          "hard": "Datapott"
         }
       },
       "en": {
@@ -3702,9 +3702,9 @@
           "tethering"
         ],
         "hints": {
-          "easy": "Shares your phone's data connection with another device",
-          "normal": "Let a laptop go online through your phone",
-          "hard": "Videos on the laptop can use up the phone's allowance"
+          "easy": "Connection",
+          "normal": "Laptop",
+          "hard": "Allowance"
         }
       }
     }
@@ -3723,18 +3723,18 @@
         "word": "modem",
         "aliases": [],
         "hints": {
-          "easy": "Anpassar datasignalen till leverantörens ledning",
-          "normal": "Ett gammalt exemplar kunde tjuta när det ringde upp",
-          "hard": "Förbindelsen kan fungera först när en statuslampa lyser stadigt"
+          "easy": "Datasignalen",
+          "normal": "Gammalt",
+          "hard": "Förbindelsen"
         }
       },
       "en": {
         "word": "modem",
         "aliases": [],
         "hints": {
-          "easy": "Adapts a data signal to the provider's physical line",
-          "normal": "An older one whistled while dialling up",
-          "hard": "The link may need a steady status light to work"
+          "easy": "Provider",
+          "normal": "Dialling",
+          "hard": "Status"
         }
       }
     }
@@ -3755,18 +3755,18 @@
           "multisändning"
         ],
         "hints": {
-          "easy": "Skickar en dataström till en utvald grupp mottagare",
-          "normal": "Flera skärmar i samma nät kan visa samma sändning",
-          "hard": "Enheter kan anmäla sig till en gruppadress"
+          "easy": "Mottagare",
+          "normal": "Sändning",
+          "hard": "Gruppadress"
         }
       },
       "en": {
         "word": "multicast",
         "aliases": [],
         "hints": {
-          "easy": "Sends one data stream to a selected group of receivers",
-          "normal": "Many screens on the same network can show one broadcast",
-          "hard": "Devices can subscribe to a group address"
+          "easy": "Receivers",
+          "normal": "Screens",
+          "hard": "Subscribe"
         }
       }
     }
@@ -3787,9 +3787,9 @@
           "nätadressöversättning"
         ],
         "hints": {
-          "easy": "Byter nätadresser när data passerar mellan två nät",
-          "normal": "Flera hemprylar kan dela på en publik adress",
-          "hard": "En tabell håller reda på vilken konversation svaret hör till"
+          "easy": "Nätadresser",
+          "normal": "Hemprylar",
+          "hard": "Konversation"
         }
       },
       "en": {
@@ -3798,9 +3798,9 @@
           "NAT"
         ],
         "hints": {
-          "easy": "Rewrites network addresses as traffic crosses two networks",
-          "normal": "A household can share one public address",
-          "hard": "A table remembers which conversation a reply belongs to"
+          "easy": "Rewrites",
+          "normal": "Household",
+          "hard": "Conversation"
         }
       }
     }
@@ -3821,9 +3821,9 @@
           "NAS"
         ],
         "hints": {
-          "easy": "Gemensamma diskar som nås över det lokala nätet",
-          "normal": "En familj kan öppna sitt fotoarkiv från flera datorer",
-          "hard": "En modell med flera diskplatser kan tåla ett diskfel"
+          "easy": "Diskar",
+          "normal": "Fotoarkiv",
+          "hard": "Diskplatser"
         }
       },
       "en": {
@@ -3832,9 +3832,9 @@
           "NAS"
         ],
         "hints": {
-          "easy": "Dedicated storage reached through a local network",
-          "normal": "A family can open its photo collection from several computers",
-          "hard": "A multi-bay model can tolerate a drive failure"
+          "easy": "Reached",
+          "normal": "Collection",
+          "hard": "Tolerate"
         }
       }
     }
@@ -3855,9 +3855,9 @@
           "switch"
         ],
         "hints": {
-          "easy": "Kopplar samman flera kabelanslutna enheter i ett lokalt nät",
-          "normal": "En rad portar blinkar när data flyttas",
-          "hard": "Den lär sig vilken enhetsadress som nås via vilken port"
+          "easy": "Kabelanslutna",
+          "normal": "Blinkar",
+          "hard": "Enhetsadress"
         }
       },
       "en": {
@@ -3866,9 +3866,9 @@
           "Ethernet switch"
         ],
         "hints": {
-          "easy": "Connects several wired devices inside a local network",
-          "normal": "A row of ports blinks as data moves",
-          "hard": "It learns which device address can be reached through each port"
+          "easy": "Wired",
+          "normal": "Blinks",
+          "hard": "Learns"
         }
       }
     }
@@ -3889,9 +3889,9 @@
           "närfältskommunikation"
         ],
         "hints": {
-          "easy": "Trådlöst utbyte när enheter nästan nuddar varandra",
-          "normal": "Blippa med mobilen vid kassan",
-          "hard": "Några centimeter kan räcka för att avsluta kontakten"
+          "easy": "Blippa",
+          "normal": "Betalning",
+          "hard": "Centimeter"
         }
       },
       "en": {
@@ -3900,9 +3900,9 @@
           "near-field communication"
         ],
         "hints": {
-          "easy": "Wireless exchange when devices are nearly touching",
-          "normal": "Tap your phone at the checkout",
-          "hard": "A few centimetres can break contact"
+          "easy": "Contactless",
+          "normal": "Payment",
+          "hard": "Centimetres"
         }
       }
     }
@@ -3923,9 +3923,9 @@
           "nätverkspaket"
         ],
         "hints": {
-          "easy": "En av de mindre bitar som data delas upp i under överföring",
-          "normal": "Ett meddelande kan behöva flera för att komma fram",
-          "hard": "Mottagaren kan få delarna i en annan ordning än avsändaren skickade dem"
+          "easy": "Överföring",
+          "normal": "Meddelande",
+          "hard": "Delarna"
         }
       },
       "en": {
@@ -3935,9 +3935,9 @@
           "packet"
         ],
         "hints": {
-          "easy": "A smaller piece of data sent across a network",
-          "normal": "A message may take several of these to arrive",
-          "hard": "The receiver can see pieces in a different order from the sender"
+          "easy": "Sent",
+          "normal": "Message",
+          "hard": "Receiver"
         }
       }
     }
@@ -3956,18 +3956,18 @@
         "word": "paketförlust",
         "aliases": [],
         "hints": {
-          "easy": "Uppstår när sända databitar i nätet inte når fram",
-          "normal": "En röst kan försvinna i små hack trots att samtalet fortsätter",
-          "hard": "Ett mätverktyg kan ange andelen i procent"
+          "easy": "Databitar",
+          "normal": "Försvinna",
+          "hard": "Mätverktyg"
         }
       },
       "en": {
         "word": "packet loss",
         "aliases": [],
         "hints": {
-          "easy": "Occurs when chunks sent across a network never arrive",
-          "normal": "A voice can cut out in little gaps while the call stays open",
-          "hard": "A monitor can show the missing share as a percentage"
+          "easy": "Chunks",
+          "normal": "Voice",
+          "hard": "Percentage"
         }
       }
     }
@@ -3989,9 +3989,9 @@
           "P2P"
         ],
         "hints": {
-          "easy": "Enheter kan utbyta data direkt som jämlikar",
-          "normal": "Samma dator kan både hämta och dela",
-          "hard": "En ny deltagare kan även tillföra kapacitet"
+          "easy": "Utbyta",
+          "normal": "Hämta",
+          "hard": "Deltagare"
         }
       },
       "en": {
@@ -4001,9 +4001,9 @@
           "P2P"
         ],
         "hints": {
-          "easy": "Devices trade data directly as equals",
-          "normal": "One computer can both fetch and share",
-          "hard": "An extra participant can also add capacity"
+          "easy": "Equals",
+          "normal": "Computer",
+          "hard": "Participant"
         }
       }
     }
@@ -4024,9 +4024,9 @@
           "pingtest"
         ],
         "hints": {
-          "easy": "Ett testmeddelande som väntar på svar från en adress",
-          "normal": "Använd det för att se om en dator svarar över nätet",
-          "hard": "Mätningen räknar resan åt båda hållen"
+          "easy": "Fördröjning",
+          "normal": "Svar",
+          "hard": "Millisekunder"
         }
       },
       "en": {
@@ -4035,9 +4035,9 @@
           "ping test"
         ],
         "hints": {
-          "easy": "Sends a test message and waits for a reply from an address",
-          "normal": "Check whether a computer responds across the network",
-          "hard": "The measurement covers the trip in both directions"
+          "easy": "Latency",
+          "normal": "Response",
+          "hard": "Milliseconds"
         }
       }
     }
@@ -4056,18 +4056,18 @@
         "word": "portnummer",
         "aliases": [],
         "hints": {
-          "easy": "En siffra som skiljer tjänster åt vid samma nätadress",
-          "normal": "Du kan skriva den efter kolon i en serveradress",
-          "hard": "Flera tjänster kan dela samma husnummer med varsin dörr"
+          "easy": "Siffra",
+          "normal": "Serveradress",
+          "hard": "Tjänster"
         }
       },
       "en": {
         "word": "port number",
         "aliases": [],
         "hints": {
-          "easy": "A number that distinguishes services at one network address",
-          "normal": "You can add it after a colon in a server address",
-          "hard": "Several services share one address but each has its own doorway"
+          "easy": "Distinguishes",
+          "normal": "Colon",
+          "hard": "Services"
         }
       }
     }
@@ -4079,7 +4079,7 @@
     "tags": [
       "networking"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4088,9 +4088,9 @@
           "protokoll"
         ],
         "hints": {
-          "easy": "En uppsättning regler för hur nätverksenheter kommunicerar",
-          "normal": "Två program måste förstå samma slags meddelanden",
-          "hard": "Gemensamma spelregler avgör när svaret räknas som giltigt"
+          "easy": "Uppsättning",
+          "normal": "Meddelanden",
+          "hard": "Spelregler"
         }
       },
       "en": {
@@ -4099,9 +4099,9 @@
           "protocol"
         ],
         "hints": {
-          "easy": "Rules that decide how devices communicate over a network",
-          "normal": "Both programs must understand the same messages",
-          "hard": "Shared conventions say when a reply counts as valid"
+          "easy": "Communicate",
+          "normal": "Understand",
+          "hard": "Conventions"
         }
       }
     }
@@ -4113,7 +4113,7 @@
     "tags": [
       "networking"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4123,9 +4123,9 @@
           "mellanserver"
         ],
         "hints": {
-          "easy": "Skickar vidare en klients förfrågningar som mellanhand",
-          "normal": "En skola kan låta all surf gå genom samma tjänst",
-          "hard": "Webbplatsen kan bara se mellanhandens adress"
+          "easy": "Förfrågningar",
+          "normal": "Skola",
+          "hard": "Mellanhandens"
         }
       },
       "en": {
@@ -4134,9 +4134,9 @@
           "proxy"
         ],
         "hints": {
-          "easy": "Acts as the middleman that forwards a client's requests",
-          "normal": "A school can direct browsing through one service",
-          "hard": "A website may see only the intermediary's address"
+          "easy": "Middleman",
+          "normal": "Browsing",
+          "hard": "Intermediary"
         }
       }
     }
@@ -4148,25 +4148,25 @@
     "tags": [
       "networking"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "router",
         "aliases": [],
         "hints": {
-          "easy": "Skickar datatrafik mellan olika nät",
-          "normal": "Ofta den låda du startar om när nätet strular",
-          "hard": "Hemmets trafik delar vägen ut via den"
+          "easy": "Datatrafik",
+          "normal": "Internet",
+          "hard": "Hemnät"
         }
       },
       "en": {
         "word": "router",
         "aliases": [],
         "hints": {
-          "easy": "Routes traffic between separate networks",
-          "normal": "Often the box you restart when the internet acts up",
-          "hard": "Your household shares its path out through it"
+          "easy": "Traffic",
+          "normal": "Internet",
+          "hard": "Household"
         }
       }
     }
@@ -4178,25 +4178,25 @@
     "tags": [
       "networking"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "server",
         "aliases": [],
         "hints": {
-          "easy": "En dator eller ett program som svarar andra enheter på nätet",
-          "normal": "Flera spelare kan koppla upp sig mot samma värd",
-          "hard": "Förfrågningar kan fortsätta rulla in när du har stängt din egen dator"
+          "easy": "Förfrågningar",
+          "normal": "Anslutningar",
+          "hard": "Värddator"
         }
       },
       "en": {
         "word": "server",
         "aliases": [],
         "hints": {
-          "easy": "A computer or program that serves requests from other devices",
-          "normal": "Many players can connect to the same online host",
-          "hard": "Requests can continue after you've shut down your own computer"
+          "easy": "Requests",
+          "normal": "Connections",
+          "hard": "Host"
         }
       }
     }
@@ -4215,9 +4215,9 @@
         "word": "SSH",
         "aliases": [],
         "hints": {
-          "easy": "Låter dig styra en dator över en säker fjärranslutning",
-          "normal": "Öppna en terminal på servern från en annan dator",
-          "hard": "Du kan behöva bekräfta värdens fingeravtryck första gången"
+          "easy": "Fjärranslutning",
+          "normal": "Terminal",
+          "hard": "Bekräfta"
         }
       },
       "en": {
@@ -4226,9 +4226,9 @@
           "secure shell"
         ],
         "hints": {
-          "easy": "Controls a remote computer over a secure connection",
-          "normal": "Open a server terminal from another machine",
-          "hard": "On first use you might verify the host's fingerprint"
+          "easy": "Controls",
+          "normal": "Server",
+          "hard": "Fingerprint"
         }
       }
     }
@@ -4249,9 +4249,9 @@
           "nätverksnamn"
         ],
         "hints": {
-          "easy": "Namnet som visas för ett trådlöst nät",
-          "normal": "Du kan välja rätt rad även innan du skrivit koden",
-          "hard": "Samma text kan delas av flera sändare"
+          "easy": "Trådlöst",
+          "normal": "Listan",
+          "hard": "Sändare"
         }
       },
       "en": {
@@ -4260,9 +4260,9 @@
           "service set identifier"
         ],
         "hints": {
-          "easy": "The name that identifies a wireless network",
-          "normal": "Choose the right entry before typing the key",
-          "hard": "The same label can be broadcast by several stations"
+          "easy": "Wireless",
+          "normal": "List",
+          "hard": "Broadcast"
         }
       }
     }
@@ -4283,9 +4283,9 @@
           "delnät"
         ],
         "hints": {
-          "easy": "En avgränsad del av ett nät med ett eget adressintervall",
-          "normal": "En dator kan se om mottagaren ligger på samma länk",
-          "hard": "Ett snedstreck kan följas av antalet gemensamma bitar"
+          "easy": "Adressintervall",
+          "normal": "Mottagaren",
+          "hard": "Snedstreck"
         }
       },
       "en": {
@@ -4294,9 +4294,9 @@
           "subnetwork"
         ],
         "hints": {
-          "easy": "A portion of a network with its own range of addresses",
-          "normal": "A computer can tell if a destination is on its local link",
-          "hard": "A slash can precede the number of shared address bits"
+          "easy": "Portion",
+          "normal": "Destination",
+          "hard": "Slash"
         }
       }
     }
@@ -4315,9 +4315,9 @@
         "word": "TCP",
         "aliases": [],
         "hints": {
-          "easy": "Levererar data i ordning och begär om det som fattas",
-          "normal": "Passar när en fil måste komma fram komplett",
-          "hard": "Mottagaren bekräftar vilka byte som kommit fram"
+          "easy": "Ordning",
+          "normal": "Komplett",
+          "hard": "Bekräftar"
         }
       },
       "en": {
@@ -4326,9 +4326,9 @@
           "transmission control protocol"
         ],
         "hints": {
-          "easy": "Delivers data in order and retransmits missing parts",
-          "normal": "Useful when a file must arrive intact",
-          "hard": "The receiver acknowledges which bytes have arrived"
+          "easy": "Delivers",
+          "normal": "Intact",
+          "hard": "Acknowledges"
         }
       }
     }
@@ -4347,9 +4347,9 @@
         "word": "TLS",
         "aliases": [],
         "hints": {
-          "easy": "Skyddar data på vägen mellan två nätverksparter",
-          "normal": "Webbläsaren kan kontrollera serverns certifikat",
-          "hard": "Ett handslag kommer före den skyddade trafiken"
+          "easy": "Nätverksparter",
+          "normal": "Certifikat",
+          "hard": "Handslag"
         }
       },
       "en": {
@@ -4358,9 +4358,9 @@
           "transport layer security"
         ],
         "hints": {
-          "easy": "Protects data while it moves between two network endpoints",
-          "normal": "A browser can check the server's certificate",
-          "hard": "A handshake precedes the protected traffic"
+          "easy": "Endpoints",
+          "normal": "Browser",
+          "hard": "Handshake"
         }
       }
     }
@@ -4381,18 +4381,18 @@
           "ruttspårning"
         ],
         "hints": {
-          "easy": "Visar mellanstoppen på väg till en nätadress",
-          "normal": "Kan ge en ledtråd om var trafiken fastnar",
-          "hard": "Varje ny mätning kan få komma ett hopp längre"
+          "easy": "Mellanstoppen",
+          "normal": "Nätväg",
+          "hard": "Fördröjning"
         }
       },
       "en": {
         "word": "traceroute",
         "aliases": [],
         "hints": {
-          "easy": "Shows the hops taken to reach a destination address",
-          "normal": "Can indicate where traffic is getting stuck",
-          "hard": "Each new probe may be allowed one more hop"
+          "easy": "Hops",
+          "normal": "Route",
+          "hard": "Latency"
         }
       }
     }
@@ -4411,9 +4411,9 @@
         "word": "UDP",
         "aliases": [],
         "hints": {
-          "easy": "Skickar paket utan egna garantier att de kommer fram",
-          "normal": "I ett livesamtal kan färska ljudbitar vara viktigare än gamla",
-          "hard": "Avsändaren väntar inte på en inbyggd bekräftelse"
+          "easy": "Garantier",
+          "normal": "Livesamtal",
+          "hard": "Bekräftelse"
         }
       },
       "en": {
@@ -4422,9 +4422,9 @@
           "user datagram protocol"
         ],
         "hints": {
-          "easy": "Sends datagrams without guaranteeing delivery",
-          "normal": "Fresh audio can matter more than old audio in a live call",
-          "hard": "The sender doesn't wait for a built-in acknowledgement"
+          "easy": "Guaranteeing",
+          "normal": "Matter",
+          "hard": "Acknowledgement"
         }
       }
     }
@@ -4445,9 +4445,9 @@
           "virtuellt privat nätverk"
         ],
         "hints": {
-          "easy": "Skapar en krypterad tunnel till ett annat nät",
-          "normal": "Du kan använda arbetsplatsens interna resurser hemifrån",
-          "hard": "Webbsidor kan se en annan nätadress än din egen"
+          "easy": "Krypterad",
+          "normal": "Arbetsplatsens",
+          "hard": "Webbsidor"
         }
       },
       "en": {
@@ -4456,9 +4456,9 @@
           "virtual private network"
         ],
         "hints": {
-          "easy": "Creates an encrypted tunnel into another network",
-          "normal": "Reach internal office resources from home",
-          "hard": "Sites can see a different network address from your own"
+          "easy": "Encrypted",
+          "normal": "Internal",
+          "hard": "Sites"
         }
       }
     }
@@ -4479,9 +4479,9 @@
           "wi-fi"
         ],
         "hints": {
-          "easy": "Ger tillgång till nätet utan kabel i bostaden",
-          "normal": "Välj nät i listan på mobilen",
-          "hard": "Tjocka väggar kan ge färre staplar"
+          "easy": "Trådlöst",
+          "normal": "Nätverk",
+          "hard": "Staplar"
         }
       },
       "en": {
@@ -4490,9 +4490,9 @@
           "wifi"
         ],
         "hints": {
-          "easy": "Connects devices to a local network without a cable",
-          "normal": "Pick a network from the list on your phone",
-          "hard": "Thick walls can leave you with fewer bars"
+          "easy": "Wireless",
+          "normal": "Network",
+          "hard": "Bars"
         }
       }
     }
@@ -4513,9 +4513,9 @@
           "wifi-repeater"
         ],
         "hints": {
-          "easy": "Tar emot det trådlösa nätet och sänder det vidare",
-          "normal": "Försöker ge täckning i rummet längst bort",
-          "hard": "Välj ett uttag där signalen fortfarande är tillräckligt stark"
+          "easy": "Räckvidd",
+          "normal": "Täckning",
+          "hard": "Signal"
         }
       },
       "en": {
@@ -4526,9 +4526,9 @@
           "range extender"
         ],
         "hints": {
-          "easy": "Receives a wireless signal and rebroadcasts it",
-          "normal": "Helps the far room get a usable connection",
-          "hard": "Pick a socket where the signal is still decent"
+          "easy": "Range",
+          "normal": "Coverage",
+          "hard": "Signal"
         }
       }
     }
@@ -4549,9 +4549,9 @@
           "programmeringsgränssnitt"
         ],
         "hints": {
-          "easy": "Ett definierat sätt för program att använda en annan funktion",
-          "normal": "En app ber en annan tjänst om dagens prognos",
-          "hard": "En ny version kan bryta ett gammalt anrop"
+          "easy": "Definierat",
+          "normal": "Prognos",
+          "hard": "Version"
         }
       },
       "en": {
@@ -4560,9 +4560,9 @@
           "application programming interface"
         ],
         "hints": {
-          "easy": "Programs use a defined interface to request a function",
-          "normal": "An app asks a service for today's forecast",
-          "hard": "New versions can break an old request"
+          "easy": "Function",
+          "normal": "Forecast",
+          "hard": "Versions"
         }
       }
     }
@@ -4583,18 +4583,18 @@
           "autokomplettering"
         ],
         "hints": {
-          "easy": "Föreslår slutet medan du skriver",
-          "normal": "Välj en adress som börjar på de första tecknen",
-          "hard": "En gammal kontakt kan dyka upp före en ny"
+          "easy": "Förslag",
+          "normal": "Tecken",
+          "hard": "Kontakt"
         }
       },
       "en": {
         "word": "autocomplete",
         "aliases": [],
         "hints": {
-          "easy": "Guesstimates the rest as you type",
-          "normal": "Pick an address from its first few characters",
-          "hard": "An old contact might appear before a new one"
+          "easy": "Suggestions",
+          "normal": "Characters",
+          "hard": "Contact"
         }
       }
     }
@@ -4615,18 +4615,18 @@
           "automatisk korrigering"
         ],
         "hints": {
-          "easy": "Ersätter stavfel automatiskt när du skriver",
-          "normal": "Mobilen byter ut ett ord efter mellanslaget",
-          "hard": "Ett ovanligt namn kan bli ett vanligt ord"
+          "easy": "Stavfel",
+          "normal": "Mellanslag",
+          "hard": "Ersättning"
         }
       },
       "en": {
         "word": "autocorrect",
         "aliases": [],
         "hints": {
-          "easy": "Automatically replaces apparent spelling mistakes",
-          "normal": "A word on your phone changes after a space",
-          "hard": "An uncommon name can turn into an everyday word"
+          "easy": "Spelling",
+          "normal": "Spacebar",
+          "hard": "Replacement"
         }
       }
     }
@@ -4638,7 +4638,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4647,9 +4647,9 @@
           "backup"
         ],
         "hints": {
-          "easy": "En extra kopia om originalet går förlorat",
-          "normal": "Gårdagens version kan gå att återställa",
-          "hard": "Den behövs först när den vanliga vägen är stängd"
+          "easy": "Kopia",
+          "normal": "Återställning",
+          "hard": "Databortfall"
         }
       },
       "en": {
@@ -4658,9 +4658,9 @@
           "backup copy"
         ],
         "hints": {
-          "easy": "An extra copy in case the original is lost",
-          "normal": "Restore yesterday's version",
-          "hard": "It earns its keep when the usual copy is gone"
+          "easy": "Copy",
+          "normal": "Recovery",
+          "hard": "Loss"
         }
       }
     }
@@ -4679,18 +4679,18 @@
         "word": "streckkod",
         "aliases": [],
         "hints": {
-          "easy": "Kassaläsaren tolkar mönstret av parallella ränder",
-          "normal": "Samma artikel brukar ha samma mönster på alla förpackningar",
-          "hard": "Siffrorna brukar stå under de lodräta linjerna"
+          "easy": "Kassa",
+          "normal": "Förpackning",
+          "hard": "Siffror"
         }
       },
       "en": {
         "word": "barcode",
         "aliases": [],
         "hints": {
-          "easy": "A checkout scanner reads the pattern of parallel bars",
-          "normal": "The same item usually has the same pattern on every packet",
-          "hard": "The numbers are usually under the vertical stripes"
+          "easy": "Checkout",
+          "normal": "Packaging",
+          "hard": "Numbers"
         }
       }
     }
@@ -4712,9 +4712,9 @@
           "kaka"
         ],
         "hints": {
-          "easy": "Liten uppgift som en sajt sparar genom webbläsaren",
-          "normal": "Kan hålla dig inloggad mellan två sidvisningar",
-          "hard": "En liten textbit kan få ett utgångsdatum"
+          "easy": "Webbplats",
+          "normal": "Session",
+          "hard": "Utgångsdatum"
         }
       },
       "en": {
@@ -4724,9 +4724,9 @@
           "HTTP cookie"
         ],
         "hints": {
-          "easy": "Small piece of data a site stores through your browser",
-          "normal": "May keep you signed in between pages",
-          "hard": "A tiny text value can carry an expiry date"
+          "easy": "Website",
+          "normal": "Session",
+          "hard": "Expiry"
         }
       }
     }
@@ -4747,9 +4747,9 @@
           "tillägg till webbläsare"
         ],
         "hints": {
-          "easy": "Ett litet program som bygger ut hur du surfar",
-          "normal": "Kan blockera annonser eller byta utseende på en sida",
-          "hard": "Nya behörigheter kan efterfrågas vid en uppdatering"
+          "easy": "Tillägg",
+          "normal": "Reklam",
+          "hard": "Behörigheter"
         }
       },
       "en": {
@@ -4758,9 +4758,9 @@
           "browser add-on"
         ],
         "hints": {
-          "easy": "A small add-on that changes how you browse",
-          "normal": "Might block ads or change a page's appearance",
-          "hard": "An update can request extra permissions"
+          "easy": "Addon",
+          "normal": "Ads",
+          "hard": "Permissions"
         }
       }
     }
@@ -4772,7 +4772,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4781,9 +4781,9 @@
           "digital kalender"
         ],
         "hints": {
-          "easy": "Lägger möten i en digital veckovy",
-          "normal": "En serie som upprepas varje tisdag",
-          "hard": "Ett färgblock visar när du är upptagen"
+          "easy": "Möten",
+          "normal": "Veckovy",
+          "hard": "Färgblock"
         }
       },
       "en": {
@@ -4792,9 +4792,9 @@
           "digital calendar"
         ],
         "hints": {
-          "easy": "Schedule meetings in a digital week view",
-          "normal": "Repeats every Tuesday",
-          "hard": "Coloured blocks show when you're busy"
+          "easy": "Meetings",
+          "normal": "Week",
+          "hard": "Colours"
         }
       }
     }
@@ -4813,18 +4813,18 @@
         "word": "captcha",
         "aliases": [],
         "hints": {
-          "easy": "Ett kontrollsteg för att skilja människor från robotar",
-          "normal": "Markera alla rutor där du ser trafikljus",
-          "hard": "Ett ljudalternativ kan ersätta bilderna"
+          "easy": "Robotkontroll",
+          "normal": "Trafikljus",
+          "hard": "Ljud"
         }
       },
       "en": {
         "word": "CAPTCHA",
         "aliases": [],
         "hints": {
-          "easy": "A challenge for telling humans from bots",
-          "normal": "Select the squares containing traffic lights",
-          "hard": "An audio option can replace the pictures"
+          "easy": "Verification",
+          "normal": "Traffic",
+          "hard": "Audio"
         }
       }
     }
@@ -4843,18 +4843,18 @@
         "word": "kontrollsumma",
         "aliases": [],
         "hints": {
-          "easy": "En uträknad kod som hjälper dig hitta fel i data",
-          "normal": "Jämför värdet före och efter överföring",
-          "hard": "En ändrad siffra behöver inte synas i filstorleken"
+          "easy": "Kod",
+          "normal": "Överföring",
+          "hard": "Siffra"
         }
       },
       "en": {
         "word": "checksum",
         "aliases": [],
         "hints": {
-          "easy": "A computed value that helps catch errors in data",
-          "normal": "Compare the published value after a transfer",
-          "hard": "A changed digit need not change the file length"
+          "easy": "Computed",
+          "normal": "Published",
+          "hard": "Changed"
         }
       }
     }
@@ -4873,18 +4873,18 @@
         "word": "urklipp",
         "aliases": [],
         "hints": {
-          "easy": "Platsen där kopierad text väntar på att klistras in",
-          "normal": "Kopiera i en app och klistra i en annan",
-          "hard": "Nästa kopiering kan ersätta det förra"
+          "easy": "Kopiering",
+          "normal": "Temporärt",
+          "hard": "Inklistring"
         }
       },
       "en": {
         "word": "clipboard",
         "aliases": [],
         "hints": {
-          "easy": "Saves copied text until you paste it",
-          "normal": "Copy from one app into another",
-          "hard": "The next copy can replace the previous contents"
+          "easy": "Copying",
+          "normal": "Temporary",
+          "hard": "Pasting"
         }
       }
     }
@@ -4896,7 +4896,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4905,9 +4905,9 @@
           "molnlager"
         ],
         "hints": {
-          "easy": "Filer sparas på nätet och nås från flera enheter",
-          "normal": "Bilder kan finnas kvar när mobilen byts",
-          "hard": "Ett fyllt konto stoppar fler uppladdningar"
+          "easy": "Filer",
+          "normal": "Synkning",
+          "hard": "Uppladdning"
         }
       },
       "en": {
@@ -4916,9 +4916,9 @@
           "online storage"
         ],
         "hints": {
-          "easy": "Keep files online and open them from different devices",
-          "normal": "Photos survive a phone upgrade",
-          "hard": "A full quota prevents new uploads"
+          "easy": "Files",
+          "normal": "Syncing",
+          "hard": "Upload"
         }
       }
     }
@@ -4937,18 +4937,18 @@
         "word": "kommandorad",
         "aliases": [],
         "hints": {
-          "easy": "Skriv instruktioner till datorn i stället för att klicka",
-          "normal": "Tryck på Enter för att köra raden",
-          "hard": "En blinkande markör väntar längst till vänster"
+          "easy": "Instruktioner",
+          "normal": "Enter",
+          "hard": "Markör"
         }
       },
       "en": {
         "word": "command line",
         "aliases": [],
         "hints": {
-          "easy": "Control the computer by typing instructions",
-          "normal": "Press Enter to run what you typed",
-          "hard": "A blinking cursor waits after the prompt"
+          "easy": "Typing",
+          "normal": "Enter",
+          "hard": "Blinking"
         }
       }
     }
@@ -4967,18 +4967,18 @@
         "word": "kompilator",
         "aliases": [],
         "hints": {
-          "easy": "Översätter skriven programkod före körning",
-          "normal": "Bygget stoppas om en regel i språket bryts",
-          "hard": "Resultatet kan innehålla färre steg än originalet"
+          "easy": "Programkod",
+          "normal": "Stoppas",
+          "hard": "Innehålla"
         }
       },
       "en": {
         "word": "compiler",
         "aliases": [],
         "hints": {
-          "easy": "Translates written program instructions before execution",
-          "normal": "A broken language rule can stop the build",
-          "hard": "The output may use fewer steps than the original"
+          "easy": "Execution",
+          "normal": "Language",
+          "hard": "Output"
         }
       }
     }
@@ -4990,7 +4990,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -4999,9 +4999,9 @@
           "mörkt tema"
         ],
         "hints": {
-          "easy": "Byter ljusa bakgrunder mot mörka",
-          "normal": "Mindre bländning när du tittar i sängen",
-          "hard": "Inställningen kan följa solnedgången"
+          "easy": "Bakgrund",
+          "normal": "Bländning",
+          "hard": "Solnedgång"
         }
       },
       "en": {
@@ -5010,9 +5010,9 @@
           "dark theme"
         ],
         "hints": {
-          "easy": "Swaps light interface backgrounds for dark ones",
-          "normal": "Less glare when you look in bed",
-          "hard": "The style can change with sunset"
+          "easy": "Background",
+          "normal": "Glare",
+          "hard": "Sunset"
         }
       }
     }
@@ -5031,18 +5031,18 @@
         "word": "databas",
         "aliases": [],
         "hints": {
-          "easy": "Lagrar poster som går att söka och uppdatera",
-          "normal": "Slå upp en kund med rätt ID",
-          "hard": "Ett index kan snabba upp en fråga"
+          "easy": "Register",
+          "normal": "Normalisering",
+          "hard": "Index"
         }
       },
       "en": {
         "word": "database",
         "aliases": [],
         "hints": {
-          "easy": "Stores records that can be searched and updated",
-          "normal": "Look up a customer by ID",
-          "hard": "An index can speed up a query"
+          "easy": "Records",
+          "normal": "Normalization",
+          "hard": "Index"
         }
       }
     }
@@ -5064,18 +5064,18 @@
           "avlusare"
         ],
         "hints": {
-          "easy": "Låter dig pausa ett program för att hitta fel",
-          "normal": "Kontrollera värdet i en variabel vid stoppet",
-          "hard": "Du kan gå igenom körningen ett steg i taget"
+          "easy": "Pausa",
+          "normal": "Variabel",
+          "hard": "Körningen"
         }
       },
       "en": {
         "word": "debugger",
         "aliases": [],
         "hints": {
-          "easy": "Pauses a running program so you can find a fault",
-          "normal": "Inspect a variable's value when execution stops",
-          "hard": "Follow the execution one step at a time"
+          "easy": "Pauses",
+          "normal": "Execution",
+          "hard": "Follow"
         }
       }
     }
@@ -5094,18 +5094,18 @@
         "word": "digital signatur",
         "aliases": [],
         "hints": {
-          "easy": "Kryptografiskt bevis för avsändare och oförändrat innehåll",
-          "normal": "En fil som ändrats matchar inte sitt bevis",
-          "hard": "Det går att kontrollera med en offentlig nyckel"
+          "easy": "Avsändare",
+          "normal": "Ändrats",
+          "hard": "Kontrollera"
         }
       },
       "en": {
         "word": "digital signature",
         "aliases": [],
         "hints": {
-          "easy": "Cryptographic proof of the source and integrity of content",
-          "normal": "Editing a file can invalidate its seal",
-          "hard": "Anyone with the public key can verify it"
+          "easy": "Integrity",
+          "normal": "Invalidate",
+          "hard": "Public"
         }
       }
     }
@@ -5127,9 +5127,9 @@
           "mail"
         ],
         "hints": {
-          "easy": "Digital post till en adress med snabel-a",
-          "normal": "Bifogad fil till mottagaren",
-          "hard": "Hemlig kopia"
+          "easy": "Snabel",
+          "normal": "Bilaga",
+          "hard": "Kopia"
         }
       },
       "en": {
@@ -5138,9 +5138,9 @@
           "e-mail"
         ],
         "hints": {
-          "easy": "Send a message to an address with an at sign",
-          "normal": "Add an attachment",
-          "hard": "Blind copy"
+          "easy": "Message",
+          "normal": "Attachment",
+          "hard": "Blind"
         }
       }
     }
@@ -5159,18 +5159,18 @@
         "word": "kryptering",
         "aliases": [],
         "hints": {
-          "easy": "Gör innehållet oläsligt utan rätt nyckel",
-          "normal": "Hindrar obehöriga från att läsa en stulen disk",
-          "hard": "Innehållet finns kvar även om det ser slumpmässigt ut"
+          "easy": "Oläsligt",
+          "normal": "Nyckel",
+          "hard": "Slump"
         }
       },
       "en": {
         "word": "encryption",
         "aliases": [],
         "hints": {
-          "easy": "Makes data unreadable without the right key",
-          "normal": "Protects the contents of a stolen drive",
-          "hard": "The data remains even when it looks random"
+          "easy": "Unreadable",
+          "normal": "Key",
+          "hard": "Randomness"
         }
       }
     }
@@ -5189,18 +5189,18 @@
         "word": "filformat",
         "aliases": [],
         "hints": {
-          "easy": "Bestämmer hur innehållet i en sparad fil är uppbyggt",
-          "normal": "Ett dokument kan exporteras i flera varianter",
-          "hard": "Ett nytt namn ändrar inte filens struktur"
+          "easy": "Bestämmer",
+          "normal": "Exporteras",
+          "hard": "Struktur"
         }
       },
       "en": {
         "word": "file format",
         "aliases": [],
         "hints": {
-          "easy": "Defines how a saved document is encoded",
-          "normal": "The same document can be exported in different types",
-          "hard": "Renaming the extension does not change the contents"
+          "easy": "Document",
+          "normal": "Exported",
+          "hard": "Renaming"
         }
       }
     }
@@ -5221,9 +5221,9 @@
           "filutforskare"
         ],
         "hints": {
-          "easy": "Bläddra bland mappar och flytta dokument",
-          "normal": "Byt namn på en hel bunt bilder",
-          "hard": "Egenskaperna kan visa vem som äger mappen"
+          "easy": "Bläddra",
+          "normal": "Bunt",
+          "hard": "Egenskaperna"
         }
       },
       "en": {
@@ -5232,9 +5232,9 @@
           "file explorer"
         ],
         "hints": {
-          "easy": "Browse folders and move documents",
-          "normal": "Rename a batch of pictures",
-          "hard": "The properties can list a directory's owner"
+          "easy": "Folders",
+          "normal": "Batch",
+          "hard": "Properties"
         }
       }
     }
@@ -5255,9 +5255,9 @@
           "skadlig programvara"
         ],
         "hints": {
-          "easy": "Program som används för att stjäla, störa eller skada",
-          "normal": "Ett falskt installationspaket kan gömma det",
-          "hard": "En säkerhetskontroll kan sätta en upptäckt fil i karantän"
+          "easy": "Skada",
+          "normal": "Installation",
+          "hard": "Säkerhetskontroll"
         }
       },
       "en": {
@@ -5266,9 +5266,9 @@
           "malicious software"
         ],
         "hints": {
-          "easy": "Software designed to steal, disrupt or do damage",
-          "normal": "A fake installer can conceal it",
-          "hard": "A security scan may quarantine a detected file"
+          "easy": "Harm",
+          "normal": "Installation",
+          "hard": "Security"
         }
       }
     }
@@ -5289,9 +5289,9 @@
           "OS"
         ],
         "hints": {
-          "easy": "Grundprogrammet som sköter filer och kör appar",
-          "normal": "Fördelar minne mellan öppna program",
-          "hard": "Ett konto får ibland högre behörighet än de andra"
+          "easy": "Grundprogrammet",
+          "normal": "Fördelar",
+          "hard": "Behörighet"
         }
       },
       "en": {
@@ -5300,9 +5300,9 @@
           "OS"
         ],
         "hints": {
-          "easy": "Manages files and runs applications",
-          "normal": "Allocates memory to active programs",
-          "hard": "One account can have more privileges than the others"
+          "easy": "Applications",
+          "normal": "Allocates",
+          "hard": "Privileges"
         }
       }
     }
@@ -5314,7 +5314,7 @@
     "tags": [
       "software"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5323,9 +5323,9 @@
           "OCR"
         ],
         "hints": {
-          "easy": "Omvandlar text i en inskannad bild till redigerbara bokstäver",
-          "normal": "Ett fotograferat kvitto går att textsöka",
-          "hard": "Fläckar kan få en nolla att se ut som ett O"
+          "easy": "Inskannad",
+          "normal": "Fotograferat",
+          "hard": "Nolla"
         }
       },
       "en": {
@@ -5334,9 +5334,9 @@
           "OCR"
         ],
         "hints": {
-          "easy": "Recognizes letters in a scanned image as editable text",
-          "normal": "Search the words on a photographed receipt",
-          "hard": "A smudge can make a zero look like an O"
+          "easy": "Letters",
+          "normal": "Photographed",
+          "hard": "Smudge"
         }
       }
     }
@@ -5357,18 +5357,18 @@
           "inloggningsnyckel"
         ],
         "hints": {
-          "easy": "Logga in med en kryptografisk nyckel och en upplåst enhet",
-          "normal": "Du behöver inget delat lösenord",
-          "hard": "En hemlig del stannar under din kontroll"
+          "easy": "Kryptografisk",
+          "normal": "Lösenord",
+          "hard": "Hemlig"
         }
       },
       "en": {
         "word": "passkey",
         "aliases": [],
         "hints": {
-          "easy": "Sign in using a cryptographic key and an unlocked device",
-          "normal": "No shared password to remember",
-          "hard": "One half of the key pair stays under your control"
+          "easy": "Cryptographic",
+          "normal": "Remember",
+          "hard": "Half"
         }
       }
     }
@@ -5387,18 +5387,18 @@
         "word": "lösenord",
         "aliases": [],
         "hints": {
-          "easy": "En hemlig teckenföljd för att logga in",
-          "normal": "Byt den om någon annan känner till den",
-          "hard": "Längd kan göra den svårare att gissa"
+          "easy": "Teckenföljd",
+          "normal": "Inloggning",
+          "hard": "Gissning"
         }
       },
       "en": {
         "word": "password",
         "aliases": [],
         "hints": {
-          "easy": "Secret characters used to sign in",
-          "normal": "Change it if someone else learns it",
-          "hard": "A longer one can be harder to guess"
+          "easy": "Characters",
+          "normal": "Login",
+          "hard": "Guessing"
         }
       }
     }
@@ -5417,18 +5417,18 @@
         "word": "lösenordshanterare",
         "aliases": [],
         "hints": {
-          "easy": "Ett digitalt valv för dina inloggningar",
-          "normal": "Fyller i en unik kod på rätt webbplats",
-          "hard": "En huvudnyckel kan öppna många sparade poster"
+          "easy": "Inloggningar",
+          "normal": "Kod",
+          "hard": "Huvudnyckel"
         }
       },
       "en": {
         "word": "password manager",
         "aliases": [],
         "hints": {
-          "easy": "A digital vault for your sign-ins",
-          "normal": "Autofills a unique credential on the right site",
-          "hard": "One master secret can unlock many entries"
+          "easy": "Vault",
+          "normal": "Credential",
+          "hard": "Master"
         }
       }
     }
@@ -5449,9 +5449,9 @@
           "pdf-fil"
         ],
         "hints": {
-          "easy": "Dokumentformat som bevarar sidans layout",
-          "normal": "En manual ser likadan ut på olika datorer",
-          "hard": "Ett formulär kan ha ifyllbara rutor"
+          "easy": "Dokumentformat",
+          "normal": "Manual",
+          "hard": "Formulär"
         }
       },
       "en": {
@@ -5460,9 +5460,9 @@
           "PDF file"
         ],
         "hints": {
-          "easy": "Document format that preserves page layout",
-          "normal": "A manual looks the same on different computers",
-          "hard": "A form can have fillable fields"
+          "easy": "Document",
+          "normal": "Manual",
+          "hard": "Forms"
         }
       }
     }
@@ -5474,7 +5474,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5483,9 +5483,9 @@
           "presentationsapp"
         ],
         "hints": {
-          "easy": "Bygg en följd av bilder för ett föredrag",
-          "normal": "Punktlistan visas en rad i taget",
-          "hard": "Talaranteckningarna kan ligga på en annan skärm"
+          "easy": "Föredrag",
+          "normal": "Punktlistan",
+          "hard": "Talaranteckningarna"
         }
       },
       "en": {
@@ -5494,9 +5494,9 @@
           "slideshow software"
         ],
         "hints": {
-          "easy": "Build a slide deck for a talk",
-          "normal": "Bullets can appear one at a time",
-          "hard": "The speaker can see notes on a separate display"
+          "easy": "Talk",
+          "normal": "Bullets",
+          "hard": "Speaker"
         }
       }
     }
@@ -5518,9 +5518,9 @@
           "privat läge"
         ],
         "hints": {
-          "easy": "Besökshistoriken försvinner när den särskilda surfsessionen stängs",
-          "normal": "En delad dator visar färre spår efteråt",
-          "hard": "En nedladdad fil kan ändå ligga kvar"
+          "easy": "Historik",
+          "normal": "Fönster",
+          "hard": "Nedladdningar"
         }
       },
       "en": {
@@ -5530,9 +5530,9 @@
           "InPrivate browsing"
         ],
         "hints": {
-          "easy": "The local visit history goes away when the special session ends",
-          "normal": "A shared computer keeps fewer traces",
-          "hard": "A downloaded file can still be there"
+          "easy": "History",
+          "normal": "Window",
+          "hard": "Downloads"
         }
       }
     }
@@ -5553,18 +5553,18 @@
           "QR"
         ],
         "hints": {
-          "easy": "Ett rutmönster som kameran kan läsa som en länk",
-          "normal": "Skanna menyn från ett bord",
-          "hard": "Tre stora hörn hittar riktningen"
+          "easy": "Rutmönster",
+          "normal": "Kamera",
+          "hard": "Riktning"
         }
       },
       "en": {
         "word": "QR code",
         "aliases": [],
         "hints": {
-          "easy": "A square pattern a camera can read as a link",
-          "normal": "Scan the menu at a restaurant",
-          "hard": "Three big corners show the orientation"
+          "easy": "Squares",
+          "normal": "Camera",
+          "hard": "Orientation"
         }
       }
     }
@@ -5576,25 +5576,25 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "digital papperskorg",
         "aliases": [],
         "hints": {
-          "easy": "Raderade filer kan ligga kvar här en tid",
-          "normal": "Återställ dokumentet som du tog bort av misstag",
-          "hard": "Tömning kan frigöra lagringsutrymme"
+          "easy": "Radering",
+          "normal": "Återställning",
+          "hard": "Tömning"
         }
       },
       "en": {
         "word": "recycle bin",
         "aliases": [],
         "hints": {
-          "easy": "Deleted files can linger here for a while",
-          "normal": "Restore a document you removed by mistake",
-          "hard": "Emptying it can free up storage"
+          "easy": "Deletion",
+          "normal": "Recovery",
+          "hard": "Emptying"
         }
       }
     }
@@ -5616,9 +5616,9 @@
           "reguljära uttryck"
         ],
         "hints": {
-          "easy": "Ett textmönster för att hitta eller byta tecken",
-          "normal": "Välj bara rader som börjar med en siffra",
-          "hard": "Hakar kan stå för flera möjliga tecken"
+          "easy": "Textmönster",
+          "normal": "Siffra",
+          "hard": "Hakar"
         }
       },
       "en": {
@@ -5628,9 +5628,9 @@
           "regexp"
         ],
         "hints": {
-          "easy": "A pattern for finding or replacing text",
-          "normal": "Select only lines that start with a digit",
-          "hard": "Brackets can stand for alternatives"
+          "easy": "Replacing",
+          "normal": "Select",
+          "hard": "Alternatives"
         }
       }
     }
@@ -5651,18 +5651,18 @@
           "sandlådemiljö"
         ],
         "hints": {
-          "easy": "En isolerad miljö begränsar vad ett program får komma åt",
-          "normal": "Öppna en fil utan att ge den tillgång till hela systemet",
-          "hard": "Ett program kan få en egen avgränsad vy av lagringen"
+          "easy": "Isolerad",
+          "normal": "Tillgång",
+          "hard": "Lagringen"
         }
       },
       "en": {
         "word": "software sandbox",
         "aliases": [],
         "hints": {
-          "easy": "An isolated environment restricts what a program can touch",
-          "normal": "Open a file without giving it access to the whole system",
-          "hard": "A program may see only a limited part of storage"
+          "easy": "Environment",
+          "normal": "Giving",
+          "hard": "Limited"
         }
       }
     }
@@ -5681,18 +5681,18 @@
         "word": "skärmläsare",
         "aliases": [],
         "hints": {
-          "easy": "Läser upp text och knappar i ett gränssnitt",
-          "normal": "Alternativtexten beskriver en bild med ord",
-          "hard": "Rubriker kan bli genvägar när du navigerar"
+          "easy": "Gränssnitt",
+          "normal": "Alternativtexten",
+          "hard": "Navigerar"
         }
       },
       "en": {
         "word": "screen reader",
         "aliases": [],
         "hints": {
-          "easy": "Speaks the words and controls in an interface",
-          "normal": "Alternative text stands in for a picture",
-          "hard": "Headings can act as navigation shortcuts"
+          "easy": "Speaks",
+          "normal": "Alternative",
+          "hard": "Navigation"
         }
       }
     }
@@ -5713,9 +5713,9 @@
           "skärmdump"
         ],
         "hints": {
-          "easy": "En stillbild av det som syns på displayen",
-          "normal": "Fånga ett felmeddelande för att visa supporten",
-          "hard": "Ett utsnitt kan dölja vad som ligger runtomkring"
+          "easy": "Stillbild",
+          "normal": "Felmeddelande",
+          "hard": "Utsnitt"
         }
       },
       "en": {
@@ -5724,9 +5724,9 @@
           "screen grab"
         ],
         "hints": {
-          "easy": "A still image of what the display shows",
-          "normal": "Capture an error to send to support",
-          "hard": "A crop can hide the surrounding details"
+          "easy": "Snapshot",
+          "normal": "Error",
+          "hard": "Crop"
         }
       }
     }
@@ -5738,25 +5738,25 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
         "word": "sökmotor",
         "aliases": [],
         "hints": {
-          "easy": "Ger en träfflista för dina nyckelord",
-          "normal": "Stavfel rättas ibland automatiskt",
-          "hard": "En annons kan hamna överst"
+          "easy": "Sökord",
+          "normal": "Träfflista",
+          "hard": "Annons"
         }
       },
       "en": {
         "word": "search engine",
         "aliases": [],
         "hints": {
-          "easy": "Finds pages that match typed keywords",
-          "normal": "Did you mean to spell it differently?",
-          "hard": "The top result might be an ad"
+          "easy": "Keywords",
+          "normal": "Results",
+          "hard": "Advertisement"
         }
       }
     }
@@ -5777,9 +5777,9 @@
           "programvarubehållare"
         ],
         "hints": {
-          "easy": "Isolerar ett program och dess beroenden i en körmiljö",
-          "normal": "En paketerad app beter sig lika i test och drift",
-          "hard": "Flera instanser kan dela värdens systemkärna"
+          "easy": "Beroenden",
+          "normal": "Paketerad",
+          "hard": "Instanser"
         }
       },
       "en": {
@@ -5788,9 +5788,9 @@
           "container"
         ],
         "hints": {
-          "easy": "Isolates an app and its dependencies at runtime",
-          "normal": "A packaged service behaves consistently in test and production",
-          "hard": "Several instances can share the host kernel"
+          "easy": "Dependencies",
+          "normal": "Packaged",
+          "hard": "Instances"
         }
       }
     }
@@ -5802,7 +5802,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5812,9 +5812,9 @@
           "uppdatering"
         ],
         "hints": {
-          "easy": "Installerar ändringar i ett program som du redan har",
-          "normal": "En omstart kan behövas för att få senaste versionen",
-          "hard": "Det kan stå vad som ändrats innan du trycker på installera"
+          "easy": "Ändringar",
+          "normal": "Omstart",
+          "hard": "Version"
         }
       },
       "en": {
@@ -5823,9 +5823,9 @@
           "update"
         ],
         "hints": {
-          "easy": "Installs changes to an app you already have",
-          "normal": "A restart may be needed for the latest version",
-          "hard": "Release notes can explain what changed"
+          "easy": "Changes",
+          "normal": "Restart",
+          "hard": "Version"
         }
       }
     }
@@ -5844,18 +5844,18 @@
         "word": "källkod",
         "aliases": [],
         "hints": {
-          "easy": "De skrivna instruktioner som ett program bygger på",
-          "normal": "En utvecklare kan granska en ändring rad för rad",
-          "hard": "Kommentarer kan förklara ett beslut för nästa läsare"
+          "easy": "Instruktioner",
+          "normal": "Utvecklare",
+          "hard": "Kommentarer"
         }
       },
       "en": {
         "word": "source code",
         "aliases": [],
         "hints": {
-          "easy": "The written instructions behind a program",
-          "normal": "A developer can review changes line by line",
-          "hard": "Comments can explain a decision to the next reader"
+          "easy": "Instructions",
+          "normal": "Developer",
+          "hard": "Comments"
         }
       }
     }
@@ -5867,7 +5867,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5876,9 +5876,9 @@
           "spam"
         ],
         "hints": {
-          "easy": "Oönskade massmeddelanden i inkorgen",
-          "normal": "Reklam om ett pris du aldrig tävlat om",
-          "hard": "Ett filter kan fånga en hel kampanj"
+          "easy": "Massmeddelanden",
+          "normal": "Reklam",
+          "hard": "Filter"
         }
       },
       "en": {
@@ -5887,9 +5887,9 @@
           "junk mail"
         ],
         "hints": {
-          "easy": "Unwanted bulk messages in an inbox",
-          "normal": "An ad for a prize you never entered to win",
-          "hard": "A filter can catch a whole campaign"
+          "easy": "Bulk",
+          "normal": "Advertising",
+          "hard": "Filter"
         }
       }
     }
@@ -5908,18 +5908,18 @@
         "word": "taligenkänning",
         "aliases": [],
         "hints": {
-          "easy": "Gör talade ord till text eller kommandon",
-          "normal": "Diktera ett meddelande utan tangentbord",
-          "hard": "Bakgrundsprat kan förvirra tolkningen"
+          "easy": "Talade",
+          "normal": "Tangentbord",
+          "hard": "Tolkningen"
         }
       },
       "en": {
         "word": "speech recognition",
         "aliases": [],
         "hints": {
-          "easy": "Turns spoken words into text or commands",
-          "normal": "Dictate a message without typing",
-          "hard": "People talking nearby can throw it off"
+          "easy": "Spoken",
+          "normal": "Typing",
+          "hard": "Talking"
         }
       }
     }
@@ -5931,7 +5931,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -5940,18 +5940,18 @@
           "kalkylark"
         ],
         "hints": {
-          "easy": "Ett rutnät där formler räknar åt dig",
-          "normal": "Summera en hel kolumn",
-          "hard": "En cell kan hänvisa till en annan"
+          "easy": "Formler",
+          "normal": "Kolumn",
+          "hard": "Hänvisa"
         }
       },
       "en": {
         "word": "spreadsheet",
         "aliases": [],
         "hints": {
-          "easy": "A grid that calculates with formulas",
-          "normal": "Add up a column",
-          "hard": "One cell can point to another"
+          "easy": "Calculates",
+          "normal": "Column",
+          "hard": "Cell"
         }
       }
     }
@@ -5970,9 +5970,9 @@
         "word": "aktivitetshanterare",
         "aliases": [],
         "hints": {
-          "easy": "Visar vilka program som belastar datorn",
-          "normal": "Avsluta ett program som hängt sig",
-          "hard": "Sortera för att hitta den som tar mest minne"
+          "easy": "Belastar",
+          "normal": "Hängt",
+          "hard": "Sortera"
         }
       },
       "en": {
@@ -5981,9 +5981,9 @@
           "process manager"
         ],
         "hints": {
-          "easy": "Shows which running apps are slowing the computer down",
-          "normal": "Close a frozen program",
-          "hard": "Sort to catch a memory hog"
+          "easy": "Slowing",
+          "normal": "Program",
+          "hard": "Memory"
         }
       }
     }
@@ -5995,7 +5995,7 @@
     "tags": [
       "software"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -6004,9 +6004,9 @@
           "text till tal"
         ],
         "hints": {
-          "easy": "En datorröst läser skriven text högt",
-          "normal": "Hör ett meddelande utan att titta på mobilen",
-          "hard": "Betoningen kan hamna på fel stavelse"
+          "easy": "Datorröst",
+          "normal": "Meddelande",
+          "hard": "Betoningen"
         }
       },
       "en": {
@@ -6016,9 +6016,9 @@
           "speech synthesis"
         ],
         "hints": {
-          "easy": "A generated voice reads written text aloud",
-          "normal": "Listen to a message without looking at your phone",
-          "hard": "It might stress the wrong syllable"
+          "easy": "Generated",
+          "normal": "Listen",
+          "hard": "Stress"
         }
       }
     }
@@ -6039,9 +6039,9 @@
           "2FA"
         ],
         "hints": {
-          "easy": "Kräver två olika slags bevis vid inloggning",
-          "normal": "Godkänn på mobilen efter att ha skrivit lösenordet",
-          "hard": "Utskrivna reservkoder kan hjälpa när telefonen saknas"
+          "easy": "Inloggning",
+          "normal": "Lösenordet",
+          "hard": "Reservkoder"
         }
       },
       "en": {
@@ -6050,9 +6050,9 @@
           "2FA"
         ],
         "hints": {
-          "easy": "Requires two different proofs to sign in",
-          "normal": "Approve on your phone after entering your password",
-          "hard": "Printed recovery codes can help if the phone is missing"
+          "easy": "Requires",
+          "normal": "Entering",
+          "hard": "Recovery"
         }
       }
     }
@@ -6071,18 +6071,18 @@
         "word": "ångra",
         "aliases": [],
         "hints": {
-          "easy": "Tar tillbaka den senaste ändringen",
-          "normal": "Ett felsteg kan försvinna med Ctrl+Z",
-          "hard": "Prova något utan att skriva över det permanent"
+          "easy": "Ändring",
+          "normal": "Kortkommando",
+          "hard": "Återställning"
         }
       },
       "en": {
         "word": "undo",
         "aliases": [],
         "hints": {
-          "easy": "Reverses the most recent edit",
-          "normal": "Ctrl+Z can fix a simple slip",
-          "hard": "Try a change and back out"
+          "easy": "Change",
+          "normal": "Shortcut",
+          "hard": "Revert"
         }
       }
     }
@@ -6103,9 +6103,9 @@
           "versionskontroll"
         ],
         "hints": {
-          "easy": "Sparar ändringshistorik för kod eller andra filer",
-          "normal": "Två personer kan jobba i varsin gren",
-          "hard": "Det går att spåra när en viss rad dök upp"
+          "easy": "Ändringshistorik",
+          "normal": "Jobba",
+          "hard": "Spåra"
         }
       },
       "en": {
@@ -6114,9 +6114,9 @@
           "revision control"
         ],
         "hints": {
-          "easy": "Tracks the change history of code or other files",
-          "normal": "Two people can work on separate branches",
-          "hard": "You can trace when a particular line appeared"
+          "easy": "Code",
+          "normal": "Separate",
+          "hard": "Appeared"
         }
       }
     }
@@ -6137,9 +6137,9 @@
           "VM"
         ],
         "hints": {
-          "easy": "En efterliknad dator som kan köra ett eget operativsystem",
-          "normal": "Prova ett annat system i ett fönster",
-          "hard": "Gästen kan få en egen kopia av en disk"
+          "easy": "Efterliknad",
+          "normal": "System",
+          "hard": "Gästen"
         }
       },
       "en": {
@@ -6148,9 +6148,9 @@
           "VM"
         ],
         "hints": {
-          "easy": "An emulated computer that can run its own operating system",
-          "normal": "Try another system inside a window",
-          "hard": "The guest can have its own disk image"
+          "easy": "Emulated",
+          "normal": "Window",
+          "hard": "Guest"
         }
       }
     }
@@ -6162,7 +6162,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -6171,9 +6171,9 @@
           "browser"
         ],
         "hints": {
-          "easy": "Öppnar sajter med en adressrad",
-          "normal": "Flera flikar bredvid varandra",
-          "hard": "Favoriterna följer med vid inloggning"
+          "easy": "Adressrad",
+          "normal": "Flikar",
+          "hard": "Bokmärken"
         }
       },
       "en": {
@@ -6182,9 +6182,9 @@
           "browser"
         ],
         "hints": {
-          "easy": "Enter a site address to open a page",
-          "normal": "Tabs across the top",
-          "hard": "Your favourites can follow you to another device"
+          "easy": "Address",
+          "normal": "Tabs",
+          "hard": "Bookmarks"
         }
       }
     }
@@ -6203,18 +6203,18 @@
         "word": "webhook",
         "aliases": [],
         "hints": {
-          "easy": "En händelse får en tjänst att skicka ett meddelande till en webbadress",
-          "normal": "En betalning kan genast meddela webbutiken",
-          "hard": "Mottagaren behöver inte fråga om status hela tiden"
+          "easy": "Händelse",
+          "normal": "Betalning",
+          "hard": "Status"
         }
       },
       "en": {
         "word": "webhook",
         "aliases": [],
         "hints": {
-          "easy": "An event makes a service send a message to a URL",
-          "normal": "A purchase can notify an online shop as soon as payment clears",
-          "hard": "The receiver doesn't need to keep checking for changes"
+          "easy": "URL",
+          "normal": "Purchase",
+          "hard": "Receiver"
         }
       }
     }
@@ -6226,7 +6226,7 @@
     "tags": [
       "software"
     ],
-    "level": "familiar",
+    "level": "intermediate",
     "review": "editorial",
     "languages": {
       "sv": {
@@ -6235,18 +6235,18 @@
           "ordbehandlingsprogram"
         ],
         "hints": {
-          "easy": "Skriv dokument med rubriker och stycken",
-          "normal": "Ändra typsnitt innan du skriver ut",
-          "hard": "Markeringarna i marginalen kan visa ändringar"
+          "easy": "Rubriker",
+          "normal": "Typsnitt",
+          "hard": "Markeringar"
         }
       },
       "en": {
         "word": "word processor",
         "aliases": [],
         "hints": {
-          "easy": "Draft a document with headings and paragraphs",
-          "normal": "Change the font before printing",
-          "hard": "Margin marks can show revisions"
+          "easy": "Headings",
+          "normal": "Fonts",
+          "hard": "Formatting"
         }
       }
     }
@@ -6268,9 +6268,9 @@
           "zip-fil"
         ],
         "hints": {
-          "easy": "Samlar filer i ett komprimerat paket",
-          "normal": "Packa upp innan du redigerar dokumenten",
-          "hard": "Ett år av textloggar kan krympa rejält"
+          "easy": "Komprimerat",
+          "normal": "Dokumenten",
+          "hard": "Textloggar"
         }
       },
       "en": {
@@ -6279,9 +6279,9 @@
           "ZIP file"
         ],
         "hints": {
-          "easy": "Wraps several files in a compressed bundle",
-          "normal": "Extract the documents before editing them",
-          "hard": "A year of text logs can shrink dramatically"
+          "easy": "Compressed",
+          "normal": "Editing",
+          "hard": "Shrink"
         }
       }
     }

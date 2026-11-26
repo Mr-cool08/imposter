@@ -6,9 +6,7 @@
   <meta name="theme-color" content="#111016">
   <meta name="description" content="{{ app_name }}. {{ slogan }}.">
   <title>{{ app_name }} · {{ slogan }}</title>
-  <link rel="manifest" href="/manifest.webmanifest">
   <link rel="icon" href="{{ url_for('static', filename='icons/icon.svg') }}" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/icon-192.png') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/extras.css') }}">
   <script type="module" src="{{ url_for('static', filename='js/ui.mjs') }}"></script>
@@ -61,10 +59,6 @@
               <span data-i18n="ui.rememberNames">Spara spelarnamn</span>
             </label>
             <button type="button" class="button button--secondary" id="open-word-tools" data-i18n="ui.wordTools">Egna ordpaket</button>
-            <details class="offline-settings" id="offline-menu">
-              <summary data-i18n="ui.offline">Spela utan nätverk</summary>
-              <div id="offline-tools"></div>
-            </details>
             <button type="button" class="button button--ghost" id="app-reset-preferences" data-i18n="ui.resetPreferences">Återställ app- och spelval</button>
           </div>
         </details>
