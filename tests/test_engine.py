@@ -502,19 +502,86 @@ def test_invalid_player_ids_cannot_break_vote_targets():
         assert raised.value.code == "invalid_players"
 
 
-def replay_javascript(cases, configurations=()):
+def run_javascript_engine(args, data):
     node = shutil.which("node")
     if not node:
         pytest.skip("Node.js saknas för JavaScriptmotorns fristående testkörning")
     completed = subprocess.run(
-        [node, str(FIXTURES / "engine_replay.mjs")],
-        input=json.dumps({
-            "content": CONTENT, "rules": RULES, "cases": cases,
-            "configurations": configurations,
-        }), encoding="utf-8", capture_output=True, timeout=30,
+        [node, *args],
+        input=json.dumps({"content": CONTENT, "rules": RULES, **data}),
+        encoding="utf-8", capture_output=True, timeout=30,
     )
     assert completed.returncode == 0, completed.stderr
-    return json.loads(completed.stdout)
+    return completed.stdout
+
+
+def replay_javascript(cases, configurations=()):
+    return json.loads(run_javascript_engine(
+        [str(FIXTURES / "engine_replay.mjs")],
+        {"cases": cases, "configurations": configurations},
+    ))
+
+
+def test_javascript_table_play_draws_first_clue_giver_once_with_weighted_roles():
+    scenarios = [
+        {"mode": "classic", "joker": True},
+        *({"extraRole": role} for role in EXTRAS[1:]),
+        *({"mode": mode} for mode in ("undercover", "reverse", "all", "none")),
+    ]
+    engine = ROOT / "app" / "static" / "js" / "engine.mjs"
+    script = """
+        import assert from "node:assert/strict";
+        import { readFileSync } from "node:fs";
+
+        const { createRound } = await import(process.argv[1]);
+        const { players, content, rules, scenarios, now } = JSON.parse(readFileSync(0, "utf8"));
+
+        function playRound(settings, roll) {
+          let calls = 0;
+          let rngValue = 0;
+          const rng = () => { calls += 1; return rngValue; };
+          const round = createRound(players, settings, content.words, content.pairs, rules,
+            { rng, now, flow: "table" });
+          const setupCalls = calls;
+          rngValue = roll;
+
+          assert.equal(round.publicState().firstClueGiverId, null);
+          for (const { id } of players.slice(0, -1)) {
+            round.act(id, "ack_role", {}, now);
+            assert.equal(round.publicState().firstClueGiverId, null);
+            assert.equal(calls, setupCalls);
+          }
+          round.act(players.at(-1).id, "ack_role", {}, now);
+          const starter = round.publicState().firstClueGiverId;
+          assert.equal(calls, setupCalls + 1);
+
+          round.tick(now + 600_000);
+          assert.equal(round.publicState().firstClueGiverId, starter);
+          round.act(players[0].id, "reveal_roles", {}, now);
+          const revealed = round.publicState();
+          assert.equal(revealed.firstClueGiverId, starter);
+          assert.equal(calls, setupCalls + 1);
+          return { starter, roles: revealed.result.roles };
+        }
+
+        for (const settings of scenarios) {
+          const { roles } = playRound(settings, 0);
+          const weights = players.map(({ id }) => roles[id] === "civil" ? 10 : 9);
+          const total = weights.reduce((sum, weight) => sum + weight, 0);
+          let start = 0;
+          for (const [index, { id }] of players.entries()) {
+            const end = start + weights[index] / total;
+            for (const roll of [start + 1e-8, end - 1e-8]) {
+              assert.equal(playRound(settings, roll).starter, id, JSON.stringify({ settings, roll }));
+            }
+            start = end;
+          }
+        }
+    """
+    run_javascript_engine(
+        ["--input-type=module", "--eval", script, engine.as_uri()],
+        {"players": players(6), "scenarios": scenarios, "now": NOW},
+    )
 
 
 def test_javascript_table_play_reveals_only_after_physical_play():

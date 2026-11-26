@@ -59,7 +59,7 @@ export function mountLocal(ctx) {
         root.dataset.testid = "local-setup";
 
         const playersList = el("ul", { class: "local-player-list stack" });
-        const count = el("p", { class: "muted", "aria-live": "polite" });
+        const count = el("p", { class: "local-player-count", "aria-live": "polite" });
         const nameInput = el("input", {
             id: "local-name",
             type: "text",
@@ -70,15 +70,15 @@ export function mountLocal(ctx) {
             placeholder: t("local.players.placeholder"),
             ...test("player-name"),
         });
-        const add = button(t("local.players.add"), null, { type: "submit", ...test("add-player") });
+        const add = button(t("local.players.add"), null, { class: "local-player-add", variant: "secondary", type: "submit", ...test("add-player") });
         const clear = button(t("local.players.clear"), () => {
             players = [];
             savePlayers();
             updatePlayers();
             nameInput.focus();
-        }, { variant: "ghost" });
+        }, { variant: "ghost", class: "local-player-clear" });
         const rosterError = el("p", { class: "error", "aria-live": "polite" });
-        const roster = el("form", { class: "stack", onSubmit: (event) => {
+        const roster = el("form", { class: "stack local-roster-form", onSubmit: (event) => {
             event.preventDefault();
             const name = nameInput.value.trim().replace(/\s+/gu, " ");
             if (!name || players.length >= maxPlayers) return;
@@ -95,8 +95,9 @@ export function mountLocal(ctx) {
         el("div", { class: "cluster local-name-entry" }, nameInput, add), rosterError);
 
         function updatePlayers() {
-            playersList.replaceChildren(...players.map((player) => el("li", { class: "split local-player-row" },
-                el("span", {}, player.name),
+            playersList.replaceChildren(...players.map((player) => el("li", { class: "local-player-row" },
+                el("span", { class: "local-player-avatar", "aria-hidden": "true" }, Array.from(player.name)[0]?.toLocaleUpperCase(ctx.lang)),
+                el("span", { class: "local-player-name" }, player.name),
                 button(t("local.players.remove"), () => {
                     players = players.filter(({ id }) => id !== player.id);
                     savePlayers();
@@ -112,13 +113,13 @@ export function mountLocal(ctx) {
             adjustStart();
         }
 
-        const configRoot = el("div", { class: "stack" });
+        const configRoot = el("div", { class: "stack setup-config" });
         const start = button(t("local.setup.start"), () => {
             const selection = editor.getSelection();
             if (!canStart(selection)) return;
             settings = { ...editor.getSettings(), freePlay: true };
             beginRound(selection, setupError, start);
-        }, test("start"));
+        }, { ...test("start"), class: "local-start-button" });
         const setupError = el("p", { class: "error", "aria-live": "polite" });
         const startHelp = el("p", { id: "local-start-help", class: "muted", "aria-live": "polite" });
         start.setAttribute("aria-describedby", startHelp.id);
@@ -136,11 +137,21 @@ export function mountLocal(ctx) {
             else startHelp.textContent = "";
         }
 
-        root.replaceChildren(heading(t("local.setup.title"), t("local.setup.intro")),
-            el("section", { class: "panel stack", "aria-labelledby": "local-players-title" },
-                el("h2", { id: "local-players-title" }, t("local.players.title")),
-                count, roster, playersList, clear), configRoot,
-            el("div", { class: "stack local-start-actions" }, setupError, startHelp, start));
+        const hero = el("header", { class: "setup-hero" },
+            el("div", { class: "setup-hero__copy" },
+                el("h1", { tabindex: "-1" }, t("local.setup.title")), paragraph(t("local.setup.intro"))),
+            el("div", { class: "setup-hero__art", "aria-hidden": "true" },
+                el("span", { class: "setup-hero__orbit" }),
+                el("span", { class: "setup-hero__spark setup-hero__spark--near" }, "✦"),
+                el("span", { class: "setup-hero__spark setup-hero__spark--far" }, "✧"),
+                el("span", { class: "setup-hero__card setup-hero__card--back" }),
+                el("span", { class: "setup-hero__card setup-hero__card--front" }, "?")));
+        root.replaceChildren(hero,
+            el("section", { class: "panel stack setup-roster", "aria-labelledby": "local-players-title" },
+                el("div", { class: "split" },
+                    el("h2", { id: "local-players-title" }, t("local.players.title")), count),
+                roster, playersList, clear), configRoot,
+            el("div", { class: "panel stack local-start-actions" }, setupError, startHelp, start));
 
         updatePlayers();
         editor = mountSettings(ctx, {
@@ -209,9 +220,12 @@ export function mountLocal(ctx) {
 
     function renderPrivate(stage, state) {
         const { id, name } = state.players[state.completed];
-        const content = el("div", { class: "hand-off panel stack", ...test("handoff") },
+        const progress = el("div", { class: "local-handoff-progress" },
             paragraph(t("local.private.step", { step: state.completed + 1, count: state.players.length }), "local-phase-label"),
-            el("h1", { tabindex: "-1" }, t("local.private.pass", { name })));
+            el("div", { class: "local-handoff-track", "aria-hidden": "true" }, state.players.map((_, index) =>
+                el("span", { "data-step": index < state.completed ? "done" : index === state.completed ? "current" : "upcoming" }))));
+        const content = el("div", { class: "hand-off panel stack", ...test("handoff") }, progress);
+        const title = el("h1", { tabindex: "-1" }, t("local.private.pass", { name }));
         stage.append(content);
 
         if (!privateOpen) {
@@ -221,7 +235,9 @@ export function mountLocal(ctx) {
                 renderRound();
                 ctx.feedback("reveal");
             }, test("show-private"));
-            content.append(paragraph(t("local.private.ready")), open);
+            content.append(el("div", { class: "local-handoff-body" },
+                el("div", { class: "local-handoff-art", "aria-hidden": "true" }, el("span", {}, "?")),
+                el("div", { class: "stack local-handoff-copy" }, title, paragraph(t("local.private.ready")), open)));
             return open;
         }
 
@@ -237,34 +253,64 @@ export function mountLocal(ctx) {
             const partners = state.players.filter((player) => card.partners.includes(player.id));
             fields.append(el("dt", {}, t("local.card.partners")), el("dd", {}, partners.map((player) => player.name).join(", ")));
         }
-        content.append(el("div", { class: "local-private-content stack", ...test("private-content") },
-            role, fields, button(t("local.card.hide"), () => advance(id, "ack_role"), test("hide-card"))));
+        content.append(el("div", { class: "local-handoff-open stack" }, title,
+            el("div", { class: "local-private-content stack", ...test("private-content") }, role, fields,
+                button(t("local.card.hide"), () => advance(id, "ack_role"), test("hide-card")))));
         return role;
     }
 
     function renderPlaying(stage, state) {
-        stage.append(el("section", { class: "panel stack" },
-            heading(t("local.playing.title"), t("local.playing.prompt")),
-            button(t("local.playing.show"), () => advance(state.players[0].id, "reveal_roles"), test("show-roles"))));
+        const starter = state.players.find(({ id }) => id === state.firstClueGiverId);
+        const showRoles = button(t("local.playing.show"), () => {
+            showRoles.focus();
+            confirmation.showModal();
+        }, { "aria-haspopup": "dialog", ...test("show-roles") });
+        const confirmation = el("dialog", {
+            class: "panel local-reveal-dialog",
+            "aria-labelledby": "local-reveal-question",
+            ...test("reveal-confirmation"),
+        }, el("div", { class: "stack" },
+            el("h2", { id: "local-reveal-question" }, t("local.playing.revealQuestion")),
+            el("div", { class: "cluster local-dialog-actions" },
+                button(t("local.playing.continue"), () => confirmation.close(), {
+                    variant: "secondary", autofocus: true, ...test("continue-playing"),
+                }),
+                button(t("local.playing.confirmReveal"), () => {
+                    if (!confirmation.open) return;
+                    confirmation.close();
+                    advance(state.players[0].id, "reveal_roles");
+                }, test("confirm-reveal")))));
+        stage.append(el("section", { class: "panel local-playing-card" },
+            el("div", { class: "local-playing-art", "aria-hidden": "true" }, el("span", {})),
+            el("div", { class: "stack local-playing-copy" },
+                el("header", { class: "page-header" },
+                    el("h1", { tabindex: "-1", ...test("first-clue-giver") }, t("local.playing.starter", { name: starter.name })),
+                    paragraph(t("local.playing.prompt"))),
+                showRoles), confirmation));
     }
 
     function renderResult(stage, state) {
         const { result } = state;
         const category = roundSelection.categories?.find(({ id }) => id === result.category);
         const categoryText = category?.names?.[ctx.lang] ?? result.category;
-        const words = el("dl", { class: "local-result-data" },
+        const wordGroup = el("div", { class: "local-result-words" },
             el("dt", {}, t(result.pairedWord ? "local.result.words" : "local.card.word")),
             el("dd", { class: "local-card-value", lang: settings.language }, result.word));
         if (result.pairedWord) {
-            words.append(el("dd", { class: "local-card-value", lang: settings.language }, result.pairedWord));
+            wordGroup.append(el("dd", { class: "local-card-value", lang: settings.language }, result.pairedWord));
         }
-        if (categoryText) words.append(el("dt", {}, t("local.result.category")), el("dd", {}, categoryText));
-        words.append(el("dt", {}, t("local.result.mode")), el("dd", {}, ctx.modeName(result.mode)));
+        const words = el("dl", { class: "local-result-data" }, wordGroup,
+            categoryText ? el("div", { class: "local-result-detail" },
+                el("dt", {}, t("local.result.category")), el("dd", {}, categoryText)) : null,
+            el("div", { class: "local-result-detail" },
+                el("dt", {}, t("local.result.mode")), el("dd", {}, ctx.modeName(result.mode))));
 
         const rows = state.players.map(({ id, name }) => {
             const { word, hint } = result.cardContents[id];
             const value = word ?? (hint ? t("local.result.hint", { hint }) : t("local.result.empty"));
-            return el("tr", {}, el("th", { scope: "row" }, name), el("td", {}, ctx.roleName(result.roles[id])),
+            const role = result.roles[id];
+            return el("tr", {}, el("th", { scope: "row" }, name),
+                el("td", {}, el("span", { class: "local-result-role", "data-role": role }, ctx.roleName(role))),
                 el("td", { lang: settings.language }, value));
         });
         const roles = el("table", { class: "local-result-table" },
@@ -280,9 +326,10 @@ export function mountLocal(ctx) {
         stage.append(heading(t("local.result.title")),
             el("section", { class: "panel stack local-result-reveal" }, words,
                 result.reused ? paragraph(t("local.result.reused")) : ""),
-            el("section", { class: "panel stack" }, el("h2", {}, t("local.result.roles")), roles),
-            el("div", { class: "cluster" }, next, button(t("local.result.settings"), returnToSetup, { variant: "secondary" })),
-            replayError);
+            el("div", { class: "stack local-result-actions" },
+                el("div", { class: "cluster" }, next,
+                    button(t("local.result.settings"), returnToSetup, { variant: "secondary" })), replayError),
+            el("section", { class: "panel stack local-result-roles" }, el("h2", {}, t("local.result.roles")), roles));
     }
 
     function concealPrivate() {
@@ -335,7 +382,10 @@ export function mountLocal(ctx) {
     window.addEventListener("imposter:custom-content", refreshSetup, { signal });
     document.addEventListener("visibilitychange", concealOnHidden, { signal });
     document.addEventListener("freeze", concealPrivate, { signal });
-    ctx.setNavigationGuard(concealPrivate);
+    ctx.setNavigationGuard(() => {
+        concealPrivate();
+        root.querySelector(".local-reveal-dialog[open]")?.close();
+    });
 
     renderSetup();
     return () => {

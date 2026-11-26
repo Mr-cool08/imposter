@@ -381,7 +381,9 @@ export function mountSettings(ctx, {
             const isActive = categorySelection.has(category.id);
             const name = category.names[ctx.lang] ?? category.names.sv ?? category.id;
             const icon = categoryIcons[category.id] ?? "◇";
-            const choice = checkbox(el("span", {}, el("span", { class: "category-card__icon", "aria-hidden": "true" }, icon), name),
+            const choice = checkbox(el("span", { class: "category-card__label" },
+                el("span", { class: "category-card__icon", "aria-hidden": "true" }, icon),
+                el("span", {}, name)),
                 isActive, (checked) => updateCategory(category, checked), "category-card__select");
             const card = el("div", { class: "category-card", "data-category": category.id }, choice);
             if (category.subcategories.length) {
@@ -498,14 +500,15 @@ export function mountSettings(ctx, {
         el("div", { class: "settings-mode stack" }, modeInput, modeDescription),
         select("hint", value.hint, ["easy", "normal", "hard"].map((id) => [id, t(`settings.hint.${id}`)]),
             (id) => changeField("hint", id, { filtering: true })));
-    catalog.append(el("h3", {}, t("settings.categories")),
-        el("div", { class: "cluster" }, button(t("settings.all_categories"), () => setCategories(true), buttonAttrs),
-            button(t("settings.clear_categories"), () => setCategories(false), buttonAttrs)),
+    catalog.append(el("header", { class: "split settings-catalog__header" }, el("h2", {}, t("settings.categories")),
+        el("div", { class: "cluster settings-catalog__tools" }, button(t("settings.all_categories"), () => setCategories(true), buttonAttrs),
+            button(t("settings.clear_categories"), () => setCategories(false), buttonAttrs))),
         choices, el("p", { class: "muted" }, t("settings.subcategories_help")),
         el("fieldset", { class: "stack" }, el("legend", {}, t("settings.levels")),
             el("div", { class: "cluster" }, ...levels.map((level) => checkbox(t(`settings.level.${level}`), value.levels.includes(level),
                 (checked) => toggleMembership("levels", level, checked))))), counts);
-    editor.append(basic, modeRange, catalog, advanced, pool, issuesList);
+    editor.append(el("section", { class: "panel stack settings-round", "aria-labelledby": "settings-round-title" },
+        el("h2", { id: "settings-round-title" }, t("settings.round")), basic, modeRange, advanced, pool), catalog, issuesList);
     root.replaceChildren(editor);
     renderMode();
     ctx.signal?.addEventListener("abort", destroy, { once: true, signal: controller.signal });

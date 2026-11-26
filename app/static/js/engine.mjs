@@ -251,17 +251,21 @@ function shuffled(values, rng) {
   return result;
 }
 
+function chooseWeighted(values, weights, rng) {
+  const draw = rng() * weights.reduce((sum, weight) => sum + weight, 0);
+  let cumulative = 0;
+  for (let index = 0; index < values.length; index += 1) {
+    cumulative += weights[index];
+    if (draw < cumulative) return values[index];
+  }
+  return values.at(-1);
+}
+
 function chooseProfile(profiles, rng) {
   let maxWeight = 0;
   for (const { settings } of profiles) maxWeight = Math.max(maxWeight, settings.weight);
   const weights = profiles.map(({ settings }) => settings.weight / maxWeight);
-  const draw = rng() * weights.reduce((sum, weight) => sum + weight, 0);
-  let cumulative = 0;
-  for (let index = 0; index < profiles.length; index += 1) {
-    cumulative += weights[index];
-    if (draw < cumulative) return profiles[index];
-  }
-  return profiles.at(-1);
+  return chooseWeighted(profiles, weights, rng);
 }
 
 function effectiveMode(mode, count, playerCount, rules) {
@@ -366,7 +370,7 @@ export function createRound(players, settings, words, pairs, rules, { rng, used,
   }
   return new Round({
     id, roster, ids, selected, profile, chosen, roles, order, rules, groupOptions, neutralGuess,
-    table: flow === "table",
+    table: flow === "table", random,
   });
 }
 
@@ -387,6 +391,7 @@ class Round {
   #round;
   #phase = "roles";
   #roleReady = new Set();
+  #firstClueGiverId = null;
   #abilityReady = new Set();
   #votes = new Map();
   #investigations = new Map();
@@ -417,7 +422,7 @@ class Round {
   }
 
   publicState() {
-    const { id, selected, roster, ids, order, groupOptions } = this.#round;
+    const { id, selected, roster, ids, order, groupOptions, table } = this.#round;
     const { mode, clueStyle, clueRounds, discussionSeconds } = selected;
     const phase = this.#phase;
     const completed = { roles: this.#roleReady.size, abilities: this.#abilityReady.size, voting: this.#votes.size };
@@ -426,6 +431,7 @@ class Round {
       clueStyle, clueRounds, discussionSeconds,
       clueRound: phase === "clues" ? Math.floor(this.#clueIndex / order.length) + 1 : null,
       currentPlayerId: phase === "clues" ? order[this.#clueIndex % order.length] : null,
+      ...(table ? { firstClueGiverId: this.#firstClueGiverId } : {}),
       clues: this.#clues.map(clue => ({ ...clue })), completed: completed[phase] ?? 0,
       options: phase === "voting" ? [...ids, ...groupOptions] : [],
       paused: this.#paused, deadline: this.#deadline, remainingMs: this.#remainingMs,
@@ -490,10 +496,15 @@ class Round {
     switch (action) {
       case "ack_role":
         if (this.#roleReady.has(playerId)) throw new EngineError("already_done");
-        this.#roleReady.add(playerId);
-        if (this.#roleReady.size === this.#round.ids.length) {
-          this.#phase = this.#round.table ? "playing" : "clues";
+        if (this.#roleReady.size === this.#round.ids.length - 1) {
+          const { ids, roles, random, table } = this.#round;
+          if (table) {
+            const weights = ids.map(id => roles.assignments.get(id) === "civil" ? 1 : 0.9);
+            this.#firstClueGiverId = chooseWeighted(ids, weights, random);
+          }
+          this.#phase = table ? "playing" : "clues";
         }
+        this.#roleReady.add(playerId);
         break;
       case "clue":
         this.#clue(playerId, data.text, now);

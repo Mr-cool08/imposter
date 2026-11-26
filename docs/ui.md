@@ -6,7 +6,7 @@
 
 1. `mountSettings(ctx, {root, settings, playerCount, onChange, onSelection})` visar läge, ordmaterial och val av roller. `getSelection()` ger `{words, pairs, issues, loading, error}`. Första rollkortet öppnas först när spelarna och urvalet har validerats.
 2. Lokalvyn ber en spelare i taget att ta över mobilen. Spelaren trycker för att visa kortet och döljer det innan nästa spelare tar över. Fokusförlust, bakgrundsläge och återställning från webbläsarens snabbcache döljer kortet.
-3. Efter sista kortet visas **Visa roller**. Knappen avslöjar roller och ord efter att gruppen har spelat. Resultatet ger val att spela igen eller återgå till inställningarna.
+3. Efter sista kortet visas vem som ger första ledtråden och knappen **Visa roller**. Spelarna kan fortsätta omgången eller bekräfta med **Avslöja roller** för att se ord och roller. Resultatet ger val att spela igen eller återgå till inställningarna.
 
 ## Spelregler
 

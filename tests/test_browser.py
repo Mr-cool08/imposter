@@ -261,6 +261,7 @@ def read_private_cards(page, names, *, check_privacy=False):
     handoff = page.get_by_test_id("local-handoff")
     private_content = page.get_by_test_id("local-private-content")
     reveal = page.get_by_test_id("local-show-roles")
+    first_clue_giver = page.get_by_test_id("local-first-clue-giver")
     cards = []
     other_tab = None
     if check_privacy:
@@ -274,8 +275,10 @@ def read_private_cards(page, names, *, check_privacy=False):
         expect(handoff.get_by_role("heading", level=1)).to_contain_text(name)
         expect(private_content).to_have_count(0)
         expect(reveal).to_have_count(0)
+        expect(first_clue_giver).to_have_count(0)
         page.get_by_test_id("local-show-private").click()
         expect(private_content).to_be_visible()
+        expect(first_clue_giver).to_have_count(0)
         value = private_content.locator(".local-card-value").inner_text()
         assert value
         if index == 0 and other_tab is not None:
@@ -302,7 +305,51 @@ def read_private_cards(page, names, *, check_privacy=False):
         expect(private_content).to_have_count(0)
     expect(reveal).to_be_visible()
     expect(reveal).to_have_accessible_name("Visa roller")
+    expect(first_clue_giver).to_be_visible()
+    assert first_clue_giver.inner_text() in {f"{name} börjar" for name in names}
     return cards, reveal
+
+
+def confirm_reveal(page, reveal, *, check_cancel=False):
+    expect = playwright_api.expect
+    dialog = page.get_by_test_id("local-reveal-confirmation")
+    result = page.get_by_test_id("local-result")
+    first_clue_giver = page.get_by_test_id("local-first-clue-giver")
+    confirm = dialog.get_by_test_id("local-confirm-reveal")
+
+    reveal.click()
+    expect(dialog).to_have_accessible_name("Vill ni avslöja ord och roller?")
+    expect(dialog.get_by_text("Vill ni avslöja ord och roller?", exact=True)).to_be_visible()
+    expect(result).to_have_count(0)
+    expect(confirm).to_have_accessible_name("Avslöja roller")
+
+    if check_cancel:
+        starter = first_clue_giver.inner_text()
+        cancel = dialog.get_by_test_id("local-continue-playing")
+        expect(cancel).to_have_accessible_name("Fortsätt spela")
+        expect(cancel).to_be_focused()
+        cancel.click()
+        expect(dialog).not_to_be_visible()
+        expect(reveal).to_be_focused()
+        expect(result).to_have_count(0)
+        expect(first_clue_giver).to_be_visible()
+        expect(first_clue_giver).to_have_text(starter)
+
+        reveal.click()
+        page.keyboard.press("Escape")
+        expect(dialog).not_to_be_visible()
+        expect(reveal).to_be_focused()
+        expect(result).to_have_count(0)
+        expect(first_clue_giver).to_have_text(starter)
+
+        reveal.click()
+        expect(result).to_have_count(0)
+
+    confirm.click()
+    expect(result).to_be_visible()
+    expect(dialog).not_to_be_visible()
+    expect(first_clue_giver).to_have_count(0)
+    return result
 
 
 def expect_player_result(result, name, role, value):
@@ -344,11 +391,8 @@ def test_mobile_local_game_after_reload(app_url, chromium, mode):
         word, matches = Counter(value for _, _, value in cards).most_common(1)[0]
         assert matches == 2
 
-        result = page.get_by_test_id("local-result")
-        expect(result).to_have_count(0)
         expect_no_app_managed_round(page)
-        reveal.click()
-        expect(result).to_be_visible()
+        result = confirm_reveal(page, reveal, check_cancel=True)
         expect(result.get_by_text(word, exact=True).first).to_be_visible()
         expect(result.get_by_role("columnheader", name="Ord eller ledtråd", exact=True)).to_be_visible()
         for name, role, value in cards:
@@ -366,7 +410,6 @@ def test_undercover_uses_indistinguishable_cards_and_reveals_both_words(app_url,
     browser, _ = chromium
     context = browser.new_context(base_url=app_url)
     page = context.new_page()
-    expect = playwright_api.expect
     try:
         page.goto(app_url)
         names = ["Anna", "Bo", "Dani"]
@@ -377,9 +420,7 @@ def test_undercover_uses_indistinguishable_cards_and_reveals_both_words(app_url,
         assert len({title for _, title, _ in cards}) == 1
         word_counts = Counter(value for _, _, value in cards)
         assert sorted(word_counts.values()) == [1, 2]
-        reveal.click()
-        result = page.get_by_test_id("local-result")
-        expect(result).to_be_visible()
+        result = confirm_reveal(page, reveal)
         assert set(result.locator(".local-card-value").all_text_contents()) == set(word_counts)
         for name, _, word in cards:
             role = "Undercover" if word_counts[word] == 1 else "Civil"
@@ -425,9 +466,7 @@ def test_random_fixed_counts_reveal_resolved_mode(app_url, chromium, actual_mode
         assert titles[imposter] == imposters
         assert titles[civil] == len(names) - imposters
 
-        reveal.click()
-        result = page.get_by_test_id("local-result")
-        expect(result).to_be_visible()
+        result = confirm_reveal(page, reveal)
         mode_label = result.get_by_text(translations["local.result.mode"], exact=True)
         expect(mode_label.locator("xpath=following-sibling::dd[1]")).to_have_text(
             translations[f"ui.mode.{actual_mode}"]

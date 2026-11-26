@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#111016">
+  <meta name="theme-color" content="#15131b">
   <meta name="description" content="{{ app_name }}. {{ slogan }}.">
   <title>{{ app_name }} · {{ slogan }}</title>
   <link rel="icon" href="{{ url_for('static', filename='icons/icon.svg') }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/extras.css') }}">
   <script type="module" src="{{ url_for('static', filename='js/ui.mjs') }}"></script>
 </head>
@@ -23,7 +24,10 @@
         </span>
       </a>
       <nav class="site-nav" aria-label="Spelregler" data-i18n-label="guide.navigation">
-        <a class="site-nav__link" id="guide-link" href="/#regler" data-i18n="guide.navigation">Spelregler</a>
+        <a class="site-nav__link" id="guide-link" href="/#regler">
+          <span class="tool-icon tool-icon--rules" aria-hidden="true"></span>
+          <span data-i18n="guide.navigation">Spelregler</span>
+        </a>
       </nav>
       <div class="site-tools">
         <details class="site-tool" id="preferences-menu">
@@ -63,8 +67,10 @@
   </div>
   <main class="layout app-main" id="app-view" tabindex="-1">
     <div class="app-view" id="local-view">
-      <h1>Spelinställningar</h1>
-      <p class="muted">Laddar spelet …</p>
+      <div class="setup-loading panel stack">
+        <h1>Spelinställningar</h1>
+        <p class="muted" role="status">Laddar spelet …</p>
+      </div>
     </div>
     <section class="stack" id="word-tools" hidden>
       <button type="button" class="button button--ghost back-to-setup" id="close-word-tools" data-i18n="ui.backToSetup">Tillbaka till spelinställningar</button>

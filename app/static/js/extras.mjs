@@ -297,7 +297,7 @@ export function mountExtras(ctx) {
   function packagePicker() {
     const stored = listCustomPackages();
     const current = stored.some(packed => packed.id === draft?.id) ? draft.id : "";
-    return e("section", { class: "panel stack" }, e("h2", {}, t("package")),
+    return e("section", { class: "panel stack extras-package-picker" }, e("h2", {}, t("package")),
       stored.length ? selectField(t("loadPackage"), current, stored.map(packed => [packed.id, label(packed.names)]), id => {
         if (mayLeaveDraft()) openDraft(stored.find(packed => packed.id === id));
         render();
@@ -345,7 +345,7 @@ export function mountExtras(ctx) {
       notice = readError ? t("readFailed") : parsed.ok ? t("importReady") : "";
       render();
     } });
-    return e("section", { class: "panel stack" }, e("h2", {}, t("importPackage")),
+    return e("section", { class: "panel stack extras-import" }, e("h2", {}, t("importPackage")),
       e("label", { class: "field" }, t("importNote"), input),
       pendingImport ? button("useImported", () => {
         if (!mayLeaveDraft()) return;
@@ -376,7 +376,7 @@ export function mountExtras(ctx) {
       dirty = true;
       render(`extras-category-${lang}`);
     };
-    return e("section", { class: "panel stack" }, e("h2", {}, t("categories")),
+    return e("section", { class: "panel stack extras-category-editor" }, e("h2", {}, t("categories")),
       current ? selectField(t("category"), categoryId, draft.categories.map(category => [category.id, label(category.names)]), id => {
         categoryId = id;
         wordId = draft.words.find(word => word.category === categoryId)?.id ?? "";
@@ -424,7 +424,7 @@ export function mountExtras(ctx) {
       dirty = true;
       renderPreview();
     };
-    return e("section", { class: "panel stack" }, e("h2", {}, t("wordCount", { count: eligible.length })),
+    return e("section", { class: "panel stack extras-word-editor" }, e("h2", {}, t("wordCount", { count: eligible.length })),
       items.length ? selectField(t("selectWord"), currentWord?.id ?? "", items, id => { wordId = id; render(); }, t("selectWord")) : null,
       currentWord ? e("div", { class: "stack" },
         selectField(t("subcategory"), currentWord.subcategory,
@@ -465,7 +465,7 @@ export function mountExtras(ctx) {
     const options = [...labels];
     const pairs = draft.pairs;
     const existing = (left, right) => pairs.some(pair => pair.includes(left) && pair.includes(right));
-    return e("details", { class: "panel stack", open: pairs.length > 0 },
+    return e("details", { class: "panel stack extras-pairs", open: pairs.length > 0 },
       e("summary", {}, t("pairCount", { count: pairs.length })),
       pairs.length ? e("ul", { class: "extras-list" }, ...pairs.map(([left, right], index) => e("li", { class: "extras-entry" },
         e("span", {}, `${labels.get(left)} / ${labels.get(right)}`), button("removePair", () => {
@@ -545,7 +545,7 @@ export function mountExtras(ctx) {
   }
 
   function previewCard(role, content, type) {
-    return e("article", { class: "panel panel--subtle extras-preview-card" },
+    return e("article", { class: "panel panel--subtle extras-preview-card", "data-preview-role": role },
       e("h3", {}, t(role)), e("p", { class: "muted" }, t(type)),
       e("p", { class: "extras-preview-value", lang }, content),
     );
@@ -576,7 +576,7 @@ export function mountExtras(ctx) {
       return field;
     };
     const wordChoices = words.map(entry => [entry.id, wordLabel(entry)]);
-    previewBox.replaceChildren(e("h2", {}, t("previewTitle")), e("p", {}, t("previewIntro")),
+    const children = [e("h2", {}, t("previewTitle")), e("p", {}, t("previewIntro")),
       e("div", { class: "extras-grid" },
         previewField("source", "previewSource", preview.source,
           [["custom", t("previewCustom")], ["public", t("previewBuiltIn")]], null, source => {
@@ -604,7 +604,7 @@ export function mountExtras(ctx) {
         e("p", { role: "status", class: "error" }, t("previewLoadError")),
         button("previewRetry", () => void loadPublicPreview(), secondary),
       ) : null,
-      translation?.word.trim() ? e("div", { class: "extras-grid" },
+      translation?.word.trim() ? e("div", { class: "extras-grid extras-preview-cards" },
         previewCard("previewCivil", translation.word, "previewWord"),
         previewCard("previewImposter", hint || t("previewNoHint"), "previewHint"),
         previewCard("previewJoker", translation.word, "previewWord"),
@@ -620,7 +620,8 @@ export function mountExtras(ctx) {
           render("extras-feedback");
         }, secondary),
       ) : null,
-    );
+    ];
+    previewBox.replaceChildren(...children.filter(child => child !== null));
   }
 
   function flagsPanel() {
@@ -665,14 +666,14 @@ export function mountExtras(ctx) {
 
   function render(focusId) {
     if (!active()) return;
-    previewBox = e("section", { class: "panel stack" });
+    previewBox = e("section", { class: "panel stack extras-preview" });
     const editors = draft ? [
       e("section", { class: "panel stack" }, e("h2", {}, t("packageName")), nameFields(draft.names, "name", "extras-pack"),
         e("div", { class: "cluster" }, button("savePackage", saveDraft),
           button("exportJson", () => exportDraft("json"), secondary), button("exportCsv", () => exportDraft("csv"), secondary))),
       categoryPanel(), wordPanel(), pairsPanel(),
     ] : [];
-    const operations = e("div", { class: "extras-grid" }, packagePicker(), importPanel());
+    const operations = e("div", { class: "extras-grid extras-operations" }, packagePicker(), importPanel());
     const marked = flagsPanel();
     const readWarning = !packages.readable || !flags.readable;
     const storageWarning = !packages.persisted || !flags.persisted;

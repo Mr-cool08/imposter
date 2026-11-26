@@ -301,7 +301,7 @@ function useMessages(dictionary) {
 
 function updateTheme() {
   document.documentElement.dataset.theme = prefs.theme;
-  themeColor.content = prefs.theme === "light" ? "#f6f2fb" : "#111016";
+  themeColor.content = prefs.theme === "light" ? "#f7f3fc" : "#15131b";
   themeInput.value = prefs.theme;
 }
 
