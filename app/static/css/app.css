@@ -466,7 +466,10 @@ th { color: var(--muted); font-size: .88rem; }
   font-size: .8rem;
   font-weight: 800;
 }
-.local-player-name { font-weight: 680; line-height: 1.25; }
+.local-player-name { font-weight: 680; line-height: 1.25; overflow-wrap: anywhere; }
+.local-player-actions { justify-content: flex-end; gap: .25rem; }
+.local-player-edit { grid-column: 2 / -1; gap: .35rem; padding-block: .22rem; }
+.local-player-edit input { width: 100%; }
 .local-player-count {
   padding: .26rem .59rem;
   border-radius: 2rem;
@@ -475,7 +478,9 @@ th { color: var(--muted); font-size: .88rem; }
   font-size: .83rem;
   font-weight: 720;
 }
-.local-player-clear { justify-self: start; color: var(--muted); font-size: .87rem; }
+.local-roster-actions { gap: .4rem; }
+.local-roster-actions .button { font-size: .87rem; }
+.local-player-clear { color: var(--muted); }
 .local-roster-form { gap: .45rem; }
 .local-roster-form label { font-size: .9rem; font-weight: 680; }
 .local-name-entry { flex-wrap: nowrap; gap: .42rem; }
@@ -585,7 +590,8 @@ th { color: var(--muted); font-size: .88rem; }
   box-shadow: 0 12px 28px #10091e37;
 }
 .local-start-actions p { font-size: .87rem; }
-.local-start-actions p:empty { display: none; }
+.local-start-actions .error:empty { display: none; }
+#local-start-help:empty { position: absolute; }
 .local-start-button { min-height: 3.1rem; }
 .local-start-button::after { content: "\2192" / ""; font-size: 1.12rem; transition: transform .21s var(--ease-out); }
 .local-start-button:hover:not(:disabled)::after { transform: translateX(.22rem); }

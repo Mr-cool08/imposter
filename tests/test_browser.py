@@ -203,6 +203,123 @@ def add_players(page, names):
     playwright_api.expect(page.get_by_test_id("local-start")).to_be_enabled(timeout=15000)
 
 
+def saved_players(page):
+    return page.evaluate("""() => JSON.parse(localStorage.getItem("imposter:localPlayers"))""")
+
+
+def test_edit_player_and_undo_roster_removals(app_url, chromium):
+    browser, mobile = chromium
+    expect = playwright_api.expect
+    with browser.new_context(base_url=app_url, **mobile) as context:
+        page = context.new_page()
+        page.goto(app_url)
+        add_players(page, ["Anna", "Bo", "Cia"])
+        original = saved_players(page)
+        rows = page.locator(".local-player-row")
+        player = rows.nth(1)
+        start = page.get_by_test_id("local-start")
+        count = page.locator(".local-player-count")
+        undo = page.get_by_role("button", name="Ångra", exact=True)
+
+        player.get_by_role("button", name="Redigera Bo", exact=True).click()
+        name = player.get_by_role("textbox", name="Namn", exact=True)
+        expect(name).to_have_value("Bo")
+        name.fill(" anna ")
+        player.get_by_role("button", name="Spara namn", exact=True).click()
+        expect(page.get_by_text("En spelare har redan det namnet.", exact=True)).to_be_visible()
+        assert saved_players(page) == original
+
+        name.fill("  Bea   Lind  ")
+        player.get_by_role("button", name="Spara namn", exact=True).click()
+        edited = [original[0], {**original[1], "name": "Bea Lind"}, original[2]]
+        expect(rows.locator(".local-player-name")).to_have_text(["Anna", "Bea Lind", "Cia"])
+        assert saved_players(page) == edited
+
+        player.get_by_role("button", name="Ta bort Bea Lind", exact=True).click()
+        expect(count).to_have_text("2 av 20 spelare")
+        expect(start).to_be_disabled()
+        assert saved_players(page) == [edited[0], edited[2]]
+        undo.click()
+        expect(rows.locator(".local-player-name")).to_have_text(["Anna", "Bea Lind", "Cia"])
+        expect(count).to_have_text("3 av 20 spelare")
+        expect(start).to_be_enabled()
+        assert saved_players(page) == edited
+
+        page.get_by_role("button", name="Rensa namn", exact=True).click()
+        expect(rows).to_have_count(0)
+        expect(count).to_have_text("0 av 20 spelare")
+        expect(start).to_be_disabled()
+        assert saved_players(page) == []
+        undo.click()
+        expect(count).to_have_text("3 av 20 spelare")
+        expect(start).to_be_enabled()
+        assert saved_players(page) == edited
+
+        page.reload()
+        expect(rows.locator(".local-player-name")).to_have_text(["Anna", "Bea Lind", "Cia"])
+        expect_no_horizontal_scroll(page)
+
+
+def test_roster_changes_respect_disabled_name_persistence(app_url, chromium):
+    browser, _ = chromium
+    expect = playwright_api.expect
+    with browser.new_context(base_url=app_url) as context:
+        page = context.new_page()
+        page.goto(app_url)
+        add_players(page, ["Anna", "Bo", "Cia"])
+        preferences = page.locator("#preferences-menu > summary")
+        preferences.click()
+        page.get_by_label("Spara spelarnamn", exact=True).uncheck()
+        preferences.click()
+        assert saved_players(page) is None
+
+        player = page.locator(".local-player-row").nth(1)
+        player.get_by_role("button", name="Redigera Bo", exact=True).click()
+        player.get_by_role("textbox", name="Namn", exact=True).fill("Bea")
+        player.get_by_role("button", name="Spara namn", exact=True).click()
+        player.get_by_role("button", name="Ta bort Bea", exact=True).click()
+        page.get_by_role("button", name="Ångra", exact=True).click()
+        expect(player.locator(".local-player-name")).to_have_text("Bea")
+        assert saved_players(page) is None
+        page.reload()
+        expect(page.locator(".local-player-row")).to_have_count(0)
+        expect(page.get_by_test_id("local-start")).to_be_disabled()
+
+
+def test_start_explains_when_undercover_has_no_word_pairs(app_url, chromium):
+    browser, mobile = chromium
+    expect = playwright_api.expect
+    with browser.new_context(base_url=app_url, **mobile) as context:
+        page = context.new_page()
+        page.goto(app_url)
+        translations = page.request.get("/api/i18n/sv.json").json()
+        start = page.get_by_test_id("local-start")
+        reason = page.locator("#local-start-help")
+        expect(start).to_be_disabled()
+        expect(start).to_have_attribute("aria-describedby", "local-start-help")
+        expect(reason).to_have_attribute("role", "status")
+        expect(reason).to_have_attribute("aria-atomic", "true")
+        expect(reason).to_have_text(translations["local.players.minimum"])
+
+        add_players(page, ["Alex", "Bo", "Cia"])
+        expect(reason).to_be_empty()
+        page.get_by_role("button", name="Rensa kategorier", exact=True).click()
+        minecraft = page.locator('[data-category="minecraft"] .category-card__select input')
+        minecraft.check()
+        expect(reason).to_have_text(translations["settings.issue.no_words"])
+        page.get_by_role("checkbox", name="Expert", exact=True).check()
+        expect(start).to_be_enabled()
+        page.locator('select[name="mode"]').select_option("undercover")
+        expect(start).to_be_disabled()
+        expect(reason).to_be_visible()
+        expect(reason).to_have_text(translations["settings.issue.no_pairs"])
+
+        food = page.locator('[data-category="food"] .category-card__select input')
+        food.check()
+        expect(start).to_be_enabled()
+        expect(reason).to_be_empty()
+
+
 def test_existing_service_worker_releases_the_website(chromium):
     from flask import Response, request
 
@@ -357,6 +474,124 @@ def expect_player_result(result, name, role, value):
     row = result.get_by_role("row").filter(has=player)
     playwright_api.expect(row).to_be_visible()
     playwright_api.expect(row.get_by_role("cell")).to_have_text([role, value])
+
+
+def test_cancel_round_while_dealing_keeps_private_cards_hidden(app_url, chromium):
+    browser, mobile = chromium
+    expect = playwright_api.expect
+    with browser.new_context(base_url=app_url, **mobile) as context:
+        page = context.new_page()
+        page.goto(app_url)
+        names = ["Alex", "Bo", "Cia"]
+        add_players(page, names)
+        mode = page.locator('select[name="mode"]')
+        mode.select_option("undercover")
+        page.get_by_role("button", name="Rensa kategorier", exact=True).click()
+        food = page.locator('[data-category="food"] .category-card__select input')
+        food.check()
+        start = page.get_by_test_id("local-start")
+        start.click()
+
+        handoff = page.get_by_test_id("local-handoff")
+        show = page.get_by_test_id("local-show-private")
+        private_content = page.get_by_test_id("local-private-content")
+        cancel = page.get_by_test_id("local-cancel-round")
+        dialog = page.get_by_test_id("local-cancel-confirmation")
+        continue_round = dialog.get_by_role("button", name="Fortsätt omgången", exact=True)
+        confirm = dialog.get_by_role("button", name="Avbryt omgång", exact=True)
+
+        show.click()
+        page.get_by_test_id("local-hide-card").click()
+        expect(handoff.get_by_role("heading", level=1)).to_contain_text("Bo")
+        show.click()
+        value = private_content.locator(".local-card-value").inner_text()
+        expect(cancel).to_have_accessible_name("Avbryt omgång")
+        cancel.click()
+        expect(dialog).to_have_accessible_name("Vill ni avbryta omgången?")
+        expect(continue_round).to_be_focused()
+        expect(confirm).to_be_visible()
+        expect(private_content).to_have_count(0)
+
+        continue_round.click()
+        expect(dialog).not_to_be_visible()
+        expect(handoff.get_by_role("heading", level=1)).to_contain_text("Bo")
+        expect(private_content).to_have_count(0)
+        show.click()
+        expect(private_content.locator(".local-card-value")).to_have_text(value)
+
+        cancel.click()
+        expect(dialog).to_be_visible()
+        page.keyboard.press("Escape")
+        expect(dialog).not_to_be_visible()
+        expect(handoff.get_by_role("heading", level=1)).to_contain_text("Bo")
+        expect(private_content).to_have_count(0)
+        expect(show).to_be_visible()
+
+        cancel.click()
+        confirm.click()
+        expect(start).to_be_enabled()
+        expect(handoff).to_have_count(0)
+        expect(dialog).to_have_count(0)
+        expect(page.get_by_test_id("local-result")).to_have_count(0)
+        expect(mode).to_have_value("undercover")
+        expect(food).to_be_checked()
+        expect(page.locator(".local-player-name")).to_have_text(names)
+        start.click()
+        expect(handoff.get_by_role("heading", level=1)).to_contain_text("Alex")
+        expect(private_content).to_have_count(0)
+
+
+def test_cancel_round_while_group_is_playing(app_url, chromium):
+    browser, mobile = chromium
+    expect = playwright_api.expect
+    with browser.new_context(base_url=app_url, **mobile) as context:
+        page = context.new_page()
+        page.goto(app_url)
+        names = ["Alex", "Bo", "Cia"]
+        add_players(page, names)
+        start = page.get_by_test_id("local-start")
+        start.click()
+        _, reveal = read_private_cards(page, names)
+        starter = page.get_by_test_id("local-first-clue-giver")
+        starter_name = starter.inner_text()
+        cancel = page.get_by_test_id("local-cancel-round")
+        dialog = page.get_by_test_id("local-cancel-confirmation")
+
+        cancel.click()
+        dialog.get_by_role("button", name="Fortsätt omgången", exact=True).click()
+        expect(dialog).not_to_be_visible()
+        expect(starter).to_have_text(starter_name)
+        expect(reveal).to_be_visible()
+
+        cancel.click()
+        dialog.get_by_role("button", name="Avbryt omgång", exact=True).click()
+        expect(start).to_be_enabled()
+        expect(page.locator(".local-player-name")).to_have_text(names)
+        expect(reveal).to_have_count(0)
+        expect(page.get_by_test_id("local-result")).to_have_count(0)
+
+
+def test_private_handoff_updates_the_focused_button_description(app_url, chromium):
+    browser, mobile = chromium
+    expect = playwright_api.expect
+    with browser.new_context(base_url=app_url, **mobile) as context:
+        page = context.new_page()
+        page.goto(app_url)
+        names = ["Alva", "Alex", "Cia", "Dante", "Elin", "Felix"]
+        add_players(page, names)
+        page.get_by_test_id("local-start").click()
+
+        show = page.get_by_role("button", name="Visa mitt rollkort", exact=True)
+        private_content = page.get_by_test_id("local-private-content")
+        expect(show).to_be_focused()
+        expect(show).to_have_accessible_description("Alva, spelare 1 av 6")
+        expect(private_content).to_have_count(0)
+        show.click()
+        expect(private_content).to_be_visible()
+        page.get_by_test_id("local-hide-card").click()
+        expect(show).to_be_focused()
+        expect(show).to_have_accessible_description("Alex, spelare 2 av 6")
+        expect(private_content).to_have_count(0)
 
 
 @pytest.mark.parametrize("mode", ["classic", "blind"])
@@ -541,7 +776,8 @@ def test_random_automatic_bounds_track_roster_and_reject_reversed_interval(app_u
         maximum.fill("2")
         start = page.get_by_test_id("local-start")
         expect(start).to_be_disabled()
-        expect(page.get_by_text(translations["settings.issue.invalid_random_range"], exact=True)).to_be_visible()
+        issue = page.locator(".settings-editor").get_by_text(translations["settings.issue.invalid_random_range"], exact=True)
+        expect(issue).to_be_visible()
         minimum.fill("")
         maximum.fill("")
         expect(start).to_be_enabled()
@@ -567,7 +803,7 @@ def test_chaos_mode_uses_only_the_saved_mode_selection(app_url, chromium):
         blind = page.locator(f'{choices}[value="blind"]')
         checked = page.locator(f"{choices}:checked")
         start = page.get_by_test_id("local-start")
-        empty_issue = page.get_by_text(translations["settings.issue.chaos_empty"], exact=True)
+        empty_issue = page.locator(".settings-editor").get_by_text(translations["settings.issue.chaos_empty"], exact=True)
 
         mode.select_option("chaos")
         available = page.locator(choices).evaluate_all("inputs => inputs.map(input => input.value)")
@@ -593,7 +829,7 @@ def test_chaos_mode_uses_only_the_saved_mode_selection(app_url, chromium):
         expect(start).to_be_enabled()
         joker.click()
         expect(start).to_be_disabled()
-        expect(page.get_by_text("Imposter + Joker · 5–20 spelare krävs för det här läget.")).to_be_visible()
+        expect(page.locator(".settings-editor").get_by_text("Imposter + Joker · 5–20 spelare krävs för det här läget.")).to_be_visible()
         joker.click()
         expect(start).to_be_enabled()
         page.reload()

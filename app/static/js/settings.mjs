@@ -443,20 +443,18 @@ export function mountSettings(ctx, {
         renderCategories();
     }
 
-    function formatIssue(issue) {
+    function formatIssue(issue, showMode = false) {
         const mode = issue.mode;
         const min = Math.max(3, rules?.modes[mode]?.min ?? 0);
         const max = rules?.playerMax ?? 20;
         const key = `settings.issue.${issue.code}`;
         const translated = t(key, { min, max });
-        return translated === key ? t("settings.issue.invalid_settings") : translated;
+        const message = translated === key ? t("settings.issue.invalid_settings") : translated;
+        return showMode && isProfileIssue(issue) ? `${modeName(mode)} · ${message}` : message;
     }
 
     function renderIssues(list, issues, showMode = false) {
-        list.replaceChildren(...issues.map((issue) => {
-            const message = formatIssue(issue);
-            return el("li", {}, showMode && isProfileIssue(issue) ? `${modeName(issue.mode)} · ${message}` : message);
-        }));
+        list.replaceChildren(...issues.map((issue) => el("li", {}, formatIssue(issue, showMode))));
         list.hidden = issues.length === 0;
     }
 
@@ -575,6 +573,7 @@ export function mountSettings(ctx, {
     return {
         getSettings,
         getSelection: () => selection,
+        formatIssue,
         setPlayerCount(count) {
             if (playerCount === count) return;
             playerCount = count;
