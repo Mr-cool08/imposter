@@ -597,6 +597,10 @@ def test_javascript_table_play_reveals_only_after_physical_play():
         assert result["selectedMode"] == mode and result["mode"] == played_mode
         assert result["wordId"] == word and result["pairedWordId"] == paired and result["reused"] is reused
         assert Counter(result["roles"].values()) == roles
+        assert result["cardContents"] == {
+            player_id: {key: view["card"][key] for key in ("word", "hint")}
+            for player_id, view in frames[0]["private"].items()
+        }
         assert result["votes"] == {} and result["points"] == {} and result["winners"] == []
         assert all(result[field] is None for field in ("winnerTeam", "voteWinner", "eliminated", "protected", "guess"))
 

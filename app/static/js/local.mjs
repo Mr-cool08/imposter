@@ -261,12 +261,17 @@ export function mountLocal(ctx) {
         if (categoryText) words.append(el("dt", {}, t("local.result.category")), el("dd", {}, categoryText));
         words.append(el("dt", {}, t("local.result.mode")), el("dd", {}, ctx.modeName(result.mode)));
 
-        const rows = state.players.map(({ id, name }) => el("tr", {},
-            el("th", { scope: "row" }, name), el("td", {}, ctx.roleName(result.roles[id]))));
+        const rows = state.players.map(({ id, name }) => {
+            const { word, hint } = result.cardContents[id];
+            const value = word ?? (hint ? t("local.result.hint", { hint }) : t("local.result.empty"));
+            return el("tr", {}, el("th", { scope: "row" }, name), el("td", {}, ctx.roleName(result.roles[id])),
+                el("td", { lang: settings.language }, value));
+        });
         const roles = el("table", { class: "local-result-table" },
             el("thead", {}, el("tr", {},
                 el("th", { scope: "col" }, t("local.result.column.participant")),
-                el("th", { scope: "col" }, t("local.result.column.role")))),
+                el("th", { scope: "col" }, t("local.result.column.role")),
+                el("th", { scope: "col" }, t("local.result.column.card")))),
             el("tbody", {}, rows));
 
         const replayError = el("p", { class: "error", "aria-live": "polite" });

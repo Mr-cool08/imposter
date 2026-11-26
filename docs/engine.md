@@ -6,7 +6,7 @@ Imposter Party spelas på en gemensam mobil. JavaScriptmodulen `app/static/js/en
 
 1. Välj spelare och inställningar. Lägg till `freePlay: true`, validera med `profileIssues(settings, playerCount, words, pairs, rules)` och starta med `createRound(players, settings, words, pairs, rules, {used, flow: "table"})`.
 2. Lämna mobilen till en spelare i taget. Vyn hämtar spelarens kort med `privateState(id).card` vid ett aktivt tryck och döljer det före `act(id, "ack_role")`. Efter sista kortet går omgången från `roles` till `playing`.
-3. Gruppen spelar runt bordet och väljer själv ordning, diskussion och när spelet är slut. Knappen för avslöjande anropar `act(id, "reveal_roles")`. Därefter visar `publicState().result` rollerna, huvudord och eventuellt parord samt läget som drogs i Chaos.
+3. Gruppen spelar runt bordet och väljer själv ordning, diskussion och när spelet är slut. Knappen för avslöjande anropar `act(id, "reveal_roles")`. Därefter visar `publicState().result` rollerna, huvudord och eventuellt parord samt läget som drogs i Chaos. `result.cardContents` innehåller ett objekt med `word` och `hint` per spelar-ID. Värdena motsvarar spelarens privata kort.
 
 `reveal_roles` fungerar först i `playing`. Mellan korten och avslöjandet har `privateState(id).card` värdet `null` och `publicState().result` värdet `null`. Resultatet har samma allmänna form som nedan med `reason: "roles_revealed"`, `winners: []`, `votes: {}`, `points: {}` och `null` för `winnerTeam`, `voteWinner`, `eliminated`, `protected` och `guess`. Spara ord-ID för att undvika upprepning i nästa omgång.
 

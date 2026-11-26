@@ -139,10 +139,13 @@
   "local.result.settings": "Ändra spelinställningar",
   "local.result.column.participant": "Spelare",
   "local.result.column.role": "Roll",
+  "local.result.column.card": "Ord eller ledtråd",
+  "local.result.hint": "Ledtråd – {hint}",
+  "local.result.empty": "Inget ord eller ledtråd",
   "local.error.start": "Omgången kunde inte starta. Kontrollera spelarna, inställningarna och ordpaketen.",
   "local.error.action": "Det gick inte att gå vidare. Försök igen.",
   "local.playing.title": "Omgången pågår",
   "local.playing.prompt": "Spela tillsammans och visa rollerna när ni vill avsluta omgången.",
   "local.playing.show": "Visa roller",
-  "local.result.roles": "Roller"
+  "local.result.roles": "Roller och ord"
 }

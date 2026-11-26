@@ -675,8 +675,12 @@ class Round {
   }
 
   #revealTable() {
+    const cardContents = Object.fromEntries(Array.from(this.#round.roles.assignments, ([playerId, role]) => {
+      const { word, hint } = this.#card(playerId, role);
+      return [playerId, { word, hint }];
+    }));
     this.#result = {
-      ...this.#revealDetails(), votes: {}, voteWinner: null, eliminated: null, protected: null,
+      ...this.#revealDetails(), cardContents, votes: {}, voteWinner: null, eliminated: null, protected: null,
       winners: [], winnerTeam: null, reason: "roles_revealed", guess: null, points: {},
     };
     this.#finish("reveal");

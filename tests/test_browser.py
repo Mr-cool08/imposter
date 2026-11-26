@@ -305,7 +305,15 @@ def read_private_cards(page, names, *, check_privacy=False):
     return cards, reveal
 
 
-def test_mobile_local_game_after_reload(app_url, chromium):
+def expect_player_result(result, name, role, value):
+    player = result.page.get_by_role("rowheader", name=name, exact=True)
+    row = result.get_by_role("row").filter(has=player)
+    playwright_api.expect(row).to_be_visible()
+    playwright_api.expect(row.get_by_role("cell")).to_have_text([role, value])
+
+
+@pytest.mark.parametrize("mode", ["classic", "blind"])
+def test_mobile_local_game_after_reload(app_url, chromium, mode):
     browser, mobile = chromium
     context = browser.new_context(base_url=app_url, **mobile)
     page = context.new_page()
@@ -316,6 +324,7 @@ def test_mobile_local_game_after_reload(app_url, chromium):
         start = page.get_by_test_id("local-start")
         expect(start).to_be_disabled()
         add_players(page, names)
+        page.locator('select[name="mode"]').select_option(mode)
         page.get_by_role("button", name="Rensa kategorier", exact=True).click()
         food = page.locator('[data-category="food"] .category-card__select input')
         food.check()
@@ -341,8 +350,11 @@ def test_mobile_local_game_after_reload(app_url, chromium):
         reveal.click()
         expect(result).to_be_visible()
         expect(result.get_by_text(word, exact=True).first).to_be_visible()
-        for name, role, _ in cards:
-            expect(result.get_by_role("row", name=f"{name} {role}", exact=True)).to_be_visible()
+        expect(result.get_by_role("columnheader", name="Ord eller ledtråd", exact=True)).to_be_visible()
+        for name, role, value in cards:
+            if role == "Imposter":
+                value = f"Ledtråd – {value}" if mode == "classic" else "Inget ord eller ledtråd"
+            expect_player_result(result, name, role, value)
         expect(page.get_by_test_id("local-next-round")).to_be_enabled()
         expect_no_app_managed_round(page)
         expect_no_horizontal_scroll(page)
@@ -363,11 +375,15 @@ def test_undercover_uses_indistinguishable_cards_and_reveals_both_words(app_url,
         page.get_by_test_id("local-start").click()
         cards, reveal = read_private_cards(page, names)
         assert len({title for _, title, _ in cards}) == 1
-        assert sorted(Counter(value for _, _, value in cards).values()) == [1, 2]
+        word_counts = Counter(value for _, _, value in cards)
+        assert sorted(word_counts.values()) == [1, 2]
         reveal.click()
         result = page.get_by_test_id("local-result")
         expect(result).to_be_visible()
-        assert set(result.locator(".local-card-value").all_text_contents()) == {word for _, _, word in cards}
+        assert set(result.locator(".local-card-value").all_text_contents()) == set(word_counts)
+        for name, _, word in cards:
+            role = "Undercover" if word_counts[word] == 1 else "Civil"
+            expect_player_result(result, name, role, word)
         expect_no_app_managed_round(page)
     finally:
         context.close()
@@ -416,8 +432,10 @@ def test_random_fixed_counts_reveal_resolved_mode(app_url, chromium, actual_mode
         expect(mode_label.locator("xpath=following-sibling::dd[1]")).to_have_text(
             translations[f"ui.mode.{actual_mode}"]
         )
-        for name, title, _ in cards:
-            expect(result.get_by_role("row", name=f"{name} {title}", exact=True)).to_be_visible()
+        for name, title, value in cards:
+            if title == imposter:
+                value = f"Ledtråd – {value}"
+            expect_player_result(result, name, title, value)
     finally:
         context.close()
 
