@@ -403,6 +403,7 @@ th { color: var(--muted); font-size: .88rem; }
 .category-card__details { padding-inline: .58rem; border-top: 1px solid var(--hairline); }
 .category-card__details[open] { padding-bottom: .38rem; }
 .category-card__details > .stack { gap: .1rem; }
+.chaos-modes { gap: 0 1rem; }
 .chaos-profile { padding: .6rem .7rem; }
 .settings-counts { padding: .58rem .75rem; border-radius: .63rem; background: var(--subtle); }
 .settings-counts .button { margin-inline-start: .4rem; }

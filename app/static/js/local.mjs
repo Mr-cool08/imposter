@@ -1,5 +1,5 @@
 import { createRound } from "./engine.mjs";
-import { DEFAULT_SETTINGS, mountSettings } from "./settings.mjs";
+import { DEFAULT_SETTINGS, getRoundSettings, mountSettings } from "./settings.mjs";
 
 const usedWords = [];
 const maxPlayers = 20;
@@ -178,7 +178,7 @@ export function mountLocal(ctx) {
         try {
             const rules = await ctx.rules();
             if (signal.aborted) return;
-            round = createRound(roster, selected, selection.words, selection.pairs, rules, { used: usedWords, flow: "table" });
+            round = createRound(roster, getRoundSettings(selected), selection.words, selection.pairs, rules, { used: usedWords, flow: "table" });
         } catch {
             if (!signal.aborted) sourceError.textContent = t("local.error.start");
             return;

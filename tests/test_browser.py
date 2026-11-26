@@ -548,3 +548,100 @@ def test_random_automatic_bounds_track_roster_and_reject_reversed_interval(app_u
     finally:
         context.close()
 
+
+def test_chaos_mode_uses_only_the_saved_mode_selection(app_url, chromium):
+    browser, mobile = chromium
+    names = ["Alva", "Bill", "Cia"]
+    expect = playwright_api.expect
+    with browser.new_context(base_url=app_url, **mobile) as context:
+        page = context.new_page()
+        page.goto(app_url)
+        translations = page.request.get("/api/i18n/sv.json").json()
+        add_players(page, names)
+
+        mode = page.locator('select[name="mode"]')
+        choices = 'input[name="chaos_mode"]'
+        classic = page.locator(f'{choices}[value="classic"]')
+        random = page.locator(f'{choices}[value="random"]')
+        joker = page.locator(f'{choices}[value="joker"]')
+        blind = page.locator(f'{choices}[value="blind"]')
+        checked = page.locator(f"{choices}:checked")
+        start = page.get_by_test_id("local-start")
+        empty_issue = page.get_by_text(translations["settings.issue.chaos_empty"], exact=True)
+
+        mode.select_option("chaos")
+        available = page.locator(choices).evaluate_all("inputs => inputs.map(input => input.value)")
+        assert set(available) == {"classic", "random", "joker", "undercover", "alliance", "blind"}
+        expect(classic).to_be_checked()
+        expect(random).to_be_checked()
+        expect(checked).to_have_count(2)
+        classic.click()
+        random.click()
+        expect(start).to_be_disabled()
+        expect(empty_issue).to_be_visible()
+
+        mode.select_option("classic")
+        expect(classic).not_to_be_visible()
+        page.reload()
+        expect(start).to_be_enabled()
+        mode.select_option("chaos")
+        expect(blind).to_be_visible()
+        expect(checked).to_have_count(0)
+        expect(empty_issue).to_be_visible()
+
+        blind.click()
+        expect(start).to_be_enabled()
+        joker.click()
+        expect(start).to_be_disabled()
+        expect(page.get_by_text("Imposter + Joker · 5–20 spelare krävs för det här läget.")).to_be_visible()
+        joker.click()
+        expect(start).to_be_enabled()
+        page.reload()
+        expect(mode).to_have_value("chaos")
+        expect(blind).to_be_checked()
+        expect(checked).to_have_count(1)
+        expect_no_horizontal_scroll(page)
+        start.click()
+
+        _, reveal = read_private_cards(page, names)
+        result = confirm_reveal(page, reveal)
+        mode_label = result.get_by_text(translations["local.result.mode"], exact=True)
+        expect(mode_label.locator("xpath=following-sibling::dd[1]")).to_have_text(translations["ui.mode.blind"])
+
+
+def test_chaos_mode_retains_custom_profile_settings_when_toggled(app_url, chromium):
+    browser, _ = chromium
+    expect = playwright_api.expect
+    profiles = [
+        {"mode": "classic", "weight": 1},
+        {"mode": "random", "weight": 3, "randomMin": 1, "randomMax": 1},
+    ]
+    saved_state = {
+        "cookies": [],
+        "origins": [{
+            "origin": app_url,
+            "localStorage": [{
+                "name": "imposter:localSettings",
+                "value": json.dumps({"mode": "chaos", "chaos": profiles}),
+            }],
+        }],
+    }
+    with browser.new_context(base_url=app_url, storage_state=saved_state) as context:
+        page = context.new_page()
+        page.goto(app_url)
+        add_players(page, ["Alva", "Bill", "Cia"])
+        random = page.locator('input[name="chaos_mode"][value="random"]')
+        expect(random).to_be_checked()
+        random.click()
+        page.reload()
+        expect(random).not_to_be_checked()
+        random.click()
+        expect(random).to_be_checked()
+
+        page.get_by_text("Vikter och profiler", exact=True).click()
+        random_range = page.locator("[data-random-range]")
+        expect(random_range.locator('input[name="randomMin"]')).to_have_value("1")
+        expect(random_range.locator('input[name="randomMax"]')).to_have_value("1")
+        profile = random_range.locator("xpath=ancestor::fieldset[1]")
+        expect(profile.locator('input[name="weight"]')).to_have_value("3")
+

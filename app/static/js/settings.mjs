@@ -2,7 +2,8 @@ import { loadContent, loadManifest } from "./content.mjs";
 import { profileIssues } from "./engine.mjs";
 import { getCustomContent } from "./extras.mjs";
 
-const modes = ["classic", "random", "joker", "undercover", "alliance", "blind", "chaos"];
+const chaosModes = ["classic", "random", "joker", "undercover", "alliance", "blind"];
+const modes = [...chaosModes, "chaos"];
 const retiredRandomModes = ["none", "reverse", "all"];
 const extraRoles = ["spy", "accomplice", "double_agent"];
 const levels = ["familiar", "intermediate", "expert"];
@@ -25,7 +26,14 @@ export const DEFAULT_SETTINGS = Object.freeze({
     subcategories: Object.freeze([]),
     levels: Object.freeze(["familiar"]),
     chaos: Object.freeze([]),
+    disabledChaosModes: Object.freeze([]),
 });
+
+export function getRoundSettings(settings) {
+    if (settings.mode !== "chaos") return settings;
+    const chaos = settings.chaos.filter((profile) => !settings.disabledChaosModes.includes(profile.mode));
+    return { ...settings, chaos };
+}
 
 const profileDefaults = { joker: false, extraRole: null, randomMin: null, randomMax: null };
 
@@ -83,6 +91,7 @@ function readSettings(settings, count) {
             ...readModifiers(profile, count, mode === "chaos" ? modifiers : profileDefaults),
             weight: profile.weight,
         })),
+        disabledChaosModes: chosenIds(settings.disabledChaosModes, []).filter((id) => chaosModes.includes(id)),
     };
     if (Array.isArray(settings.categories)) {
         value.categories = chosenIds(settings.categories);
@@ -131,9 +140,16 @@ export function mountSettings(ctx, {
     const advanced = el("details", { class: "settings-advanced" },
         el("summary", {}, t("settings.advanced")), modeAdvanced);
     const pool = el("section", { class: "chaos-pool stack", "aria-label": t("settings.chaos_pool") });
+    const chaosChoices = el("div", { class: "settings-grid chaos-modes" });
+    const chaosIssues = el("ul", { class: "settings-issues error", "aria-live": "polite" });
+    const profileForms = el("div", { class: "stack" });
+    const addProfile = button(t("settings.add_profile"), addChaosProfile, { variant: "secondary", "data-action": "add-profile" });
+    const chaosDetails = el("details", { class: "settings-advanced", onToggle: renderChaosIssues },
+        el("summary", {}, t("settings.chaos_profiles")),
+        el("div", { class: "stack" }, el("p", { class: "muted" }, t("settings.chaos_help")), profileForms, addProfile));
     const buttonAttrs = { variant: "ghost" };
     let value = readSettings(settings === DEFAULT_SETTINGS ? {} : settings, playerCount);
-    let chaosInitialized = value.mode === "chaos" || value.chaos.length > 0;
+    let chaosInitialized = value.mode === "chaos" || value.chaos.length > 0 || value.disabledChaosModes.length > 0;
     let selection = { words: [], pairs: [], categories: [], issues: [], loading: true, error: null };
     let revision = 0;
     let manifest;
@@ -142,7 +158,7 @@ export function mountSettings(ctx, {
     let rulesTask;
     let categories = [];
     const categoryDetails = new Map();
-    const profileErrorLists = [];
+    const profileErrorLists = new Map();
     const selectedCustom = getCustomContent();
 
     function label(text, input) {
@@ -172,11 +188,12 @@ export function mountSettings(ctx, {
     }
 
     function updateModeOptions() {
-        for (const input of root.querySelectorAll('select[name="mode"], select[name="profile_mode"]')) {
-            const selected = input.value;
-            const options = modeOptions(input.name === "mode" ? modes : modes.slice(0, -1));
-            for (const [index, option] of Array.from(input.options).entries()) option.textContent = options[index][1];
-            input.value = selected;
+        const names = new Map(modeOptions());
+        for (const option of editor.querySelectorAll('select[name="mode"] option, select[name="profile_mode"] option')) {
+            option.textContent = names.get(option.value);
+        }
+        for (const input of chaosChoices.querySelectorAll('input[name="chaos_mode"]')) {
+            input.nextSibling.textContent = names.get(input.value);
         }
     }
 
@@ -196,10 +213,6 @@ export function mountSettings(ctx, {
 
     function changeField(key, next, options) {
         handleChange(editSettings(value, { [key]: next }), options);
-    }
-
-    function validProfile(profile) {
-        return profile && modes.includes(profile.mode) && profile.mode !== "chaos";
     }
 
     function selectMode(mode) {
@@ -293,51 +306,72 @@ export function mountSettings(ctx, {
 
     function patchProfile(index, patch, rerender = false) {
         const chaos = value.chaos.map((profile, i) => i === index ? editSettings(profile, patch) : profile);
-        handleChange({ ...value, chaos }, { poolChanged: rerender });
-        if (rerender) pool.querySelectorAll('select[name="profile_mode"]')[index]?.focus();
+        const disabledChaosModes = value.disabledChaosModes.filter((id) => id !== patch.mode);
+        handleChange({ ...value, chaos, disabledChaosModes }, { poolChanged: rerender });
+        if (rerender) profileForms.querySelector(`[data-profile-index="${index}"] select`)?.focus();
+    }
+
+    function changeChaosMode(mode, checked) {
+        const chaos = checked && !value.chaos.some((profile) => profile.mode === mode)
+            ? [...value.chaos, newProfile(mode)] : value.chaos;
+        const disabledChaosModes = checked
+            ? value.disabledChaosModes.filter((id) => id !== mode) : [...value.disabledChaosModes, mode];
+        handleChange({ ...value, chaos, disabledChaosModes }, { poolChanged: true });
+    }
+
+    function addChaosProfile() {
+        const activeProfiles = getRoundSettings(value).chaos;
+        const mode = chaosModes.find((id) => !value.chaos.some((profile) => profile.mode === id))
+            ?? chaosModes.find((id) => activeProfiles.some((profile) => profile.mode === id))
+            ?? "classic";
+        const disabledChaosModes = value.disabledChaosModes.filter((id) => id !== mode);
+        handleChange({ ...value, chaos: [...value.chaos, newProfile(mode)], disabledChaosModes }, { poolChanged: true });
+        profileForms.querySelector('fieldset:last-of-type select')?.focus();
     }
 
     function renderPool() {
-        pool.replaceChildren();
-        profileErrorLists.length = 0;
+        profileForms.replaceChildren();
+        profileErrorLists.clear();
         pool.hidden = value.mode !== "chaos";
         if (pool.hidden) return;
-        pool.append(el("h3", {}, t("settings.chaos_pool")), el("p", { class: "muted" }, t("settings.chaos_help")));
-        const allowed = modes.slice(0, -1);
+        const included = new Set(getRoundSettings(value).chaos.map((profile) => profile.mode));
+        for (const input of chaosChoices.querySelectorAll('input[name="chaos_mode"]')) {
+            input.checked = included.has(input.value);
+        }
         value.chaos.forEach((profile, index) => {
-            const identity = t("settings.profile", { count: index + 1 });
+            if (!included.has(profile.mode)) return;
+            const position = profileErrorLists.size;
+            const identity = t("settings.profile", { count: position + 1 });
             const labelText = `${identity} · ${modeName(profile.mode)}`;
             const remove = button(t("settings.remove_profile"), () => {
-                changeField("chaos", value.chaos.filter((_, i) => i !== index), { poolChanged: true });
-                pool.querySelectorAll('select[name="profile_mode"]')[Math.min(index, value.chaos.length - 1)]?.focus();
-                if (!value.chaos.length) pool.querySelector('[data-action="add-profile"]').focus();
+                const chaos = value.chaos.filter((_, i) => i !== index);
+                const disabledChaosModes = !chaos.some(({ mode }) => mode === profile.mode) && chaosModes.includes(profile.mode)
+                    ? [...value.disabledChaosModes, profile.mode] : value.disabledChaosModes;
+                handleChange({ ...value, chaos, disabledChaosModes }, { poolChanged: true });
+                const inputs = profileForms.querySelectorAll('select[name="profile_mode"]');
+                (inputs[Math.min(position, inputs.length - 1)] ?? addProfile).focus();
             }, { ...buttonAttrs, "aria-label": t("settings.remove_named_profile", { name: labelText }) });
             const heading = el("legend", {}, identity);
-            const form = el("fieldset", { class: "chaos-profile panel panel--subtle stack" }, heading,
+            const form = el("fieldset", { class: "chaos-profile panel panel--subtle stack", "data-profile-index": index }, heading,
                 el("div", { class: "settings-grid" },
-                    select("profile_mode", profile.mode, modeOptions(allowed), (mode) => patchProfile(index, { mode }, true)),
+                    select("profile_mode", profile.mode, modeOptions(chaosModes), (mode) => patchProfile(index, { mode }, true)),
                     numberField("weight", profile.weight, (weight) => patchProfile(index, { weight }), { min: 0, step: "any" })),
                 el("p", { class: "muted" }, t(`settings.mode_description.${profile.mode}`)),
             );
             if (profile.mode === "random") {
                 form.append(randomRange(profile, (key, number) => patchProfile(index, { [key]: number }), index));
             }
-            if (validProfile(profile)) {
+            if (chaosModes.includes(profile.mode)) {
                 const controls = modifiers(profile, profile.mode, (key, item) => patchProfile(index, { [key]: item }));
                 if (controls) {
                     form.append(el("details", { class: "settings-advanced" }, el("summary", {}, t("settings.profile_options")), controls));
                 }
             }
             const profileIssuesList = el("ul", { class: "settings-issues error", "aria-live": "polite" });
-            profileErrorLists.push(profileIssuesList);
+            profileErrorLists.set(index, profileIssuesList);
             form.append(profileIssuesList, remove);
-            pool.append(form);
+            profileForms.append(form);
         });
-        pool.append(button(t("settings.add_profile"), () => {
-            const mode = allowed.find((id) => !value.chaos.some((profile) => profile.mode === id)) ?? "classic";
-            changeField("chaos", [...value.chaos, newProfile(mode)], { poolChanged: true });
-            pool.querySelector('fieldset:last-of-type select')?.focus();
-        }, { variant: "secondary", "data-action": "add-profile" }));
     }
 
     function renderMode() {
@@ -418,9 +452,21 @@ export function mountSettings(ctx, {
         return translated === key ? t("settings.issue.invalid_settings") : translated;
     }
 
-    function renderIssues(list, issues) {
-        list.replaceChildren(...issues.map((issue) => el("li", {}, formatIssue(issue))));
+    function renderIssues(list, issues, showMode = false) {
+        list.replaceChildren(...issues.map((issue) => {
+            const message = formatIssue(issue);
+            return el("li", {}, showMode && isProfileIssue(issue) ? `${modeName(issue.mode)} · ${message}` : message);
+        }));
         list.hidden = issues.length === 0;
+    }
+
+    function isProfileIssue({ mode }) {
+        return mode !== "chaos" && mode !== null;
+    }
+
+    function renderChaosIssues() {
+        const issues = chaosDetails.open ? selection.issues.filter((issue) => !isProfileIssue(issue)) : selection.issues;
+        renderIssues(chaosIssues, value.mode === "chaos" ? issues : [], true);
     }
 
     function renderStatus() {
@@ -428,13 +474,12 @@ export function mountSettings(ctx, {
         if (selection.loading) counts.append(t("settings.loading"));
         else if (selection.error) counts.append(selection.error, button(t("settings.retry"), () => void refreshSelection(), buttonAttrs));
         else counts.append(t("settings.counts", { words: scope.format(selection.words.length), pairs: scope.format(selection.pairs.length) }));
-        renderIssues(issuesList, value.mode === "chaos"
-            ? selection.issues.filter(({ mode }) => mode === "chaos" || mode === null)
-            : selection.issues);
+        renderIssues(issuesList, value.mode === "chaos" ? [] : selection.issues);
+        renderChaosIssues();
         for (const [index, list] of profileErrorLists.entries()) {
             const issues = selection.loading || selection.error || !rules ? [] : profileIssues(
                 { ...value, chaos: [value.chaos[index]] }, playerCount, selection.words, selection.pairs, rules,
-            ).filter(({ mode }) => mode !== "chaos" && mode !== null);
+            ).filter(isProfileIssue);
             renderIssues(list, issues);
         }
     }
@@ -447,7 +492,7 @@ export function mountSettings(ctx, {
 
     function validateSelection() {
         if (!selection.loading && !selection.error && rules) {
-            publish({ ...selection, issues: profileIssues(value, playerCount, selection.words, selection.pairs, rules) });
+            publish({ ...selection, issues: profileIssues(getRoundSettings(value), playerCount, selection.words, selection.pairs, rules) });
         }
     }
 
@@ -487,7 +532,7 @@ export function mountSettings(ctx, {
                 getRules(),
             ]);
             if (request !== revision || controller.signal.aborted) return;
-            const validation = profileIssues(value, playerCount, content.words, content.pairs, ruleData);
+            const validation = profileIssues(getRoundSettings(value), playerCount, content.words, content.pairs, ruleData);
             publish({ ...content, categories, loading: false, error: null, issues: validation });
         } catch {
             if (request !== revision || controller.signal.aborted) return;
@@ -500,6 +545,14 @@ export function mountSettings(ctx, {
         el("div", { class: "settings-mode stack" }, modeInput, modeDescription),
         select("hint", value.hint, ["easy", "normal", "hard"].map((id) => [id, t(`settings.hint.${id}`)]),
             (id) => changeField("hint", id, { filtering: true })));
+    for (const [mode, name] of modeOptions(chaosModes)) {
+        const choice = checkbox(name, false, (checked) => changeChaosMode(mode, checked));
+        const input = choice.querySelector("input");
+        input.name = "chaos_mode";
+        input.value = mode;
+        chaosChoices.append(choice);
+    }
+    pool.append(el("fieldset", { class: "stack" }, el("legend", {}, t("settings.chaos_pool")), chaosChoices, chaosIssues), chaosDetails);
     catalog.append(el("header", { class: "split settings-catalog__header" }, el("h2", {}, t("settings.categories")),
         el("div", { class: "cluster settings-catalog__tools" }, button(t("settings.all_categories"), () => setCategories(true), buttonAttrs),
             button(t("settings.clear_categories"), () => setCategories(false), buttonAttrs))),
